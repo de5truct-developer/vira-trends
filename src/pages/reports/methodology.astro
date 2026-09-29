@@ -48,8 +48,21 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
     topics without this bucketing for any example with a specific number attached.
   </p>
 
-  <h2>Update frequency</h2>
-  <p>Reports are recomputed daily from the latest data pulled by Vira's collector.</p>
+  <h2>Update frequency (TikTok)</h2>
+  <p>TikTok reports are recomputed daily from the latest data pulled by Vira's collector.</p>
+
+  <h2>YouTube reports</h2>
+  <p>
+    YouTube reports (e.g. <a href="/reports/youtube/food">Food channel growth</a>) use
+    <code>vira_analytics.channels_latest_mat</code>, a daily snapshot of public YouTube channel
+    statistics (subscribers, views) collected by Vira's own channel-tracking pipeline &mdash; not
+    TikTok Creative Center data. <strong>Growth %</strong> is subscribers gained in the last 30
+    days divided by the subscriber count 30 days earlier, shown only for channels with a complete
+    30-day history and at least 50,000 current subscribers, to exclude brand-new channels with no
+    real baseline. <strong>Topic</strong> is YouTube's own classification for the channel; channels
+    tagged with more than two topics are excluded to keep the niche match tight. Currently a manual
+    snapshot rather than a daily pipeline &mdash; see the report page for the data-as-of date.
+  </p>
 
   <h2>More</h2>
   <p>

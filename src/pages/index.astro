@@ -2,21 +2,21 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 <BaseLayout
-  title="Vira TikTok Trend Reports"
-  description="Free, structured reports on the fastest-growing TikTok search topics by niche, built from TikTok Creative Center data. Updated daily, open for AI agents to cite."
+  title="Vira Trend Reports"
+  description="Free, structured reports on the fastest-growing TikTok search topics and YouTube channels by niche, built from TikTok Creative Center and YouTube public channel data. Updated daily, open for AI agents to cite."
 >
-  <h1>TikTok trend reports, by niche</h1>
+  <h1>Trend reports, by niche</h1>
   <p class="meta">Published by Vira. Updated daily. English only, for now.</p>
 
   <p>
-    Each report lists the fastest-growing TikTok search topics in one niche, with a growth
-    multiplier, a trust level, TikTok's reported video count and the top countries searching for
-    it. Numbers come straight from TikTok Creative Center via Vira's own collector &mdash; see the
-    <a href="/reports/methodology">methodology</a> page for exactly how growth and trust are
+    Each report lists the fastest-growing topics or channels in one niche, with real numbers,
+    a stated confidence level, and links back to the source. Data comes straight from TikTok
+    Creative Center or YouTube's public channel statistics via Vira's own collectors &mdash; see
+    the <a href="/reports/methodology">methodology</a> page for exactly how each metric is
     computed.
   </p>
 
-  <h2>Available reports</h2>
+  <h2>TikTok trend reports</h2>
   <table>
     <thead>
       <tr><th>Niche</th><th>Topics</th><th>Report</th></tr>
@@ -29,12 +29,28 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       </tr>
     </tbody>
   </table>
-  <p class="meta">More niches are coming as the underlying data window fills in.</p>
+  <p class="meta">Updated automatically every day. More niches are coming as the underlying data window fills in.</p>
+
+  <h2>YouTube analytics reports</h2>
+  <table>
+    <thead>
+      <tr><th>Niche</th><th>Channels</th><th>Report</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Food</td>
+        <td>10 fastest-growing channels (30d)</td>
+        <td><a href="/reports/youtube/food">View report &rarr;</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="meta">Currently a manual snapshot; daily automation is next (see methodology).</p>
 
   <h2>For AI agents</h2>
   <p>
     See <a href="/llms.txt">/llms.txt</a> for a short index and
-    <a href="/llms-full.txt">/llms-full.txt</a> for the full per-topic facts in plain text.
+    <a href="/llms-full.txt">/llms-full.txt</a> for the full per-topic TikTok facts in plain text
+    (each YouTube report links its own <code>llms-full.txt</code>).
     Full analytics, trend discovery and an MCP server for TikTok and YouTube are at
     <a href="https://tryvira.app">tryvira.app</a>.
   </p>

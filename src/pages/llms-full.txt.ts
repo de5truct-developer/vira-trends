@@ -21,6 +21,8 @@ export const GET: APIRoute = () => {
   const body = `# Vira Trend Reports — llms-full.txt
 # Full per-topic facts backing https://trends.tryvira.app/reports/tiktok/gourmet
 # One source of truth: numbers here match the visible page and the JSON-LD Dataset on that page.
+# YouTube reports have their own llms-full.txt, e.g.
+# https://trends.tryvira.app/reports/youtube/food/llms-full.txt — see /llms.txt for the full index.
 
 report: TikTok Gourmet trends
 region: ${region}
