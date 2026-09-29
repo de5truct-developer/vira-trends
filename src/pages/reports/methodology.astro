@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+<BaseLayout
+  title="Methodology | Vira Trend Reports"
+  description="How Vira collects TikTok trend data and computes growth, trust and competition for its public trend reports."
+>
+  <h1>Methodology</h1>
+
+  <h2>Source</h2>
+  <p>
+    Data comes from TikTok Creative Center's Creative Search Insights, collected by a single
+    Vira-owned TikTok account. It is not TikTok's own public data export and is not affiliated
+    with or endorsed by TikTok.
+  </p>
+
+  <h2>Growth</h2>
+  <p>
+    Growth is a multiplier: the current search-demand level for a topic divided by its level at
+    the start of a 7&ndash;21 day window (<code>level_now / level_base</code>). A report only
+    shows a growth number when Vira's own <strong>trust</strong> signal for that number is
+    medium or high &mdash; low- and no-trust topics are left out of the ranking rather than shown
+    with a misleading number.
+  </p>
+
+  <h2>Trust levels</h2>
+  <ul>
+    <li><strong>high</strong> &mdash; a clean, topic-specific curve with a full growth window.</li>
+    <li><strong>med</strong> &mdash; usable, but the value is quantized, lagged, or the window is
+      only partially filled.</li>
+    <li><strong>low</strong> &mdash; based on a shared/generic curve, a coarse scale, a spike, or
+      a missing window; not used for the ranking.</li>
+    <li><strong>none</strong> &mdash; no usable time series yet; not published.</li>
+  </ul>
+
+  <h2>Competition (video count)</h2>
+  <p>
+    "Videos (reported)" is the video count TikTok itself reports for a topic. TikTok returns
+    <code>0</code> for some topics rather than an actual count &mdash; Vira shows this as
+    "not reported" instead of "0" so it isn't read as zero competition.
+  </p>
+
+  <h2>Why numbers aren't shown as an absolute search volume</h2>
+  <p>
+    TikTok occasionally reports the identical demand level for multiple, unrelated topics
+    (rounding/bucketing on TikTok's side, most visible on LLM-generated topic names). Reports on
+    this site avoid publishing that raw level as if it were an exact search volume, and prefer
+    topics without this bucketing for any example with a specific number attached.
+  </p>
+
+  <h2>Update frequency</h2>
+  <p>Reports are recomputed daily from the latest data pulled by Vira's collector.</p>
+
+  <h2>More</h2>
+  <p>
+    Full TikTok and YouTube analytics, trend discovery beyond these public reports, and an MCP
+    server for AI agents are at <a href="https://tryvira.app">tryvira.app</a>.
+  </p>
+</BaseLayout>

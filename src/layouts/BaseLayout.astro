@@ -1,0 +1,90 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  jsonLd?: Record<string, unknown>[];
+}
+
+const { title, description, jsonLd = [] } = Astro.props;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalUrl} />
+    <meta name="robots" content="index, follow" />
+    {jsonLd.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #1a1a1a;
+        --muted: #5f5f5f;
+        --border: #e2e2e2;
+        --bg: #fafafa;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        color: var(--ink);
+        background: #fff;
+        line-height: 1.55;
+      }
+      header, footer {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 1.5rem 1.5rem;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--border);
+      }
+      header a { color: var(--ink); text-decoration: none; font-weight: 600; }
+      nav a { color: var(--muted); text-decoration: none; margin-left: 1.25rem; font-size: 0.9rem; }
+      nav a:hover { color: var(--ink); }
+      main { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem 3rem; }
+      footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.85rem; }
+      h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+      h2 { font-size: 1.25rem; margin-top: 2.5rem; }
+      table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.92rem; }
+      th, td { text-align: left; padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--border); }
+      th { color: var(--muted); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.02em; }
+      code { background: var(--bg); padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+      .meta { color: var(--muted); font-size: 0.9rem; }
+      .callout {
+        background: var(--bg);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        padding: 1rem 1.25rem;
+        margin: 1.5rem 0;
+      }
+      a { color: #0a5fd6; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="/">Vira Trend Reports</a>
+      <nav>
+        <a href="/reports/tiktok/gourmet">Gourmet</a>
+        <a href="/reports/methodology">Methodology</a>
+        <a href="https://tryvira.app">Vira</a>
+      </nav>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      Data source: TikTok Creative Center, collected by Vira's own account via Creative Search
+      Insights (CSI). Not affiliated with TikTok. See
+      <a href="/reports/methodology">methodology</a> for how growth and trust are computed.
+    </footer>
+  </body>
+</html>

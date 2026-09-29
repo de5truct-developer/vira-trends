@@ -1,0 +1,120 @@
+---
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { gourmetReport } from "../../../data/gourmet-report";
+
+const { topics, computedAt, windowStart, windowEnd, updatedAt, methodologyNote, highlightTopic } =
+  gourmetReport;
+const top = topics[0];
+
+const faq = [
+  {
+    question: "What TikTok food topic is growing fastest this week?",
+    answer:
+      `"${top.topic}" (${top.subcategory}) grew about ${top.growthMultiplier}x in search demand ` +
+      `vs. its prior baseline. TikTok reports ${top.videoNum} videos on the topic, and the top ` +
+      `audience countries are ${top.topCountries.join(", ")}. Trust level: ${top.trust}. Data from ` +
+      `TikTok Creative Center via Vira, updated ${updatedAt}.`,
+  },
+  {
+    question: "What does \"trust\" mean in a Vira trend report?",
+    answer:
+      "Trust is how reliable the growth number is, based on how complete and consistent the " +
+      "underlying search curve is: high, medium, low or none. Vira only publishes a growth " +
+      "multiplier when trust is medium or high; low/none topics are left out of the ranking.",
+  },
+  {
+    question: "Why do some topics say \"not reported\" instead of a video count?",
+    answer:
+      "TikTok itself reports video_num=0 for some topics in Creative Center, which means TikTok " +
+      "did not report a count — not that there is zero competition. Vira shows this as " +
+      "\"not reported\" rather than 0 to avoid implying no competition.",
+  },
+];
+
+const datasetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: `TikTok Gourmet trends — week ending ${windowEnd}`,
+  description:
+    "Fastest-growing Gourmet (food) topics on TikTok, ranked by 7-21 day search demand growth, " +
+    "with trust level and reported video/creator counts.",
+  url: "https://trends.tryvira.app/reports/tiktok/gourmet",
+  dateModified: updatedAt,
+  temporalCoverage: `${windowStart}/${windowEnd}`,
+  creator: { "@type": "Organization", name: "Vira", url: "https://tryvira.app" },
+  license: "https://tryvira.app/terms",
+  variableMeasured: ["search demand growth multiplier", "reported video count", "top countries"],
+  distribution: {
+    "@type": "DataDownload",
+    encodingFormat: "text/plain",
+    contentUrl: "https://trends.tryvira.app/llms-full.txt",
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
+---
+<BaseLayout
+  title="TikTok Gourmet trends this week | Vira"
+  description={`10 fastest-growing Gourmet (food) topics on TikTok, week ending ${windowEnd}. Growth, trust level, reported video count and top countries for each.`}
+  jsonLd={[datasetJsonLd, faqJsonLd]}
+>
+  <h1>TikTok Gourmet trends</h1>
+  <p class="meta">
+    Region: global &middot; Growth window: {windowStart} to {windowEnd} &middot;
+    Data as of {computedAt} &middot; Page updated {updatedAt}
+  </p>
+
+  <p>{methodologyNote}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Topic</th>
+        <th>Subcategory</th>
+        <th>Growth</th>
+        <th>Trust</th>
+        <th>Videos (reported)</th>
+        <th>Top countries</th>
+      </tr>
+    </thead>
+    <tbody>
+      {topics.map((t) => (
+        <tr>
+          <td>{t.topic}</td>
+          <td>{t.subcategory}</td>
+          <td>&times;{t.growthMultiplier}</td>
+          <td>{t.trust}</td>
+          <td>{t.videoNum === null ? "not reported" : t.videoNum}</td>
+          <td>{t.topCountries.join(", ")}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="callout">
+    Top mover this week is <strong>{top.topic}</strong> ({top.subcategory}), up {top.growthMultiplier}x.
+    Its dominant audience is {highlightTopic.audience}.
+  </div>
+
+  <h2>Frequently asked</h2>
+  {faq.map((f) => (
+    <>
+      <h3>{f.question}</h3>
+      <p>{f.answer}</p>
+    </>
+  ))}
+
+  <h2>Data and methodology</h2>
+  <p>
+    Full source and quality notes: <a href="/reports/methodology">methodology</a>.
+    Machine-readable version of this table: <a href="/llms-full.txt">/llms-full.txt</a>.
+  </p>
+</BaseLayout>

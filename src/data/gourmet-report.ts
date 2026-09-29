@@ -1,0 +1,130 @@
+// Single source of truth for the Gourmet trends report.
+// Numbers are real, pulled from ClickHouse `csi.v_topic_metrics` on 2026-09-29
+// (region=global, growth_reason='ok', trust='high', quantized=0, coarse=0, shared_n=0).
+// Do not edit the numbers here without re-pulling from the source query — the same
+// object feeds the human-readable page, /llms-full.txt and the JSON-LD blocks, so a
+// change here changes all three at once (no drift between "visible" and "AI-facing" content).
+
+export interface TopicFact {
+  topic: string;
+  subcategory: string;
+  growthMultiplier: number;
+  trust: "high" | "med" | "low" | "none";
+  videoNum: number | null; // null = not reported by TikTok (video_num=0)
+  topCountries: string[];
+}
+
+export interface GourmetReport {
+  category: string;
+  region: string;
+  computedAt: string; // ISO, UTC
+  windowEnd: string; // date, growth window end
+  windowStart: string; // date, growth window start (21d)
+  updatedAt: string; // date, page "last updated"
+  topics: TopicFact[];
+  methodologyNote: string;
+  highlightTopic: {
+    topic: string;
+    audience: string; // dominant audience segment
+  };
+}
+
+export const gourmetReport: GourmetReport = {
+  category: "Gourmet",
+  region: "global",
+  computedAt: "2026-09-29T04:21:00Z",
+  windowStart: "2026-08-30",
+  windowEnd: "2026-09-20",
+  updatedAt: "2026-09-29",
+  topics: [
+    {
+      topic: "martins potato bun",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 1961,
+      trust: "high",
+      videoNum: 840,
+      topCountries: ["US", "GB", "PH", "ZA", "CA"],
+    },
+    {
+      topic: "ghana jollof tiktok",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 613,
+      trust: "high",
+      videoNum: 543,
+      topCountries: ["GH", "GB", "DE", "AE"],
+    },
+    {
+      topic: "what did los pollos do",
+      subcategory: "Other Gourmet",
+      growthMultiplier: 277,
+      trust: "high",
+      videoNum: 654,
+      topCountries: ["US", "PH", "GB", "CA", "AU"],
+    },
+    {
+      topic: "lunch im my city",
+      subcategory: "Offline Catering",
+      growthMultiplier: 237,
+      trust: "high",
+      videoNum: 475,
+      topCountries: ["US", "SE", "CA", "AU", "ZA"],
+    },
+    {
+      topic: "chocolate boulder",
+      subcategory: "Food FMCG",
+      growthMultiplier: 225,
+      trust: "high",
+      videoNum: 449,
+      topCountries: ["ID", "US", "BR", "MX", "MY"],
+    },
+    {
+      topic: "lacewing eggs",
+      subcategory: "Food Ingredients/Fresh Food",
+      growthMultiplier: 157,
+      trust: "high",
+      videoNum: 567,
+      topCountries: ["US", "CA", "AU", "PH", "ID"],
+    },
+    {
+      topic: "upside down glass drink trick",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 132,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "ZA", "PH"],
+    },
+    {
+      topic: "making mofongo (original video guy)",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 84,
+      trust: "high",
+      videoNum: 827,
+      topCountries: ["US", "PH", "CA", "AU", "ZA"],
+    },
+    {
+      topic: "pierrot burratino now",
+      subcategory: "Food FMCG",
+      growthMultiplier: 41,
+      trust: "high",
+      videoNum: 176,
+      topCountries: ["US", "PH", "GB", "DE", "FR"],
+    },
+    {
+      topic: "making mofongo luigi (original)",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 34,
+      trust: "high",
+      videoNum: 1176,
+      topCountries: ["US", "CA", "PH", "AU", "ZA"],
+    },
+  ],
+  methodologyNote:
+    "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. " +
+    "Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. " +
+    "Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a " +
+    "count for that topic, not zero competition. Updated daily.",
+  highlightTopic: {
+    topic: "martins potato bun",
+    audience: "women 18-24, United States (dominant segment, snapshot at collection date)",
+  },
+};
