@@ -35,7 +35,7 @@ export const gourmetReport: GourmetReport = {
   computedAt: "2026-09-29T04:21:20Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-09-29",
+  updatedAt: "2026-09-30",
   topics: [
     {
       topic: "martins potato bun",
