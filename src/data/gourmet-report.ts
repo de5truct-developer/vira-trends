@@ -32,19 +32,11 @@ export interface GourmetReport {
 export const gourmetReport: GourmetReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-09-29T04:21:20Z",
+  computedAt: "2026-09-30T09:31:07Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-09-30",
+  updatedAt: "2026-10-01",
   topics: [
-    {
-      topic: "martins potato bun",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 1961,
-      trust: "high",
-      videoNum: 840,
-      topCountries: ["US", "GB", "PH", "ZA", "CA"],
-    },
     {
       topic: "ghana jollof tiktok",
       subcategory: "Food Tutorials",
@@ -82,8 +74,8 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 157,
       trust: "high",
-      videoNum: 567,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
+      videoNum: 740,
+      topCountries: ["US", "CA", "AU", "PH", "MY"],
     },
     {
       topic: "upside down glass drink trick",
@@ -117,11 +109,19 @@ export const gourmetReport: GourmetReport = {
       videoNum: 1176,
       topCountries: ["US", "CA", "PH", "AU", "ZA"],
     },
+    {
+      topic: "stell and egg",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 30,
+      trust: "high",
+      videoNum: 571,
+      topCountries: ["ID", "MY", "PH", "TH"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "martins potato bun",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "ghana jollof tiktok",
+    audience: "unknown 18-24, Ghana (dominant segment, snapshot at collection date)",
   },
 };
