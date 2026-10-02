@@ -32,11 +32,19 @@ export interface GourmetReport {
 export const gourmetReport: GourmetReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-09-30T09:31:07Z",
+  computedAt: "2026-10-01T09:27:36Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-01",
+  updatedAt: "2026-10-02",
   topics: [
+    {
+      topic: "football game snacks",
+      subcategory: "Food FMCG",
+      growthMultiplier: 1263,
+      trust: "high",
+      videoNum: 627,
+      topCountries: ["US", "AU", "CA", "PH", "SA"],
+    },
     {
       topic: "ghana jollof tiktok",
       subcategory: "Food Tutorials",
@@ -74,7 +82,7 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 157,
       trust: "high",
-      videoNum: 740,
+      videoNum: null,
       topCountries: ["US", "CA", "AU", "PH", "MY"],
     },
     {
@@ -90,7 +98,7 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Tutorials",
       growthMultiplier: 84,
       trust: "high",
-      videoNum: 827,
+      videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
@@ -106,22 +114,14 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Tutorials",
       growthMultiplier: 34,
       trust: "high",
-      videoNum: 1176,
+      videoNum: null,
       topCountries: ["US", "CA", "PH", "AU", "ZA"],
-    },
-    {
-      topic: "stell and egg",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 30,
-      trust: "high",
-      videoNum: 571,
-      topCountries: ["ID", "MY", "PH", "TH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "ghana jollof tiktok",
-    audience: "unknown 18-24, Ghana (dominant segment, snapshot at collection date)",
+    topic: "football game snacks",
+    audience: "female 25-34, United States of America (dominant segment, snapshot at collection date)",
   },
 };
