@@ -32,10 +32,10 @@ export interface GourmetReport {
 export const gourmetReport: GourmetReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-10-01T09:27:36Z",
+  computedAt: "2026-10-03T03:08:40Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-02",
+  updatedAt: "2026-10-03",
   topics: [
     {
       topic: "football game snacks",
@@ -78,6 +78,14 @@ export const gourmetReport: GourmetReport = {
       topCountries: ["ID", "US", "BR", "MX", "MY"],
     },
     {
+      topic: "Quick marinara pizza at home",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 177,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PK", "MX", "EG", "BD"],
+    },
+    {
       topic: "lacewing eggs",
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 157,
@@ -108,14 +116,6 @@ export const gourmetReport: GourmetReport = {
       trust: "high",
       videoNum: 176,
       topCountries: ["US", "PH", "GB", "DE", "FR"],
-    },
-    {
-      topic: "making mofongo luigi original",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 34,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "AU", "ZA"],
     },
   ],
   methodologyNote:
