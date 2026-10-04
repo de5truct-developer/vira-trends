@@ -35,7 +35,7 @@ export const gourmetReport: GourmetReport = {
   computedAt: "2026-10-03T03:08:40Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-03",
+  updatedAt: "2026-10-04",
   topics: [
     {
       topic: "football game snacks",
