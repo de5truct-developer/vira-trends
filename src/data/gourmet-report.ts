@@ -32,10 +32,10 @@ export interface GourmetReport {
 export const gourmetReport: GourmetReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-10-03T03:08:40Z",
+  computedAt: "2026-10-06T06:00:19Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-05",
+  updatedAt: "2026-10-06",
   topics: [
     {
       topic: "football game snacks",
@@ -50,7 +50,7 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Tutorials",
       growthMultiplier: 613,
       trust: "high",
-      videoNum: 543,
+      videoNum: 782,
       topCountries: ["GH", "GB", "DE", "AE"],
     },
     {
@@ -90,7 +90,7 @@ export const gourmetReport: GourmetReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 157,
       trust: "high",
-      videoNum: null,
+      videoNum: 763,
       topCountries: ["US", "CA", "AU", "PH", "MY"],
     },
     {
