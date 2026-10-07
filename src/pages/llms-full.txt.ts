@@ -9,6 +9,20 @@ import { householdReport } from "../data/tiktok-household-report";
 import { tourismReport } from "../data/tiktok-tourism-report";
 import { educationReport } from "../data/tiktok-education-report";
 import { danceReport } from "../data/tiktok-dance-report";
+import { featuredContentReport } from "../data/tiktok-featured-content-report";
+import { workplaceReport } from "../data/tiktok-workplace-report";
+import { localLifeReport } from "../data/tiktok-local-life-report";
+import { acgnReport } from "../data/tiktok-acgn-report";
+import { scienceFactsReport } from "../data/tiktok-science-facts-report";
+import { entertainmentReport } from "../data/tiktok-entertainment-report";
+import { relationshipsReport } from "../data/tiktok-relationships-report";
+import { cultureReport } from "../data/tiktok-culture-report";
+import { healthcareReport } from "../data/tiktok-healthcare-report";
+import { parentingReport } from "../data/tiktok-parenting-report";
+import { financeReport } from "../data/tiktok-finance-report";
+import { musicReport } from "../data/tiktok-music-report";
+import { mediaAccountsReport } from "../data/tiktok-media-accounts-report";
+import { societyReport } from "../data/tiktok-society-report";
 import { renderTikTokLlmsFull } from "../lib/tiktok-llms-full";
 import type { TikTokReport } from "../data/tiktok-report-types";
 import { youtubeFoodReport } from "../data/youtube-food-report";
@@ -37,6 +51,20 @@ const TIKTOK_REPORTS: { slug: string; report: TikTokReport }[] = [
   { slug: "tourism", report: tourismReport },
   { slug: "education", report: educationReport },
   { slug: "dance", report: danceReport },
+  { slug: "featured-content", report: featuredContentReport },
+  { slug: "workplace", report: workplaceReport },
+  { slug: "local-life", report: localLifeReport },
+  { slug: "acgn", report: acgnReport },
+  { slug: "science-facts", report: scienceFactsReport },
+  { slug: "entertainment", report: entertainmentReport },
+  { slug: "relationships", report: relationshipsReport },
+  { slug: "culture", report: cultureReport },
+  { slug: "healthcare", report: healthcareReport },
+  { slug: "parenting", report: parentingReport },
+  { slug: "finance", report: financeReport },
+  { slug: "music", report: musicReport },
+  { slug: "media-accounts", report: mediaAccountsReport },
+  { slug: "society", report: societyReport },
 ];
 
 const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
@@ -57,8 +85,8 @@ export const GET: APIRoute = () => {
   const youtubeSections = YOUTUBE_REPORTS.map(({ slug, report }) => renderYouTubeLlmsFull(report, slug));
 
   const body = `# Vira Trend Reports — llms-full.txt
-# Full per-topic/per-channel facts for every TikTok and YouTube niche report (10 niches each
-# below). Each niche also has its own llms-full.txt at
+# Full per-topic/per-channel facts for every TikTok (${TIKTOK_REPORTS.length} niches) and YouTube
+# (${YOUTUBE_REPORTS.length} niches) report below. Each niche also has its own llms-full.txt at
 # https://trends.tryvira.app/reports/tiktok/<slug>/llms-full.txt or
 # https://trends.tryvira.app/reports/youtube/<slug>/llms-full.txt with the same content as its
 # section here. One source of truth: numbers here match the visible pages and the JSON-LD
