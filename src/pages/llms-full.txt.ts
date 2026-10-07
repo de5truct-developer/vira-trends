@@ -35,6 +35,32 @@ import { youtubeTechnologyReport } from "../data/youtube-technology-report";
 import { youtubeHealthReport } from "../data/youtube-health-report";
 import { youtubeTourismReport } from "../data/youtube-tourism-report";
 import { youtubeFashionReport } from "../data/youtube-fashion-report";
+import { youtubeSocietyReport } from "../data/youtube-society-report";
+import { youtubeKnowledgeReport } from "../data/youtube-knowledge-report";
+import { youtubeHobbyReport } from "../data/youtube-hobby-report";
+import { youtubeVehiclesReport } from "../data/youtube-vehicles-report";
+import { youtubeReligionReport } from "../data/youtube-religion-report";
+import { youtubePoliticsReport } from "../data/youtube-politics-report";
+import { youtubeSportsReport } from "../data/youtube-sports-report";
+import { youtubePetsReport } from "../data/youtube-pets-report";
+import { youtubeBusinessReport } from "../data/youtube-business-report";
+import { youtubeMilitaryReport } from "../data/youtube-military-report";
+import { youtubeHumorReport } from "../data/youtube-humor-report";
+import { youtubePerformingArtsReport } from "../data/youtube-performing-arts-report";
+import { youtubeTvReport } from "../data/youtube-tv-report";
+import { youtubeFitnessReport } from "../data/youtube-fitness-report";
+import { youtubeBeautyReport } from "../data/youtube-beauty-report";
+import { youtubeSoccerReport } from "../data/youtube-soccer-report";
+import { youtubeBasketballReport } from "../data/youtube-basketball-report";
+import { youtubeCricketReport } from "../data/youtube-cricket-report";
+import { youtubeBaseballReport } from "../data/youtube-baseball-report";
+import { youtubeAmericanFootballReport } from "../data/youtube-american-football-report";
+import { youtubeIceHockeyReport } from "../data/youtube-ice-hockey-report";
+import { youtubeTennisReport } from "../data/youtube-tennis-report";
+import { youtubeVolleyballReport } from "../data/youtube-volleyball-report";
+import { youtubeGolfReport } from "../data/youtube-golf-report";
+import { youtubeBoxingReport } from "../data/youtube-boxing-report";
+import { youtubeMmaReport } from "../data/youtube-mma-report";
 import { renderYouTubeLlmsFull } from "../lib/youtube-llms-full";
 import type { YoutubeNicheReport } from "../data/youtube-report-types";
 
@@ -78,6 +104,32 @@ const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
   { slug: "health", report: youtubeHealthReport },
   { slug: "tourism", report: youtubeTourismReport },
   { slug: "fashion", report: youtubeFashionReport },
+  { slug: "society", report: youtubeSocietyReport },
+  { slug: "knowledge", report: youtubeKnowledgeReport },
+  { slug: "hobby", report: youtubeHobbyReport },
+  { slug: "vehicles", report: youtubeVehiclesReport },
+  { slug: "religion", report: youtubeReligionReport },
+  { slug: "politics", report: youtubePoliticsReport },
+  { slug: "sports", report: youtubeSportsReport },
+  { slug: "pets", report: youtubePetsReport },
+  { slug: "business", report: youtubeBusinessReport },
+  { slug: "military", report: youtubeMilitaryReport },
+  { slug: "humor", report: youtubeHumorReport },
+  { slug: "performing-arts", report: youtubePerformingArtsReport },
+  { slug: "tv", report: youtubeTvReport },
+  { slug: "fitness", report: youtubeFitnessReport },
+  { slug: "beauty", report: youtubeBeautyReport },
+  { slug: "soccer", report: youtubeSoccerReport },
+  { slug: "basketball", report: youtubeBasketballReport },
+  { slug: "cricket", report: youtubeCricketReport },
+  { slug: "baseball", report: youtubeBaseballReport },
+  { slug: "american-football", report: youtubeAmericanFootballReport },
+  { slug: "ice-hockey", report: youtubeIceHockeyReport },
+  { slug: "tennis", report: youtubeTennisReport },
+  { slug: "volleyball", report: youtubeVolleyballReport },
+  { slug: "golf", report: youtubeGolfReport },
+  { slug: "boxing", report: youtubeBoxingReport },
+  { slug: "mma", report: youtubeMmaReport },
 ];
 
 export const GET: APIRoute = () => {
