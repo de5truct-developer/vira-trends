@@ -8,35 +8,13 @@
 // human-readable page, /llms-full.txt and the JSON-LD blocks, so a change here changes all three
 // at once (no drift between "visible" and "AI-facing" content).
 
-export interface ChannelFact {
-  channelName: string;
-  channelUrl: string;
-  topic: string; // YouTube's own topic classification (Wikipedia-based topicCategories), not Vira's
-  subscribers: number;
-  subsGained30d: number;
-  growthPct: number; // subsGained30d / (subscribers - subsGained30d) * 100, rounded to 1 decimal
-  viewsGained30d: number;
-  channelCreatedAt: string | null; // date, null if unknown
-}
-
-export interface YoutubeNicheReport {
-  niche: string;
-  region: string;
-  dataAsOf: string; // date, latest_stat_date backing the numbers
-  updatedAt: string; // date, page "last updated"
-  channels: ChannelFact[];
-  methodologyNote: string;
-  highlightChannel: {
-    channelName: string;
-    note: string;
-  };
-}
+import type { YoutubeNicheReport } from "./youtube-report-types";
 
 export const youtubeFoodReport: YoutubeNicheReport = {
   niche: "Food",
   region: "global",
   dataAsOf: "2026-10-06",
-  updatedAt: "2026-10-06",
+  updatedAt: "2026-10-07",
   channels: [
     {
       channelName: "Be Smart With Palak",

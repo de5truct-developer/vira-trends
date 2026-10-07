@@ -9,7 +9,12 @@ refresh_channels_latest_materialized cycle finishes (no fixed cron for that
 job -- it floats; see Research note for the timing this was tuned against).
 
 Usage:
-    generate-youtube-reports.py [--niche food] [--out-dir DIR]
+    generate-youtube-reports.py [--niche all|food|...] [--out-dir DIR]
+
+`--niche all` (the default) regenerates every niche in NICHES. A bad niche
+(too few channels, stale snapshot, failed query) is skipped with an error on
+stderr; the other niches in the same run still get published. The whole run
+only exits non-zero if every niche failed.
 
 Env (same ClickHouse instance/user as CSI, different database):
     CSI_CH_URL        e.g. http://127.0.0.1:8123
@@ -18,9 +23,9 @@ Env (same ClickHouse instance/user as CSI, different database):
     (database is hardcoded to vira_analytics below, not CSI_CH_DATABASE --
     that var is "csi" for the TikTok pipeline)
 
-On any failure (query error, too few rows, stale snapshot) nothing is
-written and the process exits non-zero, so a bad day never publishes
-broken data.
+For a single niche, nothing is written and that niche is skipped if its
+query fails, returns too few channels, or its freshest snapshot is stale,
+so a bad day never publishes broken data for that niche.
 """
 from __future__ import annotations
 
@@ -84,6 +89,87 @@ NICHES: dict[str, Niche] = {
         min_baseline=20_000,
         export_name="youtubeFoodReport",
         out_file="youtube-food-report.ts",
+    ),
+    "lifestyle": Niche(
+        key="lifestyle",
+        category="Lifestyle (sociology)",
+        topic_match="Lifestyle (sociology)",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeLifestyleReport",
+        out_file="youtube-lifestyle-report.ts",
+    ),
+    "gaming": Niche(
+        key="gaming",
+        category="Video game culture",
+        topic_match="Video game culture",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeGamingReport",
+        out_file="youtube-gaming-report.ts",
+    ),
+    "music": Niche(
+        key="music",
+        category="Music",
+        topic_match="Music",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeMusicReport",
+        out_file="youtube-music-report.ts",
+    ),
+    "entertainment": Niche(
+        key="entertainment",
+        category="Entertainment",
+        topic_match="Entertainment",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeEntertainmentReport",
+        out_file="youtube-entertainment-report.ts",
+    ),
+    "film": Niche(
+        key="film",
+        category="Film",
+        topic_match="Film",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeFilmReport",
+        out_file="youtube-film-report.ts",
+    ),
+    "technology": Niche(
+        key="technology",
+        category="Technology",
+        topic_match="Technology",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeTechnologyReport",
+        out_file="youtube-technology-report.ts",
+    ),
+    "health": Niche(
+        key="health",
+        category="Health",
+        topic_match="Health",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeHealthReport",
+        out_file="youtube-health-report.ts",
+    ),
+    "tourism": Niche(
+        key="tourism",
+        category="Tourism",
+        topic_match="Tourism",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeTourismReport",
+        out_file="youtube-tourism-report.ts",
+    ),
+    "fashion": Niche(
+        key="fashion",
+        category="Fashion",
+        topic_match="Fashion",
+        min_subscribers=50_000,
+        min_baseline=20_000,
+        export_name="youtubeFashionReport",
+        out_file="youtube-fashion-report.ts",
     ),
 }
 
@@ -223,29 +309,7 @@ def render_ts(niche: Niche, channels: list[dict], data_as_of: str, updated_at: s
 // human-readable page, /llms-full.txt and the JSON-LD blocks, so a change here changes all three
 // at once (no drift between "visible" and "AI-facing" content).
 
-export interface ChannelFact {{
-  channelName: string;
-  channelUrl: string;
-  topic: string; // YouTube's own topic classification (Wikipedia-based topicCategories), not Vira's
-  subscribers: number;
-  subsGained30d: number;
-  growthPct: number; // subsGained30d / (subscribers - subsGained30d) * 100, rounded to 1 decimal
-  viewsGained30d: number;
-  channelCreatedAt: string | null; // date, null if unknown
-}}
-
-export interface YoutubeNicheReport {{
-  niche: string;
-  region: string;
-  dataAsOf: string; // date, latest_stat_date backing the numbers
-  updatedAt: string; // date, page "last updated"
-  channels: ChannelFact[];
-  methodologyNote: string;
-  highlightChannel: {{
-    channelName: string;
-    note: string;
-  }};
-}}
+import type {{ YoutubeNicheReport }} from "./youtube-report-types";
 
 export const {niche.export_name}: YoutubeNicheReport = {{
   niche: "{niche.category}",
@@ -265,11 +329,7 @@ export const {niche.export_name}: YoutubeNicheReport = {{
 """
 
 
-def generate(niche: Niche, out_dir: str) -> str:
-    base_url = os.environ["CSI_CH_URL"]
-    user = os.environ["CSI_CH_USER"]
-    password = os.environ["CSI_CH_PASSWORD"]
-
+def generate(niche: Niche, out_dir: str, base_url: str, user: str, password: str) -> str:
     channels = fetch_channels(base_url, user, password, niche)
     if len(channels) < MIN_CHANNELS:
         raise ReportError(
@@ -296,7 +356,7 @@ def generate(niche: Niche, out_dir: str) -> str:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--niche", default="food", choices=sorted(NICHES))
+    parser.add_argument("--niche", default="all", choices=sorted(NICHES) + ["all"])
     parser.add_argument(
         "--out-dir",
         default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "data"),
@@ -304,17 +364,29 @@ def main() -> int:
     )
     args = parser.parse_args()
 
-    niche = NICHES[args.niche]
     try:
-        out_path = generate(niche, args.out_dir)
-    except ReportError as e:
-        print(f"generate-youtube-reports: {e}", file=sys.stderr)
-        return 1
+        base_url = os.environ["CSI_CH_URL"]
+        user = os.environ["CSI_CH_USER"]
+        password = os.environ["CSI_CH_PASSWORD"]
     except KeyError as e:
         print(f"generate-youtube-reports: missing required env var {e}", file=sys.stderr)
         return 1
 
-    print(f"generate-youtube-reports: wrote {out_path}")
+    niches = list(NICHES.values()) if args.niche == "all" else [NICHES[args.niche]]
+
+    ok_count = 0
+    for niche in niches:
+        try:
+            out_path = generate(niche, args.out_dir, base_url, user, password)
+        except ReportError as e:
+            print(f"generate-youtube-reports: niche={niche.key}: {e}", file=sys.stderr)
+            continue
+        print(f"generate-youtube-reports: wrote {out_path}")
+        ok_count += 1
+
+    if ok_count == 0:
+        print("generate-youtube-reports: every niche failed, nothing published", file=sys.stderr)
+        return 1
     return 0
 
 

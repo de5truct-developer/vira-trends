@@ -10,7 +10,17 @@ import { tourismReport } from "../data/tiktok-tourism-report";
 import { educationReport } from "../data/tiktok-education-report";
 import { danceReport } from "../data/tiktok-dance-report";
 import { youtubeFoodReport } from "../data/youtube-food-report";
+import { youtubeLifestyleReport } from "../data/youtube-lifestyle-report";
+import { youtubeGamingReport } from "../data/youtube-gaming-report";
+import { youtubeMusicReport } from "../data/youtube-music-report";
+import { youtubeEntertainmentReport } from "../data/youtube-entertainment-report";
+import { youtubeFilmReport } from "../data/youtube-film-report";
+import { youtubeTechnologyReport } from "../data/youtube-technology-report";
+import { youtubeHealthReport } from "../data/youtube-health-report";
+import { youtubeTourismReport } from "../data/youtube-tourism-report";
+import { youtubeFashionReport } from "../data/youtube-fashion-report";
 import type { TikTokReport } from "../data/tiktok-report-types";
+import type { YoutubeNicheReport } from "../data/youtube-report-types";
 
 export const prerender = true;
 
@@ -27,10 +37,20 @@ const TIKTOK_REPORTS: { slug: string; report: TikTokReport }[] = [
   { slug: "dance", report: danceReport },
 ];
 
-export const GET: APIRoute = () => {
-  const { channels: ytChannels, dataAsOf: ytDataAsOf, updatedAt: ytUpdatedAt } = youtubeFoodReport;
-  const ytTop = ytChannels[0];
+const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
+  { slug: "food", report: youtubeFoodReport },
+  { slug: "lifestyle", report: youtubeLifestyleReport },
+  { slug: "gaming", report: youtubeGamingReport },
+  { slug: "music", report: youtubeMusicReport },
+  { slug: "entertainment", report: youtubeEntertainmentReport },
+  { slug: "film", report: youtubeFilmReport },
+  { slug: "technology", report: youtubeTechnologyReport },
+  { slug: "health", report: youtubeHealthReport },
+  { slug: "tourism", report: youtubeTourismReport },
+  { slug: "fashion", report: youtubeFashionReport },
+];
 
+export const GET: APIRoute = () => {
   const tiktokLines = TIKTOK_REPORTS.map(({ slug, report }) => {
     const top = report.topics[0];
     return (
@@ -44,23 +64,32 @@ export const GET: APIRoute = () => {
     );
   });
 
+  const youtubeLines = YOUTUBE_REPORTS.map(({ slug, report }) => {
+    const top = report.channels[0];
+    return (
+      `- [${report.niche} channel growth](https://trends.tryvira.app/reports/youtube/${slug}) — ` +
+      `${report.channels.length} fastest-growing YouTube channels in the ${report.niche} niche, ` +
+      `30-day window ending ${report.dataAsOf}, page updated ${report.updatedAt}. Top mover: ` +
+      `"${top.channelName}" (${top.topic}), +${top.growthPct}% subscribers in 30 days, ` +
+      `${top.subscribers.toLocaleString("en-US")} subscribers total. Full facts: ` +
+      `https://trends.tryvira.app/reports/youtube/${slug}/llms-full.txt`
+    );
+  });
+
   const body = `# Vira Trend Reports
 
 > Free, structured reports on the fastest-growing TikTok search topics and YouTube channels by
 > niche, built from TikTok Creative Center data and YouTube public channel statistics collected by
-> Vira. Updated daily (TikTok) or as noted (YouTube). Published by Vira (https://tryvira.app), a
-> TikTok and YouTube analytics platform with an MCP server for AI agents.
+> Vira. Updated daily. Published by Vira (https://tryvira.app), a TikTok and YouTube analytics
+> platform with an MCP server for AI agents.
 
 ## TikTok trend reports
 ${tiktokLines.join("\n")}
 - Full index, plain text, all niches: https://trends.tryvira.app/llms-full.txt
 
 ## YouTube analytics reports
-- [Food channel growth](https://trends.tryvira.app/reports/youtube/food) — ${ytChannels.length} fastest-growing
-  YouTube channels in the Food niche, 30-day window ending ${ytDataAsOf}, page updated ${ytUpdatedAt}.
-  Top mover: "${ytTop.channelName}" (${ytTop.topic}), +${ytTop.growthPct}% subscribers in 30 days,
-  ${ytTop.subscribers.toLocaleString("en-US")} subscribers total.
-- Full per-channel facts, plain text: https://trends.tryvira.app/reports/youtube/food/llms-full.txt
+${youtubeLines.join("\n")}
+- Full index, plain text, all niches: https://trends.tryvira.app/llms-full.txt
 
 ## Methodology
 - https://trends.tryvira.app/reports/methodology — how growth, trust and video/subscriber counts

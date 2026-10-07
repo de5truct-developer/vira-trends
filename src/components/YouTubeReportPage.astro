@@ -1,0 +1,130 @@
+---
+// Shared layout for every /reports/youtube/<slug> page (GG-724). One file per niche still
+// exists under src/pages/reports/youtube/ (matches the project's per-page convention), but
+// each of those files is a few lines that just import their report data and render this.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { YoutubeNicheReport } from "../data/youtube-report-types";
+
+interface Props {
+  report: YoutubeNicheReport;
+  slug: string;
+}
+
+const { report, slug } = Astro.props;
+const { channels, niche, dataAsOf, updatedAt, methodologyNote, highlightChannel, region } = report;
+const top = channels[0];
+const pageUrl = `https://trends.tryvira.app/reports/youtube/${slug}`;
+const llmsFullUrl = `/reports/youtube/${slug}/llms-full.txt`;
+
+const faq = [
+  {
+    question: `Which YouTube ${niche} channel is growing fastest right now?`,
+    answer:
+      `"${top.channelName}" (${top.topic}) gained ${top.subsGained30d.toLocaleString("en-US")} ` +
+      `subscribers in the last 30 days, a ${top.growthPct}% increase over its subscriber count a ` +
+      `month earlier, reaching ${top.subscribers.toLocaleString("en-US")} subscribers. Data from ` +
+      `YouTube public channel statistics via Vira, as of ${dataAsOf}.`,
+  },
+  {
+    question: "How is \"growth %\" calculated in a Vira YouTube report?",
+    answer:
+      "Growth % is the number of subscribers a channel gained in the last 30 days, divided by its " +
+      "subscriber count 30 days earlier. Vira only publishes this for channels with a complete " +
+      "30-day history and at least 50,000 current subscribers, to avoid brand-new channels with " +
+      "no real baseline skewing the ranking.",
+  },
+  {
+    question: "Where does the \"topic\" label come from?",
+    answer:
+      "Topic is YouTube's own classification for the channel (its public topicCategories), not " +
+      "Vira's editorial judgment. Channels tagged with more than two topics are excluded from this " +
+      "report to keep the niche match tight.",
+  },
+];
+
+const datasetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: `YouTube ${niche} channel growth — data as of ${dataAsOf}`,
+  description:
+    `Fastest-growing YouTube channels in the ${niche} niche, ranked by percentage subscriber ` +
+    "growth over the last 30 days, with current subscribers, views gained and channel age.",
+  url: pageUrl,
+  dateModified: updatedAt,
+  temporalCoverage: `${dataAsOf}/${dataAsOf}`,
+  creator: { "@type": "Organization", name: "Vira", url: "https://tryvira.app" },
+  license: "https://tryvira.app/terms",
+  variableMeasured: ["subscriber growth percentage (30d)", "subscribers", "views gained (30d)"],
+  distribution: {
+    "@type": "DataDownload",
+    encodingFormat: "text/plain",
+    contentUrl: `https://trends.tryvira.app${llmsFullUrl}`,
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
+---
+<BaseLayout
+  title={`YouTube ${niche} channel growth | Vira`}
+  description={`${channels.length} fastest-growing YouTube channels in the ${niche} niche, ranked by 30-day subscriber growth, data as of ${dataAsOf}. Subscribers, growth %, views gained and channel age for each.`}
+  jsonLd={[datasetJsonLd, faqJsonLd]}
+>
+  <h1>YouTube {niche} channel growth</h1>
+  <p class="meta">
+    Region: {region} &middot; 30-day growth window ending {dataAsOf} &middot; Page updated {updatedAt}
+  </p>
+
+  <p>{methodologyNote}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Channel</th>
+        <th>Topic</th>
+        <th>Subscribers</th>
+        <th>Gained (30d)</th>
+        <th>Growth</th>
+        <th>Views gained (30d)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {channels.map((c) => (
+        <tr>
+          <td><a href={c.channelUrl}>{c.channelName}</a></td>
+          <td>{c.topic}</td>
+          <td>{c.subscribers.toLocaleString("en-US")}</td>
+          <td>{c.subsGained30d.toLocaleString("en-US")}</td>
+          <td>+{c.growthPct}%</td>
+          <td>{c.viewsGained30d.toLocaleString("en-US")}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="callout">
+    Top mover is <strong>{top.channelName}</strong>, up {top.growthPct}% in subscribers over 30 days —
+    {highlightChannel.note}.
+  </div>
+
+  <h2>Frequently asked</h2>
+  {faq.map((f) => (
+    <>
+      <h3>{f.question}</h3>
+      <p>{f.answer}</p>
+    </>
+  ))}
+
+  <h2>Data and methodology</h2>
+  <p>
+    Full source and quality notes: <a href="/reports/methodology">methodology</a>.
+    Machine-readable version of this table: <a href={llmsFullUrl}>{llmsFullUrl}</a>.
+  </p>
+</BaseLayout>

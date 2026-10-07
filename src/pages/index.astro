@@ -10,6 +10,16 @@ import { householdReport } from "../data/tiktok-household-report";
 import { tourismReport } from "../data/tiktok-tourism-report";
 import { educationReport } from "../data/tiktok-education-report";
 import { danceReport } from "../data/tiktok-dance-report";
+import { youtubeFoodReport } from "../data/youtube-food-report";
+import { youtubeLifestyleReport } from "../data/youtube-lifestyle-report";
+import { youtubeGamingReport } from "../data/youtube-gaming-report";
+import { youtubeMusicReport } from "../data/youtube-music-report";
+import { youtubeEntertainmentReport } from "../data/youtube-entertainment-report";
+import { youtubeFilmReport } from "../data/youtube-film-report";
+import { youtubeTechnologyReport } from "../data/youtube-technology-report";
+import { youtubeHealthReport } from "../data/youtube-health-report";
+import { youtubeTourismReport } from "../data/youtube-tourism-report";
+import { youtubeFashionReport } from "../data/youtube-fashion-report";
 
 const tiktokReports = [
   { slug: "gourmet", report: gourmetReport },
@@ -22,6 +32,19 @@ const tiktokReports = [
   { slug: "tourism", report: tourismReport },
   { slug: "education", report: educationReport },
   { slug: "dance", report: danceReport },
+];
+
+const youtubeReports = [
+  { slug: "food", report: youtubeFoodReport },
+  { slug: "lifestyle", report: youtubeLifestyleReport },
+  { slug: "gaming", report: youtubeGamingReport },
+  { slug: "music", report: youtubeMusicReport },
+  { slug: "entertainment", report: youtubeEntertainmentReport },
+  { slug: "film", report: youtubeFilmReport },
+  { slug: "technology", report: youtubeTechnologyReport },
+  { slug: "health", report: youtubeHealthReport },
+  { slug: "tourism", report: youtubeTourismReport },
+  { slug: "fashion", report: youtubeFashionReport },
 ];
 ---
 <BaseLayout
@@ -62,20 +85,22 @@ const tiktokReports = [
       <tr><th>Niche</th><th>Channels</th><th>Report</th></tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Food</td>
-        <td>10 fastest-growing channels (30d)</td>
-        <td><a href="/reports/youtube/food">View report &rarr;</a></td>
-      </tr>
+      {youtubeReports.map(({ slug, report }) => (
+        <tr>
+          <td>{report.niche}</td>
+          <td>{report.channels.length} fastest-growing channels (30d)</td>
+          <td><a href={`/reports/youtube/${slug}`}>View report &rarr;</a></td>
+        </tr>
+      ))}
     </tbody>
   </table>
-  <p class="meta">Currently a manual snapshot; daily automation is next (see methodology).</p>
+  <p class="meta">Updated automatically every day.</p>
 
   <h2>For AI agents</h2>
   <p>
     See <a href="/llms.txt">/llms.txt</a> for a short index and
-    <a href="/llms-full.txt">/llms-full.txt</a> for the full per-topic TikTok facts in plain text
-    (each YouTube report links its own <code>llms-full.txt</code>).
+    <a href="/llms-full.txt">/llms-full.txt</a> for the full per-topic and per-channel facts in
+    plain text (each report also links its own <code>llms-full.txt</code>).
     Full analytics, trend discovery and an MCP server for TikTok and YouTube are at
     <a href="https://tryvira.app">tryvira.app</a>.
   </p>
