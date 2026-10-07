@@ -1,14 +1,48 @@
 import type { APIRoute } from "astro";
 import { gourmetReport } from "../data/gourmet-report";
+import { scienceTechnologyReport } from "../data/tiktok-science-technology-report";
+import { fashionReport } from "../data/tiktok-fashion-report";
+import { hobbiesReport } from "../data/tiktok-hobbies-report";
+import { sportsReport } from "../data/tiktok-sports-report";
+import { vehiclesReport } from "../data/tiktok-vehicles-report";
+import { householdReport } from "../data/tiktok-household-report";
+import { tourismReport } from "../data/tiktok-tourism-report";
+import { educationReport } from "../data/tiktok-education-report";
+import { danceReport } from "../data/tiktok-dance-report";
 import { youtubeFoodReport } from "../data/youtube-food-report";
+import type { TikTokReport } from "../data/tiktok-report-types";
 
 export const prerender = true;
 
+const TIKTOK_REPORTS: { slug: string; report: TikTokReport }[] = [
+  { slug: "gourmet", report: gourmetReport },
+  { slug: "science-technology", report: scienceTechnologyReport },
+  { slug: "fashion", report: fashionReport },
+  { slug: "hobbies", report: hobbiesReport },
+  { slug: "sports", report: sportsReport },
+  { slug: "vehicles", report: vehiclesReport },
+  { slug: "household", report: householdReport },
+  { slug: "tourism", report: tourismReport },
+  { slug: "education", report: educationReport },
+  { slug: "dance", report: danceReport },
+];
+
 export const GET: APIRoute = () => {
-  const { topics, windowEnd, updatedAt } = gourmetReport;
-  const top = topics[0];
   const { channels: ytChannels, dataAsOf: ytDataAsOf, updatedAt: ytUpdatedAt } = youtubeFoodReport;
   const ytTop = ytChannels[0];
+
+  const tiktokLines = TIKTOK_REPORTS.map(({ slug, report }) => {
+    const top = report.topics[0];
+    return (
+      `- [${report.category} trends this week](https://trends.tryvira.app/reports/tiktok/${slug}) — ` +
+      `${report.topics.length} fastest-growing ${report.category} topics on TikTok, week ending ` +
+      `${report.windowEnd}, updated ${report.updatedAt}. Top mover: "${top.topic}" (${top.subcategory}), ` +
+      `${top.growthMultiplier}x growth, trust: ${top.trust}, ` +
+      `${top.videoNum === null ? "not reported" : `${top.videoNum} videos reported`}, ` +
+      `top countries ${top.topCountries.join("/")}. Full facts: ` +
+      `https://trends.tryvira.app/reports/tiktok/${slug}/llms-full.txt`
+    );
+  });
 
   const body = `# Vira Trend Reports
 
@@ -18,11 +52,8 @@ export const GET: APIRoute = () => {
 > TikTok and YouTube analytics platform with an MCP server for AI agents.
 
 ## TikTok trend reports
-- [Gourmet trends this week](https://trends.tryvira.app/reports/tiktok/gourmet) — ${topics.length} fastest-growing
-  Gourmet topics on TikTok, week ending ${windowEnd}, updated ${updatedAt}. Top mover:
-  "${top.topic}" (${top.subcategory}), ${top.growthMultiplier}x growth, trust: ${top.trust},
-  ${top.videoNum} videos reported, top countries ${top.topCountries.join("/")}.
-- Full per-topic facts, plain text: https://trends.tryvira.app/llms-full.txt
+${tiktokLines.join("\n")}
+- Full index, plain text, all niches: https://trends.tryvira.app/llms-full.txt
 
 ## YouTube analytics reports
 - [Food channel growth](https://trends.tryvira.app/reports/youtube/food) — ${ytChannels.length} fastest-growing

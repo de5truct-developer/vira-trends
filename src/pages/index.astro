@@ -1,5 +1,28 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { gourmetReport } from "../data/gourmet-report";
+import { scienceTechnologyReport } from "../data/tiktok-science-technology-report";
+import { fashionReport } from "../data/tiktok-fashion-report";
+import { hobbiesReport } from "../data/tiktok-hobbies-report";
+import { sportsReport } from "../data/tiktok-sports-report";
+import { vehiclesReport } from "../data/tiktok-vehicles-report";
+import { householdReport } from "../data/tiktok-household-report";
+import { tourismReport } from "../data/tiktok-tourism-report";
+import { educationReport } from "../data/tiktok-education-report";
+import { danceReport } from "../data/tiktok-dance-report";
+
+const tiktokReports = [
+  { slug: "gourmet", report: gourmetReport },
+  { slug: "science-technology", report: scienceTechnologyReport },
+  { slug: "fashion", report: fashionReport },
+  { slug: "hobbies", report: hobbiesReport },
+  { slug: "sports", report: sportsReport },
+  { slug: "vehicles", report: vehiclesReport },
+  { slug: "household", report: householdReport },
+  { slug: "tourism", report: tourismReport },
+  { slug: "education", report: educationReport },
+  { slug: "dance", report: danceReport },
+];
 ---
 <BaseLayout
   title="Vira Trend Reports"
@@ -22,14 +45,16 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <tr><th>Niche</th><th>Topics</th><th>Report</th></tr>
     </thead>
     <tbody>
-      <tr>
-        <td>Gourmet (food)</td>
-        <td>10 fastest-growing topics</td>
-        <td><a href="/reports/tiktok/gourmet">View report &rarr;</a></td>
-      </tr>
+      {tiktokReports.map(({ slug, report }) => (
+        <tr>
+          <td>{report.category}</td>
+          <td>{report.topics.length} fastest-growing topics</td>
+          <td><a href={`/reports/tiktok/${slug}`}>View report &rarr;</a></td>
+        </tr>
+      ))}
     </tbody>
   </table>
-  <p class="meta">Updated automatically every day. More niches are coming as the underlying data window fills in.</p>
+  <p class="meta">Updated automatically every day.</p>
 
   <h2>YouTube analytics reports</h2>
   <table>
