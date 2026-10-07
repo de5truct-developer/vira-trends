@@ -13,7 +13,7 @@ import type { YoutubeNicheReport } from "./youtube-report-types";
 export const youtubeMmaReport: YoutubeNicheReport = {
   niche: "Mixed martial arts",
   region: "global",
-  dataAsOf: "2026-10-06",
+  dataAsOf: "2026-10-07",
   updatedAt: "2026-10-07",
   channels: [
     {
@@ -23,7 +23,7 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       subscribers: 231000,
       subsGained30d: 9000,
       growthPct: 4.1,
-      viewsGained30d: 12391031,
+      viewsGained30d: 0,
       channelCreatedAt: "2020-01-25",
     },
     {
@@ -33,7 +33,7 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       subscribers: 93100,
       subsGained30d: 600,
       growthPct: 0.6,
-      viewsGained30d: 2351799,
+      viewsGained30d: 1739611,
       channelCreatedAt: "2018-02-14",
     },
     {
@@ -43,17 +43,17 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       subscribers: 463000,
       subsGained30d: 1000,
       growthPct: 0.2,
-      viewsGained30d: 2794305,
+      viewsGained30d: 2839484,
       channelCreatedAt: "2015-03-18",
     },
     {
       channelName: "ほのぼのかいちゃんねる",
       channelUrl: "https://www.youtube.com/channel/UCEReo3ko80VlilHyIM-Lm9Q",
-      topic: "Lifestyle (sociology), Mixed martial arts",
+      topic: "Mixed martial arts, Lifestyle (sociology)",
       subscribers: 249000,
       subsGained30d: 0,
       growthPct: 0.0,
-      viewsGained30d: 1308884,
+      viewsGained30d: 1402261,
       channelCreatedAt: "2019-06-11",
     },
     {
@@ -63,7 +63,7 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       subscribers: 78400,
       subsGained30d: 0,
       growthPct: 0.0,
-      viewsGained30d: 44016,
+      viewsGained30d: 45182,
       channelCreatedAt: "2019-11-01",
     },
   ],
