@@ -76,18 +76,18 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "GH", "KE", "IT"],
     },
     {
-      topic: "CREW GIRL",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 579,
-      topCountries: ["TH", "ID", "PH", "LA", "BR"],
-    },
-    {
       topic: "Real challenges of offshore work",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "AU", "CA", "GB"],
+    },
+    {
+      topic: "CREW GIRL",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 579,
+      topCountries: ["TH", "ID", "PH", "LA", "BR"],
     },
   ],
   methodologyNote:
