@@ -519,8 +519,10 @@ def unique_slug(base: str, taken: set[str]) -> str:
 
 
 def camel_export_name(slug: str, suffix: str) -> str:
-    first, *rest = slug.split("-")
-    return first + "".join(p.capitalize() for p in rest) + suffix
+    # Unlike TikTok's exportName (no product prefix, e.g. "gourmetReport"), every existing
+    # YouTube export is "youtube" + PascalCase(slug) + suffix (e.g. "youtubeFoodReport",
+    # "youtubePopMusicSubReport") -- match that, not the TikTok convention.
+    return "youtube" + "".join(p.capitalize() for p in slug.split("-")) + suffix
 
 
 def is_music_subgenre_tag(tag: str) -> bool:
