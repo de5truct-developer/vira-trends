@@ -1,0 +1,18 @@
+---
+// Dynamic route replacing the old one-file-per-subgenre src/pages/reports/youtube/sub/<slug>.astro
+// pages (GG-724 auto-discovery). See src/pages/reports/youtube/[niche].astro for the same pattern.
+import YouTubeSubgenreReportPage from "../../../../components/YouTubeSubgenreReportPage.astro";
+import { SUBGENRES, loadSubgenreReport, type SubgenreManifestEntry } from "../../../../lib/youtube-data";
+
+interface Props {
+  subgenre: SubgenreManifestEntry;
+}
+
+export function getStaticPaths() {
+  return SUBGENRES.map((subgenre) => ({ params: { slug: subgenre.slug }, props: { subgenre } }));
+}
+
+const { subgenre } = Astro.props;
+const report = loadSubgenreReport(subgenre);
+---
+<YouTubeSubgenreReportPage report={report} slug={subgenre.slug} />

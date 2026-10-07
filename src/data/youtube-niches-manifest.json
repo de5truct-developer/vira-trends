@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "food",
+    "category": "Food",
+    "topicMatch": "Food",
+    "exportName": "youtubeFoodReport",
+    "dataFile": "youtube-food-report.ts"
+  },
+  {
+    "slug": "lifestyle",
+    "category": "Lifestyle (sociology)",
+    "topicMatch": "Lifestyle (sociology)",
+    "exportName": "youtubeLifestyleReport",
+    "dataFile": "youtube-lifestyle-report.ts"
+  },
+  {
+    "slug": "gaming",
+    "category": "Video game culture",
+    "topicMatch": "Video game culture",
+    "exportName": "youtubeGamingReport",
+    "dataFile": "youtube-gaming-report.ts"
+  },
+  {
+    "slug": "music",
+    "category": "Music",
+    "topicMatch": "Music",
+    "exportName": "youtubeMusicReport",
+    "dataFile": "youtube-music-report.ts"
+  },
+  {
+    "slug": "entertainment",
+    "category": "Entertainment",
+    "topicMatch": "Entertainment",
+    "exportName": "youtubeEntertainmentReport",
+    "dataFile": "youtube-entertainment-report.ts"
+  },
+  {
+    "slug": "film",
+    "category": "Film",
+    "topicMatch": "Film",
+    "exportName": "youtubeFilmReport",
+    "dataFile": "youtube-film-report.ts"
+  },
+  {
+    "slug": "technology",
+    "category": "Technology",
+    "topicMatch": "Technology",
+    "exportName": "youtubeTechnologyReport",
+    "dataFile": "youtube-technology-report.ts"
+  },
+  {
+    "slug": "health",
+    "category": "Health",
+    "topicMatch": "Health",
+    "exportName": "youtubeHealthReport",
+    "dataFile": "youtube-health-report.ts"
+  },
+  {
+    "slug": "tourism",
+    "category": "Tourism",
+    "topicMatch": "Tourism",
+    "exportName": "youtubeTourismReport",
+    "dataFile": "youtube-tourism-report.ts"
+  },
+  {
+    "slug": "fashion",
+    "category": "Fashion",
+    "topicMatch": "Fashion",
+    "exportName": "youtubeFashionReport",
+    "dataFile": "youtube-fashion-report.ts"
+  },
+  {
+    "slug": "society",
+    "category": "Society",
+    "topicMatch": "Society",
+    "exportName": "youtubeSocietyReport",
+    "dataFile": "youtube-society-report.ts"
+  },
+  {
+    "slug": "knowledge",
+    "category": "Knowledge",
+    "topicMatch": "Knowledge",
+    "exportName": "youtubeKnowledgeReport",
+    "dataFile": "youtube-knowledge-report.ts"
+  },
+  {
+    "slug": "hobby",
+    "category": "Hobby",
+    "topicMatch": "Hobby",
+    "exportName": "youtubeHobbyReport",
+    "dataFile": "youtube-hobby-report.ts"
+  },
+  {
+    "slug": "vehicles",
+    "category": "Vehicle",
+    "topicMatch": "Vehicle",
+    "exportName": "youtubeVehiclesReport",
+    "dataFile": "youtube-vehicles-report.ts"
+  },
+  {
+    "slug": "religion",
+    "category": "Religion",
+    "topicMatch": "Religion",
+    "exportName": "youtubeReligionReport",
+    "dataFile": "youtube-religion-report.ts"
+  },
+  {
+    "slug": "politics",
+    "category": "Politics",
+    "topicMatch": "Politics",
+    "exportName": "youtubePoliticsReport",
+    "dataFile": "youtube-politics-report.ts"
+  },
+  {
+    "slug": "sports",
+    "category": "Sport",
+    "topicMatch": "Sport",
+    "exportName": "youtubeSportsReport",
+    "dataFile": "youtube-sports-report.ts"
+  },
+  {
+    "slug": "pets",
+    "category": "Pet",
+    "topicMatch": "Pet",
+    "exportName": "youtubePetsReport",
+    "dataFile": "youtube-pets-report.ts"
+  },
+  {
+    "slug": "business",
+    "category": "Business",
+    "topicMatch": "Business",
+    "exportName": "youtubeBusinessReport",
+    "dataFile": "youtube-business-report.ts"
+  },
+  {
+    "slug": "military",
+    "category": "Military",
+    "topicMatch": "Military",
+    "exportName": "youtubeMilitaryReport",
+    "dataFile": "youtube-military-report.ts"
+  },
+  {
+    "slug": "humor",
+    "category": "Humour",
+    "topicMatch": "Humour",
+    "exportName": "youtubeHumorReport",
+    "dataFile": "youtube-humor-report.ts"
+  },
+  {
+    "slug": "performing-arts",
+    "category": "Performing arts",
+    "topicMatch": "Performing arts",
+    "exportName": "youtubePerformingArtsReport",
+    "dataFile": "youtube-performing-arts-report.ts"
+  },
+  {
+    "slug": "tv",
+    "category": "Television program",
+    "topicMatch": "Television program",
+    "exportName": "youtubeTvReport",
+    "dataFile": "youtube-tv-report.ts"
+  },
+  {
+    "slug": "fitness",
+    "category": "Physical fitness",
+    "topicMatch": "Physical fitness",
+    "exportName": "youtubeFitnessReport",
+    "dataFile": "youtube-fitness-report.ts"
+  },
+  {
+    "slug": "beauty",
+    "category": "Physical attractiveness",
+    "topicMatch": "Physical attractiveness",
+    "exportName": "youtubeBeautyReport",
+    "dataFile": "youtube-beauty-report.ts"
+  },
+  {
+    "slug": "soccer",
+    "category": "Association football",
+    "topicMatch": "Association football",
+    "exportName": "youtubeSoccerReport",
+    "dataFile": "youtube-soccer-report.ts"
+  },
+  {
+    "slug": "basketball",
+    "category": "Basketball",
+    "topicMatch": "Basketball",
+    "exportName": "youtubeBasketballReport",
+    "dataFile": "youtube-basketball-report.ts"
+  },
+  {
+    "slug": "cricket",
+    "category": "Cricket",
+    "topicMatch": "Cricket",
+    "exportName": "youtubeCricketReport",
+    "dataFile": "youtube-cricket-report.ts"
+  },
+  {
+    "slug": "baseball",
+    "category": "Baseball",
+    "topicMatch": "Baseball",
+    "exportName": "youtubeBaseballReport",
+    "dataFile": "youtube-baseball-report.ts"
+  },
+  {
+    "slug": "american-football",
+    "category": "American football",
+    "topicMatch": "American football",
+    "exportName": "youtubeAmericanFootballReport",
+    "dataFile": "youtube-american-football-report.ts"
+  },
+  {
+    "slug": "ice-hockey",
+    "category": "Ice hockey",
+    "topicMatch": "Ice hockey",
+    "exportName": "youtubeIceHockeyReport",
+    "dataFile": "youtube-ice-hockey-report.ts"
+  },
+  {
+    "slug": "tennis",
+    "category": "Tennis",
+    "topicMatch": "Tennis",
+    "exportName": "youtubeTennisReport",
+    "dataFile": "youtube-tennis-report.ts"
+  },
+  {
+    "slug": "volleyball",
+    "category": "Volleyball",
+    "topicMatch": "Volleyball",
+    "exportName": "youtubeVolleyballReport",
+    "dataFile": "youtube-volleyball-report.ts"
+  },
+  {
+    "slug": "golf",
+    "category": "Golf",
+    "topicMatch": "Golf",
+    "exportName": "youtubeGolfReport",
+    "dataFile": "youtube-golf-report.ts"
+  },
+  {
+    "slug": "boxing",
+    "category": "Boxing",
+    "topicMatch": "Boxing",
+    "exportName": "youtubeBoxingReport",
+    "dataFile": "youtube-boxing-report.ts"
+  },
+  {
+    "slug": "mma",
+    "category": "Mixed martial arts",
+    "topicMatch": "Mixed martial arts",
+    "exportName": "youtubeMmaReport",
+    "dataFile": "youtube-mma-report.ts"
+  }
+]

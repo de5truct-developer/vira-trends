@@ -10,15 +10,31 @@ job -- it floats; see Research note for the timing this was tuned against).
 
 Usage:
     generate-youtube-reports.py [--niche all|food|...] [--subgenre all|pop-music|...] [--out-dir DIR]
+    generate-youtube-reports.py --discover
 
 `--niche all` and `--subgenre all` (both the default) regenerate every niche
-in NICHES and every subgenre in SUBGENRES in the same run (niches use the
-whole topic tag as their own page; subgenres are a narrower tag nested
-inside the Music or Gaming niche -- see SUBGENRES for why only music/gaming
-got this treatment). A bad niche or subgenre (too few channels, stale
-snapshot, failed query) is skipped with an error on stderr; everything else
-in the same run still gets published. The whole run only exits non-zero if
-everything failed.
+and subgenre listed in src/data/youtube-<niches|subgenres>-manifest.json
+(niches use the whole topic tag as their own page; subgenres are a narrower
+tag nested inside the Music or Gaming niche -- see that manifest, or
+--discover below, for why only music/gaming subgenres exist). A bad niche or
+subgenre (too few channels, stale snapshot, failed query) is skipped with an
+error on stderr; everything else in the same run still gets published. The
+whole run only exits non-zero if everything failed. This is what the daily
+vira-trends-youtube-reports.service timer runs.
+
+`--discover` is a separate mode (run by its own, less frequent timer -- see
+vira-trends-discover-youtube.timer): it counts every single YouTube topic
+tag in channels_latest_mat (not just the ones already published), adds
+anything new that clears MIN_CHANNELS to the manifests and publishes it, and
+logs (without touching the page) anything already published that has
+dropped below threshold. A new tag whose name looks like a music or video
+game subgenre (contains "music"/"game", same substring that distinguished
+the 13 music + 10 game subgenres from the 36 niches when this was done by
+hand) is only published as a subgenre of Music/Gaming, and only if its
+top-10 channels don't mostly duplicate that parent niche's own top-10 (same
+check used when the 23 subgenres were added). It does not also regenerate
+the niches/subgenres already in the manifests -- that's what the plain
+--niche/--subgenre all (default) run above already does, daily.
 
 Env (same ClickHouse instance/user as CSI, different database):
     CSI_CH_URL        e.g. http://127.0.0.1:8123
@@ -34,7 +50,9 @@ so a bad day never publishes broken data for that niche.
 from __future__ import annotations
 
 import argparse
+import json
 import os
+import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
@@ -44,6 +62,8 @@ import requests
 DATABASE = "vira_analytics"
 MIN_CHANNELS = 5  # fewer rows than this: refuse to publish, something's wrong upstream
 STALE_DAYS = 3  # dataAsOf older than this many days: refuse to publish
+MIN_SUBSCRIBERS = 50_000  # same threshold for every niche/subgenre -- not calibrated per topic
+MIN_BASELINE = 20_000  # minimum (subscribers - subs_30d), excludes from-zero channels
 
 CHANNELS_QUERY = """
 SELECT channel_id, channel_name, channel_url, subscribers, subs_30d, views, views_30d,
@@ -96,338 +116,53 @@ class Niche:
     out_file: str        # relative to repo src/data/
 
 
-NICHES: dict[str, Niche] = {
-    "food": Niche(
-        key="food",
-        category="Food",
-        topic_match="Food",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeFoodReport",
-        out_file="youtube-food-report.ts",
-    ),
-    "lifestyle": Niche(
-        key="lifestyle",
-        category="Lifestyle (sociology)",
-        topic_match="Lifestyle (sociology)",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeLifestyleReport",
-        out_file="youtube-lifestyle-report.ts",
-    ),
-    "gaming": Niche(
-        key="gaming",
-        category="Video game culture",
-        topic_match="Video game culture",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeGamingReport",
-        out_file="youtube-gaming-report.ts",
-    ),
-    "music": Niche(
-        key="music",
-        category="Music",
-        topic_match="Music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMusicReport",
-        out_file="youtube-music-report.ts",
-    ),
-    "entertainment": Niche(
-        key="entertainment",
-        category="Entertainment",
-        topic_match="Entertainment",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeEntertainmentReport",
-        out_file="youtube-entertainment-report.ts",
-    ),
-    "film": Niche(
-        key="film",
-        category="Film",
-        topic_match="Film",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeFilmReport",
-        out_file="youtube-film-report.ts",
-    ),
-    "technology": Niche(
-        key="technology",
-        category="Technology",
-        topic_match="Technology",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeTechnologyReport",
-        out_file="youtube-technology-report.ts",
-    ),
-    "health": Niche(
-        key="health",
-        category="Health",
-        topic_match="Health",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeHealthReport",
-        out_file="youtube-health-report.ts",
-    ),
-    "tourism": Niche(
-        key="tourism",
-        category="Tourism",
-        topic_match="Tourism",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeTourismReport",
-        out_file="youtube-tourism-report.ts",
-    ),
-    "fashion": Niche(
-        key="fashion",
-        category="Fashion",
-        topic_match="Fashion",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeFashionReport",
-        out_file="youtube-fashion-report.ts",
-    ),
-    # Below: GG-724 full-coverage expansion (2026-10-07). Full set of YouTube topicCategories
-    # pulled live from vira_analytics.channels_latest_mat (same base filters as CHANNELS_QUERY
-    # minus the topic_match itself), not the original 10. See Research note
-    # "2026-10-07 GG-724 максимальное покрытие YouTube-ниш.md" for the full counts and the
-    # reasoning on what was left out (blank topic, music/video-game subgenres, three sports
-    # below MIN_CHANNELS).
-    "society": Niche(
-        key="society",
-        category="Society",
-        topic_match="Society",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSocietyReport",
-        out_file="youtube-society-report.ts",
-    ),
-    "knowledge": Niche(
-        key="knowledge",
-        category="Knowledge",
-        topic_match="Knowledge",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeKnowledgeReport",
-        out_file="youtube-knowledge-report.ts",
-    ),
-    "hobby": Niche(
-        key="hobby",
-        category="Hobby",
-        topic_match="Hobby",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeHobbyReport",
-        out_file="youtube-hobby-report.ts",
-    ),
-    "vehicles": Niche(
-        key="vehicles",
-        category="Vehicle",
-        topic_match="Vehicle",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeVehiclesReport",
-        out_file="youtube-vehicles-report.ts",
-    ),
-    "religion": Niche(
-        key="religion",
-        category="Religion",
-        topic_match="Religion",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeReligionReport",
-        out_file="youtube-religion-report.ts",
-    ),
-    "politics": Niche(
-        key="politics",
-        category="Politics",
-        topic_match="Politics",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubePoliticsReport",
-        out_file="youtube-politics-report.ts",
-    ),
-    "sports": Niche(
-        key="sports",
-        category="Sport",
-        topic_match="Sport",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSportsReport",
-        out_file="youtube-sports-report.ts",
-    ),
-    "pets": Niche(
-        key="pets",
-        category="Pet",
-        topic_match="Pet",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubePetsReport",
-        out_file="youtube-pets-report.ts",
-    ),
-    "business": Niche(
-        key="business",
-        category="Business",
-        topic_match="Business",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeBusinessReport",
-        out_file="youtube-business-report.ts",
-    ),
-    "military": Niche(
-        key="military",
-        category="Military",
-        topic_match="Military",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMilitaryReport",
-        out_file="youtube-military-report.ts",
-    ),
-    "humor": Niche(
-        key="humor",
-        category="Humour",
-        topic_match="Humour",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeHumorReport",
-        out_file="youtube-humor-report.ts",
-    ),
-    "performing-arts": Niche(
-        key="performing-arts",
-        category="Performing arts",
-        topic_match="Performing arts",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubePerformingArtsReport",
-        out_file="youtube-performing-arts-report.ts",
-    ),
-    "tv": Niche(
-        key="tv",
-        category="Television program",
-        topic_match="Television program",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeTvReport",
-        out_file="youtube-tv-report.ts",
-    ),
-    "fitness": Niche(
-        key="fitness",
-        category="Physical fitness",
-        topic_match="Physical fitness",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeFitnessReport",
-        out_file="youtube-fitness-report.ts",
-    ),
-    "beauty": Niche(
-        key="beauty",
-        category="Physical attractiveness",
-        topic_match="Physical attractiveness",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeBeautyReport",
-        out_file="youtube-beauty-report.ts",
-    ),
-    "soccer": Niche(
-        key="soccer",
-        category="Association football",
-        topic_match="Association football",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSoccerReport",
-        out_file="youtube-soccer-report.ts",
-    ),
-    "basketball": Niche(
-        key="basketball",
-        category="Basketball",
-        topic_match="Basketball",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeBasketballReport",
-        out_file="youtube-basketball-report.ts",
-    ),
-    "cricket": Niche(
-        key="cricket",
-        category="Cricket",
-        topic_match="Cricket",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeCricketReport",
-        out_file="youtube-cricket-report.ts",
-    ),
-    "baseball": Niche(
-        key="baseball",
-        category="Baseball",
-        topic_match="Baseball",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeBaseballReport",
-        out_file="youtube-baseball-report.ts",
-    ),
-    "american-football": Niche(
-        key="american-football",
-        category="American football",
-        topic_match="American football",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeAmericanFootballReport",
-        out_file="youtube-american-football-report.ts",
-    ),
-    "ice-hockey": Niche(
-        key="ice-hockey",
-        category="Ice hockey",
-        topic_match="Ice hockey",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeIceHockeyReport",
-        out_file="youtube-ice-hockey-report.ts",
-    ),
-    "tennis": Niche(
-        key="tennis",
-        category="Tennis",
-        topic_match="Tennis",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeTennisReport",
-        out_file="youtube-tennis-report.ts",
-    ),
-    "volleyball": Niche(
-        key="volleyball",
-        category="Volleyball",
-        topic_match="Volleyball",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeVolleyballReport",
-        out_file="youtube-volleyball-report.ts",
-    ),
-    "golf": Niche(
-        key="golf",
-        category="Golf",
-        topic_match="Golf",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeGolfReport",
-        out_file="youtube-golf-report.ts",
-    ),
-    "boxing": Niche(
-        key="boxing",
-        category="Boxing",
-        topic_match="Boxing",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeBoxingReport",
-        out_file="youtube-boxing-report.ts",
-    ),
-    "mma": Niche(
-        key="mma",
-        category="Mixed martial arts",
-        topic_match="Mixed martial arts",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMmaReport",
-        out_file="youtube-mma-report.ts",
-    ),
-}
+# Manifests (GG-724 auto-discovery): the hand-maintained NICHES/SUBGENRES dicts this generator
+# used to hardcode now live in src/data/youtube-<niches|subgenres>-manifest.json, checked into
+# git. This script only *reads* those files below, exactly like it used to read the hardcoded
+# dicts -- `--discover` (see near the bottom of this file) is the only code path that appends new
+# entries to them, after a live count against ClickHouse clears the same thresholds documented
+# there. Astro reads the same two JSON files to build its dynamic /reports/youtube/[niche] and
+# /sub/[slug] routes, so there is exactly one place that knows which niches/subgenres are
+# published. min_subscribers/min_baseline are not stored per entry -- every niche and subgenre
+# uses the same MIN_SUBSCRIBERS/MIN_BASELINE thresholds above, never calibrated per topic.
+
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DEFAULT_DATA_DIR = os.path.join(REPO_ROOT, "src", "data")
+
+NICHES_MANIFEST = os.path.join(DEFAULT_DATA_DIR, "youtube-niches-manifest.json")
+SUBGENRES_MANIFEST = os.path.join(DEFAULT_DATA_DIR, "youtube-subgenres-manifest.json")
+
+
+def _load_manifest(path: str) -> list[dict]:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _dump_manifest(path: str, rows: list[dict]) -> None:
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(rows, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+
+
+def load_niches(path: str = NICHES_MANIFEST) -> dict[str, Niche]:
+    return {
+        row["slug"]: Niche(
+            key=row["slug"],
+            category=row["category"],
+            topic_match=row["topicMatch"],
+            min_subscribers=MIN_SUBSCRIBERS,
+            min_baseline=MIN_BASELINE,
+            export_name=row["exportName"],
+            out_file=row["dataFile"],
+        )
+        for row in _load_manifest(path)
+    }
+
+
+# Loaded once at import time, same as the hardcoded dict this replaces. Every code path except
+# `--discover` (the daily `--niche/--subgenre all` regeneration, and Astro's build) just reads
+# whatever is in the manifest file, unchanged from how it read the old static dict.
+NICHES: dict[str, Niche] = load_niches()
 
 
 @dataclass(frozen=True)
@@ -444,270 +179,31 @@ class Subgenre:
 
 
 # GG-724 subgenre expansion (2026-10-07): narrower music/video-game topic tags, left out of the
-# 36-niche expansion above specifically because they're a finer split of the already-published
+# 36-niche expansion specifically because they're a finer split of the already-published
 # Music/Gaming niches, with a stated risk of their top-10 just duplicating the parent niche's
-# top-10. Now checked live instead of guessed: ran the same CHANNELS_QUERY per candidate tag and
+# top-10. Checked live instead of guessed: ran the same CHANNELS_QUERY per candidate tag and
 # diffed its top 10 against the Music/Gaming niche's own top 10 (see Research note "2026-10-07
 # GG-724 YouTube-поджанры.md"). Worst overlap found was 4/10 (Music of Asia); most tags share 0-1
-# channels with their parent -- nowhere near the "top-10 is basically the same page" risk that
-# was the reason to leave these out last time, so adding them is safe. Of the 24 narrow tags named
-# in the task, only "Rhythm and blues" (n=2) failed MIN_CHANNELS=5 and is excluded -- the other 23
-# all cleared both the volume threshold and the duplication check.
-SUBGENRES: dict[str, Subgenre] = {
-    "music-of-asia": Subgenre(
-        key="music-of-asia",
-        subgenre="Music of Asia",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Music of Asia",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMusicOfAsiaSubReport",
-        out_file="youtube-sub-music-of-asia-report.ts",
-    ),
-    "electronic-music": Subgenre(
-        key="electronic-music",
-        subgenre="Electronic music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Electronic music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeElectronicMusicSubReport",
-        out_file="youtube-sub-electronic-music-report.ts",
-    ),
-    "hip-hop-music": Subgenre(
-        key="hip-hop-music",
-        subgenre="Hip hop music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Hip hop music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeHipHopMusicSubReport",
-        out_file="youtube-sub-hip-hop-music-report.ts",
-    ),
-    "music-of-latin-america": Subgenre(
-        key="music-of-latin-america",
-        subgenre="Music of Latin America",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Music of Latin America",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMusicOfLatinAmericaSubReport",
-        out_file="youtube-sub-music-of-latin-america-report.ts",
-    ),
-    "pop-music": Subgenre(
-        key="pop-music",
-        subgenre="Pop music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Pop music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubePopMusicSubReport",
-        out_file="youtube-sub-pop-music-report.ts",
-    ),
-    "rock-music": Subgenre(
-        key="rock-music",
-        subgenre="Rock music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Rock music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeRockMusicSubReport",
-        out_file="youtube-sub-rock-music-report.ts",
-    ),
-    "classical-music": Subgenre(
-        key="classical-music",
-        subgenre="Classical music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Classical music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeClassicalMusicSubReport",
-        out_file="youtube-sub-classical-music-report.ts",
-    ),
-    "jazz": Subgenre(
-        key="jazz",
-        subgenre="Jazz",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Jazz",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeJazzSubReport",
-        out_file="youtube-sub-jazz-report.ts",
-    ),
-    "christian-music": Subgenre(
-        key="christian-music",
-        subgenre="Christian music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Christian music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeChristianMusicSubReport",
-        out_file="youtube-sub-christian-music-report.ts",
-    ),
-    "country-music": Subgenre(
-        key="country-music",
-        subgenre="Country music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Country music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeCountryMusicSubReport",
-        out_file="youtube-sub-country-music-report.ts",
-    ),
-    "reggae": Subgenre(
-        key="reggae",
-        subgenre="Reggae",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Reggae",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeReggaeSubReport",
-        out_file="youtube-sub-reggae-report.ts",
-    ),
-    "soul-music": Subgenre(
-        key="soul-music",
-        subgenre="Soul music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Soul music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSoulMusicSubReport",
-        out_file="youtube-sub-soul-music-report.ts",
-    ),
-    "independent-music": Subgenre(
-        key="independent-music",
-        subgenre="Independent music",
-        parent_key="music",
-        parent_category="Music",
-        topic_match="Independent music",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeIndependentMusicSubReport",
-        out_file="youtube-sub-independent-music-report.ts",
-    ),
-    "action-game": Subgenre(
-        key="action-game",
-        subgenre="Action game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Action game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeActionGameSubReport",
-        out_file="youtube-sub-action-game-report.ts",
-    ),
-    "role-playing-video-game": Subgenre(
-        key="role-playing-video-game",
-        subgenre="Role-playing video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Role-playing video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeRolePlayingVideoGameSubReport",
-        out_file="youtube-sub-role-playing-video-game-report.ts",
-    ),
-    "sports-game": Subgenre(
-        key="sports-game",
-        subgenre="Sports game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Sports game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSportsGameSubReport",
-        out_file="youtube-sub-sports-game-report.ts",
-    ),
-    "simulation-video-game": Subgenre(
-        key="simulation-video-game",
-        subgenre="Simulation video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Simulation video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeSimulationVideoGameSubReport",
-        out_file="youtube-sub-simulation-video-game-report.ts",
-    ),
-    "puzzle-video-game": Subgenre(
-        key="puzzle-video-game",
-        subgenre="Puzzle video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Puzzle video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubePuzzleVideoGameSubReport",
-        out_file="youtube-sub-puzzle-video-game-report.ts",
-    ),
-    "racing-video-game": Subgenre(
-        key="racing-video-game",
-        subgenre="Racing video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Racing video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeRacingVideoGameSubReport",
-        out_file="youtube-sub-racing-video-game-report.ts",
-    ),
-    "music-video-game": Subgenre(
-        key="music-video-game",
-        subgenre="Music video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Music video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeMusicVideoGameSubReport",
-        out_file="youtube-sub-music-video-game-report.ts",
-    ),
-    "action-adventure-game": Subgenre(
-        key="action-adventure-game",
-        subgenre="Action-adventure game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Action-adventure game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeActionAdventureGameSubReport",
-        out_file="youtube-sub-action-adventure-game-report.ts",
-    ),
-    "strategy-video-game": Subgenre(
-        key="strategy-video-game",
-        subgenre="Strategy video game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Strategy video game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeStrategyVideoGameSubReport",
-        out_file="youtube-sub-strategy-video-game-report.ts",
-    ),
-    "casual-game": Subgenre(
-        key="casual-game",
-        subgenre="Casual game",
-        parent_key="gaming",
-        parent_category="Video game culture",
-        topic_match="Casual game",
-        min_subscribers=50_000,
-        min_baseline=20_000,
-        export_name="youtubeCasualGameSubReport",
-        out_file="youtube-sub-casual-game-report.ts",
-    ),
-}
+# channels with their parent. `--discover` below applies the same >=8/10 "basically a duplicate"
+# rule to any future candidate (OVERLAP_DUPLICATE_THRESHOLD).
+def load_subgenres(path: str = SUBGENRES_MANIFEST) -> dict[str, Subgenre]:
+    return {
+        row["slug"]: Subgenre(
+            key=row["slug"],
+            subgenre=row["subgenre"],
+            parent_key=row["parentSlug"],
+            parent_category=row["parentCategory"],
+            topic_match=row["topicMatch"],
+            min_subscribers=MIN_SUBSCRIBERS,
+            min_baseline=MIN_BASELINE,
+            export_name=row["exportName"],
+            out_file=row["dataFile"],
+        )
+        for row in _load_manifest(path)
+    }
+
+
+SUBGENRES: dict[str, Subgenre] = load_subgenres()
 
 
 class ReportError(Exception):
@@ -972,6 +468,291 @@ def generate_subgenre(subgenre: Subgenre, out_dir: str, base_url: str, user: str
     return out_path
 
 
+# --- --discover (GG-724 auto-discovery, weekly) ------------------------------------------------
+# Same idea as scripts/generate-reports.py --discover (TikTok): count the full tag space in
+# ClickHouse instead of the fixed manifest list, add anything new that clears the same thresholds
+# already used for the 36 niches + 23 subgenres, publish it, and log (without touching the page)
+# anything already published that has dropped below threshold. Never removes a published slug.
+#
+# Unlike TikTok (cat_l1/cat_l2 give the niche/subcategory split for free from the schema), YouTube
+# has one flat, comma-joined `topic` field -- there is no structural parent/child link between a
+# niche tag and a subgenre tag. The niche/subgenre split made by hand for the current 36+23 was:
+# a tag is a subgenre of Music/Gaming if its name contains "music" or "game" (every one of the 13
+# music + 10 game subgenres does; neither "Music" nor "Video game culture" themselves do) --
+# DISCOVER_* below applies that same substring rule to any future tag, plus the >=8/10 top-10
+# overlap check against the parent niche that was used to clear the 23 subgenres for publication
+# (see Research/2026-10-07 GG-724 YouTube-поджанры.md).
+
+DISCOVER_TOPICS_QUERY = """
+SELECT trim(BOTH ' ' FROM arrayJoin(splitByChar(',', coalesce(topic,'')))) AS single_topic,
+       count() AS n
+FROM channels_latest_mat FINAL
+WHERE length(splitByChar(',', coalesce(topic,''))) <= 2
+  AND insufficient_history_30d = 0
+  AND insufficient_views_history_30d = 0
+  AND subscribers >= {min_subscribers:UInt64}
+  AND (subscribers - subs_30d) >= {min_baseline:UInt64}
+  AND latest_stat_date >= today() - 3
+GROUP BY single_topic
+ORDER BY n DESC
+FORMAT TSV
+"""
+
+# Same >=8/10 "basically a duplicate" bar used when the 23 subgenres were added by hand.
+OVERLAP_DUPLICATE_THRESHOLD = 8
+MUSIC_PARENT_KEY = "music"
+GAMING_PARENT_KEY = "gaming"
+
+
+def slugify(text: str) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", text.strip().lower()).strip("-")
+    return s or "untitled"
+
+
+def unique_slug(base: str, taken: set[str]) -> str:
+    if base not in taken:
+        return base
+    i = 2
+    while f"{base}-{i}" in taken:
+        i += 1
+    return f"{base}-{i}"
+
+
+def camel_export_name(slug: str, suffix: str) -> str:
+    first, *rest = slug.split("-")
+    return first + "".join(p.capitalize() for p in rest) + suffix
+
+
+def is_music_subgenre_tag(tag: str) -> bool:
+    low = tag.strip().lower()
+    return low != "music" and "music" in low
+
+
+def is_game_subgenre_tag(tag: str) -> bool:
+    low = tag.strip().lower()
+    return low != "video game culture" and "game" in low
+
+
+def top10_channel_names(base_url: str, user: str, password: str, topic_match: str) -> list[str]:
+    # A throwaway Niche just to reuse fetch_channels()'s duck-typed niche.topic_match/
+    # min_subscribers/min_baseline lookup -- key/export_name/out_file are never read for this.
+    probe = Niche(
+        key="__probe__",
+        category=topic_match,
+        topic_match=topic_match,
+        min_subscribers=MIN_SUBSCRIBERS,
+        min_baseline=MIN_BASELINE,
+        export_name="__probe__",
+        out_file="__probe__",
+    )
+    return [c["channelName"] for c in fetch_channels(base_url, user, password, probe)]
+
+
+def overlap_with_parent(base_url: str, user: str, password: str, candidate_topic_match: str, parent_topic_match: str) -> int:
+    candidate = top10_channel_names(base_url, user, password, candidate_topic_match)
+    parent = set(top10_channel_names(base_url, user, password, parent_topic_match))
+    return sum(1 for name in candidate if name in parent)
+
+
+def discover_niches(
+    base_url: str,
+    user: str,
+    password: str,
+    tag_counts: dict[str, int],
+    existing_niches: dict[str, Niche],
+    existing_subgenres: dict[str, Subgenre],
+) -> tuple[list[Niche], list[tuple[str, int]]]:
+    existing_by_topic = {n.topic_match: key for key, n in existing_niches.items()}
+    existing_subgenre_topics = {s.topic_match for s in existing_subgenres.values()}
+    taken_slugs = set(existing_niches) | set(existing_subgenres)
+
+    new_niches: list[Niche] = []
+    degraded: list[tuple[str, int]] = []
+    for tag, n in tag_counts.items():
+        if tag == "":
+            continue
+        existing_key = existing_by_topic.get(tag)
+        if existing_key is not None:
+            if n < MIN_CHANNELS:
+                degraded.append((existing_key, n))
+            continue
+        if tag in existing_subgenre_topics:
+            continue  # already published as a subgenre, not a standalone niche
+        if is_music_subgenre_tag(tag) or is_game_subgenre_tag(tag):
+            continue  # candidate subgenre, handled by discover_subgenres() instead
+        if n < MIN_CHANNELS:
+            continue
+        slug = unique_slug(slugify(tag), taken_slugs)
+        taken_slugs.add(slug)
+        new_niches.append(
+            Niche(
+                key=slug,
+                category=tag,
+                topic_match=tag,
+                min_subscribers=MIN_SUBSCRIBERS,
+                min_baseline=MIN_BASELINE,
+                export_name=camel_export_name(slug, "Report"),
+                out_file=f"youtube-{slug}-report.ts",
+            )
+        )
+    return new_niches, degraded
+
+
+def discover_subgenres(
+    base_url: str,
+    user: str,
+    password: str,
+    tag_counts: dict[str, int],
+    existing_subgenres: dict[str, Subgenre],
+    niches_by_key: dict[str, Niche],
+) -> tuple[list[Subgenre], list[tuple[str, int]]]:
+    existing_by_topic = {s.topic_match: key for key, s in existing_subgenres.items()}
+    taken_slugs = set(existing_subgenres) | set(niches_by_key)
+
+    new_subgenres: list[Subgenre] = []
+    degraded: list[tuple[str, int]] = []
+    for tag, n in tag_counts.items():
+        if tag == "" or not (is_music_subgenre_tag(tag) or is_game_subgenre_tag(tag)):
+            continue
+        existing_key = existing_by_topic.get(tag)
+        if existing_key is not None:
+            if n < MIN_CHANNELS:
+                degraded.append((existing_key, n))
+            continue
+        if n < MIN_CHANNELS:
+            continue
+        parent_key = MUSIC_PARENT_KEY if is_music_subgenre_tag(tag) else GAMING_PARENT_KEY
+        parent = niches_by_key.get(parent_key)
+        if parent is None:
+            print(
+                f"generate-youtube-reports --discover: subgenre candidate {tag!r} has no "
+                f"published parent niche {parent_key!r}, skipping",
+                file=sys.stderr,
+            )
+            continue
+        overlap = overlap_with_parent(base_url, user, password, tag, parent.topic_match)
+        if overlap >= OVERLAP_DUPLICATE_THRESHOLD:
+            print(
+                f"generate-youtube-reports --discover: subgenre candidate {tag!r} overlaps parent "
+                f"{parent.key!r} top-10 by {overlap}/10 (>= {OVERLAP_DUPLICATE_THRESHOLD}), not publishing",
+                file=sys.stderr,
+            )
+            continue
+        slug = unique_slug(slugify(tag), taken_slugs)
+        taken_slugs.add(slug)
+        new_subgenres.append(
+            Subgenre(
+                key=slug,
+                subgenre=tag,
+                parent_key=parent.key,
+                parent_category=parent.category,
+                topic_match=tag,
+                min_subscribers=MIN_SUBSCRIBERS,
+                min_baseline=MIN_BASELINE,
+                export_name=camel_export_name(slug, "SubReport"),
+                out_file=f"youtube-sub-{slug}-report.ts",
+            )
+        )
+    return new_subgenres, degraded
+
+
+def run_discover(out_dir: str, base_url: str, user: str, password: str) -> int:
+    try:
+        text = ch_query(
+            base_url,
+            user,
+            password,
+            DISCOVER_TOPICS_QUERY,
+            {"min_subscribers": MIN_SUBSCRIBERS, "min_baseline": MIN_BASELINE},
+        )
+    except ReportError as e:
+        print(f"generate-youtube-reports --discover: topic discovery query failed: {e}", file=sys.stderr)
+        return 1
+
+    tag_counts: dict[str, int] = {}
+    for row in parse_tsv(text):
+        if len(row) != 2:
+            continue
+        tag_counts[row[0].strip()] = int(row[1])
+
+    new_niches, degraded_niches = discover_niches(base_url, user, password, tag_counts, NICHES, SUBGENRES)
+    all_niches = {**NICHES, **{n.key: n for n in new_niches}}
+    new_subgenres, degraded_subgenres = discover_subgenres(
+        base_url, user, password, tag_counts, SUBGENRES, all_niches
+    )
+
+    for niche in new_niches:
+        try:
+            out_path = generate(niche, out_dir, base_url, user, password)
+        except ReportError as e:
+            print(f"generate-youtube-reports --discover: new niche={niche.key} failed to publish: {e}", file=sys.stderr)
+            continue
+        print(f"generate-youtube-reports --discover: published new niche {niche.key} ({out_path})")
+
+    for subgenre in new_subgenres:
+        try:
+            out_path = generate_subgenre(subgenre, out_dir, base_url, user, password)
+        except ReportError as e:
+            print(
+                f"generate-youtube-reports --discover: new subgenre={subgenre.key} failed to publish: {e}",
+                file=sys.stderr,
+            )
+            continue
+        print(f"generate-youtube-reports --discover: published new subgenre {subgenre.key} ({out_path})")
+
+    # Only entries whose report file actually got written go into the manifest -- same "don't
+    # publish a broken page" guarantee as the daily run.
+    ok_new_niches = [n for n in new_niches if os.path.exists(os.path.join(out_dir, n.out_file))]
+    ok_new_subgenres = [s for s in new_subgenres if os.path.exists(os.path.join(out_dir, s.out_file))]
+
+    if ok_new_niches:
+        rows = _load_manifest(NICHES_MANIFEST)
+        rows += [
+            {
+                "slug": n.key,
+                "category": n.category,
+                "topicMatch": n.topic_match,
+                "exportName": n.export_name,
+                "dataFile": n.out_file,
+            }
+            for n in ok_new_niches
+        ]
+        rows.sort(key=lambda r: r["slug"])
+        _dump_manifest(NICHES_MANIFEST, rows)
+
+    if ok_new_subgenres:
+        rows = _load_manifest(SUBGENRES_MANIFEST)
+        rows += [
+            {
+                "slug": s.key,
+                "subgenre": s.subgenre,
+                "parentSlug": s.parent_key,
+                "parentCategory": s.parent_category,
+                "topicMatch": s.topic_match,
+                "exportName": s.export_name,
+                "dataFile": s.out_file,
+            }
+            for s in ok_new_subgenres
+        ]
+        rows.sort(key=lambda r: r["slug"])
+        _dump_manifest(SUBGENRES_MANIFEST, rows)
+
+    print(
+        "generate-youtube-reports --discover: summary -- "
+        f"niches: {len(NICHES)} published, {len(ok_new_niches)} new, {len(degraded_niches)} below threshold today; "
+        f"subgenres: {len(SUBGENRES)} published, {len(ok_new_subgenres)} new, "
+        f"{len(degraded_subgenres)} below threshold today"
+    )
+    for key, n in degraded_niches:
+        print(f"generate-youtube-reports --discover: niche={key} now has only {n} channels (< {MIN_CHANNELS}); page kept as-is")
+    for key, n in degraded_subgenres:
+        print(
+            f"generate-youtube-reports --discover: subgenre={key} now has only {n} channels "
+            f"(< {MIN_CHANNELS}); page kept as-is"
+        )
+    return 0
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--niche", default="all", choices=sorted(NICHES) + ["all"])
@@ -980,6 +761,18 @@ def main() -> int:
         "--out-dir",
         default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "data"),
         help="directory to write <niche>-report.ts / youtube-sub-<slug>-report.ts into (default: repo's src/data)",
+    )
+    parser.add_argument(
+        "--discover",
+        action="store_true",
+        help=(
+            "instead of regenerating the niches/subgenres already in the manifests "
+            "(--niche/--subgenre, above), count the full topic-tag space in ClickHouse, add "
+            "anything new that clears the same thresholds to the manifests and publish it, and "
+            "log anything already published that has dropped below threshold (without touching "
+            "its page). Meant for a separate, weekly timer -- does not also run the "
+            "--niche/--subgenre regeneration."
+        ),
     )
     args = parser.parse_args()
 
@@ -990,6 +783,9 @@ def main() -> int:
     except KeyError as e:
         print(f"generate-youtube-reports: missing required env var {e}", file=sys.stderr)
         return 1
+
+    if args.discover:
+        return run_discover(args.out_dir, base_url, user, password)
 
     niches = list(NICHES.values()) if args.niche == "all" else [NICHES[args.niche]]
     subgenres = list(SUBGENRES.values()) if args.subgenre == "all" else [SUBGENRES[args.subgenre]]

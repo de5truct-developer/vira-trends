@@ -1,0 +1,209 @@
+[
+  {
+    "slug": "music-of-asia",
+    "subgenre": "Music of Asia",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Music of Asia",
+    "exportName": "youtubeMusicOfAsiaSubReport",
+    "dataFile": "youtube-sub-music-of-asia-report.ts"
+  },
+  {
+    "slug": "electronic-music",
+    "subgenre": "Electronic music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Electronic music",
+    "exportName": "youtubeElectronicMusicSubReport",
+    "dataFile": "youtube-sub-electronic-music-report.ts"
+  },
+  {
+    "slug": "hip-hop-music",
+    "subgenre": "Hip hop music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Hip hop music",
+    "exportName": "youtubeHipHopMusicSubReport",
+    "dataFile": "youtube-sub-hip-hop-music-report.ts"
+  },
+  {
+    "slug": "music-of-latin-america",
+    "subgenre": "Music of Latin America",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Music of Latin America",
+    "exportName": "youtubeMusicOfLatinAmericaSubReport",
+    "dataFile": "youtube-sub-music-of-latin-america-report.ts"
+  },
+  {
+    "slug": "pop-music",
+    "subgenre": "Pop music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Pop music",
+    "exportName": "youtubePopMusicSubReport",
+    "dataFile": "youtube-sub-pop-music-report.ts"
+  },
+  {
+    "slug": "rock-music",
+    "subgenre": "Rock music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Rock music",
+    "exportName": "youtubeRockMusicSubReport",
+    "dataFile": "youtube-sub-rock-music-report.ts"
+  },
+  {
+    "slug": "classical-music",
+    "subgenre": "Classical music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Classical music",
+    "exportName": "youtubeClassicalMusicSubReport",
+    "dataFile": "youtube-sub-classical-music-report.ts"
+  },
+  {
+    "slug": "jazz",
+    "subgenre": "Jazz",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Jazz",
+    "exportName": "youtubeJazzSubReport",
+    "dataFile": "youtube-sub-jazz-report.ts"
+  },
+  {
+    "slug": "christian-music",
+    "subgenre": "Christian music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Christian music",
+    "exportName": "youtubeChristianMusicSubReport",
+    "dataFile": "youtube-sub-christian-music-report.ts"
+  },
+  {
+    "slug": "country-music",
+    "subgenre": "Country music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Country music",
+    "exportName": "youtubeCountryMusicSubReport",
+    "dataFile": "youtube-sub-country-music-report.ts"
+  },
+  {
+    "slug": "reggae",
+    "subgenre": "Reggae",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Reggae",
+    "exportName": "youtubeReggaeSubReport",
+    "dataFile": "youtube-sub-reggae-report.ts"
+  },
+  {
+    "slug": "soul-music",
+    "subgenre": "Soul music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Soul music",
+    "exportName": "youtubeSoulMusicSubReport",
+    "dataFile": "youtube-sub-soul-music-report.ts"
+  },
+  {
+    "slug": "independent-music",
+    "subgenre": "Independent music",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "topicMatch": "Independent music",
+    "exportName": "youtubeIndependentMusicSubReport",
+    "dataFile": "youtube-sub-independent-music-report.ts"
+  },
+  {
+    "slug": "action-game",
+    "subgenre": "Action game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Action game",
+    "exportName": "youtubeActionGameSubReport",
+    "dataFile": "youtube-sub-action-game-report.ts"
+  },
+  {
+    "slug": "role-playing-video-game",
+    "subgenre": "Role-playing video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Role-playing video game",
+    "exportName": "youtubeRolePlayingVideoGameSubReport",
+    "dataFile": "youtube-sub-role-playing-video-game-report.ts"
+  },
+  {
+    "slug": "sports-game",
+    "subgenre": "Sports game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Sports game",
+    "exportName": "youtubeSportsGameSubReport",
+    "dataFile": "youtube-sub-sports-game-report.ts"
+  },
+  {
+    "slug": "simulation-video-game",
+    "subgenre": "Simulation video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Simulation video game",
+    "exportName": "youtubeSimulationVideoGameSubReport",
+    "dataFile": "youtube-sub-simulation-video-game-report.ts"
+  },
+  {
+    "slug": "puzzle-video-game",
+    "subgenre": "Puzzle video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Puzzle video game",
+    "exportName": "youtubePuzzleVideoGameSubReport",
+    "dataFile": "youtube-sub-puzzle-video-game-report.ts"
+  },
+  {
+    "slug": "racing-video-game",
+    "subgenre": "Racing video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Racing video game",
+    "exportName": "youtubeRacingVideoGameSubReport",
+    "dataFile": "youtube-sub-racing-video-game-report.ts"
+  },
+  {
+    "slug": "music-video-game",
+    "subgenre": "Music video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Music video game",
+    "exportName": "youtubeMusicVideoGameSubReport",
+    "dataFile": "youtube-sub-music-video-game-report.ts"
+  },
+  {
+    "slug": "action-adventure-game",
+    "subgenre": "Action-adventure game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Action-adventure game",
+    "exportName": "youtubeActionAdventureGameSubReport",
+    "dataFile": "youtube-sub-action-adventure-game-report.ts"
+  },
+  {
+    "slug": "strategy-video-game",
+    "subgenre": "Strategy video game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Strategy video game",
+    "exportName": "youtubeStrategyVideoGameSubReport",
+    "dataFile": "youtube-sub-strategy-video-game-report.ts"
+  },
+  {
+    "slug": "casual-game",
+    "subgenre": "Casual game",
+    "parentSlug": "gaming",
+    "parentCategory": "Video game culture",
+    "topicMatch": "Casual game",
+    "exportName": "youtubeCasualGameSubReport",
+    "dataFile": "youtube-sub-casual-game-report.ts"
+  }
+]
