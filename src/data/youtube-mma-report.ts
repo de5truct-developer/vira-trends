@@ -47,16 +47,6 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       channelCreatedAt: "2015-03-18",
     },
     {
-      channelName: "KURUMI_CHANNEL",
-      channelUrl: "https://www.youtube.com/channel/UCPcyz6Im00bW0pN1X8tRR6w",
-      topic: "Lifestyle (sociology), Mixed martial arts",
-      subscribers: 78400,
-      subsGained30d: 0,
-      growthPct: 0.0,
-      viewsGained30d: 44016,
-      channelCreatedAt: "2019-11-01",
-    },
-    {
       channelName: "ほのぼのかいちゃんねる",
       channelUrl: "https://www.youtube.com/channel/UCEReo3ko80VlilHyIM-Lm9Q",
       topic: "Lifestyle (sociology), Mixed martial arts",
@@ -65,6 +55,16 @@ export const youtubeMmaReport: YoutubeNicheReport = {
       growthPct: 0.0,
       viewsGained30d: 1308884,
       channelCreatedAt: "2019-06-11",
+    },
+    {
+      channelName: "KURUMI_CHANNEL",
+      channelUrl: "https://www.youtube.com/channel/UCPcyz6Im00bW0pN1X8tRR6w",
+      topic: "Lifestyle (sociology), Mixed martial arts",
+      subscribers: 78400,
+      subsGained30d: 0,
+      growthPct: 0.0,
+      viewsGained30d: 44016,
+      channelCreatedAt: "2019-11-01",
     },
   ],
   methodologyNote:
