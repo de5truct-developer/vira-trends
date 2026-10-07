@@ -168,8 +168,32 @@ import { youtubeVolleyballReport } from "../data/youtube-volleyball-report";
 import { youtubeGolfReport } from "../data/youtube-golf-report";
 import { youtubeBoxingReport } from "../data/youtube-boxing-report";
 import { youtubeMmaReport } from "../data/youtube-mma-report";
+import { youtubeMusicOfAsiaSubReport } from "../data/youtube-sub-music-of-asia-report";
+import { youtubeElectronicMusicSubReport } from "../data/youtube-sub-electronic-music-report";
+import { youtubeHipHopMusicSubReport } from "../data/youtube-sub-hip-hop-music-report";
+import { youtubeMusicOfLatinAmericaSubReport } from "../data/youtube-sub-music-of-latin-america-report";
+import { youtubePopMusicSubReport } from "../data/youtube-sub-pop-music-report";
+import { youtubeRockMusicSubReport } from "../data/youtube-sub-rock-music-report";
+import { youtubeClassicalMusicSubReport } from "../data/youtube-sub-classical-music-report";
+import { youtubeJazzSubReport } from "../data/youtube-sub-jazz-report";
+import { youtubeChristianMusicSubReport } from "../data/youtube-sub-christian-music-report";
+import { youtubeCountryMusicSubReport } from "../data/youtube-sub-country-music-report";
+import { youtubeReggaeSubReport } from "../data/youtube-sub-reggae-report";
+import { youtubeSoulMusicSubReport } from "../data/youtube-sub-soul-music-report";
+import { youtubeIndependentMusicSubReport } from "../data/youtube-sub-independent-music-report";
+import { youtubeActionGameSubReport } from "../data/youtube-sub-action-game-report";
+import { youtubeRolePlayingVideoGameSubReport } from "../data/youtube-sub-role-playing-video-game-report";
+import { youtubeSportsGameSubReport } from "../data/youtube-sub-sports-game-report";
+import { youtubeSimulationVideoGameSubReport } from "../data/youtube-sub-simulation-video-game-report";
+import { youtubePuzzleVideoGameSubReport } from "../data/youtube-sub-puzzle-video-game-report";
+import { youtubeRacingVideoGameSubReport } from "../data/youtube-sub-racing-video-game-report";
+import { youtubeMusicVideoGameSubReport } from "../data/youtube-sub-music-video-game-report";
+import { youtubeActionAdventureGameSubReport } from "../data/youtube-sub-action-adventure-game-report";
+import { youtubeStrategyVideoGameSubReport } from "../data/youtube-sub-strategy-video-game-report";
+import { youtubeCasualGameSubReport } from "../data/youtube-sub-casual-game-report";
 import type { TikTokReport } from "../data/tiktok-report-types";
 import type { YoutubeNicheReport } from "../data/youtube-report-types";
+import type { YoutubeSubgenreReport } from "../data/youtube-subgenre-report-types";
 
 export const prerender = true;
 
@@ -352,6 +376,32 @@ const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
   { slug: "mma", report: youtubeMmaReport },
 ];
 
+const YOUTUBE_SUBGENRE_REPORTS: { slug: string; report: YoutubeSubgenreReport }[] = [
+  { slug: "music-of-asia", report: youtubeMusicOfAsiaSubReport },
+  { slug: "electronic-music", report: youtubeElectronicMusicSubReport },
+  { slug: "hip-hop-music", report: youtubeHipHopMusicSubReport },
+  { slug: "music-of-latin-america", report: youtubeMusicOfLatinAmericaSubReport },
+  { slug: "pop-music", report: youtubePopMusicSubReport },
+  { slug: "rock-music", report: youtubeRockMusicSubReport },
+  { slug: "classical-music", report: youtubeClassicalMusicSubReport },
+  { slug: "jazz", report: youtubeJazzSubReport },
+  { slug: "christian-music", report: youtubeChristianMusicSubReport },
+  { slug: "country-music", report: youtubeCountryMusicSubReport },
+  { slug: "reggae", report: youtubeReggaeSubReport },
+  { slug: "soul-music", report: youtubeSoulMusicSubReport },
+  { slug: "independent-music", report: youtubeIndependentMusicSubReport },
+  { slug: "action-game", report: youtubeActionGameSubReport },
+  { slug: "role-playing-video-game", report: youtubeRolePlayingVideoGameSubReport },
+  { slug: "sports-game", report: youtubeSportsGameSubReport },
+  { slug: "simulation-video-game", report: youtubeSimulationVideoGameSubReport },
+  { slug: "puzzle-video-game", report: youtubePuzzleVideoGameSubReport },
+  { slug: "racing-video-game", report: youtubeRacingVideoGameSubReport },
+  { slug: "music-video-game", report: youtubeMusicVideoGameSubReport },
+  { slug: "action-adventure-game", report: youtubeActionAdventureGameSubReport },
+  { slug: "strategy-video-game", report: youtubeStrategyVideoGameSubReport },
+  { slug: "casual-game", report: youtubeCasualGameSubReport },
+];
+
 export const GET: APIRoute = () => {
   const tiktokLines = TIKTOK_REPORTS.map(({ slug, report }) => {
     const top = report.topics[0];
@@ -403,6 +453,18 @@ export const GET: APIRoute = () => {
     );
   });
 
+  const subgenreLines = YOUTUBE_SUBGENRE_REPORTS.map(({ slug, report }) => {
+    const top = report.channels[0];
+    return (
+      `- [${report.subgenre} channel growth (part of ${report.parentCategory})](https://trends.tryvira.app/reports/youtube/sub/${slug}) — ` +
+      `${report.channels.length} fastest-growing YouTube channels tagged ${report.subgenre}, ` +
+      `30-day window ending ${report.dataAsOf}, page updated ${report.updatedAt}. Top mover: ` +
+      `"${top.channelName}" (${top.topic}), +${top.growthPct}% subscribers in 30 days, ` +
+      `${top.subscribers.toLocaleString("en-US")} subscribers total. Full facts: ` +
+      `https://trends.tryvira.app/reports/youtube/sub/${slug}/llms-full.txt`
+    );
+  });
+
   const body = `# Vira Trend Reports
 
 > Free, structured reports on the fastest-growing TikTok search topics and YouTube channels by
@@ -428,6 +490,12 @@ ${subcategoryLines.join("\n")}
 ## YouTube analytics reports
 ${youtubeLines.join("\n")}
 - Full index, plain text, all niches: https://trends.tryvira.app/llms-full.txt
+
+## YouTube analytics reports (by subgenre)
+> Same growth methodology, but narrowed to one topic tag nested inside the Music or Gaming
+> niche above (YouTube's own topicCategories).
+${subgenreLines.join("\n")}
+- Full index, plain text, all subgenres: https://trends.tryvira.app/llms-full.txt
 
 ## Methodology
 - https://trends.tryvira.app/reports/methodology — how growth, trust and video/subscriber counts

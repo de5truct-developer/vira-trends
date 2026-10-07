@@ -1,25 +1,26 @@
 ---
-// Shared layout for every /reports/youtube/<slug> page (GG-724). One file per niche still
-// exists under src/pages/reports/youtube/ (matches the project's per-page convention), but
-// each of those files is a few lines that just import their report data and render this.
+// Shared layout for every /reports/youtube/sub/<slug> page (GG-724 subgenre expansion).
+// Sibling of YouTubeReportPage.astro: same table/FAQ/JSON-LD shape, but framed by a narrower
+// topic tag nested inside the Music or Gaming niche, with a link back to that niche.
 import BaseLayout from "../layouts/BaseLayout.astro";
-import type { YoutubeNicheReport } from "../data/youtube-report-types";
+import type { YoutubeSubgenreReport } from "../data/youtube-subgenre-report-types";
 
 interface Props {
-  report: YoutubeNicheReport;
+  report: YoutubeSubgenreReport;
   slug: string;
-  subgenres?: { slug: string; name: string }[]; // GG-724 subgenre expansion, optional
 }
 
-const { report, slug, subgenres } = Astro.props;
-const { channels, niche, dataAsOf, updatedAt, methodologyNote, highlightChannel, region } = report;
+const { report, slug } = Astro.props;
+const { channels, subgenre, parentCategory, parentSlug, dataAsOf, updatedAt, methodologyNote, highlightChannel, region } =
+  report;
 const top = channels[0];
-const pageUrl = `https://trends.tryvira.app/reports/youtube/${slug}`;
-const llmsFullUrl = `/reports/youtube/${slug}/llms-full.txt`;
+const pageUrl = `https://trends.tryvira.app/reports/youtube/sub/${slug}`;
+const llmsFullUrl = `/reports/youtube/sub/${slug}/llms-full.txt`;
+const parentUrl = `/reports/youtube/${parentSlug}`;
 
 const faq = [
   {
-    question: `Which YouTube ${niche} channel is growing fastest right now?`,
+    question: `Which YouTube ${subgenre} channel is growing fastest right now?`,
     answer:
       `"${top.channelName}" (${top.topic}) gained ${top.subsGained30d.toLocaleString("en-US")} ` +
       `subscribers in the last 30 days, a ${top.growthPct}% increase over its subscriber count a ` +
@@ -35,21 +36,22 @@ const faq = [
       "no real baseline skewing the ranking.",
   },
   {
-    question: "Where does the \"topic\" label come from?",
+    question: `How is ${subgenre} related to ${parentCategory}?`,
     answer:
-      "Topic is YouTube's own classification for the channel (its public topicCategories), not " +
-      "Vira's editorial judgment. Channels tagged with more than two topics are excluded from this " +
-      "report to keep the niche match tight.",
+      `${subgenre} is a narrower topic tag within YouTube's broader ${parentCategory} category. ` +
+      `This report narrows the ranking to just ${subgenre}; see the ${parentCategory} report for ` +
+      "the fastest-growing channels across all of its topics.",
   },
 ];
 
 const datasetJsonLd = {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  name: `YouTube ${niche} channel growth — data as of ${dataAsOf}`,
+  name: `YouTube ${subgenre} channel growth — data as of ${dataAsOf}`,
   description:
-    `Fastest-growing YouTube channels in the ${niche} niche, ranked by percentage subscriber ` +
-    "growth over the last 30 days, with current subscribers, views gained and channel age.",
+    `Fastest-growing YouTube channels tagged ${subgenre} (part of ${parentCategory}), ranked by ` +
+    "percentage subscriber growth over the last 30 days, with current subscribers, views gained " +
+    "and channel age.",
   url: pageUrl,
   dateModified: updatedAt,
   temporalCoverage: `${dataAsOf}/${dataAsOf}`,
@@ -74,13 +76,14 @@ const faqJsonLd = {
 };
 ---
 <BaseLayout
-  title={`YouTube ${niche} channel growth | Vira`}
-  description={`${channels.length} fastest-growing YouTube channels in the ${niche} niche, ranked by 30-day subscriber growth, data as of ${dataAsOf}. Subscribers, growth %, views gained and channel age for each.`}
+  title={`YouTube ${subgenre} channel growth | Vira`}
+  description={`${channels.length} fastest-growing YouTube channels tagged ${subgenre} (part of ${parentCategory}), ranked by 30-day subscriber growth, data as of ${dataAsOf}. Subscribers, growth %, views gained and channel age for each.`}
   jsonLd={[datasetJsonLd, faqJsonLd]}
 >
-  <h1>YouTube {niche} channel growth</h1>
+  <h1>YouTube {subgenre} channel growth</h1>
   <p class="meta">
-    Region: {region} &middot; 30-day growth window ending {dataAsOf} &middot; Page updated {updatedAt}
+    Part of <a href={parentUrl}>{parentCategory}</a> &middot; Region: {region} &middot;
+    30-day growth window ending {dataAsOf} &middot; Page updated {updatedAt}
   </p>
 
   <p>{methodologyNote}</p>
@@ -122,18 +125,6 @@ const faqJsonLd = {
       <p>{f.answer}</p>
     </>
   ))}
-
-  {subgenres && subgenres.length > 0 && (
-    <>
-      <h2>Subgenres</h2>
-      <p>Narrower {niche} reports, by YouTube's own topic tags:</p>
-      <ul>
-        {subgenres.map((s) => (
-          <li><a href={`/reports/youtube/sub/${s.slug}`}>{s.name}</a></li>
-        ))}
-      </ul>
-    </>
-  )}
 
   <h2>Data and methodology</h2>
   <p>
