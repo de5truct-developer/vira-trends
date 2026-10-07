@@ -1,0 +1,18 @@
+---
+// Dynamic route replacing the old one-file-per-subcategory src/pages/reports/tiktok/sub/<slug>.astro
+// pages (GG-724 auto-discovery). See src/pages/reports/tiktok/[niche].astro for the same pattern.
+import TikTokSubcategoryReportPage from "../../../../components/TikTokSubcategoryReportPage.astro";
+import { SUBCATEGORIES, loadSubcategoryReport, type SubcategoryManifestEntry } from "../../../../lib/tiktok-data";
+
+interface Props {
+  subcategory: SubcategoryManifestEntry;
+}
+
+export function getStaticPaths() {
+  return SUBCATEGORIES.map((subcategory) => ({ params: { slug: subcategory.slug }, props: { subcategory } }));
+}
+
+const { subcategory } = Astro.props;
+const report = loadSubcategoryReport(subcategory);
+---
+<TikTokSubcategoryReportPage report={report} slug={subcategory.slug} />

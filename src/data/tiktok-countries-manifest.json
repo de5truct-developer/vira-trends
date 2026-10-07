@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "id",
+    "name": "Indonesia",
+    "code": "ID",
+    "exportName": "idCountryReport",
+    "dataFile": "tiktok-country-id-report.ts"
+  },
+  {
+    "slug": "ph",
+    "name": "Philippines",
+    "code": "PH",
+    "exportName": "phCountryReport",
+    "dataFile": "tiktok-country-ph-report.ts"
+  },
+  {
+    "slug": "us",
+    "name": "United States",
+    "code": "US",
+    "exportName": "usCountryReport",
+    "dataFile": "tiktok-country-us-report.ts"
+  },
+  {
+    "slug": "br",
+    "name": "Brazil",
+    "code": "BR",
+    "exportName": "brCountryReport",
+    "dataFile": "tiktok-country-br-report.ts"
+  },
+  {
+    "slug": "mx",
+    "name": "Mexico",
+    "code": "MX",
+    "exportName": "mxCountryReport",
+    "dataFile": "tiktok-country-mx-report.ts"
+  },
+  {
+    "slug": "gb",
+    "name": "United Kingdom",
+    "code": "GB",
+    "exportName": "gbCountryReport",
+    "dataFile": "tiktok-country-gb-report.ts"
+  },
+  {
+    "slug": "vn",
+    "name": "Vietnam",
+    "code": "VN",
+    "exportName": "vnCountryReport",
+    "dataFile": "tiktok-country-vn-report.ts"
+  },
+  {
+    "slug": "my",
+    "name": "Malaysia",
+    "code": "MY",
+    "exportName": "myCountryReport",
+    "dataFile": "tiktok-country-my-report.ts"
+  },
+  {
+    "slug": "bd",
+    "name": "Bangladesh",
+    "code": "BD",
+    "exportName": "bdCountryReport",
+    "dataFile": "tiktok-country-bd-report.ts"
+  },
+  {
+    "slug": "pk",
+    "name": "Pakistan",
+    "code": "PK",
+    "exportName": "pkCountryReport",
+    "dataFile": "tiktok-country-pk-report.ts"
+  },
+  {
+    "slug": "ca",
+    "name": "Canada",
+    "code": "CA",
+    "exportName": "caCountryReport",
+    "dataFile": "tiktok-country-ca-report.ts"
+  },
+  {
+    "slug": "ng",
+    "name": "Nigeria",
+    "code": "NG",
+    "exportName": "ngCountryReport",
+    "dataFile": "tiktok-country-ng-report.ts"
+  },
+  {
+    "slug": "mm",
+    "name": "Myanmar",
+    "code": "MM",
+    "exportName": "mmCountryReport",
+    "dataFile": "tiktok-country-mm-report.ts"
+  },
+  {
+    "slug": "za",
+    "name": "South Africa",
+    "code": "ZA",
+    "exportName": "zaCountryReport",
+    "dataFile": "tiktok-country-za-report.ts"
+  },
+  {
+    "slug": "au",
+    "name": "Australia",
+    "code": "AU",
+    "exportName": "auCountryReport",
+    "dataFile": "tiktok-country-au-report.ts"
+  },
+  {
+    "slug": "sa",
+    "name": "Saudi Arabia",
+    "code": "SA",
+    "exportName": "saCountryReport",
+    "dataFile": "tiktok-country-sa-report.ts"
+  },
+  {
+    "slug": "th",
+    "name": "Thailand",
+    "code": "TH",
+    "exportName": "thCountryReport",
+    "dataFile": "tiktok-country-th-report.ts"
+  },
+  {
+    "slug": "eg",
+    "name": "Egypt",
+    "code": "EG",
+    "exportName": "egCountryReport",
+    "dataFile": "tiktok-country-eg-report.ts"
+  }
+]

@@ -1,0 +1,25 @@
+---
+// Dynamic route replacing the old one-file-per-niche src/pages/reports/tiktok/<slug>.astro
+// pages (GG-724 auto-discovery). getStaticPaths() below is what makes this still a fully
+// prerendered static page per niche -- same output, now driven by the manifest instead of one
+// file on disk per niche.
+import TikTokReportPage from "../../../components/TikTokReportPage.astro";
+import { NICHES, loadNicheReport, subcategoriesFor, type NicheManifestEntry } from "../../../lib/tiktok-data";
+
+interface Props {
+  niche: NicheManifestEntry;
+}
+
+export function getStaticPaths() {
+  return NICHES.map((niche) => ({ params: { niche: niche.slug }, props: { niche } }));
+}
+
+const { niche } = Astro.props;
+const report = loadNicheReport(niche);
+const subcategories = subcategoriesFor(niche.slug);
+---
+<TikTokReportPage
+  report={report}
+  slug={niche.slug}
+  subcategories={subcategories.length > 0 ? subcategories : undefined}
+/>

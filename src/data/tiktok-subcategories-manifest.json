@@ -1,0 +1,892 @@
+[
+  {
+    "slug": "acgn-animation-and-comics",
+    "subcategory": "Animation and Comics",
+    "parentSlug": "acgn",
+    "parentCategory": "ACGN (Anime, Comics, Games & Novels)",
+    "catL1": "ACGN",
+    "catL2": "Animation and Comics",
+    "exportName": "acgnAnimationAndComicsSubReport",
+    "dataFile": "tiktok-sub-acgn-animation-and-comics-report.ts"
+  },
+  {
+    "slug": "acgn-games",
+    "subcategory": "Games",
+    "parentSlug": "acgn",
+    "parentCategory": "ACGN (Anime, Comics, Games & Novels)",
+    "catL1": "ACGN",
+    "catL2": "Games",
+    "exportName": "acgnGamesSubReport",
+    "dataFile": "tiktok-sub-acgn-games-report.ts"
+  },
+  {
+    "slug": "culture-religion",
+    "subcategory": "Religion",
+    "parentSlug": "culture",
+    "parentCategory": "Culture",
+    "catL1": "Culture",
+    "catL2": "Religion",
+    "exportName": "cultureReligionSubReport",
+    "dataFile": "tiktok-sub-culture-religion-report.ts"
+  },
+  {
+    "slug": "culture-serious-literature",
+    "subcategory": "Serious Literature",
+    "parentSlug": "culture",
+    "parentCategory": "Culture",
+    "catL1": "Culture",
+    "catL2": "Serious Literature",
+    "exportName": "cultureSeriousLiteratureSubReport",
+    "dataFile": "tiktok-sub-culture-serious-literature-report.ts"
+  },
+  {
+    "slug": "culture-traditions-and-culture",
+    "subcategory": "Traditions and Culture",
+    "parentSlug": "culture",
+    "parentCategory": "Culture",
+    "catL1": "Culture",
+    "catL2": "Traditions and Culture",
+    "exportName": "cultureTraditionsAndCultureSubReport",
+    "dataFile": "tiktok-sub-culture-traditions-and-culture-report.ts"
+  },
+  {
+    "slug": "culture-other-culture-content",
+    "subcategory": "Other Culture Content",
+    "parentSlug": "culture",
+    "parentCategory": "Culture",
+    "catL1": "Culture",
+    "catL2": "Other Culture Content",
+    "exportName": "cultureOtherCultureContentSubReport",
+    "dataFile": "tiktok-sub-culture-other-culture-content-report.ts"
+  },
+  {
+    "slug": "dance-dance-trend",
+    "subcategory": "Dance Trend",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Dance Trend",
+    "exportName": "danceDanceTrendSubReport",
+    "dataFile": "tiktok-sub-dance-dance-trend-report.ts"
+  },
+  {
+    "slug": "dance-dance-tutorial",
+    "subcategory": "Dance Tutorial",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Dance Tutorial",
+    "exportName": "danceDanceTutorialSubReport",
+    "dataFile": "tiktok-sub-dance-dance-tutorial-report.ts"
+  },
+  {
+    "slug": "dance-pop-dance",
+    "subcategory": "Pop Dance",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Pop Dance",
+    "exportName": "dancePopDanceSubReport",
+    "dataFile": "tiktok-sub-dance-pop-dance-report.ts"
+  },
+  {
+    "slug": "dance-other-dance-content",
+    "subcategory": "Other Dance Content",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Other Dance Content",
+    "exportName": "danceOtherDanceContentSubReport",
+    "dataFile": "tiktok-sub-dance-other-dance-content-report.ts"
+  },
+  {
+    "slug": "dance-other-dance-style",
+    "subcategory": "Other Dance Style",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Other Dance Style",
+    "exportName": "danceOtherDanceStyleSubReport",
+    "dataFile": "tiktok-sub-dance-other-dance-style-report.ts"
+  },
+  {
+    "slug": "dance-professional-dance",
+    "subcategory": "Professional Dance",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Professional Dance",
+    "exportName": "danceProfessionalDanceSubReport",
+    "dataFile": "tiktok-sub-dance-professional-dance-report.ts"
+  },
+  {
+    "slug": "dance-live-dance-performance",
+    "subcategory": "Live Dance Performance",
+    "parentSlug": "dance",
+    "parentCategory": "Dance",
+    "catL1": "Dance",
+    "catL2": "Live Dance Performance",
+    "exportName": "danceLiveDancePerformanceSubReport",
+    "dataFile": "tiktok-sub-dance-live-dance-performance-report.ts"
+  },
+  {
+    "slug": "education-language-learning",
+    "subcategory": "Language Learning",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Language Learning",
+    "exportName": "educationLanguageLearningSubReport",
+    "dataFile": "tiktok-sub-education-language-learning-report.ts"
+  },
+  {
+    "slug": "education-school-education",
+    "subcategory": "School Education",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "School Education",
+    "exportName": "educationSchoolEducationSubReport",
+    "dataFile": "tiktok-sub-education-school-education-report.ts"
+  },
+  {
+    "slug": "education-education-others",
+    "subcategory": "Education - Others",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Education - Others",
+    "exportName": "educationEducationOthersSubReport",
+    "dataFile": "tiktok-sub-education-education-others-report.ts"
+  },
+  {
+    "slug": "education-campus-life",
+    "subcategory": "Campus Life",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Campus Life",
+    "exportName": "educationCampusLifeSubReport",
+    "dataFile": "tiktok-sub-education-campus-life-report.ts"
+  },
+  {
+    "slug": "education-education-supplies",
+    "subcategory": "Education Supplies",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Education Supplies",
+    "exportName": "educationEducationSuppliesSubReport",
+    "dataFile": "tiktok-sub-education-education-supplies-report.ts"
+  },
+  {
+    "slug": "education-online-education",
+    "subcategory": "Online Education",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Online Education",
+    "exportName": "educationOnlineEducationSubReport",
+    "dataFile": "tiktok-sub-education-online-education-report.ts"
+  },
+  {
+    "slug": "education-vocational-license-exams",
+    "subcategory": "Vocational License/Exams",
+    "parentSlug": "education",
+    "parentCategory": "Education",
+    "catL1": "Education",
+    "catL2": "Vocational License/Exams",
+    "exportName": "educationVocationalLicenseExamsSubReport",
+    "dataFile": "tiktok-sub-education-vocational-license-exams-report.ts"
+  },
+  {
+    "slug": "entertainment-films-and-tvs",
+    "subcategory": "Films and TVs",
+    "parentSlug": "entertainment",
+    "parentCategory": "Entertainment",
+    "catL1": "Entertainment",
+    "catL2": "Films and TVs",
+    "exportName": "entertainmentFilmsAndTvsSubReport",
+    "dataFile": "tiktok-sub-entertainment-films-and-tvs-report.ts"
+  },
+  {
+    "slug": "entertainment-celebrity-entertainment",
+    "subcategory": "Celebrity Entertainment",
+    "parentSlug": "entertainment",
+    "parentCategory": "Entertainment",
+    "catL1": "Entertainment",
+    "catL2": "Celebrity Entertainment",
+    "exportName": "entertainmentCelebrityEntertainmentSubReport",
+    "dataFile": "tiktok-sub-entertainment-celebrity-entertainment-report.ts"
+  },
+  {
+    "slug": "fashion-fashion-tutorials",
+    "subcategory": "Fashion Tutorials",
+    "parentSlug": "fashion",
+    "parentCategory": "Fashion",
+    "catL1": "Fashion",
+    "catL2": "Fashion Tutorials",
+    "exportName": "fashionFashionTutorialsSubReport",
+    "dataFile": "tiktok-sub-fashion-fashion-tutorials-report.ts"
+  },
+  {
+    "slug": "fashion-fashion-products",
+    "subcategory": "Fashion Products",
+    "parentSlug": "fashion",
+    "parentCategory": "Fashion",
+    "catL1": "Fashion",
+    "catL2": "Fashion Products",
+    "exportName": "fashionFashionProductsSubReport",
+    "dataFile": "tiktok-sub-fashion-fashion-products-report.ts"
+  },
+  {
+    "slug": "fashion-fashion-news",
+    "subcategory": "Fashion News",
+    "parentSlug": "fashion",
+    "parentCategory": "Fashion",
+    "catL1": "Fashion",
+    "catL2": "Fashion News",
+    "exportName": "fashionFashionNewsSubReport",
+    "dataFile": "tiktok-sub-fashion-fashion-news-report.ts"
+  },
+  {
+    "slug": "featured-content-others-tiktok-and-video-contents",
+    "subcategory": "Others TikTok and Video Contents",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Others TikTok and Video Contents",
+    "exportName": "featuredContentOthersTiktokAndVideoContentsSubReport",
+    "dataFile": "tiktok-sub-featured-content-others-tiktok-and-video-contents-report.ts"
+  },
+  {
+    "slug": "featured-content-trends-challenges",
+    "subcategory": "Trends/Challenges",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Trends/Challenges",
+    "exportName": "featuredContentTrendsChallengesSubReport",
+    "dataFile": "tiktok-sub-featured-content-trends-challenges-report.ts"
+  },
+  {
+    "slug": "featured-content-life-snapshots",
+    "subcategory": "Life Snapshots",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Life Snapshots",
+    "exportName": "featuredContentLifeSnapshotsSubReport",
+    "dataFile": "tiktok-sub-featured-content-life-snapshots-report.ts"
+  },
+  {
+    "slug": "featured-content-stories-posting-captions",
+    "subcategory": "Stories/Posting Captions",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Stories/Posting Captions",
+    "exportName": "featuredContentStoriesPostingCaptionsSubReport",
+    "dataFile": "tiktok-sub-featured-content-stories-posting-captions-report.ts"
+  },
+  {
+    "slug": "featured-content-internet",
+    "subcategory": "Internet",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Internet",
+    "exportName": "featuredContentInternetSubReport",
+    "dataFile": "tiktok-sub-featured-content-internet-report.ts"
+  },
+  {
+    "slug": "featured-content-audio-bgm",
+    "subcategory": "Audio/BGM",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "Audio/BGM",
+    "exportName": "featuredContentAudioBgmSubReport",
+    "dataFile": "tiktok-sub-featured-content-audio-bgm-report.ts"
+  },
+  {
+    "slug": "gourmet-food-tutorials",
+    "subcategory": "Food Tutorials",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Food Tutorials",
+    "exportName": "gourmetFoodTutorialsSubReport",
+    "dataFile": "tiktok-sub-gourmet-food-tutorials-report.ts"
+  },
+  {
+    "slug": "gourmet-offline-catering",
+    "subcategory": "Offline Catering",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Offline Catering",
+    "exportName": "gourmetOfflineCateringSubReport",
+    "dataFile": "tiktok-sub-gourmet-offline-catering-report.ts"
+  },
+  {
+    "slug": "gourmet-food-fmcg",
+    "subcategory": "Food FMCG",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Food FMCG",
+    "exportName": "gourmetFoodFmcgSubReport",
+    "dataFile": "tiktok-sub-gourmet-food-fmcg-report.ts"
+  },
+  {
+    "slug": "gourmet-food-ingredients-fresh-food",
+    "subcategory": "Food Ingredients/Fresh Food",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Food Ingredients/Fresh Food",
+    "exportName": "gourmetFoodIngredientsFreshFoodSubReport",
+    "dataFile": "tiktok-sub-gourmet-food-ingredients-fresh-food-report.ts"
+  },
+  {
+    "slug": "gourmet-other-gourmet",
+    "subcategory": "Other Gourmet",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Other Gourmet",
+    "exportName": "gourmetOtherGourmetSubReport",
+    "dataFile": "tiktok-sub-gourmet-other-gourmet-report.ts"
+  },
+  {
+    "slug": "gourmet-food-science",
+    "subcategory": "Food Science",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Food Science",
+    "exportName": "gourmetFoodScienceSubReport",
+    "dataFile": "tiktok-sub-gourmet-food-science-report.ts"
+  },
+  {
+    "slug": "gourmet-food-festivals-activities",
+    "subcategory": "Food Festivals/Activities",
+    "parentSlug": "gourmet",
+    "parentCategory": "Gourmet",
+    "catL1": "Gourmet",
+    "catL2": "Food Festivals/Activities",
+    "exportName": "gourmetFoodFestivalsActivitiesSubReport",
+    "dataFile": "tiktok-sub-gourmet-food-festivals-activities-report.ts"
+  },
+  {
+    "slug": "healthcare-modern-medicine",
+    "subcategory": "Modern Medicine",
+    "parentSlug": "healthcare",
+    "parentCategory": "Healthcare",
+    "catL1": "Healthcare",
+    "catL2": "Modern Medicine",
+    "exportName": "healthcareModernMedicineSubReport",
+    "dataFile": "tiktok-sub-healthcare-modern-medicine-report.ts"
+  },
+  {
+    "slug": "healthcare-pan-health",
+    "subcategory": "Pan-health",
+    "parentSlug": "healthcare",
+    "parentCategory": "Healthcare",
+    "catL1": "Healthcare",
+    "catL2": "Pan-health",
+    "exportName": "healthcarePanHealthSubReport",
+    "dataFile": "tiktok-sub-healthcare-pan-health-report.ts"
+  },
+  {
+    "slug": "hobbies-gardening-and-pet",
+    "subcategory": "Gardening and Pet",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Gardening and Pet",
+    "exportName": "hobbiesGardeningAndPetSubReport",
+    "dataFile": "tiktok-sub-hobbies-gardening-and-pet-report.ts"
+  },
+  {
+    "slug": "hobbies-toys",
+    "subcategory": "Toys",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Toys",
+    "exportName": "hobbiesToysSubReport",
+    "dataFile": "tiktok-sub-hobbies-toys-report.ts"
+  },
+  {
+    "slug": "hobbies-art-related-interests",
+    "subcategory": "Art related Interests",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Art related Interests",
+    "exportName": "hobbiesArtRelatedInterestsSubReport",
+    "dataFile": "tiktok-sub-hobbies-art-related-interests-report.ts"
+  },
+  {
+    "slug": "hobbies-visual-related-interests",
+    "subcategory": "Visual related Interests",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Visual related Interests",
+    "exportName": "hobbiesVisualRelatedInterestsSubReport",
+    "dataFile": "tiktok-sub-hobbies-visual-related-interests-report.ts"
+  },
+  {
+    "slug": "hobbies-diy",
+    "subcategory": "DIY",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "DIY",
+    "exportName": "hobbiesDiySubReport",
+    "dataFile": "tiktok-sub-hobbies-diy-report.ts"
+  },
+  {
+    "slug": "hobbies-other-hobbies",
+    "subcategory": "Other Hobbies",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Other Hobbies",
+    "exportName": "hobbiesOtherHobbiesSubReport",
+    "dataFile": "tiktok-sub-hobbies-other-hobbies-report.ts"
+  },
+  {
+    "slug": "hobbies-board-and-chess-card-games",
+    "subcategory": "Board and Chess/Card Games",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Board and Chess/Card Games",
+    "exportName": "hobbiesBoardAndChessCardGamesSubReport",
+    "dataFile": "tiktok-sub-hobbies-board-and-chess-card-games-report.ts"
+  },
+  {
+    "slug": "hobbies-performance-interests-opera-art",
+    "subcategory": "Performance Interests Opera Art",
+    "parentSlug": "hobbies",
+    "parentCategory": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "catL2": "Performance Interests Opera Art",
+    "exportName": "hobbiesPerformanceInterestsOperaArtSubReport",
+    "dataFile": "tiktok-sub-hobbies-performance-interests-opera-art-report.ts"
+  },
+  {
+    "slug": "household-home-life",
+    "subcategory": "Home Life",
+    "parentSlug": "household",
+    "parentCategory": "Household",
+    "catL1": "Household",
+    "catL2": "Home Life",
+    "exportName": "householdHomeLifeSubReport",
+    "dataFile": "tiktok-sub-household-home-life-report.ts"
+  },
+  {
+    "slug": "household-house-decoration",
+    "subcategory": "House Decoration",
+    "parentSlug": "household",
+    "parentCategory": "Household",
+    "catL1": "Household",
+    "catL2": "House Decoration",
+    "exportName": "householdHouseDecorationSubReport",
+    "dataFile": "tiktok-sub-household-house-decoration-report.ts"
+  },
+  {
+    "slug": "household-real-estate",
+    "subcategory": "Real Estate",
+    "parentSlug": "household",
+    "parentCategory": "Household",
+    "catL1": "Household",
+    "catL2": "Real Estate",
+    "exportName": "householdRealEstateSubReport",
+    "dataFile": "tiktok-sub-household-real-estate-report.ts"
+  },
+  {
+    "slug": "local-life-shopping",
+    "subcategory": "Shopping",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Shopping",
+    "exportName": "localLifeShoppingSubReport",
+    "dataFile": "tiktok-sub-local-life-shopping-report.ts"
+  },
+  {
+    "slug": "local-life-leisure-and-entertainment",
+    "subcategory": "Leisure and Entertainment",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Leisure and Entertainment",
+    "exportName": "localLifeLeisureAndEntertainmentSubReport",
+    "dataFile": "tiktok-sub-local-life-leisure-and-entertainment-report.ts"
+  },
+  {
+    "slug": "local-life-offline-performance",
+    "subcategory": "Offline Performance",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Offline Performance",
+    "exportName": "localLifeOfflinePerformanceSubReport",
+    "dataFile": "tiktok-sub-local-life-offline-performance-report.ts"
+  },
+  {
+    "slug": "local-life-life-services",
+    "subcategory": "Life Services",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Life Services",
+    "exportName": "localLifeLifeServicesSubReport",
+    "dataFile": "tiktok-sub-local-life-life-services-report.ts"
+  },
+  {
+    "slug": "local-life-sports-and-fitness",
+    "subcategory": "Sports and Fitness",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Sports and Fitness",
+    "exportName": "localLifeSportsAndFitnessSubReport",
+    "dataFile": "tiktok-sub-local-life-sports-and-fitness-report.ts"
+  },
+  {
+    "slug": "local-life-galleries-and-exhibitions",
+    "subcategory": "Galleries and Exhibitions",
+    "parentSlug": "local-life",
+    "parentCategory": "Local Life",
+    "catL1": "Local Life",
+    "catL2": "Galleries and Exhibitions",
+    "exportName": "localLifeGalleriesAndExhibitionsSubReport",
+    "dataFile": "tiktok-sub-local-life-galleries-and-exhibitions-report.ts"
+  },
+  {
+    "slug": "relationships-psychology",
+    "subcategory": "Psychology",
+    "parentSlug": "relationships",
+    "parentCategory": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "catL2": "Psychology",
+    "exportName": "relationshipsPsychologySubReport",
+    "dataFile": "tiktok-sub-relationships-psychology-report.ts"
+  },
+  {
+    "slug": "relationships-emotional-phrase",
+    "subcategory": "Emotional Phrase",
+    "parentSlug": "relationships",
+    "parentCategory": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "catL2": "Emotional Phrase",
+    "exportName": "relationshipsEmotionalPhraseSubReport",
+    "dataFile": "tiktok-sub-relationships-emotional-phrase-report.ts"
+  },
+  {
+    "slug": "relationships-relationship-knowledge",
+    "subcategory": "Relationship Knowledge",
+    "parentSlug": "relationships",
+    "parentCategory": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "catL2": "Relationship Knowledge",
+    "exportName": "relationshipsRelationshipKnowledgeSubReport",
+    "dataFile": "tiktok-sub-relationships-relationship-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-biology-knowledge",
+    "subcategory": "Biology Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Biology Knowledge",
+    "exportName": "scienceFactsBiologyKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-biology-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-geology-knowledge",
+    "subcategory": "Geology Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Geology Knowledge",
+    "exportName": "scienceFactsGeologyKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-geology-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-astronomy-knowledge",
+    "subcategory": "Astronomy Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Astronomy Knowledge",
+    "exportName": "scienceFactsAstronomyKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-astronomy-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-physics-knowledge",
+    "subcategory": "Physics Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Physics Knowledge",
+    "exportName": "scienceFactsPhysicsKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-physics-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-unresolved-mysteries",
+    "subcategory": "Unresolved Mysteries",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Unresolved Mysteries",
+    "exportName": "scienceFactsUnresolvedMysteriesSubReport",
+    "dataFile": "tiktok-sub-science-facts-unresolved-mysteries-report.ts"
+  },
+  {
+    "slug": "science-facts-science-knowledge-others",
+    "subcategory": "Science Knowledge - Others",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Science Knowledge - Others",
+    "exportName": "scienceFactsScienceKnowledgeOthersSubReport",
+    "dataFile": "tiktok-sub-science-facts-science-knowledge-others-report.ts"
+  },
+  {
+    "slug": "science-technology-software",
+    "subcategory": "Software",
+    "parentSlug": "science-technology",
+    "parentCategory": "Science and Technology",
+    "catL1": "Science and Technology",
+    "catL2": "Software",
+    "exportName": "scienceTechnologySoftwareSubReport",
+    "dataFile": "tiktok-sub-science-technology-software-report.ts"
+  },
+  {
+    "slug": "science-technology-internet",
+    "subcategory": "Internet",
+    "parentSlug": "science-technology",
+    "parentCategory": "Science and Technology",
+    "catL1": "Science and Technology",
+    "catL2": "Internet",
+    "exportName": "scienceTechnologyInternetSubReport",
+    "dataFile": "tiktok-sub-science-technology-internet-report.ts"
+  },
+  {
+    "slug": "science-technology-digital",
+    "subcategory": "Digital",
+    "parentSlug": "science-technology",
+    "parentCategory": "Science and Technology",
+    "catL1": "Science and Technology",
+    "catL2": "Digital",
+    "exportName": "scienceTechnologyDigitalSubReport",
+    "dataFile": "tiktok-sub-science-technology-digital-report.ts"
+  },
+  {
+    "slug": "science-technology-web-recources-download",
+    "subcategory": "Web Recources Download",
+    "parentSlug": "science-technology",
+    "parentCategory": "Science and Technology",
+    "catL1": "Science and Technology",
+    "catL2": "Web Recources Download",
+    "exportName": "scienceTechnologyWebRecourcesDownloadSubReport",
+    "dataFile": "tiktok-sub-science-technology-web-recources-download-report.ts"
+  },
+  {
+    "slug": "science-technology-technical",
+    "subcategory": "Technical",
+    "parentSlug": "science-technology",
+    "parentCategory": "Science and Technology",
+    "catL1": "Science and Technology",
+    "catL2": "Technical",
+    "exportName": "scienceTechnologyTechnicalSubReport",
+    "dataFile": "tiktok-sub-science-technology-technical-report.ts"
+  },
+  {
+    "slug": "sports-physical-sports",
+    "subcategory": "Physical Sports",
+    "parentSlug": "sports",
+    "parentCategory": "Sports",
+    "catL1": "Sports",
+    "catL2": "Physical Sports",
+    "exportName": "sportsPhysicalSportsSubReport",
+    "dataFile": "tiktok-sub-sports-physical-sports-report.ts"
+  },
+  {
+    "slug": "sports-fitness",
+    "subcategory": "Fitness",
+    "parentSlug": "sports",
+    "parentCategory": "Sports",
+    "catL1": "Sports",
+    "catL2": "Fitness",
+    "exportName": "sportsFitnessSubReport",
+    "dataFile": "tiktok-sub-sports-fitness-report.ts"
+  },
+  {
+    "slug": "sports-sports-others",
+    "subcategory": "Sports - Others",
+    "parentSlug": "sports",
+    "parentCategory": "Sports",
+    "catL1": "Sports",
+    "catL2": "Sports - Others",
+    "exportName": "sportsSportsOthersSubReport",
+    "dataFile": "tiktok-sub-sports-sports-others-report.ts"
+  },
+  {
+    "slug": "tourism-tourism-sites",
+    "subcategory": "Tourism Sites",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Tourism Sites",
+    "exportName": "tourismTourismSitesSubReport",
+    "dataFile": "tiktok-sub-tourism-tourism-sites-report.ts"
+  },
+  {
+    "slug": "tourism-tourist-guide",
+    "subcategory": "Tourist Guide",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Tourist Guide",
+    "exportName": "tourismTouristGuideSubReport",
+    "dataFile": "tiktok-sub-tourism-tourist-guide-report.ts"
+  },
+  {
+    "slug": "tourism-administrative-division",
+    "subcategory": "Administrative Division",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Administrative Division",
+    "exportName": "tourismAdministrativeDivisionSubReport",
+    "dataFile": "tiktok-sub-tourism-administrative-division-report.ts"
+  },
+  {
+    "slug": "tourism-tourism-service",
+    "subcategory": "Tourism Service",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Tourism Service",
+    "exportName": "tourismTourismServiceSubReport",
+    "dataFile": "tiktok-sub-tourism-tourism-service-report.ts"
+  },
+  {
+    "slug": "tourism-tourist-supplies",
+    "subcategory": "Tourist Supplies",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Tourist Supplies",
+    "exportName": "tourismTouristSuppliesSubReport",
+    "dataFile": "tiktok-sub-tourism-tourist-supplies-report.ts"
+  },
+  {
+    "slug": "tourism-tourism-related-policies",
+    "subcategory": "Tourism Related Policies",
+    "parentSlug": "tourism",
+    "parentCategory": "Tourism",
+    "catL1": "Tourism",
+    "catL2": "Tourism Related Policies",
+    "exportName": "tourismTourismRelatedPoliciesSubReport",
+    "dataFile": "tiktok-sub-tourism-tourism-related-policies-report.ts"
+  },
+  {
+    "slug": "vehicles-transport-equipment",
+    "subcategory": "Transport Equipment",
+    "parentSlug": "vehicles",
+    "parentCategory": "Vehicles & Transportation",
+    "catL1": "Vehicles & Transportation",
+    "catL2": "Transport Equipment",
+    "exportName": "vehiclesTransportEquipmentSubReport",
+    "dataFile": "tiktok-sub-vehicles-transport-equipment-report.ts"
+  },
+  {
+    "slug": "vehicles-traffic-services",
+    "subcategory": "Traffic Services",
+    "parentSlug": "vehicles",
+    "parentCategory": "Vehicles & Transportation",
+    "catL1": "Vehicles & Transportation",
+    "catL2": "Traffic Services",
+    "exportName": "vehiclesTrafficServicesSubReport",
+    "dataFile": "tiktok-sub-vehicles-traffic-services-report.ts"
+  },
+  {
+    "slug": "vehicles-traffic-place-names",
+    "subcategory": "Traffic Place Names",
+    "parentSlug": "vehicles",
+    "parentCategory": "Vehicles & Transportation",
+    "catL1": "Vehicles & Transportation",
+    "catL2": "Traffic Place Names",
+    "exportName": "vehiclesTrafficPlaceNamesSubReport",
+    "dataFile": "tiktok-sub-vehicles-traffic-place-names-report.ts"
+  },
+  {
+    "slug": "workplace-special-work-types",
+    "subcategory": "Special Work Types",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Special Work Types",
+    "exportName": "workplaceSpecialWorkTypesSubReport",
+    "dataFile": "tiktok-sub-workplace-special-work-types-report.ts"
+  },
+  {
+    "slug": "workplace-workplace-skills",
+    "subcategory": "Workplace Skills",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Workplace Skills",
+    "exportName": "workplaceWorkplaceSkillsSubReport",
+    "dataFile": "tiktok-sub-workplace-workplace-skills-report.ts"
+  },
+  {
+    "slug": "workplace-working-industry-market",
+    "subcategory": "Working Industry Market",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Working Industry Market",
+    "exportName": "workplaceWorkingIndustryMarketSubReport",
+    "dataFile": "tiktok-sub-workplace-working-industry-market-report.ts"
+  },
+  {
+    "slug": "workplace-other-workplace",
+    "subcategory": "Other-Workplace",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Other-Workplace",
+    "exportName": "workplaceOtherWorkplaceSubReport",
+    "dataFile": "tiktok-sub-workplace-other-workplace-report.ts"
+  },
+  {
+    "slug": "workplace-working-policies",
+    "subcategory": "Working Policies",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Working Policies",
+    "exportName": "workplaceWorkingPoliciesSubReport",
+    "dataFile": "tiktok-sub-workplace-working-policies-report.ts"
+  },
+  {
+    "slug": "workplace-recruitment-information",
+    "subcategory": "Recruitment Information",
+    "parentSlug": "workplace",
+    "parentCategory": "Workplace",
+    "catL1": "Workplace",
+    "catL2": "Recruitment Information",
+    "exportName": "workplaceRecruitmentInformationSubReport",
+    "dataFile": "tiktok-sub-workplace-recruitment-information-report.ts"
+  }
+]

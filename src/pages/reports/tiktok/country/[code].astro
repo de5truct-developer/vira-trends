@@ -1,0 +1,18 @@
+---
+// Dynamic route replacing the old one-file-per-country src/pages/reports/tiktok/country/<code>.astro
+// pages (GG-724 auto-discovery). See src/pages/reports/tiktok/[niche].astro for the same pattern.
+import TikTokCountryReportPage from "../../../../components/TikTokCountryReportPage.astro";
+import { COUNTRIES, loadCountryReport, type CountryManifestEntry } from "../../../../lib/tiktok-data";
+
+interface Props {
+  country: CountryManifestEntry;
+}
+
+export function getStaticPaths() {
+  return COUNTRIES.map((country) => ({ params: { code: country.slug }, props: { country } }));
+}
+
+const { country } = Astro.props;
+const report = loadCountryReport(country);
+---
+<TikTokCountryReportPage report={report} slug={country.slug} />

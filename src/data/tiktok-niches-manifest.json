@@ -1,0 +1,170 @@
+[
+  {
+    "slug": "gourmet",
+    "category": "Gourmet",
+    "catL1": "Gourmet",
+    "exportName": "gourmetReport",
+    "dataFile": "gourmet-report.ts"
+  },
+  {
+    "slug": "science-technology",
+    "category": "Science and Technology",
+    "catL1": "Science and Technology",
+    "exportName": "scienceTechnologyReport",
+    "dataFile": "tiktok-science-technology-report.ts"
+  },
+  {
+    "slug": "fashion",
+    "category": "Fashion",
+    "catL1": "Fashion",
+    "exportName": "fashionReport",
+    "dataFile": "tiktok-fashion-report.ts"
+  },
+  {
+    "slug": "hobbies",
+    "category": "Personal Interests and Hobbies",
+    "catL1": "Personal Interests and Hobbies",
+    "exportName": "hobbiesReport",
+    "dataFile": "tiktok-hobbies-report.ts"
+  },
+  {
+    "slug": "sports",
+    "category": "Sports",
+    "catL1": "Sports",
+    "exportName": "sportsReport",
+    "dataFile": "tiktok-sports-report.ts"
+  },
+  {
+    "slug": "vehicles",
+    "category": "Vehicles & Transportation",
+    "catL1": "Vehicles & Transportation",
+    "exportName": "vehiclesReport",
+    "dataFile": "tiktok-vehicles-report.ts"
+  },
+  {
+    "slug": "household",
+    "category": "Household",
+    "catL1": "Household",
+    "exportName": "householdReport",
+    "dataFile": "tiktok-household-report.ts"
+  },
+  {
+    "slug": "tourism",
+    "category": "Tourism",
+    "catL1": "Tourism",
+    "exportName": "tourismReport",
+    "dataFile": "tiktok-tourism-report.ts"
+  },
+  {
+    "slug": "education",
+    "category": "Education",
+    "catL1": "Education",
+    "exportName": "educationReport",
+    "dataFile": "tiktok-education-report.ts"
+  },
+  {
+    "slug": "dance",
+    "category": "Dance",
+    "catL1": "Dance",
+    "exportName": "danceReport",
+    "dataFile": "tiktok-dance-report.ts"
+  },
+  {
+    "slug": "featured-content",
+    "category": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "exportName": "featuredContentReport",
+    "dataFile": "tiktok-featured-content-report.ts"
+  },
+  {
+    "slug": "workplace",
+    "category": "Workplace",
+    "catL1": "Workplace",
+    "exportName": "workplaceReport",
+    "dataFile": "tiktok-workplace-report.ts"
+  },
+  {
+    "slug": "local-life",
+    "category": "Local Life",
+    "catL1": "Local Life",
+    "exportName": "localLifeReport",
+    "dataFile": "tiktok-local-life-report.ts"
+  },
+  {
+    "slug": "acgn",
+    "category": "ACGN (Anime, Comics, Games & Novels)",
+    "catL1": "ACGN",
+    "exportName": "acgnReport",
+    "dataFile": "tiktok-acgn-report.ts"
+  },
+  {
+    "slug": "science-facts",
+    "category": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "exportName": "scienceFactsReport",
+    "dataFile": "tiktok-science-facts-report.ts"
+  },
+  {
+    "slug": "entertainment",
+    "category": "Entertainment",
+    "catL1": "Entertainment",
+    "exportName": "entertainmentReport",
+    "dataFile": "tiktok-entertainment-report.ts"
+  },
+  {
+    "slug": "relationships",
+    "category": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "exportName": "relationshipsReport",
+    "dataFile": "tiktok-relationships-report.ts"
+  },
+  {
+    "slug": "culture",
+    "category": "Culture",
+    "catL1": "Culture",
+    "exportName": "cultureReport",
+    "dataFile": "tiktok-culture-report.ts"
+  },
+  {
+    "slug": "healthcare",
+    "category": "Healthcare",
+    "catL1": "Healthcare",
+    "exportName": "healthcareReport",
+    "dataFile": "tiktok-healthcare-report.ts"
+  },
+  {
+    "slug": "parenting",
+    "category": "Nursing and Parenting",
+    "catL1": "Nursing and Parenting",
+    "exportName": "parentingReport",
+    "dataFile": "tiktok-parenting-report.ts"
+  },
+  {
+    "slug": "finance",
+    "category": "Finance and Economics",
+    "catL1": "Finance and Economics",
+    "exportName": "financeReport",
+    "dataFile": "tiktok-finance-report.ts"
+  },
+  {
+    "slug": "music",
+    "category": "Music",
+    "catL1": "Music",
+    "exportName": "musicReport",
+    "dataFile": "tiktok-music-report.ts"
+  },
+  {
+    "slug": "media-accounts",
+    "category": "Media Accounts",
+    "catL1": "Media Accounts",
+    "exportName": "mediaAccountsReport",
+    "dataFile": "tiktok-media-accounts-report.ts"
+  },
+  {
+    "slug": "society",
+    "category": "Society",
+    "catL1": "Society",
+    "exportName": "societyReport",
+    "dataFile": "tiktok-society-report.ts"
+  }
+]
