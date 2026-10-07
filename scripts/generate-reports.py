@@ -6,12 +6,14 @@ vira-trends-reports.service, after CSI's nightly collection + load finishes
 (~04:21 UTC), on server vira.
 
 Usage:
-    generate-reports.py [--niche all|gourmet|...] [--out-dir DIR]
+    generate-reports.py [--niche all|gourmet|...] [--country all|us|...] [--out-dir DIR]
 
-`--niche all` (the default) regenerates every niche in NICHES. A bad niche
-(too few rows, stale/failed query) is skipped with an error on stderr; the
-other niches in the same run still get published. The whole run only exits
-non-zero if every niche failed.
+`--niche all` and `--country all` (both the default) regenerate every niche in
+NICHES and every country in COUNTRIES in the same run (one axis by category,
+the other by geography — see COUNTRIES for why only some countries have an
+entry). A bad niche or country (too few rows, stale/failed query) is skipped
+with an error on stderr; everything else in the same run still gets
+published. The whole run only exits non-zero if everything failed.
 
 Env (same names as /var/lib/csi/csi-ch-loader/.env, load with
 `set -a; . .env; set +a` before running, or export directly):
@@ -47,6 +49,20 @@ LIMIT 10
 FORMAT TSV
 """
 
+# Country reports (GG-724 geography expansion): top-10 growing topics *in* one country, mixing
+# every category (no cat_l1 filter) — a different axis from the per-niche reports above, which
+# stay region='global' and filter by category instead.
+COUNTRY_TOPICS_QUERY = """
+SELECT query_id, query_text, cat_l1, cat_l2, growth, trust, video_num, top_countries,
+       win_start, win_end, computed_at
+FROM v_topic_metrics
+WHERE region = {region:String} AND growth_reason = 'ok'
+  AND trust = 'high' AND quantized = 0 AND coarse = 0 AND shared_n = 0
+ORDER BY growth DESC
+LIMIT 10
+FORMAT TSV
+"""
+
 AUDIENCE_QUERY = """
 SELECT age, gender, location
 FROM topic_population_dominant
@@ -58,6 +74,15 @@ FORMAT TSV
 
 METHODOLOGY_NOTE = (
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. "
+    "Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. "
+    'Video count as reported by TikTok; "not reported" (video_num=0) means TikTok did not report a '
+    "count for that topic, not zero competition. Updated daily."
+)
+
+COUNTRY_METHODOLOGY_NOTE = (
+    "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, "
+    "filtered to this country's own search-demand series (not global demand). Mixes every "
+    "category — for a single-category view across all countries, see the niche reports instead. "
     "Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. "
     'Video count as reported by TikTok; "not reported" (video_num=0) means TikTok did not report a '
     "count for that topic, not zero competition. Updated daily."
@@ -245,6 +270,44 @@ NICHES: dict[str, Niche] = {
 }
 
 
+@dataclass(frozen=True)
+class Country:
+    key: str            # CLI --country value, e.g. "us"
+    name: str            # display name, e.g. "United States"
+    code: str            # csi.v_topic_metrics.region filter value, e.g. "US"
+    export_name: str     # exported TS const, e.g. usCountryReport
+    out_file: str        # relative to repo src/data/
+
+
+# Curated from a live count of region='<code>' rows passing the same quality filters as the
+# niche query above (growth_reason='ok', trust='high', quantized=0, coarse=0, shared_n=0), run
+# against csi.v_topic_metrics on 2026-10-07. Threshold: >=200 such rows, so a day-to-day top 10
+# is drawn from a comfortably large pool rather than flickering on a handful of topics. That cut
+# kept 18 countries (2276 rows for ID down to 215 for EG) and dropped the rest — including DE at
+# 193 rows, just under the line, consistent with DE being a known thinner-series market. See
+# Research/2026-10-07 GG-724 TikTok-отчёты по странам.md for the full count-per-region table.
+COUNTRIES: dict[str, Country] = {
+    "id": Country(key="id", name="Indonesia", code="ID", export_name="idCountryReport", out_file="tiktok-country-id-report.ts"),
+    "ph": Country(key="ph", name="Philippines", code="PH", export_name="phCountryReport", out_file="tiktok-country-ph-report.ts"),
+    "us": Country(key="us", name="United States", code="US", export_name="usCountryReport", out_file="tiktok-country-us-report.ts"),
+    "br": Country(key="br", name="Brazil", code="BR", export_name="brCountryReport", out_file="tiktok-country-br-report.ts"),
+    "mx": Country(key="mx", name="Mexico", code="MX", export_name="mxCountryReport", out_file="tiktok-country-mx-report.ts"),
+    "gb": Country(key="gb", name="United Kingdom", code="GB", export_name="gbCountryReport", out_file="tiktok-country-gb-report.ts"),
+    "vn": Country(key="vn", name="Vietnam", code="VN", export_name="vnCountryReport", out_file="tiktok-country-vn-report.ts"),
+    "my": Country(key="my", name="Malaysia", code="MY", export_name="myCountryReport", out_file="tiktok-country-my-report.ts"),
+    "bd": Country(key="bd", name="Bangladesh", code="BD", export_name="bdCountryReport", out_file="tiktok-country-bd-report.ts"),
+    "pk": Country(key="pk", name="Pakistan", code="PK", export_name="pkCountryReport", out_file="tiktok-country-pk-report.ts"),
+    "ca": Country(key="ca", name="Canada", code="CA", export_name="caCountryReport", out_file="tiktok-country-ca-report.ts"),
+    "ng": Country(key="ng", name="Nigeria", code="NG", export_name="ngCountryReport", out_file="tiktok-country-ng-report.ts"),
+    "mm": Country(key="mm", name="Myanmar", code="MM", export_name="mmCountryReport", out_file="tiktok-country-mm-report.ts"),
+    "za": Country(key="za", name="South Africa", code="ZA", export_name="zaCountryReport", out_file="tiktok-country-za-report.ts"),
+    "au": Country(key="au", name="Australia", code="AU", export_name="auCountryReport", out_file="tiktok-country-au-report.ts"),
+    "sa": Country(key="sa", name="Saudi Arabia", code="SA", export_name="saCountryReport", out_file="tiktok-country-sa-report.ts"),
+    "th": Country(key="th", name="Thailand", code="TH", export_name="thCountryReport", out_file="tiktok-country-th-report.ts"),
+    "eg": Country(key="eg", name="Egypt", code="EG", export_name="egCountryReport", out_file="tiktok-country-eg-report.ts"),
+}
+
+
 class ReportError(Exception):
     """Anything that should abort without touching the output file."""
 
@@ -279,6 +342,27 @@ def parse_ch_array(raw: str) -> list[str]:
     return [item.strip().strip("'") for item in inner.split(",") if item.strip()]
 
 
+# ClickHouse's TSV output escapes apostrophes as \' (confirmed with a live query against
+# cat_l1='TikTok's Featured Content', a value the country query hits often since it mixes every
+# category). parse_tsv() doesn't undo this, so free-text fields in the country path need it
+# unescaped before use — unlike fetch_topics()/fetch_audience() above, which niche reports have
+# relied on unchanged and this doesn't touch.
+_CH_TSV_UNESCAPE = {"n": "\n", "t": "\t", "r": "\r", "b": "\b", "f": "\f", "0": "\0", "'": "'", "\\": "\\"}
+
+
+def unescape_ch_tsv(s: str) -> str:
+    out = []
+    i = 0
+    while i < len(s):
+        if s[i] == "\\" and i + 1 < len(s):
+            out.append(_CH_TSV_UNESCAPE.get(s[i + 1], s[i + 1]))
+            i += 2
+        else:
+            out.append(s[i])
+            i += 1
+    return "".join(out)
+
+
 def fetch_topics(base_url: str, user: str, password: str, database: str, niche: Niche) -> list[dict]:
     text = ch_query(base_url, user, password, database, TOPICS_QUERY, {"cat_l1": niche.cat_l1})
     rows = parse_tsv(text)
@@ -292,6 +376,44 @@ def fetch_topics(base_url: str, user: str, password: str, database: str, niche: 
                 "query_id": query_id,
                 "topic": query_text,
                 "subcategory": cat_l2 or "Uncategorized",
+                "growthMultiplier": round(float(growth)),
+                "trust": trust,
+                "videoNum": None if video_num == "0" else int(video_num),
+                "topCountries": parse_ch_array(top_countries),
+                "win_start": win_start,
+                "win_end": win_end,
+                "computed_at": computed_at,
+            }
+        )
+    return topics
+
+
+def fetch_country_topics(base_url: str, user: str, password: str, database: str, country: Country) -> list[dict]:
+    text = ch_query(base_url, user, password, database, COUNTRY_TOPICS_QUERY, {"region": country.code})
+    rows = parse_tsv(text)
+    topics = []
+    for row in rows:
+        if len(row) != 11:
+            raise ReportError(f"unexpected column count in country topics row: {row!r}")
+        (
+            query_id,
+            query_text,
+            cat_l1,
+            cat_l2,
+            growth,
+            trust,
+            video_num,
+            top_countries,
+            win_start,
+            win_end,
+            computed_at,
+        ) = row
+        topics.append(
+            {
+                "query_id": query_id,
+                "topic": unescape_ch_tsv(query_text),
+                "category": unescape_ch_tsv(cat_l1) or "Uncategorized",
+                "subcategory": unescape_ch_tsv(cat_l2) or "Uncategorized",
                 "growthMultiplier": round(float(growth)),
                 "trust": trust,
                 "videoNum": None if video_num == "0" else int(video_num),
@@ -376,6 +498,64 @@ export const {niche.export_name}: TikTokReport = {{
 """
 
 
+def render_country_ts(country: Country, topics: list[dict], audience: str, updated_at: str) -> str:
+    top = topics[0]
+    computed_at = top["computed_at"].replace(" ", "T") + "Z"
+    window_start = min(t["win_start"] for t in topics)
+    window_end = max(t["win_end"] for t in topics)
+
+    def ts_topic(t: dict) -> str:
+        video_num = "null" if t["videoNum"] is None else str(t["videoNum"])
+        countries = ", ".join(f'"{c}"' for c in t["topCountries"])
+        topic = ts_escape(t["topic"])
+        category = ts_escape(t["category"])
+        subcategory = ts_escape(t["subcategory"])
+        return (
+            "    {\n"
+            f'      topic: "{topic}",\n'
+            f'      category: "{category}",\n'
+            f'      subcategory: "{subcategory}",\n'
+            f'      growthMultiplier: {t["growthMultiplier"]},\n'
+            f'      trust: "{t["trust"]}",\n'
+            f"      videoNum: {video_num},\n"
+            f"      topCountries: [{countries}],\n"
+            "    },"
+        )
+
+    topics_ts = "\n".join(ts_topic(t) for t in topics)
+    top_topic_escaped = ts_escape(top["topic"])
+    audience_escaped = ts_escape(audience)
+    methodology_escaped = ts_escape(COUNTRY_METHODOLOGY_NOTE)
+
+    return f"""// Single source of truth for the TikTok trends in {country.name} report.
+// Generated by scripts/generate-reports.py from ClickHouse `csi.v_topic_metrics`
+// (region='{country.code}', growth_reason='ok', trust='high', quantized=0, coarse=0, shared_n=0).
+// Do not hand-edit the numbers here — rerun the generator instead. The same object feeds
+// the human-readable page, its llms-full.txt and the JSON-LD blocks, so a change here changes
+// all three at once (no drift between "visible" and "AI-facing" content).
+
+import type {{ TikTokCountryReport }} from "./tiktok-country-report-types";
+
+export const {country.export_name}: TikTokCountryReport = {{
+  country: "{country.name}",
+  countryCode: "{country.code}",
+  computedAt: "{computed_at}",
+  windowStart: "{window_start}",
+  windowEnd: "{window_end}",
+  updatedAt: "{updated_at}",
+  topics: [
+{topics_ts}
+  ],
+  methodologyNote:
+    "{methodology_escaped}",
+  highlightTopic: {{
+    topic: "{top_topic_escaped}",
+    audience: "{audience_escaped}",
+  }},
+}};
+"""
+
+
 def generate(niche: Niche, out_dir: str, base_url: str, user: str, password: str, database: str) -> str:
     topics = fetch_topics(base_url, user, password, database, niche)
     if len(topics) < MIN_TOPICS:
@@ -394,13 +574,32 @@ def generate(niche: Niche, out_dir: str, base_url: str, user: str, password: str
     return out_path
 
 
+def generate_country(country: Country, out_dir: str, base_url: str, user: str, password: str, database: str) -> str:
+    topics = fetch_country_topics(base_url, user, password, database, country)
+    if len(topics) < MIN_TOPICS:
+        raise ReportError(
+            f"only {len(topics)} topics for country={country.key} (need >= {MIN_TOPICS}); refusing to publish"
+        )
+
+    audience = unescape_ch_tsv(fetch_audience(base_url, user, password, database, topics[0]["query_id"]))
+    updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    ts_content = render_country_ts(country, topics, audience, updated_at)
+
+    out_path = os.path.join(out_dir, country.out_file)
+    with open(out_path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(ts_content)
+    return out_path
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--niche", default="all", choices=sorted(NICHES) + ["all"])
+    parser.add_argument("--country", default="all", choices=sorted(COUNTRIES) + ["all"])
     parser.add_argument(
         "--out-dir",
         default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src", "data"),
-        help="directory to write <niche>-report.ts into (default: repo's src/data)",
+        help="directory to write <niche>-report.ts / tiktok-country-<code>-report.ts into (default: repo's src/data)",
     )
     args = parser.parse_args()
 
@@ -414,6 +613,7 @@ def main() -> int:
         return 1
 
     niches = list(NICHES.values()) if args.niche == "all" else [NICHES[args.niche]]
+    countries = list(COUNTRIES.values()) if args.country == "all" else [COUNTRIES[args.country]]
 
     ok_count = 0
     for niche in niches:
@@ -425,8 +625,17 @@ def main() -> int:
         print(f"generate-reports: wrote {out_path}")
         ok_count += 1
 
+    for country in countries:
+        try:
+            out_path = generate_country(country, args.out_dir, base_url, user, password, database)
+        except ReportError as e:
+            print(f"generate-reports: country={country.key}: {e}", file=sys.stderr)
+            continue
+        print(f"generate-reports: wrote {out_path}")
+        ok_count += 1
+
     if ok_count == 0:
-        print("generate-reports: every niche failed, nothing published", file=sys.stderr)
+        print("generate-reports: every niche and country failed, nothing published", file=sys.stderr)
         return 1
     return 0
 

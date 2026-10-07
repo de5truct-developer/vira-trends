@@ -1,0 +1,128 @@
+---
+// Shared layout for every /reports/tiktok/country/<slug> page (GG-724 geography expansion).
+// Sibling of TikTokReportPage.astro: same table/FAQ/JSON-LD shape, but framed by country instead
+// of category, and topics mix every category since there's no cat_l1 filter for a country report.
+import BaseLayout from "../layouts/BaseLayout.astro";
+import type { TikTokCountryReport } from "../data/tiktok-country-report-types";
+
+interface Props {
+  report: TikTokCountryReport;
+  slug: string;
+}
+
+const { report, slug } = Astro.props;
+const { topics, country, countryCode, computedAt, windowStart, windowEnd, updatedAt, methodologyNote, highlightTopic } =
+  report;
+const top = topics[0];
+const pageUrl = `https://trends.tryvira.app/reports/tiktok/country/${slug}`;
+const llmsFullUrl = `/reports/tiktok/country/${slug}/llms-full.txt`;
+
+const faq = [
+  {
+    question: `What TikTok topic is growing fastest in ${country} this week?`,
+    answer:
+      `"${top.topic}" (${top.category} / ${top.subcategory}) grew about ${top.growthMultiplier}x in search demand ` +
+      `vs. its prior baseline in ${country}. TikTok reports ${top.videoNum === null ? "no" : top.videoNum} videos on the topic. ` +
+      `Trust level: ${top.trust}. Data from TikTok Creative Center via Vira, updated ${updatedAt}.`,
+  },
+  {
+    question: "What does \"trust\" mean in a Vira trend report?",
+    answer:
+      "Trust is how reliable the growth number is, based on how complete and consistent the " +
+      "underlying search curve is: high, medium, low or none. Vira only publishes a growth " +
+      "multiplier when trust is medium or high; low/none topics are left out of the ranking.",
+  },
+  {
+    question: `Why does this report mix categories instead of one niche?`,
+    answer:
+      `This is a country report: the fastest-growing TikTok topics in ${country} regardless of ` +
+      `category, so you can see what's trending in that country overall. For a single-category ` +
+      "view across all countries, see the niche reports linked from the homepage.",
+  },
+];
+
+const datasetJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  name: `TikTok trends in ${country} — week ending ${windowEnd}`,
+  description:
+    `Fastest-growing TikTok topics in ${country} across all categories, ranked by 7-21 day search ` +
+    "demand growth, with trust level and reported video counts.",
+  url: pageUrl,
+  dateModified: updatedAt,
+  temporalCoverage: `${windowStart}/${windowEnd}`,
+  creator: { "@type": "Organization", name: "Vira", url: "https://tryvira.app" },
+  license: "https://tryvira.app/terms",
+  variableMeasured: ["search demand growth multiplier", "reported video count"],
+  distribution: {
+    "@type": "DataDownload",
+    encodingFormat: "text/plain",
+    contentUrl: `https://trends.tryvira.app${llmsFullUrl}`,
+  },
+};
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faq.map((f) => ({
+    "@type": "Question",
+    name: f.question,
+    acceptedAnswer: { "@type": "Answer", text: f.answer },
+  })),
+};
+---
+<BaseLayout
+  title={`TikTok trends in ${country} this week | Vira`}
+  description={`${topics.length} fastest-growing TikTok topics in ${country} across all categories, week ending ${windowEnd}. Growth, category, trust level and reported video count for each.`}
+  jsonLd={[datasetJsonLd, faqJsonLd]}
+>
+  <h1>TikTok trends in {country}</h1>
+  <p class="meta">
+    Region: {countryCode} &middot; Growth window: {windowStart} to {windowEnd} &middot;
+    Data as of {computedAt} &middot; Page updated {updatedAt}
+  </p>
+
+  <p>{methodologyNote}</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Topic</th>
+        <th>Category</th>
+        <th>Growth</th>
+        <th>Trust</th>
+        <th>Videos (reported)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {topics.map((t) => (
+        <tr>
+          <td>{t.topic}</td>
+          <td>{t.category} / {t.subcategory}</td>
+          <td>&times;{t.growthMultiplier}</td>
+          <td>{t.trust}</td>
+          <td>{t.videoNum === null ? "not reported" : t.videoNum}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+
+  <div class="callout">
+    Top mover in {country} this week is <strong>{top.topic}</strong> ({top.category}), up {top.growthMultiplier}x.
+    Its dominant audience is {highlightTopic.audience}.
+  </div>
+
+  <h2>Frequently asked</h2>
+  {faq.map((f) => (
+    <>
+      <h3>{f.question}</h3>
+      <p>{f.answer}</p>
+    </>
+  ))}
+
+  <h2>Data and methodology</h2>
+  <p>
+    Full source and quality notes: <a href="/reports/methodology">methodology</a>.
+    Machine-readable version of this table: <a href={llmsFullUrl}>{llmsFullUrl}</a>.
+  </p>
+</BaseLayout>

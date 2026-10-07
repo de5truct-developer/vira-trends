@@ -23,6 +23,25 @@ import { financeReport } from "../data/tiktok-finance-report";
 import { musicReport } from "../data/tiktok-music-report";
 import { mediaAccountsReport } from "../data/tiktok-media-accounts-report";
 import { societyReport } from "../data/tiktok-society-report";
+import { idCountryReport } from "../data/tiktok-country-id-report";
+import { phCountryReport } from "../data/tiktok-country-ph-report";
+import { usCountryReport } from "../data/tiktok-country-us-report";
+import { brCountryReport } from "../data/tiktok-country-br-report";
+import { mxCountryReport } from "../data/tiktok-country-mx-report";
+import { gbCountryReport } from "../data/tiktok-country-gb-report";
+import { vnCountryReport } from "../data/tiktok-country-vn-report";
+import { myCountryReport } from "../data/tiktok-country-my-report";
+import { bdCountryReport } from "../data/tiktok-country-bd-report";
+import { pkCountryReport } from "../data/tiktok-country-pk-report";
+import { caCountryReport } from "../data/tiktok-country-ca-report";
+import { ngCountryReport } from "../data/tiktok-country-ng-report";
+import { mmCountryReport } from "../data/tiktok-country-mm-report";
+import { zaCountryReport } from "../data/tiktok-country-za-report";
+import { auCountryReport } from "../data/tiktok-country-au-report";
+import { saCountryReport } from "../data/tiktok-country-sa-report";
+import { thCountryReport } from "../data/tiktok-country-th-report";
+import { egCountryReport } from "../data/tiktok-country-eg-report";
+import type { TikTokCountryReport } from "../data/tiktok-country-report-types";
 import { youtubeFoodReport } from "../data/youtube-food-report";
 import { youtubeLifestyleReport } from "../data/youtube-lifestyle-report";
 import { youtubeGamingReport } from "../data/youtube-gaming-report";
@@ -91,6 +110,27 @@ const TIKTOK_REPORTS: { slug: string; report: TikTokReport }[] = [
   { slug: "society", report: societyReport },
 ];
 
+const TIKTOK_COUNTRY_REPORTS: { slug: string; report: TikTokCountryReport }[] = [
+  { slug: "id", report: idCountryReport },
+  { slug: "ph", report: phCountryReport },
+  { slug: "us", report: usCountryReport },
+  { slug: "br", report: brCountryReport },
+  { slug: "mx", report: mxCountryReport },
+  { slug: "gb", report: gbCountryReport },
+  { slug: "vn", report: vnCountryReport },
+  { slug: "my", report: myCountryReport },
+  { slug: "bd", report: bdCountryReport },
+  { slug: "pk", report: pkCountryReport },
+  { slug: "ca", report: caCountryReport },
+  { slug: "ng", report: ngCountryReport },
+  { slug: "mm", report: mmCountryReport },
+  { slug: "za", report: zaCountryReport },
+  { slug: "au", report: auCountryReport },
+  { slug: "sa", report: saCountryReport },
+  { slug: "th", report: thCountryReport },
+  { slug: "eg", report: egCountryReport },
+];
+
 const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
   { slug: "food", report: youtubeFoodReport },
   { slug: "lifestyle", report: youtubeLifestyleReport },
@@ -144,6 +184,18 @@ export const GET: APIRoute = () => {
     );
   });
 
+  const countryLines = TIKTOK_COUNTRY_REPORTS.map(({ slug, report }) => {
+    const top = report.topics[0];
+    return (
+      `- [TikTok trends in ${report.country}](https://trends.tryvira.app/reports/tiktok/country/${slug}) — ` +
+      `${report.topics.length} fastest-growing TikTok topics in ${report.country} across all categories, ` +
+      `week ending ${report.windowEnd}, updated ${report.updatedAt}. Top mover: "${top.topic}" (${top.category}), ` +
+      `${top.growthMultiplier}x growth, trust: ${top.trust}, ` +
+      `${top.videoNum === null ? "not reported" : `${top.videoNum} videos reported`}. Full facts: ` +
+      `https://trends.tryvira.app/reports/tiktok/country/${slug}/llms-full.txt`
+    );
+  });
+
   const youtubeLines = YOUTUBE_REPORTS.map(({ slug, report }) => {
     const top = report.channels[0];
     return (
@@ -163,9 +215,14 @@ export const GET: APIRoute = () => {
 > Vira. Updated daily. Published by Vira (https://tryvira.app), a TikTok and YouTube analytics
 > platform with an MCP server for AI agents.
 
-## TikTok trend reports
+## TikTok trend reports (by niche)
 ${tiktokLines.join("\n")}
 - Full index, plain text, all niches: https://trends.tryvira.app/llms-full.txt
+
+## TikTok trend reports (by country)
+> Same growth methodology, but mixing every category to show what's trending in one country.
+${countryLines.join("\n")}
+- Full index, plain text, all countries: https://trends.tryvira.app/llms-full.txt
 
 ## YouTube analytics reports
 ${youtubeLines.join("\n")}

@@ -25,6 +25,26 @@ import { mediaAccountsReport } from "../data/tiktok-media-accounts-report";
 import { societyReport } from "../data/tiktok-society-report";
 import { renderTikTokLlmsFull } from "../lib/tiktok-llms-full";
 import type { TikTokReport } from "../data/tiktok-report-types";
+import { idCountryReport } from "../data/tiktok-country-id-report";
+import { phCountryReport } from "../data/tiktok-country-ph-report";
+import { usCountryReport } from "../data/tiktok-country-us-report";
+import { brCountryReport } from "../data/tiktok-country-br-report";
+import { mxCountryReport } from "../data/tiktok-country-mx-report";
+import { gbCountryReport } from "../data/tiktok-country-gb-report";
+import { vnCountryReport } from "../data/tiktok-country-vn-report";
+import { myCountryReport } from "../data/tiktok-country-my-report";
+import { bdCountryReport } from "../data/tiktok-country-bd-report";
+import { pkCountryReport } from "../data/tiktok-country-pk-report";
+import { caCountryReport } from "../data/tiktok-country-ca-report";
+import { ngCountryReport } from "../data/tiktok-country-ng-report";
+import { mmCountryReport } from "../data/tiktok-country-mm-report";
+import { zaCountryReport } from "../data/tiktok-country-za-report";
+import { auCountryReport } from "../data/tiktok-country-au-report";
+import { saCountryReport } from "../data/tiktok-country-sa-report";
+import { thCountryReport } from "../data/tiktok-country-th-report";
+import { egCountryReport } from "../data/tiktok-country-eg-report";
+import { renderTikTokCountryLlmsFull } from "../lib/tiktok-country-llms-full";
+import type { TikTokCountryReport } from "../data/tiktok-country-report-types";
 import { youtubeFoodReport } from "../data/youtube-food-report";
 import { youtubeLifestyleReport } from "../data/youtube-lifestyle-report";
 import { youtubeGamingReport } from "../data/youtube-gaming-report";
@@ -93,6 +113,27 @@ const TIKTOK_REPORTS: { slug: string; report: TikTokReport }[] = [
   { slug: "society", report: societyReport },
 ];
 
+const TIKTOK_COUNTRY_REPORTS: { slug: string; report: TikTokCountryReport }[] = [
+  { slug: "id", report: idCountryReport },
+  { slug: "ph", report: phCountryReport },
+  { slug: "us", report: usCountryReport },
+  { slug: "br", report: brCountryReport },
+  { slug: "mx", report: mxCountryReport },
+  { slug: "gb", report: gbCountryReport },
+  { slug: "vn", report: vnCountryReport },
+  { slug: "my", report: myCountryReport },
+  { slug: "bd", report: bdCountryReport },
+  { slug: "pk", report: pkCountryReport },
+  { slug: "ca", report: caCountryReport },
+  { slug: "ng", report: ngCountryReport },
+  { slug: "mm", report: mmCountryReport },
+  { slug: "za", report: zaCountryReport },
+  { slug: "au", report: auCountryReport },
+  { slug: "sa", report: saCountryReport },
+  { slug: "th", report: thCountryReport },
+  { slug: "eg", report: egCountryReport },
+];
+
 const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
   { slug: "food", report: youtubeFoodReport },
   { slug: "lifestyle", report: youtubeLifestyleReport },
@@ -134,17 +175,23 @@ const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
 
 export const GET: APIRoute = () => {
   const tiktokSections = TIKTOK_REPORTS.map(({ slug, report }) => renderTikTokLlmsFull(report, slug));
+  const countrySections = TIKTOK_COUNTRY_REPORTS.map(({ slug, report }) =>
+    renderTikTokCountryLlmsFull(report, slug)
+  );
   const youtubeSections = YOUTUBE_REPORTS.map(({ slug, report }) => renderYouTubeLlmsFull(report, slug));
 
   const body = `# Vira Trend Reports — llms-full.txt
-# Full per-topic/per-channel facts for every TikTok (${TIKTOK_REPORTS.length} niches) and YouTube
-# (${YOUTUBE_REPORTS.length} niches) report below. Each niche also has its own llms-full.txt at
-# https://trends.tryvira.app/reports/tiktok/<slug>/llms-full.txt or
+# Full per-topic/per-channel facts for every TikTok niche (${TIKTOK_REPORTS.length}), TikTok
+# country (${TIKTOK_COUNTRY_REPORTS.length}) and YouTube niche (${YOUTUBE_REPORTS.length}) report
+# below. Each also has its own llms-full.txt at
+# https://trends.tryvira.app/reports/tiktok/<slug>/llms-full.txt,
+# https://trends.tryvira.app/reports/tiktok/country/<slug>/llms-full.txt or
 # https://trends.tryvira.app/reports/youtube/<slug>/llms-full.txt with the same content as its
 # section here. One source of truth: numbers here match the visible pages and the JSON-LD
 # Dataset blocks on each page.
 
 ${tiktokSections.join("\n")}
+${countrySections.join("\n")}
 ${youtubeSections.join("\n")}
 `;
 
