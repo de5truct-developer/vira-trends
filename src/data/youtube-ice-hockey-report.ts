@@ -87,16 +87,6 @@ export const youtubeIceHockeyReport: YoutubeNicheReport = {
       channelCreatedAt: "2014-08-15",
     },
     {
-      channelName: "Brady Films",
-      channelUrl: "https://www.youtube.com/channel/UCTJXgM4Fkwvr0MWMoum_x0w",
-      topic: "Sport, Ice hockey",
-      subscribers: 78400,
-      subsGained30d: 1400,
-      growthPct: 1.8,
-      viewsGained30d: 3741552,
-      channelCreatedAt: "2015-07-06",
-    },
-    {
       channelName: "Edmonton Oilers",
       channelUrl: "https://www.youtube.com/channel/UCyfbxrAcT9w7pHvDeYCtc0Q",
       topic: "Sport, Ice hockey",
@@ -105,6 +95,16 @@ export const youtubeIceHockeyReport: YoutubeNicheReport = {
       growthPct: 1.8,
       viewsGained30d: 2623851,
       channelCreatedAt: "2010-09-20",
+    },
+    {
+      channelName: "Brady Films",
+      channelUrl: "https://www.youtube.com/channel/UCTJXgM4Fkwvr0MWMoum_x0w",
+      topic: "Sport, Ice hockey",
+      subscribers: 78400,
+      subsGained30d: 1400,
+      growthPct: 1.8,
+      viewsGained30d: 3741552,
+      channelCreatedAt: "2015-07-06",
     },
     {
       channelName: "Роман с Хоккеем",
