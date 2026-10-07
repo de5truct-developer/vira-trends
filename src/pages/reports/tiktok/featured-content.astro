@@ -2,4 +2,15 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { featuredContentReport } from "../../../data/tiktok-featured-content-report";
 ---
-<TikTokReportPage report={featuredContentReport} slug="featured-content" />
+<TikTokReportPage
+  report={featuredContentReport}
+  slug="featured-content"
+  subcategories={[
+    { slug: "featured-content-others-tiktok-and-video-contents", name: "Others TikTok and Video Contents" },
+    { slug: "featured-content-trends-challenges", name: "Trends/Challenges" },
+    { slug: "featured-content-life-snapshots", name: "Life Snapshots" },
+    { slug: "featured-content-stories-posting-captions", name: "Stories/Posting Captions" },
+    { slug: "featured-content-internet", name: "Internet" },
+    { slug: "featured-content-audio-bgm", name: "Audio/BGM" },
+  ]}
+/>

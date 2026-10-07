@@ -42,6 +42,96 @@ import { saCountryReport } from "../data/tiktok-country-sa-report";
 import { thCountryReport } from "../data/tiktok-country-th-report";
 import { egCountryReport } from "../data/tiktok-country-eg-report";
 import type { TikTokCountryReport } from "../data/tiktok-country-report-types";
+import { acgnAnimationAndComicsSubReport } from "../data/tiktok-sub-acgn-animation-and-comics-report";
+import { acgnGamesSubReport } from "../data/tiktok-sub-acgn-games-report";
+import { cultureReligionSubReport } from "../data/tiktok-sub-culture-religion-report";
+import { cultureSeriousLiteratureSubReport } from "../data/tiktok-sub-culture-serious-literature-report";
+import { cultureTraditionsAndCultureSubReport } from "../data/tiktok-sub-culture-traditions-and-culture-report";
+import { cultureOtherCultureContentSubReport } from "../data/tiktok-sub-culture-other-culture-content-report";
+import { danceDanceTrendSubReport } from "../data/tiktok-sub-dance-dance-trend-report";
+import { danceDanceTutorialSubReport } from "../data/tiktok-sub-dance-dance-tutorial-report";
+import { dancePopDanceSubReport } from "../data/tiktok-sub-dance-pop-dance-report";
+import { danceOtherDanceContentSubReport } from "../data/tiktok-sub-dance-other-dance-content-report";
+import { danceOtherDanceStyleSubReport } from "../data/tiktok-sub-dance-other-dance-style-report";
+import { danceProfessionalDanceSubReport } from "../data/tiktok-sub-dance-professional-dance-report";
+import { danceLiveDancePerformanceSubReport } from "../data/tiktok-sub-dance-live-dance-performance-report";
+import { educationLanguageLearningSubReport } from "../data/tiktok-sub-education-language-learning-report";
+import { educationSchoolEducationSubReport } from "../data/tiktok-sub-education-school-education-report";
+import { educationEducationOthersSubReport } from "../data/tiktok-sub-education-education-others-report";
+import { educationCampusLifeSubReport } from "../data/tiktok-sub-education-campus-life-report";
+import { educationEducationSuppliesSubReport } from "../data/tiktok-sub-education-education-supplies-report";
+import { educationOnlineEducationSubReport } from "../data/tiktok-sub-education-online-education-report";
+import { educationVocationalLicenseExamsSubReport } from "../data/tiktok-sub-education-vocational-license-exams-report";
+import { entertainmentFilmsAndTvsSubReport } from "../data/tiktok-sub-entertainment-films-and-tvs-report";
+import { entertainmentCelebrityEntertainmentSubReport } from "../data/tiktok-sub-entertainment-celebrity-entertainment-report";
+import { fashionFashionTutorialsSubReport } from "../data/tiktok-sub-fashion-fashion-tutorials-report";
+import { fashionFashionProductsSubReport } from "../data/tiktok-sub-fashion-fashion-products-report";
+import { fashionFashionNewsSubReport } from "../data/tiktok-sub-fashion-fashion-news-report";
+import { featuredContentOthersTiktokAndVideoContentsSubReport } from "../data/tiktok-sub-featured-content-others-tiktok-and-video-contents-report";
+import { featuredContentTrendsChallengesSubReport } from "../data/tiktok-sub-featured-content-trends-challenges-report";
+import { featuredContentLifeSnapshotsSubReport } from "../data/tiktok-sub-featured-content-life-snapshots-report";
+import { featuredContentStoriesPostingCaptionsSubReport } from "../data/tiktok-sub-featured-content-stories-posting-captions-report";
+import { featuredContentInternetSubReport } from "../data/tiktok-sub-featured-content-internet-report";
+import { featuredContentAudioBgmSubReport } from "../data/tiktok-sub-featured-content-audio-bgm-report";
+import { gourmetFoodTutorialsSubReport } from "../data/tiktok-sub-gourmet-food-tutorials-report";
+import { gourmetOfflineCateringSubReport } from "../data/tiktok-sub-gourmet-offline-catering-report";
+import { gourmetFoodFmcgSubReport } from "../data/tiktok-sub-gourmet-food-fmcg-report";
+import { gourmetFoodIngredientsFreshFoodSubReport } from "../data/tiktok-sub-gourmet-food-ingredients-fresh-food-report";
+import { gourmetOtherGourmetSubReport } from "../data/tiktok-sub-gourmet-other-gourmet-report";
+import { gourmetFoodScienceSubReport } from "../data/tiktok-sub-gourmet-food-science-report";
+import { gourmetFoodFestivalsActivitiesSubReport } from "../data/tiktok-sub-gourmet-food-festivals-activities-report";
+import { healthcareModernMedicineSubReport } from "../data/tiktok-sub-healthcare-modern-medicine-report";
+import { healthcarePanHealthSubReport } from "../data/tiktok-sub-healthcare-pan-health-report";
+import { hobbiesGardeningAndPetSubReport } from "../data/tiktok-sub-hobbies-gardening-and-pet-report";
+import { hobbiesToysSubReport } from "../data/tiktok-sub-hobbies-toys-report";
+import { hobbiesArtRelatedInterestsSubReport } from "../data/tiktok-sub-hobbies-art-related-interests-report";
+import { hobbiesVisualRelatedInterestsSubReport } from "../data/tiktok-sub-hobbies-visual-related-interests-report";
+import { hobbiesDiySubReport } from "../data/tiktok-sub-hobbies-diy-report";
+import { hobbiesOtherHobbiesSubReport } from "../data/tiktok-sub-hobbies-other-hobbies-report";
+import { hobbiesBoardAndChessCardGamesSubReport } from "../data/tiktok-sub-hobbies-board-and-chess-card-games-report";
+import { hobbiesPerformanceInterestsOperaArtSubReport } from "../data/tiktok-sub-hobbies-performance-interests-opera-art-report";
+import { householdHomeLifeSubReport } from "../data/tiktok-sub-household-home-life-report";
+import { householdHouseDecorationSubReport } from "../data/tiktok-sub-household-house-decoration-report";
+import { householdRealEstateSubReport } from "../data/tiktok-sub-household-real-estate-report";
+import { localLifeShoppingSubReport } from "../data/tiktok-sub-local-life-shopping-report";
+import { localLifeLeisureAndEntertainmentSubReport } from "../data/tiktok-sub-local-life-leisure-and-entertainment-report";
+import { localLifeOfflinePerformanceSubReport } from "../data/tiktok-sub-local-life-offline-performance-report";
+import { localLifeLifeServicesSubReport } from "../data/tiktok-sub-local-life-life-services-report";
+import { localLifeSportsAndFitnessSubReport } from "../data/tiktok-sub-local-life-sports-and-fitness-report";
+import { localLifeGalleriesAndExhibitionsSubReport } from "../data/tiktok-sub-local-life-galleries-and-exhibitions-report";
+import { relationshipsPsychologySubReport } from "../data/tiktok-sub-relationships-psychology-report";
+import { relationshipsEmotionalPhraseSubReport } from "../data/tiktok-sub-relationships-emotional-phrase-report";
+import { relationshipsRelationshipKnowledgeSubReport } from "../data/tiktok-sub-relationships-relationship-knowledge-report";
+import { scienceFactsBiologyKnowledgeSubReport } from "../data/tiktok-sub-science-facts-biology-knowledge-report";
+import { scienceFactsGeologyKnowledgeSubReport } from "../data/tiktok-sub-science-facts-geology-knowledge-report";
+import { scienceFactsAstronomyKnowledgeSubReport } from "../data/tiktok-sub-science-facts-astronomy-knowledge-report";
+import { scienceFactsPhysicsKnowledgeSubReport } from "../data/tiktok-sub-science-facts-physics-knowledge-report";
+import { scienceFactsUnresolvedMysteriesSubReport } from "../data/tiktok-sub-science-facts-unresolved-mysteries-report";
+import { scienceFactsScienceKnowledgeOthersSubReport } from "../data/tiktok-sub-science-facts-science-knowledge-others-report";
+import { scienceTechnologySoftwareSubReport } from "../data/tiktok-sub-science-technology-software-report";
+import { scienceTechnologyInternetSubReport } from "../data/tiktok-sub-science-technology-internet-report";
+import { scienceTechnologyDigitalSubReport } from "../data/tiktok-sub-science-technology-digital-report";
+import { scienceTechnologyWebRecourcesDownloadSubReport } from "../data/tiktok-sub-science-technology-web-recources-download-report";
+import { scienceTechnologyTechnicalSubReport } from "../data/tiktok-sub-science-technology-technical-report";
+import { sportsPhysicalSportsSubReport } from "../data/tiktok-sub-sports-physical-sports-report";
+import { sportsFitnessSubReport } from "../data/tiktok-sub-sports-fitness-report";
+import { sportsSportsOthersSubReport } from "../data/tiktok-sub-sports-sports-others-report";
+import { tourismTourismSitesSubReport } from "../data/tiktok-sub-tourism-tourism-sites-report";
+import { tourismTouristGuideSubReport } from "../data/tiktok-sub-tourism-tourist-guide-report";
+import { tourismAdministrativeDivisionSubReport } from "../data/tiktok-sub-tourism-administrative-division-report";
+import { tourismTourismServiceSubReport } from "../data/tiktok-sub-tourism-tourism-service-report";
+import { tourismTouristSuppliesSubReport } from "../data/tiktok-sub-tourism-tourist-supplies-report";
+import { tourismTourismRelatedPoliciesSubReport } from "../data/tiktok-sub-tourism-tourism-related-policies-report";
+import { vehiclesTransportEquipmentSubReport } from "../data/tiktok-sub-vehicles-transport-equipment-report";
+import { vehiclesTrafficServicesSubReport } from "../data/tiktok-sub-vehicles-traffic-services-report";
+import { vehiclesTrafficPlaceNamesSubReport } from "../data/tiktok-sub-vehicles-traffic-place-names-report";
+import { workplaceSpecialWorkTypesSubReport } from "../data/tiktok-sub-workplace-special-work-types-report";
+import { workplaceWorkplaceSkillsSubReport } from "../data/tiktok-sub-workplace-workplace-skills-report";
+import { workplaceWorkingIndustryMarketSubReport } from "../data/tiktok-sub-workplace-working-industry-market-report";
+import { workplaceOtherWorkplaceSubReport } from "../data/tiktok-sub-workplace-other-workplace-report";
+import { workplaceWorkingPoliciesSubReport } from "../data/tiktok-sub-workplace-working-policies-report";
+import { workplaceRecruitmentInformationSubReport } from "../data/tiktok-sub-workplace-recruitment-information-report";
+import type { TikTokSubcategoryReport } from "../data/tiktok-subcategory-report-types";
 import { youtubeFoodReport } from "../data/youtube-food-report";
 import { youtubeLifestyleReport } from "../data/youtube-lifestyle-report";
 import { youtubeGamingReport } from "../data/youtube-gaming-report";
@@ -131,6 +221,98 @@ const TIKTOK_COUNTRY_REPORTS: { slug: string; report: TikTokCountryReport }[] = 
   { slug: "eg", report: egCountryReport },
 ];
 
+const TIKTOK_SUBCATEGORY_REPORTS: { slug: string; report: TikTokSubcategoryReport }[] = [
+  { slug: "acgn-animation-and-comics", report: acgnAnimationAndComicsSubReport },
+  { slug: "acgn-games", report: acgnGamesSubReport },
+  { slug: "culture-religion", report: cultureReligionSubReport },
+  { slug: "culture-serious-literature", report: cultureSeriousLiteratureSubReport },
+  { slug: "culture-traditions-and-culture", report: cultureTraditionsAndCultureSubReport },
+  { slug: "culture-other-culture-content", report: cultureOtherCultureContentSubReport },
+  { slug: "dance-dance-trend", report: danceDanceTrendSubReport },
+  { slug: "dance-dance-tutorial", report: danceDanceTutorialSubReport },
+  { slug: "dance-pop-dance", report: dancePopDanceSubReport },
+  { slug: "dance-other-dance-content", report: danceOtherDanceContentSubReport },
+  { slug: "dance-other-dance-style", report: danceOtherDanceStyleSubReport },
+  { slug: "dance-professional-dance", report: danceProfessionalDanceSubReport },
+  { slug: "dance-live-dance-performance", report: danceLiveDancePerformanceSubReport },
+  { slug: "education-language-learning", report: educationLanguageLearningSubReport },
+  { slug: "education-school-education", report: educationSchoolEducationSubReport },
+  { slug: "education-education-others", report: educationEducationOthersSubReport },
+  { slug: "education-campus-life", report: educationCampusLifeSubReport },
+  { slug: "education-education-supplies", report: educationEducationSuppliesSubReport },
+  { slug: "education-online-education", report: educationOnlineEducationSubReport },
+  { slug: "education-vocational-license-exams", report: educationVocationalLicenseExamsSubReport },
+  { slug: "entertainment-films-and-tvs", report: entertainmentFilmsAndTvsSubReport },
+  { slug: "entertainment-celebrity-entertainment", report: entertainmentCelebrityEntertainmentSubReport },
+  { slug: "fashion-fashion-tutorials", report: fashionFashionTutorialsSubReport },
+  { slug: "fashion-fashion-products", report: fashionFashionProductsSubReport },
+  { slug: "fashion-fashion-news", report: fashionFashionNewsSubReport },
+  { slug: "featured-content-others-tiktok-and-video-contents", report: featuredContentOthersTiktokAndVideoContentsSubReport },
+  { slug: "featured-content-trends-challenges", report: featuredContentTrendsChallengesSubReport },
+  { slug: "featured-content-life-snapshots", report: featuredContentLifeSnapshotsSubReport },
+  { slug: "featured-content-stories-posting-captions", report: featuredContentStoriesPostingCaptionsSubReport },
+  { slug: "featured-content-internet", report: featuredContentInternetSubReport },
+  { slug: "featured-content-audio-bgm", report: featuredContentAudioBgmSubReport },
+  { slug: "gourmet-food-tutorials", report: gourmetFoodTutorialsSubReport },
+  { slug: "gourmet-offline-catering", report: gourmetOfflineCateringSubReport },
+  { slug: "gourmet-food-fmcg", report: gourmetFoodFmcgSubReport },
+  { slug: "gourmet-food-ingredients-fresh-food", report: gourmetFoodIngredientsFreshFoodSubReport },
+  { slug: "gourmet-other-gourmet", report: gourmetOtherGourmetSubReport },
+  { slug: "gourmet-food-science", report: gourmetFoodScienceSubReport },
+  { slug: "gourmet-food-festivals-activities", report: gourmetFoodFestivalsActivitiesSubReport },
+  { slug: "healthcare-modern-medicine", report: healthcareModernMedicineSubReport },
+  { slug: "healthcare-pan-health", report: healthcarePanHealthSubReport },
+  { slug: "hobbies-gardening-and-pet", report: hobbiesGardeningAndPetSubReport },
+  { slug: "hobbies-toys", report: hobbiesToysSubReport },
+  { slug: "hobbies-art-related-interests", report: hobbiesArtRelatedInterestsSubReport },
+  { slug: "hobbies-visual-related-interests", report: hobbiesVisualRelatedInterestsSubReport },
+  { slug: "hobbies-diy", report: hobbiesDiySubReport },
+  { slug: "hobbies-other-hobbies", report: hobbiesOtherHobbiesSubReport },
+  { slug: "hobbies-board-and-chess-card-games", report: hobbiesBoardAndChessCardGamesSubReport },
+  { slug: "hobbies-performance-interests-opera-art", report: hobbiesPerformanceInterestsOperaArtSubReport },
+  { slug: "household-home-life", report: householdHomeLifeSubReport },
+  { slug: "household-house-decoration", report: householdHouseDecorationSubReport },
+  { slug: "household-real-estate", report: householdRealEstateSubReport },
+  { slug: "local-life-shopping", report: localLifeShoppingSubReport },
+  { slug: "local-life-leisure-and-entertainment", report: localLifeLeisureAndEntertainmentSubReport },
+  { slug: "local-life-offline-performance", report: localLifeOfflinePerformanceSubReport },
+  { slug: "local-life-life-services", report: localLifeLifeServicesSubReport },
+  { slug: "local-life-sports-and-fitness", report: localLifeSportsAndFitnessSubReport },
+  { slug: "local-life-galleries-and-exhibitions", report: localLifeGalleriesAndExhibitionsSubReport },
+  { slug: "relationships-psychology", report: relationshipsPsychologySubReport },
+  { slug: "relationships-emotional-phrase", report: relationshipsEmotionalPhraseSubReport },
+  { slug: "relationships-relationship-knowledge", report: relationshipsRelationshipKnowledgeSubReport },
+  { slug: "science-facts-biology-knowledge", report: scienceFactsBiologyKnowledgeSubReport },
+  { slug: "science-facts-geology-knowledge", report: scienceFactsGeologyKnowledgeSubReport },
+  { slug: "science-facts-astronomy-knowledge", report: scienceFactsAstronomyKnowledgeSubReport },
+  { slug: "science-facts-physics-knowledge", report: scienceFactsPhysicsKnowledgeSubReport },
+  { slug: "science-facts-unresolved-mysteries", report: scienceFactsUnresolvedMysteriesSubReport },
+  { slug: "science-facts-science-knowledge-others", report: scienceFactsScienceKnowledgeOthersSubReport },
+  { slug: "science-technology-software", report: scienceTechnologySoftwareSubReport },
+  { slug: "science-technology-internet", report: scienceTechnologyInternetSubReport },
+  { slug: "science-technology-digital", report: scienceTechnologyDigitalSubReport },
+  { slug: "science-technology-web-recources-download", report: scienceTechnologyWebRecourcesDownloadSubReport },
+  { slug: "science-technology-technical", report: scienceTechnologyTechnicalSubReport },
+  { slug: "sports-physical-sports", report: sportsPhysicalSportsSubReport },
+  { slug: "sports-fitness", report: sportsFitnessSubReport },
+  { slug: "sports-sports-others", report: sportsSportsOthersSubReport },
+  { slug: "tourism-tourism-sites", report: tourismTourismSitesSubReport },
+  { slug: "tourism-tourist-guide", report: tourismTouristGuideSubReport },
+  { slug: "tourism-administrative-division", report: tourismAdministrativeDivisionSubReport },
+  { slug: "tourism-tourism-service", report: tourismTourismServiceSubReport },
+  { slug: "tourism-tourist-supplies", report: tourismTouristSuppliesSubReport },
+  { slug: "tourism-tourism-related-policies", report: tourismTourismRelatedPoliciesSubReport },
+  { slug: "vehicles-transport-equipment", report: vehiclesTransportEquipmentSubReport },
+  { slug: "vehicles-traffic-services", report: vehiclesTrafficServicesSubReport },
+  { slug: "vehicles-traffic-place-names", report: vehiclesTrafficPlaceNamesSubReport },
+  { slug: "workplace-special-work-types", report: workplaceSpecialWorkTypesSubReport },
+  { slug: "workplace-workplace-skills", report: workplaceWorkplaceSkillsSubReport },
+  { slug: "workplace-working-industry-market", report: workplaceWorkingIndustryMarketSubReport },
+  { slug: "workplace-other-workplace", report: workplaceOtherWorkplaceSubReport },
+  { slug: "workplace-working-policies", report: workplaceWorkingPoliciesSubReport },
+  { slug: "workplace-recruitment-information", report: workplaceRecruitmentInformationSubReport },
+];
+
 const YOUTUBE_REPORTS: { slug: string; report: YoutubeNicheReport }[] = [
   { slug: "food", report: youtubeFoodReport },
   { slug: "lifestyle", report: youtubeLifestyleReport },
@@ -196,6 +378,19 @@ export const GET: APIRoute = () => {
     );
   });
 
+  const subcategoryLines = TIKTOK_SUBCATEGORY_REPORTS.map(({ slug, report }) => {
+    const top = report.topics[0];
+    return (
+      `- [${report.subcategory} trends (part of ${report.parentCategory})](https://trends.tryvira.app/reports/tiktok/sub/${slug}) — ` +
+      `${report.topics.length} fastest-growing ${report.subcategory} topics on TikTok, week ending ` +
+      `${report.windowEnd}, updated ${report.updatedAt}. Top mover: "${top.topic}", ` +
+      `${top.growthMultiplier}x growth, trust: ${top.trust}, ` +
+      `${top.videoNum === null ? "not reported" : `${top.videoNum} videos reported`}, ` +
+      `top countries ${top.topCountries.join("/")}. Full facts: ` +
+      `https://trends.tryvira.app/reports/tiktok/sub/${slug}/llms-full.txt`
+    );
+  });
+
   const youtubeLines = YOUTUBE_REPORTS.map(({ slug, report }) => {
     const top = report.channels[0];
     return (
@@ -223,6 +418,12 @@ ${tiktokLines.join("\n")}
 > Same growth methodology, but mixing every category to show what's trending in one country.
 ${countryLines.join("\n")}
 - Full index, plain text, all countries: https://trends.tryvira.app/llms-full.txt
+
+## TikTok trend reports (by subcategory)
+> Same growth methodology, but narrowed to one subcategory nested inside one of the niches above
+> (TikTok's own two-level category taxonomy).
+${subcategoryLines.join("\n")}
+- Full index, plain text, all subcategories: https://trends.tryvira.app/llms-full.txt
 
 ## YouTube analytics reports
 ${youtubeLines.join("\n")}

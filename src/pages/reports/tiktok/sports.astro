@@ -2,4 +2,12 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { sportsReport } from "../../../data/tiktok-sports-report";
 ---
-<TikTokReportPage report={sportsReport} slug="sports" />
+<TikTokReportPage
+  report={sportsReport}
+  slug="sports"
+  subcategories={[
+    { slug: "sports-physical-sports", name: "Physical Sports" },
+    { slug: "sports-fitness", name: "Fitness" },
+    { slug: "sports-sports-others", name: "Sports - Others" },
+  ]}
+/>

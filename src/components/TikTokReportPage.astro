@@ -8,9 +8,10 @@ import type { TikTokReport } from "../data/tiktok-report-types";
 interface Props {
   report: TikTokReport;
   slug: string;
+  subcategories?: { slug: string; name: string }[]; // GG-724 subcategory expansion, optional
 }
 
-const { report, slug } = Astro.props;
+const { report, slug, subcategories } = Astro.props;
 const { topics, category, computedAt, windowStart, windowEnd, updatedAt, methodologyNote, highlightTopic } =
   report;
 const top = topics[0];
@@ -122,6 +123,18 @@ const faqJsonLd = {
       <p>{f.answer}</p>
     </>
   ))}
+
+  {subcategories && subcategories.length > 0 && (
+    <>
+      <h2>Subcategories</h2>
+      <p>Narrower {category} reports, by TikTok's own subcategory:</p>
+      <ul>
+        {subcategories.map((s) => (
+          <li><a href={`/reports/tiktok/sub/${s.slug}`}>{s.name}</a></li>
+        ))}
+      </ul>
+    </>
+  )}
 
   <h2>Data and methodology</h2>
   <p>

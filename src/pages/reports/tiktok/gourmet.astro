@@ -2,4 +2,16 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { gourmetReport } from "../../../data/gourmet-report";
 ---
-<TikTokReportPage report={gourmetReport} slug="gourmet" />
+<TikTokReportPage
+  report={gourmetReport}
+  slug="gourmet"
+  subcategories={[
+    { slug: "gourmet-food-tutorials", name: "Food Tutorials" },
+    { slug: "gourmet-offline-catering", name: "Offline Catering" },
+    { slug: "gourmet-food-fmcg", name: "Food FMCG" },
+    { slug: "gourmet-food-ingredients-fresh-food", name: "Food Ingredients/Fresh Food" },
+    { slug: "gourmet-other-gourmet", name: "Other Gourmet" },
+    { slug: "gourmet-food-science", name: "Food Science" },
+    { slug: "gourmet-food-festivals-activities", name: "Food Festivals/Activities" },
+  ]}
+/>

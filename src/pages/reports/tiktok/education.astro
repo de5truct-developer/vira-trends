@@ -2,4 +2,16 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { educationReport } from "../../../data/tiktok-education-report";
 ---
-<TikTokReportPage report={educationReport} slug="education" />
+<TikTokReportPage
+  report={educationReport}
+  slug="education"
+  subcategories={[
+    { slug: "education-language-learning", name: "Language Learning" },
+    { slug: "education-school-education", name: "School Education" },
+    { slug: "education-education-others", name: "Education - Others" },
+    { slug: "education-campus-life", name: "Campus Life" },
+    { slug: "education-education-supplies", name: "Education Supplies" },
+    { slug: "education-online-education", name: "Online Education" },
+    { slug: "education-vocational-license-exams", name: "Vocational License/Exams" },
+  ]}
+/>

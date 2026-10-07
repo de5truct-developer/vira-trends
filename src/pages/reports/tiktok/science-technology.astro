@@ -2,4 +2,14 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { scienceTechnologyReport } from "../../../data/tiktok-science-technology-report";
 ---
-<TikTokReportPage report={scienceTechnologyReport} slug="science-technology" />
+<TikTokReportPage
+  report={scienceTechnologyReport}
+  slug="science-technology"
+  subcategories={[
+    { slug: "science-technology-software", name: "Software" },
+    { slug: "science-technology-internet", name: "Internet" },
+    { slug: "science-technology-digital", name: "Digital" },
+    { slug: "science-technology-web-recources-download", name: "Web Recources Download" },
+    { slug: "science-technology-technical", name: "Technical" },
+  ]}
+/>

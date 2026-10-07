@@ -2,4 +2,12 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { relationshipsReport } from "../../../data/tiktok-relationships-report";
 ---
-<TikTokReportPage report={relationshipsReport} slug="relationships" />
+<TikTokReportPage
+  report={relationshipsReport}
+  slug="relationships"
+  subcategories={[
+    { slug: "relationships-psychology", name: "Psychology" },
+    { slug: "relationships-emotional-phrase", name: "Emotional Phrase" },
+    { slug: "relationships-relationship-knowledge", name: "Relationship Knowledge" },
+  ]}
+/>

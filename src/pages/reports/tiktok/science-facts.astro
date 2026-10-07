@@ -2,4 +2,15 @@
 import TikTokReportPage from "../../../components/TikTokReportPage.astro";
 import { scienceFactsReport } from "../../../data/tiktok-science-facts-report";
 ---
-<TikTokReportPage report={scienceFactsReport} slug="science-facts" />
+<TikTokReportPage
+  report={scienceFactsReport}
+  slug="science-facts"
+  subcategories={[
+    { slug: "science-facts-biology-knowledge", name: "Biology Knowledge" },
+    { slug: "science-facts-geology-knowledge", name: "Geology Knowledge" },
+    { slug: "science-facts-astronomy-knowledge", name: "Astronomy Knowledge" },
+    { slug: "science-facts-physics-knowledge", name: "Physics Knowledge" },
+    { slug: "science-facts-unresolved-mysteries", name: "Unresolved Mysteries" },
+    { slug: "science-facts-science-knowledge-others", name: "Science Knowledge - Others" },
+  ]}
+/>
