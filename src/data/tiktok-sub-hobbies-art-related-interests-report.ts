@@ -14,10 +14,10 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "art sussex drawing",

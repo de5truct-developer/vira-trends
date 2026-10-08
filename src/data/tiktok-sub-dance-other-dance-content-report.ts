@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "children dancing to music",
@@ -72,7 +72,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topic: "2026 dance",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1068,
+      videoNum: 1071,
       topCountries: ["PH", "ZA", "MM", "ID"],
     },
     {
@@ -86,7 +86,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topic: "dances for weddings",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1618,
+      videoNum: 1616,
       topCountries: ["PK", "AE", "SA", "BD"],
     },
   ],

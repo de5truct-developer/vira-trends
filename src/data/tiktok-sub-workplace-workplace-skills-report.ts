@@ -14,17 +14,31 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
+    {
+      topic: "creador sight insight view",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "BR", "PK", "MX", "NP"],
+    },
     {
       topic: "turning point 4",
       growthMultiplier: 7,
       trust: "high",
       videoNum: 869,
       topCountries: ["ID", "PH", "US", "GB", "BR"],
+    },
+    {
+      topic: "Client consult before color change",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "GB", "MX"],
     },
     {
       topic: "networking tutorial",
@@ -75,25 +89,11 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       videoNum: 793,
       topCountries: ["PK", "NP", "BD", "AE", "SA"],
     },
-    {
-      topic: "كيف تطور مهاراتك المهنية بسرعة",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["EG", "SA", "SD", "AE", "KW"],
-    },
-    {
-      topic: "customer service conflicts with style",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "KR", "JP", "TW"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "turning point 4",
-    audience: "male 18-24, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "creador sight insight view",
+    audience: "unknown 25-34, Myanmar (dominant segment, snapshot at collection date)",
   },
 };

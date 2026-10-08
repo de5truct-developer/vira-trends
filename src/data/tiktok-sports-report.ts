@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "abdul el sayed and wife",
@@ -36,7 +36,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 385,
       trust: "high",
-      videoNum: null,
+      videoNum: 5321,
       topCountries: ["US", "PK", "GB", "RU"],
     },
     {
@@ -52,7 +52,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 219,
       trust: "high",
-      videoNum: 442,
+      videoNum: 463,
       topCountries: ["NG", "ID", "ZA", "MY", "BR"],
     },
     {
@@ -80,20 +80,20 @@ export const sportsReport: TikTokReport = {
       topCountries: ["US", "ZA", "CA", "AU", "KE"],
     },
     {
-      topic: "fourhandstwosonatas",
-      subcategory: "Physical Sports",
-      growthMultiplier: 99,
-      trust: "high",
-      videoNum: 2739,
-      topCountries: ["ID", "VN", "MY", "TH", "PH"],
-    },
-    {
       topic: "ryan garcia vs pitbull cruz",
       subcategory: "Physical Sports",
       growthMultiplier: 97,
       trust: "high",
       videoNum: 609,
       topCountries: ["ID", "MX", "US", "PH", "MY"],
+    },
+    {
+      topic: "leg lifts method",
+      subcategory: "Fitness",
+      growthMultiplier: 62,
+      trust: "high",
+      videoNum: 1211,
+      topCountries: ["US", "GB", "DE", "CA", "SE"],
     },
   ],
   methodologyNote:

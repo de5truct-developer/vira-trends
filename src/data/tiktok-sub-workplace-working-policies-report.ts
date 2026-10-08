@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "live incentive program 2 part",
@@ -65,8 +65,15 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topic: "understanding live incentive programs",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1044,
+      videoNum: 1048,
       topCountries: ["MX", "GT", "PE", "VE", "BR"],
+    },
+    {
+      topic: "customer service number",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 602,
+      topCountries: ["ZA", "NP", "PK", "PH"],
     },
     {
       topic: "8171 bisp 8 171 online apply link",
@@ -81,13 +88,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 540,
       topCountries: ["BD", "PK", "PH", "ZA"],
-    },
-    {
-      topic: "policies",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 866,
-      topCountries: ["BR", "GB", "PH", "MX", "AR"],
     },
   ],
   methodologyNote:

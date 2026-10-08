@@ -14,10 +14,10 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "boy cracking a girl up",
@@ -39,6 +39,13 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 17029,
       topCountries: ["PK", "BD", "ID", "PH", "MM"],
+    },
+    {
+      topic: "viral tiktok videos right now",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 132373,
+      topCountries: ["PK", "BD", "NP", "ID", "NG"],
     },
     {
       topic: "venom trend couple",
@@ -69,25 +76,18 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       topCountries: ["CA", "GB", "FR", "DE", "AU"],
     },
     {
+      topic: "viral funny shorts",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BD", "PK", "ID", "EG"],
+    },
+    {
       topic: "what's 9 plus 10 21 original",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 377,
       topCountries: ["BR", "PH", "ID", "MX", "CA"],
-    },
-    {
-      topic: "hey lisbon found it",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "AU", "CA"],
-    },
-    {
-      topic: "viral video ideas 2026",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 8911,
-      topCountries: ["PK", "ID", "ET", "BD"],
     },
   ],
   methodologyNote:

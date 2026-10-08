@@ -14,10 +14,10 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "xiaomi 18 fold",
@@ -48,10 +48,17 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MM", "IQ", "PH"],
     },
     {
+      topic: "Biggest changes from page to screen",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MX", "BR", "ID", "PH"],
+    },
+    {
       topic: "smartbot review parte 2",
       growthMultiplier: 16,
       trust: "high",
-      videoNum: 975,
+      videoNum: 976,
       topCountries: ["ID", "VN", "TH", "PH"],
     },
     {
@@ -76,18 +83,11 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "BN", "PH", "SG"],
     },
     {
-      topic: "speaker cleaner 30000000000hz realme",
-      growthMultiplier: 5,
+      topic: "new speaker cleaner sound 2026",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: 1208,
-      topCountries: ["PH", "ID", "BD", "PK", "MX"],
-    },
-    {
-      topic: "iOS 26.6.1",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1281,
-      topCountries: ["MM", "ID", "KH", "NP"],
+      videoNum: null,
+      topCountries: ["PK", "ET", "KE", "SN"],
     },
   ],
   methodologyNote:

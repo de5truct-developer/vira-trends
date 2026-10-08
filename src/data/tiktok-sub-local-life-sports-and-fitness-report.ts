@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "shanghai basketball court 2",
@@ -69,6 +69,13 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AU", "ID", "BR"],
     },
     {
+      topic: "wemby half court",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "AU", "CA", "ZA"],
+    },
+    {
       topic: "engineering a mini rc sports arena",
       growthMultiplier: 1,
       trust: "high",
@@ -81,13 +88,6 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "PH", "AU", "GB", "MY"],
-    },
-    {
-      topic: "billionaires row nyc",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "MX", "PH", "AU", "BR"],
     },
   ],
   methodologyNote:

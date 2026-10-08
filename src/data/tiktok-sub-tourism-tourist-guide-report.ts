@@ -14,10 +14,10 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "uk london british part to 2",
@@ -44,7 +44,7 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topic: "travel hacks you’ll actually use",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 674,
       topCountries: ["ZA", "PK", "GB", "GH"],
     },
     {
@@ -79,7 +79,7 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topic: "tourist in pakistan",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 8715,
+      videoNum: 8716,
       topCountries: ["PK", "AE", "SA", "ID", "PH"],
     },
     {

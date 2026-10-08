@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "obamas center opening",
@@ -25,6 +25,13 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "KE", "MX", "NG", "CA"],
+    },
+    {
+      topic: "shelter us harbour me hadestown",
+      growthMultiplier: 27,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "CA", "AU", "BR"],
     },
     {
       topic: "northwood space",
@@ -41,10 +48,17 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "GB", "TT", "NL"],
     },
     {
+      topic: "colston loveland fantasy",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "MX", "AU", "PA"],
+    },
+    {
       topic: "spa date",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1110,
+      videoNum: 1111,
       topCountries: ["MM", "ZA", "ID", "NG", "PH"],
     },
     {
@@ -74,20 +88,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: 160,
       topCountries: ["SA", "EG", "YE", "QA"],
-    },
-    {
-      topic: "warda swimming pool",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1177,
-      topCountries: ["PK", "AE", "GB", "SA"],
-    },
-    {
-      topic: "video cut salwa hotel review",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 180,
-      topCountries: ["ID", "MY", "JP", "KR"],
     },
   ],
   methodologyNote:

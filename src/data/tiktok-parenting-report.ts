@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "milk pump xxl step by step",
@@ -60,7 +60,7 @@ export const parentingReport: TikTokReport = {
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 91058,
+      videoNum: 91108,
       topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
@@ -92,7 +92,7 @@ export const parentingReport: TikTokReport = {
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 840,
+      videoNum: 842,
       topCountries: ["PK", "PH", "MY", "KE"],
     },
   ],

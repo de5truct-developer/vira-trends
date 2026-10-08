@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "toronto inconvenience store",
@@ -32,6 +32,14 @@ export const localLifeReport: TikTokReport = {
       topCountries: ["US", "GB", "BD", "MM", "PK"],
     },
     {
+      topic: "burnout car event schedules",
+      subcategory: "Offline Performance",
+      growthMultiplier: 138,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "CA", "GB"],
+    },
+    {
       topic: "burning man 2026",
       subcategory: "Offline Performance",
       growthMultiplier: 54,
@@ -46,6 +54,14 @@ export const localLifeReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "KE", "MX", "NG", "CA"],
+    },
+    {
+      topic: "shelter us harbour me hadestown",
+      subcategory: "Leisure and Entertainment",
+      growthMultiplier: 27,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "CA", "AU", "BR"],
     },
     {
       topic: "northwood space",
@@ -78,22 +94,6 @@ export const localLifeReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "TT", "NL"],
-    },
-    {
-      topic: "هيفاء مول",
-      subcategory: "Shopping",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 289,
-      topCountries: ["SA", "IQ", "LY", "TN", "TR"],
-    },
-    {
-      topic: "james falls mall",
-      subcategory: "Shopping",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1085,
-      topCountries: ["US", "GB", "DE", "NL", "IT"],
     },
   ],
   methodologyNote:

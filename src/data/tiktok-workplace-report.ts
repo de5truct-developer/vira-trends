@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const workplaceReport: TikTokReport = {
   category: "Workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "i am police officer",
       subcategory: "Special Work Types",
       growthMultiplier: 280,
       trust: "high",
-      videoNum: 176,
+      videoNum: 285,
       topCountries: ["PK", "GB", "AE", "SA"],
     },
     {
@@ -48,6 +48,14 @@ export const workplaceReport: TikTokReport = {
       topCountries: ["PK", "ID", "PH", "NP"],
     },
     {
+      topic: "creador sight insight view",
+      subcategory: "Workplace Skills",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "BR", "PK", "MX", "NP"],
+    },
+    {
       topic: "turning point 4",
       subcategory: "Workplace Skills",
       growthMultiplier: 7,
@@ -72,28 +80,20 @@ export const workplaceReport: TikTokReport = {
       topCountries: ["ZA", "NG", "IQ", "MX", "ID"],
     },
     {
+      topic: "Client consult before color change",
+      subcategory: "Workplace Skills",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "GB", "MX"],
+    },
+    {
       topic: "networking tutorial",
       subcategory: "Workplace Skills",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 557,
       topCountries: ["PH", "ZA", "MY", "ID", "KE"],
-    },
-    {
-      topic: "funny ways to sell useful tools",
-      subcategory: "Workplace Skills",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 301,
-      topCountries: ["GT", "PE", "MX", "VE", "CO"],
-    },
-    {
-      topic: "apartment property management",
-      subcategory: "Special Work Types",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1090,
-      topCountries: ["PH", "CA", "GB", "AU", "MY"],
     },
   ],
   methodologyNote:

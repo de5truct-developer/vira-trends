@@ -14,10 +14,10 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "dolly parton house",
@@ -86,7 +86,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topic: "Modern Design Ideas",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1219,
+      videoNum: 1220,
       topCountries: ["KE", "UG", "GH", "NG", "TZ"],
     },
   ],

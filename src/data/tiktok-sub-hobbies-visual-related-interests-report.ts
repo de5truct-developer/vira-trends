@@ -14,10 +14,10 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "4k 60 fps camera video tutorial",
@@ -41,6 +41,13 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["KH", "ID", "BD", "PK"],
     },
     {
+      topic: "bts pose ideas",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 686,
+      topCountries: ["BR", "PH", "MX", "ID", "MY"],
+    },
+    {
       topic: "black and white portrait photography",
       growthMultiplier: 4,
       trust: "high",
@@ -53,6 +60,13 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["UG", "PH", "KE", "NG", "MY"],
+    },
+    {
+      topic: "memorial video ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 833,
+      topCountries: ["ZA", "PH", "GH", "NG"],
     },
     {
       topic: "photoshoot inspo ideas",
@@ -74,20 +88,6 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "DE", "FR", "MX"],
-    },
-    {
-      topic: "WeddingVideography",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1074,
-      topCountries: ["NG", "MW", "ZA", "GH"],
-    },
-    {
-      topic: "picture photo",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 7425,
-      topCountries: ["PK", "PH", "BD", "ET"],
     },
   ],
   methodologyNote:

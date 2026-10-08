@@ -14,16 +14,16 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "squishy haul 1000000000000000000000",
       growthMultiplier: 85,
       trust: "high",
-      videoNum: 986,
+      videoNum: 991,
       topCountries: ["ID", "PH", "MX", "MY"],
     },
     {
@@ -55,13 +55,6 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "PE", "AR", "CL"],
     },
     {
-      topic: "MysteryBlindBoxes",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 886,
-      topCountries: ["MX", "BR", "PH", "ID"],
-    },
-    {
       topic: "kids water play toys",
       growthMultiplier: 5,
       trust: "high",
@@ -88,6 +81,13 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 209,
       topCountries: ["GT", "HN", "MX", "SV", "NI"],
+    },
+    {
+      topic: "MysteryBlindBoxes",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 886,
+      topCountries: ["MX", "BR", "ID", "PH"],
     },
   ],
   methodologyNote:

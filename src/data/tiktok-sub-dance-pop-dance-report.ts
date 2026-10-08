@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "lisa choreography",
@@ -37,7 +37,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topic: "2.0 dance bts",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 861,
+      videoNum: 872,
       topCountries: ["PH", "ID", "BR", "ZA", "MX"],
     },
     {
@@ -51,7 +51,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topic: "kpop choreos",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1062,
+      videoNum: 1065,
       topCountries: ["PH", "BR", "ID", "MM", "SA"],
     },
     {
@@ -83,11 +83,11 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "GH", "ZA", "KE"],
     },
     {
-      topic: "judas dance choreography",
+      topic: "james magnetic choreography",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 775,
-      topCountries: ["PH", "ID", "NP", "MY", "IT"],
+      videoNum: null,
+      topCountries: ["ID", "PH", "MY", "CA"],
     },
   ],
   methodologyNote:

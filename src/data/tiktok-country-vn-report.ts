@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "new lionel messi",
@@ -21,16 +21,16 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 854,
       trust: "high",
-      videoNum: 1065,
+      videoNum: 1069,
       topCountries: ["VN", "BD", "NG", "JP"],
     },
     {
       topic: "fourhandstwosonatas",
-      category: "Sports",
-      subcategory: "Physical Sports",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
       growthMultiplier: 79,
       trust: "high",
-      videoNum: 2739,
+      videoNum: 3056,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -48,7 +48,7 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Fitness",
       growthMultiplier: 36,
       trust: "high",
-      videoNum: 505,
+      videoNum: 554,
       topCountries: ["ID", "VN", "MY", "PH", "TH"],
     },
     {
@@ -57,7 +57,7 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Digital",
       growthMultiplier: 31,
       trust: "high",
-      videoNum: 975,
+      videoNum: 976,
       topCountries: ["ID", "VN", "TH", "PH"],
     },
     {

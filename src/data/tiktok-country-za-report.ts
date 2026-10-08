@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const zaCountryReport: TikTokCountryReport = {
   country: "South Africa",
   countryCode: "ZA",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "new dance trend august 2026",
@@ -21,7 +21,7 @@ export const zaCountryReport: TikTokCountryReport = {
       subcategory: "Dance Trend",
       growthMultiplier: 157,
       trust: "high",
-      videoNum: 1055,
+      videoNum: 1056,
       topCountries: ["PH", "ZA", "NP", "ID"],
     },
     {

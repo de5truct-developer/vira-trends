@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "الاقلاع الفوري القوات الجوية الملكية السعودية",
@@ -58,7 +58,7 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topic: "royal gorge train",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 3600,
+      videoNum: 3808,
       topCountries: ["US", "PH", "CA", "AU", "MX"],
     },
     {

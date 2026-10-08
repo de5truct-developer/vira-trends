@@ -14,16 +14,16 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "dolly parton hotel",
       growthMultiplier: 175,
       trust: "high",
-      videoNum: 5200,
+      videoNum: 5317,
       topCountries: ["US", "MX", "CA", "PH", "GB"],
     },
     {

@@ -14,10 +14,10 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "sincere metaphors compilation",
@@ -25,6 +25,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 390,
       topCountries: ["US", "CA", "AU", "ZA", "NZ"],
+    },
+    {
+      topic: "school 24/25",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 567,
+      topCountries: ["ID", "MX", "BR", "SA", "RU"],
     },
     {
       topic: "presentation stab pen",
@@ -81,13 +88,6 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["UG", "KE", "RW", "ZW"],
-    },
-    {
-      topic: "educly",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "PE", "VE", "CO", "EC"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const caCountryReport: TikTokCountryReport = {
   country: "Canada",
   countryCode: "CA",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "mr jackie purple egg truth revealed",
@@ -50,6 +50,15 @@ export const caCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 583,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
+      topic: "burnout car event schedules",
+      category: "Local Life",
+      subcategory: "Offline Performance",
+      growthMultiplier: 56,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "CA", "GB"],
     },
     {
       topic: "disney cruise child ring",
@@ -95,15 +104,6 @@ export const caCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 821,
       topCountries: ["US", "BR", "CA", "GB", "AU"],
-    },
-    {
-      topic: "fortnitemares universal studios",
-      category: "Tourism",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 17,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "MX", "CA", "GB", "AU"],
     },
   ],
   methodologyNote:

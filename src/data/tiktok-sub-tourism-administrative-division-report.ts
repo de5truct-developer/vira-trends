@@ -14,10 +14,10 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "chernobyl city now in",
@@ -62,6 +62,13 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "GB", "CA", "ID"],
     },
     {
+      topic: "thailandً country",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 459,
+      topCountries: ["TH", "PH", "ID", "MY"],
+    },
+    {
       topic: "cistern",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["UG", "SA", "AE", "KE"],
-    },
-    {
-      topic: "sterling point.",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 457,
-      topCountries: ["PH", "BR", "ID", "CA", "MX"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-08T04:24:18Z",
+  windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "equal earth map",
@@ -22,6 +22,14 @@ export const scienceFactsReport: TikTokReport = {
       trust: "high",
       videoNum: 865,
       topCountries: ["US", "MY", "VN", "HR", "TR"],
+    },
+    {
+      topic: "whats happening september 2026",
+      subcategory: "Prophecies",
+      growthMultiplier: 183,
+      trust: "high",
+      videoNum: 241,
+      topCountries: ["GB", "DE", "IT", "NL", "FR"],
     },
     {
       topic: "there is something faster than light",
@@ -86,14 +94,6 @@ export const scienceFactsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["SO", "KE", "DE", "CA", "UG"],
-    },
-    {
-      topic: "still water vs normal water",
-      subcategory: "Physics Knowledge",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 877,
-      topCountries: ["US", "ID", "PH", "MY", "CA"],
     },
   ],
   methodologyNote:

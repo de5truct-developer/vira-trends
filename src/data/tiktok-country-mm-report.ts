@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "waterphone sound",
@@ -30,7 +30,7 @@ export const mmCountryReport: TikTokCountryReport = {
       subcategory: "Leisure and Entertainment",
       growthMultiplier: 83,
       trust: "high",
-      videoNum: 1110,
+      videoNum: 1111,
       topCountries: ["MM", "ZA", "ID", "NG", "PH"],
     },
     {
@@ -88,6 +88,15 @@ export const mmCountryReport: TikTokCountryReport = {
       topCountries: ["MM", "ID", "TH", "JP"],
     },
     {
+      topic: "FarewellParty",
+      category: "Local Life",
+      subcategory: "Leisure and Entertainment",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 715,
+      topCountries: ["MM", "ID", "NP", "ZA"],
+    },
+    {
       topic: "creatorinsighthashtags",
       category: "Science and Technology",
       subcategory: "Internet",
@@ -95,15 +104,6 @@ export const mmCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 738,
       topCountries: ["MM", "ID", "ET", "BD"],
-    },
-    {
-      topic: "puzzle 1000000000000000000000000000",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Toys",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1157,
-      topCountries: ["BD", "MM", "IQ", "ID"],
     },
   ],
   methodologyNote:

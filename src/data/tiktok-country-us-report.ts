@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const usCountryReport: TikTokCountryReport = {
   country: "United States",
   countryCode: "US",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "police officer the final part 3 review car",
@@ -21,7 +21,7 @@ export const usCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1003,
+      videoNum: 1016,
       topCountries: ["US", "AU", "PH", "CA", "KE"],
     },
     {
@@ -75,7 +75,7 @@ export const usCountryReport: TikTokCountryReport = {
       subcategory: "Traffic Services",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 3600,
+      videoNum: 3808,
       topCountries: ["US", "PH", "CA", "AU", "MX"],
     },
     {

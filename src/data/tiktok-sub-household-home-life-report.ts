@@ -14,10 +14,10 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "mop daddy",
@@ -86,7 +86,7 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topic: "true mirror at home",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 732,
+      videoNum: 736,
       topCountries: ["PH", "CA", "GB", "AU", "VN"],
     },
   ],

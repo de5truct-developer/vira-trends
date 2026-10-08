@@ -14,10 +14,10 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "شغل اونلاين moderator",
@@ -30,14 +30,14 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topic: "high-income skills to learn online",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 614,
       topCountries: ["US", "PH", "ID", "MX", "TH"],
     },
     {
       topic: "best side hustle",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2704,
+      videoNum: 2705,
       topCountries: ["PH", "ZA", "ID", "CA", "AU"],
     },
     {
@@ -83,11 +83,11 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topCountries: ["SA", "EG", "IQ", "DZ"],
     },
     {
-      topic: "نصائح تقديم وظائف للمبتدئين",
+      topic: "hooks near me",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 622,
-      topCountries: ["SA", "EG", "IQ", "YE"],
+      videoNum: 491,
+      topCountries: ["NG", "GH", "CA", "ZA", "AU"],
     },
   ],
   methodologyNote:

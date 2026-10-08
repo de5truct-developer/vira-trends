@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const auCountryReport: TikTokCountryReport = {
   country: "Australia",
   countryCode: "AU",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "disney cruise child ring",
@@ -66,7 +66,7 @@ export const auCountryReport: TikTokCountryReport = {
       subcategory: "Education - Others",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 875,
+      videoNum: 882,
       topCountries: ["AU", "CA", "ZA", "GB", "NZ"],
     },
     {

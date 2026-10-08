@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "tooro kingdom palace",
@@ -28,7 +28,7 @@ export const tourismReport: TikTokReport = {
       subcategory: "Tourism Service",
       growthMultiplier: 175,
       trust: "high",
-      videoNum: 5200,
+      videoNum: 5317,
       topCountries: ["US", "MX", "CA", "PH", "GB"],
     },
     {

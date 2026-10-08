@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "my jojo stand",
@@ -34,6 +34,15 @@ export const brCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "US", "BR", "MX", "MY"],
     },
     {
+      topic: "Pass to ronaldo",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 40,
+      trust: "high",
+      videoNum: 877,
+      topCountries: ["BR", "ID", "MX", "VN", "MY"],
+    },
+    {
       topic: "art sussex drawing",
       category: "Personal Interests and Hobbies",
       subcategory: "Art related Interests",
@@ -50,6 +59,15 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "BR", "GB", "PH", "ID"],
+    },
+    {
+      topic: "burnout car event schedules",
+      category: "Local Life",
+      subcategory: "Offline Performance",
+      growthMultiplier: 23,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "CA", "GB"],
     },
     {
       topic: "burning man 2026",
@@ -86,24 +104,6 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "MZ", "AO", "ZA"],
-    },
-    {
-      topic: "Eat food",
-      category: "Gourmet",
-      subcategory: "Other Gourmet",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "TR", "BR", "MX", "ID"],
-    },
-    {
-      topic: "buddy edit",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 938,
-      topCountries: ["BR", "MX", "PH", "AR"],
     },
   ],
   methodologyNote:

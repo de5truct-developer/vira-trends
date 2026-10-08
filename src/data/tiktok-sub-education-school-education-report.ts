@@ -14,10 +14,10 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "michelle calculator math",
@@ -55,11 +55,25 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "PH", "US", "IT", "FR"],
     },
     {
+      topic: "inspector calls",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 591,
+      topCountries: ["GB", "AE", "SG", "PH", "NG"],
+    },
+    {
       topic: "how much is mel school fees",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "ZW", "NG", "SZ"],
+    },
+    {
+      topic: "as as as as as song maths",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 308,
+      topCountries: ["ID", "PH", "BR", "TR"],
     },
     {
       topic: "Behind the logistics of naval aviation",
@@ -74,20 +88,6 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "AU"],
-    },
-    {
-      topic: "مطويه القيمة المنزليه رابع ابتدائي",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "YE", "BH", "EG"],
-    },
-    {
-      topic: "adelanto high school",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "DE", "MY"],
     },
   ],
   methodologyNote:

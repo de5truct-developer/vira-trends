@@ -14,10 +14,10 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "a banshee",
@@ -34,6 +34,13 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "VN"],
     },
     {
+      topic: "viking videos",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 922,
+      topCountries: ["MX", "PE", "AR", "GT"],
+    },
+    {
       topic: "TamilWedding",
       growthMultiplier: 1,
       trust: "high",
@@ -44,7 +51,7 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topic: "happy birthday xori",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1099,
+      videoNum: 1102,
       topCountries: ["NP", "IN", "AE", "KW", "QA"],
     },
     {
@@ -53,6 +60,13 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1408,
       topCountries: ["NG", "PH", "MM", "NP"],
+    },
+    {
+      topic: "happy birthday kinza",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 717,
+      topCountries: ["PK", "AE", "SA", "QA"],
     },
     {
       topic: "a punk",
@@ -72,7 +86,7 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topic: "beautiful weddings",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 2261,
+      videoNum: 2284,
       topCountries: ["MM", "ZA", "PK", "IQ"],
     },
   ],

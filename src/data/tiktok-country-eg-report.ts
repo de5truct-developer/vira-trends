@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const egCountryReport: TikTokCountryReport = {
   country: "Egypt",
   countryCode: "EG",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "Quick marinara pizza at home",
@@ -30,7 +30,7 @@ export const egCountryReport: TikTokCountryReport = {
       subcategory: "Fashion Tutorials",
       growthMultiplier: 12,
       trust: "high",
-      videoNum: null,
+      videoNum: 152,
       topCountries: ["US", "GB", "PH", "EG", "DE"],
     },
     {

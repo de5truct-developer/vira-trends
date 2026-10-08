@@ -14,16 +14,16 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "robot microsoft button press",
       growthMultiplier: 4400,
       trust: "high",
-      videoNum: 27000,
+      videoNum: 27008,
       topCountries: ["US", "MX", "VN", "GB", "BR"],
     },
     {
@@ -51,7 +51,7 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topic: "police robot",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 751,
+      videoNum: 764,
       topCountries: ["PH", "ID", "MY", "VN"],
     },
     {

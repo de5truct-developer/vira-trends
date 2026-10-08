@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const pkCountryReport: TikTokCountryReport = {
   country: "Pakistan",
   countryCode: "PK",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "#MyAccountGrowth",
@@ -75,7 +75,7 @@ export const pkCountryReport: TikTokCountryReport = {
       subcategory: "Board and Chess/Card Games",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 887,
+      videoNum: 889,
       topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
     {

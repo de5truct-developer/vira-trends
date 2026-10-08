@@ -14,11 +14,18 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
+    {
+      topic: "i love him but i have self respect",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "ZA", "CA", "MY"],
+    },
     {
       topic: "self reliance quotes",
       growthMultiplier: 2,
@@ -76,24 +83,17 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NG", "ID", "GB"],
     },
     {
-      topic: "MotivationForPersonalGrowth",
+      topic: "moltivation",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1237,
-      topCountries: ["ZA", "NG", "KE", "PH"],
-    },
-    {
-      topic: "silence is the loudest response",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1006,
-      topCountries: ["PH", "ZA", "MY", "AU", "ID"],
+      videoNum: 1509,
+      topCountries: ["NG", "GH", "SL", "UG"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "self reliance quotes",
+    topic: "i love him but i have self respect",
     audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

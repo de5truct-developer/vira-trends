@@ -14,10 +14,10 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "1980s-inspired looks for creators",
@@ -37,7 +37,7 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topic: "before-and-after hair color guide",
       growthMultiplier: 60,
       trust: "high",
-      videoNum: null,
+      videoNum: 152,
       topCountries: ["US", "GB", "PH", "EG", "DE"],
     },
     {
@@ -62,6 +62,13 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "CL", "PE", "AR"],
     },
     {
+      topic: "Level 7 blonde",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: 1022,
+      topCountries: ["GB", "SA", "TR", "EG", "CA"],
+    },
+    {
       topic: "boneless cornrows",
       growthMultiplier: 10,
       trust: "high",
@@ -81,13 +88,6 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 691,
       topCountries: ["ID", "US", "PH", "MY", "VN"],
-    },
-    {
-      topic: "how to pack a simple skincare kit",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "SG", "TL"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "lacewing eggs",
@@ -44,7 +44,7 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topic: "video of the egg original",
       growthMultiplier: 8,
       trust: "high",
-      videoNum: 801,
+      videoNum: 805,
       topCountries: ["US", "BR", "MX", "PH", "ID"],
     },
     {
@@ -58,7 +58,7 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topic: "steel an egg",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1150,
+      videoNum: 1154,
       topCountries: ["PH", "ID", "VN", "TH", "US"],
     },
     {

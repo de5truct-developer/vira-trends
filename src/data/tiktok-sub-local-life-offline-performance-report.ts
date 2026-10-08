@@ -14,11 +14,18 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
+    {
+      topic: "burnout car event schedules",
+      growthMultiplier: 138,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "CA", "GB"],
+    },
     {
       topic: "burning man 2026",
       growthMultiplier: 54,
@@ -82,18 +89,11 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["AU", "ID", "PH", "NZ", "VN"],
     },
-    {
-      topic: "tomorrowland disney",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 978,
-      topCountries: ["US", "CA", "AU", "MX", "BR"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "burning man 2026",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "burnout car event schedules",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "ashamed pronunciation",
@@ -102,7 +102,7 @@ export const saCountryReport: TikTokCountryReport = {
       subcategory: "Board and Chess/Card Games",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 887,
+      videoNum: 889,
       topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
   ],

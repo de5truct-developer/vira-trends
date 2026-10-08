@@ -14,16 +14,16 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "i am police officer",
       growthMultiplier: 280,
       trust: "high",
-      videoNum: 176,
+      videoNum: 285,
       topCountries: ["PK", "GB", "AE", "SA"],
     },
     {
@@ -76,18 +76,18 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "GH", "KE", "IT"],
     },
     {
-      topic: "Real challenges of offshore work",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "AU", "CA", "GB"],
-    },
-    {
       topic: "CREW GIRL",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 579,
       topCountries: ["TH", "ID", "PH", "LA", "BR"],
+    },
+    {
+      topic: "Real challenges of offshore work",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "AU", "CA", "GB"],
     },
   ],
   methodologyNote:

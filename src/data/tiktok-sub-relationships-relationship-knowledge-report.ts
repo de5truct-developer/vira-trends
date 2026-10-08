@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "teacher student relationship boundaries",
@@ -83,11 +83,11 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       topCountries: ["ZA", "SA", "PH", "MX", "CA"],
     },
     {
-      topic: "bonita meaning",
+      topic: "fictional men",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 755,
-      topCountries: ["PH", "MY", "AU", "ZA", "CA"],
+      videoNum: 902,
+      topCountries: ["PH", "PK", "MM", "MY", "ID"],
     },
   ],
   methodologyNote:

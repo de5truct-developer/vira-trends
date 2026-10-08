@@ -14,10 +14,10 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "dump trucks liv and maddie",
@@ -86,7 +86,7 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topic: "rapunzel edit to fix lag",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1158,
+      videoNum: 1159,
       topCountries: ["US", "GB", "DE", "IT", "FR"],
     },
   ],

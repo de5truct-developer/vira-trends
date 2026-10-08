@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "3 marla house for sale in location jalal pur jatt dera ma",
@@ -69,6 +69,13 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "GH", "CA", "BD", "IQ"],
     },
     {
+      topic: "borrowdale brooke houses",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZW", "ZA", "ZM", "BW"],
+    },
+    {
       topic: "Luxury Houses",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 967,
       topCountries: ["GB", "PH", "CA", "AU", "ZA"],
-    },
-    {
-      topic: "condo living",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1055,
-      topCountries: ["PH", "CA", "TH", "SG"],
     },
   ],
   methodologyNote:

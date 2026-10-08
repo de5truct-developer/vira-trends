@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "maria beauty now",
@@ -62,10 +62,17 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "KE", "NG", "GH", "LK"],
     },
     {
+      topic: "maple beauty mandalay",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "JP", "SG", "TH"],
+    },
+    {
       topic: "small power station",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 621,
+      videoNum: 655,
       topCountries: ["PH", "ZA", "KE", "MY", "NG"],
     },
     {
@@ -81,13 +88,6 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BD", "JP", "PK", "EG"],
-    },
-    {
-      topic: "minimalist wedding reception ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 679,
-      topCountries: ["PH", "CA", "NG", "AE", "AU"],
     },
   ],
   methodologyNote:

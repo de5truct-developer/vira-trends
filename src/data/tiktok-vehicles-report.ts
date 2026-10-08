@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const vehiclesReport: TikTokReport = {
   category: "Vehicles & Transportation",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "wileecoyote x roadrunner",
       subcategory: "Transport Equipment",
       growthMultiplier: 8762,
       trust: "high",
-      videoNum: 860,
+      videoNum: 870,
       topCountries: ["US", "MX", "PH", "BR", "PE"],
     },
     {
@@ -36,7 +36,7 @@ export const vehiclesReport: TikTokReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 1973,
       trust: "high",
-      videoNum: null,
+      videoNum: 821,
       topCountries: ["US", "ZA", "NG", "CA", "MY"],
     },
     {
@@ -52,7 +52,7 @@ export const vehiclesReport: TikTokReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 685,
       trust: "high",
-      videoNum: 42783,
+      videoNum: 42787,
       topCountries: ["US", "NP", "PK", "BD", "ID"],
     },
     {
@@ -88,12 +88,12 @@ export const vehiclesReport: TikTokReport = {
       topCountries: ["US", "PK", "BD", "BT", "NG"],
     },
     {
-      topic: "mark 60",
+      topic: "fourhandstwosonatas",
       subcategory: "Transport Equipment",
-      growthMultiplier: 88,
+      growthMultiplier: 99,
       trust: "high",
-      videoNum: 132,
-      topCountries: ["MX", "ES", "PE", "CO", "AR"],
+      videoNum: 3056,
+      topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
   ],
   methodologyNote:

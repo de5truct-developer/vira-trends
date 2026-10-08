@@ -14,10 +14,10 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "eddie vs toby's dad review",
@@ -65,7 +65,7 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topic: "shortdramareview 2 3 4 5 6 7 8 9 10",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
+      videoNum: 128,
       topCountries: ["CA", "GH", "JM", "NG"],
     },
     {

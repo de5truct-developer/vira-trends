@@ -14,16 +14,16 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "house in the middle of the road",
       growthMultiplier: 43,
       trust: "high",
-      videoNum: 5331,
+      videoNum: 5326,
       topCountries: ["US", "ZA", "GB", "PH", "DE"],
     },
     {

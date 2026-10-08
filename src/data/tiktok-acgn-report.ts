@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const acgnReport: TikTokReport = {
   category: "ACGN (Anime, Comics, Games & Novels)",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "melissa doi ending call",

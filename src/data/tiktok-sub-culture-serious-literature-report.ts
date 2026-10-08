@@ -14,10 +14,10 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "is it a verity verity verity",
@@ -27,11 +27,25 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "CA", "BR", "ID"],
     },
     {
+      topic: "her own private hell review",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1221,
+      topCountries: ["US", "GB", "DE", "AU", "CA"],
+    },
+    {
       topic: "chasing you through the years ava ending",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PH", "KE", "ID", "GH"],
+    },
+    {
+      topic: "the art of writing",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1087,
+      topCountries: ["MX", "PH", "ID", "ZA", "BR"],
     },
     {
       topic: "Is this thriller worth the hype",
@@ -74,20 +88,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "BR"],
-    },
-    {
-      topic: "god verity",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "BR", "GB", "CA"],
-    },
-    {
-      topic: "pursuit of jade",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 6621,
-      topCountries: ["ID", "PH", "MY", "MM", "KH"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "ExoticShorthairCat",
@@ -46,6 +46,13 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "CA", "UA", "AU"],
+    },
+    {
+      topic: "auausave clingy",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 805,
+      topCountries: ["PH", "ID", "MY", "GB", "MM"],
     },
     {
       topic: "CommercialFishing",
@@ -81,13 +88,6 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 623,
       topCountries: ["ID", "MY", "PH", "SA", "TH"],
-    },
-    {
-      topic: "Straycat",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1120,
-      topCountries: ["BR", "SA", "ID", "TH", "PH"],
     },
   ],
   methodologyNote:

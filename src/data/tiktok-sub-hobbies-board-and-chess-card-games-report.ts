@@ -14,16 +14,16 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "create schach insights 2027 viral",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 887,
+      videoNum: 889,
       topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
     {
@@ -51,7 +51,7 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topic: "creating schach insights in 2027",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 1124,
+      videoNum: 1129,
       topCountries: ["PK", "NP", "DZ", "SA", "ET"],
     },
     {
@@ -69,6 +69,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["KR", "ID", "SA", "IQ"],
     },
     {
+      topic: "panini world cup cards",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "KR", "JO", "DZ"],
+    },
+    {
       topic: "emma lewis card tutorial",
       growthMultiplier: 2,
       trust: "high",
@@ -79,15 +86,8 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topic: "create schach insight for you 2026",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 28378,
+      videoNum: 28381,
       topCountries: ["GB", "PK", "DE", "FR", "NP"],
-    },
-    {
-      topic: "prison break card game",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 229,
-      topCountries: ["PH", "GB", "SA", "IL", "MY"],
     },
   ],
   methodologyNote:

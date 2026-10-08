@@ -14,10 +14,10 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "Boom Boom Boom Dance Trend",
@@ -44,7 +44,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       topic: "Obsession Dance Goes Viral",
       growthMultiplier: 114,
       trust: "high",
-      videoNum: 1125,
+      videoNum: 1127,
       topCountries: ["BD", "US", "PK", "PH"],
     },
     {
@@ -58,7 +58,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       topic: "new dance trend august 2026",
       growthMultiplier: 35,
       trust: "high",
-      videoNum: 1055,
+      videoNum: 1056,
       topCountries: ["PH", "ZA", "NP", "ID"],
     },
     {
@@ -86,7 +86,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       topic: "tiktok dances compilation",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 1178,
+      videoNum: 1179,
       topCountries: ["PH", "MX", "AE", "MM"],
     },
   ],

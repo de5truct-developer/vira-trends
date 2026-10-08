@@ -14,23 +14,23 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "partnership paid",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 3620,
+      videoNum: 3679,
       topCountries: ["ID", "BR", "MX", "CO"],
     },
     {
       topic: "side hustle para personal de salud",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 417,
       topCountries: ["US", "TR", "DE", "MX", "PH"],
     },
     {

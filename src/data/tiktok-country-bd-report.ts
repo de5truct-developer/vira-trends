@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const bdCountryReport: TikTokCountryReport = {
   country: "Bangladesh",
   countryCode: "BD",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "messi vs england reaccion pt 2 fut crunch",
@@ -23,6 +23,15 @@ export const bdCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "NG", "AR", "ZA", "BD"],
+    },
+    {
+      topic: "viral funny shorts",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BD", "PK", "ID", "EG"],
     },
     {
       topic: "healed purple eye",
@@ -93,17 +102,8 @@ export const bdCountryReport: TikTokCountryReport = {
       subcategory: "Internet",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 1612,
+      videoNum: 1082,
       topCountries: ["BD", "NG", "PK", "ET"],
-    },
-    {
-      topic: "ai enhance filter",
-      category: "Science and Technology",
-      subcategory: "Software",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1439,
-      topCountries: ["BD", "PK", "IN", "NP", "ET"],
     },
   ],
   methodologyNote:

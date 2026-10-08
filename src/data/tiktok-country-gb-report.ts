@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const gbCountryReport: TikTokCountryReport = {
   country: "United Kingdom",
   countryCode: "GB",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "10/10 markers",
@@ -23,6 +23,15 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 3534,
       topCountries: ["US", "GB", "DE", "NL", "PL"],
+    },
+    {
+      topic: "burnout car event schedules",
+      category: "Local Life",
+      subcategory: "Offline Performance",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "CA", "GB"],
     },
     {
       topic: "olivia rodrigo fixing her pad",
@@ -57,7 +66,7 @@ export const gbCountryReport: TikTokCountryReport = {
       subcategory: "Fitness",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: null,
+      videoNum: 348,
       topCountries: ["US", "ID", "GB", "PH", "AU"],
     },
     {
@@ -95,15 +104,6 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 24195,
       topCountries: ["US", "GB", "PH", "DE", "SE"],
-    },
-    {
-      topic: "portrait reveal made for a viral review",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Art related Interests",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "GB", "ZA", "AU"],
     },
   ],
   methodologyNote:

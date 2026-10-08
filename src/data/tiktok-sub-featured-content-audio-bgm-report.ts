@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "Sound effects trend",
@@ -51,14 +51,14 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topic: "viral tiktok sounds 2026",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 52648,
+      videoNum: 52655,
       topCountries: ["ID", "PK", "BD", "NP", "NG"],
     },
     {
       topic: "take a photo and see what sound tiktok gives you",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 600366,
+      videoNum: 622998,
       topCountries: ["US", "NG", "PH", "ZA", "GH"],
     },
     {

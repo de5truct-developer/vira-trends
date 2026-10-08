@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "you're hired",
@@ -58,7 +58,7 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topic: "work office",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1300,
+      videoNum: 1333,
       topCountries: ["BD", "PH", "ID", "PK", "MY"],
     },
     {

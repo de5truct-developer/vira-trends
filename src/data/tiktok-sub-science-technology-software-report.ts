@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "minimuse app",
@@ -62,6 +62,13 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "IE", "DE", "SE"],
     },
     {
+      topic: "banner tiktok",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: 1209,
+      topCountries: ["ID", "BR", "IT", "PH", "DE"],
+    },
+    {
       topic: "Basketball Filter",
       growthMultiplier: 13,
       trust: "high",
@@ -81,13 +88,6 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 550,
       topCountries: ["BD", "NP", "PH", "MM", "JP"],
-    },
-    {
-      topic: "simple tricks to spark more comments",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "AO", "MZ", "GW"],
     },
   ],
   methodologyNote:

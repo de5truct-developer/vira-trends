@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "1980s-inspired looks for creators",
@@ -76,7 +76,7 @@ export const fashionReport: TikTokReport = {
       subcategory: "Fashion Tutorials",
       growthMultiplier: 60,
       trust: "high",
-      videoNum: null,
+      videoNum: 152,
       topCountries: ["US", "GB", "PH", "EG", "DE"],
     },
     {

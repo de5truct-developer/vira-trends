@@ -14,10 +14,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "football game snacks",
@@ -79,7 +79,7 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topic: "honest review of viral fruit desserts",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: null,
+      videoNum: 300,
       topCountries: ["PH", "ID", "BR", "CA"],
     },
     {

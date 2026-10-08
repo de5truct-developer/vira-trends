@@ -14,16 +14,16 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "hawaii is underwater",
       growthMultiplier: 23,
       trust: "high",
-      videoNum: 4059,
+      videoNum: 4057,
       topCountries: ["GB", "US", "PH", "CA"],
     },
     {
@@ -37,7 +37,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "RecapVideos",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2796,
+      videoNum: 2815,
       topCountries: ["MM", "TH", "JP", "ET"],
     },
     {
@@ -51,7 +51,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "day in my life vlog template",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 21884,
+      videoNum: 21974,
       topCountries: ["ZA", "PK", "ID", "PH", "NG"],
     },
     {

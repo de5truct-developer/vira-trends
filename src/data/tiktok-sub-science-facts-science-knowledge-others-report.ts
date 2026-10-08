@@ -14,10 +14,10 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "Viral tech experiments to try",
@@ -46,6 +46,13 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 1084,
       topCountries: ["ID", "US", "PH", "VN"],
+    },
+    {
+      topic: "creating visual tension with patterns",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "BR", "AR", "ES", "FR"],
     },
     {
       topic: "why diamonds feel rarer than they are",

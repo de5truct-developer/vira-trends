@@ -14,10 +14,10 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "learn faster with tako",
@@ -86,7 +86,7 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       topic: "home vs show hoodie",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 7329,
+      videoNum: 7691,
       topCountries: ["US", "ID", "PK", "BD", "MM"],
     },
   ],

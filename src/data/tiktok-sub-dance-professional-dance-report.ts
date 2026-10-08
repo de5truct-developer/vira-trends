@@ -14,11 +14,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
+    {
+      topic: "she was a punk he did ballet",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "MY", "ID", "DE"],
+    },
     {
       topic: "dance performances on stage",
       growthMultiplier: 2,
@@ -65,7 +72,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topic: "corolla shoes ballet",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 957,
+      videoNum: 962,
       topCountries: ["PH", "ID", "MY", "MM"],
     },
     {
@@ -82,18 +89,11 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       videoNum: 1203,
       topCountries: ["MX", "PH", "MY", "ID", "CA"],
     },
-    {
-      topic: "sophia lucia pirouettes",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 289,
-      topCountries: ["GB", "CA", "AU", "PH", "BR"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "dance performances on stage",
-    audience: "unknown 18-24, Nepal (dominant segment, snapshot at collection date)",
+    topic: "she was a punk he did ballet",
+    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

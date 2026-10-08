@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "inferior meaning",
@@ -25,6 +25,20 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 108,
       topCountries: ["NG", "PH", "DE", "GB", "ZA"],
+    },
+    {
+      topic: "pretty privileges que es",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VE", "CO", "MX", "PE", "EC"],
+    },
+    {
+      topic: "narcissistic person side lagu ogada",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SO", "KE", "ET", "SE", "ZA"],
     },
     {
       topic: "music and emotional expression",
@@ -74,20 +88,6 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "CA", "ZA", "MY"],
-    },
-    {
-      topic: "Feeling lost",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "AU", "CA", "PH", "ZA"],
-    },
-    {
-      topic: "deep thinking",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1074,
-      topCountries: ["ID", "PH", "VN", "PK"],
     },
   ],
   methodologyNote:

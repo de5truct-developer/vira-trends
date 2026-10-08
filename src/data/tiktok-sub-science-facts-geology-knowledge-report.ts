@@ -14,10 +14,10 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "there is a new rock by the water",
@@ -32,6 +32,13 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 3008,
       topCountries: ["ID", "UA", "PH", "MX", "CA"],
+    },
+    {
+      topic: "chicxulub crater now",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "CA", "DE"],
     },
     {
       topic: "شكل البحر الاسود",
@@ -79,15 +86,8 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "forest nature",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2062,
+      videoNum: 2067,
       topCountries: ["PH", "NP", "LK", "PK", "MM"],
-    },
-    {
-      topic: "Which hull feels safer in waves",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "DO", "MX", "GB", "DE"],
     },
   ],
   methodologyNote:

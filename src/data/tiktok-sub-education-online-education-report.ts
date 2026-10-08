@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "creators pilot program",
@@ -44,7 +44,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "teaching online",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1367,
+      videoNum: 1401,
       topCountries: ["ZA", "DZ", "NG", "PK", "PH"],
     },
     {
@@ -58,7 +58,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "OnlineLearning",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1238,
+      videoNum: 1239,
       topCountries: ["PK", "ZA", "ET", "NG"],
     },
     {

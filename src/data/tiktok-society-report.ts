@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "policestop",
       subcategory: "Society News",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 629,
+      videoNum: 681,
       topCountries: ["MX", "BR", "ID", "PE"],
     },
     {
@@ -28,7 +28,7 @@ export const societyReport: TikTokReport = {
       subcategory: "Society News",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 628,
+      videoNum: 634,
       topCountries: ["CA", "GB", "AU", "PH", "ZA"],
     },
     {
@@ -44,7 +44,7 @@ export const societyReport: TikTokReport = {
       subcategory: "Society News",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 1089,
+      videoNum: 1101,
       topCountries: ["PH", "BD", "PK", "NG"],
     },
     {

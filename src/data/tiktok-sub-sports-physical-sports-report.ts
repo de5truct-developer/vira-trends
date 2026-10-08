@@ -14,10 +14,10 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "abdul el sayed and wife",
@@ -37,7 +37,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topic: "fifa world cup 2026 hotels",
       growthMultiplier: 385,
       trust: "high",
-      videoNum: null,
+      videoNum: 5321,
       topCountries: ["US", "PK", "GB", "RU"],
     },
     {
@@ -51,7 +51,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topic: "bellingham bye bye edit",
       growthMultiplier: 219,
       trust: "high",
-      videoNum: 442,
+      videoNum: 463,
       topCountries: ["NG", "ID", "ZA", "MY", "BR"],
     },
     {
@@ -76,18 +76,18 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ZA", "CA", "AU", "KE"],
     },
     {
-      topic: "fourhandstwosonatas",
-      growthMultiplier: 99,
-      trust: "high",
-      videoNum: 2739,
-      topCountries: ["ID", "VN", "MY", "TH", "PH"],
-    },
-    {
       topic: "ryan garcia vs pitbull cruz",
       growthMultiplier: 97,
       trust: "high",
       videoNum: 609,
       topCountries: ["ID", "MX", "US", "PH", "MY"],
+    },
+    {
+      topic: "messi real voice",
+      growthMultiplier: 51,
+      trust: "high",
+      videoNum: 509,
+      topCountries: ["MY", "GB", "AU", "IT", "VN"],
     },
   ],
   methodologyNote:

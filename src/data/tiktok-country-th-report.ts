@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const thCountryReport: TikTokCountryReport = {
   country: "Thailand",
   countryCode: "TH",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "Simple survival tools to pack",
@@ -26,11 +26,11 @@ export const thCountryReport: TikTokCountryReport = {
     },
     {
       topic: "fourhandstwosonatas",
-      category: "Sports",
-      subcategory: "Physical Sports",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
       growthMultiplier: 62,
       trust: "high",
-      videoNum: 2739,
+      videoNum: 3056,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -48,7 +48,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Digital",
       growthMultiplier: 14,
       trust: "high",
-      videoNum: 975,
+      videoNum: 976,
       topCountries: ["ID", "VN", "TH", "PH"],
     },
     {
@@ -66,7 +66,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1150,
+      videoNum: 1154,
       topCountries: ["PH", "ID", "VN", "TH", "US"],
     },
     {
@@ -93,7 +93,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Biology Knowledge",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 579,
+      videoNum: 591,
       topCountries: ["TH", "ID", "BR", "PH", "VN"],
     },
     {

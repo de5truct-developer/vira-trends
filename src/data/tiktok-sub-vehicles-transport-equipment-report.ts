@@ -14,16 +14,16 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "wileecoyote x roadrunner",
       growthMultiplier: 8762,
       trust: "high",
-      videoNum: 860,
+      videoNum: 870,
       topCountries: ["US", "MX", "PH", "BR", "PE"],
     },
     {
@@ -37,7 +37,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topic: "67 chevy camaro",
       growthMultiplier: 1973,
       trust: "high",
-      videoNum: null,
+      videoNum: 821,
       topCountries: ["US", "ZA", "NG", "CA", "MY"],
     },
     {
@@ -51,7 +51,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topic: "chrysler south bronx",
       growthMultiplier: 685,
       trust: "high",
-      videoNum: 42783,
+      videoNum: 42787,
       topCountries: ["US", "NP", "PK", "BD", "ID"],
     },
     {
@@ -83,11 +83,11 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PK", "BD", "BT", "NG"],
     },
     {
-      topic: "mark 60",
-      growthMultiplier: 88,
+      topic: "fourhandstwosonatas",
+      growthMultiplier: 99,
       trust: "high",
-      videoNum: 132,
-      topCountries: ["MX", "ES", "PE", "CO", "AR"],
+      videoNum: 3056,
+      topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
   ],
   methodologyNote:

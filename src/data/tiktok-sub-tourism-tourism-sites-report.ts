@@ -14,10 +14,10 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "tooro kingdom palace",
@@ -83,11 +83,11 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "MY", "ID", "CA"],
     },
     {
-      topic: "diagon alley harry potter",
+      topic: "Mountain top",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 494,
-      topCountries: ["ID", "PH", "MX", "MY", "GB"],
+      videoNum: 1136,
+      topCountries: ["GB", "CA", "AU", "NG", "DE"],
     },
   ],
   methodologyNote:

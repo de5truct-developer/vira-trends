@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "james live photo",
@@ -51,7 +51,7 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topic: "dembele live photo tutorial",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 582,
+      videoNum: 599,
       topCountries: ["BD", "ID", "MM", "GB", "NP"],
     },
     {
@@ -76,18 +76,18 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["VN", "ID", "DZ", "MX"],
     },
     {
+      topic: "sad wallpaper for girls",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "PH", "NG", "ID", "ZA"],
+    },
+    {
       topic: "top 10 sad boys wallpapers",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 192,
       topCountries: ["PK", "NG", "ZA", "BD", "GH"],
-    },
-    {
-      topic: "فيديوهات مناظر طبيعيه 4k",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 889,
-      topCountries: ["EG", "IQ", "DZ", "SD", "YE"],
     },
   ],
   methodologyNote:

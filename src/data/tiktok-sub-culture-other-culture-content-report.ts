@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "يبجي الولد وشكاك ذيالي",
@@ -58,7 +58,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topic: "Pakistan people",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 45260,
+      videoNum: 45264,
       topCountries: ["PK", "PH", "NG", "MY", "ID"],
     },
   ],

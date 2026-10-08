@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "mentalist guide",
@@ -32,6 +32,13 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "GB", "AU", "MY"],
+    },
+    {
+      topic: "magictok",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 1062,
+      topCountries: ["BR", "ID", "TR", "BD"],
     },
     {
       topic: "uku viral trick",
@@ -51,7 +58,7 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       topic: "Show us your coolest tricks",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 957,
+      videoNum: 958,
       topCountries: ["PH", "NG", "GH", "MM", "BD"],
     },
     {
@@ -81,13 +88,6 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 1098,
       topCountries: ["NP", "KR", "MM", "PK"],
-    },
-    {
-      topic: "magic trick reaction videos",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "BD", "ID", "MM"],
     },
   ],
   methodologyNote:

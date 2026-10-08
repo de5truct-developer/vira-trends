@@ -14,10 +14,10 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "fake collage",
@@ -51,7 +51,7 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       topic: "september birthday template",
       growthMultiplier: 13,
       trust: "high",
-      videoNum: 901,
+      videoNum: 911,
       topCountries: ["BD", "PK", "PH", "ID"],
     },
     {
@@ -76,18 +76,18 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "NG", "SG", "PH", "DE"],
     },
     {
+      topic: "gettingmorefollowersandlikes",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 794,
+      topCountries: ["PH", "ZA", "MM", "ID"],
+    },
+    {
       topic: "creator highlights insights",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 19496,
+      videoNum: 19494,
       topCountries: ["PK", "ID", "PH", "MM", "BD"],
-    },
-    {
-      topic: "creative vlog content ideas",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1019,
-      topCountries: ["ET", "MM", "JM", "HT"],
     },
   ],
   methodologyNote:

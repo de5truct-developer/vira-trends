@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ngCountryReport: TikTokCountryReport = {
   country: "Nigeria",
   countryCode: "NG",
-  computedAt: "2026-10-07T04:23:34Z",
+  computedAt: "2026-10-08T04:24:18Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-07",
+  updatedAt: "2026-10-08",
   topics: [
     {
       topic: "messi first goal for argentina",
@@ -66,7 +66,7 @@ export const ngCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: null,
+      videoNum: 473,
       topCountries: ["NG", "GB", "DE", "BJ"],
     },
     {
@@ -102,7 +102,7 @@ export const ngCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 1183,
+      videoNum: 1185,
       topCountries: ["NG", "GB", "KE", "GH"],
     },
   ],
