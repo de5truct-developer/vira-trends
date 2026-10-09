@@ -14,10 +14,10 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "sadie sink calvin klein",
@@ -72,8 +72,15 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topic: "jaden smith fashion and style",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 140,
+      videoNum: 467,
       topCountries: ["US", "ID", "TH", "PH", "ZA"],
+    },
+    {
+      topic: "models now vs then",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 551,
+      topCountries: ["PH", "MX", "BR", "CA", "IL"],
     },
     {
       topic: "scott mctominay style",
@@ -81,13 +88,6 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IQ", "TH", "TR", "GB", "IT"],
-    },
-    {
-      topic: "are you bi ronaldinho sweater",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 156,
-      topCountries: ["BR", "VN", "TR", "CA", "MX"],
     },
   ],
   methodologyNote:

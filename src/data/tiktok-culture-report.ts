@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "what happened to suchomimus",
@@ -22,6 +22,14 @@ export const cultureReport: TikTokReport = {
       trust: "high",
       videoNum: 571,
       topCountries: ["US", "PH", "CA", "AU", "ID"],
+    },
+    {
+      topic: "TheMissingPiece",
+      subcategory: "Serious Literature",
+      growthMultiplier: 31,
+      trust: "high",
+      videoNum: 1122,
+      topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
     {
       topic: "is it a verity verity verity",
@@ -86,14 +94,6 @@ export const cultureReport: TikTokReport = {
       trust: "high",
       videoNum: 128,
       topCountries: ["ID", "MY", "PH", "VN"],
-    },
-    {
-      topic: "Is this thriller worth the hype",
-      subcategory: "Serious Literature",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "FR", "AU"],
     },
   ],
   methodologyNote:

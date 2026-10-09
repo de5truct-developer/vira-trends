@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const bdCountryReport: TikTokCountryReport = {
   country: "Bangladesh",
   countryCode: "BD",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "messi vs england reaccion pt 2 fut crunch",
@@ -23,6 +23,24 @@ export const bdCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "NG", "AR", "ZA", "BD"],
+    },
+    {
+      topic: "a chill day inside rock am ring",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 196,
+      topCountries: ["PK", "SA", "ET", "BD"],
+    },
+    {
+      topic: "car lighting features that stand out",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "SA", "ET", "BD"],
     },
     {
       topic: "viral funny shorts",
@@ -86,24 +104,6 @@ export const bdCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BD", "KE", "PH", "AU"],
-    },
-    {
-      topic: "modern saree looks through ai art",
-      category: "Fashion",
-      subcategory: "Fashion Products",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "MM", "BD", "ID"],
-    },
-    {
-      topic: "ContentTips",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1082,
-      topCountries: ["BD", "NG", "PK", "ET"],
     },
   ],
   methodologyNote:

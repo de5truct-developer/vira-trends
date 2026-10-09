@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const thCountryReport: TikTokCountryReport = {
   country: "Thailand",
   countryCode: "TH",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "Simple survival tools to pack",
@@ -30,7 +30,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 62,
       trust: "high",
-      videoNum: 3056,
+      videoNum: 5339,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -43,12 +43,21 @@ export const thCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "TH", "MM", "BD"],
     },
     {
+      topic: "TheMissingPiece",
+      category: "Culture",
+      subcategory: "Serious Literature",
+      growthMultiplier: 20,
+      trust: "high",
+      videoNum: 1122,
+      topCountries: ["ID", "VN", "TH", "MM", "KH"],
+    },
+    {
       topic: "smartbot review parte 2",
       category: "Science and Technology",
       subcategory: "Digital",
       growthMultiplier: 14,
       trust: "high",
-      videoNum: 976,
+      videoNum: 980,
       topCountries: ["ID", "VN", "TH", "PH"],
     },
     {
@@ -66,7 +75,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1154,
+      videoNum: 1167,
       topCountries: ["PH", "ID", "VN", "TH", "US"],
     },
     {
@@ -79,6 +88,15 @@ export const thCountryReport: TikTokCountryReport = {
       topCountries: ["TH", "ID", "PH", "BR", "MX"],
     },
     {
+      topic: "morty × evil morty",
+      category: "ACGN",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 385,
+      topCountries: ["US", "MX", "TH", "VN", "PH"],
+    },
+    {
       topic: "fast track",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
@@ -86,24 +104,6 @@ export const thCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1061,
       topCountries: ["ID", "VN", "TH", "MY", "FR"],
-    },
-    {
-      topic: "Petal flower",
-      category: "Science Knowledge",
-      subcategory: "Biology Knowledge",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 591,
-      topCountries: ["TH", "ID", "BR", "PH", "VN"],
-    },
-    {
-      topic: "diy fly repellent with light tricks",
-      category: "Household",
-      subcategory: "Home Life",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["DE", "NG", "GB", "TH", "PK"],
     },
   ],
   methodologyNote:

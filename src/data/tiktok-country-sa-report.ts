@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "1980s-inspired looks for creators",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 2937,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "IQ", "DZ", "EG", "MA"],
+    },
     {
       topic: "ashamed pronunciation",
       category: "Education",
@@ -30,7 +39,7 @@ export const saCountryReport: TikTokCountryReport = {
       subcategory: "Leisure and Entertainment",
       growthMultiplier: 59,
       trust: "high",
-      videoNum: 699,
+      videoNum: 708,
       topCountries: ["SA", "SO", "AE", "KE", "KW"],
     },
     {
@@ -96,20 +105,11 @@ export const saCountryReport: TikTokCountryReport = {
       videoNum: 1124,
       topCountries: ["IQ", "EG", "DZ", "SA"],
     },
-    {
-      topic: "create schach insights 2027 viral",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Board and Chess/Card Games",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 889,
-      topCountries: ["PK", "NP", "ET", "SA", "UG"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "ashamed pronunciation",
-    audience: "female 18-24, Saudi Arabia (dominant segment, snapshot at collection date)",
+    topic: "1980s-inspired looks for creators",
+    audience: "female 25-34, Saudi Arabia (dominant segment, snapshot at collection date)",
   },
 };

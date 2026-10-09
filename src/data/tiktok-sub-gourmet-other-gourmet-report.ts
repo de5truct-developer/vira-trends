@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "what did los pollos do",
@@ -37,7 +37,7 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topic: "daily vlog with food and errands",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 699,
+      videoNum: 705,
       topCountries: ["MX", "CO", "GT", "US"],
     },
     {

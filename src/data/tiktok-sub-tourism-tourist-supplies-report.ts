@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "what to pack for a valley tour",
@@ -76,18 +76,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "AU", "ZA", "NZ"],
     },
     {
+      topic: "what i pack for active day trips",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
       topic: "what i pack for hot weather travel",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "PH", "MY", "GB"],
-    },
-    {
-      topic: "travel essentials for women",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 962,
-      topCountries: ["CA", "MY", "PH", "AU", "ZA"],
     },
   ],
   methodologyNote:

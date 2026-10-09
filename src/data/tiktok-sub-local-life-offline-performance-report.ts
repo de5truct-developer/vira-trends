@@ -14,10 +14,10 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "burnout car event schedules",
@@ -55,6 +55,13 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PE", "PH", "BR"],
     },
     {
+      topic: "albis rock in rio",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 348,
+      topCountries: ["BR", "AO", "CA", "PY", "IL"],
+    },
+    {
       topic: "family drama filming locations",
       growthMultiplier: 2,
       trust: "high",
@@ -76,18 +83,11 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["NP", "MY", "JP", "AE"],
     },
     {
-      topic: "cinematic event recap",
+      topic: "bunny concert mandalay",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 526,
-      topCountries: ["ID", "VN", "BR", "PH", "NG"],
-    },
-    {
-      topic: "rod laver arena melbourne",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AU", "ID", "PH", "NZ", "VN"],
+      videoNum: 614,
+      topCountries: ["MM", "JP", "TH", "SG"],
     },
   ],
   methodologyNote:

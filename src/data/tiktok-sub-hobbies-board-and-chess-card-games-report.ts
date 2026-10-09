@@ -14,10 +14,10 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "create schach insights 2027 viral",
@@ -46,6 +46,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["KR", "PK", "BR", "SA", "PY"],
+    },
+    {
+      topic: "Magnus opening",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 140,
+      topCountries: ["ID", "PH", "MY", "MM"],
     },
     {
       topic: "creating schach insights in 2027",
@@ -81,13 +88,6 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PH", "PE", "RS", "CA"],
-    },
-    {
-      topic: "create schach insight for you 2026",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 28381,
-      topCountries: ["GB", "PK", "DE", "FR", "NP"],
     },
   ],
   methodologyNote:

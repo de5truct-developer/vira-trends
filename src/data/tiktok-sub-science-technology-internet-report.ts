@@ -14,10 +14,10 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "fake collage",
@@ -32,6 +32,13 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "NP", "PH", "ET"],
+    },
+    {
+      topic: "lucy informa google",
+      growthMultiplier: 58,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "US", "EC", "GT", "CO"],
     },
     {
       topic: "buddy edit",
@@ -81,13 +88,6 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 794,
       topCountries: ["PH", "ZA", "MM", "ID"],
-    },
-    {
-      topic: "creator highlights insights",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 19494,
-      topCountries: ["PK", "ID", "PH", "MM", "BD"],
     },
   ],
   methodologyNote:

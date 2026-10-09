@@ -14,16 +14,16 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "lunch im my city",
       growthMultiplier: 237,
       trust: "high",
-      videoNum: 574,
+      videoNum: 584,
       topCountries: ["US", "SE", "CA", "AU", "ZA"],
     },
     {
@@ -44,7 +44,7 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       topic: "ksos cafe",
       growthMultiplier: 12,
       trust: "high",
-      videoNum: null,
+      videoNum: 635,
       topCountries: ["PH", "ID", "BR", "VN"],
     },
     {
@@ -79,8 +79,8 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       topic: "coffee festival 2026",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
-      topCountries: ["TH", "GR", "TR", "MY", "SG"],
+      videoNum: 525,
+      topCountries: ["TH", "GR", "MY", "TR", "SG"],
     },
     {
       topic: "taco bell trend",

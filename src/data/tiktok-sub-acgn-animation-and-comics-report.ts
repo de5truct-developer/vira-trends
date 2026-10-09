@@ -14,16 +14,16 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "dump trucks liv and maddie",
       growthMultiplier: 427,
       trust: "high",
-      videoNum: 9862,
+      videoNum: 9870,
       topCountries: ["US", "ZA", "CA", "AU", "NG"],
     },
     {
@@ -62,6 +62,13 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
     {
+      topic: "i wish i was a super sugoi anime character",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 229,
+      topCountries: ["US", "ID", "PH", "MY", "VN"],
+    },
+    {
       topic: "lucy winx",
       growthMultiplier: 7,
       trust: "high",
@@ -81,13 +88,6 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 128,
       topCountries: ["PH", "US", "CA", "GB", "AU"],
-    },
-    {
-      topic: "rapunzel edit to fix lag",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1159,
-      topCountries: ["US", "GB", "DE", "IT", "FR"],
     },
   ],
   methodologyNote:

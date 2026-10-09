@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const phCountryReport: TikTokCountryReport = {
   country: "Philippines",
   countryCode: "PH",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "minimuse app",
@@ -34,12 +34,21 @@ export const phCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "US", "MY", "ID", "GB"],
     },
     {
+      topic: "create sights insight",
+      category: "TikTok's Featured Content",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 178,
+      trust: "high",
+      videoNum: 175565,
+      topCountries: ["PH", "MM", "KH", "TH", "GB"],
+    },
+    {
       topic: "fourhandstwosonatas",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
       growthMultiplier: 173,
       trust: "high",
-      videoNum: 3056,
+      videoNum: 5339,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -79,6 +88,15 @@ export const phCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "US", "GB", "ID", "CA"],
     },
     {
+      topic: "breaker review xxl 2 3 4 5 6 7 8 9 10",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Other Hobbies",
+      growthMultiplier: 85,
+      trust: "high",
+      videoNum: 742,
+      topCountries: ["ID", "BR", "MY", "PK", "PH"],
+    },
+    {
       topic: "what did los pollos do",
       category: "Gourmet",
       subcategory: "Other Gourmet",
@@ -86,24 +104,6 @@ export const phCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 654,
       topCountries: ["US", "PH", "GB", "CA", "AU"],
-    },
-    {
-      topic: "mr jackie purple egg truth revealed",
-      category: "TikTok's Featured Content",
-      subcategory: "Others TikTok and Video Contents",
-      growthMultiplier: 66,
-      trust: "high",
-      videoNum: 642,
-      topCountries: ["US", "PH", "CA", "AU", "ZA"],
-    },
-    {
-      topic: "turning my mum into me outfit",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 42,
-      trust: "high",
-      videoNum: 503,
-      topCountries: ["US", "GB", "PH", "DE", "IT"],
     },
   ],
   methodologyNote:

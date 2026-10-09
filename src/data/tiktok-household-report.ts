@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "Bog lights",
+      subcategory: "House Decoration",
+      growthMultiplier: 7700,
+      trust: "high",
+      videoNum: 457,
+      topCountries: ["US", "AU", "GB", "PH", "CA"],
+    },
     {
       topic: "mop daddy",
       subcategory: "Home Life",
@@ -87,19 +95,11 @@ export const householdReport: TikTokReport = {
       videoNum: 442,
       topCountries: ["PH", "SA", "KW", "AE"],
     },
-    {
-      topic: "stock tank pool",
-      subcategory: "House Decoration",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "CA", "AU", "NL"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "mop daddy",
+    topic: "Bog lights",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

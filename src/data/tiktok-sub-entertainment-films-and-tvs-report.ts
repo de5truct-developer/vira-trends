@@ -14,10 +14,10 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "eddie vs toby's dad review",
@@ -34,18 +34,18 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "IE", "AU", "CA"],
     },
     {
+      topic: "georgie makes a lot of money",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "ID", "MY"],
+    },
+    {
       topic: "موتٍ شاهين المدينه البعيده",
       growthMultiplier: 14,
       trust: "high",
       videoNum: 364,
       topCountries: ["SA", "IQ", "EG", "DZ"],
-    },
-    {
-      topic: "georgie makes a lot of money",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "ID", "MY"],
     },
     {
       topic: "there will be food",
@@ -69,6 +69,13 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "GH", "JM", "NG"],
     },
     {
+      topic: "hey its me moggity",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 192,
+      topCountries: ["US", "GB", "BR", "PH", "DE"],
+    },
+    {
       topic: "like and share film",
       growthMultiplier: 3,
       trust: "high",
@@ -81,13 +88,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MY", "ID", "SG"],
-    },
-    {
-      topic: "bts iheartradio festival 2026",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "MX", "ID", "PH", "PE"],
     },
   ],
   methodologyNote:

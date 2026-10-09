@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "abdul el sayed and wife",
@@ -36,7 +36,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 385,
       trust: "high",
-      videoNum: 5321,
+      videoNum: 5320,
       topCountries: ["US", "PK", "GB", "RU"],
     },
     {
@@ -54,6 +54,14 @@ export const sportsReport: TikTokReport = {
       trust: "high",
       videoNum: 463,
       topCountries: ["NG", "ID", "ZA", "MY", "BR"],
+    },
+    {
+      topic: "Best goals and assists breakdown",
+      subcategory: "Physical Sports",
+      growthMultiplier: 202,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VN", "ID", "MX", "TH", "PE"],
     },
     {
       topic: "kimi antonelli net worth",
@@ -86,14 +94,6 @@ export const sportsReport: TikTokReport = {
       trust: "high",
       videoNum: 609,
       topCountries: ["ID", "MX", "US", "PH", "MY"],
-    },
-    {
-      topic: "leg lifts method",
-      subcategory: "Fitness",
-      growthMultiplier: 62,
-      trust: "high",
-      videoNum: 1211,
-      topCountries: ["US", "GB", "DE", "CA", "SE"],
     },
   ],
   methodologyNote:

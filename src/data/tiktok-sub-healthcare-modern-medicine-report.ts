@@ -14,17 +14,31 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "what is a duff",
+      growthMultiplier: 23,
+      trust: "high",
+      videoNum: 475,
+      topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
     {
       topic: "sterling point hormonal",
       growthMultiplier: 19,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "AR", "CO", "GT", "VE"],
+    },
+    {
+      topic: "what is cauliflower ear",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "SE", "CA", "PH"],
     },
     {
       topic: "gum recession",
@@ -75,25 +89,11 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       videoNum: 623,
       topCountries: ["US", "PH", "MY", "ID", "NP"],
     },
-    {
-      topic: "mental health and emotional wellbeing",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1178,
-      topCountries: ["NG", "PH", "KE", "ID", "BD"],
-    },
-    {
-      topic: "do rams get brain damage",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "sterling point hormonal",
-    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
+    topic: "what is a duff",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

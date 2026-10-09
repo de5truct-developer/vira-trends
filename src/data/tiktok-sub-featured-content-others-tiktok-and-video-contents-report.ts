@@ -14,10 +14,10 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "gracie pizza shop original video",
@@ -55,6 +55,13 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["GB", "IE", "AU", "NL", "SE"],
     },
     {
+      topic: "create sights insight",
+      growthMultiplier: 35,
+      trust: "high",
+      videoNum: 175565,
+      topCountries: ["PH", "MM", "KH", "TH", "GB"],
+    },
+    {
       topic: "duet videos on tiktok",
       growthMultiplier: 28,
       trust: "high",
@@ -69,25 +76,18 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["MM", "ID", "UG", "BD"],
     },
     {
+      topic: "that's like cupcake pink up",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MX", "PH", "BR", "ID"],
+    },
+    {
       topic: "creator insights part 3 4 next 3",
       growthMultiplier: 15,
       trust: "high",
       videoNum: 108,
       topCountries: ["ZA", "NG", "PK", "GH"],
-    },
-    {
-      topic: "viiraltiktok",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: 78774,
-      topCountries: ["PK", "BD", "ET", "NP"],
-    },
-    {
-      topic: "مقاطع حماسية نار",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 144,
-      topCountries: ["EG", "IQ", "YE", "SA"],
     },
   ],
   methodologyNote:

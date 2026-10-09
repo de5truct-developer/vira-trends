@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "live incentive program 2 part",
@@ -65,7 +65,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topic: "understanding live incentive programs",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1048,
+      videoNum: 1065,
       topCountries: ["MX", "GT", "PE", "VE", "BR"],
     },
     {

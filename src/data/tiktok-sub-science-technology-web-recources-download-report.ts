@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "james live photo",
@@ -83,11 +83,11 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["PK", "PH", "NG", "ID", "ZA"],
     },
     {
-      topic: "top 10 sad boys wallpapers",
+      topic: "ultra hd 8k",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 192,
-      topCountries: ["PK", "NG", "ZA", "BD", "GH"],
+      videoNum: 998,
+      topCountries: ["PK", "ID", "MY", "MX", "SA"],
     },
   ],
   methodologyNote:

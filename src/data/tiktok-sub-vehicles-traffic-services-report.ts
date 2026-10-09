@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "الاقلاع الفوري القوات الجوية الملكية السعودية",
@@ -62,6 +62,13 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "CA", "AU", "MX"],
     },
     {
+      topic: "ping driver",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 459,
+      topCountries: ["PH", "SA", "CA", "GB", "ID"],
+    },
+    {
       topic: "idr meaning license",
       growthMultiplier: 1,
       trust: "high",
@@ -81,13 +88,6 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1127,
       topCountries: ["IQ", "MM", "MY", "ID"],
-    },
-    {
-      topic: "engine mechanic",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1064,
-      topCountries: ["UG", "KE", "TZ", "NG"],
     },
   ],
   methodologyNote:

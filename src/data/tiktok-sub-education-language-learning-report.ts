@@ -14,17 +14,24 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "3 in german",
       growthMultiplier: 5207,
       trust: "high",
-      videoNum: 581,
+      videoNum: 615,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
+      topic: "tuide speak english",
+      growthMultiplier: 32,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "VN", "MY", "TH"],
     },
     {
       topic: "happy birthday in thai language",
@@ -81,13 +88,6 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 712,
       topCountries: ["MX", "IT", "ES", "PL", "FR"],
-    },
-    {
-      topic: "ashamed pronunciation",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "SA", "FR", "MY", "ID"],
     },
   ],
   methodologyNote:

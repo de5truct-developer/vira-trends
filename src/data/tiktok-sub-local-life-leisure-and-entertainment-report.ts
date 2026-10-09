@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "obamas center opening",
@@ -65,7 +65,7 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topic: "The Ivy",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 699,
+      videoNum: 708,
       topCountries: ["SA", "SO", "AE", "KE", "KW"],
     },
     {

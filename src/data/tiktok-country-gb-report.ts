@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const gbCountryReport: TikTokCountryReport = {
   country: "United Kingdom",
   countryCode: "GB",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "10/10 markers",
@@ -61,6 +61,15 @@ export const gbCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "PH", "DE", "IT"],
     },
     {
+      topic: "giant inhaler jar",
+      category: "Household",
+      subcategory: "Home Life",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "US", "DE", "SE", "NL"],
+    },
+    {
       topic: "my body transformation timeline",
       category: "Sports",
       subcategory: "Fitness",
@@ -95,15 +104,6 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1211,
       topCountries: ["US", "GB", "DE", "CA", "SE"],
-    },
-    {
-      topic: "gum recession",
-      category: "Healthcare",
-      subcategory: "Modern Medicine",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 24195,
-      topCountries: ["US", "GB", "PH", "DE", "SE"],
     },
   ],
   methodologyNote:

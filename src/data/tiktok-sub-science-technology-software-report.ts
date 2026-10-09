@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "minimuse app",
@@ -65,7 +65,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topic: "banner tiktok",
       growthMultiplier: 14,
       trust: "high",
-      videoNum: 1209,
+      videoNum: 1052,
       topCountries: ["ID", "BR", "IT", "PH", "DE"],
     },
     {

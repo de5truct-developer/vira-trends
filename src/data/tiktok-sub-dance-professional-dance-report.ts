@@ -14,10 +14,10 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "she was a punk he did ballet",
@@ -28,7 +28,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "dance performances on stage",
-      growthMultiplier: 2,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 876,
       topCountries: ["PK", "NP", "MM", "ZA", "ID"],
@@ -37,7 +37,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topic: "jiwoo ballet",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2566,
+      videoNum: 2565,
       topCountries: ["ID", "VN", "MY", "PH"],
     },
     {
@@ -46,6 +46,13 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1180,
       topCountries: ["MX", "BR", "CL", "RU", "PH"],
+    },
+    {
+      topic: "ware salsa",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 697,
+      topCountries: ["EC", "CO", "VE", "CL", "PE"],
     },
     {
       topic: "this is bachata",
@@ -72,7 +79,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topic: "corolla shoes ballet",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 962,
+      videoNum: 969,
       topCountries: ["PH", "ID", "MY", "MM"],
     },
     {
@@ -81,13 +88,6 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 932,
       topCountries: ["BR", "MX", "JP", "PH", "RU"],
-    },
-    {
-      topic: "Aerial dance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1203,
-      topCountries: ["MX", "PH", "MY", "ID", "CA"],
     },
   ],
   methodologyNote:

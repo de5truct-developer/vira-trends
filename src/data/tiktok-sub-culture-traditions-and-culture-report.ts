@@ -14,10 +14,10 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "a banshee",
@@ -62,6 +62,13 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "PH", "MM", "NP"],
     },
     {
+      topic: "KoreanCulture",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 664,
+      topCountries: ["ID", "KR", "MY", "PH"],
+    },
+    {
       topic: "happy birthday kinza",
       growthMultiplier: 1,
       trust: "high",
@@ -81,13 +88,6 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 31545,
       topCountries: ["NG", "ZA", "PK", "KE"],
-    },
-    {
-      topic: "beautiful weddings",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 2284,
-      topCountries: ["MM", "ZA", "PK", "IQ"],
     },
   ],
   methodologyNote:

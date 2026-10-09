@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "breaker review xxl 2 3 4 5 6 7 8 9 10",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Other Hobbies",
+      growthMultiplier: 187,
+      trust: "high",
+      videoNum: 742,
+      topCountries: ["ID", "BR", "MY", "PK", "PH"],
+    },
     {
       topic: "fixing a machine 2 3 4 5 6",
       category: "Science and Technology",
@@ -66,7 +75,7 @@ export const myCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 33,
       trust: "high",
-      videoNum: 3056,
+      videoNum: 5339,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -96,20 +105,11 @@ export const myCountryReport: TikTokCountryReport = {
       videoNum: null,
       topCountries: ["ID", "MY", "PH", "ZA", "MM"],
     },
-    {
-      topic: "ashamed pronunciation",
-      category: "Education",
-      subcategory: "Language Learning",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "SA", "FR", "MY", "ID"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fixing a machine 2 3 4 5 6",
+    topic: "breaker review xxl 2 3 4 5 6 7 8 9 10",
     audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

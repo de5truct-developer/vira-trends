@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "toronto inconvenience store",
@@ -85,7 +85,7 @@ export const localLifeReport: TikTokReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 1007,
-      topCountries: ["PH", "PK", "AE", "CA", "JP"],
+      topCountries: ["PH", "AE", "CA", "JP"],
     },
     {
       topic: "skinner park",

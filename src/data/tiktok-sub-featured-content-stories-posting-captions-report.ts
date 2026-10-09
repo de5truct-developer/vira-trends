@@ -14,11 +14,18 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "foryou_fypシ_fypシ゚viral",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 20753,
+      topCountries: ["ET", "ID", "BD", "MM"],
+    },
     {
       topic: "اكسبلورexplore_اكيبلور_explore",
       growthMultiplier: 6,
@@ -82,18 +89,11 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       videoNum: null,
       topCountries: ["PH", "CA", "ZA", "MY", "AU"],
     },
-    {
-      topic: "اكسبلور_فولو_متابعة_تفاعل_تعليق_عبارات_مشاهدات_مليونيهـ",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1992,
-      topCountries: ["SD", "IQ", "EG", "TD"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "اكسبلورexplore_اكيبلور_explore",
-    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
+    topic: "foryou_fypシ_fypシ゚viral",
+    audience: "unknown 25-34, Ethiopia (dominant segment, snapshot at collection date)",
   },
 };

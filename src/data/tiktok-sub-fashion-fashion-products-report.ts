@@ -14,11 +14,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "fashion product reviews",
+      growthMultiplier: 3137,
+      trust: "high",
+      videoNum: 650,
+      topCountries: ["ID", "VN", "MM", "TH"],
+    },
     {
       topic: "icespice tattoo",
       growthMultiplier: 943,
@@ -82,18 +89,11 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       videoNum: 152,
       topCountries: ["MX", "AR", "PE", "CO", "PH"],
     },
-    {
-      topic: "bash hygiene pouch",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "KW", "SA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "icespice tattoo",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "fashion product reviews",
+    audience: "not enough audience data for this topic",
   },
 };

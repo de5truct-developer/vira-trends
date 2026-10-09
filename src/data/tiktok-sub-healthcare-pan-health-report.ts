@@ -14,11 +14,18 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "neck brace coraline",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "AU", "MY"],
+    },
     {
       topic: "best supplements for gym",
       growthMultiplier: 1,
@@ -82,18 +89,11 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       videoNum: 1000,
       topCountries: ["AU", "ZA", "CA", "PH", "KE"],
     },
-    {
-      topic: "so drained",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "AU", "CA", "GB"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "best supplements for gym",
-    audience: "male 18-24, Australia (dominant segment, snapshot at collection date)",
+    topic: "neck brace coraline",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

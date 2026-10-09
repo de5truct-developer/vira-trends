@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "robot microsoft button press",
@@ -72,6 +72,14 @@ export const scienceTechnologyReport: TikTokReport = {
       topCountries: ["PK", "NG", "NP", "PH", "ET"],
     },
     {
+      topic: "lucy informa google",
+      subcategory: "Internet",
+      growthMultiplier: 58,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "US", "EC", "GT", "CO"],
+    },
+    {
       topic: "16k 240fps camera",
       subcategory: "Digital",
       growthMultiplier: 53,
@@ -86,14 +94,6 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: 973,
       topCountries: ["TZ", "KE", "GM", "NG"],
-    },
-    {
-      topic: "ip 18 pro max",
-      subcategory: "Digital",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 7873,
-      topCountries: ["ID", "MM", "IQ", "PH"],
     },
   ],
   methodologyNote:

@@ -14,11 +14,18 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "rancav management 2026",
+      growthMultiplier: 41,
+      trust: "high",
+      videoNum: 144,
+      topCountries: ["PH", "MM", "MX", "MY"],
+    },
     {
       topic: "michelle calculator math",
       growthMultiplier: 18,
@@ -82,18 +89,11 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["TH", "LA", "MM", "ID"],
     },
-    {
-      topic: "george w bush school",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "CA", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "michelle calculator math",
-    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "rancav management 2026",
+    audience: "unknown 4-15, Philippines (dominant segment, snapshot at collection date)",
   },
 };

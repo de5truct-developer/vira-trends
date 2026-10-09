@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "children dancing to music",
@@ -39,6 +39,13 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 711,
       topCountries: ["MM", "TH", "JP", "SA", "MY"],
+    },
+    {
+      topic: "james choreographer by illit",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "MY", "MX"],
     },
     {
       topic: "رقصة دينا على اغنية انا عندي سؤال",
@@ -66,7 +73,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 661,
-      topCountries: ["BR", "PH", "CA", "MX", "ID"],
+      topCountries: ["BR", "PH", "MX", "CA", "AR"],
     },
     {
       topic: "2026 dance",
@@ -79,15 +86,8 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topic: "dancers edit",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1082,
+      videoNum: 1081,
       topCountries: ["PH", "BR", "MA", "NG", "CL"],
-    },
-    {
-      topic: "dances for weddings",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1616,
-      topCountries: ["PK", "AE", "SA", "BD"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "i have synesthesia jennifer lawrence and cynthia",
@@ -51,7 +51,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topic: "kaley cuoco and tom pelphrey",
       growthMultiplier: 37,
       trust: "high",
-      videoNum: 4150,
+      videoNum: 4151,
       topCountries: ["US", "GB", "BR", "CA", "MX"],
     },
     {

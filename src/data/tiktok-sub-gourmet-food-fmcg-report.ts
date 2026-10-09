@@ -14,10 +14,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "football game snacks",
@@ -44,7 +44,7 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topic: "nestle agua",
       growthMultiplier: 23,
       trust: "high",
-      videoNum: 515,
+      videoNum: 538,
       topCountries: ["US", "MX", "PE", "EC", "ES"],
     },
     {
@@ -76,18 +76,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "PE", "EG"],
     },
     {
+      topic: "jhapalish prime",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 284,
+      topCountries: ["NP", "BT", "JP", "AE"],
+    },
+    {
       topic: "honest review of viral fruit desserts",
       growthMultiplier: 7,
       trust: "high",
       videoNum: 300,
       topCountries: ["PH", "ID", "BR", "CA"],
-    },
-    {
-      topic: "كوتي كوتي ايس كريم",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1124,
-      topCountries: ["IQ", "EG", "DZ", "SA"],
     },
   ],
   methodologyNote:

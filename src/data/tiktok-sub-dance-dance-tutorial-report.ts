@@ -14,10 +14,10 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-08",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "dance moves and choreography",
@@ -39,6 +39,20 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 4622,
       topCountries: ["BD", "PK", "ID", "PH"],
+    },
+    {
+      topic: "notti bop tutorial",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "ZA", "AU", "AE", "JM"],
+    },
+    {
+      topic: "she so bad ateez tutorial",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "VN", "MY", "TH", "TR"],
     },
     {
       topic: "lady gaga dance tutorial",
@@ -74,20 +88,6 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "ZA", "MX", "CA"],
-    },
-    {
-      topic: "cascade shuffle",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 382,
-      topCountries: ["PH", "ID", "AR", "MY", "CA"],
-    },
-    {
-      topic: "alex cooper gluck tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AU", "CA", "NZ", "MX", "ZA"],
     },
   ],
   methodologyNote:

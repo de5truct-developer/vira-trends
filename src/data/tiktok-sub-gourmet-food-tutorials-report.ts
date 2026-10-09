@@ -14,16 +14,16 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "ghana jollof tiktok",
       growthMultiplier: 613,
       trust: "high",
-      videoNum: 785,
+      videoNum: 796,
       topCountries: ["GH", "GB", "DE", "AE"],
     },
     {

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "i have synesthesia jennifer lawrence and cynthia",
@@ -60,7 +60,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 37,
       trust: "high",
-      videoNum: 4150,
+      videoNum: 4151,
       topCountries: ["US", "GB", "BR", "CA", "MX"],
     },
     {
@@ -80,20 +80,20 @@ export const entertainmentReport: TikTokReport = {
       topCountries: ["US", "GB", "IE", "AU", "CA"],
     },
     {
+      topic: "georgie makes a lot of money",
+      subcategory: "Films and TVs",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "ID", "MY"],
+    },
+    {
       topic: "von and durk in court",
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 20,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "NL", "IT"],
-    },
-    {
-      topic: "jam and lil durk",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 732,
-      topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
   ],
   methodologyNote:

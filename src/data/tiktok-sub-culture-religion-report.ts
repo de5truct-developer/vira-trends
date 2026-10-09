@@ -14,10 +14,10 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "متحصن باسم الله",
@@ -59,7 +59,7 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 536,
-      topCountries: ["PK", "SO", "ET", "BD", "IQ"],
+      topCountries: ["PK", "SO", "BD", "ET", "SA"],
     },
     {
       topic: "قران_كريم_ارح_سمعك_وقلبك",
@@ -73,7 +73,7 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 3687,
-      topCountries: ["GB", "CA", "PK", "ID", "PH"],
+      topCountries: ["GB", "CA", "PK", "ID", "MY"],
     },
     {
       topic: "jummah mubarak 2026",

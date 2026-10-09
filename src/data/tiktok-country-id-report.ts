@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const idCountryReport: TikTokCountryReport = {
   country: "Indonesia",
   countryCode: "ID",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "chocolate boulder",
@@ -97,13 +97,13 @@ export const idCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "MY", "SG", "JP"],
     },
     {
-      topic: "fourhandstwosonatas",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 47,
+      topic: "TheMissingPiece",
+      category: "Culture",
+      subcategory: "Serious Literature",
+      growthMultiplier: 49,
       trust: "high",
-      videoNum: 3056,
-      topCountries: ["ID", "VN", "MY", "TH", "PH"],
+      videoNum: 1122,
+      topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
   ],
   methodologyNote:

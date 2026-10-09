@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "waterphone sound",
@@ -41,6 +41,24 @@ export const mmCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "PH", "ID", "MY", "TH"],
+    },
+    {
+      topic: "TheMissingPiece",
+      category: "Culture",
+      subcategory: "Serious Literature",
+      growthMultiplier: 26,
+      trust: "high",
+      videoNum: 1122,
+      topCountries: ["ID", "VN", "TH", "MM", "KH"],
+    },
+    {
+      topic: "create sights insight",
+      category: "TikTok's Featured Content",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: 175565,
+      topCountries: ["PH", "MM", "KH", "TH", "GB"],
     },
     {
       topic: "ip 18 pro max",
@@ -86,24 +104,6 @@ export const mmCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 56967,
       topCountries: ["MM", "ID", "TH", "JP"],
-    },
-    {
-      topic: "FarewellParty",
-      category: "Local Life",
-      subcategory: "Leisure and Entertainment",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 715,
-      topCountries: ["MM", "ID", "NP", "ZA"],
-    },
-    {
-      topic: "creatorinsighthashtags",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 738,
-      topCountries: ["MM", "ID", "ET", "BD"],
     },
   ],
   methodologyNote:

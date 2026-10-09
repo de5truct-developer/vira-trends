@@ -14,11 +14,18 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "Bog lights",
+      growthMultiplier: 7700,
+      trust: "high",
+      videoNum: 457,
+      topCountries: ["US", "AU", "GB", "PH", "CA"],
+    },
     {
       topic: "dolly parton house",
       growthMultiplier: 284,
@@ -82,18 +89,11 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       videoNum: 1237,
       topCountries: ["PH", "ID", "CA", "AU", "MM"],
     },
-    {
-      topic: "Modern Design Ideas",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1220,
-      topCountries: ["KE", "UG", "GH", "NG", "TZ"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "dolly parton house",
+    topic: "Bog lights",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

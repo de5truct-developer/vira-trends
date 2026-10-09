@@ -14,23 +14,23 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "partnership paid",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 3679,
+      videoNum: 3834,
       topCountries: ["ID", "BR", "MX", "CO"],
     },
     {
       topic: "side hustle para personal de salud",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 417,
+      videoNum: 445,
       topCountries: ["US", "TR", "DE", "MX", "PH"],
     },
     {
@@ -46,6 +46,13 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 136,
       topCountries: ["ZA", "PH", "KE", "JM"],
+    },
+    {
+      topic: "TikTok artist collaboration monetization",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 301,
+      topCountries: [],
     },
     {
       topic: "FreshGraduate",
@@ -81,13 +88,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 3781,
       topCountries: ["IT", "MM", "ZA", "CD", "GB"],
-    },
-    {
-      topic: "how agencies help creators grow",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TL", "MY", "TW", "SA"],
     },
   ],
   methodologyNote:

@@ -14,16 +14,16 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "ExoticShorthairCat",
       growthMultiplier: 28,
       trust: "high",
-      videoNum: 304,
+      videoNum: 350,
       topCountries: ["PH", "GB", "CA", "RU", "BY"],
     },
     {
@@ -51,7 +51,7 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topic: "auausave clingy",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 805,
+      videoNum: 863,
       topCountries: ["PH", "ID", "MY", "GB", "MM"],
     },
     {

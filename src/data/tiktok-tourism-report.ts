@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "gollum cave real photo",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 263,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "US", "DE", "GB", "FR"],
+    },
     {
       topic: "tooro kingdom palace",
       subcategory: "Tourism Sites",
@@ -28,7 +36,7 @@ export const tourismReport: TikTokReport = {
       subcategory: "Tourism Service",
       growthMultiplier: 175,
       trust: "high",
-      videoNum: 5317,
+      videoNum: 5860,
       topCountries: ["US", "MX", "CA", "PH", "GB"],
     },
     {
@@ -87,19 +95,11 @@ export const tourismReport: TikTokReport = {
       videoNum: 632,
       topCountries: ["US", "SA", "GB", "FR", "ID"],
     },
-    {
-      topic: "tallest statues in the usa",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 184,
-      topCountries: ["US", "PH", "ZA", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "tooro kingdom palace",
-    audience: "unknown 25-34, Uganda (dominant segment, snapshot at collection date)",
+    topic: "gollum cave real photo",
+    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,11 +14,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
+    {
+      topic: "climate card seoul",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 595,
+      topCountries: ["TH", "ID", "PH", "MY", "VN"],
+    },
     {
       topic: "what travel in afghanistan reveals",
       growthMultiplier: 1,
@@ -82,18 +89,11 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       videoNum: 401,
       topCountries: ["IQ", "EG", "SA", "TR"],
     },
-    {
-      topic: "what is a uk eta",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 348,
-      topCountries: ["AU", "CA", "ZA", "PH", "AE"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "what travel in afghanistan reveals",
-    audience: "unknown 25-34, Ghana (dominant segment, snapshot at collection date)",
+    topic: "climate card seoul",
+    audience: "female 18-24, Thailand (dominant segment, snapshot at collection date)",
   },
 };

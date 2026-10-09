@@ -14,10 +14,10 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "abdul el sayed and wife",
@@ -37,7 +37,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topic: "fifa world cup 2026 hotels",
       growthMultiplier: 385,
       trust: "high",
-      videoNum: 5321,
+      videoNum: 5320,
       topCountries: ["US", "PK", "GB", "RU"],
     },
     {
@@ -53,6 +53,13 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 463,
       topCountries: ["NG", "ID", "ZA", "MY", "BR"],
+    },
+    {
+      topic: "Best goals and assists breakdown",
+      growthMultiplier: 202,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VN", "ID", "MX", "TH", "PE"],
     },
     {
       topic: "kimi antonelli net worth",
@@ -81,13 +88,6 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 609,
       topCountries: ["ID", "MX", "US", "PH", "MY"],
-    },
-    {
-      topic: "messi real voice",
-      growthMultiplier: 51,
-      trust: "high",
-      videoNum: 509,
-      topCountries: ["MY", "GB", "AU", "IT", "VN"],
     },
   ],
   methodologyNote:

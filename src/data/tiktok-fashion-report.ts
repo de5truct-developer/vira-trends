@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-09T04:35:33Z",
+  windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "1980s-inspired looks for creators",
@@ -30,6 +30,14 @@ export const fashionReport: TikTokReport = {
       trust: "high",
       videoNum: 6276,
       topCountries: ["US", "MX", "BR", "PE", "CO"],
+    },
+    {
+      topic: "fashion product reviews",
+      subcategory: "Fashion Products",
+      growthMultiplier: 3137,
+      trust: "high",
+      videoNum: 650,
+      topCountries: ["ID", "VN", "MM", "TH"],
     },
     {
       topic: "كنتو تحطو مكياج على زمانكم",
@@ -86,14 +94,6 @@ export const fashionReport: TikTokReport = {
       trust: "high",
       videoNum: 503,
       topCountries: ["US", "GB", "PH", "DE", "IT"],
-    },
-    {
-      topic: "zendaya brand new day makeup",
-      subcategory: "Fashion News",
-      growthMultiplier: 52,
-      trust: "high",
-      videoNum: 900,
-      topCountries: ["US", "PH", "MX", "PK", "ID"],
     },
   ],
   methodologyNote:

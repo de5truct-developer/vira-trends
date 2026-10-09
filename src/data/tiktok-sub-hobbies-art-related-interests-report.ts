@@ -14,10 +14,10 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "art sussex drawing",
@@ -32,13 +32,6 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "PT", "ID", "AO"],
-    },
-    {
-      topic: "science slogan ideas",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MO", "SG"],
     },
     {
       topic: "portrait reveal made for a viral review",
@@ -88,6 +81,13 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 861,
       topCountries: ["PH", "ID", "MY", "BR"],
+    },
+    {
+      topic: "rich brown matching colour",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MY", "BN", "SG", "KE"],
     },
   ],
   methodologyNote:

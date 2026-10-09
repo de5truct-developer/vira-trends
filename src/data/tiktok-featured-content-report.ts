@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const featuredContentReport: TikTokReport = {
   category: "Featured Content",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "gracie pizza shop original video",
@@ -56,6 +56,14 @@ export const featuredContentReport: TikTokReport = {
       topCountries: ["GB", "IE", "AU", "NL", "SE"],
     },
     {
+      topic: "create sights insight",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 35,
+      trust: "high",
+      videoNum: 175565,
+      topCountries: ["PH", "MM", "KH", "TH", "GB"],
+    },
+    {
       topic: "duet videos on tiktok",
       subcategory: "Others TikTok and Video Contents",
       growthMultiplier: 28,
@@ -86,14 +94,6 @@ export const featuredContentReport: TikTokReport = {
       trust: "high",
       videoNum: 9817,
       topCountries: ["MM", "ID", "UG", "BD"],
-    },
-    {
-      topic: "creator insights part 3 4 next 3",
-      subcategory: "Others TikTok and Video Contents",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["ZA", "NG", "PK", "GH"],
     },
   ],
   methodologyNote:

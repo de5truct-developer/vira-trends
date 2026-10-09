@@ -14,10 +14,10 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "boy cracking a girl up",
@@ -46,6 +46,13 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 132373,
       topCountries: ["PK", "BD", "NP", "ID", "NG"],
+    },
+    {
+      topic: "how many ls did i get this year lyrics",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "US", "AU", "PH", "CA"],
     },
     {
       topic: "venom trend couple",
@@ -81,13 +88,6 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["BD", "PK", "ID", "EG"],
-    },
-    {
-      topic: "what's 9 plus 10 21 original",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 377,
-      topCountries: ["BR", "PH", "ID", "MX", "CA"],
     },
   ],
   methodologyNote:

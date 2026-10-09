@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "my jojo stand",
@@ -70,6 +70,15 @@ export const brCountryReport: TikTokCountryReport = {
       topCountries: ["US", "BR", "CA", "GB"],
     },
     {
+      topic: "that's like cupcake pink up",
+      category: "TikTok's Featured Content",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MX", "PH", "BR", "ID"],
+    },
+    {
       topic: "burning man 2026",
       category: "Local Life",
       subcategory: "Offline Performance",
@@ -95,15 +104,6 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "TR", "BR", "US", "GB"],
-    },
-    {
-      topic: "Storage mistakes content creators make",
-      category: "Household",
-      subcategory: "Home Life",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "MZ", "AO", "ZA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "lacewing eggs",
@@ -44,7 +44,7 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topic: "video of the egg original",
       growthMultiplier: 8,
       trust: "high",
-      videoNum: 805,
+      videoNum: 811,
       topCountries: ["US", "BR", "MX", "PH", "ID"],
     },
     {
@@ -58,7 +58,7 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topic: "steel an egg",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1154,
+      videoNum: 1167,
       topCountries: ["PH", "ID", "VN", "TH", "US"],
     },
     {
@@ -83,11 +83,11 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["ID", "PH", "TH", "VN"],
     },
     {
-      topic: "FruitLover",
+      topic: "miurin grape original video",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 828,
-      topCountries: ["PH", "HU", "BD", "ZA"],
+      videoNum: null,
+      topCountries: ["PH", "MY", "ID", "CA", "TR"],
     },
   ],
   methodologyNote:

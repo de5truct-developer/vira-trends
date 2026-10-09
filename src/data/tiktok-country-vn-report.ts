@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "new lionel messi",
@@ -25,12 +25,21 @@ export const vnCountryReport: TikTokCountryReport = {
       topCountries: ["VN", "BD", "NG", "JP"],
     },
     {
+      topic: "TheMissingPiece",
+      category: "Culture",
+      subcategory: "Serious Literature",
+      growthMultiplier: 99,
+      trust: "high",
+      videoNum: 1122,
+      topCountries: ["ID", "VN", "TH", "MM", "KH"],
+    },
+    {
       topic: "fourhandstwosonatas",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
       growthMultiplier: 79,
       trust: "high",
-      videoNum: 3056,
+      videoNum: 5339,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -57,7 +66,7 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Digital",
       growthMultiplier: 31,
       trust: "high",
-      videoNum: 976,
+      videoNum: 980,
       topCountries: ["ID", "VN", "TH", "PH"],
     },
     {
@@ -68,6 +77,15 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 261,
       topCountries: ["ID", "PH", "TH", "VN"],
+    },
+    {
+      topic: "tuide speak english",
+      category: "Education",
+      subcategory: "Language Learning",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "VN", "MY", "TH"],
     },
     {
       topic: "playstyle in real life",
@@ -86,24 +104,6 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 338,
       topCountries: ["ID", "VN", "MM", "TH", "MY"],
-    },
-    {
-      topic: "r8 mark ii",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Visual related Interests",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "TH", "ID", "MY", "PH"],
-    },
-    {
-      topic: "gg funkin eazy ai",
-      category: "ACGN",
-      subcategory: "Games",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 920,
-      topCountries: ["PH", "ID", "CA", "MY", "VN"],
     },
   ],
   methodologyNote:

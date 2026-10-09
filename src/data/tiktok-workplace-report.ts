@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const workplaceReport: TikTokReport = {
   category: "Workplace",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "i am police officer",
@@ -22,6 +22,14 @@ export const workplaceReport: TikTokReport = {
       trust: "high",
       videoNum: 285,
       topCountries: ["PK", "GB", "AE", "SA"],
+    },
+    {
+      topic: "seasonal jobs 2026",
+      subcategory: "Working Industry Market",
+      growthMultiplier: 51,
+      trust: "high",
+      videoNum: 447,
+      topCountries: ["ZA", "JM", "KE", "MX"],
     },
     {
       topic: "you\\'re hired",
@@ -86,14 +94,6 @@ export const workplaceReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "GB", "MX"],
-    },
-    {
-      topic: "networking tutorial",
-      subcategory: "Workplace Skills",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 557,
-      topCountries: ["PH", "ZA", "MY", "ID", "KE"],
     },
   ],
   methodologyNote:

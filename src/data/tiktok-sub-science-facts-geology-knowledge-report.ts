@@ -14,10 +14,10 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "there is a new rock by the water",
@@ -86,7 +86,7 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "forest nature",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2067,
+      videoNum: 2070,
       topCountries: ["PH", "NP", "LK", "PK", "MM"],
     },
   ],

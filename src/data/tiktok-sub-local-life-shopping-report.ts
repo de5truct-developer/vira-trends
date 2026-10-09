@@ -14,10 +14,10 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-08T04:24:18Z",
+  computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-08",
+  updatedAt: "2026-10-09",
   topics: [
     {
       topic: "toronto inconvenience store",
@@ -45,7 +45,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 1007,
-      topCountries: ["PH", "PK", "AE", "CA", "JP"],
+      topCountries: ["PH", "AE", "CA", "JP"],
     },
     {
       topic: "هيفاء مول",
@@ -62,6 +62,13 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "NL", "IT"],
     },
     {
+      topic: "pop mart naruto",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 449,
+      topCountries: ["ID", "MY", "TH", "PH", "VN"],
+    },
+    {
       topic: "visionstreet",
       growthMultiplier: 4,
       trust: "high",
@@ -69,25 +76,18 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       topCountries: ["JP", "EG", "SG", "PH"],
     },
     {
+      topic: "starfield library",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 788,
+      topCountries: ["PH", "ID", "VN", "MY"],
+    },
+    {
       topic: "butchery factory shop location",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NG", "NA", "BW"],
-    },
-    {
-      topic: "Easy street",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 481,
-      topCountries: ["GB", "CA", "AU", "PH", "FR"],
-    },
-    {
-      topic: "china warehousing stores in lagos",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 473,
-      topCountries: ["NG", "LY", "MY", "OM"],
     },
   ],
   methodologyNote:
