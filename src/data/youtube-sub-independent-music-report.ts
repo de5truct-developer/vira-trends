@@ -17,8 +17,8 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
   parentCategory: "Music",
   parentSlug: "music",
   region: "global",
-  dataAsOf: "2026-10-09",
-  updatedAt: "2026-10-09",
+  dataAsOf: "2026-10-10",
+  updatedAt: "2026-10-10",
   channels: [
     {
       channelName: "STOMACH BOOK",
@@ -33,7 +33,7 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
     {
       channelName: "tallyhall",
       channelUrl: "https://www.youtube.com/channel/UCwNetPdfk1uyEdJ-FkYptrQ",
-      topic: "Music, Independent music",
+      topic: "Independent music, Music",
       subscribers: 582000,
       subsGained30d: 4000,
       growthPct: 0.7,
@@ -47,7 +47,7 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 82900,
       subsGained30d: 400,
       growthPct: 0.5,
-      viewsGained30d: 670962,
+      viewsGained30d: 707319,
       channelCreatedAt: "2017-06-19",
     },
     {
@@ -63,22 +63,12 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
     {
       channelName: "Joyeux anniversaire !",
       channelUrl: "https://www.youtube.com/channel/UCt6jetusNUMm0J0St9m5Ppw",
-      topic: "Independent music, Music",
+      topic: "Music, Independent music",
       subscribers: 60700,
       subsGained30d: 200,
       growthPct: 0.3,
-      viewsGained30d: 201455,
+      viewsGained30d: 209891,
       channelCreatedAt: "2011-11-26",
-    },
-    {
-      channelName: "Indie Music Academy",
-      channelUrl: "https://www.youtube.com/channel/UCyKN9qaPmVnzayGc0uqMhsQ",
-      topic: "Knowledge, Independent music",
-      subscribers: 89300,
-      subsGained30d: 0,
-      growthPct: 0.0,
-      viewsGained30d: 26892,
-      channelCreatedAt: "2016-06-23",
     },
     {
       channelName: "Mariano Franco",
@@ -97,7 +87,7 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 111000,
       subsGained30d: 0,
       growthPct: 0.0,
-      viewsGained30d: 8422,
+      viewsGained30d: 8222,
       channelCreatedAt: "2018-05-24",
     },
     {
@@ -107,8 +97,18 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 178000,
       subsGained30d: 0,
       growthPct: 0.0,
-      viewsGained30d: 18983,
+      viewsGained30d: 19793,
       channelCreatedAt: "2006-09-23",
+    },
+    {
+      channelName: "Indie Music Academy",
+      channelUrl: "https://www.youtube.com/channel/UCyKN9qaPmVnzayGc0uqMhsQ",
+      topic: "Knowledge, Independent music",
+      subscribers: 89300,
+      subsGained30d: 0,
+      growthPct: 0.0,
+      viewsGained30d: 27984,
+      channelCreatedAt: "2016-06-23",
     },
   ],
   methodologyNote:
