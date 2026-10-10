@@ -17,7 +17,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-09",
+  updatedAt: "2026-10-10",
   topics: [
     {
       topic: "chernobyl city now in",

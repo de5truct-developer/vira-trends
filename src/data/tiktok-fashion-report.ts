@@ -13,7 +13,7 @@ export const fashionReport: TikTokReport = {
   computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-09",
+  updatedAt: "2026-10-10",
   topics: [
     {
       topic: "1980s-inspired looks for creators",

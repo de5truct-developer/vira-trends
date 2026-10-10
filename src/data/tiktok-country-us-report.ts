@@ -13,7 +13,7 @@ export const usCountryReport: TikTokCountryReport = {
   computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-09",
+  updatedAt: "2026-10-10",
   topics: [
     {
       topic: "police officer the final part 3 review car",

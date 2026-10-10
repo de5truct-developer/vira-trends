@@ -13,7 +13,7 @@ export const bdCountryReport: TikTokCountryReport = {
   computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-09",
+  updatedAt: "2026-10-10",
   topics: [
     {
       topic: "messi vs england reaccion pt 2 fut crunch",

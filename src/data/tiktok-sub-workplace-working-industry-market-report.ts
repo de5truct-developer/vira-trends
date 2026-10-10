@@ -17,7 +17,7 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   computedAt: "2026-10-09T04:35:33Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-09",
+  updatedAt: "2026-10-10",
   topics: [
     {
       topic: "seasonal jobs 2026",
