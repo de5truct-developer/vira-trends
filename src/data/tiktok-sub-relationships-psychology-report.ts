@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "inferior meaning",
@@ -87,7 +87,7 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "CA", "ZA", "MY"],
+      topCountries: ["PH", "ID", "ZA", "CA", "MY"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const gbCountryReport: TikTokCountryReport = {
   country: "United Kingdom",
   countryCode: "GB",
-  computedAt: "2026-10-09T04:35:33Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-10T09:55:35Z",
+  windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "10/10 markers",
@@ -84,7 +84,7 @@ export const gbCountryReport: TikTokCountryReport = {
       subcategory: "Food Tutorials",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 6616,
+      videoNum: 6652,
       topCountries: ["US", "PH", "GB", "CA", "DE"],
     },
     {
@@ -97,13 +97,13 @@ export const gbCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "FR", "DE", "IT"],
     },
     {
-      topic: "leg lifts method",
-      category: "Sports",
-      subcategory: "Fitness",
+      topic: "how to start a 1913 harley",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 1211,
-      topCountries: ["US", "GB", "DE", "CA", "SE"],
+      videoNum: 1049,
+      topCountries: ["GB", "PH", "SA", "MY", "DE"],
     },
   ],
   methodologyNote:

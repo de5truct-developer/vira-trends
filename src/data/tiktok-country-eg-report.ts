@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const egCountryReport: TikTokCountryReport = {
   country: "Egypt",
   countryCode: "EG",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Quick marinara pizza at home",
@@ -22,7 +22,7 @@ export const egCountryReport: TikTokCountryReport = {
       growthMultiplier: 62,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PK", "MX", "EG", "BD"],
+      topCountries: ["ID", "PK", "MX", "EG", "IQ"],
     },
     {
       topic: "before-and-after hair color guide",
@@ -61,6 +61,15 @@ export const egCountryReport: TikTokCountryReport = {
       topCountries: ["TR", "MX", "EG", "VE"],
     },
     {
+      topic: "اهداف اليوم كامله جميع المباريات",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 554,
+      topCountries: ["EG", "DZ", "SA", "IQ", "SD"],
+    },
+    {
       topic: "كوتي كوتي ايس كريم",
       category: "Gourmet",
       subcategory: "Food FMCG",
@@ -95,15 +104,6 @@ export const egCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 805,
       topCountries: ["ID", "PK", "PH", "MY"],
-    },
-    {
-      topic: "how to plan a summer park visit",
-      category: "Tourism",
-      subcategory: "Tourist Guide",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["EG", "ET", "SA", "IQ"],
     },
   ],
   methodologyNote:

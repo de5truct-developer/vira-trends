@@ -14,10 +14,10 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "sadie sink calvin klein",
@@ -25,6 +25,20 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 6276,
       topCountries: ["US", "MX", "BR", "PE", "CO"],
+    },
+    {
+      topic: "hailey bieber green dress",
+      growthMultiplier: 1652,
+      trust: "high",
+      videoNum: 659,
+      topCountries: ["US", "IT", "PH", "GB", "PL"],
+    },
+    {
+      topic: "kylie jenner knicks outfit",
+      growthMultiplier: 160,
+      trust: "high",
+      videoNum: 1101,
+      topCountries: ["US", "PE", "MX", "CA", "AU"],
     },
     {
       topic: "zendaya brand new day makeup",
@@ -74,20 +88,6 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 467,
       topCountries: ["US", "ID", "TH", "PH", "ZA"],
-    },
-    {
-      topic: "models now vs then",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 551,
-      topCountries: ["PH", "MX", "BR", "CA", "IL"],
-    },
-    {
-      topic: "scott mctominay style",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IQ", "TH", "TR", "GB", "IT"],
     },
   ],
   methodologyNote:

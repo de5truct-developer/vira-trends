@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "gollum cave real photo",
@@ -36,7 +36,7 @@ export const tourismReport: TikTokReport = {
       subcategory: "Tourism Service",
       growthMultiplier: 175,
       trust: "high",
-      videoNum: 5860,
+      videoNum: 6050,
       topCountries: ["US", "MX", "CA", "PH", "GB"],
     },
     {
@@ -72,14 +72,6 @@ export const tourismReport: TikTokReport = {
       topCountries: ["US", "BR", "GB", "PH", "ID"],
     },
     {
-      topic: "epstrin island",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "CA"],
-    },
-    {
       topic: "disney cruise ship 2026",
       subcategory: "Tourism Service",
       growthMultiplier: 8,
@@ -94,6 +86,14 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: 632,
       topCountries: ["US", "SA", "GB", "FR", "ID"],
+    },
+    {
+      topic: "hotel maid",
+      subcategory: "Tourism Service",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 608,
+      topCountries: ["NG", "GH", "KE", "ZA", "TZ"],
     },
   ],
   methodologyNote:

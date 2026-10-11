@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "robot microsoft button press",
@@ -45,21 +45,21 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "CA", "AR", "CL", "FR"],
+      topCountries: ["MX", "CA", "AU", "CL", "AR"],
     },
     {
       topic: "police robot",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 764,
-      topCountries: ["PH", "ID", "MY", "VN"],
+      topCountries: ["PH", "MY", "ID", "CA"],
     },
     {
       topic: "neutrino detector",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 643,
-      topCountries: ["PH", "ZA", "AU", "MY", "NG"],
+      topCountries: ["ID", "PH", "BR", "AU", "CA"],
     },
     {
       topic: "water jet cutting machines",
@@ -83,11 +83,11 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "PH", "US"],
     },
     {
-      topic: "Programming",
+      topic: "amish air conditioning",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 3859,
-      topCountries: ["BR", "PH", "MX", "EG", "SA"],
+      videoNum: null,
+      topCountries: ["US", "PH", "AU", "CA", "JM"],
     },
   ],
   methodologyNote:

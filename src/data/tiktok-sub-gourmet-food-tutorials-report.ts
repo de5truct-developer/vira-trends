@@ -14,16 +14,16 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "ghana jollof tiktok",
       growthMultiplier: 613,
       trust: "high",
-      videoNum: 796,
+      videoNum: 788,
       topCountries: ["GH", "GB", "DE", "AE"],
     },
     {
@@ -31,7 +31,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 177,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PK", "MX", "EG", "BD"],
+      topCountries: ["ID", "PK", "MX", "EG", "IQ"],
     },
     {
       topic: "upside down glass drink trick",

@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "creators pilot program",
@@ -58,7 +58,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "OnlineLearning",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1239,
+      videoNum: 1245,
       topCountries: ["PK", "ZA", "ET", "NG"],
     },
     {
@@ -66,7 +66,14 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 766,
-      topCountries: ["PH", "VN", "ZA", "MX", "CA"],
+      topCountries: ["VN", "PH", "ZA", "MX", "CA"],
+    },
+    {
+      topic: "online tutoring",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2173,
+      topCountries: ["NG", "ZA", "PH", "PK"],
     },
     {
       topic: "free online courses with certificates",

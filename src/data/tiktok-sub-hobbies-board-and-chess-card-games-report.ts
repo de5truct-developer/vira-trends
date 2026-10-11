@@ -14,11 +14,18 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "three card monte",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 245,
+      topCountries: ["TR", "AZ", "TM", "AR", "ID"],
+    },
     {
       topic: "create schach insights 2027 viral",
       growthMultiplier: 10,
@@ -35,7 +42,7 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "ammonia opening chess",
-      growthMultiplier: 6,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "NG", "ZA", "ID", "NP"],
@@ -51,7 +58,7 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topic: "Magnus opening",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 140,
+      videoNum: null,
       topCountries: ["ID", "PH", "MY", "MM"],
     },
     {
@@ -59,7 +66,7 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 1129,
-      topCountries: ["PK", "NP", "DZ", "SA", "ET"],
+      topCountries: ["PK", "NP", "DZ", "SA", "MM"],
     },
     {
       topic: "monopoly rules that change the game",
@@ -82,18 +89,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["SA", "KR", "JO", "DZ"],
     },
-    {
-      topic: "emma lewis card tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "PH", "PE", "RS", "CA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "create schach insights 2027 viral",
-    audience: "male 25-34, Pakistan (dominant segment, snapshot at collection date)",
+    topic: "three card monte",
+    audience: "male 18-24, Türkiye (dominant segment, snapshot at collection date)",
   },
 };

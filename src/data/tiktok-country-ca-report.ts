@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const caCountryReport: TikTokCountryReport = {
   country: "Canada",
   countryCode: "CA",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "mr jackie purple egg truth revealed",
@@ -49,7 +49,7 @@ export const caCountryReport: TikTokCountryReport = {
       growthMultiplier: 56,
       trust: "high",
       videoNum: 583,
-      topCountries: ["US", "GB", "PH", "CA", "AU"],
+      topCountries: ["US", "GB", "CA", "PH", "AU"],
     },
     {
       topic: "burnout car event schedules",

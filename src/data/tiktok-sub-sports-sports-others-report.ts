@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "الرياضة_في_السعودية",
@@ -69,13 +69,6 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "MX", "PE", "ID", "CO"],
     },
     {
-      topic: "how discipline builds success in sport",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1280,
-      topCountries: ["BD", "US", "ID", "PK"],
-    },
-    {
       topic: "how athletes build social presence",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +81,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["KE", "TZ", "SA", "QA"],
+    },
+    {
+      topic: "What I pack for tournament day",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MX", "GB", "ID"],
     },
   ],
   methodologyNote:

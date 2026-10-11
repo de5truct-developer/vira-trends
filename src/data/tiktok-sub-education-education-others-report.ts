@@ -14,10 +14,10 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "sincere metaphors compilation",
@@ -25,6 +25,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 390,
       topCountries: ["US", "CA", "AU", "ZA", "NZ"],
+    },
+    {
+      topic: "42 folds of paper explained",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "AU", "CA", "ID", "NZ"],
     },
     {
       topic: "school 24/25",
@@ -45,7 +52,7 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PH", "ZA", "AU", "UG"],
+      topCountries: ["PH", "ID", "ZA", "AU", "UG"],
     },
     {
       topic: "learning educational videos only",
@@ -81,13 +88,6 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "PK", "ZA", "EG", "MM"],
-    },
-    {
-      topic: "school fees 2500000",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["UG", "KE", "RW", "ZW"],
     },
   ],
   methodologyNote:

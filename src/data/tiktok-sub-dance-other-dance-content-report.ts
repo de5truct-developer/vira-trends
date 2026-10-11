@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "children dancing to music",
@@ -66,7 +66,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["AU", "CA", "PH", "GB", "MX"],
+      topCountries: ["AU", "PH", "CA", "GB", "BR"],
     },
     {
       topic: "girlset dance practice",

@@ -14,10 +14,10 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "fake collage",
@@ -69,25 +69,25 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "JP", "BR", "NG", "VN"],
     },
     {
-      topic: "AIDramaStories",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 506,
-      topCountries: ["MM", "TH", "ET", "MY"],
-    },
-    {
-      topic: "putting ai in middle of movie",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 441,
-      topCountries: ["US", "NG", "SG", "PH", "DE"],
-    },
-    {
       topic: "gettingmorefollowersandlikes",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 794,
       topCountries: ["PH", "ZA", "MM", "ID"],
+    },
+    {
+      topic: "creator highlights insights",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 19493,
+      topCountries: ["PK", "ID", "PH", "MM", "BD"],
+    },
+    {
+      topic: "creative vlog content ideas",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1019,
+      topCountries: ["ET", "MM", "JM", "HT"],
     },
   ],
   methodologyNote:

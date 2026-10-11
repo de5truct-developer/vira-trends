@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mxCountryReport: TikTokCountryReport = {
   country: "Mexico",
   countryCode: "MX",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "wileecoyote x roadrunner",
@@ -21,7 +21,7 @@ export const mxCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 1190,
       trust: "high",
-      videoNum: 881,
+      videoNum: 887,
       topCountries: ["US", "MX", "PH", "BR", "PE"],
     },
     {
@@ -40,7 +40,7 @@ export const mxCountryReport: TikTokCountryReport = {
       growthMultiplier: 52,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PK", "MX", "EG", "BD"],
+      topCountries: ["ID", "PK", "MX", "EG", "IQ"],
     },
     {
       topic: "a BMW",
@@ -59,6 +59,15 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 771,
       topCountries: ["US", "PH", "GB", "ID", "CA"],
+    },
+    {
+      topic: "stroganoff",
+      category: "Gourmet",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 37,
+      trust: "high",
+      videoNum: 902,
+      topCountries: ["US", "MX", "CA", "GB", "PH"],
     },
     {
       topic: "tate mcrae neutrogena makeup",
@@ -95,15 +104,6 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 538,
       topCountries: ["US", "MX", "PE", "EC", "ES"],
-    },
-    {
-      topic: "buddy edit",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 938,
-      topCountries: ["BR", "MX", "PH", "AR"],
     },
   ],
   methodologyNote:

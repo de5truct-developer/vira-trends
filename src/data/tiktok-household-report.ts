@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Bog lights",
       subcategory: "House Decoration",
       growthMultiplier: 7700,
       trust: "high",
-      videoNum: 457,
+      videoNum: 482,
       topCountries: ["US", "AU", "GB", "PH", "CA"],
     },
     {
@@ -38,14 +38,6 @@ export const householdReport: TikTokReport = {
       trust: "high",
       videoNum: 5444,
       topCountries: ["US", "GB", "ZA", "CA", "KE"],
-    },
-    {
-      topic: "Nippon soft tissue",
-      subcategory: "House Decoration",
-      growthMultiplier: 54,
-      trust: "high",
-      videoNum: 543,
-      topCountries: ["ID", "MY", "SG", "JP"],
     },
     {
       topic: "always loving you kasur",
@@ -76,7 +68,7 @@ export const householdReport: TikTokReport = {
       subcategory: "Home Life",
       growthMultiplier: 19,
       trust: "high",
-      videoNum: null,
+      videoNum: 600,
       topCountries: ["US", "PH", "GB", "DE", "SA"],
     },
     {
@@ -94,6 +86,14 @@ export const householdReport: TikTokReport = {
       trust: "high",
       videoNum: 442,
       topCountries: ["PH", "SA", "KW", "AE"],
+    },
+    {
+      topic: "stock tank pool",
+      subcategory: "House Decoration",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "CA", "AU", "ZA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "abdul el sayed and wife",
@@ -37,7 +37,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topic: "fifa world cup 2026 hotels",
       growthMultiplier: 385,
       trust: "high",
-      videoNum: 5320,
+      videoNum: 5322,
       topCountries: ["US", "PK", "GB", "RU"],
     },
     {

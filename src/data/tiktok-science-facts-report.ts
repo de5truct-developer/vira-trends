@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "how long is 1 light day",
+      subcategory: "Geology Knowledge",
+      growthMultiplier: 312,
+      trust: "high",
+      videoNum: 5048,
+      topCountries: ["US", "GB", "PH", "DE", "PL"],
+    },
     {
       topic: "equal earth map",
       subcategory: "Astronomy Knowledge",
@@ -42,7 +50,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "شكل خضرونه الحقيقي",
       subcategory: "Biology Knowledge",
-      growthMultiplier: 20,
+      growthMultiplier: 19,
       trust: "high",
       videoNum: 833,
       topCountries: ["SA", "IQ", "AE", "KW"],
@@ -87,19 +95,11 @@ export const scienceFactsReport: TikTokReport = {
       videoNum: 4373,
       topCountries: ["US", "PH", "GB", "CA", "ID"],
     },
-    {
-      topic: "how mooring line tension becomes dangerous",
-      subcategory: "Biology Knowledge",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SO", "KE", "DE", "CA", "UG"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "equal earth map",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "how long is 1 light day",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

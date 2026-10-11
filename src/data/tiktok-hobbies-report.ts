@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const hobbiesReport: TikTokReport = {
   category: "Personal Interests and Hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "breaker review xxl 2 3 4 5 6 7 8 9 10",
@@ -61,7 +61,15 @@ export const hobbiesReport: TikTokReport = {
       growthMultiplier: 78,
       trust: "high",
       videoNum: 1124,
-      topCountries: ["US", "ID", "BR", "MM"],
+      topCountries: ["US", "ID", "GB", "BR"],
+    },
+    {
+      topic: "feyre cabin painting",
+      subcategory: "Art related Interests",
+      growthMultiplier: 68,
+      trust: "high",
+      videoNum: 1632,
+      topCountries: ["US", "CA", "PK", "AU", "MM"],
     },
     {
       topic: "soft and squishy",
@@ -84,16 +92,8 @@ export const hobbiesReport: TikTokReport = {
       subcategory: "Gardening and Pet",
       growthMultiplier: 28,
       trust: "high",
-      videoNum: 350,
+      videoNum: 304,
       topCountries: ["PH", "GB", "CA", "RU", "BY"],
-    },
-    {
-      topic: "day 276 poker face",
-      subcategory: "Other Hobbies",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "RU", "BR", "DE"],
     },
   ],
   methodologyNote:

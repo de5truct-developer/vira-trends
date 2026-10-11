@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "you're hired",
@@ -44,7 +44,7 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topic: "NightShifts",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 933,
+      videoNum: 929,
       topCountries: ["LY", "PH", "ZA", "SA", "AU"],
     },
     {
@@ -52,13 +52,13 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 368,
-      topCountries: ["GB", "PH", "CA", "AU", "ID"],
+      topCountries: ["PH", "CA", "AU", "GB", "ID"],
     },
     {
       topic: "work office",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1333,
+      videoNum: 1355,
       topCountries: ["BD", "PH", "ID", "PK", "MY"],
     },
     {
@@ -73,7 +73,7 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1006,
-      topCountries: ["MM", "PH", "AU", "CA", "SA"],
+      topCountries: ["MM", "PH", "AU", "TH", "SA"],
     },
     {
       topic: "work-life balance by disney world",

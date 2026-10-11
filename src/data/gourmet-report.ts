@@ -10,25 +10,25 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const gourmetReport: TikTokReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "football game snacks",
       subcategory: "Food FMCG",
-      growthMultiplier: 1263,
+      growthMultiplier: 1041,
       trust: "high",
       videoNum: 627,
-      topCountries: ["US", "AU", "CA", "PH", "SA"],
+      topCountries: ["US", "CA", "SA", "AU", "MX"],
     },
     {
       topic: "ghana jollof tiktok",
       subcategory: "Food Tutorials",
       growthMultiplier: 613,
       trust: "high",
-      videoNum: 796,
+      videoNum: 788,
       topCountries: ["GH", "GB", "DE", "AE"],
     },
     {
@@ -61,7 +61,7 @@ export const gourmetReport: TikTokReport = {
       growthMultiplier: 177,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PK", "MX", "EG", "BD"],
+      topCountries: ["ID", "PK", "MX", "EG", "IQ"],
     },
     {
       topic: "lacewing eggs",
@@ -88,12 +88,12 @@ export const gourmetReport: TikTokReport = {
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
-      topic: "pierrot burratino now",
+      topic: "Guinness stout",
       subcategory: "Food FMCG",
-      growthMultiplier: 41,
+      growthMultiplier: 77,
       trust: "high",
-      videoNum: 176,
-      topCountries: ["US", "PH", "GB", "DE", "FR"],
+      videoNum: null,
+      topCountries: ["MY", "ID", "SG", "BN"],
     },
   ],
   methodologyNote:

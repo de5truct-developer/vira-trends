@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "policestop",
@@ -37,7 +37,7 @@ export const societyReport: TikTokReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ZA", "PH", "MX", "ID"],
+      topCountries: ["ZA", "PH", "ID", "MX"],
     },
     {
       topic: "CrimeInvestigation",

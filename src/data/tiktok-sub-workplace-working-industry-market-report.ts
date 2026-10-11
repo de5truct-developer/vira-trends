@@ -14,10 +14,10 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
-  windowStart: "2026-08-09",
+  computedAt: "2026-10-10T09:55:35Z",
+  windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "seasonal jobs 2026",
@@ -32,6 +32,13 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "PH", "ZA", "AU"],
+    },
+    {
+      topic: "live vivo job",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 374,
+      topCountries: ["BR", "IT", "GR", "FR"],
     },
     {
       topic: "job vacancy 2026 sri lanka",
@@ -58,7 +65,7 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topic: "best side hustle",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2705,
+      videoNum: 2721,
       topCountries: ["PH", "ZA", "ID", "CA", "AU"],
     },
     {
@@ -80,14 +87,7 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1106,
-      topCountries: ["ZA", "CA", "GH", "NG", "AU"],
-    },
-    {
-      topic: "side hustles for students",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1539,
-      topCountries: ["PH", "ZA", "CA", "MY", "ID"],
+      topCountries: ["ZA", "CA", "GH", "AU", "NG"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "what happened to suchomimus",
@@ -28,7 +28,7 @@ export const cultureReport: TikTokReport = {
       subcategory: "Serious Literature",
       growthMultiplier: 31,
       trust: "high",
-      videoNum: 1122,
+      videoNum: 1105,
       topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
     {
@@ -74,7 +74,7 @@ export const cultureReport: TikTokReport = {
     {
       topic: "chasing you through the years ava ending",
       subcategory: "Serious Literature",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PH", "KE", "ID", "GH"],

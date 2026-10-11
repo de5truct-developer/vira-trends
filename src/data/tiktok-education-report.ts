@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "3 in german",
       subcategory: "Language Learning",
       growthMultiplier: 5207,
       trust: "high",
-      videoNum: 615,
+      videoNum: 622,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
     },
     {
@@ -30,6 +30,14 @@ export const educationReport: TikTokReport = {
       trust: "high",
       videoNum: 144,
       topCountries: ["PH", "MM", "MX", "MY"],
+    },
+    {
+      topic: "π edit math",
+      subcategory: "School Education",
+      growthMultiplier: 37,
+      trust: "high",
+      videoNum: 421,
+      topCountries: ["PH", "ID", "CO", "BR"],
     },
     {
       topic: "tuide speak english",
@@ -54,14 +62,6 @@ export const educationReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MX", "BR", "US", "GB"],
-    },
-    {
-      topic: "π edit math",
-      subcategory: "School Education",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 421,
-      topCountries: ["PH", "ID", "CO", "BR"],
     },
     {
       topic: "semester at sea explained",

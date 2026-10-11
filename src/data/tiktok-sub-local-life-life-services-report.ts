@@ -14,11 +14,18 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "oakley square residence dubai",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AE", "PH", "EG", "ZA"],
+    },
     {
       topic: "maria beauty now",
       growthMultiplier: 4,
@@ -76,24 +83,17 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "KE", "MY", "NG"],
     },
     {
-      topic: "how salons can get more clients",
+      topic: "توصيل هدايا في الرياض",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "VN", "BR", "MX", "GB"],
-    },
-    {
-      topic: "Barber talk that wins new clients",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 947,
-      topCountries: ["BD", "JP", "PK", "EG"],
+      videoNum: 895,
+      topCountries: ["SA", "SD", "EG", "KW"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "maria beauty now",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "oakley square residence dubai",
+    audience: "female 25-34, United Arab Emirates (dominant segment, snapshot at collection date)",
   },
 };

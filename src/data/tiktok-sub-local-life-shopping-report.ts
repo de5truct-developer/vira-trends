@@ -14,17 +14,17 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "toronto inconvenience store",
       growthMultiplier: 407,
       trust: "high",
       videoNum: 886,
-      topCountries: ["US", "GB", "FR", "DE", "CA"],
+      topCountries: ["US", "GB", "FR", "CA", "DE"],
     },
     {
       topic: "lip and eddie shop",
@@ -35,7 +35,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "1965 store",
-      growthMultiplier: 11,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 713,
       topCountries: ["PK", "NP", "AE", "SA"],
@@ -84,7 +84,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "butchery factory shop location",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NG", "NA", "BW"],

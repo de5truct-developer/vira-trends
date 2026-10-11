@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "الزي المدرسي العراقي الجديد 2027",
@@ -59,7 +59,7 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "CA", "BR", "SA", "MX"],
+      topCountries: ["ID", "CA", "SA", "MX", "BR"],
     },
     {
       topic: "must-have school supplies for students",
@@ -73,14 +73,7 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 539,
-      topCountries: ["PH", "MY", "ID", "TH", "CA"],
-    },
-    {
-      topic: "College binder",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 526,
-      topCountries: ["PH", "ID", "CA", "MV", "OM"],
+      topCountries: ["PH", "MY", "ID", "TH"],
     },
     {
       topic: "sticky notes for studying",
@@ -88,6 +81,13 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 789,
       topCountries: ["PH", "ID", "MY", "BD", "MX"],
+    },
+    {
+      topic: "back to school haul 2027",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["TN", "EG", "MA", "DZ"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "she was a punk he did ballet",
@@ -37,7 +37,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topic: "jiwoo ballet",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2565,
+      videoNum: 2566,
       topCountries: ["ID", "VN", "MY", "PH"],
     },
     {
@@ -66,7 +66,7 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 595,
-      topCountries: ["MX", "BR", "PH", "ID", "CA"],
+      topCountries: ["MX", "BR", "PH", "AU", "ID"],
     },
     {
       topic: "musical theatre dance",

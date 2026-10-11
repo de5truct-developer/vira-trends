@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Sound effects trend",
@@ -27,17 +27,17 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "AU", "CA", "MY", "BR"],
     },
     {
-      topic: "sounds trending for content",
+      topic: "arabic audio",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 36509,
-      topCountries: ["PK", "NG", "ID", "ZA", "PH"],
+      videoNum: 3055,
+      topCountries: ["EG", "ID", "SA", "AE", "MA"],
     },
     {
       topic: "commercial sounds",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1122,
+      videoNum: 1123,
       topCountries: ["US", "GB", "PH", "MY", "ID"],
     },
     {
@@ -46,6 +46,20 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1159,
       topCountries: ["ID", "PK", "NP", "EG"],
+    },
+    {
+      topic: "Annoying sound",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 589,
+      topCountries: ["PH", "AU", "MY", "CA", "GB"],
+    },
+    {
+      topic: "trading sounds",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 20389,
+      topCountries: ["NG", "PK", "ID", "UG", "BD"],
     },
     {
       topic: "viral tiktok sounds 2026",
@@ -58,7 +72,7 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topic: "take a photo and see what sound tiktok gives you",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 627390,
+      videoNum: 630393,
       topCountries: ["US", "NG", "PH", "ZA", "GH"],
     },
     {

@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "mardan board result 2026",
@@ -32,6 +32,13 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 924,
       topCountries: ["PH", "BD", "MM", "ZA", "MY"],
+    },
+    {
+      topic: "result spm bambinn",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MY", "ID", "EG", "TH"],
     },
     {
       topic: "midterm exam",
@@ -60,6 +67,13 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "NG", "CA", "ZA", "NP"],
+    },
+    {
+      topic: "treasure gcse results",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 626,
+      topCountries: ["GB", "NG", "GH", "IE", "DE"],
     },
   ],
   methodologyNote:

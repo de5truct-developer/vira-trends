@@ -14,10 +14,10 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "i am police officer",
@@ -32,6 +32,27 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 370,
       topCountries: ["US", "ID", "GB", "CA", "DE"],
+    },
+    {
+      topic: "SocialMediaCreator",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 967,
+      topCountries: ["ZA", "CI", "UG", "NG"],
+    },
+    {
+      topic: "What is cna",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 632,
+      topCountries: ["GH", "NG", "CA", "ZA", "ET"],
+    },
+    {
+      topic: "jerome data analyst",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "ZA", "GH", "KE", "IT"],
     },
     {
       topic: "Explaining earnings in agent models",
@@ -67,27 +88,6 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "BR", "CO", "BO"],
-    },
-    {
-      topic: "jerome data analyst",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "ZA", "GH", "KE", "IT"],
-    },
-    {
-      topic: "CREW GIRL",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 579,
-      topCountries: ["TH", "ID", "PH", "LA", "BR"],
-    },
-    {
-      topic: "Real challenges of offshore work",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "AU", "CA", "GB"],
     },
   ],
   methodologyNote:

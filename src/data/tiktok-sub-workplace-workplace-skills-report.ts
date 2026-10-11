@@ -14,10 +14,10 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "creador sight insight view",
@@ -44,7 +44,7 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topic: "networking tutorial",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 575,
+      videoNum: 557,
       topCountries: ["PH", "ZA", "MY", "ID", "KE"],
     },
     {
@@ -60,6 +60,13 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 833,
       topCountries: ["PH", "ID", "BR", "VN", "MY"],
+    },
+    {
+      topic: "CareerAdviceAndGuidance",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "SD", "SA", "TH"],
     },
     {
       topic: "Como identificar troca de etiquetas",
@@ -81,13 +88,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "EG", "CO"],
-    },
-    {
-      topic: "community guidelines",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 793,
-      topCountries: ["PK", "NP", "BD", "AE", "SA"],
     },
   ],
   methodologyNote:

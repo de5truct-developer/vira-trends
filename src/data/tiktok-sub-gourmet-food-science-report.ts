@@ -14,11 +14,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "how i store milk for the day",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "DE", "MY", "GB"],
+    },
     {
       topic: "pumpkin seeds ready to eat",
       growthMultiplier: 1,
@@ -55,27 +62,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["FR", "US", "ID", "GB"],
     },
     {
-      topic: "refined carbs vs smarter meal choices",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 764,
-      topCountries: ["MM", "ID", "BD", "ET"],
-    },
-    {
-      topic: "foods that support skin and eye health",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MM", "ID", "BD", "ET"],
-    },
-    {
-      topic: "foods that form harmful compounds",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1191,
-      topCountries: ["MM", "ID", "BD", "ET"],
-    },
-    {
       topic: "what does nestle not own",
       growthMultiplier: 1,
       trust: "high",
@@ -89,11 +75,25 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       videoNum: 1267,
       topCountries: ["PH", "GB", "AU", "ZA"],
     },
+    {
+      topic: "traditional sweet with health benefits",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "best cooking oil",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 883,
+      topCountries: ["PH", "KE", "ZA", "PK", "NG"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "pumpkin seeds ready to eat",
-    audience: "unknown 35+, Philippines (dominant segment, snapshot at collection date)",
+    topic: "how i store milk for the day",
+    audience: "unknown 25-34, Germany (dominant segment, snapshot at collection date)",
   },
 };

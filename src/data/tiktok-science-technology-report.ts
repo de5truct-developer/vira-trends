@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "robot microsoft button press",
@@ -56,6 +56,14 @@ export const scienceTechnologyReport: TikTokReport = {
       topCountries: ["VN", "ID", "MY", "PH", "TH"],
     },
     {
+      topic: "i know what you did last summer tutorial",
+      subcategory: "Software",
+      growthMultiplier: 85,
+      trust: "high",
+      videoNum: 502,
+      topCountries: ["NG", "UG", "GH", "KE", "ET"],
+    },
+    {
       topic: "speaker cleaner 90000000000hz",
       subcategory: "Digital",
       growthMultiplier: 64,
@@ -86,14 +94,6 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "VN", "TH", "MX", "BR"],
-    },
-    {
-      topic: "comment section for video",
-      subcategory: "Software",
-      growthMultiplier: 45,
-      trust: "high",
-      videoNum: 973,
-      topCountries: ["TZ", "KE", "GM", "NG"],
     },
   ],
   methodologyNote:

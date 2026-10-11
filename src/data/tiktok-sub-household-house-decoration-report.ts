@@ -14,16 +14,16 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Bog lights",
       growthMultiplier: 7700,
       trust: "high",
-      videoNum: 457,
+      videoNum: 482,
       topCountries: ["US", "AU", "GB", "PH", "CA"],
     },
     {
@@ -32,13 +32,6 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 5444,
       topCountries: ["US", "GB", "ZA", "CA", "KE"],
-    },
-    {
-      topic: "Nippon soft tissue",
-      growthMultiplier: 54,
-      trust: "high",
-      videoNum: 543,
-      topCountries: ["ID", "MY", "SG", "JP"],
     },
     {
       topic: "christmas curtains 2026 design",
@@ -52,14 +45,14 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 12,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "PH", "CA", "AU", "NL"],
+      topCountries: ["GB", "PH", "CA", "AU", "ZA"],
     },
     {
       topic: "bunker tour",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "CA", "AU", "ID", "GB"],
+      topCountries: ["PH", "CA", "AU", "ID", "MY"],
     },
     {
       topic: "pet beds that match your room",
@@ -73,7 +66,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "CO", "AR", "VE", "BR"],
+      topCountries: ["MX", "CO", "AR", "VE", "PE"],
     },
     {
       topic: "window",
@@ -88,6 +81,13 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1237,
       topCountries: ["PH", "ID", "CA", "AU", "MM"],
+    },
+    {
+      topic: "lila mondry house",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NP", "BD", "AE", "SA"],
     },
   ],
   methodologyNote:

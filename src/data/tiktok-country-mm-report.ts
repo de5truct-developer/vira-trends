@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "waterphone sound",
@@ -48,7 +48,7 @@ export const mmCountryReport: TikTokCountryReport = {
       subcategory: "Serious Literature",
       growthMultiplier: 26,
       trust: "high",
-      videoNum: 1122,
+      videoNum: 1105,
       topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
     {
@@ -79,6 +79,15 @@ export const mmCountryReport: TikTokCountryReport = {
       topCountries: ["EG", "PK", "IQ", "MM", "DZ"],
     },
     {
+      topic: "creating schach insights in 2027",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Board and Chess/Card Games",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 1129,
+      topCountries: ["PK", "NP", "DZ", "SA", "MM"],
+    },
+    {
       topic: "KitchenCooking",
       category: "Gourmet",
       subcategory: "Food Tutorials",
@@ -88,22 +97,13 @@ export const mmCountryReport: TikTokCountryReport = {
       topCountries: ["MM", "MY", "TH", "JP"],
     },
     {
-      topic: "createfasterwithtako",
-      category: "Gourmet",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 4,
+      topic: "dear you plot in one minute",
+      category: "Science and Technology",
+      subcategory: "Internet",
+      growthMultiplier: 5,
       trust: "high",
-      videoNum: 414,
-      topCountries: ["BD", "IQ", "MM", "NG"],
-    },
-    {
-      topic: "adorable dogs",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Gardening and Pet",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 56967,
-      topCountries: ["MM", "ID", "TH", "JP"],
+      videoNum: null,
+      topCountries: ["ID", "MM", "MY", "SG", "TH"],
     },
   ],
   methodologyNote:

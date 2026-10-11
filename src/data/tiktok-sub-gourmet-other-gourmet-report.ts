@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "what did los pollos do",
@@ -76,18 +76,18 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["BD", "NP", "ID", "ZA"],
     },
     {
-      topic: "im so hungry i could eat",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "AU", "CA", "BR"],
-    },
-    {
       topic: "eating compilation",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 700,
       topCountries: ["PH", "ID", "PK", "MY", "ZA"],
+    },
+    {
+      topic: "foodvloger",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1185,
+      topCountries: ["NP", "ID", "MM", "PK"],
     },
   ],
   methodologyNote:

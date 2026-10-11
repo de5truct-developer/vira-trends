@@ -14,17 +14,17 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "football game snacks",
-      growthMultiplier: 1263,
+      growthMultiplier: 1041,
       trust: "high",
       videoNum: 627,
-      topCountries: ["US", "AU", "CA", "PH", "SA"],
+      topCountries: ["US", "CA", "SA", "AU", "MX"],
     },
     {
       topic: "chocolate boulder",
@@ -32,6 +32,13 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 449,
       topCountries: ["ID", "US", "BR", "MX", "MY"],
+    },
+    {
+      topic: "Guinness stout",
+      growthMultiplier: 77,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MY", "ID", "SG", "BN"],
     },
     {
       topic: "pierrot burratino now",
@@ -81,13 +88,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 284,
       topCountries: ["NP", "BT", "JP", "AE"],
-    },
-    {
-      topic: "honest review of viral fruit desserts",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 300,
-      topCountries: ["PH", "ID", "BR", "CA"],
     },
   ],
   methodologyNote:

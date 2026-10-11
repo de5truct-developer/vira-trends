@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const vehiclesReport: TikTokReport = {
   category: "Vehicles & Transportation",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "wileecoyote x roadrunner",
       subcategory: "Transport Equipment",
       growthMultiplier: 8762,
       trust: "high",
-      videoNum: 881,
+      videoNum: 887,
       topCountries: ["US", "MX", "PH", "BR", "PE"],
     },
     {
@@ -28,7 +28,7 @@ export const vehiclesReport: TikTokReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 4088,
       trust: "high",
-      videoNum: 55461,
+      videoNum: 55516,
       topCountries: ["US", "AU", "CA", "MX", "SA"],
     },
     {
@@ -92,7 +92,7 @@ export const vehiclesReport: TikTokReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 99,
       trust: "high",
-      videoNum: 5339,
+      videoNum: 3702,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
   ],

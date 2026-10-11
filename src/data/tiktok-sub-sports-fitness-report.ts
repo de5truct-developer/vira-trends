@@ -14,10 +14,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "leg lifts method",
@@ -28,7 +28,7 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "david laid now 2026",
-      growthMultiplier: 33,
+      growthMultiplier: 35,
       trust: "high",
       videoNum: 482,
       topCountries: ["PH", "VN", "ID", "MX", "BR"],
@@ -39,13 +39,6 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 414,
       topCountries: ["MX", "ES", "AR", "PE", "CL"],
-    },
-    {
-      topic: "Evan abs",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 358,
-      topCountries: ["PH", "KH", "ID", "MY"],
     },
     {
       topic: "leg lift pick up method",
@@ -88,6 +81,13 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "CA", "AU", "DE"],
+    },
+    {
+      topic: "how much should a 15 weights",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["DE", "GB", "PL", "NL", "SA"],
     },
   ],
   methodologyNote:

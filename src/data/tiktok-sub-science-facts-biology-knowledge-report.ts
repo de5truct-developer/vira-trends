@@ -14,14 +14,14 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "شكل خضرونه الحقيقي",
-      growthMultiplier: 20,
+      growthMultiplier: 19,
       trust: "high",
       videoNum: 833,
       topCountries: ["SA", "IQ", "AE", "KW"],
@@ -65,7 +65,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "MuscovyDuck",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 727,
+      videoNum: 719,
       topCountries: ["ID", "BR", "MM", "VN"],
     },
     {
@@ -80,7 +80,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 437,
-      topCountries: ["US", "MN", "PH", "ID", "CA"],
+      topCountries: ["MN", "US", "PH", "ID", "CA"],
     },
     {
       topic: "mourning geckos",

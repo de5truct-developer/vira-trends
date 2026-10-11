@@ -14,10 +14,10 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "indians dancing",
@@ -51,7 +51,7 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topic: "nepali traditional dance",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 8466,
+      videoNum: 8471,
       topCountries: ["NP", "PK", "BD", "JP"],
     },
     {
@@ -69,13 +69,6 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["RU", "BR", "MX", "KZ", "SA"],
     },
     {
-      topic: "flexibility dances",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 982,
-      topCountries: ["PH", "ZA", "BR", "ID", "SA"],
-    },
-    {
       topic: "bollywood dances for weddings",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +81,13 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1252,
       topCountries: ["AZ", "TR", "GE", "RU"],
+    },
+    {
+      topic: "traditional dance performances",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 594,
+      topCountries: ["MM", "ID", "TH", "MX"],
     },
   ],
   methodologyNote:

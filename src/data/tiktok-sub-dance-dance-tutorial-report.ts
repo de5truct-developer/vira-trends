@@ -14,10 +14,10 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "dance moves and choreography",
@@ -87,7 +87,7 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["BR", "ZA", "MX", "CA"],
+      topCountries: ["BR", "ZA", "MX", "TH", "PH"],
     },
   ],
   methodologyNote:

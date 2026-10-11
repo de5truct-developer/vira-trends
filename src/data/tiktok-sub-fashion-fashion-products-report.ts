@@ -14,10 +14,10 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "fashion product reviews",
@@ -62,13 +62,6 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PL", "UA", "TH", "GB"],
     },
     {
-      topic: "the ordinary jackpot review",
-      growthMultiplier: 26,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PH", "MY", "VN", "MM"],
-    },
-    {
       topic: "nwts drake review",
       growthMultiplier: 23,
       trust: "high",
@@ -87,7 +80,14 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 18,
       trust: "high",
       videoNum: 152,
-      topCountries: ["MX", "AR", "PE", "CO", "PH"],
+      topCountries: ["MX", "PE", "AR", "CO", "EC"],
+    },
+    {
+      topic: "bash hygiene pouch",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "KW", "SA"],
     },
   ],
   methodologyNote:

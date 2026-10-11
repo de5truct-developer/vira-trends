@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "james live photo",
@@ -34,11 +34,18 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["US", "ID", "DE", "MM", "MY"],
     },
     {
+      topic: "4k120fps",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 955,
+      topCountries: ["ID", "KZ", "BD", "VN", "PH"],
+    },
+    {
       topic: "ronaldo best wallpapers 4k",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 136,
-      topCountries: ["ET", "NG", "PK", "ZA"],
+      topCountries: ["ET", "NG", "ZA", "PK"],
     },
     {
       topic: "waterfall screen phone",
@@ -76,18 +83,11 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["VN", "ID", "DZ", "MX"],
     },
     {
-      topic: "sad wallpaper for girls",
+      topic: "فيديوهات مناظر طبيعيه 4k",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "PH", "NG", "ID", "ZA"],
-    },
-    {
-      topic: "ultra hd 8k",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 998,
-      topCountries: ["PK", "ID", "MY", "MX", "SA"],
+      videoNum: 889,
+      topCountries: ["EG", "IQ", "DZ", "SD", "YE"],
     },
   ],
   methodologyNote:

@@ -14,11 +14,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "1million judas performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MM", "MA", "BR"],
+    },
     {
       topic: "vogue battle school",
       growthMultiplier: 1,
@@ -47,18 +54,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       videoNum: 358,
       topCountries: ["US", "BR", "ZA", "PH", "CA"],
     },
-    {
-      topic: "1million judas performance",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "MM", "MA", "CA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "vogue battle school",
-    audience: "unknown 25-34, Philippines (dominant segment, snapshot at collection date)",
+    topic: "1million judas performance",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

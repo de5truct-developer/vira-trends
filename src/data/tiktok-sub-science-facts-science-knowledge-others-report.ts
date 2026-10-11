@@ -14,16 +14,23 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
+    {
+      topic: "paper folded 42 times simulation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "IL", "CA", "AU", "ID"],
+    },
     {
       topic: "Viral tech experiments to try",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 881,
+      videoNum: null,
       topCountries: ["ID", "BD", "MM", "BR"],
     },
     {
@@ -41,11 +48,18 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["MX", "PE", "CO", "VE"],
     },
     {
+      topic: "engineering ring explained",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 543,
+      topCountries: ["CA", "PH", "SA", "TR", "AU"],
+    },
+    {
       topic: "why neverness to everness stands out",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1084,
-      topCountries: ["ID", "US", "PH", "VN"],
+      topCountries: ["ID", "US", "PH", "VN", "BR"],
     },
     {
       topic: "creating visual tension with patterns",
@@ -75,18 +89,11 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       videoNum: null,
       topCountries: ["ES", "BR", "PH", "PK"],
     },
-    {
-      topic: "sterling point explained",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Viral tech experiments to try",
-    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
+    topic: "paper folded 42 times simulation",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

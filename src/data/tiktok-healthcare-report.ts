@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "what is a duff",

@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "climate card seoul",
@@ -38,6 +38,13 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 638,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "travel documents people forget",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
@@ -69,25 +76,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "CA", "AU"],
     },
     {
+      topic: "korea e arrival card",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 289,
+      topCountries: ["PH", "SG", "AU", "ID", "MY"],
+    },
+    {
       topic: "daily costs to expect in japan",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "AR", "CO"],
-    },
-    {
-      topic: "key documents for visa applications",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IR", "AF", "US", "DE"],
-    },
-    {
-      topic: "أماكن إقامة مناسبة للعائلة",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 401,
-      topCountries: ["IQ", "EG", "SA", "TR"],
     },
   ],
   methodologyNote:

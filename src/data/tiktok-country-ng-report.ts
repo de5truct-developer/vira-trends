@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ngCountryReport: TikTokCountryReport = {
   country: "Nigeria",
   countryCode: "NG",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "messi first goal for argentina",
@@ -32,15 +32,6 @@ export const ngCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "NG", "AR", "ZA", "BD"],
-    },
-    {
-      topic: "hotel maid",
-      category: "Tourism",
-      subcategory: "Tourism Service",
-      growthMultiplier: 23,
-      trust: "high",
-      videoNum: 608,
-      topCountries: ["NG", "GH", "KE", "ZA", "TZ"],
     },
     {
       topic: "capcut new trending videos 2026",
@@ -104,6 +95,15 @@ export const ngCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1185,
       topCountries: ["NG", "GB", "KE", "GH"],
+    },
+    {
+      topic: "biggest dam in the world opening",
+      category: "Tourism",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 288,
+      topCountries: ["PH", "GB", "ZA", "NG", "DE"],
     },
   ],
   methodologyNote:

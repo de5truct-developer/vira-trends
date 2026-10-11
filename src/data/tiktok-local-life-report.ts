@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "toronto inconvenience store",
@@ -21,7 +21,7 @@ export const localLifeReport: TikTokReport = {
       growthMultiplier: 407,
       trust: "high",
       videoNum: 886,
-      topCountries: ["US", "GB", "FR", "DE", "CA"],
+      topCountries: ["US", "GB", "FR", "CA", "DE"],
     },
     {
       topic: "lip and eddie shop",
@@ -50,7 +50,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "obamas center opening",
       subcategory: "Leisure and Entertainment",
-      growthMultiplier: 38,
+      growthMultiplier: 51,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "KE", "MX", "NG", "CA"],
@@ -74,7 +74,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "1965 store",
       subcategory: "Shopping",
-      growthMultiplier: 11,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 713,
       topCountries: ["PK", "NP", "AE", "SA"],

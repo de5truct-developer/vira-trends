@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "1980s-inspired looks for creators",
@@ -39,7 +39,7 @@ export const saCountryReport: TikTokCountryReport = {
       subcategory: "Leisure and Entertainment",
       growthMultiplier: 59,
       trust: "high",
-      videoNum: 708,
+      videoNum: 712,
       topCountries: ["SA", "SO", "AE", "KE", "KW"],
     },
     {
@@ -79,6 +79,15 @@ export const saCountryReport: TikTokCountryReport = {
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
+      topic: "daus mendoza pimby foundation",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 829,
+      topCountries: ["US", "GB", "CA", "SA", "PH"],
+    },
+    {
       topic: "Features that make a home sell fast",
       category: "Household",
       subcategory: "Real Estate",
@@ -95,15 +104,6 @@ export const saCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 330,
       topCountries: ["SA", "IQ", "KW", "AE"],
-    },
-    {
-      topic: "كوتي كوتي ايس كريم",
-      category: "Gourmet",
-      subcategory: "Food FMCG",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1124,
-      topCountries: ["IQ", "EG", "DZ", "SA"],
     },
   ],
   methodologyNote:

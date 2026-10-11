@@ -14,10 +14,10 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "chernobyl city now in",
@@ -37,7 +37,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topic: "ashgabat turkmenistán",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 7623,
+      videoNum: 7560,
       topCountries: ["ID", "MX", "TM", "MY", "CO"],
     },
     {
@@ -45,7 +45,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "PH", "NG", "AU", "CA"],
+      topCountries: ["GB", "AU", "CA", "PH", "NG"],
     },
     {
       topic: "Lapland",
@@ -73,7 +73,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 868,
-      topCountries: ["US", "PH", "CA", "AU", "TT"],
+      topCountries: ["US", "PH", "CA", "GB", "AU"],
     },
     {
       topic: "kyrgyzstan city",

@@ -14,10 +14,10 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "what is a duff",
@@ -73,7 +73,7 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 401,
-      topCountries: ["MX", "CO", "PE", "CL"],
+      topCountries: ["MX", "CO", "PE", "CL", "EC"],
     },
     {
       topic: "مدينة_الملك_فهد_الطبية_الرياض",

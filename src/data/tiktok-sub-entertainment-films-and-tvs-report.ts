@@ -14,10 +14,10 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "eddie vs toby's dad review",
@@ -48,11 +48,18 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
+      topic: "mister international 2026 winner",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 885,
+      topCountries: ["ID", "US", "PH", "MM", "TH"],
+    },
+    {
       topic: "there will be food",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 678,
-      topCountries: ["ZA", "PH", "NG", "KE", "CA"],
+      topCountries: ["ZA", "PH", "CA", "MY"],
     },
     {
       topic: "loveindisguise",
@@ -62,11 +69,18 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "MY", "TH", "VN"],
     },
     {
+      topic: "zoey and luca",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "NG", "CA", "KE"],
+    },
+    {
       topic: "shortdramareview 2 3 4 5 6 7 8 9 10",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 128,
-      topCountries: ["CA", "GH", "JM", "NG"],
+      topCountries: ["GH", "CA", "NG", "JM"],
     },
     {
       topic: "hey its me moggity",
@@ -74,20 +88,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 192,
       topCountries: ["US", "GB", "BR", "PH", "DE"],
-    },
-    {
-      topic: "like and share film",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 168,
-      topCountries: ["ID", "MY", "BN", "TL"],
-    },
-    {
-      topic: "the dons greatest regret",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "SG"],
     },
   ],
   methodologyNote:

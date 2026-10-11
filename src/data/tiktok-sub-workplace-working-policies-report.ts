@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "live incentive program 2 part",
@@ -25,6 +25,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "ID", "PH", "NP"],
+    },
+    {
+      topic: "lost 75k govt job",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "NZ", "ZA", "SG"],
     },
     {
       topic: "butler salary",
@@ -65,7 +72,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topic: "understanding live incentive programs",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1065,
+      videoNum: 1051,
       topCountries: ["MX", "GT", "PE", "VE", "BR"],
     },
     {
@@ -81,13 +88,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 276,
       topCountries: ["PK", "SA", "NP", "AE"],
-    },
-    {
-      topic: "how to join live incentive program 2026",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 540,
-      topCountries: ["BD", "PK", "PH", "ZA"],
     },
   ],
   methodologyNote:

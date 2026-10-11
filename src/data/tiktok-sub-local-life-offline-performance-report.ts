@@ -14,10 +14,10 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "burnout car event schedules",
@@ -32,6 +32,13 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 821,
       topCountries: ["US", "BR", "CA", "GB", "AU"],
+    },
+    {
+      topic: "coachella 2027 lineup announcement",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "PH", "AU", "GB", "MX"],
     },
     {
       topic: "worlds collide tour 2026",
@@ -81,13 +88,6 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 851,
       topCountries: ["NP", "MY", "JP", "AE"],
-    },
-    {
-      topic: "bunny concert mandalay",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 614,
-      topCountries: ["MM", "JP", "TH", "SG"],
     },
   ],
   methodologyNote:

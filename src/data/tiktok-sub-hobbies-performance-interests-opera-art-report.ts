@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "mentalist guide",
@@ -48,18 +48,18 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       topCountries: ["PK", "SA", "AE", "NP", "QA"],
     },
     {
-      topic: "patrick jane coin trick tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PH", "MY", "AU", "PE"],
-    },
-    {
       topic: "Show us your coolest tricks",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 958,
+      videoNum: 960,
       topCountries: ["PH", "NG", "GH", "MM", "BD"],
+    },
+    {
+      topic: "connor coin trick",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 257,
+      topCountries: ["PH", "CA", "ID", "BR", "TR"],
     },
     {
       topic: "magic is real",
@@ -67,6 +67,13 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 967,
       topCountries: ["PH", "CA", "MX", "ZA", "NG"],
+    },
+    {
+      topic: "magician girl",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 481,
+      topCountries: ["VN", "ID", "PH", "TH", "MX"],
     },
     {
       topic: "خدع سهلة لخلفيات مع صوت وحركة",
@@ -81,13 +88,6 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 894,
       topCountries: ["US", "ZA", "NG", "KE", "GH"],
-    },
-    {
-      topic: "viral magic performance videos",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 1098,
-      topCountries: ["NP", "KR", "MM", "PK"],
     },
   ],
   methodologyNote:

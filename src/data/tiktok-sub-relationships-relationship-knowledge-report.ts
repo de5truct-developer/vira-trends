@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "teacher student relationship boundaries",
@@ -32,6 +32,13 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 221,
       topCountries: ["ID", "SA", "IL", "PK", "EG"],
+    },
+    {
+      topic: "u look just like your dad",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RS", "ZA", "CA", "SA", "AU"],
     },
     {
       topic: "negging explain",
@@ -81,13 +88,6 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 708,
       topCountries: ["ZA", "SA", "PH", "MX", "CA"],
-    },
-    {
-      topic: "fictional men",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 902,
-      topCountries: ["PH", "PK", "MM", "MY", "ID"],
     },
   ],
   methodologyNote:

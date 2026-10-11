@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const danceReport: TikTokReport = {
   category: "Dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Boom Boom Boom Dance Trend",
       subcategory: "Dance Trend",
       growthMultiplier: 8036,
       trust: "high",
-      videoNum: 1025,
+      videoNum: 1024,
       topCountries: ["PH", "ID", "ZA", "BR"],
     },
     {

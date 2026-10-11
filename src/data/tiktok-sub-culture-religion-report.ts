@@ -14,10 +14,10 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "متحصن باسم الله",
@@ -38,14 +38,14 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 958,
-      topCountries: ["ZA", "KE", "PH", "GH", "NG"],
+      topCountries: ["ZA", "KE", "PH", "VU", "GH"],
     },
     {
       topic: "anti atheism",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 461,
-      topCountries: ["PH", "BR", "CA", "IQ", "SA"],
+      topCountries: ["PH", "BR", "CA", "TR", "IQ"],
     },
     {
       topic: "اللهم اني اسالك العفو والعافيه في الدنيا",

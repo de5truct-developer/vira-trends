@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "i have synesthesia jennifer lawrence and cynthia",
@@ -40,6 +40,14 @@ export const entertainmentReport: TikTokReport = {
       topCountries: ["US", "PH", "ID", "GB", "MY"],
     },
     {
+      topic: "dolly parton and carl dean",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 133,
+      trust: "high",
+      videoNum: 872,
+      topCountries: ["US", "GB", "AU", "CA", "PH"],
+    },
+    {
       topic: "mark ballas and maura higgins",
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 109,
@@ -60,7 +68,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 37,
       trust: "high",
-      videoNum: 4151,
+      videoNum: 4150,
       topCountries: ["US", "GB", "BR", "CA", "MX"],
     },
     {
@@ -86,14 +94,6 @@ export const entertainmentReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "ID", "MY"],
-    },
-    {
-      topic: "von and durk in court",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "NL", "IT"],
     },
   ],
   methodologyNote:

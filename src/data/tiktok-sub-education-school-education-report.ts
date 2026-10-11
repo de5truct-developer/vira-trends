@@ -14,10 +14,10 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "rancav management 2026",
@@ -27,18 +27,18 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MM", "MX", "MY"],
     },
     {
+      topic: "π edit math",
+      growthMultiplier: 37,
+      trust: "high",
+      videoNum: 421,
+      topCountries: ["PH", "ID", "CO", "BR"],
+    },
+    {
       topic: "michelle calculator math",
       growthMultiplier: 18,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MX", "BR", "US", "GB"],
-    },
-    {
-      topic: "π edit math",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 421,
-      topCountries: ["PH", "ID", "CO", "BR"],
     },
     {
       topic: "semester at sea explained",

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const thCountryReport: TikTokCountryReport = {
   country: "Thailand",
   countryCode: "TH",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Simple survival tools to pack",
@@ -30,7 +30,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 62,
       trust: "high",
-      videoNum: 5339,
+      videoNum: 3702,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -48,7 +48,7 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Serious Literature",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: 1122,
+      videoNum: 1105,
       topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
     {
@@ -64,7 +64,7 @@ export const thCountryReport: TikTokCountryReport = {
       topic: "hardtack bread",
       category: "Gourmet",
       subcategory: "Food Tutorials",
-      growthMultiplier: 11,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "PH", "VN", "TH"],
@@ -75,8 +75,17 @@ export const thCountryReport: TikTokCountryReport = {
       subcategory: "Food Ingredients/Fresh Food",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1167,
+      videoNum: 1157,
       topCountries: ["PH", "ID", "VN", "TH", "US"],
+    },
+    {
+      topic: "aoa miniskrit",
+      category: "Fashion",
+      subcategory: "Fashion Products",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TH", "JP", "MY", "BR"],
     },
     {
       topic: "window",
@@ -95,15 +104,6 @@ export const thCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 385,
       topCountries: ["US", "MX", "TH", "VN", "PH"],
-    },
-    {
-      topic: "fast track",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 1061,
-      topCountries: ["ID", "VN", "TH", "MY", "FR"],
     },
   ],
   methodologyNote:

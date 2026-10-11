@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "يبجي الولد وشكاك ذيالي",
@@ -45,7 +45,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["TH", "PH", "MY", "ID", "KH"],
+      topCountries: ["TH", "PH", "MY", "ID", "AU"],
     },
     {
       topic: "ابيات شعر",

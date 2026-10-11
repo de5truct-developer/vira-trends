@@ -14,18 +14,11 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
-    {
-      topic: "gracie pizza shop original video",
-      growthMultiplier: 752,
-      trust: "high",
-      videoNum: 844,
-      topCountries: [],
-    },
     {
       topic: "leah ashe copying megan",
       growthMultiplier: 158,
@@ -41,6 +34,13 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
+      topic: "are you afraid lanterns",
+      growthMultiplier: 77,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "MX", "CA", "AU"],
+    },
+    {
       topic: "ContentCreatorInsightsIn2026",
       growthMultiplier: 50,
       trust: "high",
@@ -52,7 +52,7 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       growthMultiplier: 41,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "IE", "AU", "NL", "SE"],
+      topCountries: ["GB", "AU", "CA", "NZ", "IE"],
     },
     {
       topic: "create sights insight",
@@ -69,10 +69,17 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["ID", "NG", "KH", "MY", "MM"],
     },
     {
+      topic: "never cut your hair because the strength is in the hair",
+      growthMultiplier: 20,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "UA", "RU", "DE", "TR"],
+    },
+    {
       topic: "31millionviewsviralvideo",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: 9817,
+      videoNum: 9825,
       topCountries: ["MM", "ID", "UG", "BD"],
     },
     {
@@ -82,18 +89,11 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       videoNum: null,
       topCountries: ["US", "MX", "PH", "BR", "ID"],
     },
-    {
-      topic: "creator insights part 3 4 next 3",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["ZA", "NG", "PK", "GH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "gracie pizza shop original video",
-    audience: "not enough audience data for this topic",
+    topic: "leah ashe copying megan",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

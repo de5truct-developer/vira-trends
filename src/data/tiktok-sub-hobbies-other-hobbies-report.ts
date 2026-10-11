@@ -14,10 +14,10 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "breaker review xxl 2 3 4 5 6 7 8 9 10",
@@ -41,13 +41,6 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "PH", "TH", "VN"],
     },
     {
-      topic: "day 276 poker face",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "RU", "BR", "DE"],
-    },
-    {
       topic: "how to make pennies large",
       growthMultiplier: 18,
       trust: "high",
@@ -60,6 +53,13 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "IQ", "EG", "BD", "SN"],
+    },
+    {
+      topic: "day 276 poker face",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "RU", "BR", "DE"],
     },
     {
       topic: "how to play people the game",

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const bdCountryReport: TikTokCountryReport = {
   country: "Bangladesh",
   countryCode: "BD",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "messi vs england reaccion pt 2 fut crunch",
@@ -76,7 +76,7 @@ export const bdCountryReport: TikTokCountryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 414,
-      topCountries: ["BD", "IQ", "MM", "NG"],
+      topCountries: ["BD", "MM", "IQ", "NG"],
     },
     {
       topic: "مقارنة كاميرا هاتفين في التصوير",

@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "3 marla house for sale in location jalal pur jatt dera ma",
@@ -44,7 +44,7 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topic: "22 million dollar house 3",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1054,
+      videoNum: 1073,
       topCountries: ["BR", "IT", "MX", "DE", "PL"],
     },
     {
@@ -59,7 +59,14 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1156,
-      topCountries: ["US", "GB", "PH", "DE", "CA"],
+      topCountries: ["US", "GB", "PH", "DE", "ZA"],
+    },
+    {
+      topic: "lancaster house",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "MY", "GH", "BR"],
     },
     {
       topic: "Luxury Apartment",
@@ -81,13 +88,6 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 5874,
       topCountries: ["PK", "NG", "ZA", "KE", "GH"],
-    },
-    {
-      topic: "1 billion dollar house",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 967,
-      topCountries: ["GB", "PH", "CA", "AU", "ZA"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const pkCountryReport: TikTokCountryReport = {
   country: "Pakistan",
   countryCode: "PK",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "#MyAccountGrowth",
@@ -70,15 +70,6 @@ export const pkCountryReport: TikTokCountryReport = {
       topCountries: ["PK", "AE", "SA", "AF"],
     },
     {
-      topic: "create schach insights 2027 viral",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Board and Chess/Card Games",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 889,
-      topCountries: ["PK", "NP", "ET", "SA", "UG"],
-    },
-    {
       topic: "zam zam software update",
       category: "Science and Technology",
       subcategory: "Software",
@@ -88,13 +79,13 @@ export const pkCountryReport: TikTokCountryReport = {
       topCountries: ["PK", "AE", "NP", "AF"],
     },
     {
-      topic: "creator insights part 3 4 next 3",
-      category: "TikTok's Featured Content",
-      subcategory: "Others TikTok and Video Contents",
+      topic: "create schach insights 2027 viral",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Board and Chess/Card Games",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 108,
-      topCountries: ["ZA", "NG", "PK", "GH"],
+      videoNum: 889,
+      topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
     {
       topic: "healed purple eye",
@@ -104,6 +95,15 @@ export const pkCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PK", "BD", "RU", "UA"],
+    },
+    {
+      topic: "viral funny shorts",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BD", "PK", "ID", "EG"],
     },
   ],
   methodologyNote:

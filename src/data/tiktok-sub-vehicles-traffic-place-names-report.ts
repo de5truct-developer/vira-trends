@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "house in the middle of the road",
@@ -27,18 +27,11 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ZA", "GB", "PH", "DE"],
     },
     {
-      topic: "مطار ابها الآن",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 628,
-      topCountries: ["SA", "EG", "YE", "SD"],
-    },
-    {
       topic: "clayton route 06",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MX", "BR", "ID", "TH"],
+      topCountries: ["PH", "MX", "BR", "TH", "ID"],
     },
     {
       topic: "12 strout street",
@@ -69,11 +62,11 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["KE", "TZ", "SO", "UG"],
     },
     {
-      topic: "air canada flight",
+      topic: "could new york to london get faster?",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 9018,
-      topCountries: ["CA", "PK", "PH", "DE"],
+      videoNum: 802,
+      topCountries: ["BD", "MM", "BR", "ID"],
     },
     {
       topic: "qatar airlines",
@@ -87,7 +80,14 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1046,
-      topCountries: ["EG", "NG", "SA", "ID", "SO"],
+      topCountries: ["EG", "NG", "SA", "SO", "ID"],
+    },
+    {
+      topic: "icn airport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 477,
+      topCountries: ["ID", "PH", "ES", "MY", "TH"],
     },
   ],
   methodologyNote:

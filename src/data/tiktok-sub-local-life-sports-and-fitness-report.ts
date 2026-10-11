@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-07",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "shanghai basketball court 2",
@@ -27,11 +27,18 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "US", "NG", "GH"],
     },
     {
+      topic: "allen high school football stadium",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "AU", "MX"],
+    },
+    {
       topic: "raymond james stadium",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 164,
-      topCountries: ["BR", "MX", "ID", "CA", "SA"],
+      topCountries: ["BR", "MX", "ID", "CA", "CO"],
     },
     {
       topic: "volleyball court dimensions and layout",
@@ -81,13 +88,6 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "US", "MX"],
-    },
-    {
-      topic: "basketball locker room florence",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "AU", "GB", "MY"],
     },
   ],
   methodologyNote:

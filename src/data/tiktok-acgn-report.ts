@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const acgnReport: TikTokReport = {
   category: "ACGN (Anime, Comics, Games & Novels)",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "melissa doi ending call",
@@ -34,7 +34,7 @@ export const acgnReport: TikTokReport = {
     {
       topic: "part two of the story fruit 2 mask",
       subcategory: "Games",
-      growthMultiplier: 337,
+      growthMultiplier: 314,
       trust: "high",
       videoNum: 931,
       topCountries: ["US", "PH", "CA", "PK", "LB"],

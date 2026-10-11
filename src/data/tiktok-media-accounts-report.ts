@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "briar patch",
@@ -21,7 +21,7 @@ export const mediaAccountsReport: TikTokReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: 4581,
-      topCountries: ["US", "GB", "CA", "DE", "PH"],
+      topCountries: ["US", "GB", "CA", "DE", "AU"],
     },
     {
       topic: "RiverOtter",
@@ -69,7 +69,7 @@ export const mediaAccountsReport: TikTokReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 308,
-      topCountries: ["PH", "MX", "CA", "ID", "BR"],
+      topCountries: ["PH", "MX", "CA", "BR", "ID"],
     },
     {
       topic: "LifeJourney",
@@ -77,7 +77,7 @@ export const mediaAccountsReport: TikTokReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "NG", "MY", "HT"],
+      topCountries: ["ID", "NG", "MY", "ZA"],
     },
     {
       topic: "AnimalLovers",

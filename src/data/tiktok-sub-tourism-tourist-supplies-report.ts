@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "what to pack for a valley tour",
@@ -52,7 +52,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1210,
-      topCountries: ["PH", "MY", "SA", "AU", "ID"],
+      topCountries: ["PH", "MY", "AU", "SA", "ID"],
     },
     {
       topic: "what i pack for a beauty road trip",
@@ -62,18 +62,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "PA", "GB", "FR"],
     },
     {
-      topic: "beach packing essentials i actually use",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MM", "ID", "BD", "ET"],
-    },
-    {
       topic: "Packing for camp",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 651,
       topCountries: ["CA", "AU", "ZA", "NZ"],
+    },
+    {
+      topic: "pack with me for the airport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 369,
+      topCountries: ["AU", "PH", "CA", "ZA", "AE"],
     },
     {
       topic: "what i pack for active day trips",

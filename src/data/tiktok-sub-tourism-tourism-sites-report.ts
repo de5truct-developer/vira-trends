@@ -14,10 +14,10 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "gollum cave real photo",
@@ -48,13 +48,6 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "GB", "ID", "PH", "CA"],
     },
     {
-      topic: "epstrin island",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "CA"],
-    },
-    {
       topic: "widow bay",
       growthMultiplier: 7,
       trust: "high",
@@ -76,18 +69,25 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "BR", "MX", "TH"],
     },
     {
-      topic: "aquarium arm mc matteo",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "AU", "TR", "MY"],
-    },
-    {
       topic: "dean potter falls",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "CA"],
+    },
+    {
+      topic: "madinah city of the prophet location",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 9211,
+      topCountries: ["PK", "BD", "SA", "AE"],
+    },
+    {
+      topic: "Mountain top",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1136,
+      topCountries: ["GB", "CA", "AU", "NG", "DE"],
     },
   ],
   methodologyNote:

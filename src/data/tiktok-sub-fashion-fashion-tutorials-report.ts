@@ -14,10 +14,10 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "1980s-inspired looks for creators",
@@ -34,11 +34,25 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "IQ", "IL", "EG"],
     },
     {
+      topic: "mandem style",
+      growthMultiplier: 372,
+      trust: "high",
+      videoNum: 563,
+      topCountries: ["US", "GB", "CA", "PH", "AU"],
+    },
+    {
       topic: "before-and-after hair color guide",
       growthMultiplier: 60,
       trust: "high",
       videoNum: 152,
       topCountries: ["US", "GB", "PH", "EG", "DE"],
+    },
+    {
+      topic: "patrick jane style",
+      growthMultiplier: 57,
+      trust: "high",
+      videoNum: 780,
+      topCountries: ["EG", "SA", "ID", "NG", "IQ"],
     },
     {
       topic: "turning my mum into me outfit",
@@ -48,11 +62,18 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "DE", "IT"],
     },
     {
+      topic: "daus mendoza pimby foundation",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 829,
+      topCountries: ["US", "GB", "CA", "SA", "PH"],
+    },
+    {
       topic: "building a dolly parton party look",
       growthMultiplier: 19,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "NG", "GB"],
+      topCountries: ["US", "PH", "CA", "NG", "ID"],
     },
     {
       topic: "Turning old wardrobe pieces into bridal",
@@ -67,27 +88,6 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1022,
       topCountries: ["GB", "SA", "TR", "EG", "CA"],
-    },
-    {
-      topic: "boneless cornrows",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "JM", "NG", "CA"],
-    },
-    {
-      topic: "hair transformation miami",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "VN", "ID", "TH"],
-    },
-    {
-      topic: "ohyul airport outfits",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 691,
-      topCountries: ["ID", "US", "PH", "MY", "VN"],
     },
   ],
   methodologyNote:

@@ -14,17 +14,17 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Boo Basket Ideas",
       growthMultiplier: 78,
       trust: "high",
       videoNum: 1124,
-      topCountries: ["US", "ID", "BR", "MM"],
+      topCountries: ["US", "ID", "GB", "BR"],
     },
     {
       topic: "egg carton craft ideas",
@@ -41,6 +41,13 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "MM", "MX"],
     },
     {
+      topic: "BRIGHT IDEAS WE GOT BRIGHT IDEAS",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "CA", "AU", "NG"],
+    },
+    {
       topic: "underwater basket weaving",
       growthMultiplier: 4,
       trust: "high",
@@ -52,7 +59,7 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 358,
-      topCountries: ["US", "CA", "RU", "GB", "MX"],
+      topCountries: ["US", "CA", "MX", "RU", "GB"],
     },
     {
       topic: "diy gift projects with a personal touch",
@@ -62,13 +69,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["AU", "LV", "PH", "NZ", "BR"],
     },
     {
-      topic: "BRIGHT IDEAS WE GOT BRIGHT IDEAS",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "CA", "AU", "NG"],
-    },
-    {
       topic: "gift packaging ideas",
       growthMultiplier: 2,
       trust: "high",
@@ -76,18 +76,18 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "PK", "NP"],
     },
     {
+      topic: "how to make a crane",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 485,
+      topCountries: ["ZA", "PH", "NG", "ID"],
+    },
+    {
       topic: "step-by-step cute diy vlog ideas",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 229,
       topCountries: ["ID", "PH", "MX", "MY", "PE"],
-    },
-    {
-      topic: "Homemade Needohs Tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "AR", "MX", "MD", "CO"],
     },
   ],
   methodologyNote:

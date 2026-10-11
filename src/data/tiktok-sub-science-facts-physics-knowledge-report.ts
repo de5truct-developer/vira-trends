@@ -14,10 +14,10 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "there is something faster than light",
@@ -51,7 +51,7 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "nikola tesla aura farming",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 172,
       topCountries: ["PH", "ID", "CA", "MY", "ZA"],
     },
     {

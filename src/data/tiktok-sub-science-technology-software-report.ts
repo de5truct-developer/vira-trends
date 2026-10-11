@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "minimuse app",
@@ -32,6 +32,13 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 164,
       topCountries: ["BD", "MM", "LK", "ET", "NP"],
+    },
+    {
+      topic: "i know what you did last summer tutorial",
+      growthMultiplier: 85,
+      trust: "high",
+      videoNum: 502,
+      topCountries: ["NG", "UG", "GH", "KE", "ET"],
     },
     {
       topic: "comment section for video",
@@ -65,7 +72,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topic: "banner tiktok",
       growthMultiplier: 14,
       trust: "high",
-      videoNum: 1052,
+      videoNum: 1291,
       topCountries: ["ID", "BR", "IT", "PH", "DE"],
     },
     {
@@ -76,18 +83,11 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "CA", "ID", "AU"],
     },
     {
-      topic: "ImagesWithText",
-      growthMultiplier: 10,
+      topic: "game filter trend",
+      growthMultiplier: 13,
       trust: "high",
-      videoNum: 914,
-      topCountries: ["MM", "TH", "JP", "CA"],
-    },
-    {
-      topic: "4k 120 fps upload method",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 550,
-      topCountries: ["BD", "NP", "PH", "MM", "JP"],
+      videoNum: 1072,
+      topCountries: ["US", "GB", "PH", "AU"],
     },
   ],
   methodologyNote:

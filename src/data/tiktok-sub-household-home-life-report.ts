@@ -14,10 +14,10 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "mop daddy",
@@ -44,7 +44,7 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topic: "vika and vova cups",
       growthMultiplier: 19,
       trust: "high",
-      videoNum: null,
+      videoNum: 600,
       topCountries: ["US", "PH", "GB", "DE", "SA"],
     },
     {
@@ -73,7 +73,7 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 573,
-      topCountries: ["GB", "MY", "MX", "CA", "ZA"],
+      topCountries: ["GB", "MY", "CA", "AU"],
     },
     {
       topic: "alcohols gallon",

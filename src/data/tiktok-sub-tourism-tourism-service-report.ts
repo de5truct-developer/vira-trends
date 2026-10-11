@@ -14,16 +14,16 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "dolly parton hotel",
       growthMultiplier: 175,
       trust: "high",
-      videoNum: 5860,
+      videoNum: 6050,
       topCountries: ["US", "MX", "CA", "PH", "GB"],
     },
     {
@@ -49,7 +49,7 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "hotel maid",
-      growthMultiplier: 6,
+      growthMultiplier: 7,
       trust: "high",
       videoNum: 608,
       topCountries: ["NG", "GH", "KE", "ZA", "TZ"],
@@ -87,7 +87,7 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 529,
-      topCountries: ["PH", "MY", "ID", "SA", "AU"],
+      topCountries: ["PH", "MY", "ID", "AU", "SA"],
     },
   ],
   methodologyNote:

@@ -14,16 +14,16 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "Boom Boom Boom Dance Trend",
       growthMultiplier: 8036,
       trust: "high",
-      videoNum: 1025,
+      videoNum: 1024,
       topCountries: ["PH", "ID", "ZA", "BR"],
     },
     {
@@ -76,18 +76,18 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "CA", "AU", "ZA", "NZ"],
     },
     {
+      topic: "practicing for the club",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "ZA", "NZ"],
+    },
+    {
       topic: "viral dance and audio trends",
       growthMultiplier: 11,
       trust: "high",
       videoNum: 638,
       topCountries: ["KW", "SA", "EG", "IQ"],
-    },
-    {
-      topic: "tiktok dances compilation",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 1179,
-      topCountries: ["PH", "MX", "AE", "MM"],
     },
   ],
   methodologyNote:

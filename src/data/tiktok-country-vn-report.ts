@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "new lionel messi",
@@ -30,7 +30,7 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Serious Literature",
       growthMultiplier: 99,
       trust: "high",
-      videoNum: 1122,
+      videoNum: 1105,
       topCountries: ["ID", "VN", "TH", "MM", "KH"],
     },
     {
@@ -39,7 +39,7 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 79,
       trust: "high",
-      videoNum: 5339,
+      videoNum: 3702,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
     },
     {
@@ -94,7 +94,7 @@ export const vnCountryReport: TikTokCountryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 402,
-      topCountries: ["ID", "VN", "MY", "TH", "MX"],
+      topCountries: ["ID", "VN", "MY", "MX", "TH"],
     },
     {
       topic: "color combo ideas for shoe accessories",

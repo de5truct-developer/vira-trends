@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "teacher student relationship boundaries",
@@ -56,6 +56,14 @@ export const relationshipsReport: TikTokReport = {
       topCountries: ["VE", "CO", "MX", "PE", "EC"],
     },
     {
+      topic: "u look just like your dad",
+      subcategory: "Relationship Knowledge",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RS", "ZA", "CA", "SA", "AU"],
+    },
+    {
       topic: "narcissistic person side lagu ogada",
       subcategory: "Psychology",
       growthMultiplier: 2,
@@ -86,14 +94,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "ID", "MX", "NP"],
-    },
-    {
-      topic: "music and emotional expression",
-      subcategory: "Psychology",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IQ", "PK", "MM", "BR", "BD"],
     },
   ],
   methodologyNote:

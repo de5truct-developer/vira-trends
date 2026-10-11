@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const financeReport: TikTokReport = {
   category: "Finance and Economics",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "elon musk salary per second",
@@ -24,12 +24,28 @@ export const financeReport: TikTokReport = {
       topCountries: ["GB", "PK", "PH", "NG", "AU"],
     },
     {
+      topic: "money management tips",
+      subcategory: "Financial Pan Knowledge",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1191,
+      topCountries: ["PH", "ID", "NG", "PK"],
+    },
+    {
       topic: "place value chart",
       subcategory: "Financial Pan Knowledge",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 330,
       topCountries: ["US", "PH", "JM", "GH"],
+    },
+    {
+      topic: "financial literacy for beginners",
+      subcategory: "Financial Pan Knowledge",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 3086,
+      topCountries: ["KE", "NG", "ZA", "GH", "PH"],
     },
     {
       topic: "lady business",
@@ -48,11 +64,19 @@ export const financeReport: TikTokReport = {
       topCountries: ["BR", "IT", "NG", "GH", "ZA"],
     },
     {
+      topic: "money investment",
+      subcategory: "Financial Pan Knowledge",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2979,
+      topCountries: ["PH", "ZA", "NG", "MY", "NP"],
+    },
+    {
       topic: "online earning money",
       subcategory: "Financial Pan Knowledge",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 38478,
       topCountries: ["PH", "ZA", "UG", "NG", "ET"],
     },
     {
@@ -70,30 +94,6 @@ export const financeReport: TikTokReport = {
       trust: "high",
       videoNum: 890,
       topCountries: ["CI", "CD", "TG", "CM", "TD"],
-    },
-    {
-      topic: "rick ross money",
-      subcategory: "Gossip of Finance Industry",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1005,
-      topCountries: ["FR", "SN", "ZA", "CD"],
-    },
-    {
-      topic: "side hustle online",
-      subcategory: "Financial Pan Knowledge",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 13115,
-      topCountries: ["PH", "ID", "ZA", "NG", "EG"],
-    },
-    {
-      topic: "financial tiktok",
-      subcategory: "Financial Pan Knowledge",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1889,
-      topCountries: ["MY", "ID", "ZA", "SG"],
     },
   ],
   methodologyNote:

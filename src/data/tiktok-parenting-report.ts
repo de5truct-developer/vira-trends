@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "milk pump xxl step by step",
@@ -24,20 +24,20 @@ export const parentingReport: TikTokReport = {
       topCountries: ["US", "ID", "PH", "BR", "MY"],
     },
     {
-      topic: "Mom care",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "PH", "ID", "JP", "CO"],
-    },
-    {
       topic: "honour zuma pregrant",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "BW", "ZW", "NA"],
+    },
+    {
+      topic: "Mom care",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VN", "PH", "ID", "JP", "CO"],
     },
     {
       topic: "MomProblems",
@@ -53,14 +53,14 @@ export const parentingReport: TikTokReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1148,
-      topCountries: ["ZA", "NG", "ID", "EG"],
+      topCountries: ["ID", "ZA", "NG", "EG"],
     },
     {
       topic: "ayden and embriegh",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 91229,
+      videoNum: 91244,
       topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
@@ -77,7 +77,7 @@ export const parentingReport: TikTokReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "CA", "EG", "ZA"],
+      topCountries: ["ID", "EG", "CA", "ZA", "MY"],
     },
     {
       topic: "اطفال يلعبون ويضحكون اطفال وافكار",

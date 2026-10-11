@@ -14,10 +14,10 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-09",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "lunch im my city",
@@ -25,13 +25,6 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 584,
       topCountries: ["US", "SE", "CA", "AU", "ZA"],
-    },
-    {
-      topic: "مطعم تيدي في الغزاليه",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 503,
-      topCountries: ["IQ", "TR", "EG", "AE"],
     },
     {
       topic: "brawadis starbucks",
@@ -87,7 +80,14 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 6,
       trust: "high",
       videoNum: 701,
-      topCountries: ["ID", "BR", "PH", "MX", "MY"],
+      topCountries: ["ID", "PH", "BR", "MY", "MX"],
+    },
+    {
+      topic: "افتتاح مطعم باب اليمن الدمام",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "YE", "EG", "KW"],
     },
   ],
   methodologyNote:

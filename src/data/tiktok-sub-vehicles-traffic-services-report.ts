@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
-  windowStart: "2026-08-09",
+  computedAt: "2026-10-10T09:55:35Z",
+  windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "الاقلاع الفوري القوات الجوية الملكية السعودية",
@@ -41,18 +41,18 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "TR", "MX", "MY"],
     },
     {
-      topic: "england park the bus",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1681,
-      topCountries: ["ID", "MY", "PH", "ZA", "VN"],
-    },
-    {
       topic: "florida walmart parking lot",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 776,
       topCountries: ["US", "GB", "CA", "FR", "ES"],
+    },
+    {
+      topic: "england park the bus",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1681,
+      topCountries: ["ID", "MY", "PH", "ZA", "VN"],
     },
     {
       topic: "royal gorge train",

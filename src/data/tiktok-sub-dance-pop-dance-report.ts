@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "lisa choreography",
@@ -76,18 +76,18 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "VN", "BR"],
     },
     {
+      topic: "james choreography illit cherish",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "VN", "TH"],
+    },
+    {
       topic: "Ateez bad dance",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 696,
       topCountries: ["NG", "GH", "ZA", "KE"],
-    },
-    {
-      topic: "james magnetic choreography",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PH", "MY", "CA"],
     },
   ],
   methodologyNote:

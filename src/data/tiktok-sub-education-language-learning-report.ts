@@ -14,16 +14,16 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "3 in german",
       growthMultiplier: 5207,
       trust: "high",
-      videoNum: 615,
+      videoNum: 622,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
     },
     {
@@ -73,7 +73,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 477,
-      topCountries: ["PH", "GB", "US", "ZA", "NG"],
+      topCountries: ["US", "PH", "GB", "ZA", "NG"],
     },
     {
       topic: "Open english",

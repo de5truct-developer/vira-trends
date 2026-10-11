@@ -14,10 +14,10 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "melissa doi ending call",
@@ -28,7 +28,7 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "part two of the story fruit 2 mask",
-      growthMultiplier: 337,
+      growthMultiplier: 314,
       trust: "high",
       videoNum: 931,
       topCountries: ["US", "PH", "CA", "PK", "LB"],
@@ -59,7 +59,7 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 53,
       trust: "high",
       videoNum: null,
-      topCountries: ["BD", "NP", "BR", "PK"],
+      topCountries: ["BD", "NP", "PK", "BR"],
     },
     {
       topic: "what happened to thing 2",

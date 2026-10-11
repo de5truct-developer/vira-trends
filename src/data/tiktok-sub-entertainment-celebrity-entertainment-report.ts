@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "i have synesthesia jennifer lawrence and cynthia",
@@ -41,6 +41,13 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["US", "PH", "ID", "GB", "MY"],
     },
     {
+      topic: "dolly parton and carl dean",
+      growthMultiplier: 133,
+      trust: "high",
+      videoNum: 872,
+      topCountries: ["US", "GB", "AU", "CA", "PH"],
+    },
+    {
       topic: "mark ballas and maura higgins",
       growthMultiplier: 109,
       trust: "high",
@@ -51,7 +58,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topic: "kaley cuoco and tom pelphrey",
       growthMultiplier: 37,
       trust: "high",
-      videoNum: 4151,
+      videoNum: 4150,
       topCountries: ["US", "GB", "BR", "CA", "MX"],
     },
     {
@@ -81,13 +88,6 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "GB", "BR", "PH"],
-    },
-    {
-      topic: "what did durk do",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "AU", "DE", "ZA"],
     },
   ],
   methodologyNote:

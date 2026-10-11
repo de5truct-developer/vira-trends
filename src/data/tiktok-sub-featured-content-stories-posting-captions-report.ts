@@ -14,10 +14,10 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "foryou_fypシ_fypシ゚viral",
@@ -31,14 +31,7 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       growthMultiplier: 6,
       trust: "high",
       videoNum: 668672,
-      topCountries: ["IQ", "SD", "EG", "SA"],
-    },
-    {
-      topic: "Wannabe popular girl",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AU", "CA", "ZA", "SA", "SO"],
+      topCountries: ["IQ", "SD", "SA", "EG"],
     },
     {
       topic: "the subject of the day",
@@ -48,18 +41,11 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["US", "PK", "RU", "PH", "ID"],
     },
     {
-      topic: "نرجوا_منكم_المتابعة_لكي_يصلكم_كل_جديد",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1454,
-      topCountries: ["IQ", "MR", "EG", "DZ"],
-    },
-    {
       topic: "helping strangers",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "GB", "MY", "ZA"],
+      topCountries: ["PH", "ID", "GB", "ZA", "MY"],
     },
     {
       topic: "fypシ゚foryoupage",
@@ -69,6 +55,13 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["ID", "NP", "MM", "GH"],
     },
     {
+      topic: "نرجوا_منكم_المتابعة_لكي_يصلكم_كل_جديد",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1454,
+      topCountries: ["IQ", "MR", "EG", "DZ"],
+    },
+    {
       topic: "followers grow up now",
       growthMultiplier: 3,
       trust: "high",
@@ -76,11 +69,11 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["PH", "PK", "NG", "NP", "MY"],
     },
     {
-      topic: "good morning streak for today",
+      topic: "اكسبلور_فولو_متابعة_تفاعل_تعليق_عبارات_مشاهدات_مليونيهـ",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 983,
-      topCountries: ["PH", "ID", "NG", "KH", "MY"],
+      videoNum: 1992,
+      topCountries: ["SD", "DZ", "IQ", "TD"],
     },
     {
       topic: "phone dry asf",
@@ -88,6 +81,13 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "ZA", "MY", "AU"],
+    },
+    {
+      topic: "parents helping with homework",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "CA", "AU", "MY"],
     },
   ],
   methodologyNote:

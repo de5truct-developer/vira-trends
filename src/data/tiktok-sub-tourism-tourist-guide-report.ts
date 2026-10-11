@@ -14,10 +14,10 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "uk london british part to 2",
@@ -32,6 +32,13 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 797,
       topCountries: ["GB", "CA", "PH", "NG", "MA"],
+    },
+    {
+      topic: "hwaseong korea",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 233,
+      topCountries: ["ID", "MX", "PE", "CO", "AR"],
     },
     {
       topic: "how to plan a summer park visit",
@@ -73,21 +80,14 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "PL", "MX", "CA"],
+      topCountries: ["US", "GB", "PL", "MX", "PH"],
     },
     {
       topic: "tourist in pakistan",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 8715,
-      topCountries: ["PK", "AE", "SA", "ID", "PH"],
-    },
-    {
-      topic: "immersive ways to explore night city",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "MX", "CA", "AU", "RU"],
+      videoNum: 8716,
+      topCountries: ["PK", "ID", "AE", "MY", "SA"],
     },
   ],
   methodologyNote:

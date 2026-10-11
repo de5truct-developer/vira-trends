@@ -14,10 +14,10 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
-  windowStart: "2026-08-10",
+  computedAt: "2026-10-10T09:55:35Z",
+  windowStart: "2026-08-08",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "squishy haul 1000000000000000000000",
@@ -80,14 +80,14 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MY", "ID", "AU"],
+      topCountries: ["PH", "MY", "ID", "SG"],
     },
     {
-      topic: "MysteryBlindBoxes",
-      growthMultiplier: 3,
+      topic: "butter for butter squishy",
+      growthMultiplier: 4,
       trust: "high",
-      videoNum: 895,
-      topCountries: ["MX", "BR", "ID", "PH"],
+      videoNum: 824,
+      topCountries: ["PH", "ID", "MX", "CA"],
     },
   ],
   methodologyNote:

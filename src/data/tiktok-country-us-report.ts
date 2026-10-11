@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const usCountryReport: TikTokCountryReport = {
   country: "United States",
   countryCode: "US",
-  computedAt: "2026-10-09T04:35:33Z",
-  windowStart: "2026-08-08",
+  computedAt: "2026-10-10T09:55:35Z",
+  windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "police officer the final part 3 review car",
@@ -21,17 +21,8 @@ export const usCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 4142,
-      topCountries: ["US", "AU", "PH", "CA", "KE"],
-    },
-    {
-      topic: "putting ai in middle of movie",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 441,
-      topCountries: ["US", "NG", "SG", "PH", "DE"],
+      videoNum: 1120,
+      topCountries: ["US", "AU", "PK", "CA", "PH"],
     },
     {
       topic: "portrait reveal made for a viral review",
@@ -95,6 +86,15 @@ export const usCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 16182,
       topCountries: ["US", "PK", "EG", "BD", "PH"],
+    },
+    {
+      topic: "modern homes built for entertaining",
+      category: "Household",
+      subcategory: "House Decoration",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 541,
+      topCountries: ["US", "GB", "CA", "PH", "DE"],
     },
     {
       topic: "smart door solutions for pet owners",

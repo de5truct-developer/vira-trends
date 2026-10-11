@@ -14,16 +14,16 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-09T04:35:33Z",
+  computedAt: "2026-10-10T09:55:35Z",
   windowStart: "2026-08-10",
   windowEnd: "2026-09-20",
-  updatedAt: "2026-10-10",
+  updatedAt: "2026-10-11",
   topics: [
     {
       topic: "partnership paid",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 3834,
+      videoNum: 3733,
       topCountries: ["ID", "BR", "MX", "CO"],
     },
     {
@@ -69,13 +69,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "ID", "MX", "ES", "US"],
     },
     {
-      topic: "concentrix typing test passing score",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "EG", "ZA", "SA"],
-    },
-    {
       topic: "reschedule interview",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +81,13 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 3781,
       topCountries: ["IT", "MM", "ZA", "CD", "GB"],
+    },
+    {
+      topic: "how agencies help creators grow",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TL", "MY", "TW", "SA"],
     },
   ],
   methodologyNote:
