@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "uber xl jaydes",
@@ -41,20 +41,6 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "PH", "GB", "MY"],
     },
     {
-      topic: "japanese u turn running",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 862,
-      topCountries: ["US", "MY", "GB", "CA", "AU"],
-    },
-    {
-      topic: "subway seat dispute resolution",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ZA", "CA", "JM"],
-    },
-    {
       topic: "hair dye prices and processing time",
       growthMultiplier: 2,
       trust: "high",
@@ -67,6 +53,13 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 459,
       topCountries: ["PH", "SA", "CA", "GB", "ID"],
+    },
+    {
+      topic: "japanese u turn running",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 862,
+      topCountries: ["US", "MY", "GB", "CA", "AU"],
     },
     {
       topic: "drivers license bridge",
@@ -88,6 +81,13 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 901,
       topCountries: ["GB", "DE", "US", "AE", "ES"],
+    },
+    {
+      topic: "england park the bus",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1681,
+      topCountries: ["ID", "MY", "PH", "ZA", "VN"],
     },
   ],
   methodologyNote:

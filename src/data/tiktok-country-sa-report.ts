@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "jumma mubarak best status 2026",
@@ -23,6 +23,15 @@ export const saCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 82574,
       topCountries: ["PK", "NG", "AE", "SA"],
+    },
+    {
+      topic: "its october again",
+      category: "TikTok's Featured Content",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 35,
+      trust: "high",
+      videoNum: 999,
+      topCountries: ["EG", "PH", "ID", "SA", "MY"],
     },
     {
       topic: "اللهم صلي على محمد وعلى آل محمد مطعم",
@@ -77,15 +86,6 @@ export const saCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 217,
       topCountries: ["SA", "ZA", "CA", "AL", "AU"],
-    },
-    {
-      topic: "buckwheat recipes",
-      category: "Gourmet",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 457,
-      topCountries: ["US", "CA", "AU", "AE", "SA"],
     },
     {
       topic: "فرص شغل مناسبة للمبتدئين",

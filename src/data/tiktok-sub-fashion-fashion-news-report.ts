@@ -14,10 +14,10 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "princess diana swimsuit",
@@ -48,13 +48,6 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "TR", "AE", "GE", "CA"],
     },
     {
-      topic: "loreal michael b jordan",
-      growthMultiplier: 57,
-      trust: "high",
-      videoNum: 19609,
-      topCountries: ["US", "CA", "PH", "BR", "AU"],
-    },
-    {
       topic: "jaden smith fashion and style",
       growthMultiplier: 30,
       trust: "high",
@@ -66,7 +59,7 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 18,
       trust: "high",
       videoNum: 417,
-      topCountries: ["AU", "GB", "PH", "CA", "DE"],
+      topCountries: ["AU", "DE", "PH", "GB", "CA"],
     },
     {
       topic: "ted clive sailor suit",
@@ -88,6 +81,13 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "FR", "MX"],
+    },
+    {
+      topic: "ronaldo 2000 outfits",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 276,
+      topCountries: ["GB", "DE", "PH", "PT", "PL"],
     },
   ],
   methodologyNote:

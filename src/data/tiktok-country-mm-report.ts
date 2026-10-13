@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "Creator Insights Tips Guide",

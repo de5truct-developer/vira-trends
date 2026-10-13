@@ -14,18 +14,11 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "visiting friends at work",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 368,
-      topCountries: ["PH", "CA", "AU", "GB", "ID"],
-    },
     {
       topic: "jm bacacao customer complaint",
       growthMultiplier: 4,
@@ -41,11 +34,11 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "VE", "GT", "DO"],
     },
     {
-      topic: "my coworker file a complaint with hr",
+      topic: "visiting friends at work",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US"],
+      videoNum: 368,
+      topCountries: ["PH", "CA", "AU", "GB", "ID"],
     },
     {
       topic: "funny work moments",
@@ -62,6 +55,13 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "PK", "AU", "ZA", "EG"],
     },
     {
+      topic: "my coworker file a complaint with hr",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US"],
+    },
+    {
       topic: "Closing",
       growthMultiplier: 2,
       trust: "high",
@@ -76,24 +76,24 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "ID", "BR", "PH", "MX"],
     },
     {
+      topic: "Performance review for serious players",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "MX", "VE"],
+    },
+    {
       topic: "pocket essentials for work or class",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["TH", "PH", "PL", "FR", "VN"],
     },
-    {
-      topic: "Employee",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1006,
-      topCountries: ["MM", "PH", "AU", "TH", "CA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "visiting friends at work",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "jm bacacao customer complaint",
+    audience: "female 25-34, Philippines (dominant segment, snapshot at collection date)",
   },
 };

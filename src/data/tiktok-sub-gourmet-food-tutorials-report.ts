@@ -14,18 +14,11 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "condiments sauces and seasonings",
-      growthMultiplier: 92,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "SE", "NL"],
-    },
     {
       topic: "gumbo roux",
       growthMultiplier: 71,
@@ -41,11 +34,11 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "DE", "CM", "SL", "GB"],
     },
     {
-      topic: "duck meat recipes",
-      growthMultiplier: 54,
+      topic: "condiments sauces and seasonings",
+      growthMultiplier: 51,
       trust: "high",
-      videoNum: 358,
-      topCountries: ["ID", "VN", "SA", "NG"],
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "SE", "NL"],
     },
     {
       topic: "tajine morocco",
@@ -60,6 +53,13 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 597,
       topCountries: ["ID", "MX", "US", "VN", "BD"],
+    },
+    {
+      topic: "duck meat recipes",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: 358,
+      topCountries: ["ID", "VN", "SA", "NG"],
     },
     {
       topic: "3 minute meat vegan",
@@ -93,7 +93,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "condiments sauces and seasonings",
+    topic: "gumbo roux",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

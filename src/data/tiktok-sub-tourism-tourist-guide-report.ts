@@ -14,10 +14,10 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "part 2family friendly attractions in paris 2",
@@ -46,13 +46,6 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["EG", "ET", "SA", "IQ"],
-    },
-    {
-      topic: "saudi arabia vacation",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 5158,
-      topCountries: ["SA", "ZA", "GY", "NG", "CA"],
     },
     {
       topic: "family getaway with kids",
@@ -88,6 +81,13 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 674,
       topCountries: ["PK", "ZA", "GB", "GH"],
+    },
+    {
+      topic: "explore saudi arabia",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1133,
+      topCountries: ["SA", "IQ", "PK", "ID"],
     },
   ],
   methodologyNote:

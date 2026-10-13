@@ -14,25 +14,11 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "my parents excluded me on family vacation reddit",
-      growthMultiplier: 68,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "ZA", "CA"],
-    },
-    {
-      topic: "i was counting my drawer at the end of my shift",
-      growthMultiplier: 58,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
-    },
     {
       topic: "parents helping with homework",
       growthMultiplier: 9,
@@ -48,18 +34,18 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["US", "PH", "BR", "MX", "ID"],
     },
     {
+      topic: "my parents excluded me on family vacation reddit",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "ZA", "CA"],
+    },
+    {
       topic: "consequences of your actions",
-      growthMultiplier: 7,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: 563,
       topCountries: ["PH", "ZA", "ID", "MY", "CA"],
-    },
-    {
-      topic: "the stepmoms side of the story",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
     {
       topic: "friday mood vibes for status",
@@ -76,6 +62,13 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["US", "NG"],
     },
     {
+      topic: "i was counting my drawer at the end of my shift",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "ZA", "AU"],
+    },
+    {
       topic: "once you go through your worst times alone",
       growthMultiplier: 3,
       trust: "high",
@@ -89,11 +82,18 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       videoNum: 4054,
       topCountries: ["PK", "PH", "ZA", "NG", "BD"],
     },
+    {
+      topic: "ending when life gives you tangerines",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "MY", "NG"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "my parents excluded me on family vacation reddit",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "parents helping with homework",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

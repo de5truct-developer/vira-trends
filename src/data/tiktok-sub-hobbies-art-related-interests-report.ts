@@ -14,18 +14,11 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "teal and turquoise",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 445,
-      topCountries: ["US", "GB", "PH", "CA", "ID"],
-    },
     {
       topic: "Text art",
       growthMultiplier: 11,
@@ -62,18 +55,18 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "MY", "AU", "ID"],
     },
     {
-      topic: "drawing people in public",
+      topic: "wild drawings hand",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 535,
-      topCountries: ["PH", "ID", "MY", "CA", "TH"],
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "ZA"],
     },
     {
       topic: "art history",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1197,
-      topCountries: ["BR", "ID", "PH", "TR", "CA"],
+      topCountries: ["BR", "ID", "PH", "IT", "TR"],
     },
     {
       topic: "drew together",
@@ -83,17 +76,24 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "TR", "SA", "VE", "EG"],
     },
     {
-      topic: "Art Progress",
+      topic: "how to draw a playground",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 23763,
-      topCountries: ["PH", "CA", "RU", "NG"],
+      videoNum: 100,
+      topCountries: ["PH", "ZA", "MY", "ID"],
+    },
+    {
+      topic: "2026 world cup trophy inspired art",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 2390,
+      topCountries: ["ID", "US", "BD", "TH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "teal and turquoise",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Text art",
+    audience: "unknown 25-34, Bangladesh (dominant segment, snapshot at collection date)",
   },
 };

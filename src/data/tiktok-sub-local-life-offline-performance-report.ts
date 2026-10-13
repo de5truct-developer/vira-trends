@@ -14,10 +14,10 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "Bigbang XX Cosmos Jakarta Concert Expansion",
@@ -27,13 +27,6 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "YE", "ET", "BD"],
     },
     {
-      topic: "becky g sofi stadium",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "MX", "BR", "PE", "CO"],
-    },
-    {
       topic: "bunny concert mandalay",
       growthMultiplier: 11,
       trust: "high",
@@ -41,18 +34,11 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "JP", "TH", "SG"],
     },
     {
-      topic: "coachella 2027 lineup announcement",
+      topic: "Sebastian Telfair",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "AU", "GB", "MX"],
-    },
-    {
-      topic: "4dx cinema experience real",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 269,
-      topCountries: ["ID", "PH", "MY", "PK", "NG"],
+      videoNum: 410,
+      topCountries: ["CA", "AU", "ZA", "NZ", "PH"],
     },
     {
       topic: "24 hour music festival",
@@ -62,18 +48,18 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "AU", "UA", "BR"],
     },
     {
-      topic: "bts tour 2026 locations",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1137,
-      topCountries: ["MY", "KH", "IQ", "PH", "KZ"],
-    },
-    {
       topic: "stage rocking",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 241,
       topCountries: ["VN", "ID", "NG", "TH"],
+    },
+    {
+      topic: "bts tour 2026 locations",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1137,
+      topCountries: ["MY", "KH", "IQ", "PH", "KZ"],
     },
     {
       topic: "all points east festival",
@@ -88,6 +74,20 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 3051,
       topCountries: ["US", "BR", "DE", "ID", "FR"],
+    },
+    {
+      topic: "jimmy fallon tickets",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 422,
+      topCountries: ["MX", "PH", "SA", "AU", "CA"],
+    },
+    {
+      topic: "estereo picnic 2026",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CO", "EC", "PE", "PA", "DO"],
     },
   ],
   methodologyNote:

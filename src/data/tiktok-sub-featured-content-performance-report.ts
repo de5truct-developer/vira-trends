@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "most funny pranks of all time",
@@ -25,13 +25,6 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1056,
       topCountries: ["ZA", "KE", "PK", "ET", "NG"],
-    },
-    {
-      topic: "madison and chris loyalty test final part",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AE", "PH", "TN", "NI"],
     },
     {
       topic: "tiktok jokes that are funny",
@@ -53,6 +46,13 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 31790,
       topCountries: ["NG", "SN", "BR", "ID"],
+    },
+    {
+      topic: "madison and chris loyalty test final part",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AE", "PH", "TN", "NI"],
     },
     {
       topic: "#Funny",

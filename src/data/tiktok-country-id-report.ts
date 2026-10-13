@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const idCountryReport: TikTokCountryReport = {
   country: "Indonesia",
   countryCode: "ID",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "all new species found in 2026",
@@ -34,6 +34,15 @@ export const idCountryReport: TikTokCountryReport = {
       topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
+      topic: "eddie vs toby's dad review",
+      category: "Entertainment",
+      subcategory: "Films and TVs",
+      growthMultiplier: 93,
+      trust: "high",
+      videoNum: 771,
+      topCountries: ["US", "PH", "GB", "ID", "CA"],
+    },
+    {
       topic: "princess diana swimsuit",
       category: "Fashion",
       subcategory: "Fashion News",
@@ -41,15 +50,6 @@ export const idCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 241,
       topCountries: ["US", "PH", "GB", "ID", "MY"],
-    },
-    {
-      topic: "butter squishy peti ais original",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Toys",
-      growthMultiplier: 87,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "EG", "BN"],
     },
     {
       topic: "sienna spiro vmas",

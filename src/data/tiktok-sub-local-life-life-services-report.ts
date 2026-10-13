@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "ray g house mansion",
@@ -41,18 +41,18 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "EC", "CO", "PE", "VE"],
     },
     {
-      topic: "birthday salon glow-up vlog",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "FR", "ZA"],
-    },
-    {
       topic: "malicka grai residence",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["CI", "BF", "TG", "ML"],
+    },
+    {
+      topic: "birthday salon glow-up vlog",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "FR", "ZA"],
     },
     {
       topic: "توصيل هدايا في الرياض",
@@ -73,14 +73,14 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1048,
-      topCountries: ["BD", "ID", "MM", "PK"],
+      topCountries: ["ID", "BD", "MM", "PK"],
     },
     {
       topic: "small salon ideas",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 889,
-      topCountries: ["ZA", "KE", "GH", "NG", "LK"],
+      topCountries: ["ZA", "KE", "GH", "NG", "TZ"],
     },
     {
       topic: "Salon day",

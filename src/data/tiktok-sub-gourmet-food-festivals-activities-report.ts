@@ -14,10 +14,10 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "ranking party platter bites and dips",
@@ -38,7 +38,7 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "MM", "MY", "PH", "TH"],
+      topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
     {
       topic: "food challenge with extra hot flavors",
@@ -55,21 +55,14 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "PH", "BR", "MX", "JP"],
     },
     {
-      topic: "fun food challenge with weird fillings",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "AU", "NZ"],
-    },
-    {
-      topic: "rating viral foods that sound wrong",
+      topic: "funny taste test of viral red foods",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "VN", "PH", "US", "MY"],
     },
     {
-      topic: "funny taste test of viral red foods",
+      topic: "rating viral foods that sound wrong",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
@@ -81,6 +74,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "VN", "PH", "US", "MY"],
+    },
+    {
+      topic: "local food and farming in the countryside",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
       topic: "family taste test with wild flavors",

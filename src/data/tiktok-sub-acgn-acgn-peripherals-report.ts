@@ -14,11 +14,18 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "cosplay characters",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 13094,
+      topCountries: ["ID", "PH", "BR", "TH"],
+    },
     {
       topic: "voxalike",
       growthMultiplier: 1,
@@ -41,13 +48,6 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "TH"],
     },
     {
-      topic: "cosplay characters",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 13094,
-      topCountries: ["ID", "PH", "BR", "TH"],
-    },
-    {
       topic: "avery gundam",
       growthMultiplier: 1,
       trust: "high",
@@ -65,7 +65,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "voxalike",
-    audience: "female 18-24, Russia (dominant segment, snapshot at collection date)",
+    topic: "cosplay characters",
+    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
   },
 };

@@ -10,16 +10,16 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const caCountryReport: TikTokCountryReport = {
   country: "Canada",
   countryCode: "CA",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "eddie vs toby's dad review",
       category: "Entertainment",
       subcategory: "Films and TVs",
-      growthMultiplier: 143,
+      growthMultiplier: 248,
       trust: "high",
       videoNum: 771,
       topCountries: ["US", "PH", "GB", "ID", "CA"],
@@ -28,7 +28,7 @@ export const caCountryReport: TikTokCountryReport = {
       topic: "coraline mom neck brace",
       category: "ACGN",
       subcategory: "Animation and Comics",
-      growthMultiplier: 94,
+      growthMultiplier: 126,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "AU", "DE"],

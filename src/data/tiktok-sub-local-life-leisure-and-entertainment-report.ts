@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "zombie club atlanta georgia",
@@ -34,13 +34,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["CA", "GB", "AU", "PL", "NL"],
     },
     {
-      topic: "bama rush sorority",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 1178,
-      topCountries: ["US", "PH", "CA", "AU", "GB"],
-    },
-    {
       topic: "skipper now",
       growthMultiplier: 9,
       trust: "high",
@@ -48,11 +41,18 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "MX", "CA", "BR", "PH"],
     },
     {
-      topic: "beach party events and celebrations",
+      topic: "bama rush sorority",
       growthMultiplier: 7,
       trust: "high",
+      videoNum: 1178,
+      topCountries: ["US", "PH", "CA", "AU", "GB"],
+    },
+    {
+      topic: "center parks",
+      growthMultiplier: 6,
+      trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU"],
+      topCountries: ["US", "GB", "BR", "DE", "MY"],
     },
     {
       topic: "drake bar alone",
@@ -66,7 +66,7 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 4,
       trust: "high",
       videoNum: 1111,
-      topCountries: ["MM", "ZA", "ID", "LK", "NG"],
+      topCountries: ["MM", "ZA", "LK", "ID", "NG"],
     },
     {
       topic: "kid rock house",
@@ -76,18 +76,18 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["GB", "CA", "DE", "AU", "NO"],
     },
     {
+      topic: "big spender hong kong",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "PH", "ZA", "ID", "GB"],
+    },
+    {
       topic: "president obama center",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "KE", "NG", "DO", "BE"],
-    },
-    {
-      topic: "jax the amazing digital circus",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1196,
-      topCountries: ["ID", "MX", "VN", "CA", "PH"],
+      topCountries: ["US", "KE", "DO", "NG", "BE"],
     },
   ],
   methodologyNote:

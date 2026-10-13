@@ -14,10 +14,10 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "how dredging ships move sand fast",
@@ -69,18 +69,18 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
-      topic: "nikola tesla aura farming",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 172,
-      topCountries: ["PH", "ID", "CA", "MY", "ZA"],
-    },
-    {
       topic: "sand dredging",
       growthMultiplier: 0,
       trust: "high",
       videoNum: 658,
       topCountries: ["ZA", "PH", "AU", "CA", "MY"],
+    },
+    {
+      topic: "nikola tesla aura farming",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 172,
+      topCountries: ["PH", "ID", "CA", "MY", "ZA"],
     },
     {
       topic: "still water vs normal water",

@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "when is national boyfriend day",
@@ -73,14 +73,14 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       growthMultiplier: 2,
       trust: "high",
       videoNum: 755,
-      topCountries: ["PH", "MY", "AU", "ZA", "CA"],
+      topCountries: ["PH", "MY", "ZA", "AU", "CA"],
     },
     {
-      topic: "u look just like your dad",
-      growthMultiplier: 2,
+      topic: "impact of infidelity on relationships",
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["RS", "ZA", "CA", "SA", "AU"],
+      topCountries: ["ID", "PK", "IQ", "SA", "MX"],
     },
     {
       topic: "hugs like this",

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-10-13T05:43:47Z",
+  windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "labadi beach before and after",
@@ -30,6 +30,14 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "MY", "PH", "NG", "SG"],
+    },
+    {
+      topic: "portuguese man o war beach",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 1086,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "KH", "TJ", "BD"],
     },
     {
       topic: "part 2family friendly attractions in paris 2",
@@ -64,22 +72,6 @@ export const tourismReport: TikTokReport = {
       topCountries: ["PH", "AU", "AE", "CA"],
     },
     {
-      topic: "jimmy fallon ride universal",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: 318,
-      topCountries: ["US", "GB", "MX", "BR", "CA"],
-    },
-    {
-      topic: "ruby falls tennessee",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 659,
-      topCountries: ["US", "MX", "CA", "GT", "ID"],
-    },
-    {
       topic: "the empire state building",
       subcategory: "Tourism Sites",
       growthMultiplier: 19,
@@ -93,7 +85,15 @@ export const tourismReport: TikTokReport = {
       growthMultiplier: 17,
       trust: "high",
       videoNum: 730,
-      topCountries: ["US", "GB", "DE", "PH", "FR"],
+      topCountries: ["US", "IT", "GB", "DE", "PH"],
+    },
+    {
+      topic: "st cuthberts heritage",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GY", "SR", "TT", "KE"],
     },
   ],
   methodologyNote:

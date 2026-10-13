@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "School supply prep without stress",
@@ -34,18 +34,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "CA", "NG"],
     },
     {
-      topic: "what to put in pencil case",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 696,
-      topCountries: ["PH", "CA", "MY", "AE", "AU"],
-    },
-    {
       topic: "school must haves",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 949,
-      topCountries: ["DE", "AT", "CA", "PH", "AE"],
+      topCountries: ["DE", "AT", "PH", "CA", "AE"],
     },
     {
       topic: "back to school haul 2026",
@@ -62,11 +55,25 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "VN", "MY", "PK"],
     },
     {
+      topic: "Cute and useful stationery finds",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "CA", "SA", "MX", "BR"],
+    },
+    {
       topic: "Back-to-school list on a budget",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "PH", "GB", "EG"],
+    },
+    {
+      topic: "what to put in pencil case",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 696,
+      topCountries: ["PH", "CA", "MY", "AE", "AU"],
     },
     {
       topic: "organizing school bag",
@@ -76,18 +83,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "ID", "MX", "SA"],
     },
     {
-      topic: "Cute and useful stationery finds",
+      topic: "أشياء أساسية للعودة إلى المدرسة",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "CA", "SA", "MX", "BR"],
-    },
-    {
-      topic: "essentials for school",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1039,
-      topCountries: ["PH", "GB", "MX", "CA", "ID"],
+      topCountries: ["SA", "IQ", "IL", "KW"],
     },
   ],
   methodologyNote:

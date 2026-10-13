@@ -14,10 +14,10 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "syd colson and aja wilson",
@@ -32,13 +32,6 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "GH", "ZA", "CM", "KE"],
-    },
-    {
-      topic: "carter efe vs speed darlington",
-      growthMultiplier: 1199,
-      trust: "high",
-      videoNum: 140,
-      topCountries: ["NG", "GH", "US", "GB"],
     },
     {
       topic: "wang cong vs natalia silva",
@@ -69,25 +62,32 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MY", "ZA", "CA"],
     },
     {
-      topic: "messi's retirement",
-      growthMultiplier: 265,
-      trust: "high",
-      videoNum: 10623,
-      topCountries: ["US", "DE", "GB", "NL", "PL"],
-    },
-    {
-      topic: "aaron rodgers crashing out",
-      growthMultiplier: 246,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "MX", "NZ"],
-    },
-    {
       topic: "brock faber injury",
       growthMultiplier: 207,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "FI", "AU"],
+    },
+    {
+      topic: "portugal vs norway highlights",
+      growthMultiplier: 176,
+      trust: "high",
+      videoNum: 695,
+      topCountries: ["NG", "ID", "ZA", "KE", "ET"],
+    },
+    {
+      topic: "india vs west indies today",
+      growthMultiplier: 174,
+      trust: "high",
+      videoNum: 822,
+      topCountries: ["PK", "NP", "AE", "BD"],
+    },
+    {
+      topic: "messi's retirement",
+      growthMultiplier: 172,
+      trust: "high",
+      videoNum: 10623,
+      topCountries: ["US", "DE", "GB", "NL", "PL"],
     },
   ],
   methodologyNote:

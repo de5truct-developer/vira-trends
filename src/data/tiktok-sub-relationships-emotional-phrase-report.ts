@@ -14,10 +14,10 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "كلام تعبر عن مشاعرك",
@@ -32,13 +32,6 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1044,
       topCountries: ["NG", "ZA", "PH", "GH", "ID"],
-    },
-    {
-      topic: "living for yourself",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "PH", "AU", "CA", "NG"],
     },
     {
       topic: "i love you beyond words",
@@ -88,6 +81,13 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 961,
       topCountries: ["NG", "MM", "NP", "BD", "PH"],
+    },
+    {
+      topic: "relationship motivation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 2967,
+      topCountries: ["ZA", "NG", "PH", "UG"],
     },
   ],
   methodologyNote:

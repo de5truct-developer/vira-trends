@@ -14,10 +14,10 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "how to see stereograms",
@@ -41,18 +41,18 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["PH", "ZA", "MY", "NG"],
     },
     {
-      topic: "earth losing gravity 7 seconds",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "CA", "DE"],
-    },
-    {
       topic: "The moon?",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1129,
       topCountries: ["MX", "CA", "BR", "PH", "AU"],
+    },
+    {
+      topic: "sun real footage",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MM", "GB", "ZA"],
     },
     {
       topic: "saturn's rings",
@@ -62,11 +62,11 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["PH", "MX", "KH", "AU", "ID"],
     },
     {
-      topic: "sun real footage",
+      topic: "the new earth photo",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "MM", "GB", "ZA"],
+      topCountries: ["US", "NG", "ZA", "PH", "GH"],
     },
     {
       topic: "bubble nebula sound",

@@ -14,10 +14,10 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "what is aspic",
@@ -27,13 +27,6 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["GB", "CA", "SG", "PH", "AU"],
     },
     {
-      topic: "what is sorghum",
-      growthMultiplier: 38,
-      trust: "high",
-      videoNum: 503,
-      topCountries: ["US", "GH", "ZA", "KE"],
-    },
-    {
       topic: "baby snapper",
       growthMultiplier: 12,
       trust: "high",
@@ -41,8 +34,15 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "PH", "DE", "CA", "AU"],
     },
     {
+      topic: "Crayfish",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 1630,
+      topCountries: ["US", "PH", "GB", "NG", "KE"],
+    },
+    {
       topic: "fake honey vs real honey",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 800,
       topCountries: ["PH", "KE", "CA", "AU"],
@@ -52,14 +52,14 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["AU", "PH", "NG", "NZ", "CV"],
+      topCountries: ["AU", "PH", "NG", "CV"],
     },
     {
-      topic: "Crayfish",
+      topic: "Stel an egg",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1630,
-      topCountries: ["US", "PH", "GB", "NG", "KE"],
+      videoNum: 644,
+      topCountries: ["ID", "PH", "IQ", "VN"],
     },
     {
       topic: "java plum",
@@ -83,11 +83,11 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "CA", "GB", "DE", "SE"],
     },
     {
-      topic: "Stel an egg",
+      topic: "MeatRabbits",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 644,
-      topCountries: ["ID", "PH", "IQ", "VN"],
+      videoNum: 441,
+      topCountries: ["CA", "AU", "ZA", "ID", "PH"],
     },
   ],
   methodologyNote:

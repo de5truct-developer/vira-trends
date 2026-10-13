@@ -14,10 +14,10 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "1990s dance styles and tutorials",
@@ -48,13 +48,6 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["ET", "SA", "ZA", "KE", "AE"],
     },
     {
-      topic: "kompa with a woman",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 537,
-      topCountries: ["ZA", "UG", "KE", "SO"],
-    },
-    {
       topic: "أجمل لحظات الدبكة في الأعراس",
       growthMultiplier: 2,
       trust: "high",
@@ -69,13 +62,6 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "SA", "EG", "DZ"],
     },
     {
-      topic: "wedding dance choreography",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 865,
-      topCountries: ["ID", "PH", "MY", "TR"],
-    },
-    {
       topic: "Algerian dance",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +74,20 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 421,
       topCountries: ["AZ", "IQ", "GE", "SA", "TR"],
+    },
+    {
+      topic: "gospel dances",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1410,
+      topCountries: ["KE", "GH", "UG", "NG"],
+    },
+    {
+      topic: "waltzing matilda",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 457,
+      topCountries: ["AU", "PH", "ID", "CA", "NZ"],
     },
   ],
   methodologyNote:

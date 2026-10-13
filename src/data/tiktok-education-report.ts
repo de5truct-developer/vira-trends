@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "cornell university kk",
@@ -56,14 +56,6 @@ export const educationReport: TikTokReport = {
       topCountries: ["PH", "ZA", "DE", "MY", "CA"],
     },
     {
-      topic: "6 pm to 1 am school",
-      subcategory: "Campus Life",
-      growthMultiplier: 60,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "ID", "MY"],
-    },
-    {
       topic: "study motivation for girls",
       subcategory: "Education - Others",
       growthMultiplier: 53,
@@ -72,12 +64,12 @@ export const educationReport: TikTokReport = {
       topCountries: ["LK", "PK", "BD", "ZA"],
     },
     {
-      topic: "graduation video ideas",
+      topic: "6 pm to 1 am school",
       subcategory: "Campus Life",
-      growthMultiplier: 26,
+      growthMultiplier: 39,
       trust: "high",
-      videoNum: 670,
-      topCountries: ["MY", "EG", "DZ", "IL"],
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "ID", "MY"],
     },
     {
       topic: "funny ways to remember japanese vocab",
@@ -94,6 +86,14 @@ export const educationReport: TikTokReport = {
       trust: "high",
       videoNum: 12671,
       topCountries: ["US", "GB", "NG", "ZA", "PH"],
+    },
+    {
+      topic: "mosaic down synonym",
+      subcategory: "Language Learning",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "BR", "SE", "PH"],
     },
   ],
   methodologyNote:

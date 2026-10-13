@@ -14,10 +14,10 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "wildlife photography tips on safari",
@@ -41,13 +41,6 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PH", "ID", "BR", "PE"],
     },
     {
-      topic: "moon pose",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 1174,
-      topCountries: ["FR", "CA", "PH", "AU", "BR"],
-    },
-    {
       topic: "behind the scenes video editing",
       growthMultiplier: 7,
       trust: "high",
@@ -69,6 +62,20 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ET", "NG", "KZ", "SA", "UG"],
     },
     {
+      topic: "photographing stars at big matches",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BR", "MX", "VN", "FR", "ID"],
+    },
+    {
+      topic: "how to film a fun market day vlog",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 188,
+      topCountries: ["CA", "MX", "IL", "BR", "AU"],
+    },
+    {
       topic: "selfielight",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 889,
       topCountries: ["PH", "MM", "ID", "ZA", "MY"],
-    },
-    {
-      topic: "photographing stars at big matches",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "MX", "VN", "FR", "ID"],
     },
   ],
   methodologyNote:

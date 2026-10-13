@@ -14,11 +14,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "beef tallow benefits",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 767,
+      topCountries: ["GB", "PH", "AU", "ZA", "KE"],
+    },
     {
       topic: "turmeric drink benefits",
       growthMultiplier: 2,
@@ -34,11 +41,11 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "KE", "ZA", "PK", "NG"],
     },
     {
-      topic: "beef tallow benefits",
+      topic: "regulating spilled coffee",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 767,
-      topCountries: ["GB", "PH", "AU", "ZA", "KE"],
+      videoNum: null,
+      topCountries: ["US", "RS", "CA", "AU", "TR"],
     },
     {
       topic: "gold grams vs ounces explained",
@@ -69,13 +76,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "AU", "ZA"],
     },
     {
-      topic: "regulating spilled coffee",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "RS", "CA", "AU", "TR"],
-    },
-    {
       topic: "molasses benefits",
       growthMultiplier: 1,
       trust: "high",
@@ -93,7 +93,7 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "turmeric drink benefits",
-    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
+    topic: "beef tallow benefits",
+    audience: "female 25-34, Australia (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,18 +14,11 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "day in my life vlog template",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 22014,
-      topCountries: ["ID", "ZA", "PK", "NG"],
-    },
     {
       topic: "life in miami",
       growthMultiplier: 4,
@@ -39,6 +32,13 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1232,
       topCountries: ["MM", "ZA", "ET", "ID"],
+    },
+    {
+      topic: "day in my life vlog template",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 22014,
+      topCountries: ["ID", "ZA", "PK", "NG"],
     },
     {
       topic: "day in my life in korea",
@@ -55,13 +55,6 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "PH", "ZA", "ID", "SG"],
     },
     {
-      topic: "hawaii is underwater",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 4057,
-      topCountries: ["GB", "US", "PH", "CA"],
-    },
-    {
       topic: "week in my life vlog",
       growthMultiplier: 2,
       trust: "high",
@@ -73,7 +66,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 906,
-      topCountries: ["US", "GB", "AU", "CA", "PH"],
+      topCountries: ["US", "GB", "AU", "CA", "PK"],
     },
     {
       topic: "family vlog ideas",
@@ -89,11 +82,18 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       videoNum: 4895,
       topCountries: ["ID", "MY", "PK", "MX"],
     },
+    {
+      topic: "study abroad daily vlog ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 5969,
+      topCountries: ["BR", "AO", "PY", "MZ", "UY"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "day in my life vlog template",
-    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
+    topic: "life in miami",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

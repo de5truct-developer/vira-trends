@@ -14,10 +14,10 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "best job doctor",
@@ -25,13 +25,6 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "CO", "AR", "EC"],
-    },
-    {
-      topic: "work from home jobs hiring now",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 8814,
-      topCountries: ["PH", "NG", "ZA", "JM"],
     },
     {
       topic: "jobs that allow you to travel",
@@ -48,25 +41,18 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "CA", "AU", "PH", "NZ"],
     },
     {
-      topic: "RemoteWorker",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 862,
-      topCountries: ["BR", "ID", "NG", "MX", "ZA"],
-    },
-    {
-      topic: "marshall munetsi salary per week",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZW", "ZA", "BW", "CN"],
-    },
-    {
       topic: "Freelancing",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1721,
       topCountries: ["PH", "BD", "PK", "NG", "ZA"],
+    },
+    {
+      topic: "Jobs near me",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1106,
+      topCountries: ["ZA", "CA", "GH", "AU", "NG"],
     },
     {
       topic: "أخطاء التسويق للخدمات على الإنترنت",
@@ -88,6 +74,20 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NG", "GB", "PK"],
+    },
+    {
+      topic: "PartTimeJob",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 837,
+      topCountries: ["MY", "NP", "MM", "ID", "KH"],
+    },
+    {
+      topic: "basic accounting",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 900,
+      topCountries: ["PH", "MY", "ID", "KH", "MM"],
     },
   ],
   methodologyNote:

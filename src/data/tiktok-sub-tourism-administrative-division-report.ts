@@ -14,17 +14,17 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "copenhagen height",
       growthMultiplier: 17,
       trust: "high",
       videoNum: 730,
-      topCountries: ["US", "GB", "DE", "PH", "FR"],
+      topCountries: ["US", "IT", "GB", "DE", "PH"],
     },
     {
       topic: "the Maldives",
@@ -39,6 +39,13 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1149,
       topCountries: ["ID", "BD", "MY", "SA"],
+    },
+    {
+      topic: "billings in montana",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 534,
+      topCountries: ["CA", "PH", "NG", "JM", "MX"],
     },
     {
       topic: "Castle Rock",
@@ -62,6 +69,13 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "PH", "ID", "RU"],
     },
     {
+      topic: "jake lang minneapolis city",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 453,
+      topCountries: ["US", "ID", "SO", "MY", "KE"],
+    },
+    {
       topic: "CLEVELAND",
       growthMultiplier: 3,
       trust: "high",
@@ -74,20 +88,6 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 7647,
       topCountries: ["SA", "EG", "SD", "IQ"],
-    },
-    {
-      topic: "mckinney texas",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "PH", "BR"],
-    },
-    {
-      topic: "CORNWALL ENGLAND",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 785,
-      topCountries: ["ID", "PH", "MY", "AU", "TH"],
     },
   ],
   methodologyNote:

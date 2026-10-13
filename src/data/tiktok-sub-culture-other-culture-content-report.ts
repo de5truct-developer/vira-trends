@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "karma stories",
@@ -45,7 +45,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 45264,
-      topCountries: ["PK", "PH", "NG", "MY", "ID"],
+      topCountries: ["PK", "PH", "NG", "ID", "MY"],
     },
     {
       topic: "شعر سعودي",
@@ -59,7 +59,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["SA", "ZA", "ID", "PH"],
+      topCountries: ["GB", "SA", "PH", "AE"],
     },
     {
       topic: "thai people",

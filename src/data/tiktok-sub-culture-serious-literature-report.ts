@@ -14,10 +14,10 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "the coven academy",
@@ -27,8 +27,15 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "FR", "DE", "PH"],
     },
     {
-      topic: "They call me Lord Verity",
+      topic: "is it verity alone",
       growthMultiplier: 20,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "TH"],
+    },
+    {
+      topic: "They call me Lord Verity",
+      growthMultiplier: 7,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "BR", "TH"],
@@ -48,11 +55,18 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "MY", "CA", "ID"],
     },
     {
+      topic: "fame and fakery book",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AU", "CA", "BR", "ZA", "TN"],
+    },
+    {
       topic: "lord of verity cover",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "CA", "AR", "TH"],
+      topCountries: ["ID", "TH", "CA", "AR"],
     },
     {
       topic: "staking laura",
@@ -67,20 +81,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "MY", "CA"],
-    },
-    {
-      topic: "Verity story",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 152,
-      topCountries: ["PH", "ID", "VN", "MY"],
-    },
-    {
-      topic: "mob obsessed with verity",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MX", "ID", "MY"],
     },
     {
       topic: "The Reflection You Never Faced by Emma Vale",

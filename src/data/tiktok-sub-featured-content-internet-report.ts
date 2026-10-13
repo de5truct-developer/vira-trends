@@ -14,10 +14,10 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "double helix ep 11 review",
@@ -46,6 +46,13 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 870,
       topCountries: ["PK", "BD", "ET", "EG", "PH"],
+    },
+    {
+      topic: "i wanna see the sunshine after the rain animation tutorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 3310,
+      topCountries: ["PK", "PH", "QA", "MA", "ID"],
     },
     {
       topic: "love realized too late review",
@@ -81,13 +88,6 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "MM", "NP", "BD", "PH"],
-    },
-    {
-      topic: "discover viral topics with tako",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 4242,
-      topCountries: ["PK", "BD", "LK", "MM", "NP"],
     },
   ],
   methodologyNote:

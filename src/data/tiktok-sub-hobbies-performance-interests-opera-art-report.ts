@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "mystery envelope number magic trick",
@@ -28,10 +28,17 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
     },
     {
       topic: "connor coin trick",
-      growthMultiplier: 1,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 257,
       topCountries: ["PH", "CA", "ID", "BR", "TR"],
+    },
+    {
+      topic: "jimmy woo card trick",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "MY", "AU"],
     },
     {
       topic: "خدع سهلة لخلفيات مع صوت وحركة",
@@ -46,13 +53,6 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "MY", "CA", "AU"],
-    },
-    {
-      topic: "jimmy woo card trick",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "AU"],
     },
     {
       topic: "magictok",

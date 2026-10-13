@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "what is pho",
@@ -62,6 +62,13 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MY", "ZA", "ID", "CA"],
     },
     {
+      topic: "food content creator",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 7919,
+      topCountries: ["PH", "NG", "GB", "ID", "ZA"],
+    },
+    {
       topic: "i love food so much",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 705,
       topCountries: ["MX", "CO", "GT", "VE"],
-    },
-    {
-      topic: "food content creator",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 7919,
-      topCountries: ["PH", "NG", "GB", "ID", "ZA"],
     },
   ],
   methodologyNote:

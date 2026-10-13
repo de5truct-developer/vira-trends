@@ -14,10 +14,10 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "how you introduce yourself",
@@ -34,13 +34,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "KR", "JP", "TW"],
     },
     {
-      topic: "networking tutorial",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 575,
-      topCountries: ["PH", "ZA", "MY", "ID", "KE"],
-    },
-    {
       topic: "sight insight creation tutorial",
       growthMultiplier: 3,
       trust: "high",
@@ -49,7 +42,7 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "how to join creator pilot program",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 1005,
       topCountries: ["MM", "GB", "NG", "ET", "PK"],
@@ -62,13 +55,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "NP", "BD", "LK", "AE"],
     },
     {
-      topic: "TeamLeader",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 442,
-      topCountries: ["PH", "ID", "ZA", "EG", "GB"],
-    },
-    {
       topic: "CareerAdviceAndGuidance",
       growthMultiplier: 2,
       trust: "high",
@@ -76,18 +62,32 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "SD", "SA", "TH"],
     },
     {
-      topic: "jd interview questions at jd",
+      topic: "TeamLeader",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 442,
+      topCountries: ["PH", "ID", "ZA", "EG", "GB"],
+    },
+    {
+      topic: "signs of a toxic work environment",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 651,
+      topCountries: ["PH", "ZA", "KE", "MY", "CA"],
+    },
+    {
+      topic: "networking tutorial",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 575,
-      topCountries: ["US", "ET", "AE", "MM", "AU"],
+      topCountries: ["PH", "ZA", "MY", "ID", "KE"],
     },
     {
       topic: "live activities",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 833,
-      topCountries: ["PH", "ID", "BR", "VN", "MY"],
+      topCountries: ["PH", "ID", "VN", "BR", "MY"],
     },
   ],
   methodologyNote:

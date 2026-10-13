@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "syd colson and aja wilson",
@@ -30,14 +30,6 @@ export const sportsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "GH", "ZA", "CM", "KE"],
-    },
-    {
-      topic: "carter efe vs speed darlington",
-      subcategory: "Physical Sports",
-      growthMultiplier: 1199,
-      trust: "high",
-      videoNum: 140,
-      topCountries: ["NG", "GH", "US", "GB"],
     },
     {
       topic: "all tommrows",
@@ -80,20 +72,28 @@ export const sportsReport: TikTokReport = {
       topCountries: ["PH", "MY", "ZA", "CA"],
     },
     {
-      topic: "messi\\'s retirement",
+      topic: "brock faber injury",
       subcategory: "Physical Sports",
-      growthMultiplier: 265,
-      trust: "high",
-      videoNum: 10623,
-      topCountries: ["US", "DE", "GB", "NL", "PL"],
-    },
-    {
-      topic: "aaron rodgers crashing out",
-      subcategory: "Physical Sports",
-      growthMultiplier: 246,
+      growthMultiplier: 207,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "AU", "MX", "NZ"],
+      topCountries: ["US", "CA", "GB", "FI", "AU"],
+    },
+    {
+      topic: "sydney sweeney fitness tips",
+      subcategory: "Fitness",
+      growthMultiplier: 200,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["TR", "BR", "MX", "PE"],
+    },
+    {
+      topic: "portugal vs norway highlights",
+      subcategory: "Physical Sports",
+      growthMultiplier: 176,
+      trust: "high",
+      videoNum: 695,
+      topCountries: ["NG", "ID", "ZA", "KE", "ET"],
     },
   ],
   methodologyNote:

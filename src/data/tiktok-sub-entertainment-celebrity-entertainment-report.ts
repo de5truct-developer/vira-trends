@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "patrick garcia daughter kpop",
@@ -55,13 +55,6 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["US", "CA", "ZA", "AU", "SA"],
     },
     {
-      topic: "aaron pierre and his son",
-      growthMultiplier: 451,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "CA", "JM", "AU"],
-    },
-    {
       topic: "melissa mccarthy before and now",
       growthMultiplier: 224,
       trust: "high",
@@ -76,18 +69,25 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["US", "GB", "ID", "MY", "BR"],
     },
     {
-      topic: "dolly parton and carl dean",
-      growthMultiplier: 175,
-      trust: "high",
-      videoNum: 1048,
-      topCountries: ["US", "GB", "AU", "CA", "PH"],
-    },
-    {
       topic: "trey taylor apology",
       growthMultiplier: 171,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "ZA", "KE"],
+    },
+    {
+      topic: "megan fox new look 2026",
+      growthMultiplier: 128,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "DE", "AU"],
+    },
+    {
+      topic: "dolly parton and carl dean",
+      growthMultiplier: 127,
+      trust: "high",
+      videoNum: 1048,
+      topCountries: ["US", "GB", "AU", "CA", "PH"],
     },
   ],
   methodologyNote:

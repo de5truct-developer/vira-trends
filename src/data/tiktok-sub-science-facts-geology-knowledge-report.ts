@@ -14,10 +14,10 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "how much is 1 light day",
@@ -55,13 +55,6 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "GB", "MX", "PH"],
     },
     {
-      topic: "The mountains",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 6390,
-      topCountries: ["PH", "ID", "PK", "CA", "MM"],
-    },
-    {
       topic: "how long is 1 light day",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 893,
       topCountries: ["CA", "PH", "AU", "TH", "IL"],
+    },
+    {
+      topic: "The mountains",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 6390,
+      topCountries: ["PH", "ID", "PK", "CA", "MM"],
     },
   ],
   methodologyNote:

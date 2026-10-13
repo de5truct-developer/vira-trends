@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "korea e arrival card",
@@ -48,13 +48,6 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "BR", "PK"],
     },
     {
-      topic: "key documents for visa applications",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IR", "AF", "TR", "DE"],
-    },
-    {
       topic: "saudi visa tips for umrah travel",
       growthMultiplier: 1,
       trust: "high",
@@ -67,6 +60,13 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "key documents for visa applications",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["IR", "AF", "TR", "DE"],
     },
     {
       topic: "daily costs to expect in japan",

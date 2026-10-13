@@ -14,10 +14,10 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "what does saranghae mean",
@@ -49,7 +49,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "idioms that don’t translate directly",
-      growthMultiplier: 10,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 501,
       topCountries: ["VE", "PE", "MX", "CO"],
@@ -76,18 +76,18 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "US", "PH", "GB"],
     },
     {
-      topic: "uee meaning",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 188,
-      topCountries: ["PH", "CA", "AU", "TR", "GB"],
-    },
-    {
       topic: "hyde jekyll hyde meaning",
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "GB", "AU", "PH", "BR"],
+    },
+    {
+      topic: "Tamil Language",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 1065,
+      topCountries: ["PH", "AU", "CA", "NZ", "SG"],
     },
   ],
   methodologyNote:

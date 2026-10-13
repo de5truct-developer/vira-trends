@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const vehiclesReport: TikTokReport = {
   category: "Vehicles & Transportation",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "silvia vs klose",
@@ -29,7 +29,15 @@ export const vehiclesReport: TikTokReport = {
       growthMultiplier: 2826,
       trust: "high",
       videoNum: 1094,
-      topCountries: ["US", "GB", "DE", "SE", "NL"],
+      topCountries: ["US", "GB", "DE", "PL", "RO"],
+    },
+    {
+      topic: "toyota sequoia 2027",
+      subcategory: "Transport Equipment",
+      growthMultiplier: 2112,
+      trust: "high",
+      videoNum: 2671,
+      topCountries: ["US", "CA", "PH", "MX", "MY"],
     },
     {
       topic: "uber xl jaydes",
@@ -74,7 +82,7 @@ export const vehiclesReport: TikTokReport = {
     {
       topic: "what is a curb alert",
       subcategory: "Transport Equipment",
-      growthMultiplier: 146,
+      growthMultiplier: 117,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "AU", "NZ"],
@@ -86,14 +94,6 @@ export const vehiclesReport: TikTokReport = {
       trust: "high",
       videoNum: 457,
       topCountries: ["US", "PH", "MY", "NG", "ID"],
-    },
-    {
-      topic: "toyota sequoia 2027",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 56,
-      trust: "high",
-      videoNum: 2671,
-      topCountries: ["US", "HN", "CO", "PH", "MX"],
     },
   ],
   methodologyNote:

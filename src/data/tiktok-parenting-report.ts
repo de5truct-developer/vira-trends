@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "preparing my child for bullying",
       subcategory: "Maternal and Infant Care",
-      growthMultiplier: 25,
+      growthMultiplier: 26,
       trust: "high",
       videoNum: 285731,
       topCountries: ["US", "PK", "BD", "NP", "MM"],
@@ -80,20 +80,20 @@ export const parentingReport: TikTokReport = {
       topCountries: ["GB", "US", "IT", "FR", "ES"],
     },
     {
+      topic: "neveah labor and delivery",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 41422,
+      topCountries: ["US", "CA", "AU", "ZA", "NZ"],
+    },
+    {
       topic: "cute baby facial expressions",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 828,
       topCountries: ["ID", "BD", "PH", "PK"],
-    },
-    {
-      topic: "motherhood motivation",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "ID", "PH", "NG", "BR"],
     },
   ],
   methodologyNote:

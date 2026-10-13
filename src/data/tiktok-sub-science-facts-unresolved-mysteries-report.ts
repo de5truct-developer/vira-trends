@@ -14,10 +14,10 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-10-13T05:43:47Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "all new species found in 2026",
@@ -55,18 +55,18 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["UG", "ZA", "KE", "MY"],
     },
     {
-      topic: "allatra rabbithole",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "PL", "IE"],
-    },
-    {
       topic: "mimics caught on camera",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 385,
       topCountries: ["CA", "AU", "PH", "ZA", "LT"],
+    },
+    {
+      topic: "allatra rabbithole",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "PL", "IE"],
     },
     {
       topic: "mythical sea creatures caught on camera",

@@ -14,10 +14,10 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "marriage prompt ai",
@@ -69,18 +69,18 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "PK", "GB", "MM", "MX"],
     },
     {
+      topic: "indonesian techtok meme",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AU", "MW", "NG", "ID"],
+    },
+    {
       topic: "Content Creator Insights 2026 Tutorial",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "ID", "PK", "RU", "FR"],
-    },
-    {
-      topic: "Creator content insights videos guide",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 322,
-      topCountries: ["PK", "GB", "CA", "MM", "IR"],
     },
     {
       topic: "social media content ideas",

@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "creators pilot program",
@@ -41,18 +41,18 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PK", "CA", "KE"],
     },
     {
-      topic: "Leetcode",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 766,
-      topCountries: ["VN", "PH", "ZA", "MX", "CA"],
-    },
-    {
       topic: "data tools every intern should learn",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "Leetcode",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 766,
+      topCountries: ["VN", "PH", "ZA", "MX", "CA"],
     },
   ],
   methodologyNote:

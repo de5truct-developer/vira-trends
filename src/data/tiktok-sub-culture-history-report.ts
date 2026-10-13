@@ -14,10 +14,10 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "julius and lucius explained",
@@ -28,7 +28,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "custodes",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 471,
       topCountries: ["MX", "VN", "TH", "CO", "PH"],

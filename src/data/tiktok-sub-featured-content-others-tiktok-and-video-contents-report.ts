@@ -14,10 +14,10 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "lx anthxny enny sticker",
@@ -25,13 +25,6 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       trust: "high",
       videoNum: 511,
       topCountries: ["US", "MX", "AR", "CL", "PE"],
-    },
-    {
-      topic: "punisher let me tell you something",
-      growthMultiplier: 192,
-      trust: "high",
-      videoNum: 297,
-      topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
     {
       topic: "hit the road dude this is private property",
@@ -49,31 +42,31 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
     },
     {
       topic: "TikTok you",
-      growthMultiplier: 50,
+      growthMultiplier: 45,
       trust: "high",
       videoNum: 13354,
       topCountries: ["ID", "TH", "UA", "PH", "MM"],
     },
     {
-      topic: "morgz guess the price",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "AU", "CA", "NZ", "IE"],
-    },
-    {
       topic: "its october again",
-      growthMultiplier: 20,
+      growthMultiplier: 34,
       trust: "high",
       videoNum: 999,
       topCountries: ["EG", "PH", "ID", "SA", "MY"],
+    },
+    {
+      topic: "never cut your hair because the strength is in the hair",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "UA", "RU", "DE", "TR"],
     },
     {
       topic: "apron lady apron original",
       growthMultiplier: 15,
       trust: "high",
       videoNum: 494,
-      topCountries: ["GB", "PH", "CA", "BR", "AU"],
+      topCountries: ["GB", "PH", "CA", "DE", "PL"],
     },
     {
       topic: "chris running original video",
@@ -88,6 +81,13 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "PH", "MX", "CA"],
+    },
+    {
+      topic: "morgz guess the price",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "AU", "CA", "NZ", "IE"],
     },
   ],
   methodologyNote:

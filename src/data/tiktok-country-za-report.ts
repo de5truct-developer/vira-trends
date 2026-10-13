@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const zaCountryReport: TikTokCountryReport = {
   country: "South Africa",
   countryCode: "ZA",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "li vs conor final fight",
@@ -55,7 +55,7 @@ export const zaCountryReport: TikTokCountryReport = {
       topic: "meemaw brisket recipe p2",
       category: "Gourmet",
       subcategory: "Food Tutorials",
-      growthMultiplier: 26,
+      growthMultiplier: 25,
       trust: "high",
       videoNum: 829,
       topCountries: ["PH", "CA", "AU", "GB", "ZA"],
@@ -88,15 +88,6 @@ export const zaCountryReport: TikTokCountryReport = {
       topCountries: ["SO", "ZA", "CA", "NP"],
     },
     {
-      topic: "zoey and luca",
-      category: "Entertainment",
-      subcategory: "Films and TVs",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "NG", "CA", "KE"],
-    },
-    {
       topic: "law roache real hair",
       category: "Fashion",
       subcategory: "Fashion News",
@@ -104,6 +95,15 @@ export const zaCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 841,
       topCountries: ["US", "ZA", "FR", "GB", "NG"],
+    },
+    {
+      topic: "olise highlights",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 1042,
+      topCountries: ["ET", "NG", "US", "ID", "ZA"],
     },
   ],
   methodologyNote:

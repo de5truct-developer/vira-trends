@@ -14,10 +14,10 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "jumma mubarak best status 2026",
@@ -28,7 +28,7 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "You can only save those who want to be saved",
-      growthMultiplier: 28,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 1696,
       topCountries: ["US", "GB", "IT", "DE", "PH"],
@@ -52,7 +52,7 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 2789,
-      topCountries: ["ZA", "NG", "KE", "CA", "BW"],
+      topCountries: ["ZA", "NG", "KE", "CA", "JM"],
     },
     {
       topic: "rajab entry in dr eman mehndi",

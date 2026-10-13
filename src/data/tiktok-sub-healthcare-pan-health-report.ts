@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-10-13T05:43:47Z",
+  windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "neck brace coraline",
@@ -49,10 +49,24 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "wellness habits",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 10066,
-      topCountries: ["ID", "VN", "MX", "CA", "BR"],
+      topCountries: ["ID", "VN", "CA", "MX", "BR"],
+    },
+    {
+      topic: "optical eyeglass",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2381,
+      topCountries: ["KE", "PK", "PH", "MY", "SO"],
+    },
+    {
+      topic: "Hawley retainers",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 698,
+      topCountries: ["US", "PH", "CA", "AU", "MY"],
     },
     {
       topic: "herbal treatment",
@@ -74,20 +88,6 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 851,
       topCountries: ["PH", "CA", "AU", "TT", "ID"],
-    },
-    {
-      topic: "melasma treatment for face",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1169,
-      topCountries: ["PH", "NP", "ZA", "PK", "KE"],
-    },
-    {
-      topic: "fighting breakouts fades",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 6302,
-      topCountries: ["US", "PK", "NP", "BD", "MM"],
     },
   ],
   methodologyNote:

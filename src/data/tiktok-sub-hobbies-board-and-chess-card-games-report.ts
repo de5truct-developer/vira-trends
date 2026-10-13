@@ -14,10 +14,10 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "honest review of elite football cards",
@@ -41,6 +41,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["KR", "PK", "BG", "BR", "PY"],
     },
     {
+      topic: "create schach insight video viral today",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1258,
+      topCountries: ["PK", "NP", "BD", "GH", "ET"],
+    },
+    {
       topic: "mirabel card",
       growthMultiplier: 2,
       trust: "high",
@@ -55,8 +62,15 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "ID", "MX", "AU"],
     },
     {
-      topic: "create schach insight video viral show",
+      topic: "jester card shuffle",
       growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "DE", "PH", "IT", "PL"],
+    },
+    {
+      topic: "create schach insight video viral show",
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 6030,
       topCountries: ["PK", "NP", "BD", "MM", "ID"],
@@ -69,25 +83,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "GB", "PH", "DE", "IT"],
     },
     {
-      topic: "harry potter house bingo",
+      topic: "Wheel of fortune",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 229,
-      topCountries: ["AU", "CA", "PH", "GB", "BR"],
-    },
-    {
-      topic: "zelma stanton magic",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "BR", "MX"],
-    },
-    {
-      topic: "how to be good at chess",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 999,
-      topCountries: ["PH", "ID", "MY", "ZA"],
+      videoNum: 756,
+      topCountries: ["ID", "PH", "CA", "TH", "VN"],
     },
   ],
   methodologyNote:

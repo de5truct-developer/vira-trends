@@ -10,20 +10,11 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ngCountryReport: TikTokCountryReport = {
   country: "Nigeria",
   countryCode: "NG",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "carter efe vs speed darlington",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 1889,
-      trust: "high",
-      videoNum: 140,
-      topCountries: ["NG", "GH", "US", "GB"],
-    },
     {
       topic: "speed darlington vs carter efe fight",
       category: "Sports",
@@ -32,6 +23,15 @@ export const ngCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "GH", "ZA", "CM", "KE"],
+    },
+    {
+      topic: "carter efe vs speed darlington",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 125,
+      trust: "high",
+      videoNum: 140,
+      topCountries: ["NG", "GH", "US", "GB"],
     },
     {
       topic: "ramos crying when ronaldo was leaving",
@@ -85,7 +85,7 @@ export const ngCountryReport: TikTokCountryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: 1058,
-      topCountries: ["PH", "NG", "KE", "ZA"],
+      topCountries: ["NG", "PH", "KE", "ZA"],
     },
     {
       topic: "ferrari luce electric",
@@ -97,19 +97,19 @@ export const ngCountryReport: TikTokCountryReport = {
       topCountries: ["US", "NG", "DE", "ZA", "CO"],
     },
     {
-      topic: "fury 5 vs 300 mm",
+      topic: "alex baby new car gle 63",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "US", "ID", "MY", "NG"],
+      videoNum: 369,
+      topCountries: ["NG", "GH", "GB", "CM"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "carter efe vs speed darlington",
+    topic: "speed darlington vs carter efe fight",
     audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

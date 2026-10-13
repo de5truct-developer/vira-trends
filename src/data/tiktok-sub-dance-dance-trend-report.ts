@@ -14,14 +14,14 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "TikTok Dance Trend 2026",
-      growthMultiplier: 4985,
+      growthMultiplier: 4986,
       trust: "high",
       videoNum: 12703,
       topCountries: ["PH", "ID", "ZA", "MM"],
@@ -45,7 +45,14 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 1058,
-      topCountries: ["PH", "NG", "KE", "ZA"],
+      topCountries: ["NG", "PH", "KE", "ZA"],
+    },
+    {
+      topic: "2026 Dance Trend",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 1037,
+      topCountries: ["PH", "ID", "MX", "BR"],
     },
     {
       topic: "egyptian dance trend",
@@ -53,13 +60,6 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 911,
       topCountries: ["PH", "ID", "MY", "EG"],
-    },
-    {
-      topic: "2026 Dance Trend",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1037,
-      topCountries: ["PH", "ID", "MX", "ZA"],
     },
     {
       topic: "baby dances tiktok",
@@ -70,7 +70,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "TikTok Dance 2026",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 1289,
       topCountries: ["PH", "BR", "ID", "ZA"],

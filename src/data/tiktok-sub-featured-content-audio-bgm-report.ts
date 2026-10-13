@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "arabic audio",
@@ -25,6 +25,13 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 3057,
       topCountries: ["EG", "ID", "SA", "AE", "MA"],
+    },
+    {
+      topic: "Sound effects trend",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "AU", "CA", "MY", "BR"],
     },
     {
       topic: "commercial sounds",
@@ -39,13 +46,6 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 635080,
       topCountries: ["US", "NG", "PH", "ZA", "GH"],
-    },
-    {
-      topic: "Sound effects trend",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "AU", "CA", "MY", "BR"],
     },
     {
       topic: "Annoying sound",

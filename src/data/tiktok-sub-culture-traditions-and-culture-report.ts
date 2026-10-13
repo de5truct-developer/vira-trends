@@ -14,14 +14,14 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "beautiful weddings",
-      growthMultiplier: 6,
+      growthMultiplier: 7,
       trust: "high",
       videoNum: 2284,
       topCountries: ["MM", "ZA", "PK", "KE"],
@@ -48,13 +48,6 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "ID", "MX", "PH", "CA"],
     },
     {
-      topic: "desis meaning",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "FR", "MY", "GB"],
-    },
-    {
       topic: "father tribute video ideas",
       growthMultiplier: 1,
       trust: "high",
@@ -74,6 +67,13 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 128,
       topCountries: ["ID", "MY", "PH", "VN"],
+    },
+    {
+      topic: "desis meaning",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "FR", "MY", "GB"],
     },
     {
       topic: "TamilWedding",

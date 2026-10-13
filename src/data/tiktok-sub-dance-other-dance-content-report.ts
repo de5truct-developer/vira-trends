@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "james choreographer redred",
@@ -28,7 +28,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "anne hathaway dancing",
-      growthMultiplier: 35,
+      growthMultiplier: 47,
       trust: "high",
       videoNum: 430,
       topCountries: ["US", "PH", "ID", "CA", "GB"],
@@ -53,13 +53,6 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1097,
       topCountries: ["ZA", "AR", "VE", "MX"],
-    },
-    {
-      topic: "cortis gg dances",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 511,
-      topCountries: ["PH", "ID", "MY", "BR", "SA"],
     },
     {
       topic: "Dacne",
@@ -88,6 +81,13 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 661,
       topCountries: ["BR", "PH", "MX", "CA", "AR"],
+    },
+    {
+      topic: "worst dcc audition",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "AU", "CA", "BR"],
     },
   ],
   methodologyNote:

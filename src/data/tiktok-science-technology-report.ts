@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "marriage prompt ai",
@@ -38,14 +38,6 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "PK", "NG", "ID", "ET"],
-    },
-    {
-      topic: "mate 90 pro max",
-      subcategory: "Digital",
-      growthMultiplier: 65,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["VN", "MX", "TH", "ID", "PE"],
     },
     {
       topic: "prime deals",
@@ -94,6 +86,14 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "PH", "TH"],
+    },
+    {
+      topic: "blackberry storm",
+      subcategory: "Digital",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: 330,
+      topCountries: ["US", "MX", "PH", "GB", "MY"],
     },
   ],
   methodologyNote:

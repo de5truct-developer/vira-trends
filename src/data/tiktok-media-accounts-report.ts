@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "#TakoTaughtMe",
@@ -34,7 +34,7 @@ export const mediaAccountsReport: TikTokReport = {
     {
       topic: "briar patch",
       subcategory: "Personal Media Accounts",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 4581,
       topCountries: ["US", "GB", "CA", "DE", "AU"],
@@ -64,14 +64,6 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["PH", "MY", "UG", "CA", "BR"],
     },
     {
-      topic: "LifeJourney",
-      subcategory: "Personal Media Accounts",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "NG", "MY", "ZA"],
-    },
-    {
       topic: "GoodMotivation",
       subcategory: "Personal Media Accounts",
       growthMultiplier: 2,
@@ -94,6 +86,14 @@ export const mediaAccountsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "ID", "TZ", "BR"],
+    },
+    {
+      topic: "IndieAuthor",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "ZA", "AU", "CA"],
     },
   ],
   methodologyNote:

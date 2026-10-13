@@ -14,10 +14,10 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "PocketPearl",
@@ -31,14 +31,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 30,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "BR", "MM", "ZA"],
-    },
-    {
-      topic: "3d printed salmon",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 293,
-      topCountries: ["US", "CA", "GB", "PH", "AU"],
+      topCountries: ["BR", "US", "MM", "ZA"],
     },
     {
       topic: "cashgrabber9000 build",
@@ -52,7 +45,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 1065,
-      topCountries: ["US", "PH", "ZA", "ID", "TH"],
+      topCountries: ["US", "PH", "ZA", "ID", "MY"],
     },
     {
       topic: "rock paper scissors game rules",
@@ -69,11 +62,18 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "PH", "BR", "GB"],
     },
     {
-      topic: "fifa world cup usa 2026 panini",
+      topic: "how to play dreidel",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["VN", "ID", "BR", "KR"],
+      topCountries: ["PH", "CA", "TH", "AU", "SA"],
+    },
+    {
+      topic: "pawn stars antique book 3 coin 3 pawn",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NP", "AE", "PE"],
     },
     {
       topic: "come pack an order with me",

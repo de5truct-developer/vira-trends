@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "travel needs",
@@ -55,18 +55,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "IE"],
     },
     {
-      topic: "what i pack for active day trips",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "IQ", "EG", "DZ"],
-    },
-    {
       topic: "travel finds worth bringing home",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "MX", "TR"],
+    },
+    {
+      topic: "what i pack for active day trips",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
       topic: "beach packing essentials i actually use",

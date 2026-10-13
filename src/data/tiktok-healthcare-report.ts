@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "do rams get brain damage",
@@ -72,14 +72,6 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "GB", "DE", "PL", "FR"],
     },
     {
-      topic: "HolisticWellness",
-      subcategory: "Pan-health",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1207,
-      topCountries: ["NG", "ZA", "KE", "CA"],
-    },
-    {
       topic: "what is cauliflower ear",
       subcategory: "Modern Medicine",
       growthMultiplier: 2,
@@ -88,12 +80,20 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "GB", "SE", "CA", "PH"],
     },
     {
-      topic: "dumping que es",
+      topic: "wilsons surgrey for kid grey anatomy",
+      subcategory: "Other Healthcare Content",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US"],
+    },
+    {
+      topic: "gum recession",
       subcategory: "Modern Medicine",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 401,
-      topCountries: ["MX", "CO", "PE", "CL", "EC"],
+      videoNum: 24195,
+      topCountries: ["US", "GB", "PH", "DE", "SE"],
     },
   ],
   methodologyNote:

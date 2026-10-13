@@ -14,11 +14,18 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "trymp dyed hair brown",
+      growthMultiplier: 4565,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "PH", "GB"],
+    },
     {
       topic: "have you ever gotten a perm before",
       growthMultiplier: 1967,
@@ -38,7 +45,7 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 35,
       trust: "high",
       videoNum: 563,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
+      topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
       topic: "mexico national costume",
@@ -46,13 +53,6 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "MX", "PH", "TH"],
-    },
-    {
-      topic: "bruno bucciarati braids",
-      growthMultiplier: 28,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "BR", "MX", "CA", "ID"],
     },
     {
       topic: "salish natural hair",
@@ -76,24 +76,24 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
     {
-      topic: "Lotus nails",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 3018,
-      topCountries: ["US", "GB", "CA", "DE", "PL"],
-    },
-    {
       topic: "Hair Videos",
-      growthMultiplier: 10,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 49112,
       topCountries: ["NG", "GH", "BR", "KE"],
+    },
+    {
+      topic: "juno movie costume",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 441,
+      topCountries: ["US", "CA", "GB", "PL", "AU"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "have you ever gotten a perm before",
+    topic: "trymp dyed hair brown",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

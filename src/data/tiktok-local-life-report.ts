@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "Bigbang XX Cosmos Jakarta Concert Expansion",
@@ -56,22 +56,6 @@ export const localLifeReport: TikTokReport = {
       topCountries: ["US", "PH", "AU", "CA", "ZA"],
     },
     {
-      topic: "jew wire manhattan",
-      subcategory: "Shopping",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "MY", "CA", "AU"],
-    },
-    {
-      topic: "becky g sofi stadium",
-      subcategory: "Offline Performance",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "MX", "BR", "PE", "CO"],
-    },
-    {
       topic: "stanford prison experiment museum",
       subcategory: "Galleries and Exhibitions",
       growthMultiplier: 20,
@@ -94,6 +78,22 @@ export const localLifeReport: TikTokReport = {
       trust: "high",
       videoNum: 624,
       topCountries: ["MM", "JP", "TH", "SG"],
+    },
+    {
+      topic: "james falls mall",
+      subcategory: "Shopping",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 1085,
+      topCountries: ["US", "GB", "DE", "NL", "IT"],
+    },
+    {
+      topic: "skipper now",
+      subcategory: "Leisure and Entertainment",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 334,
+      topCountries: ["US", "MX", "CA", "BR", "PH"],
     },
   ],
   methodologyNote:

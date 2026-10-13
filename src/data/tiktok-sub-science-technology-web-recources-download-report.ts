@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "ringtone de nana",
@@ -34,11 +34,25 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["ID", "MX", "PK", "BD"],
     },
     {
+      topic: "james live photo",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VN", "ID", "MY", "PH", "MM"],
+    },
+    {
       topic: "best live photo",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1844,
       topCountries: ["PH", "MM", "ID", "NP", "BD"],
+    },
+    {
+      topic: "video 4k",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 960,
+      topCountries: ["VN", "ID", "DZ", "MX"],
     },
     {
       topic: "ronaldinho wallpapers 4k",
@@ -52,14 +66,7 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1098,
-      topCountries: ["ZA", "PH", "NG", "ZM"],
-    },
-    {
-      topic: "james live photo",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "ID", "MY", "PH", "MM"],
+      topCountries: ["ZA", "PH", "ZW", "NG"],
     },
     {
       topic: "thragg wallpapers in 4k",
@@ -81,13 +88,6 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: 832,
       topCountries: ["PK", "BD", "ID", "KE", "MM"],
-    },
-    {
-      topic: "شرح تثبيت خلفيات عمق واقعية",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 759,
-      topCountries: ["ID", "MX", "PK", "BR"],
     },
   ],
   methodologyNote:

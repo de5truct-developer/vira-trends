@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "allen high school football stadium",
@@ -34,11 +34,11 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "AU", "CA", "ZA"],
     },
     {
-      topic: "summit basketball court",
-      growthMultiplier: 4,
+      topic: "juno stadium build 2026",
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "PH", "AU", "GB"],
+      topCountries: ["SA", "CA", "MX", "GB", "BR"],
     },
     {
       topic: "seahawk stadium",
@@ -55,11 +55,11 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "ZA", "CA", "AU", "PH"],
     },
     {
-      topic: "juno stadium build 2026",
+      topic: "summit basketball court",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["SA", "CA", "MX", "GB", "BR"],
+      topCountries: ["US", "CA", "PH", "AU", "GB"],
     },
     {
       topic: "shanghai basketball court 2",
@@ -76,18 +76,18 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "MM", "MX", "AU", "CA"],
     },
     {
+      topic: "raymond james stadium",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 164,
+      topCountries: ["BR", "MX", "ID", "CA", "CO"],
+    },
+    {
       topic: "rental karting",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["AU", "ID", "TH", "MX", "MY"],
-    },
-    {
-      topic: "puksaan volleyball court",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 112,
-      topCountries: ["PH", "ID", "MY", "TH"],
     },
   ],
   methodologyNote:

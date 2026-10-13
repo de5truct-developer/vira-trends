@@ -10,16 +10,16 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const egCountryReport: TikTokCountryReport = {
   country: "Egypt",
   countryCode: "EG",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "its october again",
       category: "TikTok's Featured Content",
       subcategory: "Others TikTok and Video Contents",
-      growthMultiplier: 88,
+      growthMultiplier: 133,
       trust: "high",
       videoNum: 999,
       topCountries: ["EG", "PH", "ID", "SA", "MY"],
@@ -88,15 +88,6 @@ export const egCountryReport: TikTokCountryReport = {
       topCountries: ["EG", "ET", "SA", "IQ"],
     },
     {
-      topic: "خطوات لزيادة تفاعل المتابعين",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 914,
-      topCountries: ["EG", "SD", "IQ", "SA"],
-    },
-    {
       topic: "educational learning content for women",
       category: "Education",
       subcategory: "Education - Others",
@@ -104,6 +95,15 @@ export const egCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MM", "EG", "PK", "ZA"],
+    },
+    {
+      topic: "staking laura",
+      category: "Culture",
+      subcategory: "Serious Literature",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 670,
+      topCountries: ["US", "SA", "EG", "IQ", "KW"],
     },
   ],
   methodologyNote:

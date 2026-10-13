@@ -14,10 +14,10 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "high potential lucia hotel",
@@ -41,18 +41,18 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "GB", "MY", "PH"],
     },
     {
+      topic: "eleanor young hotel",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "BR", "ID", "PH", "GB"],
+    },
+    {
       topic: "collins mansion real life",
-      growthMultiplier: 6,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "NG", "ZA"],
-    },
-    {
-      topic: "disney cruise concierge",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 334,
-      topCountries: ["VN", "SG", "TH", "GB", "ID"],
     },
     {
       topic: "Hotel 81",
@@ -69,13 +69,6 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "CA", "AU", "PH", "ID"],
     },
     {
-      topic: "eleanor young hotel",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "BR", "ID", "PH", "GB"],
-    },
-    {
       topic: "kady dieng residence",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 513,
       topCountries: ["ID", "MY", "VN", "SA"],
+    },
+    {
+      topic: "royal caribbean icon of the seas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 511,
+      topCountries: ["CA", "MX", "ID", "BR", "IL"],
     },
   ],
   methodologyNote:

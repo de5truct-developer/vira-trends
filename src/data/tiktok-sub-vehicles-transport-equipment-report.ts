@@ -14,10 +14,10 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "silvia vs klose",
@@ -31,7 +31,14 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2826,
       trust: "high",
       videoNum: 1094,
-      topCountries: ["US", "GB", "DE", "SE", "NL"],
+      topCountries: ["US", "GB", "DE", "PL", "RO"],
+    },
+    {
+      topic: "toyota sequoia 2027",
+      growthMultiplier: 2112,
+      trust: "high",
+      videoNum: 2671,
+      topCountries: ["US", "CA", "PH", "MX", "MY"],
     },
     {
       topic: "precious new car",
@@ -63,7 +70,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "what is a curb alert",
-      growthMultiplier: 146,
+      growthMultiplier: 117,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "AU", "NZ"],
@@ -74,13 +81,6 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 457,
       topCountries: ["US", "PH", "MY", "NG", "ID"],
-    },
-    {
-      topic: "toyota sequoia 2027",
-      growthMultiplier: 56,
-      trust: "high",
-      videoNum: 2671,
-      topCountries: ["US", "HN", "CO", "PH", "MX"],
     },
     {
       topic: "1 percent tint",

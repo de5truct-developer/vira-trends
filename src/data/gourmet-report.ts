@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const gourmetReport: TikTokReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "mamacitas food review",
@@ -24,28 +24,12 @@ export const gourmetReport: TikTokReport = {
       topCountries: ["US", "MX", "ZA", "CO"],
     },
     {
-      topic: "atlanta cookie",
-      subcategory: "Offline Catering",
-      growthMultiplier: 140,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "AR"],
-    },
-    {
       topic: "aerocano starbucks",
       subcategory: "Offline Catering",
       growthMultiplier: 124,
       trust: "high",
       videoNum: 414,
       topCountries: ["US", "CA", "TR", "PH", "GB"],
-    },
-    {
-      topic: "condiments sauces and seasonings",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 92,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "SE", "NL"],
     },
     {
       topic: "gumbo roux",
@@ -72,12 +56,12 @@ export const gourmetReport: TikTokReport = {
       topCountries: ["NG", "DE", "CM", "SL", "GB"],
     },
     {
-      topic: "duck meat recipes",
+      topic: "condiments sauces and seasonings",
       subcategory: "Food Tutorials",
-      growthMultiplier: 54,
+      growthMultiplier: 51,
       trust: "high",
-      videoNum: 358,
-      topCountries: ["ID", "VN", "SA", "NG"],
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "SE", "NL"],
     },
     {
       topic: "tajine morocco",
@@ -94,6 +78,22 @@ export const gourmetReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "NL", "SE"],
+    },
+    {
+      topic: "cooking a dish for world cup vibes",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 32,
+      trust: "high",
+      videoNum: 597,
+      topCountries: ["ID", "MX", "US", "VN", "BD"],
+    },
+    {
+      topic: "Prime yeat",
+      subcategory: "Food FMCG",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 511,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
   ],
   methodologyNote:

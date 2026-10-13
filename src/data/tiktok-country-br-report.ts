@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "sienna spiro vmas",
@@ -40,7 +40,7 @@ export const brCountryReport: TikTokCountryReport = {
       growthMultiplier: 32,
       trust: "high",
       videoNum: 656,
-      topCountries: ["MX", "BR", "MA", "SA", "DZ"],
+      topCountries: ["MX", "BR", "MA", "DZ", "ID"],
     },
     {
       topic: "food rock paper siccors trend",
@@ -49,16 +49,16 @@ export const brCountryReport: TikTokCountryReport = {
       growthMultiplier: 16,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "BR", "MM", "ZA"],
+      topCountries: ["BR", "US", "MM", "ZA"],
     },
     {
-      topic: "reasons to get a bob original",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 15,
+      topic: "he's faster than sonic",
+      category: "ACGN",
+      subcategory: "Games",
+      growthMultiplier: 13,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "BR", "MX", "CA"],
+      topCountries: ["BR", "CA", "GB", "CL", "AR"],
     },
     {
       topic: "snapdragon 8 elite extreme",

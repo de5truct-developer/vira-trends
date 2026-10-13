@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "reverse edit tutorial",
@@ -39,13 +39,6 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "PH", "TH"],
-    },
-    {
-      topic: "notes section delivery app pt2 ada",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 377,
-      topCountries: ["US"],
     },
     {
       topic: "tiktok chooses the sound",
@@ -88,6 +81,13 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 62945,
       topCountries: ["LK", "PK", "BD", "GB", "NP"],
+    },
+    {
+      topic: "chroma piano tiles",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 2423,
+      topCountries: ["CA", "PH", "AU", "VN"],
     },
   ],
   methodologyNote:

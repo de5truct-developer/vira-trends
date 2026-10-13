@@ -14,10 +14,10 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "nasa release new images 2026",
@@ -25,13 +25,6 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US"],
-    },
-    {
-      topic: "2026 events",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1287,
-      topCountries: ["ZA", "PH", "NG", "MM"],
     },
     {
       topic: "2026 and 2027",
@@ -46,6 +39,13 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 241,
       topCountries: ["GB", "DE", "IT", "NL", "FR"],
+    },
+    {
+      topic: "2026 events",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1287,
+      topCountries: ["ZA", "PH", "NG", "MM"],
     },
     {
       topic: "2026 videos",

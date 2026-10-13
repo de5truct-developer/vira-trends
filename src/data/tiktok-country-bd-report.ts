@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const bdCountryReport: TikTokCountryReport = {
   country: "Bangladesh",
   countryCode: "BD",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "Content Creator Growth Tips 2026",
@@ -32,6 +32,15 @@ export const bdCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 217,
       topCountries: ["BD", "MM", "NP", "ET"],
+    },
+    {
+      topic: "omor on fire on aot review",
+      category: "ACGN",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 19,
+      trust: "high",
+      videoNum: 4750,
+      topCountries: ["BD", "SA", "AE", "MY"],
     },
     {
       topic: "TikTok Couldnt Sleep At Night Dance",
@@ -70,15 +79,6 @@ export const bdCountryReport: TikTokCountryReport = {
       topCountries: ["BD", "MM", "PK", "NG"],
     },
     {
-      topic: "omor on fire on aot review",
-      category: "ACGN",
-      subcategory: "Animation and Comics",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 4750,
-      topCountries: ["BD", "SA", "AE", "MY"],
-    },
-    {
       topic: "2026 world cup argentina hype edit",
       category: "Sports",
       subcategory: "Physical Sports",
@@ -88,7 +88,7 @@ export const bdCountryReport: TikTokCountryReport = {
       topCountries: ["AR", "ID", "US", "BD"],
     },
     {
-      topic: "why world cup legends inspire generations",
+      topic: "argentina fan challenge tutorial",
       category: "Sports",
       subcategory: "Physical Sports",
       growthMultiplier: 4,
@@ -97,7 +97,7 @@ export const bdCountryReport: TikTokCountryReport = {
       topCountries: ["AR", "ID", "US", "BD"],
     },
     {
-      topic: "argentina fan challenge tutorial",
+      topic: "how to boost world cup energy",
       category: "Sports",
       subcategory: "Physical Sports",
       growthMultiplier: 4,

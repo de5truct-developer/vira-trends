@@ -14,10 +14,10 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "stanford prison experiment museum",
@@ -38,7 +38,7 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
       growthMultiplier: 2,
       trust: "high",
       videoNum: 494,
-      topCountries: ["MX", "PE", "SA", "ID", "BR"],
+      topCountries: ["MX", "PE", "ID", "SA", "BR"],
     },
     {
       topic: "napoleon pen museum",

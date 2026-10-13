@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const acgnReport: TikTokReport = {
   category: "ACGN (Anime, Comics, Games & Novels)",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "mike tomlin minecraft city",
@@ -24,20 +24,20 @@ export const acgnReport: TikTokReport = {
       topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
     {
+      topic: "south park nanny mexican guy",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 1494,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "NG", "CA"],
+    },
+    {
       topic: "south park chilli recipe",
       subcategory: "Animation and Comics",
       growthMultiplier: 1362,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "NZ"],
-    },
-    {
-      topic: "south park nanny mexican guy",
-      subcategory: "Animation and Comics",
-      growthMultiplier: 1271,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "NG", "CA"],
     },
     {
       topic: "mike and sully scare the police",
@@ -74,10 +74,18 @@ export const acgnReport: TikTokReport = {
     {
       topic: "tiki tiki ta animation",
       subcategory: "Animation and Comics",
-      growthMultiplier: 151,
+      growthMultiplier: 193,
       trust: "high",
       videoNum: 338,
       topCountries: ["US", "MX", "PH", "GB", "CL"],
+    },
+    {
+      topic: "christian rock south park",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 141,
+      trust: "high",
+      videoNum: 623,
+      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
     {
       topic: "coraline mom neck brace",
@@ -86,14 +94,6 @@ export const acgnReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "AU", "DE"],
-    },
-    {
-      topic: "sonic rings",
-      subcategory: "Games",
-      growthMultiplier: 105,
-      trust: "high",
-      videoNum: 732,
-      topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
   ],
   methodologyNote:

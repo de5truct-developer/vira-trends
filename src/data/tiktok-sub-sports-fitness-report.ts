@@ -14,10 +14,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "all tommrows",
@@ -34,6 +34,13 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["TR", "BR", "MX", "PE"],
     },
     {
+      topic: "1000 pound dumbbell",
+      growthMultiplier: 42,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "AU", "DE"],
+    },
+    {
       topic: "jack stands",
       growthMultiplier: 40,
       trust: "high",
@@ -48,13 +55,6 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "JP", "EG", "KR", "TW"],
     },
     {
-      topic: "1000 pound dumbbell",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "GB", "AU", "DE"],
-    },
-    {
       topic: "plank position before sleep",
       growthMultiplier: 6,
       trust: "high",
@@ -63,17 +63,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "how much should a 15 weights",
-      growthMultiplier: 5,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["DE", "GB", "PL", "NL", "SA"],
-    },
-    {
-      topic: "andoni natural",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 414,
-      topCountries: ["MX", "ES", "AR", "PE", "CL"],
     },
     {
       topic: "Body to body ",
@@ -88,6 +81,13 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "RU", "JM"],
+    },
+    {
+      topic: "women only gyms",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 757,
+      topCountries: ["US", "CA", "AU", "GB", "ZA"],
     },
   ],
   methodologyNote:

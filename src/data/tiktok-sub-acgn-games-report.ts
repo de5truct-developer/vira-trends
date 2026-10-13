@@ -14,10 +14,10 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "mike tomlin minecraft city",
@@ -39,13 +39,6 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 732,
       topCountries: ["US", "CA", "AU", "PH", "ZA"],
-    },
-    {
-      topic: "rogue one admira raddus",
-      growthMultiplier: 75,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "AU", "CA", "PH", "MY"],
     },
     {
       topic: "september 30th resident evil",
@@ -76,18 +69,25 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "IT", "PL"],
     },
     {
-      topic: "minecraft streamer",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: 1081,
-      topCountries: ["ID", "PH", "MM", "MY", "PK"],
-    },
-    {
       topic: "banner update",
       growthMultiplier: 11,
       trust: "high",
       videoNum: 775,
       topCountries: ["US", "PH", "MM", "ID", "CA"],
+    },
+    {
+      topic: "tegridy farms intro",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 160,
+      topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
+      topic: "cristiano ronaldo fc 27 card",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 546,
+      topCountries: ["FR", "ES", "GB", "DE", "NL"],
     },
   ],
   methodologyNote:

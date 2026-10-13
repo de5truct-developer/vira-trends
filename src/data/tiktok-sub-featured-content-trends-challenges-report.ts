@@ -14,10 +14,10 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "father-themed original audio clips",
@@ -69,13 +69,6 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       topCountries: ["MY", "VN", "PH", "ID", "NG"],
     },
     {
-      topic: "you rock my world reaction",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 358,
-      topCountries: ["MX", "SA", "BR", "ZA", "PE"],
-    },
-    {
       topic: "TikTok Global Love Challenge",
       growthMultiplier: 4,
       trust: "high",
@@ -83,11 +76,18 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
       topCountries: ["BD", "ET", "SA", "PK"],
     },
     {
-      topic: "ok i leave kid",
+      topic: "mom for no reason",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: null,
-      topCountries: ["AU", "CA", "SG", "PH", "NZ"],
+      videoNum: 1316,
+      topCountries: ["ID", "ZA", "PH", "VN", "TH"],
+    },
+    {
+      topic: "are you an actress supermodel",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 554,
+      topCountries: ["GB", "PH", "FR", "CA", "IT"],
     },
   ],
   methodologyNote:

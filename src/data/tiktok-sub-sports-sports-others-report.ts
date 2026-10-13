@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "What I pack for a long game day",
@@ -25,13 +25,6 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "IT", "GB", "FR"],
-    },
-    {
-      topic: "الرياضة_على_تيك_توك",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1150,
-      topCountries: ["SA", "IQ", "EG", "LY"],
     },
     {
       topic: "palestra highlights",
@@ -46,6 +39,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["KE", "TZ", "SA", "QA"],
+    },
+    {
+      topic: "الرياضة_على_تيك_توك",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1150,
+      topCountries: ["SA", "IQ", "EG", "LY"],
     },
     {
       topic: "SportLover",

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mxCountryReport: TikTokCountryReport = {
   country: "Mexico",
   countryCode: "MX",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "gilberto mora liverpool",
@@ -52,15 +52,6 @@ export const mxCountryReport: TikTokCountryReport = {
       topCountries: ["MX", "AR", "PE", "EC", "CO"],
     },
     {
-      topic: "mate 90 pro max",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 37,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["VN", "MX", "TH", "ID", "PE"],
-    },
-    {
       topic: "dior a24 shirt",
       category: "Fashion",
       subcategory: "Fashion Products",
@@ -70,13 +61,13 @@ export const mxCountryReport: TikTokCountryReport = {
       topCountries: ["US", "MX", "PH", "ID", "BR"],
     },
     {
-      topic: "gretaadelmonte jersey",
-      category: "Fashion",
-      subcategory: "Fashion Products",
-      growthMultiplier: 37,
+      topic: "iphone silver",
+      category: "Science and Technology",
+      subcategory: "Digital",
+      growthMultiplier: 33,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "CO", "EC", "PE", "GT"],
+      topCountries: ["MX", "CO", "ID", "PE", "EC"],
     },
     {
       topic: "best job doctor",
@@ -88,15 +79,6 @@ export const mxCountryReport: TikTokCountryReport = {
       topCountries: ["MX", "PE", "CO", "AR", "EC"],
     },
     {
-      topic: "Eagles vs bears",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 26,
-      trust: "high",
-      videoNum: 431,
-      topCountries: ["US", "MX", "CA", "AU"],
-    },
-    {
       topic: "dee dee restaurant sandwich",
       category: "Gourmet",
       subcategory: "Offline Catering",
@@ -104,6 +86,24 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "MX", "BR", "GB", "FR"],
+    },
+    {
+      topic: "unboxing highlights from the set",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 288,
+      topCountries: ["ID", "MY", "MX", "PH"],
+    },
+    {
+      topic: "gretaadelmonte jersey",
+      category: "Fashion",
+      subcategory: "Fashion Products",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "EC", "PE", "GT"],
     },
   ],
   methodologyNote:

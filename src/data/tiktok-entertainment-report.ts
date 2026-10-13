@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "patrick garcia daughter kpop",
@@ -37,7 +37,7 @@ export const entertainmentReport: TikTokReport = {
       growthMultiplier: 1834,
       trust: "high",
       videoNum: 702,
-      topCountries: ["US", "GB", "DE", "IT", "FR"],
+      topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
       topic: "countess vaughn jill scott",
@@ -64,14 +64,6 @@ export const entertainmentReport: TikTokReport = {
       topCountries: ["US", "CA", "ZA", "AU", "SA"],
     },
     {
-      topic: "aaron pierre and his son",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 451,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "CA", "JM", "AU"],
-    },
-    {
       topic: "daniel sloss jigsaw theory",
       subcategory: "Films and TVs",
       growthMultiplier: 262,
@@ -94,6 +86,14 @@ export const entertainmentReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ID", "MY", "BR"],
+    },
+    {
+      topic: "trey taylor apology",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 171,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "ZA", "KE"],
     },
   ],
   methodologyNote:

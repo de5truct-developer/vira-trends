@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "trymp dyed hair brown",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 4565,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "PH", "GB"],
+    },
     {
       topic: "have you ever gotten a perm before",
       subcategory: "Fashion Tutorials",
@@ -87,19 +95,11 @@ export const fashionReport: TikTokReport = {
       videoNum: null,
       topCountries: ["US", "TR", "AE", "GE", "CA"],
     },
-    {
-      topic: "loreal michael b jordan",
-      subcategory: "Fashion News",
-      growthMultiplier: 57,
-      trust: "high",
-      videoNum: 19609,
-      topCountries: ["US", "CA", "PH", "BR", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "have you ever gotten a perm before",
+    topic: "trymp dyed hair brown",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

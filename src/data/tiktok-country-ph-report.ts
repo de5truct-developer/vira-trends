@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const phCountryReport: TikTokCountryReport = {
   country: "Philippines",
   countryCode: "PH",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "patrick garcia daughter kpop",
@@ -28,7 +28,7 @@ export const phCountryReport: TikTokCountryReport = {
       topic: "TikTok Dance Trend 2026",
       category: "Dance",
       subcategory: "Dance Trend",
-      growthMultiplier: 4752,
+      growthMultiplier: 4753,
       trust: "high",
       videoNum: 12703,
       topCountries: ["PH", "ID", "ZA", "MM"],
@@ -70,13 +70,13 @@ export const phCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "PH", "TH", "MY", "BR"],
     },
     {
-      topic: "dolly parton and carl dean",
+      topic: "eddie vs toby's dad review",
       category: "Entertainment",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 114,
+      subcategory: "Films and TVs",
+      growthMultiplier: 145,
       trust: "high",
-      videoNum: 1048,
-      topCountries: ["US", "GB", "AU", "CA", "PH"],
+      videoNum: 771,
+      topCountries: ["US", "PH", "GB", "ID", "CA"],
     },
     {
       topic: "all new species found in 2026",
@@ -88,6 +88,15 @@ export const phCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "US", "ID", "MY", "CA"],
     },
     {
+      topic: "dolly parton and carl dean",
+      category: "Entertainment",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 87,
+      trust: "high",
+      videoNum: 1048,
+      topCountries: ["US", "GB", "AU", "CA", "PH"],
+    },
+    {
       topic: "chris why you at that house original",
       category: "TikTok's Featured Content",
       subcategory: "Trends/Challenges",
@@ -95,15 +104,6 @@ export const phCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 704,
       topCountries: ["US", "PH", "GB", "ZA", "CA"],
-    },
-    {
-      topic: "Dance Brazil 2026 TikTok Trend",
-      category: "Dance",
-      subcategory: "Dance Trend",
-      growthMultiplier: 61,
-      trust: "high",
-      videoNum: 410,
-      topCountries: ["ID", "PH", "MM", "MX"],
     },
   ],
   methodologyNote:

@@ -14,24 +14,38 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
-    {
-      topic: "mate 90 pro max",
-      growthMultiplier: 65,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["VN", "MX", "TH", "ID", "PE"],
-    },
     {
       topic: "blackberry storm",
       growthMultiplier: 16,
       trust: "high",
       videoNum: 330,
       topCountries: ["US", "MX", "PH", "GB", "MY"],
+    },
+    {
+      topic: "iphone silver",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "ID", "PE", "EC"],
+    },
+    {
+      topic: "mate 90 pro max",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["VN", "MX", "TH", "ID", "PE"],
+    },
+    {
+      topic: "balance apple two glasses answer",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 1169,
+      topCountries: ["CA", "AU", "PH", "GB", "MY"],
     },
     {
       topic: "iOS 26.6.1",
@@ -48,13 +62,6 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "MX", "BR", "ID"],
     },
     {
-      topic: "balance apple two glasses answer",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 1169,
-      topCountries: ["CA", "AU", "PH", "GB", "MY"],
-    },
-    {
       topic: "puh cracking screen inverted color",
       growthMultiplier: 8,
       trust: "high",
@@ -62,25 +69,18 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "AU"],
     },
     {
-      topic: "iphone silver",
-      growthMultiplier: 5,
+      topic: "16k 240fps camera",
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "CO", "ID", "PE", "EC"],
+      topCountries: ["ID", "VN", "TH", "MX", "BR"],
     },
     {
-      topic: "coral glasses ringtone",
-      growthMultiplier: 4,
+      topic: "muna speaker cleaner",
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["BR", "ID", "MX", "PH", "CL"],
-    },
-    {
-      topic: "ios 26 new features",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 60490,
-      topCountries: ["MX", "CO", "AR", "VE"],
+      topCountries: ["SO", "KE", "ET", "UG", "CA"],
     },
     {
       topic: "belt box for singers",
@@ -93,7 +93,7 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "mate 90 pro max",
-    audience: "male 18-24, Vietnam (dominant segment, snapshot at collection date)",
+    topic: "blackberry storm",
+    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

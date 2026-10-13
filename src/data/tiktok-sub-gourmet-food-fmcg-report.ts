@@ -14,10 +14,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "jelly spicy chip mrbeast",
@@ -48,18 +48,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "MX", "PH"],
     },
     {
+      topic: "cooking paper ikea result review",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "ES", "VN", "ID"],
+    },
+    {
       topic: "how old is slurpy",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "CA", "AU"],
-    },
-    {
-      topic: "cooking paper ikea result review",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MY", "PH", "ES", "VN", "ID"],
     },
     {
       topic: "jim queen review",
@@ -69,13 +69,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "US", "GB", "PH", "PL"],
     },
     {
-      topic: "million dollar peanuts maine",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "AU", "MX"],
-    },
-    {
       topic: "snacks and essentials for match day",
       growthMultiplier: 4,
       trust: "high",
@@ -83,11 +76,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "BR", "AU", "PH", "SG"],
     },
     {
-      topic: "wannawanna prime",
-      growthMultiplier: 3,
+      topic: "million dollar peanuts maine",
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "IT", "DE", "PH", "FR"],
+      topCountries: ["CA", "PH", "AU", "MX"],
+    },
+    {
+      topic: "scoobs original",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 301,
+      topCountries: ["US", "CA", "AU", "ZA", "AM"],
     },
   ],
   methodologyNote:

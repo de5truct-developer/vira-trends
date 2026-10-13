@@ -14,10 +14,10 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-10-13T05:43:47Z",
+  windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "stowing",
@@ -34,11 +34,11 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NG", "CA", "AU", "GB"],
     },
     {
-      topic: "cleopatra bath",
-      growthMultiplier: 94,
+      topic: "Garbage plates",
+      growthMultiplier: 129,
       trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "DE", "RO", "RU"],
+      videoNum: 124,
+      topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
     {
       topic: "digger reviews",
@@ -69,13 +69,6 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "PH", "AU", "ZA"],
     },
     {
-      topic: "bamboo water buzzer",
-      growthMultiplier: 18,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "MM", "PH", "BR", "NP"],
-    },
-    {
       topic: "bosun chair",
       growthMultiplier: 16,
       trust: "high",
@@ -88,6 +81,13 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "ZA", "PH", "SR"],
+    },
+    {
+      topic: "katy perry bottle",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AU", "AL", "CA", "MX", "XK"],
     },
   ],
   methodologyNote:

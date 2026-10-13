@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "house in the middle of the road",
@@ -27,6 +27,13 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ZA", "MY", "GB"],
     },
     {
+      topic: "gulf airline",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SO", "PK", "GB", "KE", "ET"],
+    },
+    {
       topic: "denver international airport flight",
       growthMultiplier: 3,
       trust: "high",
@@ -34,25 +41,25 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PK"],
     },
     {
-      topic: "DRAKE AIRLINE",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "AU", "CA", "NL"],
-    },
-    {
-      topic: "gulf airline",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SO", "PK", "GB", "KE", "ET"],
-    },
-    {
       topic: "air canada flight",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 9018,
       topCountries: ["CA", "PK", "PH", "TH"],
+    },
+    {
+      topic: "cairo international airport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1046,
+      topCountries: ["EG", "NG", "SA", "SO", "ID"],
+    },
+    {
+      topic: "طريق ١٠ السعودية",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 571,
+      topCountries: ["SA", "IQ", "EG", "LY", "IL"],
     },
     {
       topic: "clayton route 06",
@@ -67,13 +74,6 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "AU", "NG", "PK", "CA"],
-    },
-    {
-      topic: "طريق ١٠ السعودية",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 571,
-      topCountries: ["SA", "IQ", "EG", "LY", "IL"],
     },
     {
       topic: "qatar airlines",

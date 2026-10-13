@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "liveincentiveprogramtiveprogram",
@@ -28,7 +28,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "how much is a pension for a teacher",
-      growthMultiplier: 8,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "KE", "CA", "BW"],
@@ -45,7 +45,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["VE", "CO", "BR", "CL"],
+      topCountries: ["VE", "CO", "PE", "CL", "BR"],
     },
     {
       topic: "grace mondlana salary per month",
@@ -76,18 +76,18 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "DZ", "IQ", "YE"],
     },
     {
+      topic: "benefits of live incentive program",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 899,
+      topCountries: ["ID", "VN", "PH", "BR"],
+    },
+    {
       topic: "winter dirtry work",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "ID", "PH", "TH", "JP"],
-    },
-    {
-      topic: "communications",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 938,
-      topCountries: ["CA", "BR", "PH", "NG", "GB"],
     },
   ],
   methodologyNote:

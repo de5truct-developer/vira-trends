@@ -14,10 +14,10 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "new passport design",
@@ -25,13 +25,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "KE", "PK", "SA"],
-    },
-    {
-      topic: "juggershy crochet fluttershy",
-      growthMultiplier: 58,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "ID"],
     },
     {
       topic: "i made a little dreidel out of clay",
@@ -48,6 +41,13 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "KE", "PH", "SA"],
     },
     {
+      topic: "Boo Basket Ideas",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 1124,
+      topCountries: ["US", "ID", "GB", "BR"],
+    },
+    {
       topic: "toilet paper roll crafts",
       growthMultiplier: 6,
       trust: "high",
@@ -60,13 +60,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "GT", "PE", "EC", "HN"],
-    },
-    {
-      topic: "Boo Basket Ideas",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1124,
-      topCountries: ["US", "ID", "GB", "BR"],
     },
     {
       topic: "silver clay",
@@ -88,6 +81,13 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 502,
       topCountries: ["PH", "BR", "ZA", "NG"],
+    },
+    {
+      topic: "porcupine quills beadwork",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 494,
+      topCountries: ["US", "PH", "CA", "ZA", "GB"],
     },
   ],
   methodologyNote:

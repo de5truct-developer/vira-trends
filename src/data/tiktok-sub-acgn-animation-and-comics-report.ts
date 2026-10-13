@@ -14,24 +14,24 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "south park nanny mexican guy",
+      growthMultiplier: 1494,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "NG", "CA"],
+    },
     {
       topic: "south park chilli recipe",
       growthMultiplier: 1362,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "NZ"],
-    },
-    {
-      topic: "south park nanny mexican guy",
-      growthMultiplier: 1271,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "NG", "CA"],
     },
     {
       topic: "mike and sully scare the police",
@@ -56,10 +56,17 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "tiki tiki ta animation",
-      growthMultiplier: 151,
+      growthMultiplier: 193,
       trust: "high",
       videoNum: 338,
       topCountries: ["US", "MX", "PH", "GB", "CL"],
+    },
+    {
+      topic: "christian rock south park",
+      growthMultiplier: 141,
+      trust: "high",
+      videoNum: 623,
+      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
     {
       topic: "coraline mom neck brace",
@@ -82,18 +89,11 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "MY"],
     },
-    {
-      topic: "magic repoman",
-      growthMultiplier: 63,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "TH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "south park chilli recipe",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "south park nanny mexican guy",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

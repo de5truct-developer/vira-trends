@@ -14,10 +14,10 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "comatozzе body oil",
@@ -62,6 +62,13 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "GB", "MY", "AU"],
     },
     {
+      topic: "zach bryan toronto merch",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "GB"],
+    },
+    {
       topic: "revenge themed tattoo designs",
       growthMultiplier: 10,
       trust: "high",
@@ -69,25 +76,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "GB", "MY"],
     },
     {
+      topic: "beanies dr harlow ai",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["DE", "TR", "ID", "AT", "MY"],
+    },
+    {
       topic: "bag closet",
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "PH", "BD", "ID", "ZA"],
-    },
-    {
-      topic: "babyliss trade in",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "JP", "BN", "AU"],
-    },
-    {
-      topic: "speed drip",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 475,
-      topCountries: ["MX", "CO", "PH", "VN", "CL"],
     },
   ],
   methodologyNote:

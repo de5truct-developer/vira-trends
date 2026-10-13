@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const usCountryReport: TikTokCountryReport = {
   country: "United States",
   countryCode: "US",
-  computedAt: "2026-10-12T04:03:29Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-10-13T05:43:47Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
+    {
+      topic: "notes section delivery app pt2 ada",
+      category: "Science and Technology",
+      subcategory: "Software",
+      growthMultiplier: 155,
+      trust: "high",
+      videoNum: 377,
+      topCountries: ["US"],
+    },
     {
       topic: "stanford prison experiment museum",
       category: "Local Life",
@@ -32,15 +41,6 @@ export const usCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 867,
       topCountries: ["US", "VN", "RU", "MX", "AU"],
-    },
-    {
-      topic: "notes section delivery app pt2 ada",
-      category: "Science and Technology",
-      subcategory: "Software",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 377,
-      topCountries: ["US"],
     },
     {
       topic: "Cornell university",
@@ -109,7 +109,7 @@ export const usCountryReport: TikTokCountryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "stanford prison experiment museum",
+    topic: "notes section delivery app pt2 ada",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

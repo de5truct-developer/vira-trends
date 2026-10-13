@@ -14,10 +14,10 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "us army salary per month",
@@ -48,11 +48,11 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "CA", "AU", "GB", "NZ"],
     },
     {
-      topic: "apply today",
-      growthMultiplier: 1,
+      topic: "tool demo ideas for daily job sites",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: 595,
-      topCountries: ["SG", "GH", "ZA", "NG"],
+      videoNum: 777,
+      topCountries: ["TH", "US", "VN", "DE", "MX"],
     },
     {
       topic: "new intern at the company 2",
@@ -62,11 +62,11 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "US", "ZA", "NG", "PK"],
     },
     {
-      topic: "tool demo ideas for daily job sites",
+      topic: "apply today",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 777,
-      topCountries: ["TH", "US", "VN", "DE", "MX"],
+      videoNum: 595,
+      topCountries: ["SG", "GH", "ZA", "NG"],
     },
     {
       topic: "job search and application guidance",

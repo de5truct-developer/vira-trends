@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const featuredContentReport: TikTokReport = {
   category: "Featured Content",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "father-themed original audio clips",
@@ -40,14 +40,6 @@ export const featuredContentReport: TikTokReport = {
       topCountries: ["US", "ZA", "PH", "ID", "CA"],
     },
     {
-      topic: "punisher let me tell you something",
-      subcategory: "Others TikTok and Video Contents",
-      growthMultiplier: 192,
-      trust: "high",
-      videoNum: 297,
-      topCountries: ["US", "PH", "CA", "AU", "ID"],
-    },
-    {
       topic: "hit the road dude this is private property",
       subcategory: "Others TikTok and Video Contents",
       growthMultiplier: 162,
@@ -62,14 +54,6 @@ export const featuredContentReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "BR", "MY"],
-    },
-    {
-      topic: "my parents excluded me on family vacation reddit",
-      subcategory: "Stories/Posting Captions",
-      growthMultiplier: 68,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "ZA", "CA"],
     },
     {
       topic: "chris why you at that house original",
@@ -88,12 +72,28 @@ export const featuredContentReport: TikTokReport = {
       topCountries: ["US", "RU", "BY", "KZ", "UA"],
     },
     {
-      topic: "i was counting my drawer at the end of my shift",
-      subcategory: "Stories/Posting Captions",
-      growthMultiplier: 58,
+      topic: "venom trend couple",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 46,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
+      videoNum: 1137,
+      topCountries: ["US", "GB", "FR", "IT", "DE"],
+    },
+    {
+      topic: "TikTok you",
+      subcategory: "Others TikTok and Video Contents",
+      growthMultiplier: 45,
+      trust: "high",
+      videoNum: 13354,
+      topCountries: ["ID", "TH", "UA", "PH", "MM"],
+    },
+    {
+      topic: "put em in a coffin vine",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 38,
+      trust: "high",
+      videoNum: 12120,
+      topCountries: ["US", "CA", "PH", "AU", "NZ"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "all new species found in 2026",
@@ -70,13 +70,13 @@ export const myCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "TH", "MY", "VN", "MM"],
     },
     {
-      topic: "ha sisters live show",
+      topic: "betweensteps",
       category: "Entertainment",
       subcategory: "Films and TVs",
-      growthMultiplier: 20,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "GB", "MY"],
+      topCountries: ["ID", "MY", "PH", "US", "TH"],
     },
     {
       topic: "ktothemartrc rollercoaster",
@@ -88,15 +88,6 @@ export const myCountryReport: TikTokCountryReport = {
       topCountries: ["US", "PH", "AU", "CA", "MY"],
     },
     {
-      topic: "betweensteps",
-      category: "Entertainment",
-      subcategory: "Films and TVs",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "PH", "US", "TH"],
-    },
-    {
       topic: "i made a little dreidel out of clay",
       category: "Personal Interests and Hobbies",
       subcategory: "DIY",
@@ -104,6 +95,15 @@ export const myCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "GB", "MY"],
+    },
+    {
+      topic: "SEA SHEPHERD",
+      category: "Science Knowledge",
+      subcategory: "Biology Knowledge",
+      growthMultiplier: 18,
+      trust: "high",
+      videoNum: 1093,
+      topCountries: ["PH", "CA", "AU", "ID", "MY"],
     },
   ],
   methodologyNote:

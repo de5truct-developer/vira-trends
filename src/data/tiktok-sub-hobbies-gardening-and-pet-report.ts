@@ -14,10 +14,10 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "nepenthes plant",
@@ -27,25 +27,11 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "DE", "MY"],
     },
     {
-      topic: "doggie gd grief 100",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "CA", "PH", "CO", "CL"],
-    },
-    {
       topic: "doggie verified grief",
       growthMultiplier: 19,
       trust: "high",
       videoNum: 548,
       topCountries: ["US", "GB", "PL", "DE", "ES"],
-    },
-    {
-      topic: "preening",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: 437,
-      topCountries: ["US", "PH", "CA", "GB", "AU"],
     },
     {
       topic: "bolt food perro",
@@ -62,11 +48,18 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "CA", "MY", "VN"],
     },
     {
-      topic: "spearfishing gone wrong",
-      growthMultiplier: 5,
+      topic: "preening",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 437,
+      topCountries: ["US", "PH", "CA", "GB", "AU"],
+    },
+    {
+      topic: "doggie gd grief 100",
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "MY", "CA", "AU"],
+      topCountries: ["MX", "CA", "PH", "CO", "CL"],
     },
     {
       topic: "jack russell fully grown",
@@ -74,6 +67,13 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "ZW", "PH", "AU", "NG"],
+    },
+    {
+      topic: "Stag Reel",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PE", "BO", "AR", "CO"],
     },
     {
       topic: "fabulous rod fisch money test",

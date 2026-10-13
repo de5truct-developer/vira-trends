@@ -14,10 +14,10 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "giant palmetto bug",
@@ -76,18 +76,18 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PL", "IT"],
     },
     {
+      topic: "THE COW",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 4373,
+      topCountries: ["US", "PH", "GB", "CA", "ID"],
+    },
+    {
       topic: "copper head",
-      growthMultiplier: 10,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: 579,
       topCountries: ["US", "PH", "ZA", "CA", "GB"],
-    },
-    {
-      topic: "12 cm to inch",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "SA", "IQ", "CA"],
     },
   ],
   methodologyNote:

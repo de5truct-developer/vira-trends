@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const deCountryReport: TikTokCountryReport = {
   country: "Germany",
   countryCode: "DE",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "grey rocking",
@@ -82,7 +82,7 @@ export const deCountryReport: TikTokCountryReport = {
       topic: "how to judge a club membership",
       category: "Workplace",
       subcategory: "Special Work Types",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "DE", "PK", "PH", "NL"],

@@ -14,10 +14,10 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "do rams get brain damage",
@@ -55,13 +55,6 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "SE", "CA", "PH"],
     },
     {
-      topic: "dumping que es",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 401,
-      topCountries: ["MX", "CO", "PE", "CL", "EC"],
-    },
-    {
       topic: "gum recession",
       growthMultiplier: 2,
       trust: "high",
@@ -69,11 +62,18 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "DE", "SE"],
     },
     {
+      topic: "dumping que es",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 401,
+      topCountries: ["MX", "CO", "PE", "CL", "EC"],
+    },
+    {
       topic: "a stroke",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1159,
-      topCountries: ["CA", "ZA", "AE", "RS", "MX"],
+      topCountries: ["CA", "ZA", "AE", "RS", "SA"],
     },
     {
       topic: "mental health and emotional wellbeing",

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const musicReport: TikTokReport = {
   category: "Music",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "ThisFireBurns",
@@ -22,6 +22,14 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "SA", "PE", "TH", "EG"],
+    },
+    {
+      topic: "JamSession",
+      subcategory: "Singles",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 660,
+      topCountries: ["PH", "CA", "NZ", "AU", "ZA"],
     },
     {
       topic: "YoungForever",
@@ -48,12 +56,12 @@ export const musicReport: TikTokReport = {
       topCountries: ["VN", "ID", "JP", "MM"],
     },
     {
-      topic: "JamSession",
+      topic: "NothingSpecial",
       subcategory: "Singles",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 660,
-      topCountries: ["PH", "CA", "NZ", "AU", "ZA"],
+      videoNum: 546,
+      topCountries: ["ID", "MY", "PH", "JP"],
     },
     {
       topic: "wonderfools",
@@ -78,14 +86,6 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: 76727,
       topCountries: ["BR", "PH", "ID", "GB"],
-    },
-    {
-      topic: "NothingSpecial",
-      subcategory: "Singles",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 546,
-      topCountries: ["ID", "MY", "PH", "JP"],
     },
     {
       topic: "RockAndRoll",

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-10-12T04:03:29Z",
+  computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-12",
+  updatedAt: "2026-10-13",
   topics: [
     {
       topic: "when is national boyfriend day",
@@ -30,14 +30,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 1118,
       topCountries: ["ID", "PH", "GB", "DE"],
-    },
-    {
-      topic: "dividing birthday gifts",
-      subcategory: "Gifts/Presents",
-      growthMultiplier: 23,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["US", "GB", "PH", "CA", "ZA"],
     },
     {
       topic: "mansplaining ejemplos",
@@ -94,6 +86,14 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 921,
       topCountries: ["US", "PH", "ID", "MY", "SA"],
+    },
+    {
+      topic: "he regrets losing me",
+      subcategory: "Relationship Knowledge",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 398,
+      topCountries: ["PH", "MY", "ZA", "ID", "UG"],
     },
   ],
   methodologyNote:
