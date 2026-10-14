@@ -17,7 +17,7 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-13T05:43:47Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-13",
+  updatedAt: "2026-10-14",
   topics: [
     {
       topic: "marriage prompt ai",
