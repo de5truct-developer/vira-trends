@@ -14,18 +14,11 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "bad by ateez dance",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 196,
-      topCountries: ["ID", "MY", "PH", "MX"],
-    },
     {
       topic: "cherry bomb dance",
       growthMultiplier: 7,
@@ -34,18 +27,25 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "TH", "MY", "PH", "JP"],
     },
     {
+      topic: "bad by ateez dance",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 196,
+      topCountries: ["ID", "MY", "PH", "MX"],
+    },
+    {
+      topic: "pinky up dancebreak",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 724,
+      topCountries: ["US", "PH", "CA", "AU", "BR"],
+    },
+    {
       topic: "jungkook and jimin dance",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 1370,
       topCountries: ["PH", "MX", "BR", "PK", "MM"],
-    },
-    {
-      topic: "pinky up dancebreak",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 724,
-      topCountries: ["US", "PH", "CA", "AU", "BR"],
     },
     {
       topic: "mic drop bts dance",
@@ -76,24 +76,24 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "TH", "PH", "BR", "ID"],
     },
     {
-      topic: "hip hop choreography",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 996,
-      topCountries: ["PH", "IT", "DE", "GB", "PL"],
-    },
-    {
       topic: "jk dance",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 807,
       topCountries: ["PK", "MM", "BD", "TR"],
     },
+    {
+      topic: "dance choreography song ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 353,
+      topCountries: ["MM", "NG", "PH", "TR"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "bad by ateez dance",
-    audience: "unknown 18-24, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "cherry bomb dance",
+    audience: "female 18-24, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

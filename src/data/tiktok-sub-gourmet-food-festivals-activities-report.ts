@@ -14,10 +14,10 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "ranking party platter bites and dips",
@@ -41,11 +41,11 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
     {
-      topic: "food challenge with extra hot flavors",
+      topic: "food rock paper challenge",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 667,
-      topCountries: ["VN", "KR", "JP", "EG"],
+      videoNum: 703,
+      topCountries: ["PH", "MY", "ZA", "JM"],
     },
     {
       topic: "daily food shopping vlog ideas",
@@ -55,21 +55,14 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "PH", "BR", "MX", "JP"],
     },
     {
+      topic: "food challenge with extra hot flavors",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 667,
+      topCountries: ["VN", "KR", "JP", "EG"],
+    },
+    {
       topic: "funny taste test of viral red foods",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "PH", "US", "MY"],
-    },
-    {
-      topic: "rating viral foods that sound wrong",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "PH", "US", "MY"],
-    },
-    {
-      topic: "funny first bites of local food",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
@@ -88,6 +81,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: 426,
       topCountries: ["ID", "BD", "BR", "MX"],
+    },
+    {
+      topic: "Ranking spooky seasonal menu items",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 172,
+      topCountries: ["US", "ID", "RU", "BR", "DE"],
     },
   ],
   methodologyNote:

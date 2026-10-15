@@ -14,18 +14,11 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "how you introduce yourself",
-      growthMultiplier: 18,
-      trust: "high",
-      videoNum: 782,
-      topCountries: ["NG", "PH", "KE", "ZA"],
-    },
     {
       topic: "customer service conflicts with style",
       growthMultiplier: 8,
@@ -34,18 +27,18 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "KR", "JP", "TW"],
     },
     {
-      topic: "sight insight creation tutorial",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 5475,
-      topCountries: ["SA", "BR", "PK", "NP", "DZ"],
-    },
-    {
       topic: "how to join creator pilot program",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1005,
       topCountries: ["MM", "GB", "NG", "ET", "PK"],
+    },
+    {
+      topic: "walkathon rules",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 277,
+      topCountries: ["PH", "MY", "ID", "JP"],
     },
     {
       topic: "community guidelines",
@@ -87,13 +80,20 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 833,
-      topCountries: ["PH", "ID", "VN", "BR", "MY"],
+      topCountries: ["PH", "VN", "ID", "BR", "MY"],
+    },
+    {
+      topic: "Como identificar troca de etiquetas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "GB", "NG", "NP"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "how you introduce yourself",
-    audience: "unknown 25-34, Kenya (dominant segment, snapshot at collection date)",
+    topic: "customer service conflicts with style",
+    audience: "unknown 35+, Vietnam (dominant segment, snapshot at collection date)",
   },
 };

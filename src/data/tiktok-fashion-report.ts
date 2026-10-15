@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "trymp dyed hair brown",
@@ -24,9 +24,25 @@ export const fashionReport: TikTokReport = {
       topCountries: ["US", "CA", "AU", "PH", "GB"],
     },
     {
+      topic: "Japanese straight perm",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 3589,
+      trust: "high",
+      videoNum: 19317,
+      topCountries: ["US", "GB", "DE", "NL", "IT"],
+    },
+    {
+      topic: "yellow bat top",
+      subcategory: "Fashion Products",
+      growthMultiplier: 2411,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "PE", "AR", "EC"],
+    },
+    {
       topic: "have you ever gotten a perm before",
       subcategory: "Fashion Tutorials",
-      growthMultiplier: 1967,
+      growthMultiplier: 2257,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PK", "PH", "MM", "MY"],
@@ -34,18 +50,10 @@ export const fashionReport: TikTokReport = {
     {
       topic: "princess diana swimsuit",
       subcategory: "Fashion News",
-      growthMultiplier: 273,
+      growthMultiplier: 305,
       trust: "high",
       videoNum: 241,
       topCountries: ["US", "PH", "GB", "ID", "MY"],
-    },
-    {
-      topic: "comatozzе body oil",
-      subcategory: "Fashion Products",
-      growthMultiplier: 268,
-      trust: "high",
-      videoNum: 503,
-      topCountries: ["PH", "US", "ID", "MY"],
     },
     {
       topic: "balenciaga hello kitty",
@@ -56,17 +64,9 @@ export const fashionReport: TikTokReport = {
       topCountries: ["US", "SG", "GB", "DE", "MY"],
     },
     {
-      topic: "gypsy rose lee dress",
-      subcategory: "Fashion News",
-      growthMultiplier: 130,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "AU", "MX"],
-    },
-    {
       topic: "connor wood phone pouch",
       subcategory: "Fashion Products",
-      growthMultiplier: 123,
+      growthMultiplier: 120,
       trust: "high",
       videoNum: 883,
       topCountries: ["US", "CA", "AU", "GB", "NZ"],

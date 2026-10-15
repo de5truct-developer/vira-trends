@@ -14,14 +14,14 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "parents helping with homework",
-      growthMultiplier: 9,
+      growthMultiplier: 17,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "PH", "CA", "AU"],
@@ -69,6 +69,13 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["US", "GB", "CA", "ZA", "AU"],
     },
     {
+      topic: "the subject of the day",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 2696,
+      topCountries: ["US", "PK", "RU", "PH", "BR"],
+    },
+    {
       topic: "once you go through your worst times alone",
       growthMultiplier: 3,
       trust: "high",
@@ -81,13 +88,6 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: 4054,
       topCountries: ["PK", "PH", "ZA", "NG", "BD"],
-    },
-    {
-      topic: "ending when life gives you tangerines",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PH", "MY", "NG"],
     },
   ],
   methodologyNote:

@@ -14,14 +14,14 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "nepenthes plant",
-      growthMultiplier: 49,
+      growthMultiplier: 25,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "DE", "MY"],
@@ -30,8 +30,15 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topic: "doggie verified grief",
       growthMultiplier: 19,
       trust: "high",
-      videoNum: 548,
+      videoNum: 971,
       topCountries: ["US", "GB", "PL", "DE", "ES"],
+    },
+    {
+      topic: "funny dog reaction videos",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 739,
+      topCountries: ["MM", "VN", "BR", "ID"],
     },
     {
       topic: "bolt food perro",
@@ -39,13 +46,6 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1066,
       topCountries: ["MX", "GT", "PE", "EC", "CO"],
-    },
-    {
-      topic: "Shar Pei Dogs",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 777,
-      topCountries: ["PH", "ID", "CA", "MY", "VN"],
     },
     {
       topic: "preening",
@@ -58,7 +58,7 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topic: "doggie gd grief 100",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
+      videoNum: 366,
       topCountries: ["MX", "CA", "PH", "CO", "CL"],
     },
     {

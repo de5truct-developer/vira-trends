@@ -14,24 +14,24 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "split brain experiments",
-      growthMultiplier: 77,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "DE", "CA"],
-    },
     {
       topic: "why diamonds feel rarer than they are",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "VN", "MY", "PH", "BR"],
+    },
+    {
+      topic: "science fair paper clip",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "MY", "TH", "MX"],
     },
     {
       topic: "tissue paper floating experiment",
@@ -41,18 +41,18 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["ID", "IQ", "PH", "PK"],
     },
     {
+      topic: "polarity",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 622,
+      topCountries: ["US", "ID", "PH", "NG", "ZA"],
+    },
+    {
       topic: "Science behind paper cleaning processes",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "CO", "VE"],
-    },
-    {
-      topic: "Dredging",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 711,
-      topCountries: ["MX", "PH", "GB", "JM", "ZA"],
     },
     {
       topic: "why neverness to everness stands out",
@@ -65,15 +65,15 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topic: "Viral tech experiments to try",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 952,
+      videoNum: 1045,
       topCountries: ["ID", "BD", "MM", "BR"],
     },
     {
-      topic: "how marine technology beats rough seas",
+      topic: "Dredging",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "TH"],
+      videoNum: 711,
+      topCountries: ["MX", "PH", "GB", "JM", "ZA"],
     },
     {
       topic: "creating visual tension with patterns",
@@ -93,7 +93,7 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "split brain experiments",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "why diamonds feel rarer than they are",
+    audience: "unknown 18-24, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

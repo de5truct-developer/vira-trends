@@ -14,10 +14,10 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "كلام تعبر عن مشاعرك",
@@ -44,7 +44,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "motivational and inspirational videos",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 194667,
+      videoNum: 198440,
       topCountries: ["NG", "PK", "PH", "GH", "BR"],
     },
     {
@@ -55,25 +55,11 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["UG", "ID", "BR", "NG"],
     },
     {
-      topic: "I love you more than you know",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 3577,
-      topCountries: ["PH", "MY", "ID", "MM", "KH"],
-    },
-    {
       topic: "you can get through anything in life",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 958,
       topCountries: ["GB", "AU", "PH", "NP", "ZA"],
-    },
-    {
-      topic: "DailyMotivation",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1263,
-      topCountries: ["ZA", "NG", "ID", "GB"],
     },
     {
       topic: "#LoveMyself",
@@ -88,6 +74,20 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 2967,
       topCountries: ["ZA", "NG", "PH", "UG"],
+    },
+    {
+      topic: "living for yourself",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "PH", "AU", "CA", "NG"],
+    },
+    {
+      topic: "i love him but i have self respect",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "ZA", "MY", "CA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "life in miami",
@@ -37,14 +37,14 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "day in my life vlog template",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 22014,
+      videoNum: 22196,
       topCountries: ["ID", "ZA", "PK", "NG"],
     },
     {
       topic: "day in my life in korea",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1438,
+      videoNum: 1442,
       topCountries: ["KR", "NP", "ID", "PH", "MM"],
     },
     {
@@ -60,13 +60,6 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1495,
       topCountries: ["PH", "NG", "ZA", "ID", "UA"],
-    },
-    {
-      topic: "juliet balcony",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 906,
-      topCountries: ["US", "GB", "AU", "CA", "PK"],
     },
     {
       topic: "family vlog ideas",
@@ -86,8 +79,15 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "study abroad daily vlog ideas",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 5969,
+      videoNum: 5965,
       topCountries: ["BR", "AO", "PY", "MZ", "UY"],
+    },
+    {
+      topic: "enjoying the view",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 3198,
+      topCountries: ["PH", "MY", "CA", "ID", "AU"],
     },
   ],
   methodologyNote:

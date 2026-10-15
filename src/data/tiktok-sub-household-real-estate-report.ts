@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "wicknell chivhayo house",
@@ -35,10 +35,17 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Estates",
-      growthMultiplier: 2,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 1020,
       topCountries: ["ZA", "BR", "AU", "CA", "NG"],
+    },
+    {
+      topic: "penthouse st regis",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "MX", "JP"],
     },
     {
       topic: "house in highway",
@@ -76,18 +83,11 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "CA", "AU"],
     },
     {
-      topic: "2 bedroom apartment",
+      topic: "prefab house",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2528,
-      topCountries: ["NG", "ZA", "KE", "PH", "ID"],
-    },
-    {
-      topic: "5 million dollar house",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 930,
-      topCountries: ["NG", "CA", "PH", "ZA", "GH"],
+      videoNum: 613,
+      topCountries: ["PH", "ZA", "NP", "GH", "GB"],
     },
   ],
   methodologyNote:

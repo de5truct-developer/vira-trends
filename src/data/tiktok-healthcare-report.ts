@@ -10,19 +10,11 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "do rams get brain damage",
-      subcategory: "Modern Medicine",
-      growthMultiplier: 135,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "NG"],
-    },
     {
       topic: "neck brace coraline",
       subcategory: "Pan-health",
@@ -36,7 +28,7 @@ export const healthcareReport: TikTokReport = {
       subcategory: "Modern Medicine",
       growthMultiplier: 61,
       trust: "high",
-      videoNum: 1043,
+      videoNum: 1097,
       topCountries: ["US", "GB", "DE", "AU", "CA"],
     },
     {
@@ -48,12 +40,12 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
-      topic: "what is esophagitis",
+      topic: "do rams get brain damage",
       subcategory: "Modern Medicine",
-      growthMultiplier: 7,
+      growthMultiplier: 18,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "NL", "DE", "IE"],
+      topCountries: ["US", "CA", "PH", "ZA", "NG"],
     },
     {
       topic: "what is hypergammy",
@@ -68,7 +60,7 @@ export const healthcareReport: TikTokReport = {
       subcategory: "Pan-health",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1431,
+      videoNum: 1434,
       topCountries: ["US", "GB", "DE", "PL", "FR"],
     },
     {
@@ -80,12 +72,12 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "GB", "SE", "CA", "PH"],
     },
     {
-      topic: "wilsons surgrey for kid grey anatomy",
-      subcategory: "Other Healthcare Content",
+      topic: "yeast infection",
+      subcategory: "Pan-health",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US"],
+      videoNum: 1263,
+      topCountries: ["US", "PH", "MY", "CA", "GB"],
     },
     {
       topic: "gum recession",
@@ -95,11 +87,19 @@ export const healthcareReport: TikTokReport = {
       videoNum: 24195,
       topCountries: ["US", "GB", "PH", "DE", "SE"],
     },
+    {
+      topic: "wilsons surgrey for kid grey anatomy",
+      subcategory: "Other Healthcare Content",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "do rams get brain damage",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "neck brace coraline",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

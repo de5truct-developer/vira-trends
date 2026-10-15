@@ -14,17 +14,17 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "the coven academy",
-      growthMultiplier: 65,
+      growthMultiplier: 452,
       trust: "high",
       videoNum: 509,
-      topCountries: ["US", "GB", "FR", "DE", "PH"],
+      topCountries: ["US", "GB", "BR", "FR", "PH"],
     },
     {
       topic: "is it verity alone",
@@ -41,13 +41,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "BR", "TH"],
     },
     {
-      topic: "her own private hell review",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1221,
-      topCountries: ["US", "GB", "DE", "AU", "CA"],
-    },
-    {
       topic: "lord of verity 24k",
       growthMultiplier: 5,
       trust: "high",
@@ -62,17 +55,10 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["AU", "CA", "BR", "ZA", "TN"],
     },
     {
-      topic: "lord of verity cover",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TH", "CA", "AR"],
-    },
-    {
       topic: "staking laura",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 670,
+      videoNum: 675,
       topCountries: ["US", "SA", "EG", "IQ", "KW"],
     },
     {
@@ -83,11 +69,25 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
+      topic: "lord verity explained",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "PH", "AU", "NZ", "BR"],
+    },
+    {
       topic: "The Reflection You Never Faced by Emma Vale",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1421,
       topCountries: ["PH", "CA", "AU", "ZA", "MY"],
+    },
+    {
+      topic: "lord of verity cover",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TH", "BR", "CA"],
     },
   ],
   methodologyNote:

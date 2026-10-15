@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "when is national boyfriend day",
       subcategory: "Relationship Knowledge",
-      growthMultiplier: 829,
+      growthMultiplier: 2147,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "NL", "SE"],
@@ -72,6 +72,14 @@ export const relationshipsReport: TikTokReport = {
       topCountries: ["ID", "PH", "MY", "MX"],
     },
     {
+      topic: "how to make life more exciting",
+      subcategory: "Psychology",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1202,
+      topCountries: ["AU", "CA", "PH", "ZA", "MY"],
+    },
+    {
       topic: "crying on command",
       subcategory: "Psychology",
       growthMultiplier: 3,
@@ -86,14 +94,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 921,
       topCountries: ["US", "PH", "ID", "MY", "SA"],
-    },
-    {
-      topic: "he regrets losing me",
-      subcategory: "Relationship Knowledge",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 398,
-      topCountries: ["PH", "MY", "ZA", "ID", "UG"],
     },
   ],
   methodologyNote:

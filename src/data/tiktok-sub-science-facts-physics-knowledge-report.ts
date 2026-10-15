@@ -14,14 +14,14 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "how dredging ships move sand fast",
-      growthMultiplier: 6,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["DZ", "MX", "BR", "CO", "AR"],
@@ -34,11 +34,18 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US"],
     },
     {
-      topic: "how energy harvesting really works",
+      topic: "explaining step-powered energy",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ES", "ID"],
+    },
+    {
+      topic: "atoms perfectly lining up footage",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1069,
+      topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
       topic: "faster than light",
@@ -48,7 +55,7 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "BR", "DE", "GB"],
     },
     {
-      topic: "explaining step-powered energy",
+      topic: "how energy harvesting really works",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
@@ -60,13 +67,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "DE", "US", "ID"],
-    },
-    {
-      topic: "atoms perfectly lining up footage",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1069,
-      topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
       topic: "sand dredging",

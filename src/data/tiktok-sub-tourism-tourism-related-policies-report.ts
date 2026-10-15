@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "korea e arrival card",
@@ -48,6 +48,13 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "BR", "PK"],
     },
     {
+      topic: "how to prove funds for a uk visa",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 209,
+      topCountries: ["GB", "NG", "BR", "PK"],
+    },
+    {
       topic: "saudi visa tips for umrah travel",
       growthMultiplier: 1,
       trust: "high",
@@ -74,13 +81,6 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "AR", "CO"],
-    },
-    {
-      topic: "how to prove funds for a uk visa",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 209,
-      topCountries: ["GB", "NG", "BR", "PK"],
     },
     {
       topic: "what travel in afghanistan reveals",

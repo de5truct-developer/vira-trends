@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "StreetVendor",
@@ -38,6 +38,14 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 1101,
       topCountries: ["PH", "BD", "PK", "NG"],
+    },
+    {
+      topic: "build a community with tako",
+      subcategory: "Society News",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["KH", "LA", "MM", "PK", "BD"],
     },
     {
       topic: "policestop",

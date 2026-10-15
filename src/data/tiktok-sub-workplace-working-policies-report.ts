@@ -14,14 +14,14 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "liveincentiveprogramtiveprogram",
-      growthMultiplier: 26,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: 1289,
       topCountries: ["PK", "MM", "MX", "PE"],
@@ -32,13 +32,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "KE", "CA", "BW"],
-    },
-    {
-      topic: "MinimumWage",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AU", "NG", "PH", "NZ"],
     },
     {
       topic: "señales de explotación laboral",
@@ -88,6 +81,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "ID", "PH", "TH", "JP"],
+    },
+    {
+      topic: "bernadette banner job explain",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "CA", "AU", "MY"],
     },
   ],
   methodologyNote:

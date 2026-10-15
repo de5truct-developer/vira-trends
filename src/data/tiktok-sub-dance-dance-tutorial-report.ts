@@ -14,10 +14,10 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "beginner tips for filming baby dances",
@@ -34,18 +34,18 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "PH", "ZA", "MX", "TH"],
     },
     {
+      topic: "dance moves and choreography",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 1121,
+      topCountries: ["ID", "TH", "PH", "MX", "VN"],
+    },
+    {
       topic: "blood pop dance tutorial",
       growthMultiplier: 7,
       trust: "high",
       videoNum: 547,
       topCountries: ["ID", "PH", "MY", "DE", "VN"],
-    },
-    {
-      topic: "you dance trend tutorial",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 903,
-      topCountries: ["PH", "BR", "MX", "PE"],
     },
     {
       topic: "storm choreography",
@@ -55,6 +55,13 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "AU", "ID", "MY", "CA"],
     },
     {
+      topic: "brazil dances tutorial",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 962,
+      topCountries: ["PH", "ID", "TH", "MM", "VN"],
+    },
+    {
       topic: "penalty gqom tutorials",
       growthMultiplier: 5,
       trust: "high",
@@ -62,11 +69,11 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "DZ"],
     },
     {
-      topic: "brazil dances tutorial",
-      growthMultiplier: 4,
+      topic: "you dance trend tutorial",
+      growthMultiplier: 3,
       trust: "high",
-      videoNum: 962,
-      topCountries: ["PH", "ID", "TH", "MM", "VN"],
+      videoNum: 903,
+      topCountries: ["PH", "BR", "MX", "PE"],
     },
     {
       topic: "Shuffle ideas",
@@ -81,13 +88,6 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "CA", "AU", "NG"],
-    },
-    {
-      topic: "springtrap dance tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 471,
-      topCountries: ["MX", "BR", "TH", "PH", "AR"],
     },
   ],
   methodologyNote:

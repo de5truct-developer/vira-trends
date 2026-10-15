@@ -14,31 +14,24 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
+    {
+      topic: "homefront broker vs bodine",
+      growthMultiplier: 100,
+      trust: "high",
+      videoNum: 968,
+      topCountries: ["US", "PH", "ID", "MY", "GB"],
+    },
     {
       topic: "maa bio certification",
       growthMultiplier: 81,
       trust: "high",
       videoNum: 449,
       topCountries: ["CI", "BF", "FR", "TG", "BJ"],
-    },
-    {
-      topic: "homefront broker vs bodine",
-      growthMultiplier: 44,
-      trust: "high",
-      videoNum: 848,
-      topCountries: ["US", "PH", "ID", "MY", "GB"],
-    },
-    {
-      topic: "creative strategist",
-      growthMultiplier: 31,
-      trust: "high",
-      videoNum: 859,
-      topCountries: ["PK", "BR", "AR", "CO"],
     },
     {
       topic: "Angle closure",
@@ -76,6 +69,13 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "NG", "MM", "TZ", "GH"],
     },
     {
+      topic: "AUDIT",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 766,
+      topCountries: ["ID", "RU", "BR", "PH", "TH"],
+    },
+    {
       topic: "diamond certification explained simply",
       growthMultiplier: 3,
       trust: "high",
@@ -93,7 +93,7 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "maa bio certification",
-    audience: "female 18-24, Côte d’Ivoire (dominant segment, snapshot at collection date)",
+    topic: "homefront broker vs bodine",
+    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

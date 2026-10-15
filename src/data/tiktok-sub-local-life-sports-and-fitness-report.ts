@@ -14,24 +14,17 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "allen high school football stadium",
-      growthMultiplier: 33,
+      growthMultiplier: 426,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "AU", "MX"],
-    },
-    {
-      topic: "wemby half court",
-      growthMultiplier: 33,
-      trust: "high",
-      videoNum: 332,
-      topCountries: ["US", "PH", "AU", "CA", "ZA"],
     },
     {
       topic: "juno stadium build 2026",
@@ -44,7 +37,7 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topic: "seahawk stadium",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 116,
+      videoNum: 799,
       topCountries: ["US", "MX"],
     },
     {
@@ -53,6 +46,13 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "ZA", "CA", "AU", "PH"],
+    },
+    {
+      topic: "wemby half court",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 332,
+      topCountries: ["US", "PH", "AU", "CA", "ZA"],
     },
     {
       topic: "summit basketball court",

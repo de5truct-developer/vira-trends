@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "#TakoTaughtMe",
@@ -28,7 +28,7 @@ export const mediaAccountsReport: TikTokReport = {
       subcategory: "Personal Media Accounts",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 31985,
+      videoNum: 33032,
       topCountries: ["ID", "JP", "VN", "MY"],
     },
     {
@@ -48,28 +48,12 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["BR", "PH", "AR", "ID", "MX"],
     },
     {
-      topic: "dailyclips",
-      subcategory: "Personal Media Accounts",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PH", "IQ", "MY"],
-    },
-    {
       topic: "flamepoint",
       subcategory: "Personal Media Accounts",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 273,
-      topCountries: ["PH", "MY", "UG", "CA", "BR"],
-    },
-    {
-      topic: "GoodMotivation",
-      subcategory: "Personal Media Accounts",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 3147,
-      topCountries: ["MX", "PE", "CO", "EC"],
+      topCountries: ["PH", "MY", "CA", "UG", "BR"],
     },
     {
       topic: "RiverOtter",
@@ -82,10 +66,18 @@ export const mediaAccountsReport: TikTokReport = {
     {
       topic: "StudioLife",
       subcategory: "Personal Media Accounts",
-      growthMultiplier: 1,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "ID", "TZ", "BR"],
+    },
+    {
+      topic: "GoodMotivation",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 3147,
+      topCountries: ["MX", "PE", "CO", "EC"],
     },
     {
       topic: "IndieAuthor",
@@ -94,6 +86,14 @@ export const mediaAccountsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ZA", "AU", "CA"],
+    },
+    {
+      topic: "CommunityGoods",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1170,
+      topCountries: ["PH", "CA", "AU", "MX", "ZA"],
     },
   ],
   methodologyNote:

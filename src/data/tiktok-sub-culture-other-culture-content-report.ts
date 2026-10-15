@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "karma stories",
@@ -41,13 +41,6 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "SA", "KW", "JO", "AE"],
     },
     {
-      topic: "Pakistan people",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 45264,
-      topCountries: ["PK", "PH", "NG", "ID", "MY"],
-    },
-    {
       topic: "شعر سعودي",
       growthMultiplier: 1,
       trust: "high",
@@ -55,11 +48,11 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "SA", "EG", "LY"],
     },
     {
-      topic: "houthis explained",
+      topic: "Pakistan people",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "SA", "PH", "AE"],
+      videoNum: 45264,
+      topCountries: ["PK", "PH", "NG", "ID", "MY"],
     },
     {
       topic: "thai people",
@@ -69,11 +62,11 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["TH", "PH", "MY", "ID", "AU"],
     },
     {
-      topic: "facts about slavery you werent taught",
-      growthMultiplier: 0,
+      topic: "houthis explained",
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
+      topCountries: ["GB", "PH", "SA", "CA", "NG"],
     },
   ],
   methodologyNote:

@@ -14,17 +14,24 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
-      topic: "blackberry storm",
-      growthMultiplier: 16,
+      topic: "olivia microphone karaoke",
+      growthMultiplier: 664,
       trust: "high",
-      videoNum: 330,
-      topCountries: ["US", "MX", "PH", "GB", "MY"],
+      videoNum: 753,
+      topCountries: ["US", "PH", "BR", "TH", "CH"],
+    },
+    {
+      topic: "100 chargers in 1 phone result",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: 104,
+      topCountries: ["PH", "CA", "ZA", "MY"],
     },
     {
       topic: "iphone silver",
@@ -37,7 +44,7 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topic: "mate 90 pro max",
       growthMultiplier: 12,
       trust: "high",
-      videoNum: 132,
+      videoNum: 509,
       topCountries: ["VN", "MX", "TH", "ID", "PE"],
     },
     {
@@ -55,18 +62,18 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "ID", "KH", "ET"],
     },
     {
-      topic: "invert your phone",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 438,
-      topCountries: ["US", "PH", "MX", "BR", "ID"],
-    },
-    {
       topic: "puh cracking screen inverted color",
       growthMultiplier: 8,
       trust: "high",
       videoNum: 148,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
+      topic: "blackberry storm",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 330,
+      topCountries: ["US", "MX", "PH", "GB", "MY"],
     },
     {
       topic: "16k 240fps camera",
@@ -82,18 +89,11 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["SO", "KE", "ET", "UG", "CA"],
     },
-    {
-      topic: "belt box for singers",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 595,
-      topCountries: ["ID", "GB", "PH", "FR", "IT"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "blackberry storm",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "olivia microphone karaoke",
+    audience: "not enough audience data for this topic",
   },
 };

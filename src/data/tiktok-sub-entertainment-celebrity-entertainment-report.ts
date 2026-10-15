@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "patrick garcia daughter kpop",
@@ -28,10 +28,17 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
     },
     {
       topic: "bruce jenner now",
-      growthMultiplier: 3897,
+      growthMultiplier: 3534,
       trust: "high",
-      videoNum: 1420,
+      videoNum: 1422,
       topCountries: ["US", "ID", "PH", "MY", "GB"],
+    },
+    {
+      topic: "tyler perry doing life",
+      growthMultiplier: 1165,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "GB", "JM", "CA"],
     },
     {
       topic: "countess vaughn jill scott",
@@ -41,11 +48,18 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["US", "PH", "CA", "BR", "ZA"],
     },
     {
-      topic: "tyler perry doing life",
-      growthMultiplier: 687,
+      topic: "lil yachty and karrah boo",
+      growthMultiplier: 628,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ZA", "GB", "JM", "CA"],
+      topCountries: ["US", "ZA", "CA", "AU", "NZ"],
+    },
+    {
+      topic: "jazz and patrick garcia",
+      growthMultiplier: 496,
+      trust: "high",
+      videoNum: 5777,
+      topCountries: ["PH", "CA", "JP", "AE"],
     },
     {
       topic: "drake and karol g",
@@ -53,6 +67,13 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "ZA", "AU", "SA"],
+    },
+    {
+      topic: "megan fox new look 2026",
+      growthMultiplier: 411,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "DE", "AU"],
     },
     {
       topic: "melissa mccarthy before and now",
@@ -67,27 +88,6 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ID", "MY", "BR"],
-    },
-    {
-      topic: "trey taylor apology",
-      growthMultiplier: 171,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "ZA", "KE"],
-    },
-    {
-      topic: "megan fox new look 2026",
-      growthMultiplier: 128,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "GB", "DE", "AU"],
-    },
-    {
-      topic: "dolly parton and carl dean",
-      growthMultiplier: 127,
-      trust: "high",
-      videoNum: 1048,
-      topCountries: ["US", "GB", "AU", "CA", "PH"],
     },
   ],
   methodologyNote:

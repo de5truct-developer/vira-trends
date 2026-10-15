@@ -14,10 +14,10 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "house 2 story explained",
@@ -25,6 +25,13 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "GB", "MY", "DE"],
+    },
+    {
+      topic: "cinna velcro wall",
+      growthMultiplier: 42,
+      trust: "high",
+      videoNum: 357,
+      topCountries: ["US", "PH", "CA", "GB", "AU"],
     },
     {
       topic: "gypsy head board video",
@@ -37,7 +44,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topic: "headboard video",
       growthMultiplier: 36,
       trust: "high",
-      videoNum: 551,
+      videoNum: 562,
       topCountries: ["US", "GB", "AU", "CA", "NZ"],
     },
     {
@@ -48,13 +55,6 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "AR", "GH", "ZA"],
     },
     {
-      topic: "cinna velcro wall",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: 357,
-      topCountries: ["US", "PH", "CA", "GB", "AU"],
-    },
-    {
       topic: "creative diy home projects",
       growthMultiplier: 11,
       trust: "high",
@@ -62,11 +62,11 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "ID", "PH", "MX"],
     },
     {
-      topic: "dolly parton house",
+      topic: "inside the 2027 x5 redesign",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 5444,
-      topCountries: ["US", "GB", "ZA", "CA", "AU"],
+      videoNum: null,
+      topCountries: ["GB", "ES", "DE", "RO", "ZA"],
     },
     {
       topic: "faze house",
@@ -76,18 +76,18 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AU", "MX", "MY"],
     },
     {
-      topic: "inside the 2027 x5 redesign",
+      topic: "bathroom arch sink pics",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "ES", "DE", "RO", "ZA"],
+      videoNum: 683,
+      topCountries: ["US", "CA", "GB", "AU", "NZ"],
     },
     {
-      topic: "bilbord house",
+      topic: "epoxy floors after years 5",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 136,
-      topCountries: ["TH", "LA", "MM", "MY"],
+      videoNum: 1664,
+      topCountries: ["US", "CA", "GB", "AU", "PH"],
     },
   ],
   methodologyNote:

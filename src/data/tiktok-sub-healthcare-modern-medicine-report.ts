@@ -14,23 +14,16 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "do rams get brain damage",
-      growthMultiplier: 135,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "NG"],
-    },
     {
       topic: "emotional permanence",
       growthMultiplier: 61,
       trust: "high",
-      videoNum: 1043,
+      videoNum: 1097,
       topCountries: ["US", "GB", "DE", "AU", "CA"],
     },
     {
@@ -41,11 +34,11 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
-      topic: "what is esophagitis",
-      growthMultiplier: 7,
+      topic: "do rams get brain damage",
+      growthMultiplier: 18,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "NL", "DE", "IE"],
+      topCountries: ["US", "CA", "PH", "ZA", "NG"],
     },
     {
       topic: "what is cauliflower ear",
@@ -62,6 +55,13 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "DE", "SE"],
     },
     {
+      topic: "secondpuberty",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ZA", "AU", "GB"],
+    },
+    {
       topic: "dumping que es",
       growthMultiplier: 2,
       trust: "high",
@@ -76,24 +76,24 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "ZA", "AE", "RS", "SA"],
     },
     {
-      topic: "mental health and emotional wellbeing",
+      topic: "nastia hospital",
       growthMultiplier: 2,
+      trust: "high",
+      videoNum: 112,
+      topCountries: ["US", "BR", "PH", "MX"],
+    },
+    {
+      topic: "mental health and emotional wellbeing",
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 1178,
       topCountries: ["SN", "NG", "PH", "KE", "ID"],
-    },
-    {
-      topic: "secondpuberty",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "ZA", "AU", "GB"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "do rams get brain damage",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "emotional permanence",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

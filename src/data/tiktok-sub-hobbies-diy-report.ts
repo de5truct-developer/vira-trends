@@ -14,11 +14,18 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
+    {
+      topic: "dreidel dreidel dreidel i made it out of clay",
+      growthMultiplier: 284,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "AU", "BR", "MY"],
+    },
     {
       topic: "new passport design",
       growthMultiplier: 96,
@@ -27,18 +34,18 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "KE", "PK", "SA"],
     },
     {
-      topic: "i made a little dreidel out of clay",
-      growthMultiplier: 55,
+      topic: "teacher day card new style 2026",
+      growthMultiplier: 42,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "GB", "MY"],
+      topCountries: ["PK", "PH", "KE", "SA"],
     },
     {
-      topic: "teacher day card new style 2026",
-      growthMultiplier: 13,
+      topic: "i made a little dreidel out of clay",
+      growthMultiplier: 37,
       trust: "high",
       videoNum: null,
-      topCountries: ["PK", "KE", "PH", "SA"],
+      topCountries: ["US", "PH", "GB", "CA", "AU"],
     },
     {
       topic: "Boo Basket Ideas",
@@ -48,18 +55,11 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "GB", "BR"],
     },
     {
-      topic: "toilet paper roll crafts",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 908,
-      topCountries: ["CA", "PH", "MX", "ZA"],
-    },
-    {
       topic: "How we make back-to-school gifting special",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "GT", "PE", "EC", "HN"],
+      topCountries: ["MX", "GT", "PE", "EC", "CO"],
     },
     {
       topic: "silver clay",
@@ -67,13 +67,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 553,
       topCountries: ["US", "GB", "PH", "ID", "DE"],
-    },
-    {
-      topic: "money bouquet wrapping tutorials",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1017,
-      topCountries: ["ID", "PH", "NG", "NP", "SA"],
     },
     {
       topic: "crochet duffle bag tutorial",
@@ -89,11 +82,18 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       videoNum: 494,
       topCountries: ["US", "PH", "CA", "ZA", "GB"],
     },
+    {
+      topic: "chocolate gift wrapping ideas",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "BD", "NP", "IL"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "new passport design",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "dreidel dreidel dreidel i made it out of clay",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

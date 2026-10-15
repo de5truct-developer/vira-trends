@@ -14,17 +14,17 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
-      topic: "comatozzе body oil",
-      growthMultiplier: 268,
+      topic: "yellow bat top",
+      growthMultiplier: 2411,
       trust: "high",
-      videoNum: 503,
-      topCountries: ["PH", "US", "ID", "MY"],
+      videoNum: null,
+      topCountries: ["MX", "CO", "PE", "AR", "EC"],
     },
     {
       topic: "balenciaga hello kitty",
@@ -35,7 +35,7 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "connor wood phone pouch",
-      growthMultiplier: 123,
+      growthMultiplier: 120,
       trust: "high",
       videoNum: 883,
       topCountries: ["US", "CA", "AU", "GB", "NZ"],
@@ -53,13 +53,6 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 3178,
       topCountries: ["US", "PH", "CA", "GB", "MY"],
-    },
-    {
-      topic: "dotingbeauty",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 517,
-      topCountries: ["US", "PH", "GB", "MY", "AU"],
     },
     {
       topic: "zach bryan toronto merch",
@@ -89,11 +82,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["NG", "PH", "BD", "ID", "ZA"],
     },
+    {
+      topic: "babyliss trade in",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "JP", "BN", "AU"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "comatozzе body oil",
-    audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "yellow bat top",
+    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
   },
 };

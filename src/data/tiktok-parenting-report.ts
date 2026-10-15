@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "preparing my child for bullying",
@@ -22,14 +22,6 @@ export const parentingReport: TikTokReport = {
       trust: "high",
       videoNum: 285731,
       topCountries: ["US", "PK", "BD", "NP", "MM"],
-    },
-    {
-      topic: "thank you baby twins",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 1214,
-      topCountries: ["US", "GB", "ZA", "DE", "FR"],
     },
     {
       topic: "how can i be adopted if i have a twin ai meme",
@@ -42,10 +34,18 @@ export const parentingReport: TikTokReport = {
     {
       topic: "ayden and embriegh",
       subcategory: "Maternal and Infant Care",
-      growthMultiplier: 7,
+      growthMultiplier: 11,
       trust: "high",
-      videoNum: 91247,
+      videoNum: 91243,
       topCountries: ["US", "GB", "CA", "AU", "DE"],
+    },
+    {
+      topic: "thank you baby twins",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 1224,
+      topCountries: ["US", "GB", "ZA", "DE", "FR"],
     },
     {
       topic: "funky kid original",
@@ -58,7 +58,7 @@ export const parentingReport: TikTokReport = {
     {
       topic: "Things to do with kids",
       subcategory: "Maternal and Infant Care",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "ZA", "GB", "SG"],

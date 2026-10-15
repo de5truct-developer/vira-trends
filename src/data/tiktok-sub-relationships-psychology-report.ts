@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "pareidolia level 100000000000",
@@ -46,6 +46,13 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 348,
       topCountries: ["ID", "PH", "MY", "MX"],
+    },
+    {
+      topic: "how to make life more exciting",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1202,
+      topCountries: ["AU", "CA", "PH", "ZA", "MY"],
     },
     {
       topic: "crying on command",
@@ -81,13 +88,6 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "ZA", "CA", "MY"],
-    },
-    {
-      topic: "decision making",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1180,
-      topCountries: ["PH", "ID", "MY", "NG", "ZA"],
     },
   ],
   methodologyNote:

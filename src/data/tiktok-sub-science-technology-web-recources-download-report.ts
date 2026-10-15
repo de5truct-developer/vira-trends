@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "ringtone de nana",
@@ -30,7 +30,7 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topic: "aesthetic wallpaper ideas for phones",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 8834,
+      videoNum: 24434,
       topCountries: ["ID", "MX", "PK", "BD"],
     },
     {
@@ -69,18 +69,18 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["ZA", "PH", "ZW", "NG"],
     },
     {
-      topic: "thragg wallpapers in 4k",
+      topic: "waterfall screen",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MX", "PK", "BR"],
+      videoNum: 198372,
+      topCountries: ["PH", "ID", "MM", "MY"],
     },
     {
-      topic: "best 3d wallpaper setup ideas",
+      topic: "waterphone sound",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MX", "PK", "BR"],
+      videoNum: 1966,
+      topCountries: ["US", "ID", "DE", "MM", "MY"],
     },
     {
       topic: "top 10 best ringtones",

@@ -14,24 +14,31 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
-      topic: "jelly spicy chip mrbeast",
-      growthMultiplier: 39,
+      topic: "Honest juice product reviews",
+      growthMultiplier: 187,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "DE", "NL", "SE"],
+      topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
       topic: "Prime yeat",
-      growthMultiplier: 22,
+      growthMultiplier: 51,
       trust: "high",
       videoNum: 511,
       topCountries: ["US", "GB", "PH", "CA", "DE"],
+    },
+    {
+      topic: "jelly spicy chip mrbeast",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
     {
       topic: "rhode pretzel",
@@ -39,13 +46,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "PL", "CA"],
-    },
-    {
-      topic: "Cowboy candy",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 641,
-      topCountries: ["US", "CA", "AU", "MX", "PH"],
     },
     {
       topic: "cooking paper ikea result review",
@@ -69,18 +69,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "US", "GB", "PH", "PL"],
     },
     {
-      topic: "snacks and essentials for match day",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 237,
-      topCountries: ["CA", "BR", "AU", "PH", "SG"],
-    },
-    {
       topic: "million dollar peanuts maine",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "PH", "AU", "MX"],
+    },
+    {
+      topic: "snacks and essentials for match day",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 237,
+      topCountries: ["CA", "BR", "AU", "PH", "IT"],
     },
     {
       topic: "scoobs original",
@@ -93,7 +93,7 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "jelly spicy chip mrbeast",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Honest juice product reviews",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

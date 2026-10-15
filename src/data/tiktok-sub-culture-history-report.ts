@@ -14,14 +14,14 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "julius and lucius explained",
-      growthMultiplier: 5,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: 1049,
       topCountries: ["PH", "GB", "DE", "CA", "NG"],
@@ -35,7 +35,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "what happened to suchomimus",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 571,
       topCountries: ["US", "PH", "CA", "AU", "ID"],
@@ -63,7 +63,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "my sisters story diana",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "NZ"],

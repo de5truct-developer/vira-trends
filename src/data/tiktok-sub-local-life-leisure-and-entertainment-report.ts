@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "zombie club atlanta georgia",
@@ -31,14 +31,14 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 11,
       trust: "high",
       videoNum: 502,
-      topCountries: ["CA", "GB", "AU", "PL", "NL"],
+      topCountries: ["CA", "AU", "GB", "PL", "NL"],
     },
     {
-      topic: "skipper now",
+      topic: "sky rooftop",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 334,
-      topCountries: ["US", "MX", "CA", "BR", "PH"],
+      videoNum: 551,
+      topCountries: ["PK", "DO", "BR", "AL"],
     },
     {
       topic: "bama rush sorority",
@@ -46,6 +46,13 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: 1178,
       topCountries: ["US", "PH", "CA", "AU", "GB"],
+    },
+    {
+      topic: "kid rock house",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 1103,
+      topCountries: ["GB", "CA", "DE", "AU", "NO"],
     },
     {
       topic: "center parks",
@@ -69,11 +76,11 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["MM", "ZA", "LK", "ID", "NG"],
     },
     {
-      topic: "kid rock house",
+      topic: "skipper now",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1103,
-      topCountries: ["GB", "CA", "DE", "AU", "NO"],
+      videoNum: 334,
+      topCountries: ["US", "MX", "CA", "BR", "PH"],
     },
     {
       topic: "big spender hong kong",
@@ -81,13 +88,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "PH", "ZA", "ID", "GB"],
-    },
-    {
-      topic: "president obama center",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "KE", "DO", "NG", "BE"],
     },
   ],
   methodologyNote:

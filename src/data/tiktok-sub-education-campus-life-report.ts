@@ -14,10 +14,10 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "6 pm to 1 am school",
@@ -31,7 +31,7 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 6,
       trust: "high",
       videoNum: 704,
-      topCountries: ["PH", "ZA", "MY", "AU"],
+      topCountries: ["PH", "ZA", "MY", "AU", "CA"],
     },
     {
       topic: "semester at sea cabin tour ideas",
@@ -41,13 +41,6 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
-      topic: "budget student essentials worth buying",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 221,
-      topCountries: ["US", "ZA", "CA", "NG", "GB"],
-    },
-    {
       topic: "school drill reaction video",
       growthMultiplier: 4,
       trust: "high",
@@ -55,11 +48,18 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "CA", "GB", "MX"],
     },
     {
-      topic: "bcse and three best duo",
-      growthMultiplier: 4,
+      topic: "StudySession",
+      growthMultiplier: 3,
       trust: "high",
-      videoNum: 301,
-      topCountries: ["PH", "ID", "BR", "MY", "MX"],
+      videoNum: 1115,
+      topCountries: ["ZA", "FR", "CA", "BR"],
+    },
+    {
+      topic: "louder bts result student",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "AE", "SA"],
     },
     {
       topic: "school dj",
@@ -76,18 +76,18 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AU", "MY", "ZA"],
     },
     {
-      topic: "emergency kit school",
+      topic: "bcse and three best duo",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 628,
-      topCountries: ["US", "GB", "CA", "RO", "ID"],
+      videoNum: 301,
+      topCountries: ["PH", "ID", "BR", "MY", "MX"],
     },
     {
-      topic: "school resource officer",
+      topic: "budget student essentials worth buying",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 312,
-      topCountries: ["CA", "GB", "PH", "AU", "MY"],
+      videoNum: 221,
+      topCountries: ["US", "ZA", "CA", "NG", "GB"],
     },
   ],
   methodologyNote:

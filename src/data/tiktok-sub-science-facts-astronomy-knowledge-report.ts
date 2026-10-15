@@ -14,24 +14,31 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
-      topic: "how to see stereograms",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 630,
-      topCountries: ["PH", "CA", "MY", "NG", "ZA"],
-    },
-    {
       topic: "GravityMotion",
-      growthMultiplier: 1,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 120,
       topCountries: ["TH", "ID", "MY", "VN"],
+    },
+    {
+      topic: "bubble nebula sound",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 506,
+      topCountries: ["PH", "VN", "ID", "MY"],
+    },
+    {
+      topic: "celestron",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 583,
+      topCountries: ["TR", "ID", "BR", "MX", "SA"],
     },
     {
       topic: "the real shape of earth",
@@ -48,11 +55,11 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["MX", "CA", "BR", "PH", "AU"],
     },
     {
-      topic: "sun real footage",
+      topic: "how to see stereograms",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "MM", "GB", "ZA"],
+      videoNum: 630,
+      topCountries: ["PH", "CA", "MY", "NG", "ZA"],
     },
     {
       topic: "saturn's rings",
@@ -69,18 +76,11 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "NG", "ZA", "PH", "GH"],
     },
     {
-      topic: "bubble nebula sound",
+      topic: "sun real footage",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 506,
-      topCountries: ["PH", "VN", "ID", "MY"],
-    },
-    {
-      topic: "payphone meaning",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 401,
-      topCountries: ["PH", "ID", "MY", "MM", "KH"],
+      videoNum: null,
+      topCountries: ["US", "PH", "MM", "GB", "ZA"],
     },
     {
       topic: "equal earth map",
@@ -93,7 +93,7 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "how to see stereograms",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "GravityMotion",
+    audience: "female 18-24, Thailand (dominant segment, snapshot at collection date)",
   },
 };

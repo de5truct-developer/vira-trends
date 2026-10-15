@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "jm bacacao customer complaint",
@@ -34,6 +34,13 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "VE", "GT", "DO"],
     },
     {
+      topic: "work videos ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 983,
+      topCountries: ["CA", "PK", "AU", "ZA", "EG"],
+    },
+    {
       topic: "visiting friends at work",
       growthMultiplier: 2,
       trust: "high",
@@ -45,14 +52,7 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1161,
-      topCountries: ["ID", "BR", "MX", "MY", "MM"],
-    },
-    {
-      topic: "work videos ideas",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 983,
-      topCountries: ["CA", "PK", "AU", "ZA", "EG"],
+      topCountries: ["ID", "BR", "MY", "MM", "MX"],
     },
     {
       topic: "my coworker file a complaint with hr",
@@ -69,13 +69,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "CA", "PH", "SN", "KH"],
     },
     {
-      topic: "i work",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1122,
-      topCountries: ["VN", "ID", "BR", "PH", "MX"],
-    },
-    {
       topic: "Performance review for serious players",
       growthMultiplier: 1,
       trust: "high",
@@ -87,7 +80,14 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["TH", "PH", "PL", "FR", "VN"],
+      topCountries: ["TH", "PH", "PL", "FR", "ID"],
+    },
+    {
+      topic: "worklife",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 3666,
+      topCountries: ["ID", "GB", "ZA", "MY"],
     },
   ],
   methodologyNote:

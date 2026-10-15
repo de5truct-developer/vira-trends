@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "what is pho",
@@ -27,11 +27,11 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "PH", "GB", "ZA", "GY"],
     },
     {
-      topic: "Eat food",
+      topic: "how to brand a signature food item",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1832,
-      topCountries: ["ZA", "TR", "BR", "MX", "ID"],
+      videoNum: null,
+      topCountries: ["PH", "CA", "AU", "ID"],
     },
     {
       topic: "eating compilation",
@@ -41,11 +41,25 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "PK", "MY", "ZA"],
     },
     {
+      topic: "fun food review with beauty tips",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 2266,
+      topCountries: ["BD", "MM", "BR", "ID"],
+    },
+    {
       topic: "food vlogs and vlogging tips",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1033,
       topCountries: ["MM", "BD", "PK", "NP"],
+    },
+    {
+      topic: "Eat food",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1832,
+      topCountries: ["ZA", "TR", "BR", "MX", "ID"],
     },
     {
       topic: "the original chopsticks metal fork restaurant",
@@ -74,20 +88,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1185,
       topCountries: ["ZA", "PH", "GB", "ID", "SA"],
-    },
-    {
-      topic: "growing from creator to tastemaker",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
-    },
-    {
-      topic: "daily vlog with food and errands",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 705,
-      topCountries: ["MX", "CO", "GT", "VE"],
     },
   ],
   methodologyNote:

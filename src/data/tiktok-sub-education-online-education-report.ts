@@ -14,31 +14,24 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "creators pilot program",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 12671,
-      topCountries: ["US", "GB", "NG", "ZA", "PH"],
-    },
     {
       topic: "online tutoring",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2193,
+      videoNum: 2235,
       topCountries: ["NG", "ZA", "PH", "PK"],
     },
     {
-      topic: "free online courses with certificates",
+      topic: "creators pilot program",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "PK", "CA", "KE"],
+      videoNum: 12671,
+      topCountries: ["US", "GB", "NG", "ZA", "PH"],
     },
     {
       topic: "data tools every intern should learn",
@@ -54,11 +47,18 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       videoNum: 766,
       topCountries: ["VN", "PH", "ZA", "MX", "CA"],
     },
+    {
+      topic: "free online courses with certificates",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "PK", "CA", "KE"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "creators pilot program",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "online tutoring",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

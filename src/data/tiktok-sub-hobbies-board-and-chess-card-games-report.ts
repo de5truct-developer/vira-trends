@@ -14,18 +14,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
-    {
-      topic: "honest review of elite football cards",
-      growthMultiplier: 184,
-      trust: "high",
-      videoNum: 276,
-      topCountries: ["US", "MX", "ZA", "NG", "MY"],
-    },
     {
       topic: "gary card",
       growthMultiplier: 3,
@@ -34,11 +27,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["JM", "ZA", "GB", "CA", "MY"],
     },
     {
-      topic: "panini prizm world cup 2026 cards",
+      topic: "UNO game rules and online play",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["KR", "PK", "BG", "BR", "PY"],
+      videoNum: 318,
+      topCountries: ["ID", "PH", "MX", "AR"],
     },
     {
       topic: "create schach insight video viral today",
@@ -72,7 +65,7 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topic: "create schach insight video viral show",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 6030,
+      videoNum: 6024,
       topCountries: ["PK", "NP", "BD", "MM", "ID"],
     },
     {
@@ -89,11 +82,18 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       videoNum: 756,
       topCountries: ["ID", "PH", "CA", "TH", "VN"],
     },
+    {
+      topic: "how to be good at chess",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 999,
+      topCountries: ["PH", "ID", "MY", "EG"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "honest review of elite football cards",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "gary card",
+    audience: "unknown 18-24, Jamaica (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "Looper",
@@ -32,13 +32,6 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "AU", "CA", "JM"],
-    },
-    {
-      topic: "Fire Alarm",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1048,
-      topCountries: ["CA", "PH", "MM", "MX", "TH"],
     },
     {
       topic: "satyress robots",
@@ -58,7 +51,7 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topic: "random tech finds",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 805,
+      videoNum: 808,
       topCountries: ["PH", "ZA", "ID", "AU", "CA"],
     },
     {
@@ -74,6 +67,13 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 764,
       topCountries: ["PH", "MY", "ID", "JM"],
+    },
+    {
+      topic: "Fire Alarm",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1048,
+      topCountries: ["CA", "PH", "MM", "MX", "TH"],
     },
     {
       topic: "neutrino detector",

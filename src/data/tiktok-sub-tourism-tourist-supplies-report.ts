@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "travel needs",
@@ -38,7 +38,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 618,
-      topCountries: ["CA", "AU", "GB", "DE", "NZ"],
+      topCountries: ["CA", "AU", "GB", "DE", "SG"],
     },
     {
       topic: "travel essentials for women",
@@ -46,13 +46,6 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 962,
       topCountries: ["CA", "MY", "PH", "AU", "ZA"],
-    },
-    {
-      topic: "must-pack travel essentials",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 806,
-      topCountries: ["US", "GB", "PH", "CA", "IE"],
     },
     {
       topic: "travel finds worth bringing home",
@@ -67,6 +60,13 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "must-pack travel essentials",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 806,
+      topCountries: ["US", "GB", "PH", "CA", "IE"],
     },
     {
       topic: "beach packing essentials i actually use",
@@ -87,7 +87,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["KE", "SA", "UG", "QA"],
+      topCountries: ["KE", "UG", "SA", "QA"],
     },
   ],
   methodologyNote:

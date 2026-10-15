@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "neck brace coraline",
@@ -37,8 +37,15 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topic: "hyperggamy",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1431,
+      videoNum: 1434,
       topCountries: ["US", "GB", "DE", "PL", "FR"],
+    },
+    {
+      topic: "yeast infection",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1263,
+      topCountries: ["US", "PH", "MY", "CA", "GB"],
     },
     {
       topic: "HolisticWellness",
@@ -58,7 +65,7 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topic: "optical eyeglass",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2381,
+      videoNum: 2465,
       topCountries: ["KE", "PK", "PH", "MY", "SO"],
     },
     {
@@ -69,25 +76,18 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "CA", "AU", "MY"],
     },
     {
+      topic: "best supplements for gym",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1349,
+      topCountries: ["AU", "PH", "CA", "AE", "ZA"],
+    },
+    {
       topic: "herbal treatment",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1028,
       topCountries: ["NG", "GH", "MY", "KE"],
-    },
-    {
-      topic: "yeast infection",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1263,
-      topCountries: ["US", "PH", "MY", "CA", "GB"],
-    },
-    {
-      topic: "vitamins for women in their 20s",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 851,
-      topCountries: ["PH", "CA", "AU", "TT", "ID"],
     },
   ],
   methodologyNote:

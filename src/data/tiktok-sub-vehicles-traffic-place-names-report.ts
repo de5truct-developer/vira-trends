@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "house in the middle of the road",
@@ -69,18 +69,18 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "BR", "TH", "ID"],
     },
     {
-      topic: "Airports",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "AU", "NG", "PK", "CA"],
-    },
-    {
       topic: "qatar airlines",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1041,
       topCountries: ["PH", "ID", "NP", "PK", "BD"],
+    },
+    {
+      topic: "خط شرق غرب السعودي",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 237,
+      topCountries: ["SA", "IQ", "EG", "AE"],
     },
     {
       topic: "towns and moments from a kenya drive",

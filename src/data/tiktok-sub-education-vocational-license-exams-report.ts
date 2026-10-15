@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "test part 3 result isaac",
@@ -28,10 +28,17 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
     },
     {
       topic: "accounting exam",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 924,
       topCountries: ["PH", "BD", "MM", "ZA", "ID"],
+    },
+    {
+      topic: "past exam questions and answers",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 583,
+      topCountries: ["MM", "ZW", "JP", "TH"],
     },
     {
       topic: "Board exam",

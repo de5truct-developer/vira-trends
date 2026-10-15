@@ -14,11 +14,18 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
+    {
+      topic: "job promotion",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1549,
+      topCountries: ["VN", "PK", "ZA", "NG", "PH"],
+    },
     {
       topic: "us army salary per month",
       growthMultiplier: 3,
@@ -27,11 +34,11 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["NP", "NG", "PH", "KE", "GH"],
     },
     {
-      topic: "job promotion",
+      topic: "apply for tiktok pilot program",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1549,
-      topCountries: ["VN", "PK", "ZA", "NG", "PH"],
+      videoNum: 998,
+      topCountries: ["ZA", "GB", "NG", "SZ", "ET"],
     },
     {
       topic: "JobSearching",
@@ -51,7 +58,7 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topic: "tool demo ideas for daily job sites",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 777,
+      videoNum: 780,
       topCountries: ["TH", "US", "VN", "DE", "MX"],
     },
     {
@@ -67,13 +74,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 595,
       topCountries: ["SG", "GH", "ZA", "NG"],
-    },
-    {
-      topic: "job search and application guidance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 479,
-      topCountries: ["CA", "PH", "AU", "ZA", "IL"],
     },
     {
       topic: "cv examples",
@@ -93,7 +93,7 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "us army salary per month",
-    audience: "male 18-24, Nepal (dominant segment, snapshot at collection date)",
+    topic: "job promotion",
+    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
   },
 };

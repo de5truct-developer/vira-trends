@@ -14,24 +14,24 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
-      topic: "copenhagen height",
-      growthMultiplier: 17,
+      topic: "cortis heights",
+      growthMultiplier: 5,
       trust: "high",
-      videoNum: 730,
-      topCountries: ["US", "IT", "GB", "DE", "PH"],
+      videoNum: 811,
+      topCountries: ["PH", "ID", "US", "TH", "MY"],
     },
     {
-      topic: "the Maldives",
-      growthMultiplier: 7,
+      topic: "venice louisiana",
+      growthMultiplier: 5,
       trust: "high",
-      videoNum: 2200,
-      topCountries: ["US", "GB", "MX", "ID", "FR"],
+      videoNum: 2732,
+      topCountries: ["US", "CA", "GB", "AU", "DE"],
     },
     {
       topic: "bangladesh vibes",
@@ -48,18 +48,18 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "PH", "NG", "JM", "MX"],
     },
     {
+      topic: "CORNWALL ENGLAND",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 785,
+      topCountries: ["ID", "PH", "MY", "AU", "TH"],
+    },
+    {
       topic: "Castle Rock",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 499,
       topCountries: ["US", "BR", "ID", "PH", "MY"],
-    },
-    {
-      topic: "venice louisiana",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 2732,
-      topCountries: ["US", "CA", "GB", "AU", "DE"],
     },
     {
       topic: "united kingdom countries",
@@ -76,11 +76,11 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "SO", "MY", "KE"],
     },
     {
-      topic: "CLEVELAND",
+      topic: "the Maldives",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 2911,
-      topCountries: ["US", "PH", "BR", "ID", "MX"],
+      videoNum: 2250,
+      topCountries: ["US", "GB", "MX", "ID", "FR"],
     },
     {
       topic: "السعوديه المملكه العربيه",
@@ -93,7 +93,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "copenhagen height",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "cortis heights",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

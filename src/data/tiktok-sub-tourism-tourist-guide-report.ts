@@ -14,16 +14,16 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "part 2family friendly attractions in paris 2",
       growthMultiplier: 319,
       trust: "high",
-      videoNum: null,
+      videoNum: 292,
       topCountries: ["US", "CA", "AU", "PA"],
     },
     {
@@ -35,14 +35,14 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "sydney sydney boat pictures",
-      growthMultiplier: 7,
+      growthMultiplier: 46,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "RS", "CA", "AU", "BR"],
     },
     {
       topic: "how to plan a summer park visit",
-      growthMultiplier: 7,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["EG", "ET", "SA", "IQ"],
@@ -51,14 +51,14 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topic: "family getaway with kids",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1035,
+      videoNum: 1036,
       topCountries: ["ZA", "KE", "CA", "PH"],
     },
     {
       topic: "south korea life",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 12169,
+      videoNum: 12282,
       topCountries: ["KR", "PH", "ZA", "NP", "ID"],
     },
     {
@@ -67,13 +67,6 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1187,
       topCountries: ["EG", "SA", "ZA", "CA", "AU"],
-    },
-    {
-      topic: "what not to bring to australia",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NP", "AU", "JP", "AE"],
     },
     {
       topic: "travel hacks you’ll actually use",
@@ -88,6 +81,13 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1133,
       topCountries: ["SA", "IQ", "PK", "ID"],
+    },
+    {
+      topic: "SummerVacay",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 828,
+      topCountries: ["ID", "BR", "TR", "AL"],
     },
   ],
   methodologyNote:

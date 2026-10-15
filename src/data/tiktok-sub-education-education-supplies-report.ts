@@ -14,17 +14,31 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
+    {
+      topic: "back to school haul 2026",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1019,
+      topCountries: ["US", "EG", "SA", "GB", "DE"],
+    },
+    {
+      topic: "glue sponges for classroom",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1129,
+      topCountries: ["US", "PH", "AE", "CA"],
+    },
     {
       topic: "School supply prep without stress",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "CA", "AU", "NL", "SE"],
+      topCountries: ["GB", "CA", "AU", "SE", "NL"],
     },
     {
       topic: "school essentials for boys",
@@ -39,13 +53,6 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 949,
       topCountries: ["DE", "AT", "PH", "CA", "AE"],
-    },
-    {
-      topic: "back to school haul 2026",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1019,
-      topCountries: ["US", "EG", "SA", "GB", "DE"],
     },
     {
       topic: "copy paper",
@@ -82,18 +89,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       videoNum: 136,
       topCountries: ["PH", "CA", "ID", "MX", "SA"],
     },
-    {
-      topic: "أشياء أساسية للعودة إلى المدرسة",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "IQ", "IL", "KW"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "School supply prep without stress",
-    audience: "female 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "back to school haul 2026",
+    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
   },
 };

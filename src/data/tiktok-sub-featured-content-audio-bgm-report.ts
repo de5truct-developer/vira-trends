@@ -14,16 +14,16 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "arabic audio",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 3057,
+      videoNum: 3129,
       topCountries: ["EG", "ID", "SA", "AE", "MA"],
     },
     {
@@ -37,14 +37,14 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topic: "commercial sounds",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1124,
+      videoNum: 1126,
       topCountries: ["US", "PH", "GB", "MY", "ID"],
     },
     {
       topic: "take a photo and see what sound tiktok gives you",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 635080,
+      videoNum: 662916,
       topCountries: ["US", "NG", "PH", "ZA", "GH"],
     },
     {

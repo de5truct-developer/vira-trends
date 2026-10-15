@@ -14,10 +14,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "beef tallow benefits",
@@ -76,18 +76,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "AU", "ZA"],
     },
     {
+      topic: "chia seeds benefits for women",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1090,
+      topCountries: ["ZA", "KE", "NG", "UG", "GH"],
+    },
+    {
       topic: "molasses benefits",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 618,
       topCountries: ["PH", "ZA", "NG", "KE", "ID"],
-    },
-    {
-      topic: "ranking mushrooms by flavor",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "PH", "US", "MY"],
     },
   ],
   methodologyNote:

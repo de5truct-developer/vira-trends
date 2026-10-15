@@ -14,14 +14,21 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
+      topic: "ethiopianwomen",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1234,
+      topCountries: ["ET", "SA", "CA", "AE"],
+    },
+    {
       topic: "beautiful woman science",
-      growthMultiplier: 1,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 297,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
@@ -41,13 +48,6 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["UG", "SA", "PK", "AE"],
     },
     {
-      topic: "ethiopianwomen",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1234,
-      topCountries: ["ET", "SA", "CA", "AE"],
-    },
-    {
       topic: "جمال السعوديات",
       growthMultiplier: 1,
       trust: "high",
@@ -65,7 +65,7 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "beautiful woman science",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "ethiopianwomen",
+    audience: "unknown 25-34, Ethiopia (dominant segment, snapshot at collection date)",
   },
 };

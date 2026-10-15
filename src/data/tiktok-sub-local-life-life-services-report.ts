@@ -14,11 +14,18 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-10-13T05:43:47Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-10-14T07:41:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
+    {
+      topic: "russian balayage guadalajara",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CA", "GT", "CO"],
+    },
     {
       topic: "ray g house mansion",
       growthMultiplier: 3,
@@ -38,7 +45,7 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 810,
-      topCountries: ["MX", "EC", "CO", "PE", "VE"],
+      topCountries: ["MX", "PE", "EC", "CO", "VE"],
     },
     {
       topic: "malicka grai residence",
@@ -62,11 +69,11 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "SD", "EG", "KW"],
     },
     {
-      topic: "my destination weddings",
+      topic: "small salon ideas",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 918,
-      topCountries: ["PH", "DE", "ID", "ZA"],
+      videoNum: 889,
+      topCountries: ["ZA", "KE", "GH", "NG", "TZ"],
     },
     {
       topic: "outdoor photoshoot locations",
@@ -74,13 +81,6 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1048,
       topCountries: ["ID", "BD", "MM", "PK"],
-    },
-    {
-      topic: "small salon ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 889,
-      topCountries: ["ZA", "KE", "GH", "NG", "TZ"],
     },
     {
       topic: "Salon day",
@@ -93,7 +93,7 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "ray g house mansion",
-    audience: "unknown 25-34, Uganda (dominant segment, snapshot at collection date)",
+    topic: "russian balayage guadalajara",
+    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
   },
 };

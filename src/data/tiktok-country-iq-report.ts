@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const iqCountryReport: TikTokCountryReport = {
   country: "Iraq",
   countryCode: "IQ",
-  computedAt: "2026-10-13T05:43:47Z",
+  computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-14",
+  updatedAt: "2026-10-15",
   topics: [
     {
       topic: "50 outfit",
@@ -23,15 +23,6 @@ export const iqCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IQ", "EG", "SA", "BR"],
-    },
-    {
-      topic: "اللهم صلي على محمد وعلى آل محمد مطعم",
-      category: "Gourmet",
-      subcategory: "Offline Catering",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: 3626,
-      topCountries: ["SA", "EG", "IQ", "KW"],
     },
     {
       topic: "كلام تعبر عن مشاعرك",
@@ -52,6 +43,15 @@ export const iqCountryReport: TikTokCountryReport = {
       topCountries: ["IQ", "VN", "SA", "ZA"],
     },
     {
+      topic: "how to plan a summer park visit",
+      category: "Tourism",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["EG", "ET", "SA", "IQ"],
+    },
+    {
       topic: "أفكار تصميم صور للهوية البصرية",
       category: "Personal Interests and Hobbies",
       subcategory: "Visual related Interests",
@@ -68,6 +68,15 @@ export const iqCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 477,
       topCountries: ["IQ", "EG", "SA", "DZ"],
+    },
+    {
+      topic: "emotional pain and coping",
+      category: "Relationship and Psychology",
+      subcategory: "Psychology",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["IQ", "BD", "BR", "SA", "EG"],
     },
     {
       topic: "هاشتاقات تيك توك",
@@ -95,15 +104,6 @@ export const iqCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 644,
       topCountries: ["ID", "PH", "IQ", "VN"],
-    },
-    {
-      topic: "طريق ١٠ السعودية",
-      category: "Vehicles & Transportation",
-      subcategory: "Traffic Place Names",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 571,
-      topCountries: ["SA", "IQ", "EG", "LY", "IL"],
     },
   ],
   methodologyNote:
