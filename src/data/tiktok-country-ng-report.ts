@@ -13,7 +13,7 @@ export const ngCountryReport: TikTokCountryReport = {
   computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-15",
+  updatedAt: "2026-10-16",
   topics: [
     {
       topic: "carter efe vs speed darlington",
