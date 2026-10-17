@@ -17,7 +17,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-16",
+  updatedAt: "2026-10-17",
   topics: [
     {
       topic: "reverse edit tutorial",

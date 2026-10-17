@@ -13,7 +13,7 @@ export const relationshipsReport: TikTokReport = {
   computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-16",
+  updatedAt: "2026-10-17",
   topics: [
     {
       topic: "when is national boyfriend day",
