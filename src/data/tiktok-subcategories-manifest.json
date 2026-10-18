@@ -20,6 +20,16 @@
     "dataFile": "tiktok-sub-acgn-animation-and-comics-report.ts"
   },
   {
+    "slug": "acgn-fiction-web-articles-light-novels",
+    "subcategory": "Fiction (Web Articles/Light Novels)",
+    "parentSlug": "acgn",
+    "parentCategory": "ACGN (Anime, Comics, Games & Novels)",
+    "catL1": "ACGN",
+    "catL2": "Fiction (Web Articles/Light Novels)",
+    "exportName": "acgnFictionWebArticlesLightNovelsSubReport",
+    "dataFile": "tiktok-sub-acgn-fiction-web-articles-light-novels-report.ts"
+  },
+  {
     "slug": "acgn-games",
     "subcategory": "Games",
     "parentSlug": "acgn",
@@ -240,6 +250,26 @@
     "dataFile": "tiktok-sub-entertainment-films-and-tvs-report.ts"
   },
   {
+    "slug": "entertainment-other-entertainment",
+    "subcategory": "Other Entertainment",
+    "parentSlug": "entertainment",
+    "parentCategory": "Entertainment",
+    "catL1": "Entertainment",
+    "catL2": "Other Entertainment",
+    "exportName": "entertainmentOtherEntertainmentSubReport",
+    "dataFile": "tiktok-sub-entertainment-other-entertainment-report.ts"
+  },
+  {
+    "slug": "fashion-fashion-exhibitions-shows-contests",
+    "subcategory": "Fashion Exhibitions/Shows/Contests",
+    "parentSlug": "fashion",
+    "parentCategory": "Fashion",
+    "catL1": "Fashion",
+    "catL2": "Fashion Exhibitions/Shows/Contests",
+    "exportName": "fashionFashionExhibitionsShowsContestsSubReport",
+    "dataFile": "tiktok-sub-fashion-fashion-exhibitions-shows-contests-report.ts"
+  },
+  {
     "slug": "fashion-fashion-news",
     "subcategory": "Fashion News",
     "parentSlug": "fashion",
@@ -360,6 +390,36 @@
     "dataFile": "tiktok-sub-featured-content-trends-challenges-report.ts"
   },
   {
+    "slug": "finance-financial-pan-knowledge",
+    "subcategory": "Financial Pan Knowledge",
+    "parentSlug": "finance",
+    "parentCategory": "Finance and Economics",
+    "catL1": "Finance and Economics",
+    "catL2": "Financial Pan Knowledge",
+    "exportName": "financeFinancialPanKnowledgeSubReport",
+    "dataFile": "tiktok-sub-finance-financial-pan-knowledge-report.ts"
+  },
+  {
+    "slug": "finance-gossip-of-finance-industry",
+    "subcategory": "Gossip of Finance Industry",
+    "parentSlug": "finance",
+    "parentCategory": "Finance and Economics",
+    "catL1": "Finance and Economics",
+    "catL2": "Gossip of Finance Industry",
+    "exportName": "financeGossipOfFinanceIndustrySubReport",
+    "dataFile": "tiktok-sub-finance-gossip-of-finance-industry-report.ts"
+  },
+  {
+    "slug": "finance-other-finance",
+    "subcategory": "Other Finance",
+    "parentSlug": "finance",
+    "parentCategory": "Finance and Economics",
+    "catL1": "Finance and Economics",
+    "catL2": "Other Finance",
+    "exportName": "financeOtherFinanceSubReport",
+    "dataFile": "tiktok-sub-finance-other-finance-report.ts"
+  },
+  {
     "slug": "gourmet-food-festivals-activities",
     "subcategory": "Food Festivals/Activities",
     "parentSlug": "gourmet",
@@ -438,6 +498,16 @@
     "catL2": "Modern Medicine",
     "exportName": "healthcareModernMedicineSubReport",
     "dataFile": "tiktok-sub-healthcare-modern-medicine-report.ts"
+  },
+  {
+    "slug": "healthcare-other-healthcare-content",
+    "subcategory": "Other Healthcare Content",
+    "parentSlug": "healthcare",
+    "parentCategory": "Healthcare",
+    "catL1": "Healthcare",
+    "catL2": "Other Healthcare Content",
+    "exportName": "healthcareOtherHealthcareContentSubReport",
+    "dataFile": "tiktok-sub-healthcare-other-healthcare-content-report.ts"
   },
   {
     "slug": "healthcare-pan-health",

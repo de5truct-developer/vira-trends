@@ -42,11 +42,25 @@
     "dataFile": "tiktok-country-eg-report.ts"
   },
   {
+    "slug": "fr",
+    "name": "France",
+    "code": "FR",
+    "exportName": "frCountryReport",
+    "dataFile": "tiktok-country-fr-report.ts"
+  },
+  {
     "slug": "gb",
     "name": "United Kingdom",
     "code": "GB",
     "exportName": "gbCountryReport",
     "dataFile": "tiktok-country-gb-report.ts"
+  },
+  {
+    "slug": "gh",
+    "name": "Ghana",
+    "code": "GH",
+    "exportName": "ghCountryReport",
+    "dataFile": "tiktok-country-gh-report.ts"
   },
   {
     "slug": "id",
