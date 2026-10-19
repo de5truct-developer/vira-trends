@@ -17,7 +17,7 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-14T07:41:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-10-08",
-  updatedAt: "2026-10-18",
+  updatedAt: "2026-10-19",
   topics: [
     {
       topic: "south park nanny mexican guy",
