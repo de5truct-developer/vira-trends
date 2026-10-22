@@ -13,7 +13,7 @@ export const frCountryReport: TikTokCountryReport = {
   computedAt: "2026-10-20T07:41:50Z",
   windowStart: "2026-10-05",
   windowEnd: "2026-10-18",
-  updatedAt: "2026-10-21",
+  updatedAt: "2026-10-22",
   topics: [
     {
       topic: "miraculous season 7",
