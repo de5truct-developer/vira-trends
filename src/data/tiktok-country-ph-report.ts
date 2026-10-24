@@ -13,7 +13,7 @@ export const phCountryReport: TikTokCountryReport = {
   computedAt: "2026-10-20T07:41:50Z",
   windowStart: "2026-10-04",
   windowEnd: "2026-10-18",
-  updatedAt: "2026-10-23",
+  updatedAt: "2026-10-24",
   topics: [
     {
       topic: "best ways to fold underwear",
