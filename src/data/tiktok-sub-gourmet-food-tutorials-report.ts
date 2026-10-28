@@ -17,7 +17,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-27T01:34:15Z",
   windowStart: "2026-10-12",
   windowEnd: "2026-10-25",
-  updatedAt: "2026-10-27",
+  updatedAt: "2026-10-28",
   topics: [
     {
       topic: "scophopia",

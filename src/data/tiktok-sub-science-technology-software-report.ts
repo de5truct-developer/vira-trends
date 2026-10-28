@@ -17,7 +17,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-10-27T01:34:15Z",
   windowStart: "2026-10-11",
   windowEnd: "2026-10-25",
-  updatedAt: "2026-10-27",
+  updatedAt: "2026-10-28",
   topics: [
     {
       topic: "Halloween video transition ideas and tutorials",
