@@ -14,11 +14,25 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
-  windowStart: "2026-09-28",
+  computedAt: "2026-10-29T12:08:27Z",
+  windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
+    {
+      topic: "InnerGrowth",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "MX", "GH", "CM", "ZA"],
+    },
+    {
+      topic: "habit stacking",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 773,
+      topCountries: ["US", "CA", "GB", "AU", "PH"],
+    },
     {
       topic: "human behavior and psychology concepts",
       growthMultiplier: 2,
@@ -41,11 +55,11 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "SA", "ID", "MY", "EG"],
     },
     {
-      topic: "good memory",
+      topic: "stop lying to yourself",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1145,
-      topCountries: ["ZA", "SA", "TH", "PH", "ID"],
+      videoNum: null,
+      topCountries: ["TH", "PH", "ZA", "MY", "ID"],
     },
     {
       topic: "personal growth through challenges",
@@ -55,10 +69,17 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "IQ", "PK", "PH", "NG"],
     },
     {
+      topic: "good memory",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1145,
+      topCountries: ["ZA", "SA", "TH", "PH", "ID"],
+    },
+    {
       topic: "Affirmation",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1978,
+      videoNum: 1987,
       topCountries: ["PH", "NG", "CA", "VN", "ID"],
     },
     {
@@ -68,32 +89,11 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       videoNum: 618,
       topCountries: ["MX", "AR", "PE", "CO", "VE"],
     },
-    {
-      topic: "signs of a good person",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "KE", "AU"],
-    },
-    {
-      topic: "self aware by temper",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1028,
-      topCountries: ["US", "GB", "DE", "IE", "CA"],
-    },
-    {
-      topic: "urge to replase",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 467,
-      topCountries: ["GB", "PH", "AU", "CA", "MY"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "human behavior and psychology concepts",
-    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
+    topic: "InnerGrowth",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

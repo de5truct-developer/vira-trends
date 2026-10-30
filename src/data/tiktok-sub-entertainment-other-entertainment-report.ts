@@ -14,24 +14,17 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-27",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
     {
       topic: "magic repo man revenge",
-      growthMultiplier: 21,
+      growthMultiplier: 20,
       trust: "high",
       videoNum: 1106,
       topCountries: ["US", "PH", "ID", "MY", "BR"],
-    },
-    {
-      topic: "American pickpocket",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "IT", "GB", "DE", "NL"],
     },
     {
       topic: "The callaway ad",
@@ -41,11 +34,25 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "AU", "CA", "GR", "IE"],
     },
     {
+      topic: "StageBehind",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 753,
+      topCountries: ["VN", "TH", "ID", "PH", "MY"],
+    },
+    {
       topic: "french show lighting",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 702,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
+    },
+    {
+      topic: "American pickpocket",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "IT", "GB", "DE", "NL"],
     },
     {
       topic: "cappy audition",

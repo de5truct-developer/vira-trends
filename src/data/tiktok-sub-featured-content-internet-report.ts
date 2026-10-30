@@ -14,10 +14,10 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
     {
       topic: "How to do I love I love with a passion",
@@ -39,6 +39,13 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PK", "BD", "MM", "NP"],
+    },
+    {
+      topic: "go further with tako",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 169450,
+      topCountries: ["PK", "BD", "MM", "LA", "NP"],
     },
     {
       topic: "i wanna see the sunshine after the rain tutorial",

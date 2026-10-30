@@ -14,11 +14,18 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
+    {
+      topic: "graduation video ideas",
+      growthMultiplier: 32,
+      trust: "high",
+      videoNum: 670,
+      topCountries: ["MY", "EG", "ID", "IQ", "AU"],
+    },
     {
       topic: "african teacher telling students to talk",
       growthMultiplier: 23,
@@ -27,25 +34,11 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "SA", "MY", "GB"],
     },
     {
-      topic: "celebrity wannabe college",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 276,
-      topCountries: ["US", "GB", "CA", "AU", "ZA"],
-    },
-    {
       topic: "aura battle in school",
-      growthMultiplier: 10,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "VN", "CA", "TH"],
-    },
-    {
-      topic: "last day of school vibes",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 851,
-      topCountries: ["PH", "ID", "MY", "VN", "MM"],
     },
     {
       topic: "school soothing classroom in usa",
@@ -55,6 +48,13 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "ES", "AU", "ID"],
     },
     {
+      topic: "last day of school vibes",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 851,
+      topCountries: ["PH", "ID", "MY", "VN", "MM"],
+    },
+    {
       topic: "off of campus",
       growthMultiplier: 5,
       trust: "high",
@@ -62,18 +62,25 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "MX", "FR", "CO", "DE"],
     },
     {
-      topic: "schooltripjoinedagroupimnotcloseto",
+      topic: "sorority email monologue",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 1183,
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "AU", "PH"],
+    },
+    {
+      topic: "schooltripjoinedagroupimnotcloseto",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1182,
       topCountries: ["ID", "PH", "VN", "TH", "MY"],
     },
     {
-      topic: "hows uni going",
+      topic: "midterm season",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 397,
-      topCountries: ["GB", "ID", "TR", "CA", "PL"],
+      videoNum: 406,
+      topCountries: ["SA", "CA", "AE", "PH", "EG"],
     },
     {
       topic: "mr kupido school performance",
@@ -82,18 +89,11 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       videoNum: 281,
       topCountries: ["PH", "AE", "CA", "JP"],
     },
-    {
-      topic: "sorority email monologue",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "african teacher telling students to talk",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "graduation video ideas",
+    audience: "female 18-24, Malaysia (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,11 +14,18 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
+    {
+      topic: "dashain food ideas",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 445,
+      topCountries: ["NP", "AU", "JP", "CA"],
+    },
     {
       topic: "what the fifa world cup crowd eats",
       growthMultiplier: 2,
@@ -27,18 +34,18 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "PH", "MY", "GB", "TH"],
     },
     {
-      topic: "mama mia tea party ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "PT", "AO", "MZ", "PY"],
-    },
-    {
       topic: "Ranking spooky seasonal menu items",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 172,
       topCountries: ["US", "ID", "RU", "BR", "DE"],
+    },
+    {
+      topic: "daily food shopping vlog ideas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "BR", "MX", "JP"],
     },
     {
       topic: "funny foodie vlog with real opinions",
@@ -55,13 +62,6 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "BD", "BR", "MX"],
     },
     {
-      topic: "تجربة أكل إيطالي بطريقة عفوية",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 634,
-      topCountries: ["IQ", "EG", "DZ", "SA"],
-    },
-    {
       topic: "birthday ingredients shopping vlog",
       growthMultiplier: 1,
       trust: "high",
@@ -69,17 +69,31 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["NP", "MM", "KE", "PH", "ET"],
     },
     {
-      topic: "food challenge with extra hot flavors",
-      growthMultiplier: 0,
+      topic: "تجربة أكل إيطالي بطريقة عفوية",
+      growthMultiplier: 1,
       trust: "high",
-      videoNum: 667,
-      topCountries: ["VN", "KR", "JP", "EG"],
+      videoNum: 634,
+      topCountries: ["IQ", "EG", "DZ", "SA"],
+    },
+    {
+      topic: "mama mia tea party ideas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BR", "PT", "AO", "MZ", "PY"],
+    },
+    {
+      topic: "birthday yacht menu ideas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "PH", "ZA"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "what the fifa world cup crowd eats",
-    audience: "female 18-24, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "dashain food ideas",
+    audience: "female 25-34, Nepal (dominant segment, snapshot at collection date)",
   },
 };

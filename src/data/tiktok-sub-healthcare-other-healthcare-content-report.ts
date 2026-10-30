@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
     {
       topic: "wilsons surgrey for kid grey anatomy",
@@ -27,6 +27,13 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "GB"],
     },
     {
+      topic: "being high",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 746,
+      topCountries: ["ZA", "GB", "CA", "PH", "AU"],
+    },
+    {
       topic: "circumcission after care",
       growthMultiplier: 1,
       trust: "high",
@@ -34,17 +41,24 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["PK", "NG", "ZA", "CA", "GH"],
     },
     {
-      topic: "being high",
+      topic: "medical technology",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 737,
-      topCountries: ["ZA", "GB", "CA", "PH", "AU"],
+      videoNum: 909,
+      topCountries: ["PH", "MM", "ID", "TH", "IT"],
+    },
+    {
+      topic: "dnr tutorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "BR", "CA", "ID", "MY"],
     },
     {
       topic: "what to know before trying pdrn",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 293,
       topCountries: ["ID", "EG", "PK", "BR"],
     },
     {

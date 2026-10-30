@@ -14,10 +14,10 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
     {
       topic: "k band radar detector",
@@ -55,11 +55,11 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PE", "CO", "EC"],
     },
     {
-      topic: "iphone duo nano texture",
-      growthMultiplier: 7,
+      topic: "16k 240fps camera",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: 116,
-      topCountries: ["US", "TH", "VN", "CA", "PH"],
+      videoNum: null,
+      topCountries: ["ID", "MX", "BR", "VN", "TH"],
     },
     {
       topic: "ios 26 new features",
@@ -76,18 +76,18 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "NG", "IT", "DE", "MY"],
     },
     {
-      topic: "best lighting for drama scenes",
+      topic: "iphone duo jerryrigeverything",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 495,
-      topCountries: ["ID", "PK", "MY", "VN"],
+      videoNum: null,
+      topCountries: ["US", "NG", "PH", "AU", "CA"],
     },
     {
-      topic: "18pro max",
+      topic: "iphone duo nano texture",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 884,
-      topCountries: ["VN", "TH", "KH", "PK", "MM"],
+      videoNum: null,
+      topCountries: ["US", "TH", "VN", "CA", "PH"],
     },
   ],
   methodologyNote:

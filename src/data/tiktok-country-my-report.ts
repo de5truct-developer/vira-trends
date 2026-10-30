@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
+    {
+      topic: "mental card",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Other Hobbies",
+      growthMultiplier: 125,
+      trust: "high",
+      videoNum: 301,
+      topCountries: ["PH", "ID", "MY", "KH", "TH"],
+    },
     {
       topic: "fred vs grandma scream",
       category: "Entertainment",
@@ -96,20 +105,11 @@ export const myCountryReport: TikTokCountryReport = {
       videoNum: 7436,
       topCountries: ["TH", "ID", "VN", "MM", "MY"],
     },
-    {
-      topic: "postre de cumpleaños con toque casero",
-      category: "Gourmet",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "VN", "ZA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fred vs grandma scream",
-    audience: "male 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "mental card",
+    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

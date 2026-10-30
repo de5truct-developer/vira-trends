@@ -14,10 +14,10 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-10-28T12:17:01Z",
+  computedAt: "2026-10-29T12:08:27Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-29",
+  updatedAt: "2026-10-30",
   topics: [
     {
       topic: "You can only save those who want to be saved",
@@ -48,6 +48,13 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       topCountries: ["KE", "NG", "ID", "PK", "SO"],
     },
     {
+      topic: "lessons from islamic sacred sites",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "BR", "VN"],
+    },
+    {
       topic: "religious imagery",
       growthMultiplier: 1,
       trust: "high",
@@ -55,11 +62,25 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MM", "BD", "BR"],
     },
     {
+      topic: "nation of Islam",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 9635,
+      topCountries: ["GB", "PK", "ET", "CA", "MY"],
+    },
+    {
       topic: "islamic video اللهtiktoktiktok",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 85554,
+      videoNum: 85138,
       topCountries: ["BD", "PK", "GB", "ET"],
+    },
+    {
+      topic: "KarmaIsReal",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 987,
+      topCountries: ["PH", "ID", "NG", "MM"],
     },
     {
       topic: "قران_كريم_ارح_سمعك_وقلبك",
@@ -67,27 +88,6 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 50179,
       topCountries: ["EG", "IQ", "SA", "DZ"],
-    },
-    {
-      topic: "rajab entry in dr eman mehndi",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 670,
-      topCountries: ["PK", "AE", "SA", "GB"],
-    },
-    {
-      topic: "jehovah old man original video",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 579,
-      topCountries: ["NG", "GH", "GB", "KE", "ZA"],
-    },
-    {
-      topic: "noahs ark discovered",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 618,
-      topCountries: ["US", "GB", "PH", "CA", "AU"],
     },
   ],
   methodologyNote:
