@@ -14,10 +14,10 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "ballroom hair keramas",
@@ -25,6 +25,13 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 783,
       topCountries: ["ID", "MY", "TH", "BR"],
+    },
+    {
+      topic: "minimal hip-hop with visual storytelling",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RU", "BY", "UA", "KZ", "DE"],
     },
     {
       topic: "أجمل لحظات الدبكة في الأعراس",
@@ -48,11 +55,11 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "EG", "SA", "DZ"],
     },
     {
-      topic: "shirib somali dance",
+      topic: "tinikling performance",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 447,
-      topCountries: ["SO", "KE", "CA", "AU", "ET"],
+      videoNum: 417,
+      topCountries: ["PH", "NZ", "CA", "KW"],
     },
     {
       topic: "IndianDance",
@@ -69,25 +76,18 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "PH", "TH", "MY"],
     },
     {
-      topic: "indian head shake",
+      topic: "shirib somali dance",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 168,
-      topCountries: ["PH", "MX", "VN", "CA", "ID"],
+      videoNum: 447,
+      topCountries: ["SO", "KE", "CA", "AU", "ET"],
     },
     {
-      topic: "Eritrean dance",
+      topic: "indians dancing",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1233,
-      topCountries: ["CA", "ET", "UG", "SA", "AU"],
-    },
-    {
-      topic: "Chinese dancers",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1051,
-      topCountries: ["PH", "ZA", "CA", "AU", "NZ"],
+      videoNum: 1185,
+      topCountries: ["PH", "TH", "VN", "GB", "BR"],
     },
   ],
   methodologyNote:

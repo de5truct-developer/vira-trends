@@ -14,14 +14,14 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "nikola tesla aura farming",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 172,
       topCountries: ["PH", "GB", "ID", "TH", "CA"],
@@ -30,7 +30,7 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "nikola tesla time machine",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 700,
+      videoNum: 706,
       topCountries: ["US", "PH", "FR", "GB", "DE"],
     },
     {
@@ -48,6 +48,13 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
+      topic: "how dredging ships move sand fast",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["DZ", "MX", "BR", "CO", "AR"],
+    },
+    {
       topic: "how energy harvesting really works",
       growthMultiplier: 1,
       trust: "high",
@@ -62,11 +69,11 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "ES", "ID"],
     },
     {
-      topic: "how dredging ships move sand fast",
+      topic: "sand dredging",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: null,
-      topCountries: ["DZ", "MX", "BR", "CO", "AR"],
+      videoNum: 658,
+      topCountries: ["ZA", "PH", "AU", "CA", "MY"],
     },
     {
       topic: "faster than light",
@@ -74,13 +81,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "BR", "GB", "VN"],
-    },
-    {
-      topic: "particle accelerator anatoli bugorski",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "AU", "RS", "GE"],
     },
     {
       topic: "there is something faster than light",

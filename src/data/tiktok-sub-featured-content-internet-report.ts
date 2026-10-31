@@ -14,10 +14,10 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "How to do I love I love with a passion",
@@ -25,13 +25,6 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 2109,
       topCountries: ["PK", "MM", "NP", "BD", "ID"],
-    },
-    {
-      topic: "love realized too late review",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 8208,
-      topCountries: ["PK", "BD", "ID", "IR"],
     },
     {
       topic: "sports illustrated swimsuit 2026 review",
@@ -44,12 +37,12 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       topic: "go further with tako",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 169450,
+      videoNum: 169350,
       topCountries: ["PK", "BD", "MM", "LA", "NP"],
     },
     {
       topic: "i wanna see the sunshine after the rain tutorial",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 9844,
       topCountries: ["PK", "BY", "MM", "VN", "RU"],
@@ -60,6 +53,20 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "PK", "BD", "JP", "ID"],
+    },
+    {
+      topic: "love realized too late review",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 8208,
+      topCountries: ["PK", "BD", "ID", "IR"],
+    },
+    {
+      topic: "Stream with Tako",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "MM", "NP", "BD", "PH"],
     },
   ],
   methodologyNote:

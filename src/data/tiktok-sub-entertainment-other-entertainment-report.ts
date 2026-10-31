@@ -14,24 +14,24 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-27",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
-      topic: "magic repo man revenge",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 1106,
-      topCountries: ["US", "PH", "ID", "MY", "BR"],
-    },
-    {
       topic: "The callaway ad",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "AU", "CA", "GR", "IE"],
+    },
+    {
+      topic: "actions and stuff etiquetas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "AR", "CL", "BR"],
     },
     {
       topic: "StageBehind",
@@ -41,18 +41,25 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["VN", "TH", "ID", "PH", "MY"],
     },
     {
+      topic: "magic repo man revenge",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1106,
+      topCountries: ["US", "PH", "ID", "MY", "BR"],
+    },
+    {
+      topic: "American pickpocket",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "IT", "GB", "DE", "NL"],
+    },
+    {
       topic: "french show lighting",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 702,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
-    },
-    {
-      topic: "American pickpocket",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "IT", "GB", "DE", "NL"],
     },
     {
       topic: "cappy audition",
@@ -65,7 +72,7 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "magic repo man revenge",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "The callaway ad",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

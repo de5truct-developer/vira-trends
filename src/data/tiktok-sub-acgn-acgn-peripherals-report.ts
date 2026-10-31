@@ -14,10 +14,10 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "captain save aho costume",
@@ -28,7 +28,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "avery gundam",
-      growthMultiplier: 3,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "MY", "CA"],

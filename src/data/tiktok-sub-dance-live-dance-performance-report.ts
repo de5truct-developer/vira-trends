@@ -14,10 +14,10 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
-  windowStart: "2026-09-29",
+  computedAt: "2026-10-31T01:09:17Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "best moments at psy summer swag 2026",
@@ -27,11 +27,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "ID", "BR", "VN", "PH"],
     },
     {
-      topic: "cortis moneymoney performance",
+      topic: "james brown footwork",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "PH", "MM"],
+      videoNum: 358,
+      topCountries: ["US", "BR", "ZA", "PH", "CA"],
     },
     {
       topic: "babymonster summer performance vibe",
@@ -41,11 +41,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "TH", "VN", "MY"],
     },
     {
-      topic: "james brown footwork",
+      topic: "james brown moonwalk",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 358,
-      topCountries: ["US", "BR", "ZA", "PH", "CA"],
+      videoNum: null,
+      topCountries: ["ZA", "PH", "NG", "ID", "MY"],
     },
     {
       topic: "vogue battle school",
@@ -55,11 +55,25 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "BR", "MX", "MY"],
     },
     {
+      topic: "cortis moneymoney performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "MM"],
+    },
+    {
       topic: "brotherhood bebot performance",
       growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "CA", "AU", "SG"],
+    },
+    {
+      topic: "1 million judas performance",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "CA", "SG"],
     },
   ],
   methodologyNote:

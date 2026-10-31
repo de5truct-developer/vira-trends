@@ -14,17 +14,31 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
+    {
+      topic: "why do doctors walk backwards in the theater",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 572,
+      topCountries: ["ZA", "KE", "NG", "ZW"],
+    },
     {
       topic: "wilsons surgrey for kid grey anatomy",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB"],
+    },
+    {
+      topic: "Caregiving",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "NG", "CA", "KE", "LK"],
     },
     {
       topic: "being high",
@@ -34,18 +48,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["ZA", "GB", "CA", "PH", "AU"],
     },
     {
-      topic: "circumcission after care",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 334,
-      topCountries: ["PK", "NG", "ZA", "CA", "GH"],
-    },
-    {
       topic: "medical technology",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 909,
       topCountries: ["PH", "MM", "ID", "TH", "IT"],
+    },
+    {
+      topic: "circumcission after care",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 334,
+      topCountries: ["PK", "NG", "ZA", "CA", "GH"],
     },
     {
       topic: "dnr tutorial",
@@ -58,7 +72,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topic: "what to know before trying pdrn",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 293,
+      videoNum: null,
       topCountries: ["ID", "EG", "PK", "BR"],
     },
     {
@@ -70,30 +84,16 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "never broke a bone theory",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 24956,
       topCountries: ["GB", "FR", "CA", "DE", "AU"],
-    },
-    {
-      topic: "orange order explained",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 787,
-      topCountries: ["US", "GB", "IE", "CA", "ES"],
-    },
-    {
-      topic: "cmac disability",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 344,
-      topCountries: ["US", "GB", "NL", "IT", "IE"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "wilsons surgrey for kid grey anatomy",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "why do doctors walk backwards in the theater",
+    audience: "unknown 25-34, Kenya (dominant segment, snapshot at collection date)",
   },
 };

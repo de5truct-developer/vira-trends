@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "accounting exam",
@@ -37,8 +37,15 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topic: "best self-review tips for let 2026",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 273,
       topCountries: ["ID", "US", "FR", "SE", "DE"],
+    },
+    {
+      topic: "test part 3 result isaac",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "CA", "PH", "AU"],
     },
     {
       topic: "b1 and b2",
@@ -46,6 +53,13 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 728,
       topCountries: ["PH", "SA", "ID", "ZA", "DE"],
+    },
+    {
+      topic: "midterm exam",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 801,
+      topCountries: ["PH", "ID", "TH", "MY", "KH"],
     },
     {
       topic: "past exam questions and answers",

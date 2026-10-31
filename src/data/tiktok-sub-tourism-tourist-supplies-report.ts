@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-10-29T12:08:27Z",
+  computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-29",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-30",
+  updatedAt: "2026-10-31",
   topics: [
     {
       topic: "carry-on essentials for a short trip",
@@ -41,11 +41,11 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "TL", "BN"],
     },
     {
-      topic: "travel gadgets i actually use",
+      topic: "pack for vacation",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["KE", "UG", "SA", "AE"],
+      videoNum: 958,
+      topCountries: ["CA", "AU", "ZA", "PH", "MA"],
     },
     {
       topic: "what i pack for hot weather travel",
@@ -65,7 +65,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topic: "travel essentials for women",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 962,
+      videoNum: 964,
       topCountries: ["CA", "MY", "PH", "AU", "ZA"],
     },
     {
