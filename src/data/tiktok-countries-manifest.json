@@ -28,6 +28,13 @@
     "dataFile": "tiktok-country-ca-report.ts"
   },
   {
+    "slug": "co",
+    "name": "Colombia",
+    "code": "CO",
+    "exportName": "coCountryReport",
+    "dataFile": "tiktok-country-co-report.ts"
+  },
+  {
     "slug": "de",
     "name": "Germany",
     "code": "DE",
@@ -40,6 +47,13 @@
     "code": "EG",
     "exportName": "egCountryReport",
     "dataFile": "tiktok-country-eg-report.ts"
+  },
+  {
+    "slug": "et",
+    "name": "Ethiopia",
+    "code": "ET",
+    "exportName": "etCountryReport",
+    "dataFile": "tiktok-country-et-report.ts"
   },
   {
     "slug": "fr",
@@ -77,6 +91,13 @@
     "dataFile": "tiktok-country-iq-report.ts"
   },
   {
+    "slug": "ke",
+    "name": "Kenya",
+    "code": "KE",
+    "exportName": "keCountryReport",
+    "dataFile": "tiktok-country-ke-report.ts"
+  },
+  {
     "slug": "mm",
     "name": "Myanmar",
     "code": "MM",
@@ -103,6 +124,13 @@
     "code": "NG",
     "exportName": "ngCountryReport",
     "dataFile": "tiktok-country-ng-report.ts"
+  },
+  {
+    "slug": "np",
+    "name": "Nepal",
+    "code": "NP",
+    "exportName": "npCountryReport",
+    "dataFile": "tiktok-country-np-report.ts"
   },
   {
     "slug": "ph",

@@ -740,6 +740,16 @@
     "dataFile": "tiktok-sub-science-facts-biology-knowledge-report.ts"
   },
   {
+    "slug": "science-facts-chemistry-knowledge",
+    "subcategory": "Chemistry Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Chemistry Knowledge",
+    "exportName": "scienceFactsChemistryKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-chemistry-knowledge-report.ts"
+  },
+  {
     "slug": "science-facts-geology-knowledge",
     "subcategory": "Geology Knowledge",
     "parentSlug": "science-facts",
@@ -778,6 +788,16 @@
     "catL2": "Science Knowledge - Others",
     "exportName": "scienceFactsScienceKnowledgeOthersSubReport",
     "dataFile": "tiktok-sub-science-facts-science-knowledge-others-report.ts"
+  },
+  {
+    "slug": "science-facts-space-exploration",
+    "subcategory": "Space Exploration",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Space Exploration",
+    "exportName": "scienceFactsSpaceExplorationSubReport",
+    "dataFile": "tiktok-sub-science-facts-space-exploration-report.ts"
   },
   {
     "slug": "science-facts-unresolved-mysteries",
