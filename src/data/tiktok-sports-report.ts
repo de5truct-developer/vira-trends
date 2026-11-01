@@ -13,7 +13,7 @@ export const sportsReport: TikTokReport = {
   computedAt: "2026-10-31T01:09:17Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-10-26",
-  updatedAt: "2026-10-31",
+  updatedAt: "2026-11-01",
   topics: [
     {
       topic: "yan diomande goal today",
