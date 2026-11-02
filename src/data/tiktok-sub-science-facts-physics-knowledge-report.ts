@@ -14,24 +14,31 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-28",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-01T12:03:59Z",
+  windowStart: "2026-10-03",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-02",
   topics: [
     {
+      topic: "atoms lining up perfectly",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 507,
+      topCountries: ["GB", "PH", "DE", "IT", "CA"],
+    },
+    {
       topic: "nikola tesla aura farming",
-      growthMultiplier: 3,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 172,
       topCountries: ["PH", "GB", "ID", "TH", "CA"],
     },
     {
-      topic: "nikola tesla time machine",
-      growthMultiplier: 2,
+      topic: "2.2 ship physics",
+      growthMultiplier: 1,
       trust: "high",
-      videoNum: 706,
-      topCountries: ["US", "PH", "FR", "GB", "DE"],
+      videoNum: null,
+      topCountries: ["PH", "ID", "MX", "CA", "VN"],
     },
     {
       topic: "atlas system typology",
@@ -41,11 +48,11 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "AR", "MY"],
     },
     {
-      topic: "atoms perfectly lining up footage",
+      topic: "what makes physics feel so difficult",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1069,
-      topCountries: ["PH", "ID", "MY", "CA", "AU"],
+      videoNum: 160,
+      topCountries: ["US", "PH", "GB", "NG", "MY"],
     },
     {
       topic: "how dredging ships move sand fast",
@@ -69,13 +76,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "ES", "ID"],
     },
     {
-      topic: "sand dredging",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 658,
-      topCountries: ["ZA", "PH", "AU", "CA", "MY"],
-    },
-    {
       topic: "faster than light",
       growthMultiplier: 0,
       trust: "high",
@@ -93,7 +93,7 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "nikola tesla aura farming",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "atoms lining up perfectly",
+    audience: "unknown 18-24, United Kingdom (dominant segment, snapshot at collection date)",
   },
 };
