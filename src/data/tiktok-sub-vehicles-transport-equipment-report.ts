@@ -14,10 +14,10 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "q50 white woman",
@@ -44,7 +44,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topic: "togi mini trucks",
       growthMultiplier: 1197,
       trust: "high",
-      videoNum: 1132,
+      videoNum: null,
       topCountries: ["US", "PH", "MY", "AU", "ID"],
     },
     {
@@ -55,11 +55,32 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ZA", "ID", "CA"],
     },
     {
+      topic: "bugatti bought from china",
+      growthMultiplier: 497,
+      trust: "high",
+      videoNum: 209,
+      topCountries: ["US", "GB", "DE", "IT", "NL"],
+    },
+    {
+      topic: "Code rot",
+      growthMultiplier: 417,
+      trust: "high",
+      videoNum: 593,
+      topCountries: ["US", "GB", "CA", "PH", "AU"],
+    },
+    {
       topic: "m3 40i car",
       growthMultiplier: 390,
       trust: "high",
-      videoNum: 851,
+      videoNum: null,
       topCountries: ["US", "PH", "CA", "ZA", "AU"],
+    },
+    {
+      topic: "boat steering",
+      growthMultiplier: 380,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "AU", "PH", "CA", "NZ"],
     },
     {
       topic: "yaris rally",
@@ -67,27 +88,6 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 393,
       topCountries: ["US", "ID", "MY", "TH", "CO"],
-    },
-    {
-      topic: "1984 chevy clancy",
-      growthMultiplier: 79,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "DE", "RU", "UA", "KZ"],
-    },
-    {
-      topic: "Flying car",
-      growthMultiplier: 56,
-      trust: "high",
-      videoNum: 1098,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
-    },
-    {
-      topic: "why rare suvs feel like supercars",
-      growthMultiplier: 33,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "GH", "KE", "UG"],
     },
   ],
   methodologyNote:

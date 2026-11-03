@@ -14,10 +14,10 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "james brown footwork",
@@ -48,11 +48,25 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "BR", "MX"],
     },
     {
+      topic: "brotherhood bebot performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "US", "CA", "AU", "SG"],
+    },
+    {
       topic: "billy ocean moonwalk",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 410,
+      videoNum: null,
       topCountries: ["BR", "PH", "ZA", "GB"],
+    },
+    {
+      topic: "cortis moneymoney performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "MM"],
     },
     {
       topic: "vogue battle school",
@@ -65,7 +79,7 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topic: "rihanna super bowl dance",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 537,
+      videoNum: null,
       topCountries: ["US", "GB", "FR", "BR", "PH"],
     },
   ],

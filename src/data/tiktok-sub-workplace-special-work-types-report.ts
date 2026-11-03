@@ -14,10 +14,10 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "placeneta",
@@ -25,6 +25,13 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1159,
       topCountries: ["US", "ET", "PE", "MX", "BD"],
+    },
+    {
+      topic: "chick fil a customer service",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 318,
+      topCountries: ["PH", "ID", "MY", "CA", "VN"],
     },
     {
       topic: "adnan bashir assistant commissioner",
@@ -41,6 +48,13 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "FR", "PL"],
     },
     {
+      topic: "mike security consultant",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "AU", "PH"],
+    },
+    {
       topic: "drifter doorman",
       growthMultiplier: 5,
       trust: "high",
@@ -48,11 +62,11 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "PH", "CA", "GB", "RU"],
     },
     {
-      topic: "Airbnb host and owner roles",
+      topic: "nvidia employee",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 550,
-      topCountries: ["US", "GB", "PH", "CA", "AU"],
+      videoNum: 378,
+      topCountries: ["PH", "GB", "ZA", "ID", "CA"],
     },
     {
       topic: "digital circus roleplay team casting",
@@ -62,32 +76,18 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "PH", "VN"],
     },
     {
-      topic: "teamwork 2026 today",
+      topic: "real customer experience at salons",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "BN", "PH"],
+    },
+    {
+      topic: "attention store customers",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["NG", "JP", "PK", "GH", "QA"],
-    },
-    {
-      topic: "clancy baby sitter",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "AU", "GB"],
-    },
-    {
-      topic: "Social media strategist",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1076,
-      topCountries: ["NG", "PH", "ZA", "ID", "CA"],
-    },
-    {
-      topic: "Working at gyg",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 196,
-      topCountries: ["AU", "NZ", "SG", "TH"],
+      topCountries: ["ID", "MY", "CA", "PH", "BR"],
     },
   ],
   methodologyNote:

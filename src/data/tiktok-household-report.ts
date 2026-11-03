@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "folding chairs to take away",
@@ -22,6 +22,14 @@ export const householdReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["DE", "IT", "GB", "PL", "FR"],
+    },
+    {
+      topic: "what changed in our home project",
+      subcategory: "Home Life",
+      growthMultiplier: 67,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
       topic: "barndominium build progress update",
@@ -52,7 +60,7 @@ export const householdReport: TikTokReport = {
       subcategory: "Home Life",
       growthMultiplier: 33,
       trust: "high",
-      videoNum: 168,
+      videoNum: null,
       topCountries: ["PH", "US", "ZA", "MX", "BR"],
     },
     {
@@ -72,28 +80,20 @@ export const householdReport: TikTokReport = {
       topCountries: ["PK", "BD", "NP", "FR"],
     },
     {
+      topic: "jschlatt room tour",
+      subcategory: "House Decoration",
+      growthMultiplier: 20,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "PH", "MY", "ID"],
+    },
+    {
       topic: "funny home updates with real results",
       subcategory: "House Decoration",
       growthMultiplier: 19,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "NZ"],
-    },
-    {
-      topic: "million dollar house affordability and examples",
-      subcategory: "Real Estate",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "AU", "DE"],
-    },
-    {
-      topic: "wardrobe and yera",
-      subcategory: "Home Life",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: 1065,
-      topCountries: ["US", "CA", "GB", "AU", "NZ"],
     },
   ],
   methodologyNote:

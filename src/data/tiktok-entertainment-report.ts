@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -36,7 +36,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Films and TVs",
       growthMultiplier: 1101,
       trust: "high",
-      videoNum: 906,
+      videoNum: null,
       topCountries: ["PH", "NG", "GH", "ZA", "MM"],
     },
     {
@@ -44,7 +44,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 358,
       trust: "high",
-      videoNum: 643,
+      videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "PL"],
     },
     {
@@ -88,12 +88,12 @@ export const entertainmentReport: TikTokReport = {
       topCountries: ["US", "GB", "PH", "ZA", "AU"],
     },
     {
-      topic: "jarvis vision quest",
+      topic: "loveindisguise",
       subcategory: "Films and TVs",
-      growthMultiplier: 18,
+      growthMultiplier: 26,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ID", "PH", "MX", "BR"],
+      topCountries: ["ID", "PH", "MY", "TH", "US"],
     },
   ],
   methodologyNote:

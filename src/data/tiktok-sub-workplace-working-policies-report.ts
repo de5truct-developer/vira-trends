@@ -14,11 +14,18 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "to earn the right to work",
+      growthMultiplier: 183,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
+    },
     {
       topic: "customer rights when items disappoint",
       growthMultiplier: 3,
@@ -76,24 +83,17 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "JP", "TW"],
     },
     {
-      topic: "live incentive program participation guide",
+      topic: "job vacancies hours ago",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PE", "BR", "VE", "MX"],
-    },
-    {
-      topic: "community health worker salary",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "KE", "ZA", "GH"],
+      videoNum: 572,
+      topCountries: ["KE", "UG", "GH", "ZM"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "customer rights when items disappoint",
-    audience: "unknown 18-24, Brazil (dominant segment, snapshot at collection date)",
+    topic: "to earn the right to work",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,11 +14,18 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "rectangle theory",
+      growthMultiplier: 450,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "AU", "PH", "DE"],
+    },
     {
       topic: "fmu meaning",
       growthMultiplier: 208,
@@ -34,11 +41,25 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "PH", "SA", "MY"],
     },
     {
+      topic: "aura farming in class",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 650,
+      topCountries: ["VN", "ID", "US", "PH", "TH"],
+    },
+    {
       topic: "class-based farming game strategies",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "ID", "PH", "US", "TH"],
+    },
+    {
+      topic: "factorby",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 413,
+      topCountries: ["BR", "BY", "RU", "KZ"],
     },
     {
       topic: "carter method",
@@ -51,7 +72,7 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topic: "roob elementery school",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 682,
+      videoNum: null,
       topCountries: ["US", "GB", "BR", "DE", "CA"],
     },
     {
@@ -62,38 +83,17 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "GB", "PH", "AU", "IE"],
     },
     {
-      topic: "Anki memory learning methods",
+      topic: "PhysicsTeacher",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "SA", "AU"],
-    },
-    {
-      topic: "the tallest school in usa",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 406,
-      topCountries: ["PH", "ZA", "NG", "KE"],
-    },
-    {
-      topic: "banga national high school",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 993,
-      topCountries: ["PH", "US", "ID", "AE"],
-    },
-    {
-      topic: "community care through simple acts",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 441,
-      topCountries: ["MX", "CO", "PE", "AR"],
+      videoNum: 919,
+      topCountries: ["ID", "BR", "DZ", "BD"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fmu meaning",
+    topic: "rectangle theory",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

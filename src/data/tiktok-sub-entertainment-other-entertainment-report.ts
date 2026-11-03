@@ -14,25 +14,11 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-27",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-02T12:08:04Z",
+  windowStart: "2026-10-03",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-03",
   topics: [
-    {
-      topic: "The callaway ad",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "AU", "CA", "GR", "IE"],
-    },
-    {
-      topic: "actions and stuff etiquetas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "CO", "AR", "CL", "BR"],
-    },
     {
       topic: "StageBehind",
       growthMultiplier: 1,
@@ -41,25 +27,25 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["VN", "TH", "ID", "PH", "MY"],
     },
     {
-      topic: "magic repo man revenge",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1106,
-      topCountries: ["US", "PH", "ID", "MY", "BR"],
-    },
-    {
       topic: "American pickpocket",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "IT", "GB", "DE", "NL"],
     },
     {
       topic: "french show lighting",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
-      videoNum: 702,
+      videoNum: null,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
+    },
+    {
+      topic: "magic repo man revenge",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 1106,
+      topCountries: ["US", "PH", "ID", "MY", "BR"],
     },
     {
       topic: "cappy audition",
@@ -72,7 +58,7 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "The callaway ad",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "StageBehind",
+    audience: "unknown 18-24, Vietnam (dominant segment, snapshot at collection date)",
   },
 };

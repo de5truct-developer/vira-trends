@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "تصميم كره قدم",
@@ -27,6 +27,20 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "YE", "EG", "SA"],
     },
     {
+      topic: "personal growth through team sport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 719,
+      topCountries: ["US", "ID", "MX", "PH", "TR"],
+    },
+    {
+      topic: "Persib fan viral content",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "AU", "BO"],
+    },
+    {
       topic: "how athletes build social presence",
       growthMultiplier: 1,
       trust: "high",
@@ -34,11 +48,25 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "BR", "VN"],
     },
     {
+      topic: "What I pack for tournament day",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MX", "GB", "ID"],
+    },
+    {
       topic: "أفضل لحظات الحفل الشاطئي",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 192,
       topCountries: ["BR", "MX", "PE", "ID", "CO"],
+    },
+    {
+      topic: "أكثر إعادة تقديم مثيرة للجدل",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1088,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
       topic: "easy atp production explained",
@@ -60,27 +88,6 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 777,
       topCountries: ["PH", "AU", "CA", "MY", "ZA"],
-    },
-    {
-      topic: "الرياضة_على_تيك_توك",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1150,
-      topCountries: ["SA", "IQ", "EG", "LY"],
-    },
-    {
-      topic: "The Crew 2024 content",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MM", "ID", "TH", "AF"],
-    },
-    {
-      topic: "What I pack for a long game day",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "IT", "FR", "GB"],
     },
   ],
   methodologyNote:

@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "rectangle theory",
+      subcategory: "School Education",
+      growthMultiplier: 450,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "AU", "PH", "DE"],
+    },
     {
       topic: "fmu meaning",
       subcategory: "School Education",
@@ -40,6 +48,14 @@ export const educationReport: TikTokReport = {
       topCountries: ["US", "CA", "AU", "NZ", "ZA"],
     },
     {
+      topic: "aistote method of study",
+      subcategory: "Education - Others",
+      growthMultiplier: 24,
+      trust: "high",
+      videoNum: 112,
+      topCountries: ["US", "DE", "GB", "IT", "FR"],
+    },
+    {
       topic: "guessing midterm grade",
       subcategory: "School Education",
       growthMultiplier: 18,
@@ -52,7 +68,7 @@ export const educationReport: TikTokReport = {
       subcategory: "Language Learning",
       growthMultiplier: 17,
       trust: "high",
-      videoNum: 2203,
+      videoNum: null,
       topCountries: ["US", "GB", "BR", "AU", "CA"],
     },
     {
@@ -64,6 +80,14 @@ export const educationReport: TikTokReport = {
       topCountries: ["PH", "MY", "ID", "CA", "TH"],
     },
     {
+      topic: "eternity meaning",
+      subcategory: "Language Learning",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MM", "ZA", "NP", "MY"],
+    },
+    {
       topic: "philippines hardest english word",
       subcategory: "Language Learning",
       growthMultiplier: 13,
@@ -71,35 +95,11 @@ export const educationReport: TikTokReport = {
       videoNum: null,
       topCountries: ["PH", "AE", "SA", "AU"],
     },
-    {
-      topic: "aura battle in school",
-      subcategory: "Campus Life",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "VN", "CA", "TH"],
-    },
-    {
-      topic: "class-based farming game strategies",
-      subcategory: "School Education",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "ID", "PH", "US", "TH"],
-    },
-    {
-      topic: "going for paper meaning",
-      subcategory: "Education - Others",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PL", "RO", "PH", "NL"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fmu meaning",
+    topic: "rectangle theory",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

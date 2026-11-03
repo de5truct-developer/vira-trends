@@ -14,24 +14,31 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-29",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-02T12:08:04Z",
+  windowStart: "2026-10-03",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-03",
   topics: [
     {
+      topic: "mikasa costume",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "PH", "DE"],
+    },
+    {
+      topic: "clawdeen wolf custome",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PK", "CA", "SA", "AU"],
+    },
+    {
       topic: "captain save aho costume",
-      growthMultiplier: 6,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "IE", "PL"],
-    },
-    {
-      topic: "avery gundam",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "MY", "CA"],
     },
     {
       topic: "anime cosplay costume ideas",
@@ -48,11 +55,11 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "TH", "VN", "MY"],
     },
     {
-      topic: "cosplay characters",
+      topic: "avery gundam",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 13392,
-      topCountries: ["ID", "PH", "BR", "TH"],
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "MY", "CA"],
     },
     {
       topic: "voxalike",
@@ -65,7 +72,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "captain save aho costume",
+    topic: "mikasa costume",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

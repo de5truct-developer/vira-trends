@@ -14,10 +14,10 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "matrix meaning",
@@ -34,11 +34,25 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["MX", "BR", "AR", "ES", "FR"],
     },
     {
+      topic: "why neverness to everness stands out",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1084,
+      topCountries: ["ID", "US", "PH", "VN", "BR"],
+    },
+    {
       topic: "Science behind paper cleaning processes",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "CO", "VE"],
+    },
+    {
+      topic: "how marine technology beats rough seas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "TH"],
     },
     {
       topic: "sterling point explained",
@@ -55,6 +69,13 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["PH", "US", "MY", "CA", "GB"],
     },
     {
+      topic: "Viral tech experiments to try",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BD", "MM", "BR"],
+    },
+    {
       topic: "why diamonds feel rarer than they are",
       growthMultiplier: 1,
       trust: "high",
@@ -62,32 +83,11 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["ID", "VN", "BR", "MY", "PH"],
     },
     {
-      topic: "he realise there something faster than light",
+      topic: "polyphonic perception",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "AU", "ID", "MY"],
-    },
-    {
-      topic: "mini tornado experiment",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MX", "MY", "ID", "ES"],
-    },
-    {
-      topic: "paper folded 42 times simulation",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "AU", "ID", "MY"],
-    },
-    {
-      topic: "gravity theory boat",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "ID", "MY", "VN"],
+      videoNum: 5072,
+      topCountries: ["US", "GB", "PH", "FR", "CA"],
     },
   ],
   methodologyNote:

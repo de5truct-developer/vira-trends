@@ -14,17 +14,17 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-29",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-02T12:08:04Z",
+  windowStart: "2026-10-03",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-03",
   topics: [
     {
-      topic: "crystal invoice",
-      growthMultiplier: 3,
+      topic: "shipping business",
+      growthMultiplier: 1,
       trust: "high",
-      videoNum: 4607,
-      topCountries: ["US", "CA", "AU", "ZA", "SA"],
+      videoNum: 1236,
+      topCountries: ["SN", "NG", "PH", "PK", "IT"],
     },
     {
       topic: "tshirt business",
@@ -41,13 +41,6 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "PH", "ID", "MX", "PE"],
     },
     {
-      topic: "5000 dollars",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "MX", "AU"],
-    },
-    {
       topic: "private money lender",
       growthMultiplier: 1,
       trust: "high",
@@ -56,7 +49,7 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "small capital business ideas",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "JP", "TH", "PH"],
@@ -65,7 +58,7 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "crystal invoice",
-    audience: "female 18-24, Canada (dominant segment, snapshot at collection date)",
+    topic: "shipping business",
+    audience: "unknown 18-24, Senegal (dominant segment, snapshot at collection date)",
   },
 };

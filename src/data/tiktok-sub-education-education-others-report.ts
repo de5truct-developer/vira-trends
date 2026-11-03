@@ -14,11 +14,18 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "aistote method of study",
+      growthMultiplier: 24,
+      trust: "high",
+      videoNum: 112,
+      topCountries: ["US", "DE", "GB", "IT", "FR"],
+    },
     {
       topic: "guide to stan school",
       growthMultiplier: 17,
@@ -48,6 +55,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "KE", "CA", "ZA"],
     },
     {
+      topic: "topics to research",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "AU", "MA", "ZA"],
+    },
+    {
       topic: "study claims 4 billion",
       growthMultiplier: 3,
       trust: "high",
@@ -62,38 +76,24 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "AU", "PH", "GB", "SG"],
     },
     {
+      topic: "short drama review content and format",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MM", "PE", "ZA"],
+    },
+    {
       topic: "creator academy platform reviews",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "NG", "ZA", "JM", "AU"],
     },
-    {
-      topic: "creative style studies for beginners",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 386,
-      topCountries: ["US", "PH", "VN", "ID", "BR"],
-    },
-    {
-      topic: "createssightinsight",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1166,
-      topCountries: ["MM", "ID", "IQ", "BD"],
-    },
-    {
-      topic: "positive lessons from school performances",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 410,
-      topCountries: ["BD", "US", "ID", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "guide to stan school",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "aistote method of study",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

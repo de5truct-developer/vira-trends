@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -22,6 +22,14 @@ export const localLifeReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "MX", "PH"],
+    },
+    {
+      topic: "Scarbo",
+      subcategory: "Shopping",
+      growthMultiplier: 41,
+      trust: "high",
+      videoNum: 3819,
+      topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
       topic: "organic encourter festival",
@@ -44,7 +52,7 @@ export const localLifeReport: TikTokReport = {
       subcategory: "Offline Performance",
       growthMultiplier: 18,
       trust: "high",
-      videoNum: 553,
+      videoNum: null,
       topCountries: ["FR", "GB", "PH", "IT", "AU"],
     },
     {
@@ -64,6 +72,14 @@ export const localLifeReport: TikTokReport = {
       topCountries: ["VN", "JP", "ZA", "KH", "MY"],
     },
     {
+      topic: "marsha bone museum",
+      subcategory: "Galleries and Exhibitions",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "ID", "AU"],
+    },
+    {
       topic: "rock and rent",
       subcategory: "Life Services",
       growthMultiplier: 11,
@@ -78,22 +94,6 @@ export const localLifeReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "AU", "SG", "CA", "SA"],
-    },
-    {
-      topic: "bunna b and trim",
-      subcategory: "Life Services",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 188,
-      topCountries: ["US", "GB", "ZA", "CA", "JM"],
-    },
-    {
-      topic: "david green hobby lobby",
-      subcategory: "Shopping",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 116,
-      topCountries: ["MX", "CA", "PE", "LB", "NG"],
     },
   ],
   methodologyNote:

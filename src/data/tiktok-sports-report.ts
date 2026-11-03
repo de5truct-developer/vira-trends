@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "france right now 2026",
       subcategory: "Physical Sports",
       growthMultiplier: 4791,
       trust: "high",
-      videoNum: 7083,
+      videoNum: 8091,
       topCountries: ["US", "CA", "AU", "PH", "KE"],
     },
     {
@@ -36,7 +36,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 699,
       trust: "high",
-      videoNum: 811,
+      videoNum: 854,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
@@ -44,7 +44,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Fitness",
       growthMultiplier: 449,
       trust: "high",
-      videoNum: 229,
+      videoNum: null,
       topCountries: ["GB", "US", "CA", "AU", "PH"],
     },
     {
@@ -76,7 +76,7 @@ export const sportsReport: TikTokReport = {
       subcategory: "Fitness",
       growthMultiplier: 57,
       trust: "high",
-      videoNum: 935,
+      videoNum: null,
       topCountries: ["PH", "JP", "CA", "AE", "SA"],
     },
     {
@@ -88,12 +88,12 @@ export const sportsReport: TikTokReport = {
       topCountries: ["PH", "AE", "CA", "JP", "AU"],
     },
     {
-      topic: "what did vince russo do to jim cornette",
+      topic: "jose mourinho reaction today",
       subcategory: "Physical Sports",
-      growthMultiplier: 34,
+      growthMultiplier: 40,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "IE", "DE", "ZA"],
+      topCountries: ["NG", "ID", "ET", "US", "SO"],
     },
   ],
   methodologyNote:

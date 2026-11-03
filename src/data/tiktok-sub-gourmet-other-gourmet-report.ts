@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "ashika tamang eating meat",
@@ -41,6 +41,13 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["TH", "PH", "US", "VN", "BR"],
     },
     {
+      topic: "chinese couple eating",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "ZA"],
+    },
+    {
       topic: "fun food review with beauty tips",
       growthMultiplier: 1,
       trust: "high",
@@ -53,6 +60,13 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 862,
       topCountries: ["PH", "MY", "ID", "CA", "ZA"],
+    },
+    {
+      topic: "Feeding homeless",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1172,
+      topCountries: ["CA", "AU", "PH", "NZ", "ID"],
     },
     {
       topic: "5 million baon video vlog",
@@ -74,20 +88,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "TH", "PH"],
-    },
-    {
-      topic: "food visuals that make people hungry",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "PK", "BR", "BD"],
-    },
-    {
-      topic: "casual kitchen tests that surprise",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1019,
-      topCountries: ["US", "ID", "BR", "VN"],
     },
   ],
   methodologyNote:

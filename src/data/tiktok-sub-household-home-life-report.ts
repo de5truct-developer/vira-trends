@@ -14,10 +14,10 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "folding chairs to take away",
@@ -25,6 +25,13 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["DE", "IT", "GB", "PL", "FR"],
+    },
+    {
+      topic: "what changed in our home project",
+      growthMultiplier: 67,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
       topic: "platos dollar tree",
@@ -44,7 +51,7 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topic: "broly stove",
       growthMultiplier: 33,
       trust: "high",
-      videoNum: 168,
+      videoNum: null,
       topCountries: ["PH", "US", "ZA", "MX", "BR"],
     },
     {
@@ -81,13 +88,6 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "PT", "MX", "AR", "AO"],
-    },
-    {
-      topic: "sawyer water filter",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "CA"],
     },
   ],
   methodologyNote:

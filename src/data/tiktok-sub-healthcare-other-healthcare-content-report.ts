@@ -14,11 +14,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "Caregiving",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "NG", "CA", "KE", "LK"],
+    },
     {
       topic: "dnr tutorial",
       growthMultiplier: 1,
@@ -37,7 +44,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topic: "being high",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 746,
+      videoNum: null,
       topCountries: ["ZA", "GB", "CA", "PH", "AU"],
     },
     {
@@ -51,15 +58,29 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topic: "recovery day",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 943,
+      videoNum: null,
       topCountries: ["ID", "TH", "PH", "AU", "MY"],
     },
     {
       topic: "circumcission after care",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 334,
+      videoNum: null,
       topCountries: ["PK", "NG", "ZA", "CA", "GH"],
+    },
+    {
+      topic: "my pain chartacer",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 531,
+      topCountries: ["US", "DE", "AT", "NG", "BD"],
+    },
+    {
+      topic: "wilsons surgrey for kid grey anatomy",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB"],
     },
     {
       topic: "never broke a bone theory",
@@ -72,7 +93,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "dnr tutorial",
+    topic: "Caregiving",
     audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "russian guy learning english",
@@ -37,8 +37,15 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       topic: "the dyslexia font",
       growthMultiplier: 17,
       trust: "high",
-      videoNum: 2203,
+      videoNum: null,
       topCountries: ["US", "GB", "BR", "AU", "CA"],
+    },
+    {
+      topic: "eternity meaning",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MM", "ZA", "NP", "MY"],
     },
     {
       topic: "philippines hardest english word",
@@ -46,6 +53,20 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "AE", "SA", "AU"],
+    },
+    {
+      topic: "o algo meaning",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 368,
+      topCountries: ["US", "GB", "CA", "DE", "PH"],
+    },
+    {
+      topic: "English As A Second Language",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 1088,
+      topCountries: ["ID", "CA", "SA", "NP", "ET"],
     },
     {
       topic: "fluency",
@@ -67,27 +88,6 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 682,
       topCountries: ["BR", "MX", "VN", "PE"],
-    },
-    {
-      topic: "merry go round significado",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 180,
-      topCountries: ["MX", "PE", "CO", "CL", "AR"],
-    },
-    {
-      topic: "Japanese quotes and captions",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "DE", "GB"],
-    },
-    {
-      topic: "korean to english grammar help",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 144,
-      topCountries: ["GH", "NG", "ZA", "PH"],
     },
   ],
   methodologyNote:

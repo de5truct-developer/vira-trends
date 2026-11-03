@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-29",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-02T12:08:04Z",
+  windowStart: "2026-10-03",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-03",
   topics: [
+    {
+      topic: "justincase",
+      subcategory: "Society News",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 626,
+      topCountries: ["US", "CA", "GB", "ZA", "PH"],
+    },
     {
       topic: "policestop",
       subcategory: "Society News",
@@ -24,20 +32,12 @@ export const societyReport: TikTokReport = {
       topCountries: ["MX", "BR", "ID", "PE"],
     },
     {
-      topic: "justincase",
+      topic: "LightningStrike",
       subcategory: "Society News",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 626,
-      topCountries: ["US", "CA", "GB", "ZA", "PH"],
-    },
-    {
-      topic: "CrimeInvestigation",
-      subcategory: "Society News",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1133,
-      topCountries: ["PH", "PK", "BD", "NG"],
+      videoNum: 668,
+      topCountries: ["BR", "ID", "PH", "ZA"],
     },
     {
       topic: "StreetVendor",
@@ -59,7 +59,7 @@ export const societyReport: TikTokReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "policestop",
-    audience: "unknown 35+, Mexico (dominant segment, snapshot at collection date)",
+    topic: "justincase",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

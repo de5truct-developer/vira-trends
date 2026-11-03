@@ -14,10 +14,10 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "continue to part 2of the interview",
@@ -30,7 +30,7 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topic: "how to improve sales conversions",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
+      videoNum: 521,
       topCountries: ["US", "CA", "AU", "GB", "SA"],
     },
     {
@@ -39,6 +39,27 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "NG", "ZA", "KE", "GH"],
+    },
+    {
+      topic: "Client consult before color change",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "GB", "MX"],
+    },
+    {
+      topic: "Teamwork follower growth tracking",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "AU", "NG", "ES", "EG"],
+    },
+    {
+      topic: "open work spaces",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 530,
+      topCountries: ["US", "SA", "AE", "CA", "PH"],
     },
     {
       topic: "perfect weld",
@@ -67,27 +88,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "FR", "ID", "GB", "DE"],
-    },
-    {
-      topic: "office meeting room and workplace meetings",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 241,
-      topCountries: ["PK", "MM", "BD", "NG", "NP"],
-    },
-    {
-      topic: "career lessons for ambitious women",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "US", "MX", "GB"],
-    },
-    {
-      topic: "new judge tricks after update",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "MX", "IT", "FR", "PE"],
     },
   ],
   methodologyNote:

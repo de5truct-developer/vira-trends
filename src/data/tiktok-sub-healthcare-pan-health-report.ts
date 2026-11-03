@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "natural aging",
@@ -25,6 +25,20 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "CA", "AU", "PL"],
+    },
+    {
+      topic: "Sleep Cycle",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: 977,
+      topCountries: ["MX", "BR", "SA", "CA", "DZ"],
+    },
+    {
+      topic: "hyperggamy",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 1434,
+      topCountries: ["US", "GB", "DE", "PL", "FR"],
     },
     {
       topic: "Marlon skull cap",
@@ -39,6 +53,13 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 911,
       topCountries: ["GB", "PH", "US", "CA", "AU"],
+    },
+    {
+      topic: "stamina booster for men",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "PH", "MY", "KE", "NG"],
     },
     {
       topic: "best magnesium for women",
@@ -65,29 +86,8 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topic: "stuck hair comb removal in leg prt 2",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 92658,
-      topCountries: ["PH", "ID", "TR", "BR", "GB"],
-    },
-    {
-      topic: "hard water and stubborn acne",
-      growthMultiplier: 1,
-      trust: "high",
       videoNum: null,
-      topCountries: ["BD", "MM", "BR", "ID"],
-    },
-    {
-      topic: "pain relief",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 3933,
-      topCountries: ["PH", "ID", "MY", "VN", "PK"],
-    },
-    {
-      topic: "hand stretches before a long drive",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 124,
-      topCountries: ["PH", "MX", "BR", "TR", "MY"],
+      topCountries: ["PH", "ID", "TR", "BR", "GB"],
     },
   ],
   methodologyNote:

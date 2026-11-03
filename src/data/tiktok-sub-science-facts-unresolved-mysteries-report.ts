@@ -14,10 +14,10 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "aliens in white house",
@@ -41,6 +41,20 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["TR", "ID", "PH", "AZ"],
     },
     {
+      topic: "steak becomes a skinwalker",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "CA", "MA"],
+    },
+    {
+      topic: "mimics caught on camera",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 385,
+      topCountries: ["CA", "AU", "PH", "ZA", "ID"],
+    },
+    {
       topic: "alien stage fan theories",
       growthMultiplier: 1,
       trust: "high",
@@ -60,6 +74,13 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["UG", "ZA", "KE", "MY"],
+    },
+    {
+      topic: "humanoid creatures at night",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 112,
+      topCountries: ["US", "PH", "ZA", "NG", "DE"],
     },
     {
       topic: "police girl tree crash paranormal",

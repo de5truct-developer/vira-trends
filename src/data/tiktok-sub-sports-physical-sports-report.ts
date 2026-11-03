@@ -14,16 +14,16 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "france right now 2026",
       growthMultiplier: 4791,
       trust: "high",
-      videoNum: 7083,
+      videoNum: 8091,
       topCountries: ["US", "CA", "AU", "PH", "KE"],
     },
     {
@@ -37,7 +37,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topic: "wnba finals",
       growthMultiplier: 699,
       trust: "high",
-      videoNum: 811,
+      videoNum: 854,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
@@ -62,6 +62,13 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "PL", "GB"],
     },
     {
+      topic: "jose mourinho reaction today",
+      growthMultiplier: 40,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "ID", "ET", "US", "SO"],
+    },
+    {
       topic: "what did vince russo do to jim cornette",
       growthMultiplier: 34,
       trust: "high",
@@ -76,18 +83,11 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "BR", "TH", "MY"],
     },
     {
-      topic: "shohei ohtani revenge",
-      growthMultiplier: 21,
+      topic: "yan diomande goal today",
+      growthMultiplier: 27,
       trust: "high",
-      videoNum: 482,
-      topCountries: ["PH", "ID", "US", "MY", "MX"],
-    },
-    {
-      topic: "how to do the dele alli celebration",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 221,
-      topCountries: ["US", "PH", "AU", "CA", "ZA"],
+      videoNum: null,
+      topCountries: ["NG", "GH", "ID", "SO", "ZA"],
     },
   ],
   methodologyNote:

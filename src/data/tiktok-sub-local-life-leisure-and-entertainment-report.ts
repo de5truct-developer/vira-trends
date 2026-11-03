@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "organic encourter festival",
@@ -55,6 +55,20 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["PH", "ES", "GB", "ID", "DE"],
     },
     {
+      topic: "splash zone",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "CA", "ID", "MX"],
+    },
+    {
+      topic: "trampoline park ticket prices",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1666,
+      topCountries: ["IT", "PK", "EG", "ZA"],
+    },
+    {
       topic: "center parks",
       growthMultiplier: 2,
       trust: "high",
@@ -74,20 +88,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PL"],
-    },
-    {
-      topic: "big spender hong kong",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "NG", "PH", "ZA", "GB"],
-    },
-    {
-      topic: "WATER BROTHERS",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 378,
-      topCountries: ["PH", "BR", "ID", "TH", "VN"],
     },
   ],
   methodologyNote:

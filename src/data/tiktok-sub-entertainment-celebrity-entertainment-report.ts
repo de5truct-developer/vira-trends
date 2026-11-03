@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -37,7 +37,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topic: "julia stiles heath ledger",
       growthMultiplier: 358,
       trust: "high",
-      videoNum: 643,
+      videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "PL"],
     },
     {
@@ -76,18 +76,18 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["US", "GB", "PH", "ZA", "AU"],
     },
     {
+      topic: "hasan minhaj and ronny chieng",
+      growthMultiplier: 26,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "CA", "IE"],
+    },
+    {
       topic: "the rock megan thee stallion",
       growthMultiplier: 13,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "CA", "NG", "KE"],
-    },
-    {
-      topic: "nle choppa and nba younboy",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "NG", "ZA", "GH"],
     },
   ],
   methodologyNote:

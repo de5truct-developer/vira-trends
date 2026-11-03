@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "beauty services",
@@ -48,11 +48,32 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PK", "KE", "PH"],
     },
     {
+      topic: "oakley square residence dubai",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AE", "PK", "ZA", "CA"],
+    },
+    {
+      topic: "posh hair salon",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 720,
+      topCountries: ["NG", "ZA", "KE", "GH"],
+    },
+    {
       topic: "small salon ideas",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 889,
       topCountries: ["ZA", "KE", "NG", "GH", "LK"],
+    },
+    {
+      topic: "NailStudio",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "MX", "VN", "ID", "CO"],
     },
     {
       topic: "birthday salon glow-up vlog",
@@ -67,27 +88,6 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 398,
       topCountries: ["BR", "ID", "ZA", "PH", "MY"],
-    },
-    {
-      topic: "what accessibility in salons should be",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 995,
-      topCountries: ["BD", "MM", "BR", "ID"],
-    },
-    {
-      topic: "my honest salon treatment review",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BD", "MM", "BR", "ID"],
-    },
-    {
-      topic: "TikTok salon marketing content",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "LK", "CA", "NG", "SL"],
     },
   ],
   methodologyNote:

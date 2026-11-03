@@ -14,23 +14,23 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-01T12:03:59Z",
+  computedAt: "2026-11-02T12:08:04Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-02",
+  updatedAt: "2026-11-03",
   topics: [
     {
       topic: "atoms lining up perfectly",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 507,
+      videoNum: null,
       topCountries: ["GB", "PH", "DE", "IT", "CA"],
     },
     {
       topic: "nikola tesla aura farming",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 172,
+      videoNum: null,
       topCountries: ["PH", "GB", "ID", "TH", "CA"],
     },
     {
@@ -51,7 +51,7 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "what makes physics feel so difficult",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 160,
+      videoNum: null,
       topCountries: ["US", "PH", "GB", "NG", "MY"],
     },
     {
@@ -60,6 +60,20 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["DZ", "MX", "BR", "CO", "AR"],
+    },
+    {
+      topic: "still water vs normal water",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 877,
+      topCountries: ["US", "ID", "MY", "PH", "CA"],
+    },
+    {
+      topic: "nikola tesla time machine",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "FR", "GB", "DE"],
     },
     {
       topic: "how energy harvesting really works",
@@ -74,20 +88,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ES", "ID"],
-    },
-    {
-      topic: "faster than light",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "BR", "GB", "VN"],
-    },
-    {
-      topic: "there is something faster than light",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "DE", "US", "ID"],
     },
   ],
   methodologyNote:
