@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
+  computedAt: "2026-11-03T09:41:13Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "the end of oak street hotel",
       subcategory: "Tourism Service",
-      growthMultiplier: 2889,
+      growthMultiplier: 3481,
       trust: "high",
       videoNum: 417,
       topCountries: ["US", "CA", "SA", "AE", "IQ"],
@@ -26,7 +26,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "aberfan village now",
       subcategory: "Tourism Sites",
-      growthMultiplier: 1425,
+      growthMultiplier: 2806,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "IE", "DE"],
@@ -34,7 +34,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "sixflagsovergeorgia",
       subcategory: "Tourism Sites",
-      growthMultiplier: 371,
+      growthMultiplier: 90,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "BR", "IT"],
@@ -42,7 +42,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "best stops on a rawalpindi day trip",
       subcategory: "Tourist Guide",
-      growthMultiplier: 67,
+      growthMultiplier: 64,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -50,7 +50,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "road trip guide to a local waterfall",
       subcategory: "Tourist Guide",
-      growthMultiplier: 67,
+      growthMultiplier: 64,
       trust: "high",
       videoNum: 980,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -64,6 +64,14 @@ export const tourismReport: TikTokReport = {
       topCountries: ["PH", "GB", "ID", "MY", "CA"],
     },
     {
+      topic: "the springs",
+      subcategory: "Tourism Service",
+      growthMultiplier: 30,
+      trust: "high",
+      videoNum: 812,
+      topCountries: ["US", "GB", "DE", "CA", "AU"],
+    },
+    {
       topic: "maliuyan waterfall cliff swing china",
       subcategory: "Tourism Sites",
       growthMultiplier: 28,
@@ -72,28 +80,20 @@ export const tourismReport: TikTokReport = {
       topCountries: ["US", "PH", "GB", "FR", "DE"],
     },
     {
+      topic: "inside submarine view",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 28,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "MY", "NG"],
+    },
+    {
       topic: "great wolf lodge or 1000",
       subcategory: "Tourism Sites",
-      growthMultiplier: 22,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 863,
       topCountries: ["US", "CA", "GB", "AU", "NZ"],
-    },
-    {
-      topic: "evgeny kuznetsov hotel",
-      subcategory: "Tourism Service",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "FI", "SE", "NO", "GB"],
-    },
-    {
-      topic: "toyoko kids street japan",
-      subcategory: "Tourist Guide",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "DE", "ID"],
     },
   ],
   methodologyNote:

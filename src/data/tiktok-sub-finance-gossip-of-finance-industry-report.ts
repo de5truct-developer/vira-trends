@@ -14,14 +14,14 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-29",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "networth",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 587,
       topCountries: ["BR", "IT", "RU", "ID"],
@@ -42,7 +42,7 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
     },
     {
       topic: "leopold hedge fund",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ID", "ZA", "CA"],

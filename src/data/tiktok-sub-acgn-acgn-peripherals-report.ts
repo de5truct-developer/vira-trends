@@ -14,21 +14,21 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
+  computedAt: "2026-11-03T09:41:13Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "mikasa costume",
       growthMultiplier: 11,
       trust: "high",
-      videoNum: null,
+      videoNum: 554,
       topCountries: ["US", "CA", "GB", "PH", "DE"],
     },
     {
       topic: "clawdeen wolf custome",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PK", "CA", "SA", "AU"],
@@ -39,6 +39,13 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "IE", "PL"],
+    },
+    {
+      topic: "Cosplay tiktok",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 26222,
+      topCountries: ["ID", "PH", "BR", "VN", "JP"],
     },
     {
       topic: "anime cosplay costume ideas",
@@ -53,6 +60,13 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 617,
       topCountries: ["ID", "PH", "TH", "VN", "MY"],
+    },
+    {
+      topic: "cosplay characters",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 13392,
+      topCountries: ["ID", "PH", "BR", "TH"],
     },
     {
       topic: "avery gundam",

@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "uku viral trick",
@@ -25,6 +25,20 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 984,
       topCountries: ["PK", "SA", "AE", "NP", "QA"],
+    },
+    {
+      topic: "magician girl",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 481,
+      topCountries: ["ID", "PH", "VN", "TH", "MX"],
+    },
+    {
+      topic: "agt turquoise 77 card trick",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MY", "CA", "AU"],
     },
     {
       topic: "stevie star explained magic trick",
@@ -53,6 +67,27 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 967,
       topCountries: ["PH", "CA", "MX", "ZA"],
+    },
+    {
+      topic: "mystery envelope number magic trick",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 764,
+      topCountries: ["US", "UA", "PK", "NZ"],
+    },
+    {
+      topic: "magictok",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1062,
+      topCountries: ["BR", "ID", "TR", "BD"],
+    },
+    {
+      topic: "connor coin trick",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 257,
+      topCountries: ["PH", "CA", "ID", "BR", "AU"],
     },
   ],
   methodologyNote:

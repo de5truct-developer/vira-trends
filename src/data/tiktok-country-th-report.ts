@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const thCountryReport: TikTokCountryReport = {
   country: "Thailand",
   countryCode: "TH",
-  computedAt: "2026-11-02T12:08:04Z",
+  computedAt: "2026-11-03T09:41:13Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "lookism chapter 630",
@@ -34,6 +34,15 @@ export const thCountryReport: TikTokCountryReport = {
       topCountries: ["TH", "GB", "ID", "MX", "PH"],
     },
     {
+      topic: "shuffle revenge resumo",
+      category: "Dance",
+      subcategory: "Dance Trend",
+      growthMultiplier: 31,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "PH", "TH", "BR"],
+    },
+    {
       topic: "fruit drawing filter",
       category: "Science and Technology",
       subcategory: "Software",
@@ -41,6 +50,15 @@ export const thCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "PH", "TH", "NP"],
+    },
+    {
+      topic: "vintage-inspired jewelry making ideas",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "TH", "MY", "NG"],
     },
     {
       topic: "loveindisguise",
@@ -58,7 +76,7 @@ export const thCountryReport: TikTokCountryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: 650,
-      topCountries: ["VN", "ID", "US", "PH", "TH"],
+      topCountries: ["VN", "ID", "PH", "TH", "US"],
     },
     {
       topic: "unboxing megan thee stallion scent",
@@ -82,28 +100,10 @@ export const thCountryReport: TikTokCountryReport = {
       topic: "robot microsoft button press",
       category: "Science and Technology",
       subcategory: "Technical",
-      growthMultiplier: 6,
+      growthMultiplier: 7,
       trust: "high",
       videoNum: 27008,
       topCountries: ["US", "MX", "VN", "TH", "GB"],
-    },
-    {
-      topic: "cortis heights",
-      category: "Tourism",
-      subcategory: "Administrative Division",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 819,
-      topCountries: ["PH", "ID", "TH", "US", "MY"],
-    },
-    {
-      topic: "vertu phone review",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 1082,
-      topCountries: ["PH", "US", "ID", "MY", "TH"],
     },
   ],
   methodologyNote:

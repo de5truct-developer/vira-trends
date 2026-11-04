@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
+  computedAt: "2026-11-03T09:41:13Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "Leetcode",
@@ -37,15 +37,8 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "OnlineLearning",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1134,
+      videoNum: 1080,
       topCountries: ["PK", "ZA", "ET", "NG"],
-    },
-    {
-      topic: "creators pilot program",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 13037,
-      topCountries: ["US", "JM", "GB", "NG", "ZA"],
     },
     {
       topic: "free online courses with certificates",
@@ -53,6 +46,13 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PK", "KE", "CA"],
+    },
+    {
+      topic: "creators pilot program",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 13014,
+      topCountries: ["US", "JM", "GB", "NG", "ZA"],
     },
     {
       topic: "online tutoring",
@@ -65,7 +65,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "online business follower growth tutorials",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 820,
+      videoNum: null,
       topCountries: ["ET", "ZA", "NG", "PH", "CA"],
     },
   ],

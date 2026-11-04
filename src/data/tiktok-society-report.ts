@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "justincase",
@@ -21,7 +21,15 @@ export const societyReport: TikTokReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 626,
-      topCountries: ["US", "CA", "GB", "ZA", "PH"],
+      topCountries: ["US", "GB", "CA", "ZA", "PH"],
+    },
+    {
+      topic: "IndustryStandard",
+      subcategory: "Public Opinion",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ID", "AU", "GB"],
     },
     {
       topic: "policestop",
@@ -30,6 +38,14 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 741,
       topCountries: ["MX", "BR", "ID", "PE"],
+    },
+    {
+      topic: "CrimeInvestigation",
+      subcategory: "Society News",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1133,
+      topCountries: ["PH", "PK", "BD", "NG"],
     },
     {
       topic: "LightningStrike",
@@ -54,6 +70,14 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 651,
       topCountries: ["CA", "GB", "AU", "PH", "ZA"],
+    },
+    {
+      topic: "oregon trail trend",
+      subcategory: "Uncategorized",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "AU", "EG"],
     },
   ],
   methodologyNote:

@@ -14,17 +14,17 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-10-31T01:09:17Z",
-  windowStart: "2026-09-29",
-  windowEnd: "2026-10-26",
-  updatedAt: "2026-11-01",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-09-30",
+  windowEnd: "2026-10-30",
+  updatedAt: "2026-11-04",
   topics: [
     {
-      topic: "be careful of my heart",
+      topic: "the tempest victoria aveyard",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 587,
-      topCountries: ["PH", "TR", "MX", "BR"],
+      videoNum: null,
+      topCountries: ["CA", "AU", "PH", "NZ", "SA"],
     },
     {
       topic: "it had to be you",
@@ -34,15 +34,15 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
       topCountries: ["US", "GB", "BR", "SA", "PH"],
     },
     {
-      topic: "the tempest victoria aveyard",
+      topic: "be careful of my heart",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AU", "PH", "NZ", "SA"],
+      videoNum: 587,
+      topCountries: ["PH", "TR", "MX", "BR"],
     },
     {
       topic: "lucille and raoul",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: 229,
       topCountries: ["PH", "AU", "CA", "MY", "MX"],
@@ -58,7 +58,7 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "be careful of my heart",
-    audience: "unknown 18-24, Türkiye (dominant segment, snapshot at collection date)",
+    topic: "the tempest victoria aveyard",
+    audience: "female 18-24, Australia (dominant segment, snapshot at collection date)",
   },
 };

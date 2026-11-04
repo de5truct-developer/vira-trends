@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "#Funny",
@@ -48,11 +48,11 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "NG", "JP", "BD", "PH"],
     },
     {
-      topic: "most funny pranks of all time",
+      topic: "funny bangla tiktok",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1060,
-      topCountries: ["ZA", "KE", "PK", "ET", "NG"],
+      videoNum: 2217,
+      topCountries: ["BD", "SA", "MY", "AE"],
     },
     {
       topic: "tiktok viral comedy",
@@ -62,18 +62,32 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "BR", "SN"],
     },
     {
+      topic: "khizeromerfunnyvideo",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 594,
+      topCountries: ["PK", "NP", "SA", "AE"],
+    },
+    {
+      topic: "most funny pranks of all time",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1060,
+      topCountries: ["ZA", "KE", "PK", "ET", "NG"],
+    },
+    {
+      topic: "vicky kodu funny clip",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 413,
+      topCountries: ["PK", "AE", "SA", "MY"],
+    },
+    {
       topic: "tiktok jokes that are funny",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 5925,
       topCountries: ["PH", "ZA", "PK", "KE"],
-    },
-    {
-      topic: "shock humor",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "CA", "AU", "MY"],
     },
   ],
   methodologyNote:

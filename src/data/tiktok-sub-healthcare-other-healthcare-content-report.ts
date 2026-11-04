@@ -14,11 +14,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
+    {
+      topic: "why do doctors walk backwards in the theater",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 572,
+      topCountries: ["ZA", "KE", "NG", "ZW"],
+    },
     {
       topic: "Caregiving",
       growthMultiplier: 1,
@@ -34,18 +41,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["PH", "BR", "CA", "ID", "MY"],
     },
     {
+      topic: "being high",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 746,
+      topCountries: ["ZA", "GB", "CA", "PH", "AU"],
+    },
+    {
       topic: "medical technology",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 909,
       topCountries: ["PH", "MM", "ID", "TH", "IT"],
-    },
-    {
-      topic: "being high",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "GB", "CA", "PH", "AU"],
     },
     {
       topic: "what to know before trying pdrn",
@@ -82,18 +89,11 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       videoNum: null,
       topCountries: ["US", "GB"],
     },
-    {
-      topic: "never broke a bone theory",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 24956,
-      topCountries: ["GB", "FR", "CA", "DE", "AU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Caregiving",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "why do doctors walk backwards in the theater",
+    audience: "unknown 25-34, Kenya (dominant segment, snapshot at collection date)",
   },
 };

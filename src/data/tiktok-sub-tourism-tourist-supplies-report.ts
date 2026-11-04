@@ -14,11 +14,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
+  computedAt: "2026-11-03T09:41:13Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
+    {
+      topic: "carry-on essentials for a short trip",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "TT", "JM", "BS"],
+    },
     {
       topic: "how to pack luggage",
       growthMultiplier: 2,
@@ -30,7 +37,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topic: "things for camping",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 3188,
+      videoNum: 3186,
       topCountries: ["PH", "MY", "CA", "ID", "AU"],
     },
     {
@@ -48,6 +55,20 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "TL", "BN"],
     },
     {
+      topic: "backpacking packing list",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 618,
+      topCountries: ["CA", "AU", "GB", "SE", "DE"],
+    },
+    {
+      topic: "pack for vacation",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 958,
+      topCountries: ["CA", "AU", "ZA", "PH", "MA"],
+    },
+    {
       topic: "What I pack for a long hike",
       growthMultiplier: 1,
       trust: "high",
@@ -62,38 +83,17 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "MY", "PH", "AU", "ZA"],
     },
     {
-      topic: "car camping tent",
+      topic: "what i pack for a family trip",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MY", "ID", "CA"],
-    },
-    {
-      topic: "carry-on essentials for a short trip",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "TT", "JM", "BS"],
-    },
-    {
-      topic: "must-pack travel essentials",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 806,
-      topCountries: ["US", "GB", "PH", "RS", "CZ"],
-    },
-    {
-      topic: "what to pack for a valley tour",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "PH", "AE", "SA"],
+      topCountries: ["GB", "CA", "AU", "PH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "how to pack luggage",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "carry-on essentials for a short trip",
+    audience: "female 18-24, Canada (dominant segment, snapshot at collection date)",
   },
 };

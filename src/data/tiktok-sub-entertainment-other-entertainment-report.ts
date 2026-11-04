@@ -14,11 +14,25 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
+    {
+      topic: "The callaway ad",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "AU", "CA", "GR", "IE"],
+    },
+    {
+      topic: "actions and stuff etiquetas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "AR", "CL", "BR"],
+    },
     {
       topic: "StageBehind",
       growthMultiplier: 1,
@@ -41,24 +55,24 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
-      topic: "magic repo man revenge",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 1106,
-      topCountries: ["US", "PH", "ID", "MY", "BR"],
-    },
-    {
       topic: "cappy audition",
       growthMultiplier: 0,
       trust: "high",
       videoNum: 442,
       topCountries: ["US", "PH", "CA", "GB", "AU"],
     },
+    {
+      topic: "magic repo man revenge",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 1106,
+      topCountries: ["US", "PH", "ID", "MY", "BR"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "StageBehind",
-    audience: "unknown 18-24, Vietnam (dominant segment, snapshot at collection date)",
+    topic: "The callaway ad",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

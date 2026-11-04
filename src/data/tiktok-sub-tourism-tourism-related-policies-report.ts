@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-02T12:08:04Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-03T09:41:13Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-03",
+  updatedAt: "2026-11-04",
   topics: [
     {
       topic: "key documents for visa applications",
@@ -34,10 +34,17 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "BR", "TR", "ID", "IQ"],
     },
     {
+      topic: "uae visa update 40 minutes ago uganda",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 280,
+      topCountries: ["UG", "AE", "SA", "KE"],
+    },
+    {
       topic: "emigration",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1178,
+      videoNum: 1193,
       topCountries: ["BD", "BR", "SN", "PH"],
     },
     {
@@ -46,13 +53,6 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["AE", "PK", "UG", "KE"],
-    },
-    {
-      topic: "korea e arrival card",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 289,
-      topCountries: ["PH", "SG", "MY", "ID", "AU"],
     },
     {
       topic: "what travel in afghanistan reveals",
@@ -83,11 +83,11 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "PK", "ID"],
     },
     {
-      topic: "saudi visa tips for umrah travel",
+      topic: "أماكن إقامة مناسبة للعائلة",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 638,
-      topCountries: ["SA", "IQ", "EG", "DZ"],
+      videoNum: 401,
+      topCountries: ["IQ", "EG", "SA", "TR"],
     },
   ],
   methodologyNote:
