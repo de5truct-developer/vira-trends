@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "#Funny",
@@ -44,7 +44,7 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topic: "funny tiktok videos to laugh",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 46292,
+      videoNum: 47224,
       topCountries: ["PK", "NG", "JP", "BD", "PH"],
     },
     {

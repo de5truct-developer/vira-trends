@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -23,6 +23,15 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 4689,
       topCountries: ["US", "PH", "ID", "MX", "BR"],
+    },
+    {
+      topic: "broly stove",
+      category: "Household",
+      subcategory: "Home Life",
+      growthMultiplier: 164,
+      trust: "high",
+      videoNum: 168,
+      topCountries: ["PH", "US", "ZA", "MX", "BR"],
     },
     {
       topic: "kurage sirena",
@@ -82,10 +91,10 @@ export const brCountryReport: TikTokCountryReport = {
       topic: "shuffle revenge resumo",
       category: "Dance",
       subcategory: "Dance Trend",
-      growthMultiplier: 24,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ID", "PH", "TH", "BR"],
+      topCountries: ["US", "ID", "PH", "BR", "TH"],
     },
     {
       topic: "zara drip alercanzão",
@@ -95,15 +104,6 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 152,
       topCountries: ["BR", "MX", "CO", "AR", "PE"],
-    },
-    {
-      topic: "organizing small home items at home",
-      category: "Household",
-      subcategory: "Home Life",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "PT", "MX", "AR", "AO"],
     },
   ],
   methodologyNote:

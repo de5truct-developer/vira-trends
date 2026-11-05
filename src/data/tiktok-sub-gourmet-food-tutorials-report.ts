@@ -14,16 +14,16 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "cam hot chocolate upside down",
-      growthMultiplier: 236,
+      growthMultiplier: 202,
       trust: "high",
-      videoNum: null,
+      videoNum: 344,
       topCountries: ["SA", "IQ", "EG", "AE", "KW"],
     },
     {
@@ -62,6 +62,13 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "IE", "AU", "DE", "CA"],
     },
     {
+      topic: "homemade slushie flavor showdown",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BR", "GB", "PH", "CA", "AU"],
+    },
+    {
       topic: "kimchi net worth",
       growthMultiplier: 12,
       trust: "high",
@@ -81,13 +88,6 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1855,
       topCountries: ["US", "CA", "PH", "RU", "BR"],
-    },
-    {
-      topic: "officer chen cake",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "CA", "MY", "ID"],
     },
   ],
   methodologyNote:

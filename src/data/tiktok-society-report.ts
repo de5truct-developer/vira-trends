@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "justincase",
@@ -48,6 +48,14 @@ export const societyReport: TikTokReport = {
       topCountries: ["PH", "PK", "BD", "NG"],
     },
     {
+      topic: "911Dispatcher",
+      subcategory: "Society News",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 651,
+      topCountries: ["CA", "GB", "AU", "PH", "ZA"],
+    },
+    {
       topic: "LightningStrike",
       subcategory: "Society News",
       growthMultiplier: 1,
@@ -62,14 +70,6 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PH", "ID", "MX"],
-    },
-    {
-      topic: "911Dispatcher",
-      subcategory: "Society News",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 651,
-      topCountries: ["CA", "GB", "AU", "PH", "ZA"],
     },
     {
       topic: "oregon trail trend",

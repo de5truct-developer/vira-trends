@@ -14,17 +14,24 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "lessons from starting content creation",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: 505,
       topCountries: ["PK", "NG", "ZA", "NP"],
+    },
+    {
+      topic: "chatgpt dumbest answers",
+      growthMultiplier: 52,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "MY", "CA"],
     },
     {
       topic: "japanese reporter phone",
@@ -81,13 +88,6 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 658,
       topCountries: ["PH", "ID", "MY", "AU", "GB"],
-    },
-    {
-      topic: "ai stories part 3 next 4",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 893,
-      topCountries: ["NG", "PK", "GH", "ZA"],
     },
   ],
   methodologyNote:

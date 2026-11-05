@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "daisy episode 1 to 60",
@@ -34,13 +34,22 @@ export const myCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "ID", "MY", "KH", "TH"],
     },
     {
+      topic: "canvas skirt",
+      category: "Fashion",
+      subcategory: "Fashion Products",
+      growthMultiplier: 58,
+      trust: "high",
+      videoNum: 699,
+      topCountries: ["PH", "MY", "ID", "SG"],
+    },
+    {
       topic: "summer end of oak street p2 l",
       category: "TikTok's Featured Content",
       subcategory: "Life Snapshots",
       growthMultiplier: 26,
       trust: "high",
       videoNum: 546,
-      topCountries: ["US", "ID", "TR", "PH", "MY"],
+      topCountries: ["US", "PH", "ID", "TR", "MY"],
     },
     {
       topic: "inside submarine view",
@@ -61,6 +70,15 @@ export const myCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "PH", "MY", "TH", "US"],
     },
     {
+      topic: "she's saved left over food for her poor parents p2",
+      category: "Gourmet",
+      subcategory: "Other Gourmet",
+      growthMultiplier: 18,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "NP", "NG"],
+    },
+    {
       topic: "african teacher telling students to talk",
       category: "Education",
       subcategory: "Campus Life",
@@ -68,15 +86,6 @@ export const myCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 269,
       topCountries: ["US", "PH", "SA", "MY", "GB"],
-    },
-    {
-      topic: "study habits that build consistency",
-      category: "Education",
-      subcategory: "Education - Others",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "PH", "SA"],
     },
     {
       topic: "postre de cumpleaños con toque casero",
@@ -93,17 +102,8 @@ export const myCountryReport: TikTokCountryReport = {
       subcategory: "Films and TVs",
       growthMultiplier: 12,
       trust: "high",
-      videoNum: 2546,
+      videoNum: 2677,
       topCountries: ["ID", "PH", "MY", "MM", "KH"],
-    },
-    {
-      topic: "diy upgrades for a work corner",
-      category: "Household",
-      subcategory: "House Decoration",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 269,
-      topCountries: ["ID", "MY", "DE", "US"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "Leetcode",
@@ -51,14 +51,14 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "creators pilot program",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 13014,
+      videoNum: 13024,
       topCountries: ["US", "JM", "GB", "NG", "ZA"],
     },
     {
       topic: "online tutoring",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2311,
+      videoNum: 2328,
       topCountries: ["ZA", "NG", "PH", "ET", "PK"],
     },
     {

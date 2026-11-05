@@ -14,23 +14,23 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "Scarbo",
       growthMultiplier: 38,
       trust: "high",
-      videoNum: 3819,
+      videoNum: 3821,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
       topic: "ben and bea",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 747,
+      videoNum: 752,
       topCountries: ["GB", "PH", "IT", "CA", "ZA"],
     },
     {
@@ -59,7 +59,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "AE", "NG", "SA"],
+      topCountries: ["PH", "AE", "SA", "TW"],
     },
     {
       topic: "sturridge now",

@@ -14,17 +14,24 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "short drama review 1 to 50",
       growthMultiplier: 1147,
       trust: "high",
-      videoNum: 1060,
+      videoNum: 1119,
       topCountries: ["PH", "NG", "GH", "ZA", "MM"],
+    },
+    {
+      topic: "well bertha i was wondering",
+      growthMultiplier: 29,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "ID", "BR"],
     },
     {
       topic: "loveindisguise",
@@ -32,13 +39,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "PH", "MY", "TH", "US"],
-    },
-    {
-      topic: "well bertha i was wondering",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "BR", "ID"],
     },
     {
       topic: "jarvis vision quest",
@@ -51,15 +51,8 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topic: "the lament of autumn",
       growthMultiplier: 11,
       trust: "high",
-      videoNum: 2546,
+      videoNum: 2677,
       topCountries: ["ID", "PH", "MY", "MM", "KH"],
-    },
-    {
-      topic: "harvey tells his dad",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "AU", "MX"],
     },
     {
       topic: "rory trust fund",
@@ -88,6 +81,13 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US"],
+    },
+    {
+      topic: "zack d films be like",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 730,
+      topCountries: ["PH", "ID", "ZA", "MY"],
     },
   ],
   methodologyNote:

@@ -10,18 +10,18 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const workplaceReport: TikTokReport = {
   category: "Workplace",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
-      topic: "placeneta",
+      topic: "kindergarten teacher with kids",
       subcategory: "Special Work Types",
-      growthMultiplier: 832,
+      growthMultiplier: 536,
       trust: "high",
-      videoNum: 1159,
-      topCountries: ["US", "ET", "PE", "MX", "BD"],
+      videoNum: 180,
+      topCountries: ["US", "KH", "PH", "JO", "BF"],
     },
     {
       topic: "when the client doesn\\'t want to pay 2",
@@ -42,10 +42,10 @@ export const workplaceReport: TikTokReport = {
     {
       topic: "anoik yai newspaper",
       subcategory: "Other-Workplace",
-      growthMultiplier: 57,
+      growthMultiplier: 52,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "CA", "AU", "SA", "MY"],
+      topCountries: ["PH", "CA", "AU", "MY", "SA"],
     },
     {
       topic: "TikTok ads manager pricing",
@@ -58,26 +58,18 @@ export const workplaceReport: TikTokReport = {
     {
       topic: "continue to part 2of the interview",
       subcategory: "Workplace Skills",
-      growthMultiplier: 37,
+      growthMultiplier: 32,
       trust: "high",
       videoNum: 285,
-      topCountries: ["US", "CA", "AU", "JM"],
+      topCountries: ["US", "CA", "AU", "NG"],
     },
     {
       topic: "actuary",
       subcategory: "Working Industry Market",
-      growthMultiplier: 13,
+      growthMultiplier: 14,
       trust: "high",
-      videoNum: 1706,
+      videoNum: 1709,
       topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
-    {
-      topic: "how you introduce yourself",
-      subcategory: "Workplace Skills",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: 802,
-      topCountries: ["NG", "PH", "KE", "ZA"],
     },
     {
       topic: "adnan bashir assistant commissioner",
@@ -90,16 +82,24 @@ export const workplaceReport: TikTokReport = {
     {
       topic: "underwater welder salary",
       subcategory: "Recruitment Information",
-      growthMultiplier: 10,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 1099,
       topCountries: ["US", "GB", "DE", "NL", "SE"],
+    },
+    {
+      topic: "how you introduce yourself",
+      subcategory: "Workplace Skills",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 802,
+      topCountries: ["NG", "PH", "KE", "ZA"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "placeneta",
+    topic: "kindergarten teacher with kids",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

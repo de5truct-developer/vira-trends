@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
-  windowStart: "2026-10-01",
+  computedAt: "2026-11-04T08:29:03Z",
+  windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "Garbage plates",
@@ -34,7 +34,7 @@ export const householdReport: TikTokReport = {
     {
       topic: "folding chairs to take away",
       subcategory: "Home Life",
-      growthMultiplier: 140,
+      growthMultiplier: 116,
       trust: "high",
       videoNum: null,
       topCountries: ["DE", "IT", "PL", "GB", "FR"],
@@ -50,7 +50,7 @@ export const householdReport: TikTokReport = {
     {
       topic: "barndominium build progress update",
       subcategory: "House Decoration",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -66,10 +66,10 @@ export const householdReport: TikTokReport = {
     {
       topic: "glass-themed TikTok videos and trends",
       subcategory: "Home Life",
-      growthMultiplier: 50,
+      growthMultiplier: 42,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ID", "VN", "PH", "MX"],
+      topCountries: ["ID", "US", "VN", "PH", "BR"],
     },
     {
       topic: "barndominium build wins and setbacks",
@@ -82,18 +82,18 @@ export const householdReport: TikTokReport = {
     {
       topic: "broly stove",
       subcategory: "Home Life",
-      growthMultiplier: 31,
+      growthMultiplier: 33,
       trust: "high",
       videoNum: 168,
       topCountries: ["PH", "US", "ZA", "MX", "BR"],
     },
     {
-      topic: "failed mattress supply",
-      subcategory: "Home Life",
-      growthMultiplier: 28,
+      topic: "spanish stucco",
+      subcategory: "House Decoration",
+      growthMultiplier: 26,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "MY", "TH"],
+      videoNum: 305,
+      topCountries: ["PH", "ZA", "GB", "NG", "MY"],
     },
   ],
   methodologyNote:

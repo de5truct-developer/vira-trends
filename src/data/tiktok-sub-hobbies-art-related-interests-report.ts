@@ -14,10 +14,10 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "april kepner drowing",
@@ -48,6 +48,13 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "DE", "AU"],
     },
     {
+      topic: "drawing ͡° ͜ ͡°",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 742,
+      topCountries: ["BR", "MX", "AR", "VN"],
+    },
+    {
       topic: "n signature ideas",
       growthMultiplier: 9,
       trust: "high",
@@ -55,17 +62,17 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PL", "PH"],
     },
     {
-      topic: "drawing ͡° ͜ ͡°",
-      growthMultiplier: 9,
+      topic: "Signature Ideas For A",
+      growthMultiplier: 8,
       trust: "high",
-      videoNum: 742,
-      topCountries: ["BR", "MX", "AR", "VN"],
+      videoNum: 791,
+      topCountries: ["PH", "ID", "MY", "MX"],
     },
     {
       topic: "SignatureIdeas",
       growthMultiplier: 8,
       trust: "high",
-      videoNum: null,
+      videoNum: 587,
       topCountries: ["US", "GB", "DE", "BD", "CA"],
     },
     {
@@ -81,13 +88,6 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 462,
       topCountries: ["MY", "BN", "SG", "ID"],
-    },
-    {
-      topic: "anime eye",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 993,
-      topCountries: ["PH", "KH", "MM", "ID", "VN"],
     },
   ],
   methodologyNote:

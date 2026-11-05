@@ -14,10 +14,10 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "prada villain runway",
@@ -48,6 +48,20 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["SA", "KW", "BH", "IQ", "AE"],
     },
     {
+      topic: "212 walk",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "BR", "AU", "CA", "MX"],
+    },
+    {
+      topic: "fashion editorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1143,
+      topCountries: ["ID", "BR", "PH", "NG", "TH"],
+    },
+    {
       topic: "standout looks from paris fashion week",
       growthMultiplier: 1,
       trust: "high",
@@ -62,25 +76,11 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["US", "CA", "PH", "ZA", "AU"],
     },
     {
-      topic: "fashion editorial",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1143,
-      topCountries: ["ID", "BR", "PH", "NG", "TH"],
-    },
-    {
       topic: "military fashion show original",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 612,
       topCountries: ["RU", "MX", "CL", "BR", "PH"],
-    },
-    {
-      topic: "212 walk",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "BR", "AU", "CA", "MX"],
     },
     {
       topic: "What to pack for a pageant fan event",

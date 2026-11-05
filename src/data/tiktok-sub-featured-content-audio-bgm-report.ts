@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "audios rock",
@@ -41,18 +41,18 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "ZA", "CA", "KE", "AU"],
     },
     {
-      topic: "arabic audio",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 3129,
-      topCountries: ["EG", "ID", "SA", "AE", "MA"],
-    },
-    {
       topic: "Annoying sound",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 589,
       topCountries: ["PH", "GB", "AU", "CA", "MY"],
+    },
+    {
+      topic: "arabic audio",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 3129,
+      topCountries: ["EG", "ID", "SA", "AE", "MA"],
     },
     {
       topic: "commercial sounds",
@@ -72,7 +72,7 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topic: "trading sounds",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 20488,
+      videoNum: 20486,
       topCountries: ["NG", "PK", "ID", "UG", "ZA"],
     },
     {
@@ -86,7 +86,7 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topic: "take a photo and see what sound tiktok gives you",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 784895,
+      videoNum: 786250,
       topCountries: ["US", "NG", "PH", "ZA", "GH"],
     },
   ],

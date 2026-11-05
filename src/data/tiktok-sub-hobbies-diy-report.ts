@@ -14,16 +14,16 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "how to make sticker banners",
       growthMultiplier: 373,
       trust: "high",
-      videoNum: 1276,
+      videoNum: 1275,
       topCountries: ["US", "PH", "ID", "VN", "MY"],
     },
     {
@@ -51,7 +51,7 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topic: "how to make a phone holder",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 736,
+      videoNum: 742,
       topCountries: ["PH", "ZA", "MM", "KE"],
     },
     {
@@ -83,11 +83,11 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "VN", "MY"],
     },
     {
-      topic: "plasticine clay",
+      topic: "easy handmade toy tutorial",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 461,
-      topCountries: ["MY", "PH", "ID", "PK"],
+      videoNum: 619,
+      topCountries: ["PH", "ID", "MY", "VN"],
     },
   ],
   methodologyNote:

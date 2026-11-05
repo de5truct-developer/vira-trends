@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "fmu meaning",
       subcategory: "School Education",
-      growthMultiplier: 208,
+      growthMultiplier: 227,
       trust: "high",
       videoNum: 543,
       topCountries: ["US", "CA", "PH", "SA", "AU"],
@@ -50,7 +50,7 @@ export const educationReport: TikTokReport = {
     {
       topic: "3rd person present tense example",
       subcategory: "Language Learning",
-      growthMultiplier: 53,
+      growthMultiplier: 35,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "NZ", "ZA"],
@@ -72,6 +72,14 @@ export const educationReport: TikTokReport = {
       topCountries: ["US", "DE", "GB", "IT", "FR"],
     },
     {
+      topic: "guide to stan school",
+      subcategory: "Education - Others",
+      growthMultiplier: 19,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "ID", "CA", "TH"],
+    },
+    {
       topic: "the dyslexia font",
       subcategory: "Language Learning",
       growthMultiplier: 17,
@@ -80,20 +88,12 @@ export const educationReport: TikTokReport = {
       topCountries: ["US", "GB", "BR", "AU", "CA"],
     },
     {
-      topic: "guide to stan school",
-      subcategory: "Education - Others",
-      growthMultiplier: 17,
+      topic: "meaning esmiringhoy",
+      subcategory: "Language Learning",
+      growthMultiplier: 14,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "CA", "TH"],
-    },
-    {
-      topic: "teacher floating class",
-      subcategory: "Campus Life",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "DE", "MY"],
+      videoNum: 719,
+      topCountries: ["PH", "AE", "SA", "CA"],
     },
   ],
   methodologyNote:

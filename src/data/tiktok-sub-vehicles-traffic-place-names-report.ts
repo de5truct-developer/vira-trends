@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "chongqing east station",
@@ -32,6 +32,13 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ZA", "ID", "MY"],
+    },
+    {
+      topic: "harper airport",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "GB"],
     },
     {
       topic: "TrafficStop",
@@ -81,13 +88,6 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 802,
       topCountries: ["BD", "MM", "BR", "ID"],
-    },
-    {
-      topic: "houston airport",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "VN", "CA", "HN", "CR"],
     },
   ],
   methodologyNote:

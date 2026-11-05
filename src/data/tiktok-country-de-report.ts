@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const deCountryReport: TikTokCountryReport = {
   country: "Germany",
   countryCode: "DE",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "tesla flying car",
@@ -21,7 +21,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: 34953,
+      videoNum: 35660,
       topCountries: ["US", "GB", "DE", "PH", "IT"],
     },
     {
@@ -39,7 +39,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Films and TVs",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 237,
+      videoNum: 863,
       topCountries: ["PH", "US", "DE", "ID", "MY"],
     },
     {
@@ -57,7 +57,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Singles",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
+      videoNum: 405,
       topCountries: ["ID", "DE", "US", "BR", "FR"],
     },
     {
@@ -88,6 +88,15 @@ export const deCountryReport: TikTokCountryReport = {
       topCountries: ["US", "FR", "DE", "GB", "IT"],
     },
     {
+      topic: "outdoor spaces for sports fans",
+      category: "Household",
+      subcategory: "House Decoration",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
+    },
+    {
       topic: "my pain chartacer",
       category: "Healthcare",
       subcategory: "Other Healthcare Content",
@@ -95,15 +104,6 @@ export const deCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 531,
       topCountries: ["US", "DE", "AT", "NG", "BD"],
-    },
-    {
-      topic: "roob elementery school",
-      category: "Education",
-      subcategory: "School Education",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 695,
-      topCountries: ["US", "GB", "BR", "DE", "CA"],
     },
   ],
   methodologyNote:

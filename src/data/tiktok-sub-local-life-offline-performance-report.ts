@@ -14,10 +14,10 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "wemby today",
@@ -58,7 +58,7 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topic: "north west stadium concert",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 10016,
+      videoNum: 10077,
       topCountries: ["US", "BD", "PK", "LA", "PH"],
     },
     {

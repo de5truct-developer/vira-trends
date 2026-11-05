@@ -14,16 +14,16 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "spicy wings chicken betty",
       growthMultiplier: 1054,
       trust: "high",
-      videoNum: 3922,
+      videoNum: 3924,
       topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
@@ -35,7 +35,7 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "daisy cakes review",
-      growthMultiplier: 175,
+      growthMultiplier: 204,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "CA"],
@@ -48,18 +48,18 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "AU", "CA", "NZ", "PH"],
     },
     {
-      topic: "red ribbon bakeshop",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: 233,
-      topCountries: ["PH", "AE", "SA", "TW"],
-    },
-    {
       topic: "Longhorn Steakhouse",
       growthMultiplier: 10,
       trust: "high",
       videoNum: 716,
       topCountries: ["IT", "CA", "BR", "PH", "AU"],
+    },
+    {
+      topic: "red ribbon bakeshop",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 233,
+      topCountries: ["PH", "AE", "SA", "TW"],
     },
     {
       topic: "2211grill",

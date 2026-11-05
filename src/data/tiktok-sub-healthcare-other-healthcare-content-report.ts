@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "why do doctors walk backwards in the theater",
@@ -27,11 +27,11 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["ZA", "KE", "NG", "ZW"],
     },
     {
-      topic: "Caregiving",
+      topic: "medical technology",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "NG", "CA", "KE", "LK"],
+      videoNum: 909,
+      topCountries: ["PH", "MM", "ID", "TH", "IT"],
     },
     {
       topic: "dnr tutorial",
@@ -41,18 +41,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["PH", "BR", "CA", "ID", "MY"],
     },
     {
+      topic: "Caregiving",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "NG", "CA", "KE", "LK"],
+    },
+    {
       topic: "being high",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 746,
       topCountries: ["ZA", "GB", "CA", "PH", "AU"],
-    },
-    {
-      topic: "medical technology",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 909,
-      topCountries: ["PH", "MM", "ID", "TH", "IT"],
     },
     {
       topic: "what to know before trying pdrn",

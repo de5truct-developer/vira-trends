@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const hobbiesReport: TikTokReport = {
   category: "Personal Interests and Hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "banners stickers",
@@ -44,7 +44,7 @@ export const hobbiesReport: TikTokReport = {
       subcategory: "DIY",
       growthMultiplier: 373,
       trust: "high",
-      videoNum: 1276,
+      videoNum: 1275,
       topCountries: ["US", "PH", "ID", "VN", "MY"],
     },
     {
@@ -77,15 +77,7 @@ export const hobbiesReport: TikTokReport = {
       growthMultiplier: 45,
       trust: "high",
       videoNum: 731,
-      topCountries: ["US", "PH", "CA", "GB", "SA"],
-    },
-    {
-      topic: "Stickers banner",
-      subcategory: "Other Hobbies",
-      growthMultiplier: 30,
-      trust: "high",
-      videoNum: 485,
-      topCountries: ["FR", "MX", "BR", "SA", "PH"],
+      topCountries: ["US", "CA", "PH", "GB", "AU"],
     },
     {
       topic: "draw the line",
@@ -94,6 +86,14 @@ export const hobbiesReport: TikTokReport = {
       trust: "high",
       videoNum: 160,
       topCountries: ["PH", "VN", "MY", "ID", "MM"],
+    },
+    {
+      topic: "grow bananas in the garden 2 part",
+      subcategory: "Gardening and Pet",
+      growthMultiplier: 23,
+      trust: "high",
+      videoNum: 1146,
+      topCountries: ["ZA", "NG", "KE", "GH"],
     },
   ],
   methodologyNote:

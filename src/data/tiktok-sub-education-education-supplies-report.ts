@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "e sheet paper in board",
@@ -28,10 +28,17 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "corset de rapunzel disney",
-      growthMultiplier: 3,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 144,
       topCountries: ["MX", "CO", "VE", "PE", "EC"],
+    },
+    {
+      topic: "2027 planner book",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 602,
+      topCountries: ["MY", "ID", "PH", "MM"],
     },
     {
       topic: "school supplies essentials",
@@ -44,7 +51,7 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topic: "fountain pen kakuno",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 439,
       topCountries: ["MX", "ID", "PH", "MY", "PE"],
     },
     {
@@ -81,13 +88,6 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1216,
       topCountries: ["PH", "FR", "MY", "SG", "TH"],
-    },
-    {
-      topic: "pink school supplies haul",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 565,
-      topCountries: ["PH", "CA", "DO", "MY"],
     },
   ],
   methodologyNote:

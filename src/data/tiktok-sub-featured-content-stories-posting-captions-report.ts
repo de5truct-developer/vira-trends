@@ -14,10 +14,10 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "how to be your best version",
@@ -30,7 +30,7 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topic: "friday mood vibes for status",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 21486,
+      videoNum: 21551,
       topCountries: ["ZA", "KE", "NG", "GH"],
     },
     {
@@ -39,13 +39,6 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: 4455,
       topCountries: ["MM", "PK", "NG", "BD"],
-    },
-    {
-      topic: "MondaySavior",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 552,
-      topCountries: ["VN", "TH", "ID", "PH", "MY"],
     },
     {
       topic: "you think it's all over get up",
@@ -67,6 +60,13 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "CA", "MY", "AU"],
+    },
+    {
+      topic: "MondaySavior",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 579,
+      topCountries: ["VN", "TH", "ID", "PH", "MY"],
     },
     {
       topic: "#explore",

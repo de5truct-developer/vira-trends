@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "InnerGrowth",
@@ -30,14 +30,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 398,
       topCountries: ["PH", "MY", "ZA", "ID", "NG"],
-    },
-    {
-      topic: "histrionic",
-      subcategory: "Psychology",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "CA", "AU"],
     },
     {
       topic: "Inconsistency",
@@ -94,6 +86,14 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "NG", "ID", "KE", "ZA"],
+    },
+    {
+      topic: "dividing birthday gifts",
+      subcategory: "Gifts/Presents",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 301,
+      topCountries: ["US", "PH", "GB", "CA", "MY"],
     },
   ],
   methodologyNote:

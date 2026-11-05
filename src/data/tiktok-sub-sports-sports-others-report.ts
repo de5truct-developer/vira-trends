@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "SportsLover",
@@ -62,17 +62,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "BR", "VN"],
     },
     {
-      topic: "أفضل لحظات الحفل الشاطئي",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["BR", "MX", "PE", "ID", "CO"],
-    },
-    {
       topic: "how discipline builds success in sport",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1279,
+      videoNum: null,
       topCountries: ["BD", "US", "ID", "PK"],
     },
     {
@@ -81,6 +74,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1088,
       topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "أفضل لحظات الحفل الشاطئي",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 192,
+      topCountries: ["BR", "MX", "PE", "ID", "CO"],
     },
     {
       topic: "What I pack for tournament day",

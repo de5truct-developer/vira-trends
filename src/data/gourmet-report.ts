@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const gourmetReport: TikTokReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "spicy wings chicken betty",
       subcategory: "Offline Catering",
       growthMultiplier: 1054,
       trust: "high",
-      videoNum: 3922,
+      videoNum: 3924,
       topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
@@ -30,14 +30,6 @@ export const gourmetReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "AU", "MY"],
-    },
-    {
-      topic: "cam hot chocolate upside down",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 236,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "IQ", "EG", "AE", "KW"],
     },
     {
       topic: "foods review",
@@ -50,10 +42,18 @@ export const gourmetReport: TikTokReport = {
     {
       topic: "daisy cakes review",
       subcategory: "Offline Catering",
-      growthMultiplier: 175,
+      growthMultiplier: 204,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "CA"],
+    },
+    {
+      topic: "cam hot chocolate upside down",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 202,
+      trust: "high",
+      videoNum: 344,
+      topCountries: ["SA", "IQ", "EG", "AE", "KW"],
     },
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -68,7 +68,7 @@ export const gourmetReport: TikTokReport = {
       subcategory: "Food FMCG",
       growthMultiplier: 104,
       trust: "high",
-      videoNum: 588,
+      videoNum: 623,
       topCountries: ["KE", "SO", "SA", "TZ"],
     },
     {

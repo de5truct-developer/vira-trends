@@ -10,16 +10,16 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const npCountryReport: TikTokCountryReport = {
   country: "Nepal",
   countryCode: "NP",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "ashika tamang eating meat",
       category: "Gourmet",
       subcategory: "Other Gourmet",
-      growthMultiplier: 37,
+      growthMultiplier: 49,
       trust: "high",
       videoNum: 100,
       topCountries: ["NP", "AE", "JP", "IN"],
@@ -41,6 +41,15 @@ export const npCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1126,
       topCountries: ["PK", "CA", "AE", "NP", "GB"],
+    },
+    {
+      topic: "tihar outfits for girls",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 176,
+      topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
       topic: "my favorite football player",
@@ -84,7 +93,7 @@ export const npCountryReport: TikTokCountryReport = {
       subcategory: "Language Learning",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 617,
+      videoNum: 624,
       topCountries: ["BD", "NP", "PH", "MM"],
     },
     {
@@ -95,15 +104,6 @@ export const npCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NP", "JP", "AE", "IN"],
-    },
-    {
-      topic: "jhapalish prime",
-      category: "Gourmet",
-      subcategory: "Food FMCG",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 330,
-      topCountries: ["NP", "JP", "AU", "AE"],
     },
   ],
   methodologyNote:

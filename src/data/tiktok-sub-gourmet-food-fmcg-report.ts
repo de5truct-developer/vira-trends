@@ -14,10 +14,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "sausage cheese explode",
@@ -30,7 +30,7 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topic: "sparkling water price in kenya",
       growthMultiplier: 104,
       trust: "high",
-      videoNum: 588,
+      videoNum: 623,
       topCountries: ["KE", "SO", "SA", "TZ"],
     },
     {
@@ -69,13 +69,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
-      topic: "kimchi 40 million trade live",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
-    },
-    {
       topic: "Verity does snacks",
       growthMultiplier: 3,
       trust: "high",
@@ -88,6 +81,13 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 475,
       topCountries: ["IT", "RO", "CZ", "MY", "BR"],
+    },
+    {
+      topic: "kimchi 40 million trade clip",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 148,
+      topCountries: ["US", "CA", "AU", "PH", "GB"],
     },
   ],
   methodologyNote:

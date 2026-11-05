@@ -14,17 +14,17 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
-      topic: "new zealand haka court",
-      growthMultiplier: 2,
+      topic: "tokwagains basketball court",
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "CA"],
+      topCountries: ["PH", "SA", "AE", "CA"],
     },
     {
       topic: "gym fur",
@@ -32,6 +32,13 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 912,
       topCountries: ["PH", "ID", "CA", "BR", "MX"],
+    },
+    {
+      topic: "new zealand haka court",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
       topic: "gilbert arena",
@@ -51,8 +58,15 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topic: "viral stadium chant audio trend",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 288,
       topCountries: ["US", "GB", "CA", "MX", "AU"],
+    },
+    {
+      topic: "gym in korea",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 590,
+      topCountries: ["PH", "NP", "ID", "MM"],
     },
     {
       topic: "talanta stadium at night",
@@ -75,25 +89,11 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["US", "CA", "PH", "GB", "AU"],
     },
-    {
-      topic: "puksaan basketball court",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "TH", "MY"],
-    },
-    {
-      topic: "puksaan volleyball court",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 112,
-      topCountries: ["PH", "ID", "MY", "TH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "new zealand haka court",
-    audience: "male 25-34, United States of America (dominant segment, snapshot at collection date)",
+    topic: "tokwagains basketball court",
+    audience: "unknown 4-15, Philippines (dominant segment, snapshot at collection date)",
   },
 };

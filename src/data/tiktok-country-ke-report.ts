@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const keCountryReport: TikTokCountryReport = {
   country: "Kenya",
   countryCode: "KE",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "sparkling water price in kenya",
@@ -21,7 +21,7 @@ export const keCountryReport: TikTokCountryReport = {
       subcategory: "Food FMCG",
       growthMultiplier: 97,
       trust: "high",
-      videoNum: 588,
+      videoNum: 623,
       topCountries: ["KE", "SO", "SA", "TZ"],
     },
     {
@@ -93,7 +93,7 @@ export const keCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 575,
+      videoNum: 596,
       topCountries: ["SO", "KE", "ET", "CA"],
     },
     {

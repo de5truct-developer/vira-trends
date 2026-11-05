@@ -14,10 +14,10 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
-  windowStart: "2026-10-01",
+  computedAt: "2026-11-04T08:29:03Z",
+  windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "the rapunzel edit to fix lag",
@@ -27,15 +27,8 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "PH", "MX"],
     },
     {
-      topic: "lookism chapter 630",
-      growthMultiplier: 90,
-      trust: "high",
-      videoNum: 152,
-      topCountries: ["ID", "TH", "VN", "PH", "MY"],
-    },
-    {
       topic: "im so in love with you dragon ball",
-      growthMultiplier: 55,
+      growthMultiplier: 50,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "BR", "MX"],
@@ -48,18 +41,18 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "MY", "NG"],
     },
     {
+      topic: "cartman kil token",
+      growthMultiplier: 26,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "DE", "NL", "PL", "SE"],
+    },
+    {
       topic: "paw patrol now",
       growthMultiplier: 21,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "AU", "ID"],
-    },
-    {
-      topic: "cartman kil token",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "DE", "NL", "PL", "SE"],
     },
     {
       topic: "secret boss 777 cdrama game anime",
@@ -83,11 +76,18 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "AU", "MX", "CA", "RU"],
     },
     {
-      topic: "cyberpunk edgerunners cracking scene",
-      growthMultiplier: 8,
+      topic: "goku vs saitama battle",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 946,
+      topCountries: ["MX", "PH", "BR", "PE", "ZA"],
+    },
+    {
+      topic: "Helluva Boss season 3 updates",
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "MY", "CA", "ID"],
+      topCountries: ["US", "MX", "GB", "BR", "PE"],
     },
   ],
   methodologyNote:

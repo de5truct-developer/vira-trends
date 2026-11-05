@@ -14,14 +14,14 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "turning raw gold into ingots",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -62,17 +62,10 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "ZA", "CA"],
     },
     {
-      topic: "lil snakeeee being serious",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "CA", "ZA"],
-    },
-    {
       topic: "optical illusions and eye control",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 546,
+      videoNum: null,
       topCountries: ["US", "PH", "MY", "CA", "AU"],
     },
     {
@@ -88,6 +81,13 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 497,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
+      topic: "children's python",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 753,
+      topCountries: ["US", "CA", "AU", "ZA", "PH"],
     },
   ],
   methodologyNote:

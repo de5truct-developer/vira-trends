@@ -14,24 +14,24 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "aliens in white house",
-      growthMultiplier: 1553,
+      growthMultiplier: 1627,
       trust: "high",
       videoNum: 328,
       topCountries: ["US", "GB", "AU", "CA", "PH"],
     },
     {
-      topic: "alien cabinet member",
-      growthMultiplier: 5,
+      topic: "allatra rabbithole",
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["CA", "AU", "MX", "ZA", "PH"],
+      topCountries: ["US", "GB", "DE", "PL", "IE"],
     },
     {
       topic: "atmokinesis",
@@ -39,6 +39,13 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["TR", "ID", "PH", "AZ"],
+    },
+    {
+      topic: "2026 holloween theory",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "IT", "DE", "PL"],
     },
     {
       topic: "mimics caught on camera",
@@ -55,13 +62,6 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "MY", "CA", "MA"],
     },
     {
-      topic: "mysterious creatures",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1219,
-      topCountries: ["KH", "PH", "MM", "ID"],
-    },
-    {
       topic: "alien stage fan theories",
       growthMultiplier: 1,
       trust: "high",
@@ -69,10 +69,17 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "MX", "ID", "TH"],
     },
     {
+      topic: "mysterious creatures",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1225,
+      topCountries: ["KH", "PH", "MM", "ID"],
+    },
+    {
       topic: "clairaudient",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 837,
+      videoNum: 839,
       topCountries: ["US", "GB", "DE", "CA", "IT"],
     },
     {
@@ -81,13 +88,6 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 565,
       topCountries: ["MX", "PH", "PE", "ID", "BO"],
-    },
-    {
-      topic: "strange creatures caught on camera",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 669,
-      topCountries: ["PH", "ZA", "ID", "KE", "CA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "copenhagen height",
@@ -46,6 +46,13 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 180,
       topCountries: ["PH", "MX", "ID", "AU", "CA"],
+    },
+    {
+      topic: "mound bayou mississippi",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "VE", "MX", "IE"],
     },
     {
       topic: "san francisco bay area",
@@ -81,13 +88,6 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1299,
       topCountries: ["PH", "CA", "AU", "JP", "MY"],
-    },
-    {
-      topic: "Washington, D.C.",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "KR", "BR", "VN", "MM"],
     },
   ],
   methodologyNote:

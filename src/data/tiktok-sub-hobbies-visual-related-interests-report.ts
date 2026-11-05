@@ -14,10 +14,10 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "viral video creator identity",
@@ -31,7 +31,7 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 1117,
-      topCountries: ["ET", "RO", "ID", "PK"],
+      topCountries: ["RO", "ET", "ID", "MM"],
     },
     {
       topic: "cute selfie ideas",
@@ -62,13 +62,6 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PE", "CO", "GT"],
     },
     {
-      topic: "#SinglePhoto",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1045,
-      topCountries: ["PH", "NG", "PK", "NP", "MY"],
-    },
-    {
       topic: "family picture ideas",
       growthMultiplier: 2,
       trust: "high",
@@ -76,11 +69,11 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "ZA"],
     },
     {
-      topic: "hdr video tutorial",
+      topic: "#SinglePhoto",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 797,
-      topCountries: ["MM", "MY", "PH", "ID", "BD"],
+      videoNum: 1056,
+      topCountries: ["PH", "NG", "PK", "NP", "MY"],
     },
     {
       topic: "cool photo ideas",
@@ -88,6 +81,13 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1170,
       topCountries: ["MN", "MX", "PH", "ID", "TR"],
+    },
+    {
+      topic: "مقاطع خفيفة تناسب الانتشار السريع",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1154,
+      topCountries: ["PH", "ID", "MY", "VN"],
     },
   ],
   methodologyNote:

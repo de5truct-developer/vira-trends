@@ -14,17 +14,17 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
-      topic: "teacher floating class",
-      growthMultiplier: 16,
+      topic: "aura battle in school",
+      growthMultiplier: 12,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "DE", "MY"],
+      topCountries: ["US", "PH", "VN", "CA", "TH"],
     },
     {
       topic: "Back school",
@@ -34,13 +34,6 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["KH", "GY", "CA", "SA"],
     },
     {
-      topic: "aura battle in school",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "VN", "CA", "TH"],
-    },
-    {
       topic: "last day of school vibes",
       growthMultiplier: 6,
       trust: "high",
@@ -48,10 +41,17 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "VN", "MM"],
     },
     {
+      topic: "teacher floating class",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "DE", "MY"],
+    },
+    {
       topic: "off of campus",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 61678,
+      videoNum: 61671,
       topCountries: ["BR", "MX", "FR", "CO", "DE"],
     },
     {
@@ -69,11 +69,11 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "ES", "AU", "ID"],
     },
     {
-      topic: "school sleepover at school",
-      growthMultiplier: 3,
+      topic: "life as a college student",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "FR", "CA"],
+      videoNum: 1182,
+      topCountries: ["PH", "ZA", "ID", "MY", "CA"],
     },
     {
       topic: "sports day at school",
@@ -83,17 +83,17 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "ZA", "MY", "ID"],
     },
     {
-      topic: "What semester at sea feels like",
+      topic: "senior year of high school",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "US", "PT", "CA", "GB"],
+      videoNum: 689,
+      topCountries: ["GB", "PL", "DE", "FR", "ES"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "teacher floating class",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "aura battle in school",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

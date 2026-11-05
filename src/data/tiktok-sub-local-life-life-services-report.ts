@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "beauty services",
@@ -27,18 +27,18 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["VN", "JP", "ZA", "KH", "MY"],
     },
     {
-      topic: "bunna b and trim",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 188,
-      topCountries: ["US", "GB", "ZA", "CA", "JM"],
-    },
-    {
       topic: "rock and rent",
-      growthMultiplier: 9,
+      growthMultiplier: 11,
       trust: "high",
       videoNum: 353,
       topCountries: ["TH", "VN", "PH", "ID", "BR"],
+    },
+    {
+      topic: "bunna b and trim",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 188,
+      topCountries: ["US", "GB", "ZA", "CA", "JM"],
     },
     {
       topic: "sandevistan tattoo",
@@ -62,6 +62,13 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "PK", "PH", "JP", "VN"],
     },
     {
+      topic: "monaco apartment",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 398,
+      topCountries: ["BR", "ID", "ZA", "PH", "MY"],
+    },
+    {
       topic: "outdoor photoshoot locations",
       growthMultiplier: 1,
       trust: "high",
@@ -81,13 +88,6 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "TH", "MY", "VN"],
-    },
-    {
-      topic: "salon ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1049,
-      topCountries: ["ZA", "PK", "KE", "PH"],
     },
   ],
   methodologyNote:

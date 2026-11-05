@@ -14,11 +14,18 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
+    {
+      topic: "hey sweetness fighting back",
+      growthMultiplier: 351,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "ID", "CA"],
+    },
     {
       topic: "killjoy and vinnie",
       growthMultiplier: 32,
@@ -27,18 +34,18 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["US", "CA", "AU", "MX", "GB"],
     },
     {
-      topic: "i feel fantastic theory",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 655,
-      topCountries: ["US", "MM", "PH", "GB"],
-    },
-    {
       topic: "cactus boomerang incident",
       growthMultiplier: 16,
       trust: "high",
       videoNum: 853,
       topCountries: ["US", "ID", "PH", "BR", "GB"],
+    },
+    {
+      topic: "i feel fantastic theory",
+      growthMultiplier: 15,
+      trust: "high",
+      videoNum: 655,
+      topCountries: ["US", "MM", "PH", "GB"],
     },
     {
       topic: "dailyvideo",
@@ -58,22 +65,15 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topic: "1 in a million vs 1 in a billion",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 165239,
+      videoNum: 166995,
       topCountries: ["PK", "ET", "NG", "NP", "MM"],
     },
     {
       topic: "hannah and garrett jeep",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 2449,
-      topCountries: ["US", "MX", "BY", "BR", "AL"],
-    },
-    {
-      topic: "dtm list meaning",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 696,
-      topCountries: ["US", "CA", "GB", "AU", "ZA"],
+      videoNum: 2449,
+      topCountries: ["US", "MX", "BY", "BD", "CA"],
     },
     {
       topic: "jesus tiktoker",
@@ -93,7 +93,7 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "killjoy and vinnie",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "hey sweetness fighting back",
+    audience: "unknown 25-34, Philippines (dominant segment, snapshot at collection date)",
   },
 };

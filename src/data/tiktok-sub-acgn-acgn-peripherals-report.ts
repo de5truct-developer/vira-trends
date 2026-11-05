@@ -14,10 +14,10 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "mikasa costume",
@@ -30,7 +30,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       topic: "clawdeen wolf custome",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
+      videoNum: 13677,
       topCountries: ["US", "PK", "CA", "SA", "AU"],
     },
     {

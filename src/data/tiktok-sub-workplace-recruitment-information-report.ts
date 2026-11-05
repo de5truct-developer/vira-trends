@@ -14,14 +14,14 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "underwater welder salary",
-      growthMultiplier: 10,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 1099,
       topCountries: ["US", "GB", "DE", "NL", "SE"],
@@ -30,7 +30,7 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topic: "skills that help you get hired fast",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
+      videoNum: 438,
       topCountries: ["DE", "GB", "IT", "PH", "US"],
     },
     {
@@ -39,20 +39,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 422,
       topCountries: ["PH", "ID", "CA", "MY", "ZA"],
-    },
-    {
-      topic: "Apply for jobs",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 953,
-      topCountries: ["KE", "NG", "GH", "UG"],
-    },
-    {
-      topic: "my career job",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 885,
-      topCountries: ["IT", "DE", "GB", "PL", "RO"],
     },
     {
       topic: "why coming fast bike interview",
@@ -88,6 +74,20 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "ZW", "KE", "UG"],
+    },
+    {
+      topic: "Apply for jobs",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 953,
+      topCountries: ["KE", "NG", "GH", "UG"],
+    },
+    {
+      topic: "how agencies help creators grow",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TL", "MY", "TW", "SA"],
     },
   ],
   methodologyNote:

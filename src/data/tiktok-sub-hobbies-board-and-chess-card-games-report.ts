@@ -14,10 +14,10 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "why cant gotham chess be a gm",
@@ -55,6 +55,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "KZ", "SA"],
     },
     {
+      topic: "create schach insights 2028 viral now",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 627,
+      topCountries: ["NP", "PK", "ET", "SA", "UG"],
+    },
+    {
       topic: "bratz monopoly",
       growthMultiplier: 2,
       trust: "high",
@@ -69,11 +76,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA"],
     },
     {
-      topic: "create schach insights 2028 viral now",
+      topic: "paul allen card",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 619,
-      topCountries: ["NP", "PK", "ET", "SA", "UG"],
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "CA", "VN"],
     },
     {
       topic: "scotch opening chess",
@@ -81,13 +88,6 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 385,
       topCountries: ["PH", "ID", "MY", "ZA", "VN"],
-    },
-    {
-      topic: "panini prizm world cup 2026",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 874,
-      topCountries: ["KR", "BR", "SA", "ID"],
     },
   ],
   methodologyNote:

@@ -14,18 +14,11 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "bretman rock monstera fruit",
-      growthMultiplier: 31,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
     {
       topic: "raw beef",
       growthMultiplier: 24,
@@ -34,18 +27,18 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["BR", "PH", "TH", "ID", "MM"],
     },
     {
+      topic: "part 3 of the fruit story 3 mango",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: 732,
+      topCountries: ["US", "ZA", "PH", "NG"],
+    },
+    {
       topic: "CUCUMBER",
       growthMultiplier: 10,
       trust: "high",
       videoNum: 870,
       topCountries: ["ZA", "CA", "NP", "PH", "MM"],
-    },
-    {
-      topic: "part 3 of the fruit story 3 mango",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 732,
-      topCountries: ["US", "ZA", "PH", "NG"],
     },
     {
       topic: "nutria food",
@@ -83,17 +76,24 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "PH", "GB", "MX", "IT"],
     },
     {
-      topic: "is eating bone good",
+      topic: "queen mint",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "DE", "ID", "AU"],
+      videoNum: 467,
+      topCountries: ["PH", "ID", "CA", "MY", "AU"],
+    },
+    {
+      topic: "FruitsStory",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1226,
+      topCountries: ["MM", "PK", "BR", "NP"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "bretman rock monstera fruit",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "raw beef",
+    audience: "unknown 18-24, Brazil (dominant segment, snapshot at collection date)",
   },
 };

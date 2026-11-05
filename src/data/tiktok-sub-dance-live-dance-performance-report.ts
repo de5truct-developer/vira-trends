@@ -14,10 +14,10 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "james brown footwork",
@@ -28,7 +28,7 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "babymonster summer performance vibe",
-      growthMultiplier: 1,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "TH", "VN", "MY"],
@@ -62,6 +62,13 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "US", "CA", "AU", "SG"],
     },
     {
+      topic: "billy ocean moonwalk",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 410,
+      topCountries: ["BR", "PH", "ZA", "GB"],
+    },
+    {
       topic: "cortis moneymoney performance",
       growthMultiplier: 1,
       trust: "high",
@@ -76,15 +83,8 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "BR", "MX", "MY"],
     },
     {
-      topic: "billy ocean moonwalk",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 410,
-      topCountries: ["BR", "PH", "ZA", "GB"],
-    },
-    {
       topic: "rihanna super bowl dance",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: 537,
       topCountries: ["US", "GB", "FR", "BR", "PH"],

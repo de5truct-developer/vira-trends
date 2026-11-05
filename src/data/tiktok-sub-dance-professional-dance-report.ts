@@ -14,11 +14,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
+    {
+      topic: "dance choreography and performance",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MM", "PH", "VN"],
+    },
     {
       topic: "what is amaballet",
       growthMultiplier: 2,
@@ -30,8 +37,15 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topic: "jazz splits",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 44018,
+      videoNum: 43994,
       topCountries: ["PH", "BR", "AU", "CA", "KZ"],
+    },
+    {
+      topic: "this is bachata",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 835,
+      topCountries: ["MX", "BR", "ZA", "SA", "CA"],
     },
     {
       topic: "lyrical dances",
@@ -62,13 +76,6 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "CA", "BR", "MY"],
     },
     {
-      topic: "this is bachata",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 832,
-      topCountries: ["MX", "BR", "ZA", "SA", "CA"],
-    },
-    {
       topic: "Balanchine claw",
       growthMultiplier: 1,
       trust: "high",
@@ -82,18 +89,11 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       videoNum: 1203,
       topCountries: ["MX", "PH", "MY", "ID", "CA"],
     },
-    {
-      topic: "vogue dancing",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1181,
-      topCountries: ["MX", "BR", "CL", "PH", "RU"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "what is amaballet",
-    audience: "female 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "dance choreography and performance",
+    audience: "unknown 35+, Japan (dominant segment, snapshot at collection date)",
   },
 };

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const zaCountryReport: TikTokCountryReport = {
   country: "South Africa",
   countryCode: "ZA",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "daisy episode 1 to 60",
@@ -23,6 +23,15 @@ export const zaCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 168,
       topCountries: ["ZA", "PH", "MY", "NG"],
+    },
+    {
+      topic: "im so sorry trend",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 64,
+      trust: "high",
+      videoNum: 1261,
+      topCountries: ["US", "ZA", "ID", "PH", "GB"],
     },
     {
       topic: "ronaldo goal today review free kick",
@@ -37,7 +46,7 @@ export const zaCountryReport: TikTokCountryReport = {
       topic: "megan thee stallion victoria secret",
       category: "Entertainment",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 22,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 241,
       topCountries: ["US", "CA", "MX", "ZA", "AU"],
@@ -70,6 +79,15 @@ export const zaCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "PH", "ZA", "CA"],
     },
     {
+      topic: "then vs now places",
+      category: "Tourism",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 348,
+      topCountries: ["PH", "VN", "ZA", "TH", "MY"],
+    },
+    {
       topic: "arda guler showboating skills",
       category: "Sports",
       subcategory: "Physical Sports",
@@ -86,24 +104,6 @@ export const zaCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 873,
       topCountries: ["US", "CA", "ZA", "MX", "AU"],
-    },
-    {
-      topic: "my dream car for me",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 804,
-      topCountries: ["GB", "ZA", "KE", "IT", "DE"],
-    },
-    {
-      topic: "How To Put Lyrics In Video On TikTok guide",
-      category: "Science and Technology",
-      subcategory: "Software",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA"],
     },
   ],
   methodologyNote:

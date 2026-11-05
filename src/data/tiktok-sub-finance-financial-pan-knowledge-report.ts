@@ -14,10 +14,10 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "panic buying",
@@ -62,13 +62,6 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "KE", "NG", "ZA", "GH"],
     },
     {
-      topic: "female business ideas",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1073,
-      topCountries: ["ZA", "NG", "PK", "GH"],
-    },
-    {
       topic: "How To Start A Small Business",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1212,
       topCountries: ["NG", "ET", "PK", "MM", "SA"],
+    },
+    {
+      topic: "from zero to first small sale",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BR", "US", "PH"],
     },
   ],
   methodologyNote:

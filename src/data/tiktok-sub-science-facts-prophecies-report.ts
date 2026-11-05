@@ -14,10 +14,10 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "2050 what will happen",
@@ -44,8 +44,8 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topic: "will weather pay off risks 2",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "DE", "IT", "PH", "NL"],
+      videoNum: 808,
+      topCountries: ["GB", "DE", "IT", "US", "PH"],
     },
     {
       topic: "how humans will look like in 2050",
@@ -65,7 +65,7 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topic: "2026 events",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1687,
+      videoNum: 2584,
       topCountries: ["ZA", "PH", "MM", "NG"],
     },
     {

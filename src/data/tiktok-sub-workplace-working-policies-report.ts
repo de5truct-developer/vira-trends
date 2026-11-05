@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "to earn the right to work",
@@ -44,7 +44,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       topic: "policies",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 911,
+      videoNum: 914,
       topCountries: ["BR", "PH", "GB", "IT", "MX"],
     },
     {
@@ -53,6 +53,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "KE", "JM", "PH"],
+    },
+    {
+      topic: "police officer salary",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 457,
+      topCountries: ["ZA", "KE", "PH", "PK"],
     },
     {
       topic: "wells fargo salary 2026",
@@ -81,13 +88,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "BW", "ZW", "NA"],
-    },
-    {
-      topic: "police officer salary",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 457,
-      topCountries: ["ZA", "KE", "PH", "PK"],
     },
   ],
   methodologyNote:

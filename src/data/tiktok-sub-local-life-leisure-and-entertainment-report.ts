@@ -14,14 +14,21 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-04T08:29:03Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
+      topic: "zombie escape room atlanta",
+      growthMultiplier: 1419,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MX", "CO", "PE"],
+    },
+    {
       topic: "how old is ryan's world",
-      growthMultiplier: 25,
+      growthMultiplier: 24,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "CA", "MY", "AU"],
@@ -35,7 +42,7 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "rockandrent",
-      growthMultiplier: 10,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: null,
       topCountries: ["TH", "ID", "VN", "PH", "BR"],
@@ -62,6 +69,13 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["GB", "SA", "AE", "KW", "TR"],
     },
     {
+      topic: "sakura swimming pool yangon",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 567,
+      topCountries: ["MM", "JP", "KH", "PH"],
+    },
+    {
       topic: "splash zone",
       growthMultiplier: 2,
       trust: "high",
@@ -75,25 +89,11 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       videoNum: 1666,
       topCountries: ["IT", "PK", "EG", "ZA"],
     },
-    {
-      topic: "barcelona high line",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 851,
-      topCountries: ["IQ", "NG", "ZA", "VN", "ID"],
-    },
-    {
-      topic: "center parks",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "BR", "MY"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "how old is ryan's world",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "zombie escape room atlanta",
+    audience: "unknown 25-34, United States of America (dominant segment, snapshot at collection date)",
   },
 };

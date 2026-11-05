@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mxCountryReport: TikTokCountryReport = {
   country: "Mexico",
   countryCode: "MX",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "barbas hats x mansory",
@@ -46,7 +46,7 @@ export const mxCountryReport: TikTokCountryReport = {
       topic: "victorias secret katseye",
       category: "Fashion",
       subcategory: "Fashion Products",
-      growthMultiplier: 474,
+      growthMultiplier: 436,
       trust: "high",
       videoNum: 1152,
       topCountries: ["US", "MX", "PE", "PH", "CO"],
@@ -70,6 +70,15 @@ export const mxCountryReport: TikTokCountryReport = {
       topCountries: ["US", "CA", "MX", "AU", "GB"],
     },
     {
+      topic: "glitter runway victorias secret",
+      category: "Fashion",
+      subcategory: "Fashion News",
+      growthMultiplier: 115,
+      trust: "high",
+      videoNum: 912,
+      topCountries: ["US", "PH", "MX", "ID", "CA"],
+    },
+    {
       topic: "tom brady taking off jersey",
       category: "Sports",
       subcategory: "Physical Sports",
@@ -82,7 +91,7 @@ export const mxCountryReport: TikTokCountryReport = {
       topic: "megan thee stallion victoria secret",
       category: "Entertainment",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 78,
+      growthMultiplier: 77,
       trust: "high",
       videoNum: 241,
       topCountries: ["US", "CA", "MX", "ZA", "AU"],
@@ -95,15 +104,6 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "BR", "MX"],
-    },
-    {
-      topic: "yeat fortnite",
-      category: "ACGN",
-      subcategory: "Games",
-      growthMultiplier: 54,
-      trust: "high",
-      videoNum: 431,
-      topCountries: ["US", "GB", "CA", "DE", "MX"],
     },
   ],
   methodologyNote:

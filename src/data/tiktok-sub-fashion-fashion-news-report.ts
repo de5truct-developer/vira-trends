@@ -14,23 +14,23 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "elsa hosk victoria secret",
-      growthMultiplier: 533,
+      growthMultiplier: 560,
       trust: "high",
-      videoNum: 241,
+      videoNum: 438,
       topCountries: ["US", "GB", "PH", "MX", "FR"],
     },
     {
       topic: "heidi klum outfits",
       growthMultiplier: 39,
       trust: "high",
-      videoNum: 1197,
+      videoNum: 1198,
       topCountries: ["US", "MX", "PH", "MY", "CO"],
     },
     {
@@ -42,7 +42,7 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "victoria secret katseye",
-      growthMultiplier: 26,
+      growthMultiplier: 18,
       trust: "high",
       videoNum: 634,
       topCountries: ["MX", "PH", "GB", "PE", "FR"],
@@ -83,11 +83,11 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "FR", "NZ"],
     },
     {
-      topic: "ranking noah kahan merch items",
-      growthMultiplier: 7,
+      topic: "cristiano ronaldo haircut",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "NZ"],
+      videoNum: 688,
+      topCountries: ["SO", "ID", "KE", "TH", "MY"],
     },
   ],
   methodologyNote:

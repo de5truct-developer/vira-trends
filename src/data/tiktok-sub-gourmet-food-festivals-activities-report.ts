@@ -14,10 +14,10 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "dashain food ideas",
@@ -41,13 +41,6 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["PH", "ZA", "MY", "CA"],
     },
     {
-      topic: "daily food shopping vlog ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1161,
-      topCountries: ["ID", "PH", "BR", "MX", "JP"],
-    },
-    {
       topic: "krating and nicha",
       growthMultiplier: 1,
       trust: "high",
@@ -55,10 +48,17 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
     {
+      topic: "daily food shopping vlog ideas",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "PH", "BR", "MX", "JP"],
+    },
+    {
       topic: "funny foodie vlog with real opinions",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 794,
+      videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
@@ -67,6 +67,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
+    },
+    {
+      topic: "تجربة أكل إيطالي بطريقة عفوية",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 634,
+      topCountries: ["IQ", "EG", "DZ", "SA"],
     },
     {
       topic: "family taste test with wild flavors",
@@ -81,13 +88,6 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "RU", "BR", "DE"],
-    },
-    {
-      topic: "funny first bites of local food",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "PH", "US", "MY"],
     },
   ],
   methodologyNote:

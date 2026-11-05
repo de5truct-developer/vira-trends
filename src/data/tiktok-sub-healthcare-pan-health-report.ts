@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "natural aging",
@@ -62,18 +62,18 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "MY", "KE", "NG"],
     },
     {
+      topic: "dry throat at night",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 176,
+      topCountries: ["ZA", "KE", "PH", "CA", "AU"],
+    },
+    {
       topic: "first aid kit essentials",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 917,
       topCountries: ["MX", "CO", "PE", "VE", "AR"],
-    },
-    {
-      topic: "CalorieDeficit",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1011,
-      topCountries: ["GB", "PH", "AU", "CA", "ZA"],
     },
     {
       topic: "best magnesium for women",
@@ -83,11 +83,11 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "KE", "NG", "GH"],
     },
     {
-      topic: "dry throat at night",
+      topic: "stuck hair comb removal in leg prt 2",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 176,
-      topCountries: ["ZA", "KE", "PH", "CA", "AU"],
+      videoNum: 92646,
+      topCountries: ["PH", "ID", "TR", "BR", "GB"],
     },
   ],
   methodologyNote:

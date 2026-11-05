@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "norway houses",
@@ -28,23 +28,23 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "million dollar house affordability and examples",
-      growthMultiplier: 16,
+      growthMultiplier: 10,
       trust: "high",
-      videoNum: 829,
+      videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "DE"],
     },
     {
       topic: "1 million dollar house",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1279,
+      videoNum: 1289,
       topCountries: ["US", "PH", "DE", "CA", "AU"],
     },
     {
       topic: "queens houses",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 3139,
+      videoNum: 3147,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
     },
     {
@@ -83,11 +83,11 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "CA", "GH", "PK"],
     },
     {
-      topic: "texas apartments for rent",
+      topic: "redman mansion",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 921,
-      topCountries: ["NG", "ZA", "PH", "CA", "KE"],
+      videoNum: null,
+      topCountries: ["US", "ZA", "KE", "NG", "CA"],
     },
   ],
   methodologyNote:

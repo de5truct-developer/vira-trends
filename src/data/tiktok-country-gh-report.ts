@@ -10,28 +10,19 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ghCountryReport: TikTokCountryReport = {
   country: "Ghana",
   countryCode: "GH",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "short drama review 1 to 50",
       category: "Entertainment",
       subcategory: "Films and TVs",
-      growthMultiplier: 482,
+      growthMultiplier: 444,
       trust: "high",
-      videoNum: 1060,
+      videoNum: 1119,
       topCountries: ["PH", "NG", "GH", "ZA", "MM"],
-    },
-    {
-      topic: "grow bananas in the garden 2 part",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Gardening and Pet",
-      growthMultiplier: 31,
-      trust: "high",
-      videoNum: 1146,
-      topCountries: ["ZA", "NG", "KE", "GH"],
     },
     {
       topic: "Ateez bad dance",
@@ -104,6 +95,15 @@ export const ghCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 8546,
       topCountries: ["ZA", "NG", "GH", "MM"],
+    },
+    {
+      topic: "steeze original video",
+      category: "Dance",
+      subcategory: "Dance Trend",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 356,
+      topCountries: ["GH", "CA", "AU", "NG"],
     },
   ],
   methodologyNote:

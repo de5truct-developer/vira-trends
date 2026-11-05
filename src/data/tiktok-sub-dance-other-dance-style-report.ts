@@ -14,10 +14,10 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "ballroom hair keramas",
@@ -32,6 +32,20 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 886,
       topCountries: ["ET", "ZA", "CA", "KE"],
+    },
+    {
+      topic: "Sindhi dance",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1016,
+      topCountries: ["PK", "SA", "AE", "BD"],
+    },
+    {
+      topic: "IndianDance",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BD", "SA", "MY"],
     },
     {
       topic: "أجمل لحظات الدبكة في الأعراس",
@@ -53,20 +67,6 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 582,
       topCountries: ["IQ", "EG", "SA", "DZ"],
-    },
-    {
-      topic: "Sindhi dance",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1016,
-      topCountries: ["PK", "SA", "AE", "BD"],
-    },
-    {
-      topic: "IndianDance",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "BD", "SA", "MY"],
     },
     {
       topic: "minimal hip-hop with visual storytelling",

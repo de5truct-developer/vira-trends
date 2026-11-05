@@ -14,10 +14,10 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "the real shape of earth",
@@ -34,10 +34,17 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "HR", "MY", "VN", "TR"],
     },
     {
+      topic: "200 million years ago",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1429,
+      topCountries: ["PH", "ID", "MY", "MM"],
+    },
+    {
       topic: "400 million years ago",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1266,
+      videoNum: 1004,
       topCountries: ["ID", "PH", "MY", "BR"],
     },
     {
@@ -62,11 +69,11 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "CA", "PH", "KE", "ZA"],
     },
     {
-      topic: "8 planets in the solar system",
+      topic: "choosing the right solar system",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 603,
-      topCountries: ["PH", "ZA", "ID", "MY"],
+      videoNum: null,
+      topCountries: ["PH", "ID", "PK", "MY"],
     },
     {
       topic: "small car models and trends",
@@ -76,18 +83,11 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["SA", "PH", "KW", "ZA"],
     },
     {
-      topic: "meteor rock",
+      topic: "8 planets in the solar system",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 503,
-      topCountries: ["PH", "GB", "MY", "ID"],
-    },
-    {
-      topic: "celestron",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 583,
-      topCountries: ["TR", "ID", "BR", "MX", "SA"],
+      videoNum: 603,
+      topCountries: ["PH", "ZA", "ID", "MY"],
     },
   ],
   methodologyNote:

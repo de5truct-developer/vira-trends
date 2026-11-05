@@ -14,18 +14,11 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "the end of oak street hotel",
-      growthMultiplier: 3481,
-      trust: "high",
-      videoNum: 417,
-      topCountries: ["US", "CA", "SA", "AE", "IQ"],
-    },
     {
       topic: "the real diamond city",
       growthMultiplier: 58,
@@ -55,18 +48,11 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US"],
     },
     {
-      topic: "pandit now hotel",
+      topic: "viral staycation and holiday trends",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 3766,
-      topCountries: ["US", "PH", "MY", "CA", "ID"],
-    },
-    {
-      topic: "the nash house",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 148,
-      topCountries: ["KE", "SN", "NG", "CI", "GH"],
+      videoNum: null,
+      topCountries: ["ID", "TH", "PH", "KR"],
     },
     {
       topic: "edward horniman cottage",
@@ -83,17 +69,31 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "CA", "AU", "LB", "NZ"],
     },
     {
+      topic: "the nash house",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 148,
+      topCountries: ["KE", "SN", "NG", "CI", "GH"],
+    },
+    {
       topic: "ELEPHANT HOTEL",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 574,
       topCountries: ["GB", "PH", "ID", "MY"],
     },
+    {
+      topic: "kady dieng residence",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CI", "FR", "TG", "BF", "BJ"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the end of oak street hotel",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "the real diamond city",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

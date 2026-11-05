@@ -14,14 +14,14 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "barndominium build progress update",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -34,18 +34,18 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
-      topic: "funny home updates with real results",
-      growthMultiplier: 27,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "GB", "NZ"],
-    },
-    {
       topic: "spanish stucco",
       growthMultiplier: 26,
       trust: "high",
       videoNum: 305,
       topCountries: ["PH", "ZA", "GB", "NG", "MY"],
+    },
+    {
+      topic: "funny home updates with real results",
+      growthMultiplier: 19,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB", "NZ"],
     },
     {
       topic: "jschlatt room tour",
@@ -83,11 +83,11 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MY", "ID", "CA", "SG"],
     },
     {
-      topic: "outdoor spaces for sports fans",
+      topic: "demitras room",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "CA", "DE"],
+      videoNum: 188,
+      topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
   ],
   methodologyNote:

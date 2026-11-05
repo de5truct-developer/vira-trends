@@ -14,10 +14,10 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "banners stickers",
@@ -49,7 +49,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Stickers banner",
-      growthMultiplier: 30,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: 485,
       topCountries: ["FR", "MX", "BR", "SA", "PH"],
@@ -83,11 +83,11 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "PH", "VN"],
     },
     {
-      topic: "stray kids freebies",
+      topic: "how to play dreidel",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 790,
-      topCountries: ["MX", "AR", "PE", "CO", "BR"],
+      videoNum: null,
+      topCountries: ["PH", "CA", "AU", "MY", "SA"],
     },
   ],
   methodologyNote:

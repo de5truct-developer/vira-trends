@@ -14,10 +14,10 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "why does deja vu happen",
@@ -27,18 +27,18 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["PH", "NG", "PK", "CA", "AU"],
     },
     {
-      topic: "8 billion people explained",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 618,
-      topCountries: ["PH", "US", "MY", "CA", "GB"],
-    },
-    {
       topic: "matrix meaning",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 838,
       topCountries: ["PH", "ZA", "KE", "NG", "GH"],
+    },
+    {
+      topic: "8 billion people explained",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 618,
+      topCountries: ["PH", "US", "MY", "CA", "GB"],
     },
     {
       topic: "polarity",
@@ -55,17 +55,17 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["MX", "BR", "AR", "ES", "FR"],
     },
     {
-      topic: "Science behind paper cleaning processes",
+      topic: "why diamonds feel rarer than they are",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "PE", "CO", "VE"],
+      topCountries: ["ID", "VN", "BR", "MY", "PH"],
     },
     {
       topic: "why neverness to everness stands out",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1084,
+      videoNum: null,
       topCountries: ["ID", "US", "PH", "VN", "BR"],
     },
     {

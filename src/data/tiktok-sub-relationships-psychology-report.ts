@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "InnerGrowth",
@@ -25,13 +25,6 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "MX", "GH", "CM", "ZA"],
-    },
-    {
-      topic: "histrionic",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "CA", "AU"],
     },
     {
       topic: "Inconsistency",
@@ -72,7 +65,7 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topic: "Positivity Mindset",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 14930,
+      videoNum: 14929,
       topCountries: ["CA", "NG", "PH", "ID", "AU"],
     },
     {
@@ -83,11 +76,18 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "ZA", "MM"],
     },
     {
+      topic: "histrionic",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "CA", "AU"],
+    },
+    {
       topic: "i compare myself to everyone",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 675,
-      topCountries: ["PH", "AU", "ID", "CA", "MY"],
+      topCountries: ["PH", "AU", "CA", "ID", "MY"],
     },
   ],
   methodologyNote:

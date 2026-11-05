@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "Ateez bad dance",
@@ -69,13 +69,6 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "PH", "PE", "BR"],
     },
     {
-      topic: "descendants dance rotten to the core",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "MX", "PK", "CA"],
-    },
-    {
       topic: "bts boy with luv dance",
       growthMultiplier: 3,
       trust: "high",
@@ -88,6 +81,13 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 486,
       topCountries: ["PH", "TH", "SA", "ID", "IQ"],
+    },
+    {
+      topic: "PoppingDance",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 647,
+      topCountries: ["JP", "VN", "PH", "SE", "CA"],
     },
   ],
   methodologyNote:

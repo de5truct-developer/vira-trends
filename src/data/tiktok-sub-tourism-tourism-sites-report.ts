@@ -14,18 +14,11 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "aberfan village now",
-      growthMultiplier: 2806,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "IE", "DE"],
-    },
     {
       topic: "sixflagsovergeorgia",
       growthMultiplier: 90,
@@ -76,24 +69,31 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "GB", "PL", "DE"],
     },
     {
-      topic: "nikki horror nights",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ID", "PH", "CA", "GB"],
-    },
-    {
       topic: "denmark strait waterfall",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 727,
       topCountries: ["US", "PH", "CA", "MY", "AU"],
     },
+    {
+      topic: "san martin isla",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CO", "US", "MX", "DO", "ES"],
+    },
+    {
+      topic: "dolores umbridge wand universal studios",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 273,
+      topCountries: ["US", "MX", "CA", "CL", "AR"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "aberfan village now",
+    topic: "sixflagsovergeorgia",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

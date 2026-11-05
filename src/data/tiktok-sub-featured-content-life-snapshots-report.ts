@@ -14,10 +14,10 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "a day in my life cowo viral",
@@ -58,7 +58,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "daily lifestyle vlog",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 25096,
+      videoNum: 27758,
       topCountries: ["PK", "MM", "PH", "NG", "ID"],
     },
     {
@@ -79,14 +79,14 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "travel vlog tutorial",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 3292,
+      videoNum: 3330,
       topCountries: ["NG", "PK", "PH", "MY", "MM"],
     },
     {
       topic: "DailyRoutineVlog",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 3288,
+      videoNum: 3292,
       topCountries: ["PK", "GB", "BD", "ET"],
     },
   ],

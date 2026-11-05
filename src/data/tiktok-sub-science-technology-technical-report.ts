@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "innovative tech trends",
@@ -31,7 +31,7 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: 788,
-      topCountries: ["US", "GB", "PH", "ES", "MX"],
+      topCountries: ["US", "GB", "MX", "ES", "PH"],
     },
     {
       topic: "spacex falcon 9",
@@ -79,15 +79,15 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topic: "Looper",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 4874,
+      videoNum: 4873,
       topCountries: ["US", "PH", "GB", "ID", "CA"],
     },
     {
-      topic: "diy battery pack with 18650 cells",
+      topic: "top box circle",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TH", "PH", "MX"],
+      videoNum: 477,
+      topCountries: ["DO", "CA", "MX", "GE", "HN"],
     },
   ],
   methodologyNote:

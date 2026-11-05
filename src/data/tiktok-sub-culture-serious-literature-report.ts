@@ -14,10 +14,10 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "her own private hell review",
@@ -25,13 +25,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1221,
       topCountries: ["US", "GB", "DE", "AU", "CA"],
-    },
-    {
-      topic: "verity pumpkin",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "ID", "MX", "PH"],
     },
     {
       topic: "lord verity x zodiac",
@@ -67,6 +60,13 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "RU", "ID", "BY", "VN"],
+    },
+    {
+      topic: "verity pumpkin",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "ID", "MX", "PH"],
     },
     {
       topic: "lord verity vs verity",

@@ -14,10 +14,10 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "i want love like this",
@@ -27,18 +27,18 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "ZA", "MY", "CA"],
     },
     {
+      topic: "quotes about real life struggles",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 813,
+      topCountries: ["PH", "ZA", "NG", "AU", "CA"],
+    },
+    {
       topic: "be loyal to what matters",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1005,
       topCountries: ["BR", "MX", "ID", "CA", "SA"],
-    },
-    {
-      topic: "quotes about real life struggles",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 813,
-      topCountries: ["PH", "ZA", "NG", "AU", "CA"],
     },
     {
       topic: "good morning my beautiful",
@@ -51,7 +51,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "I love you more than you know",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 8180,
+      videoNum: 8249,
       topCountries: ["PH", "MY", "ID", "MM", "KH"],
     },
     {
@@ -72,7 +72,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "millionaire mindset motivation",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 7048,
+      videoNum: 6977,
       topCountries: ["ZA", "PH", "PK", "NG"],
     },
     {
@@ -86,7 +86,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "motovational quotes",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 6407,
+      videoNum: 6450,
       topCountries: ["PH", "ZA", "AU", "SG"],
     },
   ],

@@ -14,10 +14,10 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "doll broken arm",
@@ -48,11 +48,11 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "PE", "AR", "CL"],
     },
     {
-      topic: "wpnz puzzle",
+      topic: "mike wazowski scream cup",
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "PH", "CL", "AR"],
+      topCountries: ["US", "PH", "ID", "BR", "MY"],
     },
     {
       topic: "secret marshmallow pong",
@@ -62,11 +62,11 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MY", "DE", "CA", "AU"],
     },
     {
-      topic: "mike wazowski scream cup",
-      growthMultiplier: 6,
+      topic: "wpnz puzzle",
+      growthMultiplier: 7,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "ID", "BR", "MY"],
+      topCountries: ["MX", "PH", "CL", "AR"],
     },
     {
       topic: "pocket totto toy",
@@ -83,11 +83,11 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       topCountries: ["AR", "MX", "CO", "UY"],
     },
     {
-      topic: "weird barbie doll",
+      topic: "filling dumpling with needoh",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 690,
-      topCountries: ["US", "PH", "GB", "ID", "MY"],
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "he regrets losing me",
@@ -55,13 +55,6 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       topCountries: ["ZA", "PH", "SA", "MX", "EG"],
     },
     {
-      topic: "helping families in crisis at home",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["US", "GB", "AU", "CA", "PH"],
-    },
-    {
       topic: "when you both love each other but can't be together",
       growthMultiplier: 1,
       trust: "high",
@@ -72,7 +65,7 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       topic: "hypergamym explained",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 925,
+      videoNum: 926,
       topCountries: ["US", "PH", "CA", "NP", "GB"],
     },
     {
@@ -88,6 +81,13 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 911,
       topCountries: ["MX", "EC", "PE", "PH", "BO"],
+    },
+    {
+      topic: "1 week talking stage",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 249,
+      topCountries: ["PH", "CA", "ZA", "AU", "ID"],
     },
   ],
   methodologyNote:

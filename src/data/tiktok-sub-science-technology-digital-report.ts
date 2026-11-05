@@ -14,10 +14,10 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "k band radar detector",
@@ -30,15 +30,15 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       topic: "dynamic bar iphone",
       growthMultiplier: 332,
       trust: "high",
-      videoNum: 897,
+      videoNum: 899,
       topCountries: ["US", "ID", "PH", "ZA"],
     },
     {
       topic: "Bang and Olufsen audio products",
-      growthMultiplier: 72,
+      growthMultiplier: 101,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "VN", "GB", "SE", "NL"],
+      topCountries: ["US", "SE", "GB", "NL", "VN"],
     },
     {
       topic: "video visibility to all viewers",
@@ -56,7 +56,7 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "oppo find x10 pro max precio",
-      growthMultiplier: 7,
+      growthMultiplier: 10,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "CO", "EC"],

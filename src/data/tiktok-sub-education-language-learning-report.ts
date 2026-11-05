@@ -14,10 +14,10 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "russian guy learning english",
@@ -28,7 +28,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "3rd person present tense example",
-      growthMultiplier: 53,
+      growthMultiplier: 35,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "NZ", "ZA"],
@@ -44,7 +44,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       topic: "meaning esmiringhoy",
       growthMultiplier: 14,
       trust: "high",
-      videoNum: 716,
+      videoNum: 719,
       topCountries: ["PH", "AE", "SA", "CA"],
     },
     {
@@ -73,7 +73,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "AU", "CA", "PH", "KW"],
+      topCountries: ["US", "AU", "CA", "PH", "NZ"],
     },
     {
       topic: "o algo meaning",

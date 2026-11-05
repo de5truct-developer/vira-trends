@@ -10,27 +10,11 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "the end of oak street hotel",
-      subcategory: "Tourism Service",
-      growthMultiplier: 3481,
-      trust: "high",
-      videoNum: 417,
-      topCountries: ["US", "CA", "SA", "AE", "IQ"],
-    },
-    {
-      topic: "aberfan village now",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 2806,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "PH", "IE", "DE"],
-    },
     {
       topic: "sixflagsovergeorgia",
       subcategory: "Tourism Sites",
@@ -42,7 +26,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "best stops on a rawalpindi day trip",
       subcategory: "Tourist Guide",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -50,7 +34,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "road trip guide to a local waterfall",
       subcategory: "Tourist Guide",
-      growthMultiplier: 64,
+      growthMultiplier: 65,
       trust: "high",
       videoNum: 980,
       topCountries: ["PK", "NG", "ZA", "NP"],
@@ -95,11 +79,27 @@ export const tourismReport: TikTokReport = {
       videoNum: 863,
       topCountries: ["US", "CA", "GB", "AU", "NZ"],
     },
+    {
+      topic: "elitch gardens pov",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AU", "CA", "GB", "DE"],
+    },
+    {
+      topic: "evgeny kuznetsov hotel",
+      subcategory: "Tourism Service",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "FI", "SE", "NO", "GB"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the end of oak street hotel",
+    topic: "sixflagsovergeorgia",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "when the client doesn't want to pay 2",
@@ -28,10 +28,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "anoik yai newspaper",
-      growthMultiplier: 57,
+      growthMultiplier: 52,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "CA", "AU", "SA", "MY"],
+      topCountries: ["PH", "CA", "AU", "MY", "SA"],
     },
     {
       topic: "one betrayal one on one with my boss",
@@ -48,13 +48,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "CA", "SA", "MX", "AU"],
     },
     {
-      topic: "office workspace and software comparisons",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "ID", "MX", "PE"],
-    },
-    {
       topic: "WorkingHard",
       growthMultiplier: 2,
       trust: "high",
@@ -69,13 +62,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "ZA", "AU", "PH", "MY"],
     },
     {
-      topic: "annoying manager at work",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 381,
-      topCountries: ["GB", "AU", "CA", "ZA", "NZ"],
-    },
-    {
       topic: "my coworker file a complaint with hr",
       growthMultiplier: 2,
       trust: "high",
@@ -86,8 +72,22 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topic: "teamwork and followers in Guayaquil",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 413,
       topCountries: ["ZA"],
+    },
+    {
+      topic: "clients refuse to pay",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 164,
+      topCountries: ["US", "ZA", "JM", "MD"],
+    },
+    {
+      topic: "brez vs 9 5 worker",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "GB", "AU"],
     },
   ],
   methodologyNote:

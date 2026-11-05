@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const coCountryReport: TikTokCountryReport = {
   country: "Colombia",
   countryCode: "CO",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "tesla roadster 2026 precio",
@@ -34,6 +34,15 @@ export const coCountryReport: TikTokCountryReport = {
       topCountries: ["BR", "MX", "CO", "AR", "PE"],
     },
     {
+      topic: "oppo find x10 pro max precio",
+      category: "Science and Technology",
+      subcategory: "Digital",
+      growthMultiplier: 15,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PE", "CO", "EC"],
+    },
+    {
       topic: "san ateez dance",
       category: "Dance",
       subcategory: "Pop Dance",
@@ -52,15 +61,6 @@ export const coCountryReport: TikTokCountryReport = {
       topCountries: ["MX", "CO", "VE", "PE", "EC"],
     },
     {
-      topic: "oppo find x10 pro max precio",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "PE", "CO", "EC"],
-    },
-    {
       topic: "kurage sirena",
       category: "Science Knowledge",
       subcategory: "Biology Knowledge",
@@ -70,13 +70,13 @@ export const coCountryReport: TikTokCountryReport = {
       topCountries: ["MX", "CO", "PE", "BR", "AR"],
     },
     {
-      topic: "my travel essentials and outfit picks",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
+      topic: "pumpkin seed snacks for fall",
+      category: "Gourmet",
+      subcategory: "Food FMCG",
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["VE", "CO", "PE", "CL", "EC"],
+      topCountries: ["MX", "VE", "PE", "CO"],
     },
     {
       topic: "diy basketball bag idea",

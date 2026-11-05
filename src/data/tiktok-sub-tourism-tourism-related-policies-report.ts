@@ -14,24 +14,24 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "key documents for visa applications",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IR", "AF", "TR", "DE"],
-    },
     {
       topic: "immigration europe",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "BR", "TR", "ID", "IQ"],
+    },
+    {
+      topic: "key documents for visa applications",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["IR", "AF", "TR", "DE"],
     },
     {
       topic: "uae visa update 40 minutes ago uganda",
@@ -62,6 +62,13 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "PK", "NG", "MY", "GH"],
     },
     {
+      topic: "uk e-visa updates applicants should know",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "NG", "PK", "ID"],
+    },
+    {
       topic: "how to prove funds for a uk visa",
       growthMultiplier: 1,
       trust: "high",
@@ -76,13 +83,6 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "PK", "ID"],
     },
     {
-      topic: "uk e-visa updates applicants should know",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "NG", "PK", "ID"],
-    },
-    {
       topic: "أماكن إقامة مناسبة للعائلة",
       growthMultiplier: 1,
       trust: "high",
@@ -93,7 +93,7 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "key documents for visa applications",
-    audience: "unknown 25-34, Iran (dominant segment, snapshot at collection date)",
+    topic: "immigration europe",
+    audience: "unknown 18-24, Brazil (dominant segment, snapshot at collection date)",
   },
 };

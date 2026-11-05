@@ -14,11 +14,18 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
+    {
+      topic: "zanydance",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AR", "MX", "CL", "PE"],
+    },
     {
       topic: "niles baila rock and roll",
       growthMultiplier: 5,
@@ -27,25 +34,11 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PE", "EC", "AR", "CO"],
     },
     {
-      topic: "zanydance",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AR", "MX", "CL", "PE"],
-    },
-    {
       topic: "Dance Edit",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1155,
-      topCountries: ["KZ", "NG", "PH", "AU"],
-    },
-    {
-      topic: "nia forgets her solo",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 100,
-      topCountries: ["GB", "CA", "AU", "PH", "BR"],
+      topCountries: ["NG", "KZ", "PH", "AU", "KE"],
     },
     {
       topic: "paige forgets her solo",
@@ -69,6 +62,20 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "PH", "MX", "RU", "CA"],
     },
     {
+      topic: "synchronization moments core",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 188,
+      topCountries: ["PH", "ID", "ZA", "MY", "MX"],
+    },
+    {
+      topic: "nia forgets her solo",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 100,
+      topCountries: ["GB", "CA", "AU", "PH", "BR"],
+    },
+    {
       topic: "red bull dance final winner",
       growthMultiplier: 2,
       trust: "high",
@@ -82,18 +89,11 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["PH", "ID", "CA", "AU"],
     },
-    {
-      topic: "jay dancing",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 803,
-      topCountries: ["PH", "ZA", "BR", "NG", "CA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "niles baila rock and roll",
-    audience: "female 35+, Mexico (dominant segment, snapshot at collection date)",
+    topic: "zanydance",
+    audience: "unknown 18-24, Argentina (dominant segment, snapshot at collection date)",
   },
 };

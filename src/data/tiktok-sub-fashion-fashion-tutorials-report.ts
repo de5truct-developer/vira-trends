@@ -14,25 +14,11 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
-    {
-      topic: "Blue lagoon hair",
-      growthMultiplier: 421,
-      trust: "high",
-      videoNum: 590,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "blue hair celebrity transformation trends",
-      growthMultiplier: 420,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
     {
       topic: "steez outfit",
       growthMultiplier: 417,
@@ -45,7 +31,7 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 71,
       trust: "high",
       videoNum: 390,
-      topCountries: ["US", "CA", "GB", "ZA", "AU"],
+      topCountries: ["US", "GB", "CA", "ZA", "AU"],
     },
     {
       topic: "persian makeup",
@@ -89,11 +75,25 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["PH", "BD", "ID", "MY", "NP"],
     },
+    {
+      topic: "how this outfit looks on body",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RU", "BY", "KZ", "UA", "KG"],
+    },
+    {
+      topic: "diana armstrong's nail",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RU", "GB", "UA", "DE", "KG"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Blue lagoon hair",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "steez outfit",
+    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "what is october 11th",
@@ -24,20 +24,20 @@ export const cultureReport: TikTokReport = {
       topCountries: ["MM", "PH", "FR", "GB"],
     },
     {
+      topic: "the aberfan disaster 1956",
+      subcategory: "History",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 433,
+      topCountries: ["US"],
+    },
+    {
       topic: "her own private hell review",
       subcategory: "Serious Literature",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 1221,
       topCountries: ["US", "GB", "DE", "AU", "CA"],
-    },
-    {
-      topic: "verity pumpkin",
-      subcategory: "Serious Literature",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "ID", "MX", "PH"],
     },
     {
       topic: "lord verity x zodiac",

@@ -14,10 +14,10 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
       topic: "crystal invoice",
@@ -41,18 +41,18 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "NG", "LK", "MM", "GH"],
     },
     {
-      topic: "ground pound",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 180,
-      topCountries: ["BR", "PH", "ID", "MX", "PE"],
-    },
-    {
       topic: "5000 dollars",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "MX", "AU"],
+    },
+    {
+      topic: "ground pound",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 180,
+      topCountries: ["BR", "PH", "ID", "MX", "PE"],
     },
     {
       topic: "private money lender",

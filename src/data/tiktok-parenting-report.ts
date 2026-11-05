@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
-  windowStart: "2026-10-01",
+  computedAt: "2026-11-04T08:29:03Z",
+  windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
+    {
+      topic: "kass baby name reveal",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "GB", "AU", "ZA"],
+    },
     {
       topic: "baby playing",
       subcategory: "Maternal and Infant Care",
@@ -87,19 +95,11 @@ export const parentingReport: TikTokReport = {
       videoNum: null,
       topCountries: ["PH", "CA", "ZA", "NG", "ID"],
     },
-    {
-      topic: "single mom support groups",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MM", "PH", "MY", "ZA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "baby playing",
-    audience: "unknown 25-34, Bangladesh (dominant segment, snapshot at collection date)",
+    topic: "kass baby name reveal",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

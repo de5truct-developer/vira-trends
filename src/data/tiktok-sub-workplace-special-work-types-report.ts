@@ -14,17 +14,17 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-03T09:41:13Z",
+  computedAt: "2026-11-04T08:29:03Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-04",
+  updatedAt: "2026-11-05",
   topics: [
     {
-      topic: "placeneta",
-      growthMultiplier: 832,
+      topic: "kindergarten teacher with kids",
+      growthMultiplier: 536,
       trust: "high",
-      videoNum: 1159,
-      topCountries: ["US", "ET", "PE", "MX", "BD"],
+      videoNum: 180,
+      topCountries: ["US", "KH", "PH", "JO", "BF"],
     },
     {
       topic: "TikTok ads manager pricing",
@@ -55,18 +55,18 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "VN"],
     },
     {
-      topic: "Angle closure",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "FR", "PL"],
-    },
-    {
       topic: "first woman pilot",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "US", "DE", "PH", "PL"],
+    },
+    {
+      topic: "working on halloween",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 672,
+      topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
       topic: "jeff bezos employee",
@@ -76,11 +76,11 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "CA", "AU", "DE", "PH"],
     },
     {
-      topic: "drifter doorman",
+      topic: "Angle closure",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["BR", "PH", "CA", "GB", "RU"],
+      topCountries: ["US", "GB", "DE", "FR", "PL"],
     },
     {
       topic: "nvidia employee",
@@ -93,7 +93,7 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "placeneta",
+    topic: "kindergarten teacher with kids",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };
