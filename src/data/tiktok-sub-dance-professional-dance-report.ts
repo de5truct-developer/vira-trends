@@ -14,17 +14,17 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "dance choreography and performance",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "MM", "PH", "VN"],
+      topCountries: ["ID", "BD", "JP", "MY"],
     },
     {
       topic: "what is amaballet",
@@ -48,18 +48,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "BR", "ZA", "SA", "CA"],
     },
     {
-      topic: "lyrical dances",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 972,
-      topCountries: ["PH", "FR", "AU", "CA", "GB"],
-    },
-    {
       topic: "THE NUTCRACKER",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 538,
       topCountries: ["MX", "BR", "ID", "TR", "SA"],
+    },
+    {
+      topic: "lyrical dances",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 972,
+      topCountries: ["PH", "FR", "AU", "CA", "GB"],
     },
     {
       topic: "dance performances on stage",

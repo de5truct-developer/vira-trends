@@ -14,10 +14,10 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "kindergarten teacher with kids",
@@ -41,25 +41,11 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "AE", "SA", "MY"],
     },
     {
-      topic: "mike security consultant",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "GB", "AU", "PH"],
-    },
-    {
       topic: "chick fil a customer service",
-      growthMultiplier: 8,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 318,
       topCountries: ["PH", "ID", "MY", "CA", "VN"],
-    },
-    {
-      topic: "first woman pilot",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "US", "DE", "PH", "PL"],
     },
     {
       topic: "working on halloween",
@@ -83,11 +69,25 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "FR", "PL"],
     },
     {
+      topic: "first woman pilot",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "US", "DE", "PH", "PL"],
+    },
+    {
       topic: "nvidia employee",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 378,
       topCountries: ["PH", "GB", "ZA", "ID", "CA"],
+    },
+    {
+      topic: "forensic case investigator",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "NO", "GB", "NZ"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "russian guy learning english",
@@ -38,7 +38,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 17,
       trust: "high",
       videoNum: 2203,
-      topCountries: ["US", "GB", "BR", "AU", "CA"],
+      topCountries: ["US", "GB", "AU", "BR", "CA"],
     },
     {
       topic: "meaning esmiringhoy",
@@ -55,18 +55,18 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "MX", "ID", "AU"],
     },
     {
-      topic: "eternity meaning",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: 385,
-      topCountries: ["PH", "MM", "ZA", "NP", "MY"],
-    },
-    {
       topic: "philippines hardest english word",
       growthMultiplier: 13,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "AE", "SA", "AU"],
+    },
+    {
+      topic: "eternity meaning",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 385,
+      topCountries: ["PH", "MM", "ZA", "NP", "MY"],
     },
     {
       topic: "Iomo meaning",
@@ -80,7 +80,7 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: 368,
-      topCountries: ["US", "GB", "CA", "DE", "PH"],
+      topCountries: ["US", "GB", "CA", "PH", "DE"],
     },
     {
       topic: "English As A Second Language",

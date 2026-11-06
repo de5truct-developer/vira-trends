@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "TheVeryCoolGrandpa",
@@ -56,28 +56,20 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["NP", "ID", "NG", "ZA"],
     },
     {
-      topic: "spencer",
-      subcategory: "Personal Media Accounts",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: [],
-    },
-    {
       topic: "maui jim",
       subcategory: "Personal Media Accounts",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 583,
       topCountries: ["ES", "MX", "TR", "CA", "PH"],
     },
     {
-      topic: "HomemadeHaven",
+      topic: "StayBeautiful",
       subcategory: "Personal Media Accounts",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 445,
-      topCountries: ["US", "CA", "AU", "GB", "PH"],
+      videoNum: 1034,
+      topCountries: ["PA", "ET", "ZA", "ID"],
     },
     {
       topic: "dailyclips",
@@ -86,6 +78,14 @@ export const mediaAccountsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IQ", "ID", "PH", "MY"],
+    },
+    {
+      topic: "spencer",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "NG", "GB", "CA"],
     },
     {
       topic: "GirlBlogging",

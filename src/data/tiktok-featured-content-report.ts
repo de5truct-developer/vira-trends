@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const featuredContentReport: TikTokReport = {
   category: "Featured Content",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "im so sorry i lied trend funny",
@@ -50,7 +50,7 @@ export const featuredContentReport: TikTokReport = {
     {
       topic: "mom mom where were you original",
       subcategory: "Trends/Challenges",
-      growthMultiplier: 143,
+      growthMultiplier: 141,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MX", "FR", "BR", "MY"],

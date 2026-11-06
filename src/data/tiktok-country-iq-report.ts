@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const iqCountryReport: TikTokCountryReport = {
   country: "Iraq",
   countryCode: "IQ",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "football player physical profile",
@@ -22,7 +22,7 @@ export const iqCountryReport: TikTokCountryReport = {
       growthMultiplier: 31,
       trust: "high",
       videoNum: null,
-      topCountries: ["IQ", "EG", "DZ", "SA", "MA"],
+      topCountries: ["EG", "IQ", "DZ", "SA", "MA"],
     },
     {
       topic: "مباراه ريال مدريد اليوم",
@@ -39,7 +39,7 @@ export const iqCountryReport: TikTokCountryReport = {
       subcategory: "Software",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
+      videoNum: 1014,
       topCountries: ["IQ", "DZ", "SA", "EG"],
     },
     {
@@ -61,6 +61,15 @@ export const iqCountryReport: TikTokCountryReport = {
       topCountries: ["IQ", "SA", "YE", "EG"],
     },
     {
+      topic: "iOS 26.6.1",
+      category: "Science and Technology",
+      subcategory: "Digital",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1281,
+      topCountries: ["MM", "ID", "IQ", "EG"],
+    },
+    {
       topic: "Traditional massage spa experience",
       category: "Local Life",
       subcategory: "Leisure and Entertainment",
@@ -70,12 +79,12 @@ export const iqCountryReport: TikTokCountryReport = {
       topCountries: ["TR", "MY", "IQ", "ID"],
     },
     {
-      topic: "neck design trends for 2025 outfits",
+      topic: "Neck design trends for 2025 outfits",
       category: "Fashion",
       subcategory: "Fashion Tutorials",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 144,
       topCountries: ["ID", "SA", "IQ", "MM", "EG"],
     },
     {
@@ -93,17 +102,8 @@ export const iqCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1236,
+      videoNum: 1259,
       topCountries: ["BD", "IQ", "BR", "ID"],
-    },
-    {
-      topic: "مقارنات بين نجمات الدبكة",
-      category: "Dance",
-      subcategory: "Other Dance Style",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 635,
-      topCountries: ["IQ", "EG", "SA", "DZ"],
     },
   ],
   methodologyNote:

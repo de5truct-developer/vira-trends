@@ -14,10 +14,10 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "code rot explained",
@@ -49,7 +49,7 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "nastia hospital",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 112,
       topCountries: ["US", "BR", "PH", "VN"],
@@ -60,6 +60,13 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 511,
       topCountries: ["PH", "ZA", "GB", "NG", "CA"],
+    },
+    {
+      topic: "zekke 6 leaf gremoire",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "US", "ID", "MY", "VN"],
     },
     {
       topic: "sensory procoessing disorder",
@@ -81,13 +88,6 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MY", "PH", "ID", "NG", "CA"],
-    },
-    {
-      topic: "مدينة_الملك_فهد_الطبية_الرياض",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "KW", "SD", "EG"],
     },
   ],
   methodologyNote:

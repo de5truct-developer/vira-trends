@@ -14,10 +14,10 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "mashujaa day celebrations in 2026",
@@ -27,17 +27,10 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["KE", "SA", "QA", "TZ"],
     },
     {
-      topic: "all souls day",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 888,
-      topCountries: ["PH", "MY", "KE", "ID"],
-    },
-    {
       topic: "beautiful weddings",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2411,
+      videoNum: 2415,
       topCountries: ["MM", "ZA", "PK", "IQ"],
     },
     {
@@ -62,13 +55,6 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "ID", "ET", "BD"],
     },
     {
-      topic: "viking videos",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 922,
-      topCountries: ["MX", "PE", "AR", "GT"],
-    },
-    {
       topic: "happy birthday kinza",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +74,20 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 644,
       topCountries: ["PH", "NG", "SL", "GH"],
+    },
+    {
+      topic: "how to plan your festival day",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 128,
+      topCountries: ["ID", "MY", "PH", "VN"],
+    },
+    {
+      topic: "a punk",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1206,
+      topCountries: ["GB", "ID", "MX", "PH", "AU"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "pet pivot",
@@ -41,18 +41,18 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "ZW", "BW"],
     },
     {
-      topic: "A Street Cat Named Bob",
+      topic: "misfitbite minku",
       growthMultiplier: 10,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PH", "MY", "PK"],
+      topCountries: ["PH", "BR", "MX", "VN"],
     },
     {
-      topic: "golden retriever parte 2",
-      growthMultiplier: 6,
+      topic: "A Street Cat Named Bob",
+      growthMultiplier: 10,
       trust: "high",
-      videoNum: 570,
-      topCountries: ["MX", "CO", "PE", "AR"],
+      videoNum: 425,
+      topCountries: ["ID", "PH", "MY", "PK"],
     },
     {
       topic: "baby otter price",
@@ -76,18 +76,18 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "CA", "JP", "PK", "PH"],
     },
     {
-      topic: "plantations",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 899,
-      topCountries: ["US", "AU", "CA", "GB", "PH"],
-    },
-    {
       topic: "breederpartner",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "CA", "AU", "MY"],
+    },
+    {
+      topic: "fishingbait",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1759,
+      topCountries: ["BD", "ID", "PH", "MY"],
     },
   ],
   methodologyNote:

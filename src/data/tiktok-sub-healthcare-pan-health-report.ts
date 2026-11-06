@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "natural aging",
@@ -52,7 +52,7 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 911,
-      topCountries: ["GB", "PH", "US", "CA", "AU"],
+      topCountries: ["GB", "PH", "CA", "US", "DE"],
     },
     {
       topic: "stamina booster for men",
@@ -69,13 +69,6 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "KE", "PH", "CA", "AU"],
     },
     {
-      topic: "first aid kit essentials",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 917,
-      topCountries: ["MX", "CO", "PE", "VE", "AR"],
-    },
-    {
       topic: "best magnesium for women",
       growthMultiplier: 1,
       trust: "high",
@@ -83,10 +76,17 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "KE", "NG", "GH"],
     },
     {
+      topic: "Drained ",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 757,
+      topCountries: ["PH", "AU", "ZA", "CA", "NG"],
+    },
+    {
       topic: "stuck hair comb removal in leg prt 2",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 92646,
+      videoNum: 92654,
       topCountries: ["PH", "ID", "TR", "BR", "GB"],
     },
   ],

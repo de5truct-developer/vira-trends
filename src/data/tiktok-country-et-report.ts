@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const etCountryReport: TikTokCountryReport = {
   country: "Ethiopia",
   countryCode: "ET",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "qadan qaran before and after",
@@ -34,7 +34,7 @@ export const etCountryReport: TikTokCountryReport = {
       topCountries: ["NG", "GH", "GB", "ET"],
     },
     {
-      topic: "simple laundry care tips at home",
+      topic: "Simple laundry care tips at home",
       category: "Household",
       subcategory: "Home Life",
       growthMultiplier: 3,
@@ -48,7 +48,7 @@ export const etCountryReport: TikTokCountryReport = {
       subcategory: "Uncategorized",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1172,
+      videoNum: 1173,
       topCountries: ["BD", "NG", "ET", "PK"],
     },
     {
@@ -64,19 +64,10 @@ export const etCountryReport: TikTokCountryReport = {
       topic: "ethiopian tiktok fyp hashtag",
       category: "TikTok's Featured Content",
       subcategory: "Others TikTok and Video Contents",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ET", "SA", "AE", "ZA"],
-    },
-    {
-      topic: "speaker clean sound",
-      category: "Science and Technology",
-      subcategory: "Digital",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 6168,
-      topCountries: ["PK", "BD", "MM", "ET"],
+      videoNum: 1138,
+      topCountries: ["ET", "SA", "AE", "ZA"],
     },
     {
       topic: "how to stop chasing betting losses",
@@ -84,7 +75,7 @@ export const etCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
+      videoNum: 479,
       topCountries: ["PK", "LK", "BD", "NP", "ET"],
     },
     {
@@ -95,6 +86,15 @@ export const etCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "BR", "NP", "ET"],
+    },
+    {
+      topic: "how to plan a summer park visit",
+      category: "Tourism",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["EG", "ET", "US", "SA"],
     },
     {
       topic: "use live captions on your phone",

@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "ashika tamang eating meat",
@@ -34,7 +34,7 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "BR", "PK", "NP"],
     },
     {
-      topic: "simple kitchen tests for food quality",
+      topic: "Simple kitchen tests for food quality",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
@@ -58,7 +58,7 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topic: "FoodEatingShow",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 815,
+      videoNum: 817,
       topCountries: ["ID", "TH", "MY", "MM"],
     },
     {
@@ -80,14 +80,14 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 249,
-      topCountries: ["PK", "AE", "SA", "BD"],
+      topCountries: ["PK", "AE", "SA", "LK"],
     },
     {
-      topic: "food makes me happy",
+      topic: "I love spicy food",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 3659,
-      topCountries: ["PH", "MY", "ZA", "ID", "CA"],
+      videoNum: 866,
+      topCountries: ["PH", "MY", "ID", "CA", "ZA"],
     },
   ],
   methodologyNote:

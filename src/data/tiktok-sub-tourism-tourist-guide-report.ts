@@ -14,16 +14,23 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "best stops on a rawalpindi day trip",
       growthMultiplier: 65,
       trust: "high",
       videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
+    {
+      topic: "Cheap beach town travel ideas",
+      growthMultiplier: 65,
+      trust: "high",
+      videoNum: 995,
       topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
@@ -48,6 +55,13 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topCountries: ["TR", "AU", "PH", "CA", "ID"],
     },
     {
+      topic: "peaceful local spots for nature walks",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "MX", "PH", "PL"],
+    },
+    {
       topic: "immersive ways to explore night city",
       growthMultiplier: 4,
       trust: "high",
@@ -62,18 +76,11 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "MY", "VN"],
     },
     {
-      topic: "peaceful local spots for nature walks",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "MX", "PH", "PL"],
-    },
-    {
       topic: "toyoko kids street japan",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 449,
-      topCountries: ["US", "PH", "GB", "DE", "ID"],
+      topCountries: ["US", "PH", "GB", "ID", "DE"],
     },
     {
       topic: "then vs now places",
@@ -81,13 +88,6 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 348,
       topCountries: ["PH", "VN", "ZA", "TH", "MY"],
-    },
-    {
-      topic: "makkah travel tips",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 754,
-      topCountries: ["ID", "PK", "SA", "BD"],
     },
   ],
   methodologyNote:

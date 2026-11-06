@@ -14,10 +14,10 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "2050 what will happen",
@@ -25,13 +25,6 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 112,
       topCountries: ["KH", "ZA", "PH", "GH"],
-    },
-    {
-      topic: "nasa release new images 2026",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US"],
     },
     {
       topic: "3 days of darkness in 2026",
@@ -44,7 +37,7 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topic: "will weather pay off risks 2",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 808,
+      videoNum: 810,
       topCountries: ["GB", "DE", "IT", "US", "PH"],
     },
     {
@@ -62,10 +55,17 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ES", "PH", "MX", "VE"],
     },
     {
+      topic: "nasa release new images 2026",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US"],
+    },
+    {
       topic: "2026 events",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 2584,
+      videoNum: 2588,
       topCountries: ["ZA", "PH", "MM", "NG"],
     },
     {
@@ -76,18 +76,18 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "KE", "ZW", "ZM", "NG"],
     },
     {
+      topic: "what happened in 2026",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2213,
+      topCountries: ["ZA", "PH", "NG", "ID"],
+    },
+    {
       topic: "2026 and 2027",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 17646,
       topCountries: ["PK", "PH", "MM", "ID"],
-    },
-    {
-      topic: "the end 2026",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 164,
-      topCountries: ["VN", "TH", "ID", "PE", "MY"],
     },
   ],
   methodologyNote:

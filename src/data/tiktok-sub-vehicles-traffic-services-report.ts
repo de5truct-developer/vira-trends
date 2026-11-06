@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "subway seat dispute resolution",
@@ -34,6 +34,13 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "ID", "BD", "NG"],
     },
     {
+      topic: "sydney sydney boat",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "PH", "NZ"],
+    },
+    {
       topic: "phalange plane",
       growthMultiplier: 2,
       trust: "high",
@@ -48,13 +55,6 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "IQ", "MM", "PK", "ZA"],
     },
     {
-      topic: "sydney sydney boat",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "NZ"],
-    },
-    {
       topic: "what is tsa",
       growthMultiplier: 2,
       trust: "high",
@@ -62,11 +62,11 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "ZA", "GH", "PH", "NG"],
     },
     {
-      topic: "florida walmart parking lot",
+      topic: "how does mr hungry clean his car",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 776,
-      topCountries: ["US", "GB", "CA", "FR", "ES"],
+      videoNum: null,
+      topCountries: ["GB", "PH", "PL", "MY", "IT"],
     },
     {
       topic: "chevy cobalt gas station",

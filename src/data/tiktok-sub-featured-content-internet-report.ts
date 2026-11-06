@@ -14,17 +14,31 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "rolo picture museum",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PK", "AU", "MM"],
+    },
     {
       topic: "How to do I love I love with a passion",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 2109,
       topCountries: ["PK", "MM", "NP", "BD", "ID"],
+    },
+    {
+      topic: "Ben A Critic hotel review in Lumberton",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1032,
+      topCountries: ["PK", "MM", "AE", "UA", "MA"],
     },
     {
       topic: "Stream with Tako",
@@ -34,6 +48,13 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "MM", "NP", "BD", "PH"],
     },
     {
+      topic: "i wanna see the sunshine after the rain animation tutorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 4025,
+      topCountries: ["PK", "PH", "QA", "ID", "MX"],
+    },
+    {
       topic: "Choose with Tako",
       growthMultiplier: 1,
       trust: "high",
@@ -41,18 +62,18 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "MM", "BD", "IR", "LA"],
     },
     {
-      topic: "rolo picture museum",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PK", "AU", "MM"],
-    },
-    {
       topic: "home vs show hoodie",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 7691,
       topCountries: ["US", "ID", "PK", "BD", "MM"],
+    },
+    {
+      topic: "brainstorm with tako",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 19879,
+      topCountries: ["PK", "BD", "LA", "IR", "MM"],
     },
     {
       topic: "Translate with Tako",
@@ -68,32 +89,11 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       videoNum: 9844,
       topCountries: ["PK", "BY", "MM", "VN", "RU"],
     },
-    {
-      topic: "Ben A Critic hotel review in Lumberton",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1032,
-      topCountries: ["PK", "MM", "MA", "UA", "AE"],
-    },
-    {
-      topic: "i wanna see the sunshine after the rain animation tutorial",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 4025,
-      topCountries: ["PK", "PH", "QA", "ID", "MA"],
-    },
-    {
-      topic: "double helix ep 11 review",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MM", "PK", "BD", "JP", "ID"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "How to do I love I love with a passion",
-    audience: "not enough audience data for this topic",
+    topic: "rolo picture museum",
+    audience: "unknown 25-34, Pakistan (dominant segment, snapshot at collection date)",
   },
 };

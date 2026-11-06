@@ -14,16 +14,16 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "crystal invoice",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 4625,
+      videoNum: 4626,
       topCountries: ["US", "CA", "AU", "ZA", "SA"],
     },
     {
@@ -60,13 +60,6 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 587,
       topCountries: ["ZA", "TT", "NG", "UG", "KE"],
-    },
-    {
-      topic: "small capital business ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MM", "JP", "TH", "PH"],
     },
   ],
   methodologyNote:

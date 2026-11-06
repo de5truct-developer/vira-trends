@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "why do doctors walk backwards in the theater",
@@ -51,15 +51,22 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topic: "being high",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 746,
+      videoNum: 755,
       topCountries: ["ZA", "GB", "CA", "PH", "AU"],
+    },
+    {
+      topic: "wilsons surgrey for kid grey anatomy",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB"],
     },
     {
       topic: "what to know before trying pdrn",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "EG", "PK", "BR"],
+      topCountries: ["ID", "PK", "EG", "BR"],
     },
     {
       topic: "recovery day",
@@ -73,7 +80,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PK", "NG", "ZA", "CA", "GH"],
+      topCountries: ["PK", "ZA", "NG", "CA", "GH"],
     },
     {
       topic: "my pain chartacer",
@@ -81,13 +88,6 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: 531,
       topCountries: ["US", "DE", "AT", "NG", "BD"],
-    },
-    {
-      topic: "wilsons surgrey for kid grey anatomy",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB"],
     },
   ],
   methodologyNote:

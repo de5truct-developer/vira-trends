@@ -14,17 +14,17 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "heeseung come back and back tutorial",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "MY", "US", "BR"],
+      topCountries: ["PH", "ID", "MY", "BR", "US"],
     },
     {
       topic: "tutoriym teetee",
@@ -41,18 +41,18 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "BR", "ID", "ZA", "VN"],
     },
     {
+      topic: "Easy stepdance steps to learn",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "AR", "PE", "CO", "EC"],
+    },
+    {
       topic: "praise the lord dance tutorial",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 365,
       topCountries: ["PH", "ID", "GH", "NG"],
-    },
-    {
-      topic: "comment posting tutorial",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "ZA", "NZ", "PH", "RU"],
     },
     {
       topic: "mamushi dance tutorial",
@@ -76,18 +76,18 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "CA", "KE", "AU", "BR"],
     },
     {
+      topic: "viral sound tutorial trends",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 340,
+      topCountries: ["BR", "VN", "MX", "ID", "RU"],
+    },
+    {
       topic: "my thang dance tutorial",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 674,
       topCountries: ["PH", "ID", "MY", "TH"],
-    },
-    {
-      topic: "replay shinee dance tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 366,
-      topCountries: ["ID", "PH", "MY", "TH", "MM"],
     },
   ],
   methodologyNote:

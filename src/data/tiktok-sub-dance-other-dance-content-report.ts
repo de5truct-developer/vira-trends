@@ -14,17 +14,17 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "zanydance",
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
-      topCountries: ["AR", "MX", "CL", "PE"],
+      topCountries: ["AR", "MX", "CO", "VE"],
     },
     {
       topic: "niles baila rock and roll",
@@ -32,6 +32,13 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "EC", "AR", "CO"],
+    },
+    {
+      topic: "what is sytycd",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "MX", "NZ"],
     },
     {
       topic: "Dance Edit",
@@ -81,13 +88,6 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 324,
       topCountries: ["US", "GH", "ID", "NG", "KE"],
-    },
-    {
-      topic: "best jig 2 performance philippines",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "CA", "AU"],
     },
   ],
   methodologyNote:

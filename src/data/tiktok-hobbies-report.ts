@@ -10,18 +10,18 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const hobbiesReport: TikTokReport = {
   category: "Personal Interests and Hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "banners stickers",
       subcategory: "Other Hobbies",
-      growthMultiplier: 1267,
+      growthMultiplier: 1315,
       trust: "high",
       videoNum: 1174,
-      topCountries: ["MX", "PH", "BR", "AR", "PE"],
+      topCountries: ["MX", "BR", "PH", "AR", "PE"],
     },
     {
       topic: "april kepner drowing",
@@ -44,7 +44,7 @@ export const hobbiesReport: TikTokReport = {
       subcategory: "DIY",
       growthMultiplier: 373,
       trust: "high",
-      videoNum: 1275,
+      videoNum: 1276,
       topCountries: ["US", "PH", "ID", "VN", "MY"],
     },
     {
@@ -72,6 +72,14 @@ export const hobbiesReport: TikTokReport = {
       topCountries: ["US", "PH", "MX", "AU", "ID"],
     },
     {
+      topic: "24 car trend",
+      subcategory: "Board and Chess/Card Games",
+      growthMultiplier: 54,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "DE", "GB", "TH", "BD"],
+    },
+    {
       topic: "pet pivot",
       subcategory: "Gardening and Pet",
       growthMultiplier: 45,
@@ -80,20 +88,12 @@ export const hobbiesReport: TikTokReport = {
       topCountries: ["US", "CA", "PH", "GB", "AU"],
     },
     {
-      topic: "draw the line",
-      subcategory: "Art related Interests",
-      growthMultiplier: 24,
+      topic: "creator schach insight video 2026 viral",
+      subcategory: "Board and Chess/Card Games",
+      growthMultiplier: 32,
       trust: "high",
-      videoNum: 160,
-      topCountries: ["PH", "VN", "MY", "ID", "MM"],
-    },
-    {
-      topic: "grow bananas in the garden 2 part",
-      subcategory: "Gardening and Pet",
-      growthMultiplier: 23,
-      trust: "high",
-      videoNum: 1146,
-      topCountries: ["ZA", "NG", "KE", "GH"],
+      videoNum: null,
+      topCountries: ["NP", "PK", "ET", "UG", "SA"],
     },
   ],
   methodologyNote:

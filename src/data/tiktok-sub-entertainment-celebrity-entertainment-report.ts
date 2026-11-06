@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -37,7 +37,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topic: "miley cyrus hollywood bowl",
       growthMultiplier: 2137,
       trust: "high",
-      videoNum: 3449,
+      videoNum: 3511,
       topCountries: ["US", "CA", "MX", "AU", "GB"],
     },
     {
@@ -66,7 +66,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       growthMultiplier: 111,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "PH", "ZA", "AU"],
+      topCountries: ["US", "GB", "ZA", "PH", "AU"],
     },
     {
       topic: "the rock megan thee stallion",

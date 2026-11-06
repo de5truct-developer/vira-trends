@@ -14,17 +14,17 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "The callaway ad",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "AU", "CA", "GR", "IE"],
+      topCountries: ["US", "AU", "CA", "PL", "GR"],
     },
     {
       topic: "actions and stuff etiquetas",
@@ -55,18 +55,18 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
-      topic: "cappy audition",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 442,
-      topCountries: ["US", "PH", "CA", "GB", "AU"],
-    },
-    {
       topic: "magic repo man revenge",
       growthMultiplier: 0,
       trust: "high",
       videoNum: 1106,
       topCountries: ["US", "PH", "ID", "MY", "BR"],
+    },
+    {
+      topic: "cappy audition",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 442,
+      topCountries: ["US", "PH", "CA", "GB", "AU"],
     },
   ],
   methodologyNote:

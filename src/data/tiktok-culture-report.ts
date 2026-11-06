@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "what is october 11th",
       subcategory: "Uncategorized",
-      growthMultiplier: 26,
+      growthMultiplier: 23,
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "PH", "FR", "GB"],
@@ -30,14 +30,6 @@ export const cultureReport: TikTokReport = {
       trust: "high",
       videoNum: 433,
       topCountries: ["US"],
-    },
-    {
-      topic: "her own private hell review",
-      subcategory: "Serious Literature",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 1221,
-      topCountries: ["US", "GB", "DE", "AU", "CA"],
     },
     {
       topic: "lord verity x zodiac",
@@ -54,6 +46,14 @@ export const cultureReport: TikTokReport = {
       trust: "high",
       videoNum: 529,
       topCountries: ["US", "GB", "CA", "DE", "NL"],
+    },
+    {
+      topic: "psalm 137 9 verse",
+      subcategory: "Religion",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "ZA", "MU"],
     },
     {
       topic: "drusilla hunger games book",
@@ -88,12 +88,12 @@ export const cultureReport: TikTokReport = {
       topCountries: ["PK", "TZ", "BD", "MY"],
     },
     {
-      topic: "psalm 137 9 verse",
-      subcategory: "Religion",
+      topic: "verity vs lord verity",
+      subcategory: "Serious Literature",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "MU"],
+      topCountries: ["PH", "MX", "ID", "TH", "CA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "norway houses",
@@ -31,13 +31,13 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "AU", "DE"],
+      topCountries: ["US", "PH", "CA", "DE", "AU"],
     },
     {
       topic: "1 million dollar house",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1289,
+      videoNum: 1291,
       topCountries: ["US", "PH", "DE", "CA", "AU"],
     },
     {
@@ -46,6 +46,13 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 3147,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
+    },
+    {
+      topic: "property features worth showing",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "TW", "EG"],
     },
     {
       topic: "landman manuel antino house",
@@ -81,13 +88,6 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 838,
       topCountries: ["ZA", "CA", "GH", "PK"],
-    },
-    {
-      topic: "redman mansion",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "KE", "NG", "CA"],
     },
   ],
   methodologyNote:

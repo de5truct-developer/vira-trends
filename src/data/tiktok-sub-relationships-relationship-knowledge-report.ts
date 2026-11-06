@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "he regrets losing me",
@@ -39,6 +39,13 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "PH", "AE", "GE", "AU"],
+    },
+    {
+      topic: "stages of men falling in love",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "MY", "CA", "NG"],
     },
     {
       topic: "bonita meaning",
@@ -65,7 +72,7 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       topic: "hypergamym explained",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 926,
+      videoNum: 929,
       topCountries: ["US", "PH", "CA", "NP", "GB"],
     },
     {
@@ -81,13 +88,6 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 911,
       topCountries: ["MX", "EC", "PE", "PH", "BO"],
-    },
-    {
-      topic: "1 week talking stage",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 249,
-      topCountries: ["PH", "CA", "ZA", "AU", "ID"],
     },
   ],
   methodologyNote:

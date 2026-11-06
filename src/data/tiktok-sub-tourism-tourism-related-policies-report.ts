@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "immigration europe",
@@ -76,18 +76,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "PK", "ID"],
     },
     {
-      topic: "who qualifies for a uk visit visa",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 385,
-      topCountries: ["GB", "NG", "PK", "ID"],
-    },
-    {
       topic: "أماكن إقامة مناسبة للعائلة",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 401,
       topCountries: ["IQ", "EG", "SA", "TR"],
+    },
+    {
+      topic: "korea e arrival card",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 289,
+      topCountries: ["PH", "SG", "MY", "ID", "AU"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "april kepner drowing",
@@ -42,7 +42,7 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "teal and turquoise",
-      growthMultiplier: 14,
+      growthMultiplier: 17,
       trust: "high",
       videoNum: 545,
       topCountries: ["US", "GB", "CA", "DE", "AU"],
@@ -62,13 +62,6 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PL", "PH"],
     },
     {
-      topic: "Signature Ideas For A",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 791,
-      topCountries: ["PH", "ID", "MY", "MX"],
-    },
-    {
       topic: "SignatureIdeas",
       growthMultiplier: 8,
       trust: "high",
@@ -76,18 +69,25 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "BD", "CA"],
     },
     {
-      topic: "Art stasy",
+      topic: "Signature Ideas For A",
       growthMultiplier: 8,
       trust: "high",
-      videoNum: 132,
-      topCountries: ["PH", "AU", "CA", "ZA"],
+      videoNum: 791,
+      topCountries: ["PH", "ID", "MY", "MX"],
     },
     {
       topic: "poster kudrat 1968",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 462,
+      videoNum: 483,
       topCountries: ["MY", "BN", "SG", "ID"],
+    },
+    {
+      topic: "anime eye",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 999,
+      topCountries: ["PH", "KH", "MM", "ID", "VN"],
     },
   ],
   methodologyNote:

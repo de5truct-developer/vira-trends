@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "kass baby name reveal",
@@ -80,20 +80,20 @@ export const parentingReport: TikTokReport = {
       topCountries: ["AE", "SA", "ID", "MY", "CA"],
     },
     {
-      topic: "mom content creators",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 42900,
-      topCountries: ["PH", "ZA", "ID", "CA", "PK"],
-    },
-    {
       topic: "Mom content",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "ZA", "NG", "ID"],
+    },
+    {
+      topic: "mom content creators",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 42900,
+      topCountries: ["PH", "ZA", "ID", "CA", "PK"],
     },
   ],
   methodologyNote:

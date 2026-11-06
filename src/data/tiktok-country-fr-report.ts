@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const frCountryReport: TikTokCountryReport = {
   country: "France",
   countryCode: "FR",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "my weopon type",
@@ -79,6 +79,15 @@ export const frCountryReport: TikTokCountryReport = {
       topCountries: ["FR", "BD", "MY", "BR"],
     },
     {
+      topic: "best ssd upgrade for gaming pcs",
+      category: "Science and Technology",
+      subcategory: "Digital",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 575,
+      topCountries: ["US", "BR", "FR", "PH", "ID"],
+    },
+    {
       topic: "cute travel looks with relaxed vibes",
       category: "Fashion",
       subcategory: "Fashion Tutorials",
@@ -95,15 +104,6 @@ export const frCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "BR", "FR", "ID", "PH"],
-    },
-    {
-      topic: "best ssd upgrade for gaming pcs",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 575,
-      topCountries: ["US", "BR", "FR", "PH", "ID"],
     },
   ],
   methodologyNote:

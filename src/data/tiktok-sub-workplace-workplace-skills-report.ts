@@ -14,10 +14,10 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "continue to part 2of the interview",
@@ -55,6 +55,13 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "BN", "SG", "ID"],
     },
     {
+      topic: "open work spaces",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 530,
+      topCountries: ["US", "SA", "AE", "CA", "PH"],
+    },
+    {
       topic: "Client consult before color change",
       growthMultiplier: 3,
       trust: "high",
@@ -73,7 +80,7 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "AU", "NG", "ES", "EG"],
+      topCountries: ["GB", "AU", "NG", "ES", "GH"],
     },
     {
       topic: "perfect weld",
@@ -81,13 +88,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 893,
       topCountries: ["US", "PH", "CA", "AU", "MY"],
-    },
-    {
-      topic: "continue part 3 of the interview",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "NG", "ZA", "KE", "GH"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "zombie escape room atlanta",
@@ -25,6 +25,20 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "MX", "CO", "PE"],
+    },
+    {
+      topic: "best spots for a local night out",
+      growthMultiplier: 65,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
+    {
+      topic: "casual venue review with friends",
+      growthMultiplier: 65,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
       topic: "how old is ryan's world",
@@ -55,13 +69,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "MX", "PH", "VN"],
     },
     {
-      topic: "laika studios wildwood",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 635,
-      topCountries: ["PH", "ES", "GB", "ID", "DE"],
-    },
-    {
       topic: "supernova london",
       growthMultiplier: 3,
       trust: "high",
@@ -81,13 +88,6 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: 479,
       topCountries: ["PH", "MY", "CA", "ID", "MX"],
-    },
-    {
-      topic: "trampoline park ticket prices",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1666,
-      topCountries: ["IT", "PK", "EG", "ZA"],
     },
   ],
   methodologyNote:

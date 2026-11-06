@@ -14,10 +14,10 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "why does deja vu happen",
@@ -55,6 +55,13 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["MX", "BR", "AR", "ES", "FR"],
     },
     {
+      topic: "why neverness to everness stands out",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1086,
+      topCountries: ["ID", "US", "PH", "VN", "BR"],
+    },
+    {
       topic: "why diamonds feel rarer than they are",
       growthMultiplier: 1,
       trust: "high",
@@ -62,11 +69,11 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["ID", "VN", "BR", "MY", "PH"],
     },
     {
-      topic: "why neverness to everness stands out",
+      topic: "sterling point explained",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "US", "PH", "VN", "BR"],
+      videoNum: 108,
+      topCountries: ["US", "GB", "CA", "PH", "AU"],
     },
     {
       topic: "how marine technology beats rough seas",
@@ -76,18 +83,11 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["PH", "ID", "MY", "TH"],
     },
     {
-      topic: "engineering ring explained",
+      topic: "Viral tech experiments to try",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 543,
-      topCountries: ["CA", "PH", "SA", "AU", "TR"],
-    },
-    {
-      topic: "sterling point explained",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
+      videoNum: null,
+      topCountries: ["ID", "BD", "MM", "BR"],
     },
   ],
   methodologyNote:

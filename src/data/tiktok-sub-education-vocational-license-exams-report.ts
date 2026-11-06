@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "learners memorandum 2026",
@@ -48,6 +48,13 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "BD", "ZA", "MY", "MM"],
     },
     {
+      topic: "visibility program information",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 525,
+      topCountries: ["TR"],
+    },
+    {
       topic: "high school entrance exam",
       growthMultiplier: 1,
       trust: "high",
@@ -67,13 +74,6 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 801,
       topCountries: ["PH", "ID", "TH", "MY", "KH"],
-    },
-    {
-      topic: "law exam rules and preparation",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 144,
-      topCountries: ["ZA", "VN", "BD", "MM"],
     },
     {
       topic: "test part 3 result isaac",

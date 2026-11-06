@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "chongqing east station",
@@ -34,13 +34,6 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ZA", "ID", "MY"],
     },
     {
-      topic: "harper airport",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "GB"],
-    },
-    {
       topic: "TrafficStop",
       growthMultiplier: 3,
       trust: "high",
@@ -48,11 +41,18 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "SA", "MX", "AU"],
     },
     {
-      topic: "beijing china plane",
-      growthMultiplier: 1,
+      topic: "harper airport",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: 670,
-      topCountries: ["US", "MY", "PK", "KG", "GE"],
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "GB"],
+    },
+    {
+      topic: "angeles crest highway",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MX", "ZA", "ID", "MY"],
     },
     {
       topic: "northern line london",
@@ -69,13 +69,6 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["AU", "BD", "MY", "SG", "PH"],
     },
     {
-      topic: "san francisco steep street",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "AU", "ID"],
-    },
-    {
       topic: "towns and moments from a kenya drive",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +81,13 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 802,
       topCountries: ["BD", "MM", "BR", "ID"],
+    },
+    {
+      topic: "houston airport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "VN", "CA", "HN", "CR"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -36,7 +36,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 2137,
       trust: "high",
-      videoNum: 3449,
+      videoNum: 3511,
       topCountries: ["US", "CA", "MX", "AU", "GB"],
     },
     {
@@ -44,7 +44,7 @@ export const entertainmentReport: TikTokReport = {
       subcategory: "Films and TVs",
       growthMultiplier: 1147,
       trust: "high",
-      videoNum: 1119,
+      videoNum: 1165,
       topCountries: ["PH", "NG", "GH", "ZA", "MM"],
     },
     {
@@ -77,7 +77,7 @@ export const entertainmentReport: TikTokReport = {
       growthMultiplier: 111,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "PH", "ZA", "AU"],
+      topCountries: ["US", "GB", "ZA", "PH", "AU"],
     },
     {
       topic: "the rock megan thee stallion",

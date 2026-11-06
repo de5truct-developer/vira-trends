@@ -14,17 +14,17 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "ddlc+",
-      growthMultiplier: 16,
+      growthMultiplier: 11,
       trust: "high",
       videoNum: 879,
-      topCountries: ["US", "GB", "PL", "PH", "DE"],
+      topCountries: ["US", "GB", "PH", "PL", "DE"],
     },
     {
       topic: "flash step tutorial",
@@ -35,7 +35,7 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "guy thinks i can't play rush e",
-      growthMultiplier: 6,
+      growthMultiplier: 7,
       trust: "high",
       videoNum: 172,
       topCountries: ["RU", "KZ", "UA", "BY", "KG"],
@@ -48,18 +48,18 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["DE", "CA", "AU", "TR", "PH"],
     },
     {
+      topic: "officer smitty neon",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "AU", "GB", "CA"],
+    },
+    {
       topic: "trident farm java",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 196,
       topCountries: ["ID", "DE", "PH", "MY", "VN"],
-    },
-    {
-      topic: "1000000000000000 sensitivity ff",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 561,
-      topCountries: ["BD", "PK", "ID", "NP"],
     },
     {
       topic: "street fighters game",
@@ -83,11 +83,11 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "US", "MX", "ID"],
     },
     {
-      topic: "misty cyberpunk",
+      topic: "The funniest game I’ve played",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 478,
-      topCountries: ["MX", "BR", "CA", "PH", "ID"],
+      videoNum: 1081,
+      topCountries: ["PH", "NG", "PK", "ZA", "NP"],
     },
   ],
   methodologyNote:

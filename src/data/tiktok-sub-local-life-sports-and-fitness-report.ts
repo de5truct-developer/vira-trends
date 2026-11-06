@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "tokwagains basketball court",
@@ -41,18 +41,18 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
-      topic: "gilbert arena",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 786,
-      topCountries: ["US", "PH", "CA", "AU", "ID"],
-    },
-    {
       topic: "big boy diamondgym",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "PH", "MY", "ZA"],
+    },
+    {
+      topic: "gilbert arena",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 786,
+      topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
     {
       topic: "viral stadium chant audio trend",
@@ -72,7 +72,7 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topic: "talanta stadium at night",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 827,
       topCountries: ["KE", "TZ", "SO", "QA"],
     },
     {

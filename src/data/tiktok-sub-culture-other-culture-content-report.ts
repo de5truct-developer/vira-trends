@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "illuminate explained",
@@ -27,6 +27,13 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "DE", "NL"],
     },
     {
+      topic: "facts about slavery you werent taught",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "ZA", "AU"],
+    },
+    {
       topic: "karma stories",
       growthMultiplier: 2,
       trust: "high",
@@ -34,11 +41,11 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NG", "PH", "GH"],
     },
     {
-      topic: "facts about slavery you werent taught",
-      growthMultiplier: 2,
+      topic: "houthis explained",
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
+      topCountries: ["GB", "PH", "SA", "CA", "ZA"],
     },
     {
       topic: "karma for bad people",
@@ -60,13 +67,6 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1488,
       topCountries: ["SA", "IQ", "EG", "TR"],
-    },
-    {
-      topic: "houthis explained",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "SA", "CA", "ZA"],
     },
     {
       topic: "شعر سعودي",

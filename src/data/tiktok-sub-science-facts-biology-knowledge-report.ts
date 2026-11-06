@@ -14,10 +14,10 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "turning raw gold into ingots",
@@ -38,7 +38,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 970,
-      topCountries: ["MX", "CO", "PE", "BR", "AR"],
+      topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
     {
       topic: "common beliefs about pineal gland",
@@ -49,7 +49,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "seawise",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: 501,
       topCountries: ["ID", "PH", "GB", "MY", "CA"],
@@ -83,11 +83,11 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "AU"],
     },
     {
-      topic: "children's python",
+      topic: "How to collect eggs faster",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 753,
-      topCountries: ["US", "CA", "AU", "ZA", "PH"],
+      videoNum: null,
+      topCountries: ["US", "MX", "PH", "VN"],
     },
   ],
   methodologyNote:

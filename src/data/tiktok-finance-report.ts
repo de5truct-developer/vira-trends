@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const financeReport: TikTokReport = {
   category: "Finance and Economics",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "real estate investment strategies",
@@ -24,19 +24,11 @@ export const financeReport: TikTokReport = {
       topCountries: ["MX", "EG", "IQ", "PK"],
     },
     {
-      topic: "panic buying",
-      subcategory: "Financial Pan Knowledge",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 515,
-      topCountries: ["ID", "PH", "MY", "GB", "AU"],
-    },
-    {
       topic: "crystal invoice",
       subcategory: "Other Finance",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 4625,
+      videoNum: 4626,
       topCountries: ["US", "CA", "AU", "ZA", "SA"],
     },
     {
@@ -46,6 +38,14 @@ export const financeReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ID", "ZA", "BR"],
+    },
+    {
+      topic: "panic buying",
+      subcategory: "Financial Pan Knowledge",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 515,
+      topCountries: ["ID", "PH", "MY", "GB", "AU"],
     },
     {
       topic: "what is a carnelian",

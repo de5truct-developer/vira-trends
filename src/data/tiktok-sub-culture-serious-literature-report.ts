@@ -14,18 +14,11 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
-    {
-      topic: "her own private hell review",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 1221,
-      topCountries: ["US", "GB", "DE", "AU", "CA"],
-    },
     {
       topic: "lord verity x zodiac",
       growthMultiplier: 5,
@@ -89,11 +82,18 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["PH", "CA", "US", "AU", "MX"],
     },
+    {
+      topic: "lord verity female",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "TH", "BR"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "her own private hell review",
-    audience: "female 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "lord verity x zodiac",
+    audience: "unknown 25-34, Russia (dominant segment, snapshot at collection date)",
   },
 };

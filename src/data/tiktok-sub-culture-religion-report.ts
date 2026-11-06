@@ -14,24 +14,24 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "psalm 137 9 verse",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "ZA", "MU"],
+    },
     {
       topic: "allhumdullilah",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 3438,
       topCountries: ["PK", "TZ", "BD", "MY"],
-    },
-    {
-      topic: "psalm 137 9 verse",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "MU"],
     },
     {
       topic: "Proverbs 31:29",
@@ -76,24 +76,24 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       topCountries: ["GH", "ZA", "NG", "JM"],
     },
     {
-      topic: "quran reciation",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "GB", "NG", "EG", "ET"],
-    },
-    {
       topic: "noah's ark found in turkey",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1033,
-      topCountries: ["US", "PH", "ZA", "CA", "PK"],
+      topCountries: ["US", "PH", "ZA", "PK", "CA"],
+    },
+    {
+      topic: "St george",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 736,
+      topCountries: ["AU", "CA", "ZA", "MX", "ET"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "allhumdullilah",
-    audience: "unknown 25-34, Pakistan (dominant segment, snapshot at collection date)",
+    topic: "psalm 137 9 verse",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,24 +14,24 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
-    {
-      topic: "raw beef",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 791,
-      topCountries: ["BR", "PH", "TH", "ID", "MM"],
-    },
     {
       topic: "part 3 of the fruit story 3 mango",
       growthMultiplier: 13,
       trust: "high",
       videoNum: 732,
       topCountries: ["US", "ZA", "PH", "NG"],
+    },
+    {
+      topic: "raw beef",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 791,
+      topCountries: ["BR", "PH", "TH", "ID", "MM"],
     },
     {
       topic: "CUCUMBER",
@@ -48,6 +48,13 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "PH", "CA", "GB", "DE"],
     },
     {
+      topic: "arla milk",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 680,
+      topCountries: ["PH", "CA", "JP", "ID"],
+    },
+    {
       topic: "the eternut",
       growthMultiplier: 5,
       trust: "high",
@@ -55,11 +62,11 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["MY", "ID", "PH", "MM", "TR"],
     },
     {
-      topic: "arla milk",
-      growthMultiplier: 4,
+      topic: "Fried egg incident",
+      growthMultiplier: 5,
       trust: "high",
-      videoNum: 680,
-      topCountries: ["PH", "CA", "JP", "ID"],
+      videoNum: 664,
+      topCountries: ["US", "PH", "GB", "MX", "IT"],
     },
     {
       topic: "seedless grape",
@@ -67,13 +74,6 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 593,
       topCountries: ["ID", "PH", "MY", "NG", "CA"],
-    },
-    {
-      topic: "Fried egg incident",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 664,
-      topCountries: ["US", "PH", "GB", "MX", "IT"],
     },
     {
       topic: "queen mint",
@@ -93,7 +93,7 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "raw beef",
-    audience: "unknown 18-24, Brazil (dominant segment, snapshot at collection date)",
+    topic: "part 3 of the fruit story 3 mango",
+    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
   },
 };

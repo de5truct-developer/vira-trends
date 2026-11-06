@@ -14,10 +14,10 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "aliens in white house",
@@ -48,11 +48,11 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "GB", "IT", "DE", "PL"],
     },
     {
-      topic: "mimics caught on camera",
+      topic: "russian sleeps experiment",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 385,
-      topCountries: ["CA", "AU", "PH", "ZA", "ID"],
+      videoNum: null,
+      topCountries: ["US", "AU", "PH", "SA", "CA"],
     },
     {
       topic: "steak becomes a skinwalker",
@@ -60,6 +60,13 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MY", "CA", "MA"],
+    },
+    {
+      topic: "mimics caught on camera",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 385,
+      topCountries: ["CA", "AU", "PH", "ZA", "ID"],
     },
     {
       topic: "alien stage fan theories",
@@ -72,22 +79,15 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topic: "mysterious creatures",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1225,
+      videoNum: 1219,
       topCountries: ["KH", "PH", "MM", "ID"],
     },
     {
-      topic: "clairaudient",
+      topic: "5th dimension real footage",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 839,
-      topCountries: ["US", "GB", "DE", "CA", "IT"],
-    },
-    {
-      topic: "alien stage test",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 565,
-      topCountries: ["MX", "PH", "PE", "ID", "BO"],
+      videoNum: 373,
+      topCountries: ["US", "DE", "IT", "PL", "FR"],
     },
   ],
   methodologyNote:

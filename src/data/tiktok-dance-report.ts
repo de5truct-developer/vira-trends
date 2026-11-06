@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const danceReport: TikTokReport = {
   category: "Dance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "TikTok Mashup Dance 2026",
       subcategory: "Dance Trend",
       growthMultiplier: 92,
       trust: "high",
-      videoNum: 985,
+      videoNum: 991,
       topCountries: ["PH", "US", "ID", "IQ"],
     },
     {
@@ -93,7 +93,7 @@ export const danceReport: TikTokReport = {
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
-      topCountries: ["AR", "MX", "CL", "PE"],
+      topCountries: ["AR", "MX", "CO", "VE"],
     },
   ],
   methodologyNote:

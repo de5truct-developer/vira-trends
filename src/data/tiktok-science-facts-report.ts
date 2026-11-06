@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "aliens in white house",
@@ -61,7 +61,7 @@ export const scienceFactsReport: TikTokReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 970,
-      topCountries: ["MX", "CO", "PE", "BR", "AR"],
+      topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
     {
       topic: "common beliefs about pineal gland",
@@ -70,6 +70,14 @@ export const scienceFactsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "JP", "TH"],
+    },
+    {
+      topic: "daylight savings time",
+      subcategory: "Geology Knowledge",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 988,
+      topCountries: ["US", "ZA", "GB", "PH", "CA"],
     },
     {
       topic: "2050 what will happen",
@@ -82,18 +90,10 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "seawise",
       subcategory: "Biology Knowledge",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: 501,
       topCountries: ["ID", "PH", "GB", "MY", "CA"],
-    },
-    {
-      topic: "nasa release new images 2026",
-      subcategory: "Prophecies",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US"],
     },
   ],
   methodologyNote:

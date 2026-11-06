@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "innovative tech trends",
@@ -25,20 +25,6 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 590,
       topCountries: ["ID", "MM", "PH", "PK"],
-    },
-    {
-      topic: "microduck robot",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 788,
-      topCountries: ["US", "GB", "MX", "ES", "PH"],
-    },
-    {
-      topic: "spacex falcon 9",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 894,
-      topCountries: ["US", "ID", "PH", "MX", "VN"],
     },
     {
       topic: "robot microsoft button press",
@@ -88,6 +74,20 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 477,
       topCountries: ["DO", "CA", "MX", "GE", "HN"],
+    },
+    {
+      topic: "شرح الهوية الرقمية وعلاقتها بالتملك",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["SA", "GB", "UG", "PK", "US"],
+    },
+    {
+      topic: "diy battery pack with 18650 cells",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TH", "PH", "MX"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "atoms lining up perfectly",
@@ -41,6 +41,13 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
+      topic: "still water vs normal water",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 877,
+      topCountries: ["US", "ID", "PH", "MY", "CA"],
+    },
+    {
       topic: "what makes physics feel so difficult",
       growthMultiplier: 1,
       trust: "high",
@@ -53,13 +60,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["DZ", "MX", "BR", "CO", "AR"],
-    },
-    {
-      topic: "still water vs normal water",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 877,
-      topCountries: ["US", "ID", "MY", "PH", "CA"],
     },
     {
       topic: "sand dredging",

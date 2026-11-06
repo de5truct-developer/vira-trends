@@ -10,17 +10,17 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const musicReport: TikTokReport = {
   category: "Music",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "DriveThePretenders",
       subcategory: "Singles",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 405,
+      videoNum: 433,
       topCountries: ["ID", "DE", "US", "BR", "FR"],
     },
     {
@@ -30,6 +30,14 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["TH", "VN", "ID", "MM", "US"],
+    },
+    {
+      topic: "millionreasons",
+      subcategory: "Singles",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1175,
+      topCountries: ["PH", "BR", "IT", "VN"],
     },
     {
       topic: "Black Barbies",
@@ -86,14 +94,6 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "ID", "MM", "JP"],
-    },
-    {
-      topic: "ThinkingOfYou",
-      subcategory: "Singles",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "ID", "CA", "AU"],
     },
   ],
   methodologyNote:

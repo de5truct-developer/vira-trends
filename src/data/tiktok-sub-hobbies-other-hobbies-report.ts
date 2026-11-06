@@ -14,17 +14,17 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "banners stickers",
-      growthMultiplier: 1267,
+      growthMultiplier: 1315,
       trust: "high",
       videoNum: 1174,
-      topCountries: ["MX", "PH", "BR", "AR", "PE"],
+      topCountries: ["MX", "BR", "PH", "AR", "PE"],
     },
     {
       topic: "stickers banner tutorial",
@@ -55,18 +55,18 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       topCountries: ["FR", "MX", "BR", "SA", "PH"],
     },
     {
+      topic: "mental card",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: 301,
+      topCountries: ["PH", "ID", "MY", "KH", "TH"],
+    },
+    {
       topic: "rubelite diamond guard",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "BR"],
-    },
-    {
-      topic: "mental card",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 301,
-      topCountries: ["PH", "ID", "MY", "KH", "TH"],
     },
     {
       topic: "stolas journal",
@@ -77,7 +77,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "best hide and seek strategies",
-      growthMultiplier: 3,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "MX", "PH", "VN"],

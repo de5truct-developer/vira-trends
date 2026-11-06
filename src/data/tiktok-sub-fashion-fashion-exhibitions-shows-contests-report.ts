@@ -14,17 +14,17 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "prada villain runway",
       growthMultiplier: 19,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "DE", "CA", "FR"],
+      topCountries: ["US", "GB", "DE", "PH", "FR"],
     },
     {
       topic: "best fashion shows",
@@ -58,7 +58,7 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topic: "fashion editorial",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1143,
+      videoNum: 1145,
       topCountries: ["ID", "BR", "PH", "NG", "TH"],
     },
     {

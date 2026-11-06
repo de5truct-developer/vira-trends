@@ -14,14 +14,14 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "dashain food ideas",
-      growthMultiplier: 4,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: 445,
       topCountries: ["NP", "AU", "JP", "CA"],
@@ -41,6 +41,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["PH", "ZA", "MY", "CA"],
     },
     {
+      topic: "choose one food",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MM", "KH", "ZA"],
+    },
+    {
       topic: "krating and nicha",
       growthMultiplier: 1,
       trust: "high",
@@ -48,18 +55,11 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
     {
-      topic: "daily food shopping vlog ideas",
+      topic: "Daily food shopping vlog ideas",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "PH", "BR", "MX", "JP"],
-    },
-    {
-      topic: "funny foodie vlog with real opinions",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
       topic: "local food and farming in the countryside",
@@ -69,11 +69,11 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
-      topic: "تجربة أكل إيطالي بطريقة عفوية",
+      topic: "Funny foodie vlog with real opinions",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 634,
-      topCountries: ["IQ", "EG", "DZ", "SA"],
+      videoNum: null,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
       topic: "family taste test with wild flavors",
@@ -83,11 +83,11 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "BD", "BR", "MX"],
     },
     {
-      topic: "Ranking spooky seasonal menu items",
+      topic: "تجربة أكل إيطالي بطريقة عفوية",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ID", "RU", "BR", "DE"],
+      videoNum: 634,
+      topCountries: ["IQ", "EG", "DZ", "SA"],
     },
   ],
   methodologyNote:

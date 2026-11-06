@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const deCountryReport: TikTokCountryReport = {
   country: "Germany",
   countryCode: "DE",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "tesla flying car",
@@ -21,7 +21,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Transport Equipment",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: 35660,
+      videoNum: 36882,
       topCountries: ["US", "GB", "DE", "PH", "IT"],
     },
     {
@@ -31,7 +31,7 @@ export const deCountryReport: TikTokCountryReport = {
       growthMultiplier: 15,
       trust: "high",
       videoNum: 433,
-      topCountries: ["GB", "DE", "SE", "FR", "NL"],
+      topCountries: ["GB", "DE", "FR", "SE", "NL"],
     },
     {
       topic: "fred vs grandma scream",
@@ -40,7 +40,7 @@ export const deCountryReport: TikTokCountryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 863,
-      topCountries: ["PH", "US", "DE", "ID", "MY"],
+      topCountries: ["PH", "US", "ID", "DE", "MY"],
     },
     {
       topic: "japanese reporter phone",
@@ -49,7 +49,16 @@ export const deCountryReport: TikTokCountryReport = {
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "GB", "DE", "ID"],
+      topCountries: ["US", "GB", "PH", "DE", "FR"],
+    },
+    {
+      topic: "lord of verity onceler",
+      category: "ACGN",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PL", "DE", "FR", "IT"],
     },
     {
       topic: "DriveThePretenders",
@@ -57,7 +66,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Singles",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 405,
+      videoNum: 433,
       topCountries: ["ID", "DE", "US", "BR", "FR"],
     },
     {
@@ -88,22 +97,13 @@ export const deCountryReport: TikTokCountryReport = {
       topCountries: ["US", "FR", "DE", "GB", "IT"],
     },
     {
-      topic: "outdoor spaces for sports fans",
-      category: "Household",
-      subcategory: "House Decoration",
+      topic: "pet door features worth considering",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Gardening and Pet",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "CA", "DE"],
-    },
-    {
-      topic: "my pain chartacer",
-      category: "Healthcare",
-      subcategory: "Other Healthcare Content",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 531,
-      topCountries: ["US", "DE", "AT", "NG", "BD"],
     },
   ],
   methodologyNote:

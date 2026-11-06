@@ -14,10 +14,10 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "the real shape of earth",
@@ -37,14 +37,14 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topic: "200 million years ago",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1429,
+      videoNum: 1448,
       topCountries: ["PH", "ID", "MY", "MM"],
     },
     {
       topic: "400 million years ago",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1004,
+      videoNum: 1013,
       topCountries: ["ID", "PH", "MY", "BR"],
     },
     {
@@ -72,7 +72,7 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topic: "choosing the right solar system",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
+      videoNum: 292,
       topCountries: ["PH", "ID", "PK", "MY"],
     },
     {

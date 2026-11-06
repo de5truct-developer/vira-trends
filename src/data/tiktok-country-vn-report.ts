@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "how isle of man tt compares to motogp",
@@ -43,6 +43,15 @@ export const vnCountryReport: TikTokCountryReport = {
       topCountries: ["VN", "ID", "PH", "TH", "BR"],
     },
     {
+      topic: "nastia hospital",
+      category: "Healthcare",
+      subcategory: "Modern Medicine",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 112,
+      topCountries: ["US", "BR", "PH", "VN"],
+    },
+    {
       topic: "marsey app",
       category: "Science and Technology",
       subcategory: "Software",
@@ -55,19 +64,10 @@ export const vnCountryReport: TikTokCountryReport = {
       topic: "Argentina World Cup",
       category: "Sports",
       subcategory: "Physical Sports",
-      growthMultiplier: 8,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 172395,
       topCountries: ["VN", "TH", "BD", "ID"],
-    },
-    {
-      topic: "Big screen phones in daily life",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TH", "VN", "MX", "PH"],
     },
     {
       topic: "how to showcase a dream apartment",
@@ -77,6 +77,15 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 257,
       topCountries: ["MY", "VN", "ID", "GB", "IT"],
+    },
+    {
+      topic: "fruit drawing filter",
+      category: "Science and Technology",
+      subcategory: "Software",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "PH", "TH", "VN"],
     },
     {
       topic: "FourHandsTwoSonatas",
@@ -95,15 +104,6 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "US", "GB", "VN"],
-    },
-    {
-      topic: "aura farming in class",
-      category: "Education",
-      subcategory: "School Education",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 650,
-      topCountries: ["VN", "ID", "PH", "TH", "US"],
     },
   ],
   methodologyNote:

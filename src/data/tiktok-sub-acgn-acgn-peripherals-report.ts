@@ -14,10 +14,10 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "mikasa costume",
@@ -30,8 +30,8 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       topic: "clawdeen wolf custome",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 13677,
-      topCountries: ["US", "PK", "CA", "SA", "AU"],
+      videoNum: 13742,
+      topCountries: ["US", "PK", "MX", "CA", "PH"],
     },
     {
       topic: "captain save aho costume",
@@ -52,7 +52,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "MY", "TH", "PH"],
+      topCountries: ["ID", "MY", "PH", "TH"],
     },
     {
       topic: "cipher cosplay",

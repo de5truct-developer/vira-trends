@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -22,22 +22,6 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: 4689,
       topCountries: ["US", "PH", "ID", "MX", "BR"],
-    },
-    {
-      topic: "k band radar detector",
-      subcategory: "Digital",
-      growthMultiplier: 603,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "NZ", "ZA"],
-    },
-    {
-      topic: "dynamic bar iphone",
-      subcategory: "Digital",
-      growthMultiplier: 332,
-      trust: "high",
-      videoNum: 899,
-      topCountries: ["US", "ID", "PH", "ZA"],
     },
     {
       topic: "upside down red filter result",
@@ -50,7 +34,7 @@ export const scienceTechnologyReport: TikTokReport = {
     {
       topic: "wilson bethel quinn app",
       subcategory: "Software",
-      growthMultiplier: 145,
+      growthMultiplier: 225,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "BR", "AU"],
@@ -94,6 +78,22 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "BR", "ID", "PH", "PE"],
+    },
+    {
+      topic: "innovative tech trends",
+      subcategory: "Technical",
+      growthMultiplier: 46,
+      trust: "high",
+      videoNum: 590,
+      topCountries: ["ID", "MM", "PH", "PK"],
+    },
+    {
+      topic: "japanese reporter phone",
+      subcategory: "Internet",
+      growthMultiplier: 23,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "DE", "FR"],
     },
   ],
   methodologyNote:

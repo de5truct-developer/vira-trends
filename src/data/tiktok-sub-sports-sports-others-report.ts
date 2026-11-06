@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-10-01",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "SportsLover",
@@ -34,13 +34,6 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "IT", "DE", "CA", "AU"],
     },
     {
-      topic: "athleticism",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1078,
-      topCountries: ["US", "GB", "PH", "CA", "DE"],
-    },
-    {
       topic: "personal growth through team sport",
       growthMultiplier: 1,
       trust: "high",
@@ -48,11 +41,11 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "MX", "PH", "TR"],
     },
     {
-      topic: "Persib fan viral content",
+      topic: "athleticism",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "AU", "BO"],
+      videoNum: 1078,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
     {
       topic: "how athletes build social presence",
@@ -62,18 +55,11 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "BR", "VN"],
     },
     {
-      topic: "how discipline builds success in sport",
+      topic: "What I pack for tournament day",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["BD", "US", "ID", "PK"],
-    },
-    {
-      topic: "أكثر إعادة تقديم مثيرة للجدل",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1088,
-      topCountries: ["SA", "IQ", "EG", "DZ"],
+      topCountries: ["PH", "MX", "GB", "ID"],
     },
     {
       topic: "أفضل لحظات الحفل الشاطئي",
@@ -83,11 +69,25 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "MX", "PE", "ID", "CO"],
     },
     {
-      topic: "What I pack for tournament day",
+      topic: "how discipline builds success in sport",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MX", "GB", "ID"],
+      topCountries: ["BD", "US", "ID", "PK"],
+    },
+    {
+      topic: "تصميم كره قدم",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 6880,
+      topCountries: ["IQ", "YE", "EG", "SA"],
+    },
+    {
+      topic: "أكثر إعادة تقديم مثيرة للجدل",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1088,
+      topCountries: ["SA", "IQ", "EG", "DZ"],
     },
   ],
   methodologyNote:

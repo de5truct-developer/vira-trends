@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "InnerGrowth",
@@ -34,25 +34,11 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AU", "ZA", "ID"],
     },
     {
-      topic: "personal growth through challenges",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "IQ", "PK", "PH", "NG"],
-    },
-    {
       topic: "MindsetGrowth",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1333,
       topCountries: ["ID", "VN", "NG", "CA"],
-    },
-    {
-      topic: "daily self improvement habits",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "NG", "ID", "KE", "ZA"],
     },
     {
       topic: "good memory",
@@ -65,7 +51,7 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topic: "Positivity Mindset",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 14929,
+      videoNum: 14939,
       topCountries: ["CA", "NG", "PH", "ID", "AU"],
     },
     {
@@ -74,6 +60,13 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1073,
       topCountries: ["ID", "MY", "PH", "ZA", "MM"],
+    },
+    {
+      topic: "personal growth through challenges",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "IQ", "PK", "PH", "NG"],
     },
     {
       topic: "histrionic",
@@ -88,6 +81,13 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 675,
       topCountries: ["PH", "AU", "CA", "ID", "MY"],
+    },
+    {
+      topic: "how to find happiness in life",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2793,
+      topCountries: ["ID", "PH", "PK", "ZA", "NG"],
     },
   ],
   methodologyNote:

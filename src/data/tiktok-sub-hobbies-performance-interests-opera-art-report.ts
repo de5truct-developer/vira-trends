@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "uku viral trick",
@@ -25,6 +25,13 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 984,
       topCountries: ["PK", "SA", "AE", "NP", "QA"],
+    },
+    {
+      topic: "mystery envelope number magic trick",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 764,
+      topCountries: ["US", "UA", "PK", "NZ"],
     },
     {
       topic: "magician girl",
@@ -67,13 +74,6 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 967,
       topCountries: ["PH", "CA", "MX", "ZA"],
-    },
-    {
-      topic: "mystery envelope number magic trick",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 764,
-      topCountries: ["US", "UA", "PK", "NZ"],
     },
     {
       topic: "magictok",

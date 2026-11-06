@@ -14,10 +14,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "chun li legs training",
@@ -30,7 +30,7 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       topic: "basic gym body",
       growthMultiplier: 37,
       trust: "high",
-      videoNum: 939,
+      videoNum: 941,
       topCountries: ["PH", "JP", "CA", "AE", "SA"],
     },
     {
@@ -72,7 +72,7 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       topic: "fitness content ideas",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1022,
+      videoNum: 1023,
       topCountries: ["NG", "ZA", "AU", "PH", "CA"],
     },
     {
@@ -83,11 +83,11 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "PH", "ID", "TH", "NZ"],
     },
     {
-      topic: "vault intro video ruthie result",
+      topic: "oh six pack",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 336,
-      topCountries: ["GB", "US", "DE", "FR", "PH"],
+      videoNum: 811,
+      topCountries: ["PH", "MX", "ID", "MY", "BR"],
     },
   ],
   methodologyNote:

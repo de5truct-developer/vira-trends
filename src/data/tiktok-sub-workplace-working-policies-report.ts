@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "to earn the right to work",
@@ -46,6 +46,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 914,
       topCountries: ["BR", "PH", "GB", "IT", "MX"],
+    },
+    {
+      topic: "employment release letter documentation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["SG", "PH", "ID", "SA", "NP"],
     },
     {
       topic: "phlebotomy salary",
@@ -81,13 +88,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 265,
       topCountries: ["SA", "DZ", "IQ", "YE"],
-    },
-    {
-      topic: "grace mondlana salary per month",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "BW", "ZW", "NA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "Leetcode",
@@ -25,6 +25,13 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 766,
       topCountries: ["VN", "PH", "MX", "ZA", "CA"],
+    },
+    {
+      topic: "sat desmos",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 671,
+      topCountries: ["AU", "ID", "VN", "KZ", "AE"],
     },
     {
       topic: "data tools every intern should learn",
@@ -45,13 +52,13 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ZA", "PK", "KE", "CA"],
+      topCountries: ["ZA", "PK", "ET", "KE"],
     },
     {
       topic: "creators pilot program",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 13024,
+      videoNum: 13030,
       topCountries: ["US", "JM", "GB", "NG", "ZA"],
     },
     {
@@ -65,8 +72,8 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "online business follower growth tutorials",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ET", "ZA", "NG", "PH", "CA"],
+      videoNum: 832,
+      topCountries: ["ET", "ZA", "NG", "PH", "KE"],
     },
   ],
   methodologyNote:

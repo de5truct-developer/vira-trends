@@ -14,10 +14,10 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "theranos explained",
@@ -32,6 +32,13 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "DE", "IT", "RO", "GB"],
+    },
+    {
+      topic: "daylight savings time",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 988,
+      topCountries: ["US", "ZA", "GB", "PH", "CA"],
     },
     {
       topic: "where do pearls come from",
@@ -81,13 +88,6 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 33894,
       topCountries: ["PK", "ID", "PH", "NG", "CA"],
-    },
-    {
-      topic: "there is a new rock by the water explanation",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "BR", "PH", "MX", "VN"],
     },
   ],
   methodologyNote:

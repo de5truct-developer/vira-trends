@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "rectangle theory",
+      subcategory: "School Education",
+      growthMultiplier: 444,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "AU", "PH", "DE"],
+    },
     {
       topic: "fmu meaning",
       subcategory: "School Education",
@@ -22,14 +30,6 @@ export const educationReport: TikTokReport = {
       trust: "high",
       videoNum: 543,
       topCountries: ["US", "CA", "PH", "SA", "AU"],
-    },
-    {
-      topic: "rectangle theory",
-      subcategory: "School Education",
-      growthMultiplier: 205,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "AU", "PH", "DE"],
     },
     {
       topic: "russian guy learning english",
@@ -40,12 +40,28 @@ export const educationReport: TikTokReport = {
       topCountries: ["PH", "VN", "US", "TH", "ID"],
     },
     {
+      topic: "vdm school project",
+      subcategory: "Campus Life",
+      growthMultiplier: 69,
+      trust: "high",
+      videoNum: 594,
+      topCountries: ["NG", "GH", "GB", "CM"],
+    },
+    {
       topic: "kenya high national school",
       subcategory: "School Education",
       growthMultiplier: 58,
       trust: "high",
       videoNum: null,
       topCountries: ["KE", "TZ", "QA", "SA"],
+    },
+    {
+      topic: "Daily discipline rules that keep you on track",
+      subcategory: "Education - Others",
+      growthMultiplier: 37,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "DE", "FR", "ID", "GB"],
     },
     {
       topic: "3rd person present tense example",
@@ -64,14 +80,6 @@ export const educationReport: TikTokReport = {
       topCountries: ["US", "CA", "PH", "SA", "MY"],
     },
     {
-      topic: "aistote method of study",
-      subcategory: "Education - Others",
-      growthMultiplier: 33,
-      trust: "high",
-      videoNum: 112,
-      topCountries: ["US", "DE", "GB", "IT", "FR"],
-    },
-    {
       topic: "guide to stan school",
       subcategory: "Education - Others",
       growthMultiplier: 19,
@@ -85,21 +93,13 @@ export const educationReport: TikTokReport = {
       growthMultiplier: 17,
       trust: "high",
       videoNum: 2203,
-      topCountries: ["US", "GB", "BR", "AU", "CA"],
-    },
-    {
-      topic: "meaning esmiringhoy",
-      subcategory: "Language Learning",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: 719,
-      topCountries: ["PH", "AE", "SA", "CA"],
+      topCountries: ["US", "GB", "AU", "BR", "CA"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fmu meaning",
+    topic: "rectangle theory",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

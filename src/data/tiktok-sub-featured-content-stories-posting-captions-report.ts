@@ -14,10 +14,10 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "how to be your best version",
@@ -76,18 +76,18 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["SA", "IQ", "BR", "EG"],
     },
     {
-      topic: "pov you found out",
+      topic: "life is better when you know are you doing artinya",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 768,
-      topCountries: ["ZA", "AU", "PH", "BW"],
+      videoNum: 136,
+      topCountries: ["ID", "MY", "VN", "PH", "KH"],
     },
     {
-      topic: "viral motivational videos",
+      topic: "strong powerful words",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 17504,
-      topCountries: ["PK", "SN", "ZA", "NG"],
+      videoNum: 652,
+      topCountries: ["PK", "ZA", "MY", "NP"],
     },
   ],
   methodologyNote:

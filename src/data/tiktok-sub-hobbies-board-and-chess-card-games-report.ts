@@ -14,11 +14,25 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "24 car trend",
+      growthMultiplier: 54,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MM", "DE", "GB", "TH", "BD"],
+    },
+    {
+      topic: "creator schach insight video 2026 viral",
+      growthMultiplier: 32,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NP", "PK", "ET", "UG", "SA"],
+    },
     {
       topic: "why cant gotham chess be a gm",
       growthMultiplier: 19,
@@ -32,13 +46,6 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 591,
       topCountries: ["CA", "PH", "AU", "ZA", "SA"],
-    },
-    {
-      topic: "Wheel of fortune",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 756,
-      topCountries: ["US", "ID", "PH", "TR", "CA"],
     },
     {
       topic: "adopt me board game",
@@ -55,11 +62,25 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "KZ", "SA"],
     },
     {
+      topic: "Wheel of fortune",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 756,
+      topCountries: ["US", "ID", "PH", "TR", "CA"],
+    },
+    {
       topic: "create schach insights 2028 viral now",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 627,
+      videoNum: 619,
       topCountries: ["NP", "PK", "ET", "SA", "UG"],
+    },
+    {
+      topic: "witty alien gambit",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 482,
+      topCountries: ["US", "PH", "ID", "GB", "DE"],
     },
     {
       topic: "bratz monopoly",
@@ -68,32 +89,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["MX", "CO", "PE", "EC", "CL"],
     },
-    {
-      topic: "how to be good at chess",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 999,
-      topCountries: ["PH", "ID", "MY", "CA"],
-    },
-    {
-      topic: "paul allen card",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "CA", "VN"],
-    },
-    {
-      topic: "scotch opening chess",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 385,
-      topCountries: ["PH", "ID", "MY", "ZA", "VN"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "why cant gotham chess be a gm",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "24 car trend",
+    audience: "unknown 18-24, Myanmar (dominant segment, snapshot at collection date)",
   },
 };

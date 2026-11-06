@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "#Funny",
@@ -44,7 +44,7 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topic: "funny tiktok videos to laugh",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 47224,
+      videoNum: 47287,
       topCountries: ["PK", "NG", "JP", "BD", "PH"],
     },
     {
@@ -58,7 +58,7 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topic: "tiktok viral comedy",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 5515,
+      videoNum: 9825,
       topCountries: ["PH", "ID", "BR", "SN"],
     },
     {

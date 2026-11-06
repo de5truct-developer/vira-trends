@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "e sheet paper in board",
@@ -76,18 +76,18 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "PH", "MY"],
     },
     {
+      topic: "papier academic planner",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 478,
+      topCountries: ["GB", "CA", "AU", "SG", "MX"],
+    },
+    {
       topic: "back to school shopping supplies",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1622,
       topCountries: ["PH", "CA", "AU", "SA"],
-    },
-    {
-      topic: "2026 planner",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1216,
-      topCountries: ["PH", "FR", "MY", "SG", "TH"],
     },
   ],
   methodologyNote:

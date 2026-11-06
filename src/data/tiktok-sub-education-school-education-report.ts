@@ -14,24 +14,24 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "rectangle theory",
+      growthMultiplier: 444,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "AU", "PH", "DE"],
+    },
     {
       topic: "fmu meaning",
       growthMultiplier: 227,
       trust: "high",
       videoNum: 543,
       topCountries: ["US", "CA", "PH", "SA", "AU"],
-    },
-    {
-      topic: "rectangle theory",
-      growthMultiplier: 205,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "AU", "PH", "DE"],
     },
     {
       topic: "kenya high national school",
@@ -48,17 +48,17 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "PH", "SA", "MY"],
     },
     {
-      topic: "aura farming in class",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 650,
-      topCountries: ["VN", "ID", "PH", "TH", "US"],
-    },
-    {
       topic: "class-based farming game strategies",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
+      topCountries: ["VN", "ID", "PH", "TH", "US"],
+    },
+    {
+      topic: "aura farming in class",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 650,
       topCountries: ["VN", "ID", "PH", "TH", "US"],
     },
     {
@@ -69,18 +69,18 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "SZ", "EG", "DZ"],
     },
     {
-      topic: "factorby",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 413,
-      topCountries: ["BR", "BY", "RU", "KZ"],
-    },
-    {
       topic: "carter method",
       growthMultiplier: 6,
       trust: "high",
       videoNum: 449,
       topCountries: ["US", "GB", "CA", "NL", "PL"],
+    },
+    {
+      topic: "Pythagoras theorem",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 622,
+      topCountries: ["PH", "GB", "ZA", "GH"],
     },
     {
       topic: "streamer university 2026 applications",
@@ -93,7 +93,7 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "fmu meaning",
+    topic: "rectangle theory",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

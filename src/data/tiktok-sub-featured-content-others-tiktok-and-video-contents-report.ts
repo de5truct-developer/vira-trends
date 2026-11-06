@@ -14,10 +14,10 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "hey sweetness fighting back",
@@ -48,6 +48,13 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["US", "MM", "PH", "GB"],
     },
     {
+      topic: "what happens on november for boys",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 156,
+      topCountries: ["US", "PH", "ZA", "PK", "GB"],
+    },
+    {
       topic: "dailyvideo",
       growthMultiplier: 7,
       trust: "high",
@@ -65,7 +72,7 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topic: "1 in a million vs 1 in a billion",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 166995,
+      videoNum: 174168,
       topCountries: ["PK", "ET", "NG", "NP", "MM"],
     },
     {
@@ -81,13 +88,6 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       trust: "high",
       videoNum: 2312,
       topCountries: ["GB", "PH", "DE", "MX", "GR"],
-    },
-    {
-      topic: "shifting dr kpop",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 710,
-      topCountries: ["PH", "BR", "SG", "MY", "CA"],
     },
   ],
   methodologyNote:

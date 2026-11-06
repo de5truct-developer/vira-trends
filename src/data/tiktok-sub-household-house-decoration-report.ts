@@ -14,10 +14,10 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "barndominium build progress update",
@@ -35,10 +35,17 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "spanish stucco",
-      growthMultiplier: 26,
+      growthMultiplier: 28,
       trust: "high",
       videoNum: 305,
       topCountries: ["PH", "ZA", "GB", "NG", "MY"],
+    },
+    {
+      topic: "jschlatt room tour",
+      growthMultiplier: 20,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "AU", "PH", "MY", "ID"],
     },
     {
       topic: "funny home updates with real results",
@@ -46,13 +53,6 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "NZ"],
-    },
-    {
-      topic: "jschlatt room tour",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AU", "PH", "MY", "ID"],
     },
     {
       topic: "diy floor makeover from start to finish",
@@ -69,6 +69,13 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "NG", "ID", "ZA"],
     },
     {
+      topic: "how to ventilate a roof the right way",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "EG", "BD", "SA"],
+    },
+    {
       topic: "baby play room",
       growthMultiplier: 7,
       trust: "high",
@@ -81,13 +88,6 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MY", "ID", "CA", "SG"],
-    },
-    {
-      topic: "demitras room",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 188,
-      topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
   ],
   methodologyNote:

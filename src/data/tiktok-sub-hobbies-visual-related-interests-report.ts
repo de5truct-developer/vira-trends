@@ -14,17 +14,24 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-10-03",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "viral video creator identity",
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MX", "MY", "VN", "ID"],
+      topCountries: ["MX", "PH", "MY", "ID", "VN"],
+    },
+    {
+      topic: "cherry blossom photography tips",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 833,
+      topCountries: ["JP", "VN", "MM", "NP"],
     },
     {
       topic: "creativevideo",
@@ -55,11 +62,11 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "VN", "BR", "TH"],
     },
     {
-      topic: "best friend photo ideas",
+      topic: "viral eyes trends and memes",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1175,
-      topCountries: ["MX", "PE", "CO", "GT"],
+      videoNum: null,
+      topCountries: ["PK", "NP", "LK", "SA", "MY"],
     },
     {
       topic: "family picture ideas",
@@ -72,7 +79,7 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topic: "#SinglePhoto",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1056,
+      videoNum: 1059,
       topCountries: ["PH", "NG", "PK", "NP", "MY"],
     },
     {
@@ -81,13 +88,6 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1170,
       topCountries: ["MN", "MX", "PH", "ID", "TR"],
-    },
-    {
-      topic: "مقاطع خفيفة تناسب الانتشار السريع",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1154,
-      topCountries: ["PH", "ID", "MY", "VN"],
     },
   ],
   methodologyNote:

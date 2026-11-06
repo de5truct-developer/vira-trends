@@ -14,10 +14,10 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "networth",
@@ -48,18 +48,18 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "GB", "ID", "ZA", "CA"],
     },
     {
-      topic: "50 cent water company",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 426,
-      topCountries: ["US", "CA", "AU", "ZA", "PH"],
-    },
-    {
       topic: "nancy grace flipping opinion nolan wells",
       growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["US"],
+    },
+    {
+      topic: "50 cent water company",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 426,
+      topCountries: ["US", "CA", "AU", "ZA", "PH"],
     },
   ],
   methodologyNote:

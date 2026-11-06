@@ -10,33 +10,25 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "france right now 2026",
       subcategory: "Physical Sports",
       growthMultiplier: 2252,
       trust: "high",
-      videoNum: 9121,
+      videoNum: 10269,
       topCountries: ["US", "CA", "AU", "PH", "KE"],
-    },
-    {
-      topic: "austin mcbroom vs faze temper",
-      subcategory: "Physical Sports",
-      growthMultiplier: 842,
-      trust: "high",
-      videoNum: 44474,
-      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
     {
       topic: "wnba finals",
       subcategory: "Physical Sports",
       growthMultiplier: 841,
       trust: "high",
-      videoNum: 854,
+      videoNum: 847,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
@@ -90,10 +82,18 @@ export const sportsReport: TikTokReport = {
     {
       topic: "Real today",
       subcategory: "Physical Sports",
-      growthMultiplier: 72,
+      growthMultiplier: 68,
       trust: "high",
       videoNum: 1050,
       topCountries: ["FR", "IQ", "HT", "RU", "SN"],
+    },
+    {
+      topic: "jose mourinho reaction today",
+      subcategory: "Physical Sports",
+      growthMultiplier: 53,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "ID", "ET", "US", "SO"],
     },
   ],
   methodologyNote:

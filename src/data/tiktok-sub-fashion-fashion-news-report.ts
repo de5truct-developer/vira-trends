@@ -14,10 +14,10 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "elsa hosk victoria secret",
@@ -30,22 +30,15 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topic: "heidi klum outfits",
       growthMultiplier: 39,
       trust: "high",
-      videoNum: 1198,
+      videoNum: 1199,
       topCountries: ["US", "MX", "PH", "MY", "CO"],
     },
     {
       topic: "hilary duff concert outfit",
-      growthMultiplier: 32,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 773,
       topCountries: ["US", "PH", "GB", "ZA", "AU"],
-    },
-    {
-      topic: "victoria secret katseye",
-      growthMultiplier: 18,
-      trust: "high",
-      videoNum: 634,
-      topCountries: ["MX", "PH", "GB", "PE", "FR"],
     },
     {
       topic: "mariah deborah swimsuit",
@@ -59,7 +52,7 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "TR", "AE"],
+      topCountries: ["US", "PH", "CA", "TR", "MY"],
     },
     {
       topic: "marilyn manson fashion",
@@ -69,18 +62,18 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "TH", "PH", "ZA"],
     },
     {
+      topic: "rob kardashian fashion style",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "CA", "AU"],
+    },
+    {
       topic: "jimin oreo hair",
-      growthMultiplier: 9,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 680,
       topCountries: ["ID", "BR", "PH", "MY", "MX"],
-    },
-    {
-      topic: "yonna bathing suit",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 245,
-      topCountries: ["US", "CA", "AU", "FR", "NZ"],
     },
     {
       topic: "cristiano ronaldo haircut",
@@ -88,6 +81,13 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 688,
       topCountries: ["SO", "ID", "KE", "TH", "MY"],
+    },
+    {
+      topic: "kylie jenner knicks outfit",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 1101,
+      topCountries: ["US", "MX", "PE", "CA", "AU"],
     },
   ],
   methodologyNote:

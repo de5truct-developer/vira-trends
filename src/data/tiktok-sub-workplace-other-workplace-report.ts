@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "when the client doesn't want to pay 2",
@@ -48,6 +48,13 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "CA", "SA", "MX", "AU"],
     },
     {
+      topic: "clients refuse to pay",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 164,
+      topCountries: ["US", "ZA", "JM", "MD"],
+    },
+    {
       topic: "WorkingHard",
       growthMultiplier: 2,
       trust: "high",
@@ -74,13 +81,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 413,
       topCountries: ["ZA"],
-    },
-    {
-      topic: "clients refuse to pay",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 164,
-      topCountries: ["US", "ZA", "JM", "MD"],
     },
     {
       topic: "brez vs 9 5 worker",

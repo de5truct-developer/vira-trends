@@ -14,11 +14,18 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "hyper bahn ctr",
+      growthMultiplier: 32,
+      trust: "high",
+      videoNum: 445,
+      topCountries: ["ID", "MY", "EG", "BN"],
+    },
     {
       topic: "wemby today",
       growthMultiplier: 18,
@@ -30,7 +37,7 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topic: "how do movie theaters get the movies",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 648,
+      videoNum: 643,
       topCountries: ["US", "CA", "AU", "PH", "GB"],
     },
     {
@@ -52,13 +59,13 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "AU", "SG", "CA", "SA"],
+      topCountries: ["GB", "AU", "CA", "SG", "SA"],
     },
     {
       topic: "north west stadium concert",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 10077,
+      videoNum: 10244,
       topCountries: ["US", "BD", "PK", "LA", "PH"],
     },
     {
@@ -69,13 +76,6 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PK", "MX"],
     },
     {
-      topic: "music video filming locations",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1170,
-      topCountries: ["MX", "MM", "PK", "SA", "BD"],
-    },
-    {
       topic: "dar e nijat new promo",
       growthMultiplier: 3,
       trust: "high",
@@ -83,17 +83,17 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "GB", "AE", "SA"],
     },
     {
-      topic: "drake tour 2027 locations",
-      growthMultiplier: 2,
+      topic: "zara larsson tour bangkok",
+      growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "GB", "ZA", "AU", "DE"],
+      videoNum: 180,
+      topCountries: ["TH", "LA", "SE", "BR", "PH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "wemby today",
-    audience: "male 18-24, France (dominant segment, snapshot at collection date)",
+    topic: "hyper bahn ctr",
+    audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

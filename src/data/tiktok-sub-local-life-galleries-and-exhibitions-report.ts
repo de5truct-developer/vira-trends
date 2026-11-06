@@ -14,10 +14,10 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -62,18 +62,18 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "DE", "VN", "PH", "TH"],
     },
     {
-      topic: "barcelona design secrets in plain sight",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ID", "MX", "ES"],
-    },
-    {
       topic: "convention packing and essentials",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "PH", "ID", "MY"],
+    },
+    {
+      topic: "barcelona design secrets in plain sight",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "MX", "ES"],
     },
     {
       topic: "Art Museum",

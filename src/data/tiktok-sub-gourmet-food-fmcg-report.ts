@@ -14,14 +14,14 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "sausage cheese explode",
-      growthMultiplier: 377,
+      growthMultiplier: 306,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "AU", "MY"],
@@ -35,17 +35,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Black gum",
-      growthMultiplier: 29,
+      growthMultiplier: 25,
       trust: "high",
-      videoNum: 651,
+      videoNum: 673,
       topCountries: ["KE", "UG", "PH", "CA", "AU"],
-    },
-    {
-      topic: "space jelly",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 551,
-      topCountries: ["US", "PH", "GB", "ID", "MY"],
     },
     {
       topic: "takezh prime",
@@ -53,6 +46,13 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 184,
       topCountries: ["PH", "RU", "BR", "VN", "UA"],
+    },
+    {
+      topic: "space jelly",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: 551,
+      topCountries: ["US", "PH", "GB", "ID", "MY"],
     },
     {
       topic: "chocolate brands",
@@ -69,18 +69,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
+      topic: "kinder crispy",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 475,
+      topCountries: ["IT", "RO", "CZ", "MY", "BR"],
+    },
+    {
       topic: "Verity does snacks",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "ID", "TH"],
-    },
-    {
-      topic: "kinder crispy",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 475,
-      topCountries: ["IT", "RO", "CZ", "MY", "BR"],
     },
     {
       topic: "kimchi 40 million trade clip",

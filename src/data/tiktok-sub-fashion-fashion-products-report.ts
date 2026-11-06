@@ -14,10 +14,10 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "fantasy bar victoria secret",
@@ -25,6 +25,13 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1024,
       topCountries: ["US", "PR", "TH", "GB", "PH"],
+    },
+    {
+      topic: "mason pearson brush london",
+      growthMultiplier: 2093,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "TR", "SA", "CA", "EG"],
     },
     {
       topic: "barbas hats x mansory",
@@ -52,7 +59,7 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 169,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "DE", "AU"],
+      topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
       topic: "total drama island heather shirt",
@@ -63,24 +70,17 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "buddy original 90s",
-      growthMultiplier: 73,
+      growthMultiplier: 77,
       trust: "high",
-      videoNum: 1044,
+      videoNum: 1045,
       topCountries: ["US", "PH", "GB", "CA"],
     },
     {
-      topic: "the vanishing beauty review",
-      growthMultiplier: 68,
+      topic: "best fragrance picks from my shelf",
+      growthMultiplier: 65,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "MM", "MY", "PH"],
-    },
-    {
-      topic: "geometric cadeceus tattoo",
-      growthMultiplier: 64,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "BR", "AU", "SG"],
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
       topic: "millennial heels",

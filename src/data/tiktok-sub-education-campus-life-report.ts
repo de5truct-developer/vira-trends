@@ -14,11 +14,18 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
+    {
+      topic: "vdm school project",
+      growthMultiplier: 69,
+      trust: "high",
+      videoNum: 594,
+      topCountries: ["NG", "GH", "GB", "CM"],
+    },
     {
       topic: "aura battle in school",
       growthMultiplier: 12,
@@ -37,7 +44,7 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topic: "last day of school vibes",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 851,
+      videoNum: 849,
       topCountries: ["PH", "ID", "MY", "VN", "MM"],
     },
     {
@@ -51,28 +58,21 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       topic: "off of campus",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 61671,
-      topCountries: ["BR", "MX", "FR", "CO", "DE"],
+      videoNum: 61665,
+      topCountries: ["BR", "MX", "FR", "DE", "GB"],
     },
     {
       topic: "schooltripjoinedagroupimnotcloseto",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1183,
-      topCountries: ["ID", "PH", "VN", "TH", "MY"],
-    },
-    {
-      topic: "school soothing classroom in usa",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "ES", "AU", "ID"],
+      videoNum: 1183,
+      topCountries: ["ID", "VN", "PH", "TH", "MY"],
     },
     {
       topic: "life as a college student",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1182,
+      videoNum: 1190,
       topCountries: ["PH", "ZA", "ID", "MY", "CA"],
     },
     {
@@ -93,7 +93,7 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "aura battle in school",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "vdm school project",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

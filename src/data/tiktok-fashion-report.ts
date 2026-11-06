@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "fantasy bar victoria secret",
@@ -24,12 +24,28 @@ export const fashionReport: TikTokReport = {
       topCountries: ["US", "PR", "TH", "GB", "PH"],
     },
     {
+      topic: "mason pearson brush london",
+      subcategory: "Fashion Products",
+      growthMultiplier: 2093,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "TR", "SA", "CA", "EG"],
+    },
+    {
       topic: "barbas hats x mansory",
       subcategory: "Fashion Products",
       growthMultiplier: 1025,
       trust: "high",
       videoNum: 180,
       topCountries: ["MX", "US", "GT", "CO"],
+    },
+    {
+      topic: "steez outfit",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 644,
+      trust: "high",
+      videoNum: 622,
+      topCountries: ["US", "AU", "CA", "PH", "ZA"],
     },
     {
       topic: "elsa hosk victoria secret",
@@ -48,14 +64,6 @@ export const fashionReport: TikTokReport = {
       topCountries: ["US", "MX", "PE", "PH", "CO"],
     },
     {
-      topic: "steez outfit",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 417,
-      trust: "high",
-      videoNum: 622,
-      topCountries: ["US", "AU", "CA", "PH", "ZA"],
-    },
-    {
       topic: "bellys engagement ring",
       subcategory: "Fashion Products",
       growthMultiplier: 233,
@@ -69,7 +77,7 @@ export const fashionReport: TikTokReport = {
       growthMultiplier: 169,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "DE", "AU"],
+      topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
       topic: "total drama island heather shirt",
@@ -82,18 +90,10 @@ export const fashionReport: TikTokReport = {
     {
       topic: "buddy original 90s",
       subcategory: "Fashion Products",
-      growthMultiplier: 73,
+      growthMultiplier: 77,
       trust: "high",
-      videoNum: 1044,
+      videoNum: 1045,
       topCountries: ["US", "PH", "GB", "CA"],
-    },
-    {
-      topic: "kayda outfits",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 71,
-      trust: "high",
-      videoNum: 390,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
     },
   ],
   methodologyNote:

@@ -14,30 +14,23 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "france right now 2026",
       growthMultiplier: 2252,
       trust: "high",
-      videoNum: 9121,
+      videoNum: 10269,
       topCountries: ["US", "CA", "AU", "PH", "KE"],
-    },
-    {
-      topic: "austin mcbroom vs faze temper",
-      growthMultiplier: 842,
-      trust: "high",
-      videoNum: 44474,
-      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
     {
       topic: "wnba finals",
       growthMultiplier: 841,
       trust: "high",
-      videoNum: 854,
+      videoNum: 847,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
     },
     {
@@ -77,7 +70,7 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Real today",
-      growthMultiplier: 72,
+      growthMultiplier: 68,
       trust: "high",
       videoNum: 1050,
       topCountries: ["FR", "IQ", "HT", "RU", "SN"],
@@ -88,6 +81,13 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ID", "ET", "US", "SO"],
+    },
+    {
+      topic: "johan cruyff turn",
+      growthMultiplier: 51,
+      trust: "high",
+      videoNum: 369,
+      topCountries: ["GB", "IT", "NL", "DE", "PL"],
     },
   ],
   methodologyNote:

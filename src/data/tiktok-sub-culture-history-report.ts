@@ -14,10 +14,10 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "the aberfan disaster 1956",
@@ -32,6 +32,13 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 471,
       topCountries: ["MX", "PH", "VN", "TH", "MY"],
+    },
+    {
+      topic: "ahmed was right the covenant ambush scene",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PK", "MY", "BD", "KH"],
     },
     {
       topic: "mom son gandhi story",
@@ -59,7 +66,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "PL", "DE", "US", "SE"],
+      topCountries: ["GB", "DE", "PL", "SE", "NL"],
     },
     {
       topic: "london british part to 2 3 4 4568 next",
@@ -81,13 +88,6 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "AU", "NZ"],
-    },
-    {
-      topic: "what happened to suchomimus",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 571,
-      topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
   ],
   methodologyNote:

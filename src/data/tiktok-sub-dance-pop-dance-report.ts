@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "Ateez bad dance",
@@ -65,7 +65,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topic: "thriller dance michael jackson",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 913,
+      videoNum: 914,
       topCountries: ["US", "MX", "PH", "PE", "BR"],
     },
     {

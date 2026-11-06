@@ -14,10 +14,10 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "Scarbo",
@@ -30,7 +30,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       topic: "ben and bea",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 752,
+      videoNum: 756,
       topCountries: ["GB", "PH", "IT", "CA", "ZA"],
     },
     {
@@ -48,18 +48,18 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       topCountries: ["TH", "ID", "LA", "MM", "MY"],
     },
     {
-      topic: "david green hobby lobby",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 116,
-      topCountries: ["MX", "CA", "PE", "LB", "NG"],
-    },
-    {
       topic: "Best-value tech finds for shoppers",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "AE", "SA", "TW"],
+    },
+    {
+      topic: "david green hobby lobby",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 116,
+      topCountries: ["MX", "CA", "PE", "LB", "NG"],
     },
     {
       topic: "sturridge now",

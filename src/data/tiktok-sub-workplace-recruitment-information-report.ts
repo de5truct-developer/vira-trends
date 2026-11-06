@@ -14,10 +14,10 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "underwater welder salary",
@@ -30,7 +30,7 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topic: "skills that help you get hired fast",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 438,
+      videoNum: null,
       topCountries: ["DE", "GB", "IT", "PH", "US"],
     },
     {
@@ -83,11 +83,11 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["KE", "NG", "GH", "UG"],
     },
     {
-      topic: "how agencies help creators grow",
+      topic: "data centers jobs",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TL", "MY", "TW", "SA"],
+      videoNum: 320,
+      topCountries: ["US", "CA", "MX", "PK", "TN"],
     },
   ],
   methodologyNote:

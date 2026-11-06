@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "beauty services",
@@ -41,6 +41,13 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "ZA", "CA", "JM"],
     },
     {
+      topic: "laika studios wildwood",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 658,
+      topCountries: ["PH", "ES", "GB", "ID", "DE"],
+    },
+    {
       topic: "sandevistan tattoo",
       growthMultiplier: 3,
       trust: "high",
@@ -55,11 +62,11 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "GH", "ID", "SA", "PH"],
     },
     {
-      topic: "beauty salon video content ideas",
+      topic: "beauty works",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 233,
-      topCountries: ["MM", "PK", "PH", "JP", "VN"],
+      videoNum: 4132,
+      topCountries: ["GB", "PK", "ID", "PH", "AE"],
     },
     {
       topic: "monaco apartment",
@@ -81,13 +88,6 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 461,
       topCountries: ["MM", "PH", "MX", "CA", "ID"],
-    },
-    {
-      topic: "top pre studio 2026",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TH", "MY", "VN"],
     },
   ],
   methodologyNote:

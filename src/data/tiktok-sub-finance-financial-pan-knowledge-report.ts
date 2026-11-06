@@ -14,24 +14,24 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
-    {
-      topic: "panic buying",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 515,
-      topCountries: ["ID", "PH", "MY", "GB", "AU"],
-    },
     {
       topic: "BillionaireMindset",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ID", "ZA", "BR"],
+    },
+    {
+      topic: "panic buying",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 515,
+      topCountries: ["ID", "PH", "MY", "GB", "AU"],
     },
     {
       topic: "turn trends into content with tako",
@@ -62,6 +62,13 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "KE", "NG", "ZA", "GH"],
     },
     {
+      topic: "female business ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1074,
+      topCountries: ["ZA", "NG", "PK", "GH"],
+    },
+    {
       topic: "How To Start A Small Business",
       growthMultiplier: 2,
       trust: "high",
@@ -72,7 +79,7 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topic: "cash flow business",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 955,
+      videoNum: 954,
       topCountries: ["PH", "MY", "KE", "NG", "ZA"],
     },
     {
@@ -82,18 +89,11 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       videoNum: 1212,
       topCountries: ["NG", "ET", "PK", "MM", "SA"],
     },
-    {
-      topic: "from zero to first small sale",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "BR", "US", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "panic buying",
-    audience: "female 25-34, Philippines (dominant segment, snapshot at collection date)",
+    topic: "BillionaireMindset",
+    audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

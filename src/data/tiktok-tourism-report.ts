@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "sixflagsovergeorgia",
@@ -32,6 +32,14 @@ export const tourismReport: TikTokReport = {
       topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
+      topic: "Cheap beach town travel ideas",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 65,
+      trust: "high",
+      videoNum: 995,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
+    {
       topic: "road trip guide to a local waterfall",
       subcategory: "Tourist Guide",
       growthMultiplier: 65,
@@ -42,7 +50,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "the real diamond city",
       subcategory: "Tourism Service",
-      growthMultiplier: 58,
+      growthMultiplier: 50,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "ID", "MY", "CA"],
@@ -56,14 +64,6 @@ export const tourismReport: TikTokReport = {
       topCountries: ["US", "GB", "DE", "CA", "AU"],
     },
     {
-      topic: "maliuyan waterfall cliff swing china",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 28,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "FR", "DE"],
-    },
-    {
       topic: "inside submarine view",
       subcategory: "Tourist Guide",
       growthMultiplier: 28,
@@ -72,20 +72,20 @@ export const tourismReport: TikTokReport = {
       topCountries: ["US", "PH", "ID", "MY", "NG"],
     },
     {
-      topic: "great wolf lodge or 1000",
+      topic: "maliuyan waterfall cliff swing china",
       subcategory: "Tourism Sites",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 863,
-      topCountries: ["US", "CA", "GB", "AU", "NZ"],
-    },
-    {
-      topic: "elitch gardens pov",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 9,
+      growthMultiplier: 24,
       trust: "high",
       videoNum: null,
-      topCountries: ["AU", "CA", "GB", "DE"],
+      topCountries: ["US", "PH", "GB", "FR", "DE"],
+    },
+    {
+      topic: "mount athos now",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 417,
+      topCountries: ["PH", "ID", "MY", "RS"],
     },
     {
       topic: "evgeny kuznetsov hotel",

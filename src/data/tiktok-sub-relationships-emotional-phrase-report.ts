@@ -14,10 +14,10 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "i want love like this",
@@ -31,7 +31,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 813,
-      topCountries: ["PH", "ZA", "NG", "AU", "CA"],
+      topCountries: ["PH", "ZA", "AU", "NG", "CA"],
     },
     {
       topic: "be loyal to what matters",
@@ -51,7 +51,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "I love you more than you know",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 8249,
+      videoNum: 8989,
       topCountries: ["PH", "MY", "ID", "MM", "KH"],
     },
     {
@@ -69,10 +69,17 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "EG", "IQ", "LY", "DZ"],
     },
     {
+      topic: "motovational quotes",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 6450,
+      topCountries: ["PH", "ZA", "AU", "SG"],
+    },
+    {
       topic: "millionaire mindset motivation",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 6977,
+      videoNum: 6979,
       topCountries: ["ZA", "PH", "PK", "NG"],
     },
     {
@@ -81,13 +88,6 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 338,
       topCountries: ["PH", "ID", "MY", "ZA", "SA"],
-    },
-    {
-      topic: "motovational quotes",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 6450,
-      topCountries: ["PH", "ZA", "AU", "SG"],
     },
   ],
   methodologyNote:

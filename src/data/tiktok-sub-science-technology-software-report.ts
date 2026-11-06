@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -35,7 +35,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "wilson bethel quinn app",
-      growthMultiplier: 145,
+      growthMultiplier: 225,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "BR", "AU"],
@@ -83,11 +83,11 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "CA", "AU", "DE", "BG"],
     },
     {
-      topic: "digital closet",
+      topic: "VoiceComment",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 731,
-      topCountries: ["IL", "PH", "IT", "IQ", "LY"],
+      videoNum: 401,
+      topCountries: ["MM", "PH", "NL", "BD", "TH"],
     },
   ],
   methodologyNote:

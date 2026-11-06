@@ -14,17 +14,17 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "how to pack luggage",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 741,
-      topCountries: ["MM", "PH", "MY", "JP", "SG"],
+      topCountries: ["MM", "PH", "MY", "SG", "JP"],
     },
     {
       topic: "things for camping",
@@ -62,18 +62,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "CA", "AU", "PH"],
     },
     {
+      topic: "campingchair",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1069,
+      topCountries: ["PH", "MM", "MY", "MX"],
+    },
+    {
       topic: "pack for vacation",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 958,
       topCountries: ["CA", "AU", "ZA", "PH", "MA"],
-    },
-    {
-      topic: "What I pack for a long hike",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "TW", "SG"],
     },
     {
       topic: "travel essentials for women",
@@ -83,11 +83,11 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "MY", "PH", "AU", "ZA"],
     },
     {
-      topic: "must-pack travel essentials",
+      topic: "What I pack for a long hike",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 806,
-      topCountries: ["US", "GB", "PH", "RS", "CZ"],
+      videoNum: null,
+      topCountries: ["ID", "MY", "TW", "SG"],
     },
   ],
   methodologyNote:

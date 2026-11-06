@@ -14,10 +14,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -25,6 +25,13 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "IE", "ZA", "PH"],
+    },
+    {
+      topic: "eating an artickoke",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: [],
     },
     {
       topic: "crunch in soft food meaning",
@@ -41,7 +48,7 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["FR", "US", "ID", "DE"],
     },
     {
-      topic: "how to improve seasoning consistency",
+      topic: "How to improve seasoning consistency",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
@@ -62,13 +69,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "GH", "ZA", "AU", "KE"],
     },
     {
-      topic: "coffee social media discovery posts",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AE", "CA", "PH", "SG", "MV"],
-    },
-    {
       topic: "foods that smell like warm wheat",
       growthMultiplier: 1,
       trust: "high",
@@ -83,11 +83,11 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "ID", "MX", "PH", "PE"],
     },
     {
-      topic: "traditional sweet with health benefits",
+      topic: "coffee social media discovery posts",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["SA", "IQ", "EG", "DZ"],
+      topCountries: ["CA", "AE", "ZA", "SG", "PH"],
     },
   ],
   methodologyNote:

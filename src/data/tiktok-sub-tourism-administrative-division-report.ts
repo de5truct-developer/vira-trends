@@ -14,10 +14,10 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "copenhagen height",
@@ -41,13 +41,6 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "MX", "DE", "GB", "SE"],
     },
     {
-      topic: "North legacy",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 180,
-      topCountries: ["PH", "MX", "ID", "AU", "CA"],
-    },
-    {
       topic: "mound bayou mississippi",
       growthMultiplier: 3,
       trust: "high",
@@ -58,7 +51,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topic: "san francisco bay area",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 1033,
+      videoNum: 1037,
       topCountries: ["SA", "CA", "AU", "MX", "BR"],
     },
     {
@@ -69,11 +62,11 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "AU", "CA", "MY"],
     },
     {
-      topic: "rogerspark",
+      topic: "legree oregon state",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "NG", "EC", "LY", "TL"],
+      videoNum: 269,
+      topCountries: ["US"],
     },
     {
       topic: "north end",
@@ -83,11 +76,18 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["BD", "CA", "ZA", "UG"],
     },
     {
-      topic: "japan right now",
+      topic: "thailandً country",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1299,
-      topCountries: ["PH", "CA", "AU", "JP", "MY"],
+      videoNum: 459,
+      topCountries: ["TH", "PH", "ID", "MY"],
+    },
+    {
+      topic: "#houston",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1129,
+      topCountries: ["EG", "MA", "NG", "MX", "VN"],
     },
   ],
   methodologyNote:

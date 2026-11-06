@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-11-04T08:29:03Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-05T10:42:32Z",
+  windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -40,7 +40,7 @@ export const brCountryReport: TikTokCountryReport = {
       growthMultiplier: 154,
       trust: "high",
       videoNum: 970,
-      topCountries: ["MX", "CO", "PE", "BR", "AR"],
+      topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
     {
       topic: "im so in love with you dragon ball",
@@ -64,7 +64,7 @@ export const brCountryReport: TikTokCountryReport = {
       topic: "nastia hospital",
       category: "Healthcare",
       subcategory: "Modern Medicine",
-      growthMultiplier: 34,
+      growthMultiplier: 33,
       trust: "high",
       videoNum: 112,
       topCountries: ["US", "BR", "PH", "VN"],
@@ -73,19 +73,10 @@ export const brCountryReport: TikTokCountryReport = {
       topic: "mom mom where were you original",
       category: "TikTok's Featured Content",
       subcategory: "Trends/Challenges",
-      growthMultiplier: 24,
+      growthMultiplier: 26,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MX", "FR", "BR", "MY"],
-    },
-    {
-      topic: "skydeck chicago 2026",
-      category: "Local Life",
-      subcategory: "Leisure and Entertainment",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "SA", "ID", "MX", "TR"],
     },
     {
       topic: "shuffle revenge resumo",
@@ -104,6 +95,15 @@ export const brCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 152,
       topCountries: ["BR", "MX", "CO", "AR", "PE"],
+    },
+    {
+      topic: "organizing small home items at home",
+      category: "Household",
+      subcategory: "Home Life",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BR", "PT", "MX", "AR", "AO"],
     },
   ],
   methodologyNote:

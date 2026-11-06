@@ -14,10 +14,10 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "doll broken arm",
@@ -25,27 +25,6 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MX", "AU", "ID"],
-    },
-    {
-      topic: "part 6 cheese squishy",
-      growthMultiplier: 17,
-      trust: "high",
-      videoNum: 300,
-      topCountries: ["US", "PH", "CA", "MY"],
-    },
-    {
-      topic: "floral foam squishy",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: 1178,
-      topCountries: ["US", "IT", "PH", "GB", "CA"],
-    },
-    {
-      topic: "katseye doll outfits",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: 265,
-      topCountries: ["MX", "CO", "PE", "AR", "CL"],
     },
     {
       topic: "mike wazowski scream cup",
@@ -62,11 +41,25 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MY", "DE", "CA", "AU"],
     },
     {
+      topic: "part 6 cheese squishy",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 300,
+      topCountries: ["US", "PH", "CA", "MY"],
+    },
+    {
       topic: "wpnz puzzle",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PH", "CL", "AR"],
+    },
+    {
+      topic: "katseye doll outfits",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 265,
+      topCountries: ["MX", "CO", "PE", "AR", "CL"],
     },
     {
       topic: "pocket totto toy",
@@ -88,6 +81,13 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "CA", "DE"],
+    },
+    {
+      topic: "weird barbie doll",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 690,
+      topCountries: ["US", "PH", "GB", "ID", "MY"],
     },
   ],
   methodologyNote:

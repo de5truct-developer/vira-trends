@@ -10,19 +10,28 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mxCountryReport: TikTokCountryReport = {
   country: "Mexico",
   countryCode: "MX",
-  computedAt: "2026-11-04T08:29:03Z",
+  computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-05",
+  updatedAt: "2026-11-06",
   topics: [
     {
       topic: "barbas hats x mansory",
       category: "Fashion",
       subcategory: "Fashion Products",
-      growthMultiplier: 1252,
+      growthMultiplier: 1362,
       trust: "high",
       videoNum: 180,
       topCountries: ["MX", "US", "GT", "CO"],
+    },
+    {
+      topic: "banners stickers",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Other Hobbies",
+      growthMultiplier: 906,
+      trust: "high",
+      videoNum: 1174,
+      topCountries: ["MX", "BR", "PH", "AR", "PE"],
     },
     {
       topic: "sticker banners tutorial",
@@ -32,15 +41,6 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 4689,
       topCountries: ["US", "PH", "ID", "MX", "BR"],
-    },
-    {
-      topic: "banners stickers",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Other Hobbies",
-      growthMultiplier: 871,
-      trust: "high",
-      videoNum: 1174,
-      topCountries: ["MX", "PH", "BR", "AR", "PE"],
     },
     {
       topic: "victorias secret katseye",
@@ -66,7 +66,7 @@ export const mxCountryReport: TikTokCountryReport = {
       subcategory: "Celebrity Entertainment",
       growthMultiplier: 259,
       trust: "high",
-      videoNum: 3449,
+      videoNum: 3511,
       topCountries: ["US", "CA", "MX", "AU", "GB"],
     },
     {
@@ -77,15 +77,6 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 912,
       topCountries: ["US", "PH", "MX", "ID", "CA"],
-    },
-    {
-      topic: "tom brady taking off jersey",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 95,
-      trust: "high",
-      videoNum: 707,
-      topCountries: ["US", "PH", "CA", "AU", "MX"],
     },
     {
       topic: "megan thee stallion victoria secret",
@@ -104,6 +95,15 @@ export const mxCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "BR", "MX"],
+    },
+    {
+      topic: "mom mom where were you original",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 48,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MX", "FR", "BR", "MY"],
     },
   ],
   methodologyNote:
