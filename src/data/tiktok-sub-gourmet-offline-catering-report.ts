@@ -17,7 +17,7 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-01",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-06",
+  updatedAt: "2026-11-07",
   topics: [
     {
       topic: "spicy wings chicken betty",

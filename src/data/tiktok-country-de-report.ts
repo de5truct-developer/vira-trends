@@ -13,7 +13,7 @@ export const deCountryReport: TikTokCountryReport = {
   computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-10-03",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-06",
+  updatedAt: "2026-11-07",
   topics: [
     {
       topic: "tesla flying car",

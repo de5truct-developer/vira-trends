@@ -13,7 +13,7 @@ export const financeReport: TikTokReport = {
   computedAt: "2026-11-05T10:42:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-10-30",
-  updatedAt: "2026-11-06",
+  updatedAt: "2026-11-07",
   topics: [
     {
       topic: "real estate investment strategies",
