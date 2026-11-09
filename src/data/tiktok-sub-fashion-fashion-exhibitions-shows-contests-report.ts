@@ -14,24 +14,17 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-05T10:42:32Z",
-  windowStart: "2026-09-30",
-  windowEnd: "2026-10-30",
-  updatedAt: "2026-11-07",
+  computedAt: "2026-11-08T11:51:15Z",
+  windowStart: "2026-10-09",
+  windowEnd: "2026-11-05",
+  updatedAt: "2026-11-09",
   topics: [
     {
-      topic: "prada villain runway",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "PH", "FR"],
-    },
-    {
-      topic: "best fashion shows",
+      topic: "Victoria secret 2026",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1106,
-      topCountries: ["PH", "SA", "ID", "CA", "BR"],
+      videoNum: 630,
+      topCountries: ["PH", "BR", "MX", "ID", "RU"],
     },
     {
       topic: "Runway walk edit",
@@ -41,25 +34,11 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["AU", "CA", "PH", "BR", "SA"],
     },
     {
-      topic: "behind the scenes of a dress launch",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["SA", "KW", "BH", "IQ", "AE"],
-    },
-    {
       topic: "212 walk",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "BR", "AU", "CA", "MX"],
-    },
-    {
-      topic: "fashion editorial",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1145,
-      topCountries: ["ID", "BR", "PH", "NG", "TH"],
     },
     {
       topic: "standout looks from paris fashion week",
@@ -69,22 +48,8 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["VN", "ID", "US", "PH", "TH"],
     },
     {
-      topic: "vivet fashion show",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "ZA", "AU"],
-    },
-    {
-      topic: "military fashion show original",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 612,
-      topCountries: ["RU", "MX", "CL", "BR", "PH"],
-    },
-    {
       topic: "What to pack for a pageant fan event",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "JP", "KR", "TW"],
@@ -93,7 +58,7 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "prada villain runway",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Victoria secret 2026",
+    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };
