@@ -14,17 +14,17 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-08T11:51:15Z",
-  windowStart: "2026-10-09",
+  computedAt: "2026-11-09T12:11:25Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-09",
+  updatedAt: "2026-11-10",
   topics: [
     {
-      topic: "Victoria secret 2026",
-      growthMultiplier: 2,
+      topic: "prada villain runway",
+      growthMultiplier: 24,
       trust: "high",
-      videoNum: 630,
-      topCountries: ["PH", "BR", "MX", "ID", "RU"],
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "PH", "FR"],
     },
     {
       topic: "Runway walk edit",
@@ -41,6 +41,20 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["PH", "BR", "AU", "CA", "MX"],
     },
     {
+      topic: "keonho paris fashion week",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 692,
+      topCountries: ["ID", "VN", "PH", "TH", "MY"],
+    },
+    {
+      topic: "fashion editorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1156,
+      topCountries: ["ID", "BR", "PH", "NG", "TH"],
+    },
+    {
       topic: "standout looks from paris fashion week",
       growthMultiplier: 1,
       trust: "high",
@@ -48,8 +62,15 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["VN", "ID", "US", "PH", "TH"],
     },
     {
-      topic: "What to pack for a pageant fan event",
+      topic: "vivet fashion show",
       growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "ZA", "AU"],
+    },
+    {
+      topic: "What to pack for a pageant fan event",
+      growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["VN", "JP", "KR", "TW"],
@@ -58,7 +79,7 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Victoria secret 2026",
-    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "prada villain runway",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };
