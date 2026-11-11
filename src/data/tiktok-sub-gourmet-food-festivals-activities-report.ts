@@ -14,11 +14,18 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
+    {
+      topic: "zafri khan eating",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 530,
+      topCountries: ["PK", "AE", "GB", "CA"],
+    },
     {
       topic: "Christmas treats for family nights",
       growthMultiplier: 4,
@@ -32,6 +39,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: 712,
       topCountries: ["PH", "ZA", "MY", "CA"],
+    },
+    {
+      topic: "rock paper siccors food challenge",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "PH", "CA", "AU"],
     },
     {
       topic: "what the fifa world cup crowd eats",
@@ -59,21 +73,7 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MM", "KH", "ZA"],
-    },
-    {
-      topic: "Best drink and meal combos to try",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "TH", "ZA"],
-    },
-    {
-      topic: "Thanksgiving Dinner",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 942,
-      topCountries: ["CA", "AU", "ID", "MY", "PH"],
+      topCountries: ["MM", "PH", "KH", "ZA"],
     },
     {
       topic: "4th of july candy box ideas",
@@ -93,7 +93,7 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Christmas treats for family nights",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "zafri khan eating",
+    audience: "male 25-34, Pakistan (dominant segment, snapshot at collection date)",
   },
 };

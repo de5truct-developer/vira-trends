@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "let's go raptors chant",
@@ -34,25 +34,18 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "EG", "YE", "IQ"],
     },
     {
+      topic: "Persib fan viral content",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1142,
+      topCountries: ["ID", "MY", "AU", "BO"],
+    },
+    {
       topic: "SportsLover",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1200,
       topCountries: ["US", "BD", "GH", "MM"],
-    },
-    {
-      topic: "Persib fan viral content",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1139,
-      topCountries: ["ID", "MY", "AU", "BO"],
-    },
-    {
-      topic: "SportLover",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1096,
-      topCountries: ["RU", "RW", "ID", "DZ"],
     },
     {
       topic: "personal growth through team sport",
@@ -69,11 +62,11 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "GB", "ID"],
     },
     {
-      topic: "athleticism",
+      topic: "SportLover",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1078,
-      topCountries: ["US", "GB", "PH", "CA", "DE"],
+      videoNum: 1096,
+      topCountries: ["RU", "RW", "ID", "DZ"],
     },
     {
       topic: "أفضل لحظات الحفل الشاطئي",
@@ -81,6 +74,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 192,
       topCountries: ["BR", "MX", "PE", "CO", "ID"],
+    },
+    {
+      topic: "athleticism",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1078,
+      topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
     {
       topic: "how athletes build social presence",

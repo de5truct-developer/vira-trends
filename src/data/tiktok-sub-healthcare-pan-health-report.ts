@@ -14,10 +14,10 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "Sleep Cycle",
@@ -32,6 +32,27 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1195,
       topCountries: ["MY", "PH", "GB", "ID"],
+    },
+    {
+      topic: "Marlon skull cap",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 381,
+      topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
+    {
+      topic: "natural aging",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "CA", "AU", "PL"],
+    },
+    {
+      topic: "stevia leaf",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 974,
+      topCountries: ["GH", "NG", "MY", "PH", "ID"],
     },
     {
       topic: "best azelaic acid",
@@ -55,13 +76,6 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "IQ", "SA", "AU", "EG"],
     },
     {
-      topic: "stamina booster for men",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "PH", "MY", "KE", "NG"],
-    },
-    {
       topic: "how to sleep if you can't sleep",
       growthMultiplier: 2,
       trust: "high",
@@ -69,25 +83,11 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NG", "SG", "KE"],
     },
     {
-      topic: "pretzel positioning",
+      topic: "stamina booster for men",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 397,
-      topCountries: ["US", "GB", "DE", "NL", "IT"],
-    },
-    {
-      topic: "fighting breakouts fades",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 6302,
-      topCountries: ["US", "PK", "NP", "BD", "MM"],
-    },
-    {
-      topic: "piercing bump removal",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 549,
-      topCountries: ["ZA", "ID", "BR", "MM", "PH"],
+      videoNum: null,
+      topCountries: ["US", "ZA", "PH", "MY", "KE"],
     },
   ],
   methodologyNote:

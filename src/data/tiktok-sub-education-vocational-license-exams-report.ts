@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "marshall bar exam result",
@@ -28,7 +28,7 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
     },
     {
       topic: "learners memorandum 2026",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NA", "ZW", "SZ"],
@@ -48,6 +48,20 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["ID", "US", "FR", "SE", "DE"],
     },
     {
+      topic: "accounting exam",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 924,
+      topCountries: ["PH", "BD", "ZA", "MY", "ID"],
+    },
+    {
+      topic: "high school entrance exam",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 570,
+      topCountries: ["PH", "ID", "VN", "MX", "TR"],
+    },
+    {
       topic: "test part 3 result isaac",
       growthMultiplier: 1,
       trust: "high",
@@ -55,11 +69,11 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["ZA", "CA", "PH", "AU"],
     },
     {
-      topic: "accounting exam",
+      topic: "summative test",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 924,
-      topCountries: ["PH", "BD", "ZA", "MY", "ID"],
+      videoNum: 807,
+      topCountries: ["PH", "AE", "MY", "SA"],
     },
     {
       topic: "midterm exam",
@@ -74,20 +88,6 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 144,
       topCountries: ["ZA", "VN", "BD", "PH"],
-    },
-    {
-      topic: "past exam questions and answers",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 583,
-      topCountries: ["MM", "ZW", "JP", "ZA"],
-    },
-    {
-      topic: "signet quiz",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AU", "ZA", "NZ", "BR"],
     },
   ],
   methodologyNote:

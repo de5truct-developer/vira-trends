@@ -14,18 +14,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
-    {
-      topic: "kpop school performance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 610,
-      topCountries: ["PH", "ID", "MY", "BR", "MX"],
-    },
     {
       topic: "best moments at psy summer swag 2026",
       growthMultiplier: 1,
@@ -38,7 +31,14 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 410,
-      topCountries: ["BR", "PH", "ZA", "GB"],
+      topCountries: ["US", "BR", "PH", "ZA"],
+    },
+    {
+      topic: "kpop school performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 610,
+      topCountries: ["PH", "ID", "MY", "BR", "MX"],
     },
     {
       topic: "babymonster summer performance vibe",
@@ -55,18 +55,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "BR", "ZA", "PH", "CA"],
     },
     {
-      topic: "vogue battle school",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 116,
-      topCountries: ["PH", "BR", "MX", "MY"],
-    },
-    {
       topic: "james brown moonwalk",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PH", "NG", "ID", "MY"],
+    },
+    {
+      topic: "vogue battle school",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 116,
+      topCountries: ["PH", "BR", "MX", "MY"],
     },
     {
       topic: "cortis moneymoney performance",
@@ -76,24 +76,24 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "MM"],
     },
     {
-      topic: "rihanna super bowl dance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 537,
-      topCountries: ["US", "GB", "FR", "BR", "PH"],
-    },
-    {
       topic: "brotherhood bebot performance",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "CA", "AU", "SG"],
+    },
+    {
+      topic: "rihanna super bowl dance",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 537,
+      topCountries: ["US", "GB", "FR", "BR", "PH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "kpop school performance",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "best moments at psy summer swag 2026",
+    audience: "female 25-34, Malaysia (dominant segment, snapshot at collection date)",
   },
 };

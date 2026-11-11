@@ -14,10 +14,10 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "elon musk mars",
@@ -41,6 +41,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "RU", "TH", "TR"],
     },
     {
+      topic: "stephenson 218 star",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 361,
+      topCountries: ["PH", "NG", "ZA", "ID"],
+    },
+    {
       topic: "stephenson 218 vs sun",
       growthMultiplier: 1,
       trust: "high",
@@ -53,6 +60,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "ID", "MX", "PH", "VN"],
+    },
+    {
+      topic: "moonrockhard",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "BR", "CA", "DE"],
     },
   ],
   methodologyNote:

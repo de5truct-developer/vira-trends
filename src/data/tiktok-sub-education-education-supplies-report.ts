@@ -14,14 +14,14 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "e sheet paper in board",
-      growthMultiplier: 7,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "SA", "AE", "KW"],
@@ -35,7 +35,7 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "organizing school bag",
-      growthMultiplier: 3,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 136,
       topCountries: ["PH", "CA", "VN", "ID", "MY"],
@@ -46,13 +46,6 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "JP", "PL", "DZ", "PH"],
-    },
-    {
-      topic: "back to school items",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 8209,
-      topCountries: ["GB", "NG", "PH", "MY"],
     },
     {
       topic: "2027 planner book",
@@ -69,6 +62,13 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MY", "PK", "BD", "PH"],
     },
     {
+      topic: "back to school items",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 8209,
+      topCountries: ["GB", "NG", "PH", "MY"],
+    },
+    {
       topic: "Stationery storage ideas that look cute",
       growthMultiplier: 2,
       trust: "high",
@@ -83,11 +83,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "ID", "MY"],
     },
     {
-      topic: "pvc binder",
+      topic: "restocking school supplies",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 426,
-      topCountries: ["PH", "ID", "MY", "MX", "BR"],
+      videoNum: 720,
+      topCountries: ["PH", "MY", "ID", "BR"],
     },
   ],
   methodologyNote:

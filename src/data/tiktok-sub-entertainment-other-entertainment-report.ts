@@ -14,17 +14,24 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "magic repo man revenge",
-      growthMultiplier: 8,
+      growthMultiplier: 7,
       trust: "high",
       videoNum: 1106,
       topCountries: ["US", "PH", "ID", "MY", "BR"],
+    },
+    {
+      topic: "The callaway ad",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "AU", "CA", "PL", "GR"],
     },
     {
       topic: "American pickpocket",
@@ -34,13 +41,6 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "IT", "GB", "DE", "NL"],
     },
     {
-      topic: "actions and stuff etiquetas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "CO", "AR", "CL", "BR"],
-    },
-    {
       topic: "StageBehind",
       growthMultiplier: 1,
       trust: "high",
@@ -48,8 +48,15 @@ export const entertainmentOtherEntertainmentSubReport: TikTokSubcategoryReport =
       topCountries: ["VN", "TH", "ID", "PH", "MY"],
     },
     {
-      topic: "french show lighting",
+      topic: "actions and stuff etiquetas",
       growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "CO", "AR", "CL", "BR"],
+    },
+    {
+      topic: "french show lighting",
+      growthMultiplier: 0,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "FR", "IT"],

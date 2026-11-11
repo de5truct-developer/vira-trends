@@ -14,14 +14,14 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "illuminate explained",
-      growthMultiplier: 121,
+      growthMultiplier: 469,
       trust: "high",
       videoNum: 529,
       topCountries: ["US", "GB", "CA", "DE", "NL"],
@@ -55,6 +55,13 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "IQ", "EG", "YE"],
     },
     {
+      topic: "يبجي الولد وشكاك ذيالي",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 100,
+      topCountries: ["IQ", "SA", "KW", "JO", "AE"],
+    },
+    {
       topic: "traditional folklore stories and legends",
       growthMultiplier: 1,
       trust: "high",
@@ -67,13 +74,6 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1016,
       topCountries: ["IQ", "SA", "EG", "LY"],
-    },
-    {
-      topic: "يبجي الولد وشكاك ذيالي",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 100,
-      topCountries: ["IQ", "SA", "KW", "JO", "AE"],
     },
     {
       topic: "thai people",

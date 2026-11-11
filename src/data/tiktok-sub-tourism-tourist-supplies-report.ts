@@ -14,11 +14,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
+    {
+      topic: "trtl travel neck pillow",
+      growthMultiplier: 27,
+      trust: "high",
+      videoNum: 714,
+      topCountries: ["PH", "US", "CA", "AU", "GB"],
+    },
     {
       topic: "overnight camping",
       growthMultiplier: 2,
@@ -27,11 +34,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "JP", "ID", "MY"],
     },
     {
-      topic: "trtl travel neck pillow",
-      growthMultiplier: 2,
+      topic: "lights for camping",
+      growthMultiplier: 1,
       trust: "high",
-      videoNum: 714,
-      topCountries: ["PH", "US", "CA", "AU", "GB"],
+      videoNum: 1166,
+      topCountries: ["PH", "MX", "BR", "MY", "JP"],
+    },
+    {
+      topic: "Pack with me for camp",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 631,
+      topCountries: ["CA", "AU", "ZA", "NG"],
     },
     {
       topic: "Everyday products i bring traveling",
@@ -41,11 +55,11 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "SG"],
     },
     {
-      topic: "lights for camping",
+      topic: "Gadgets that make travel easier",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1165,
-      topCountries: ["PH", "MX", "BR", "MY", "JP"],
+      videoNum: null,
+      topCountries: ["DZ", "SD", "EG", "SA"],
     },
     {
       topic: "What we packed for vacation",
@@ -55,18 +69,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "MX", "PH", "PL", "CA"],
     },
     {
-      topic: "Gadgets that make travel easier",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["DZ", "SD", "EG", "SA"],
-    },
-    {
       topic: "umroh packing and travel essentials",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 249,
       topCountries: ["ID", "MY", "TL", "BN"],
+    },
+    {
+      topic: "campingchair",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1069,
+      topCountries: ["PH", "US", "MM", "MY", "MX"],
     },
     {
       topic: "What I pack for a long hike",
@@ -75,25 +89,11 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["ID", "MY", "TW", "SG"],
     },
-    {
-      topic: "pack for vacation",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 958,
-      topCountries: ["CA", "AU", "ZA", "PH", "NZ"],
-    },
-    {
-      topic: "car camping tent",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1046,
-      topCountries: ["PH", "MY", "ID", "CA"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "overnight camping",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "trtl travel neck pillow",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

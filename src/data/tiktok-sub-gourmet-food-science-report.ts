@@ -14,10 +14,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -34,18 +34,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "GB", "MY", "CA", "AU"],
     },
     {
-      topic: "dangerous fungi hiding in food",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "ID", "MY"],
-    },
-    {
       topic: "beef tallow benefits",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 767,
       topCountries: ["PH", "ZA", "GB", "KE", "AU"],
+    },
+    {
+      topic: "dangerous fungi hiding in food",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ID", "MY"],
     },
     {
       topic: "mistakes to avoid in sauce reduction",
@@ -55,13 +55,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["FR", "US", "ID", "DE"],
     },
     {
-      topic: "How to improve seasoning consistency",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 172,
-      topCountries: ["BR", "PT", "MX", "PE"],
-    },
-    {
       topic: "what does olive oil and lemon juice do",
       growthMultiplier: 2,
       trust: "high",
@@ -69,11 +62,11 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "ZA", "GH", "AU", "JM"],
     },
     {
-      topic: "chia seeds benefits for women",
+      topic: "How to improve seasoning consistency",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1090,
-      topCountries: ["ZA", "KE", "NG", "UG", "GH"],
+      videoNum: 172,
+      topCountries: ["BR", "PT", "MX", "PE"],
     },
     {
       topic: "foods that smell like warm wheat",
@@ -83,11 +76,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "VN", "BD", "PH"],
     },
     {
-      topic: "passion fruit benefits",
+      topic: "chia seeds benefits for women",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 533,
-      topCountries: ["PH", "MY", "GH", "PK", "MM"],
+      videoNum: 1090,
+      topCountries: ["ZA", "KE", "NG", "UG", "GH"],
+    },
+    {
+      topic: "molasses benefits",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 618,
+      topCountries: ["ZA", "PH", "NG", "KE", "BW"],
     },
   ],
   methodologyNote:

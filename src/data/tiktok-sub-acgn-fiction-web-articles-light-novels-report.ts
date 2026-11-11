@@ -14,10 +14,10 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "the tempest victoria aveyard",
@@ -34,18 +34,18 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
       topCountries: ["US", "GB", "BR", "SA", "PH"],
     },
     {
-      topic: "be careful of my heart",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 587,
-      topCountries: ["PH", "TR", "MX", "BR"],
-    },
-    {
       topic: "lucille and raoul",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 229,
       topCountries: ["PH", "AU", "CA", "MY", "MX"],
+    },
+    {
+      topic: "be careful of my heart",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 587,
+      topCountries: ["PH", "TR", "MX", "BR"],
     },
     {
       topic: "my mafia don episode 36 review",

@@ -14,10 +14,10 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "study motivation for girls",
@@ -28,10 +28,24 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Daily discipline rules that keep you on track",
-      growthMultiplier: 29,
+      growthMultiplier: 28,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "DE", "FR", "ID", "GB"],
+    },
+    {
+      topic: "note reading practice",
+      growthMultiplier: 19,
+      trust: "high",
+      videoNum: 120,
+      topCountries: ["US", "PH", "ID", "MY", "JP"],
+    },
+    {
+      topic: "guide to stan school",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "ID", "CA", "TH"],
     },
     {
       topic: "presentation video result zuns",
@@ -41,11 +55,11 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "EG", "BN"],
     },
     {
-      topic: "guide to stan school",
-      growthMultiplier: 10,
+      topic: "SightInsightCreationTutorial",
+      growthMultiplier: 7,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MY", "ID", "CA", "TH"],
+      videoNum: 643,
+      topCountries: ["MM", "ET", "UG", "BD"],
     },
     {
       topic: "topics to research",
@@ -55,20 +69,6 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AU", "ZA", "MA"],
     },
     {
-      topic: "children educational videos 2026",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 465,
-      topCountries: ["PH", "NG", "ZA", "GH", "MM"],
-    },
-    {
-      topic: "SightInsightCreationTutorial",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 643,
-      topCountries: ["MM", "UG", "BD", "ET"],
-    },
-    {
       topic: "Study habits that build consistency",
       growthMultiplier: 5,
       trust: "high",
@@ -76,18 +76,18 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "US", "MY", "PH"],
     },
     {
-      topic: "When handwriting changes may be a sign",
+      topic: "children educational videos 2026",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 465,
-      topCountries: ["NG", "PH", "KE", "GH", "GB"],
+      topCountries: ["PH", "NG", "ZA", "GH", "MM"],
     },
     {
-      topic: "going for paper meaning",
+      topic: "how to write draco malfoy in a calculator",
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "PL", "NL", "RO", "PH"],
+      topCountries: ["GB", "PH", "DE", "CA", "AU"],
     },
   ],
   methodologyNote:

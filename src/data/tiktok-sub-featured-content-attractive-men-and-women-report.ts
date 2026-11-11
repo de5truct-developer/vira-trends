@@ -14,10 +14,10 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "ethiopianwomen",
@@ -27,6 +27,13 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["ET", "SA", "CA", "ZA"],
     },
     {
+      topic: "the most handsome man according to science",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 4948,
+      topCountries: ["US", "PH", "GB", "PK", "PL"],
+    },
+    {
       topic: "جمال السعوديات",
       growthMultiplier: 1,
       trust: "high",
@@ -34,11 +41,11 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["SA", "IQ", "DZ", "EG"],
     },
     {
-      topic: "the most handsome man according to science",
+      topic: "the most beautiful woman in science",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 4948,
-      topCountries: ["US", "PH", "GB", "PK", "PL"],
+      videoNum: 5378,
+      topCountries: ["US", "GB", "CA", "DE", "PH"],
     },
     {
       topic: "Latino man",
@@ -46,13 +53,6 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       trust: "high",
       videoNum: 993,
       topCountries: ["CA", "ID", "PH", "AU", "TH"],
-    },
-    {
-      topic: "the most beautiful woman in science",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 5378,
-      topCountries: ["US", "GB", "CA", "DE", "PH"],
     },
     {
       topic: "mexican men",
@@ -74,6 +74,13 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       trust: "high",
       videoNum: 297,
       topCountries: ["US", "PH", "CA", "ZA", "MY"],
+    },
+    {
+      topic: "saudi girls",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1008,
+      topCountries: ["UG", "SA", "PK", "AE"],
     },
   ],
   methodologyNote:

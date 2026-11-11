@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "what is a heron",
       subcategory: "Biology Knowledge",
-      growthMultiplier: 1005,
+      growthMultiplier: 1312,
       trust: "high",
       videoNum: 626,
       topCountries: ["US", "PH", "AU", "GB", "NZ"],
@@ -34,7 +34,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "aliens in white house",
       subcategory: "Unresolved Mysteries",
-      growthMultiplier: 590,
+      growthMultiplier: 403,
       trust: "high",
       videoNum: 328,
       topCountries: ["US", "GB", "AU", "CA", "PH"],
@@ -42,7 +42,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "gold ship cribbing",
       subcategory: "Biology Knowledge",
-      growthMultiplier: 223,
+      growthMultiplier: 88,
       trust: "high",
       videoNum: 265,
       topCountries: ["US", "CA", "MX", "PH", "CL"],
@@ -58,7 +58,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "real tsunami footage tips",
       subcategory: "Geology Knowledge",
-      growthMultiplier: 73,
+      growthMultiplier: 69,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "DE", "IT", "RO", "GB"],
@@ -66,7 +66,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "spontaneous human composition",
       subcategory: "Science Knowledge - Others",
-      growthMultiplier: 59,
+      growthMultiplier: 62,
       trust: "high",
       videoNum: 172,
       topCountries: ["US", "NG", "GB", "GH", "ZA"],
@@ -74,10 +74,18 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "theranos explained",
       subcategory: "Geology Knowledge",
-      growthMultiplier: 54,
+      growthMultiplier: 50,
       trust: "high",
       videoNum: 112,
       topCountries: ["US", "GB", "DE", "CA", "PL"],
+    },
+    {
+      topic: "marlin vs orca",
+      subcategory: "Biology Knowledge",
+      growthMultiplier: 20,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "BR"],
     },
     {
       topic: "kurage sirena",
@@ -86,14 +94,6 @@ export const scienceFactsReport: TikTokReport = {
       trust: "high",
       videoNum: 970,
       topCountries: ["MX", "BR", "CO", "PE", "AR"],
-    },
-    {
-      topic: "chicxulub crater now",
-      subcategory: "Geology Knowledge",
-      growthMultiplier: 15,
-      trust: "high",
-      videoNum: 6203,
-      topCountries: ["US", "PH", "GB", "CA", "ID"],
     },
   ],
   methodologyNote:

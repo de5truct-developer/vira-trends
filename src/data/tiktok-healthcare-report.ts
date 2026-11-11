@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "code rot explained",
       subcategory: "Modern Medicine",
-      growthMultiplier: 441,
+      growthMultiplier: 259,
       trust: "high",
       videoNum: 196,
       topCountries: ["US", "GB", "DE", "PL", "CA"],
@@ -26,7 +26,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "why cant a pregant woman sleep on her back",
       subcategory: "Modern Medicine",
-      growthMultiplier: 259,
+      growthMultiplier: 239,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "JM", "CA", "NG"],
@@ -34,7 +34,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "rhinophyma before after",
       subcategory: "Cosmetic Medicine",
-      growthMultiplier: 132,
+      growthMultiplier: 103,
       trust: "high",
       videoNum: 895,
       topCountries: ["US", "GB", "AU", "CA", "IE"],
@@ -42,7 +42,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "cold fear",
       subcategory: "Modern Medicine",
-      growthMultiplier: 11,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 438,
       topCountries: ["AR", "MX", "PE", "CO", "EC"],
@@ -64,6 +64,22 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["MY", "PH", "GB", "ID"],
     },
     {
+      topic: "Marlon skull cap",
+      subcategory: "Pan-health",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 381,
+      topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
+    {
+      topic: "natural aging",
+      subcategory: "Pan-health",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "CA", "AU", "PL"],
+    },
+    {
       topic: "why do doctors walk backwards in the theater",
       subcategory: "Other Healthcare Content",
       growthMultiplier: 5,
@@ -78,22 +94,6 @@ export const healthcareReport: TikTokReport = {
       trust: "high",
       videoNum: 112,
       topCountries: ["US", "BR", "PH", "VN"],
-    },
-    {
-      topic: "why do albino eyes shake",
-      subcategory: "Modern Medicine",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 511,
-      topCountries: ["PH", "ZA", "GB", "NG", "CA"],
-    },
-    {
-      topic: "zekke 6 leaf gremoire",
-      subcategory: "Modern Medicine",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 152,
-      topCountries: ["PH", "US", "ID", "MY", "VN"],
     },
   ],
   methodologyNote:

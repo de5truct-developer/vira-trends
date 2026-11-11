@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
+  computedAt: "2026-11-10T12:01:48Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
     {
       topic: "why do doctors walk backwards in the theater",
@@ -55,11 +55,11 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["ZA", "GB", "CA", "PH", "AU"],
     },
     {
-      topic: "circumcission after care",
+      topic: "stop vapinig",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "ZA", "NG", "CA", "GH"],
+      videoNum: 381,
+      topCountries: ["GB", "PH", "ZA", "MY", "ID"],
     },
     {
       topic: "medical technology",
@@ -69,18 +69,18 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       topCountries: ["PH", "MM", "ID", "TH", "IT"],
     },
     {
-      topic: "stop vapinig",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 381,
-      topCountries: ["GB", "PH", "ZA", "MY", "ID"],
-    },
-    {
       topic: "what to know before trying pdrn",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PK", "EG", "BR"],
+      topCountries: ["ID", "PK", "BR", "EG"],
+    },
+    {
+      topic: "circumcission after care",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "ZA", "NG", "CA", "GH"],
     },
     {
       topic: "never broke a bone theory",

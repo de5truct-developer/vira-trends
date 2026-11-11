@@ -14,11 +14,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-09T12:11:25Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-10T12:01:48Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-10",
+  updatedAt: "2026-11-11",
   topics: [
+    {
+      topic: "uae visa update 1 hour ago update",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AE", "PK", "UG", "KE"],
+    },
     {
       topic: "immigration europe",
       growthMultiplier: 2,
@@ -34,25 +41,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "SG", "ID", "MY", "AU"],
     },
     {
-      topic: "uae visa update 1 hour ago update",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["AE", "PK", "UG", "KE"],
-    },
-    {
-      topic: "key documents for visa applications",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IR", "AF", "TR", "DE"],
-    },
-    {
       topic: "saudi arabia passport",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1039,
-      topCountries: ["SA", "PK", "EG", "DZ", "PH"],
+      topCountries: ["SA", "PK", "EG", "DZ", "US"],
+    },
+    {
+      topic: "key documents for visa applications",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["IR", "AF", "TR", "DE"],
     },
     {
       topic: "emigration",
@@ -69,18 +69,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["UG", "AE", "SA", "KE"],
     },
     {
-      topic: "climate card seoul",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 595,
-      topCountries: ["TH", "ID", "PH", "MY", "VN"],
-    },
-    {
       topic: "what travel in afghanistan reveals",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "PK", "NG", "MY", "GH"],
+    },
+    {
+      topic: "climate card seoul",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 595,
+      topCountries: ["TH", "ID", "PH", "MY", "VN"],
     },
     {
       topic: "how to prove funds for a uk visa",
@@ -93,7 +93,7 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "immigration europe",
-    audience: "unknown 18-24, Brazil (dominant segment, snapshot at collection date)",
+    topic: "uae visa update 1 hour ago update",
+    audience: "male 25-34, United Arab Emirates (dominant segment, snapshot at collection date)",
   },
 };
