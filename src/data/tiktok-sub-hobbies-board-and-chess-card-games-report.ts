@@ -14,10 +14,10 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "why cant gotham chess be a gm",
@@ -41,6 +41,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "PH", "BR", "CA"],
     },
     {
+      topic: "fools mate chess",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 630,
+      topCountries: ["US", "GB", "DE", "PL", "IT"],
+    },
+    {
       topic: "witty alien gambit",
       growthMultiplier: 5,
       trust: "high",
@@ -62,6 +69,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "KZ", "RU"],
     },
     {
+      topic: "how to be good at chess",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 999,
+      topCountries: ["PH", "ID", "MY", "CA"],
+    },
+    {
       topic: "harry potter house bingo",
       growthMultiplier: 3,
       trust: "high",
@@ -74,20 +88,6 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 503,
       topCountries: ["PH", "BR", "EG", "ID", "MY"],
-    },
-    {
-      topic: "how to be good at chess",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 999,
-      topCountries: ["PH", "ID", "MY", "CA"],
-    },
-    {
-      topic: "create schach insights 2028 viral now",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 619,
-      topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
   ],
   methodologyNote:

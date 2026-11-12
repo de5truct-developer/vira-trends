@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "maradona warming up messi",
@@ -26,7 +26,7 @@ export const sportsReport: TikTokReport = {
     {
       topic: "wnba finals",
       subcategory: "Physical Sports",
-      growthMultiplier: 1396,
+      growthMultiplier: 1008,
       trust: "high",
       videoNum: 902,
       topCountries: ["US", "PH", "CA", "AU", "ZA"],
@@ -72,20 +72,12 @@ export const sportsReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
-      topic: "johan cruyff turn",
-      subcategory: "Physical Sports",
-      growthMultiplier: 124,
-      trust: "high",
-      videoNum: 369,
-      topCountries: ["GB", "IT", "NL", "DE", "PL"],
-    },
-    {
-      topic: "jude bellingham accident",
+      topic: "30 may 2026 in football",
       subcategory: "Physical Sports",
       growthMultiplier: 116,
       trust: "high",
-      videoNum: 517,
-      topCountries: ["US", "GH", "KH", "MY"],
+      videoNum: 402,
+      topCountries: ["GB", "US", "DE", "IT", "NL"],
     },
     {
       topic: "mbappe police officer",
@@ -94,6 +86,14 @@ export const sportsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "DE", "GB", "FR", "IT"],
+    },
+    {
+      topic: "what happened to alexa grasso now",
+      subcategory: "Physical Sports",
+      growthMultiplier: 105,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB", "ZA"],
     },
   ],
   methodologyNote:

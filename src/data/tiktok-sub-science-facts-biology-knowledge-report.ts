@@ -14,10 +14,10 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "what is a heron",
@@ -41,6 +41,13 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ZA", "SA", "NG", "GH"],
     },
     {
+      topic: "chimp vs human simulation",
+      growthMultiplier: 53,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "IT", "GB", "DE", "PL"],
+    },
+    {
       topic: "marlin vs orca",
       growthMultiplier: 20,
       trust: "high",
@@ -55,25 +62,18 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
     {
-      topic: "hawkmoths",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: 168,
-      topCountries: ["US", "GB", "CA", "DE", "AU"],
-    },
-    {
       topic: "kodiak bird real footage",
-      growthMultiplier: 12,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 486,
       topCountries: ["PH", "GB", "CA", "ZA"],
     },
     {
-      topic: "basking ahark",
-      growthMultiplier: 9,
+      topic: "hawkmoths",
+      growthMultiplier: 14,
       trust: "high",
-      videoNum: 718,
-      topCountries: ["US", "GB", "DE", "PH", "NL"],
+      videoNum: 168,
+      topCountries: ["US", "GB", "CA", "DE", "AU"],
     },
     {
       topic: "peebird",

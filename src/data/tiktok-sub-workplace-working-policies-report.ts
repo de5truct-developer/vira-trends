@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "to earn the right to work",
@@ -32,6 +32,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MM", "MY", "PH", "TH"],
+    },
+    {
+      topic: "strathmore biometrics attendance",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "KE", "GB", "ZA", "RO"],
     },
     {
       topic: "how to compare salary vs stability",
@@ -81,13 +88,6 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1289,
       topCountries: ["MX", "PE", "PK", "VE"],
-    },
-    {
-      topic: "policies",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 916,
-      topCountries: ["BR", "PH", "IT", "GB", "MX"],
     },
   ],
   methodologyNote:

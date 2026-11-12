@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "SocialExperiment",
@@ -30,6 +30,14 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 668,
       topCountries: ["BR", "ID", "PH", "ZA"],
+    },
+    {
+      topic: "IndustryStandard",
+      subcategory: "Public Opinion",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ID", "AU", "GB"],
     },
     {
       topic: "CrimeInvestigation",
@@ -62,14 +70,6 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 741,
       topCountries: ["MX", "BR", "PE", "ID"],
-    },
-    {
-      topic: "IndustryStandard",
-      subcategory: "Public Opinion",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "ID", "AU", "GB"],
     },
   ],
   methodologyNote:

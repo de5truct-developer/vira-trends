@@ -14,10 +14,10 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "39 cent pickles",
@@ -69,6 +69,13 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "IE", "ZA", "MY", "AU"],
     },
     {
+      topic: "wax candy incident original video",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PH", "CL", "MY"],
+    },
+    {
       topic: "kinder crispy",
       growthMultiplier: 7,
       trust: "high",
@@ -81,13 +88,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 505,
       topCountries: ["EG", "SA", "AE", "DZ", "KW"],
-    },
-    {
-      topic: "chocolate brands",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 1148,
-      topCountries: ["PH", "ID", "MY", "PK", "KH"],
     },
   ],
   methodologyNote:

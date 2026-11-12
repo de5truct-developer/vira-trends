@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "ryans world",
@@ -48,12 +48,12 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["SG", "NG", "NP", "ID"],
     },
     {
-      topic: "maui jim",
-      subcategory: "Personal Media Accounts",
+      topic: "CommunityFirst",
+      subcategory: "Organization Media Account",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 583,
-      topCountries: ["ES", "MX", "TR", "CA", "PH"],
+      videoNum: 482,
+      topCountries: ["ZA", "BR", "NG", "KE"],
     },
     {
       topic: "StayBeautiful",
@@ -64,19 +64,11 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["PA", "ET", "ZA", "ID"],
     },
     {
-      topic: "CommunityFirst",
-      subcategory: "Organization Media Account",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 482,
-      topCountries: ["ZA", "BR", "NG", "KE"],
-    },
-    {
       topic: "GirlBlogger",
       subcategory: "Personal Media Accounts",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 5661,
+      videoNum: 5503,
       topCountries: ["US", "BR", "GB", "TR", "CA"],
     },
     {
@@ -86,6 +78,14 @@ export const mediaAccountsReport: TikTokReport = {
       trust: "high",
       videoNum: 1200,
       topCountries: ["GB", "BR", "US", "PL", "TR"],
+    },
+    {
+      topic: "BlessedMom",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 848,
+      topCountries: ["NP", "ID", "NG", "ZA"],
     },
     {
       topic: "spencer",

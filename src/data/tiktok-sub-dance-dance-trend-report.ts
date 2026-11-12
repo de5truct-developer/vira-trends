@@ -14,10 +14,10 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "Dance Viral TikTok 2026",
@@ -49,7 +49,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "blah blah blah dance",
-      growthMultiplier: 23,
+      growthMultiplier: 24,
       trust: "high",
       videoNum: 566,
       topCountries: ["PH", "AU", "NZ", "ID", "AR"],

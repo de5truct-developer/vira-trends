@@ -14,14 +14,14 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "marimba remix ringtone",
-      growthMultiplier: 20,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: 429,
       topCountries: ["PH", "ID", "EG", "MY", "VN"],

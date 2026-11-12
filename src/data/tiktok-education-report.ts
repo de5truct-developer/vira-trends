@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "russian guy learning english",
@@ -36,8 +36,8 @@ export const educationReport: TikTokReport = {
       subcategory: "School Education",
       growthMultiplier: 233,
       trust: "high",
-      videoNum: 543,
-      topCountries: ["US", "CA", "PH", "SA", "AU"],
+      videoNum: 566,
+      topCountries: ["US", "CA", "PH", "AU", "SA"],
     },
     {
       topic: "vdm school project",

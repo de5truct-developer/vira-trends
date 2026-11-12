@@ -14,10 +14,10 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "quintic formula",
@@ -60,13 +60,6 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "TL", "TR"],
-    },
-    {
-      topic: "colossal bioscience",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 386,
-      topCountries: ["US", "MX", "ID", "PH", "PE"],
     },
     {
       topic: "tornado 10 on pump 12",

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "illuminate explained",
@@ -64,20 +64,20 @@ export const cultureReport: TikTokReport = {
       topCountries: ["PH", "MX", "ID", "TH", "CA"],
     },
     {
-      topic: "lord verity x zodiac",
-      subcategory: "Serious Literature",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["RU", "UA", "BY", "VN", "MX"],
-    },
-    {
       topic: "drusilla hunger games book",
       subcategory: "Serious Literature",
       growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PH", "BR", "CA", "AU"],
+    },
+    {
+      topic: "lord verity x zodiac",
+      subcategory: "Serious Literature",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 108,
+      topCountries: ["RU", "UA", "MX", "AR", "BY"],
     },
     {
       topic: "lord verity vs verity",

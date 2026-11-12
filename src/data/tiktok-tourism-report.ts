@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "shi lwk jelly arcade roller coaster",
@@ -30,14 +30,6 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: 168,
       topCountries: ["US", "AU", "CA", "GB", "MX"],
-    },
-    {
-      topic: "wipeout ride dreamworld",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 83,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["US", "AU", "NZ", "CA"],
     },
     {
       topic: "Santa’s Wonderland",
@@ -58,7 +50,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "the real diamond city",
       subcategory: "Tourism Service",
-      growthMultiplier: 39,
+      growthMultiplier: 43,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "ID", "MY", "CA"],
@@ -66,23 +58,15 @@ export const tourismReport: TikTokReport = {
     {
       topic: "Baltic countries facts and demographics",
       subcategory: "Tourist Guide",
-      growthMultiplier: 36,
+      growthMultiplier: 39,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "MY", "VN"],
     },
     {
-      topic: "trtl travel neck pillow",
-      subcategory: "Tourist Supplies",
-      growthMultiplier: 27,
-      trust: "high",
-      videoNum: 714,
-      topCountries: ["PH", "US", "CA", "AU", "GB"],
-    },
-    {
       topic: "the springs",
       subcategory: "Tourism Service",
-      growthMultiplier: 25,
+      growthMultiplier: 21,
       trust: "high",
       videoNum: 812,
       topCountries: ["US", "GB", "CA", "AU", "DE"],
@@ -90,10 +74,26 @@ export const tourismReport: TikTokReport = {
     {
       topic: "inside submarine view",
       subcategory: "Tourist Guide",
-      growthMultiplier: 17,
+      growthMultiplier: 20,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "GB", "NG"],
+    },
+    {
+      topic: "san francisco bay area",
+      subcategory: "Administrative Division",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: 1037,
+      topCountries: ["SA", "US", "CA", "AE", "AU"],
+    },
+    {
+      topic: "mount marapi volcano",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "KE", "ZA", "UG", "GH"],
     },
   ],
   methodologyNote:

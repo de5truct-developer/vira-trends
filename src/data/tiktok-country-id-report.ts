@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const idCountryReport: TikTokCountryReport = {
   country: "Indonesia",
   countryCode: "ID",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -43,6 +43,15 @@ export const idCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "PH", "KH", "MY", "MM"],
     },
     {
+      topic: "dress cutting mistakes to avoid",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 544,
+      trust: "high",
+      videoNum: 942,
+      topCountries: ["MM", "ID", "BD", "NG"],
+    },
+    {
       topic: "hyper bahn ctr",
       category: "Local Life",
       subcategory: "Offline Performance",
@@ -70,15 +79,6 @@ export const idCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "US", "PH", "BR", "MY"],
     },
     {
-      topic: "mom mom where were you original",
-      category: "TikTok's Featured Content",
-      subcategory: "Trends/Challenges",
-      growthMultiplier: 75,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MX", "FR", "BR", "MY"],
-    },
-    {
       topic: "gym will change how you look",
       category: "Sports",
       subcategory: "Fitness",
@@ -88,6 +88,15 @@ export const idCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "MY", "PH", "BN"],
     },
     {
+      topic: "mom mom where were you original",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 60,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MX", "FR", "BR", "MY"],
+    },
+    {
       topic: "im so sorry trend",
       category: "TikTok's Featured Content",
       subcategory: "Trends/Challenges",
@@ -95,15 +104,6 @@ export const idCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1261,
       topCountries: ["US", "ZA", "ID", "PH", "GB"],
-    },
-    {
-      topic: "persib vs melbourne victory",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 44,
-      trust: "high",
-      videoNum: 377,
-      topCountries: ["ID", "MY", "TW", "JP"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const usCountryReport: TikTokCountryReport = {
   country: "United States",
   countryCode: "US",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "healthcare entrepreneur",
@@ -97,13 +97,13 @@ export const usCountryReport: TikTokCountryReport = {
       topCountries: ["US", "DE"],
     },
     {
-      topic: "brand risks boxing",
-      category: "Sports",
-      subcategory: "Physical Sports",
+      topic: "i texted my sister original",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1371,
-      topCountries: ["US", "MX", "LK", "TZ", "MM"],
+      videoNum: null,
+      topCountries: ["US"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "julia stiles dedication night",
@@ -32,6 +32,20 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 5651,
       topCountries: ["PH", "ZA", "NG", "MM", "GH"],
+    },
+    {
+      topic: "valentina and paul",
+      growthMultiplier: 2084,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "DE", "AE"],
+    },
+    {
+      topic: "i heard abby chloe",
+      growthMultiplier: 852,
+      trust: "high",
+      videoNum: 1148,
+      topCountries: ["US", "GB", "PR", "CA", "AU"],
     },
     {
       topic: "EverybodysBigBrother",
@@ -74,20 +88,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 2804,
       topCountries: ["ID", "MM", "PH", "MY", "KH"],
-    },
-    {
-      topic: "minimum wage netflix",
-      growthMultiplier: 25,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
-    {
-      topic: "jarvis vision quest",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ID", "PH", "MX", "BR"],
     },
   ],
   methodologyNote:

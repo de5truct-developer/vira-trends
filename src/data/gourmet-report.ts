@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const gourmetReport: TikTokReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "daisy cakes review",
@@ -28,7 +28,7 @@ export const gourmetReport: TikTokReport = {
       subcategory: "Offline Catering",
       growthMultiplier: 431,
       trust: "high",
-      videoNum: 3962,
+      videoNum: 3964,
       topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
@@ -74,7 +74,7 @@ export const gourmetReport: TikTokReport = {
     {
       topic: "homemade sauces dressings and mayonnaise",
       subcategory: "Food Science",
-      growthMultiplier: 63,
+      growthMultiplier: 57,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "IE", "ZA", "PH"],

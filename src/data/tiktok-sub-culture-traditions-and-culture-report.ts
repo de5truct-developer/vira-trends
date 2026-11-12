@@ -14,10 +14,10 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "all souls day",
@@ -44,7 +44,7 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topic: "beautiful weddings",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 2431,
+      videoNum: 2446,
       topCountries: ["MM", "ZA", "PK", "IQ"],
     },
     {
@@ -83,11 +83,11 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "PK", "KE"],
     },
     {
-      topic: "therianthropy",
+      topic: "february 14",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 815,
-      topCountries: ["ID", "GB", "PH", "MX"],
+      videoNum: 1408,
+      topCountries: ["NG", "PH", "MM", "NP"],
     },
   ],
   methodologyNote:

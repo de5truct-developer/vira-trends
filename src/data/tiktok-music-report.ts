@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const musicReport: TikTokReport = {
   category: "Music",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "TheGirlOfYourDreams",
+      subcategory: "Singles",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CA", "BR", "PH", "ID", "MX"],
+    },
     {
       topic: "DriveThePretenders",
       subcategory: "Singles",
@@ -61,7 +69,7 @@ export const musicReport: TikTokReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1175,
-      topCountries: ["PH", "US", "BR", "IT"],
+      topCountries: ["PH", "BR", "IT", "VN"],
     },
     {
       topic: "FlowerDance",
@@ -72,14 +80,6 @@ export const musicReport: TikTokReport = {
       topCountries: ["JP", "VN", "KR", "ID"],
     },
     {
-      topic: "rnbclassics",
-      subcategory: "Music Recommendations",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 934,
-      topCountries: ["US", "ZA", "JM", "BR"],
-    },
-    {
       topic: "moonlightbae",
       subcategory: "Singles",
       growthMultiplier: 1,
@@ -88,18 +88,18 @@ export const musicReport: TikTokReport = {
       topCountries: ["US", "GB", "DE", "IT", "PL"],
     },
     {
-      topic: "AGreatChaos",
+      topic: "FaceToFace",
       subcategory: "Singles",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 289,
-      topCountries: ["CA", "RU", "ZA", "AU", "NZ"],
+      videoNum: 406,
+      topCountries: ["ID", "SN", "PH", "TR"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "DriveThePretenders",
-    audience: "female 18-24, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "TheGirlOfYourDreams",
+    audience: "female 18-24, Canada (dominant segment, snapshot at collection date)",
   },
 };

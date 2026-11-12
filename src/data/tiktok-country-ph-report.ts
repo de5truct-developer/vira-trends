@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const phCountryReport: TikTokCountryReport = {
   country: "Philippines",
   countryCode: "PH",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -91,7 +91,7 @@ export const phCountryReport: TikTokCountryReport = {
       topic: "blah blah blah dance",
       category: "Dance",
       subcategory: "Dance Trend",
-      growthMultiplier: 101,
+      growthMultiplier: 108,
       trust: "high",
       videoNum: 566,
       topCountries: ["PH", "AU", "NZ", "ID", "AR"],

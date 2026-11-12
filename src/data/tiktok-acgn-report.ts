@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const acgnReport: TikTokReport = {
   category: "ACGN (Anime, Comics, Games & Novels)",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "Shockwave did it",
+      subcategory: "Games",
+      growthMultiplier: 2261,
+      trust: "high",
+      videoNum: 3940,
+      topCountries: ["US", "GB", "PH", "DE", "CA"],
+    },
     {
       topic: "the rapunzel edit to fix lag",
       subcategory: "Animation and Comics",
@@ -38,6 +46,14 @@ export const acgnReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA"],
+    },
+    {
+      topic: "mysterious vs amanda",
+      subcategory: "Games",
+      growthMultiplier: 375,
+      trust: "high",
+      videoNum: 2423,
+      topCountries: ["US", "CA", "GB", "AU", "NZ"],
     },
     {
       topic: "catty noir costume",
@@ -79,27 +95,11 @@ export const acgnReport: TikTokReport = {
       videoNum: 406,
       topCountries: ["US", "PH", "MY", "NG", "CA"],
     },
-    {
-      topic: "sunbringer gameplay",
-      subcategory: "Games",
-      growthMultiplier: 29,
-      trust: "high",
-      videoNum: 491,
-      topCountries: ["US", "PH", "ID", "VN", "BR"],
-    },
-    {
-      topic: "what is trunk or treat",
-      subcategory: "Games",
-      growthMultiplier: 23,
-      trust: "high",
-      videoNum: 756,
-      topCountries: ["US", "GB", "CA", "PH", "DE"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the rapunzel edit to fix lag",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Shockwave did it",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

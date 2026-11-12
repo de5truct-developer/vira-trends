@@ -14,24 +14,24 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
-    {
-      topic: "ethiopianwomen",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1234,
-      topCountries: ["ET", "SA", "CA", "ZA"],
-    },
     {
       topic: "the most handsome man according to science",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 4948,
       topCountries: ["US", "PH", "GB", "PK", "PL"],
+    },
+    {
+      topic: "ethiopianwomen",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1234,
+      topCountries: ["ET", "SA", "CA", "ZA"],
     },
     {
       topic: "جمال السعوديات",
@@ -86,7 +86,7 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "ethiopianwomen",
-    audience: "unknown 25-34, Ethiopia (dominant segment, snapshot at collection date)",
+    topic: "the most handsome man according to science",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

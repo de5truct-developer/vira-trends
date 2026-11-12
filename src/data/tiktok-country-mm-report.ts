@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "dress cutting mistakes to avoid",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 549,
+      trust: "high",
+      videoNum: 942,
+      topCountries: ["MM", "ID", "BD", "NG"],
+    },
     {
       topic: "hdr video",
       category: "Personal Interests and Hobbies",
@@ -91,25 +100,16 @@ export const mmCountryReport: TikTokCountryReport = {
       topic: "baby playing",
       category: "Nursing and Parenting",
       subcategory: "Maternal and Infant Care",
-      growthMultiplier: 9,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 1080,
       topCountries: ["BD", "PK", "PH", "NP", "MM"],
-    },
-    {
-      topic: "truckful",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 584,
-      topCountries: ["ID", "PH", "MM", "MX", "MY"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "hdr video",
-    audience: "female 18-24, Myanmar (dominant segment, snapshot at collection date)",
+    topic: "dress cutting mistakes to avoid",
+    audience: "not enough audience data for this topic",
   },
 };

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -34,7 +34,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "hyper bahn ctr",
       subcategory: "Offline Performance",
-      growthMultiplier: 264,
+      growthMultiplier: 263,
       trust: "high",
       videoNum: 473,
       topCountries: ["ID", "MY", "EG", "BN"],
@@ -42,7 +42,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "clayface movie theaters",
       subcategory: "Offline Performance",
-      growthMultiplier: 222,
+      growthMultiplier: 228,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "PK", "MX"],
@@ -58,7 +58,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "museum day events and celebrations",
       subcategory: "Galleries and Exhibitions",
-      growthMultiplier: 197,
+      growthMultiplier: 219,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "MX", "DE", "PH"],

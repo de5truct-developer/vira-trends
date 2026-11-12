@@ -14,10 +14,10 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "Funny AI trend videos to try",
@@ -34,18 +34,18 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
       topCountries: ["NP", "NG", "PH", "GH", "US"],
     },
     {
-      topic: "filter flado sigma",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 616,
-      topCountries: ["ID", "MY", "EG", "PH"],
-    },
-    {
       topic: "8k effect on tiktok viral 2026",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1181,
       topCountries: ["NG", "CD", "CI", "KE", "GH"],
+    },
+    {
+      topic: "filter flado sigma",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 616,
+      topCountries: ["ID", "MY", "EG", "PH"],
     },
     {
       topic: "77 million views tiktok effect",

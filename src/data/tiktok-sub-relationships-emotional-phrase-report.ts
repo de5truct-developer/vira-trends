@@ -14,11 +14,18 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "MotivationalAndInspiringVideos",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 1129,
+      topCountries: ["ID", "MY", "PK", "NG"],
+    },
     {
       topic: "i want love like this",
       growthMultiplier: 2,
@@ -44,7 +51,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "motovational quotes",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 6809,
+      videoNum: 6937,
       topCountries: ["PH", "ZA", "AU", "SG"],
     },
     {
@@ -58,7 +65,7 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "motivational and inspiring videos",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 36639,
+      videoNum: 37600,
       topCountries: ["ZA", "AU", "CA", "NG", "PK"],
     },
     {
@@ -72,28 +79,21 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topic: "best motivational and encouraging quotes",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 24836,
+      videoNum: 26130,
       topCountries: ["KE", "ZA", "NG", "GH", "PH"],
     },
     {
-      topic: "i love you beyond words",
+      topic: "i choose self respect",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 953,
-      topCountries: ["PH", "ID", "MY", "ZA", "KE"],
-    },
-    {
-      topic: "just enjoy the moment",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 2022,
-      topCountries: ["ZA", "PH", "MY", "NG", "ID"],
+      videoNum: 980,
+      topCountries: ["PH", "MY", "ID", "MM", "NP"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "i want love like this",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "MotivationalAndInspiringVideos",
+    audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "barbas hats x mansory",
@@ -38,7 +38,7 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 299,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "AU", "NZ", "GB"],
+      topCountries: ["US", "CA", "AU", "NZ", "GU"],
     },
     {
       topic: "unbreakable glasses",
@@ -55,18 +55,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "IE", "DE", "NL", "CA"],
     },
     {
-      topic: "stormfall bikini",
-      growthMultiplier: 153,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "DE"],
-    },
-    {
       topic: "university of tennessee shirt",
       growthMultiplier: 148,
       trust: "high",
       videoNum: 160,
       topCountries: ["PH", "US", "TH", "ID", "MY"],
+    },
+    {
+      topic: "stormfall bikini",
+      growthMultiplier: 131,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
       topic: "victoria secret slick back",

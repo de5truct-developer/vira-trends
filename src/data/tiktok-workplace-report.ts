@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const workplaceReport: TikTokReport = {
   category: "Workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "kindergarten teacher with kids",
@@ -64,14 +64,6 @@ export const workplaceReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "ZA", "PH"],
     },
     {
-      topic: "continue to part 2of the interview",
-      subcategory: "Workplace Skills",
-      growthMultiplier: 76,
-      trust: "high",
-      videoNum: 285,
-      topCountries: ["US", "CA", "AU", "PR"],
-    },
-    {
       topic: "Step-by-step custom prop workflow",
       subcategory: "Workplace Skills",
       growthMultiplier: 49,
@@ -85,15 +77,23 @@ export const workplaceReport: TikTokReport = {
       growthMultiplier: 27,
       trust: "high",
       videoNum: null,
-      topCountries: ["NG", "GB", "DE", "IT", "GH"],
+      topCountries: ["NG", "US", "GB", "DE", "GH"],
     },
     {
-      topic: "brez vs 9 5 worker",
-      subcategory: "Other-Workplace",
-      growthMultiplier: 19,
+      topic: "how you introduce yourself",
+      subcategory: "Workplace Skills",
+      growthMultiplier: 13,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "GB", "AU"],
+      videoNum: 804,
+      topCountries: ["NG", "PH", "KE", "ZA"],
+    },
+    {
+      topic: "working on halloween",
+      subcategory: "Special Work Types",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: 751,
+      topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
   ],
   methodologyNote:

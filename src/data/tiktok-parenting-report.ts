@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "baby eating food videos",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 1188,
+      topCountries: ["BD", "MM", "NP", "PK"],
+    },
     {
       topic: "the type of mom i will be",
       subcategory: "Maternal and Infant Care",
@@ -50,7 +58,7 @@ export const parentingReport: TikTokReport = {
     {
       topic: "baby playing",
       subcategory: "Maternal and Infant Care",
-      growthMultiplier: 3,
+      growthMultiplier: 2,
       trust: "high",
       videoNum: 1080,
       topCountries: ["BD", "PK", "PH", "NP", "MM"],
@@ -72,12 +80,12 @@ export const parentingReport: TikTokReport = {
       topCountries: ["NG", "ID", "ZA", "KE", "GH"],
     },
     {
-      topic: "Baby Must Have",
+      topic: "moms supporting their kids",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 19878,
-      topCountries: ["PH", "MY", "ID", "GB", "NG"],
+      videoNum: null,
+      topCountries: ["ZA", "PH", "ID", "SO", "NG"],
     },
     {
       topic: "Scary for kids",
@@ -87,19 +95,11 @@ export const parentingReport: TikTokReport = {
       videoNum: 656,
       topCountries: ["PH", "CA", "MK", "AU"],
     },
-    {
-      topic: "ayden and embriegh",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 91243,
-      topCountries: ["US", "GB", "CA", "AU", "DE"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the type of mom i will be",
-    audience: "female 18-24, Saudi Arabia (dominant segment, snapshot at collection date)",
+    topic: "baby eating food videos",
+    audience: "unknown 25-34, Bangladesh (dominant segment, snapshot at collection date)",
   },
 };

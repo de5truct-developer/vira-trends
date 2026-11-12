@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "e sheet paper in board",
@@ -48,6 +48,13 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "JP", "PL", "DZ", "PH"],
     },
     {
+      topic: "back to school items",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 8209,
+      topCountries: ["GB", "NG", "PH", "MY"],
+    },
+    {
       topic: "2027 planner book",
       growthMultiplier: 2,
       trust: "high",
@@ -62,11 +69,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MY", "PK", "BD", "PH"],
     },
     {
-      topic: "back to school items",
+      topic: "pvc binder",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 8209,
-      topCountries: ["GB", "NG", "PH", "MY"],
+      videoNum: 426,
+      topCountries: ["PH", "ID", "MY", "MX", "BR"],
     },
     {
       topic: "Stationery storage ideas that look cute",
@@ -81,13 +88,6 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "ID", "MY"],
-    },
-    {
-      topic: "restocking school supplies",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 720,
-      topCountries: ["PH", "MY", "ID", "BR"],
     },
   ],
   methodologyNote:

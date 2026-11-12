@@ -14,10 +14,10 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "cam hot chocolate upside down",
@@ -55,25 +55,18 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "IE", "AU"],
     },
     {
-      topic: "james marriott tiramisu",
-      growthMultiplier: 39,
-      trust: "high",
-      videoNum: 152,
-      topCountries: ["GB", "IE", "AU", "DE", "CA"],
-    },
-    {
-      topic: "traditional pakistani meals worth reviewing",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "US", "GB", "CA", "AU"],
-    },
-    {
       topic: "greys anatomy cookies",
       growthMultiplier: 20,
       trust: "high",
       videoNum: 798,
       topCountries: ["US", "PH", "CA", "GB", "AU"],
+    },
+    {
+      topic: "traditional pakistani meals worth reviewing",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "US", "GB", "CA", "AU"],
     },
     {
       topic: "simple cooking recipes",
@@ -83,8 +76,15 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["BD", "ID", "MM", "PK"],
     },
     {
+      topic: "perfect omurice",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: 803,
+      topCountries: ["US", "GB", "PH", "CA", "AU"],
+    },
+    {
       topic: "Cooking shortcuts for busy home cooks",
-      growthMultiplier: 10,
+      growthMultiplier: 11,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "GB", "PH", "DE"],

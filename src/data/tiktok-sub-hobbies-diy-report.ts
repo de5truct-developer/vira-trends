@@ -14,10 +14,10 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "how to make sticker banners",
@@ -55,13 +55,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "KH", "BR"],
     },
     {
-      topic: "underwater basket weaving",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1178,
-      topCountries: ["US", "CA", "AU", "JM", "PH"],
-    },
-    {
       topic: "cardboard phone stand",
       growthMultiplier: 6,
       trust: "high",
@@ -74,6 +67,13 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 334,
       topCountries: ["ID", "TH", "PH", "MY"],
+    },
+    {
+      topic: "underwater basket weaving",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 1178,
+      topCountries: ["US", "CA", "AU", "JM", "PH"],
     },
     {
       topic: "Boo Basket Ideas",

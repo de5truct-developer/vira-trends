@@ -14,14 +14,14 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "green face paint red lighting",
-      growthMultiplier: 332,
+      growthMultiplier: 385,
       trust: "high",
       videoNum: 1383,
       topCountries: ["US", "GB", "CA", "AU", "PH"],
@@ -35,7 +35,7 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "ThePainterWhoDrawDungeons",
-      growthMultiplier: 32,
+      growthMultiplier: 23,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "PH", "TH", "VN"],

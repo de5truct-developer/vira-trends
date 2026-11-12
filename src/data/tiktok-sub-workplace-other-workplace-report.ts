@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "when the client doesn't want to pay 2",
@@ -25,13 +25,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 503,
       topCountries: ["US", "GB", "CA", "ZA", "PH"],
-    },
-    {
-      topic: "brez vs 9 5 worker",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "GB", "AU"],
     },
     {
       topic: "anoik yai newspaper",
@@ -49,7 +42,7 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "No job",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 718,
       topCountries: ["BR", "CA", "SA", "MX", "AU"],
@@ -60,6 +53,13 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 164,
       topCountries: ["US", "ZA", "JM", "KE", "MD"],
+    },
+    {
+      topic: "Work motivation tips for tough days",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 878,
+      topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
     {
       topic: "WorkingHard",
@@ -76,18 +76,18 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NA", "ZM", "NG"],
     },
     {
-      topic: "Work motivation tips for tough days",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 878,
-      topCountries: ["US", "GB", "CA", "AU", "ZA"],
-    },
-    {
       topic: "How to protect your work-life balance",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 389,
       topCountries: ["US", "GB", "CA", "AU", "ZA"],
+    },
+    {
+      topic: "working in hr",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 877,
+      topCountries: ["CA", "ZA", "AU", "MY", "PH"],
     },
   ],
   methodologyNote:

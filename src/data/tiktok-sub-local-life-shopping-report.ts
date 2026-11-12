@@ -14,10 +14,10 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "james falls mall",
@@ -83,11 +83,11 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "US", "PH", "MY"],
     },
     {
-      topic: "modern market locations and projects",
+      topic: "where to buy liquidation pallets",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 357,
-      topCountries: ["KE", "SA", "AE", "QA"],
+      videoNum: 1017,
+      topCountries: ["US", "AU", "ZA", "NG"],
     },
   ],
   methodologyNote:

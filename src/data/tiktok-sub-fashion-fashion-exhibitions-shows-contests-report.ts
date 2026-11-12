@@ -14,10 +14,10 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "prada villain runway",
@@ -39,6 +39,13 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       trust: "high",
       videoNum: 753,
       topCountries: ["US", "AU", "CA", "PH", "BR"],
+    },
+    {
+      topic: "RunwayFashion",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 898,
+      topCountries: ["US", "PH", "ID", "NG"],
     },
     {
       topic: "212 walk",

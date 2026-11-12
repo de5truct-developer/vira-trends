@@ -14,10 +14,10 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "san francisco bay area",
@@ -38,7 +38,7 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 712,
-      topCountries: ["BR", "MX", "DE", "GB", "SE"],
+      topCountries: ["US", "BR", "MX", "GB", "DE"],
     },
     {
       topic: "cistern",

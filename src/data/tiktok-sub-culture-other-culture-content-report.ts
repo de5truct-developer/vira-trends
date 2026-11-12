@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "illuminate explained",
@@ -48,13 +48,6 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "NG", "PH", "GH"],
     },
     {
-      topic: "ابيات شعر",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1488,
-      topCountries: ["SA", "IQ", "EG", "YE"],
-    },
-    {
       topic: "يبجي الولد وشكاك ذيالي",
       growthMultiplier: 1,
       trust: "high",
@@ -62,10 +55,17 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "SA", "KW", "JO", "AE"],
     },
     {
+      topic: "ابيات شعر",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1488,
+      topCountries: ["SA", "IQ", "EG", "YE"],
+    },
+    {
       topic: "traditional folklore stories and legends",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 771,
+      videoNum: 777,
       topCountries: ["ZA", "NG", "PH", "GH"],
     },
     {

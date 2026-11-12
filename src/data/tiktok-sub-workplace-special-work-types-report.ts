@@ -14,10 +14,10 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "kindergarten teacher with kids",
@@ -45,7 +45,7 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 27,
       trust: "high",
       videoNum: null,
-      topCountries: ["NG", "GB", "DE", "IT", "GH"],
+      topCountries: ["NG", "US", "GB", "DE", "GH"],
     },
     {
       topic: "working on halloween",
@@ -55,25 +55,11 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
-      topic: "christmas tree extension educator",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 499,
-      topCountries: ["US", "GB", "CA", "ZA", "PH"],
-    },
-    {
       topic: "mexican babysitter",
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "ZA", "CA", "PH", "MY"],
-    },
-    {
-      topic: "Ender inspector",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MM", "BR", "US", "VN"],
     },
     {
       topic: "chick fil a customer service",
@@ -83,11 +69,25 @@ export const workplaceSpecialWorkTypesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "VN"],
     },
     {
+      topic: "Ender inspector",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MM", "BR", "US", "VN"],
+    },
+    {
       topic: "FireDeptChronicles",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "US", "CA", "AU", "PH"],
+    },
+    {
+      topic: "drifter doorman",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "BR", "PH", "CA", "MX"],
     },
   ],
   methodologyNote:

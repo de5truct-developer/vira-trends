@@ -14,10 +14,10 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "russian guy learning english",
@@ -55,25 +55,11 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "AE", "SA", "AU"],
     },
     {
-      topic: "what does saranghae mean",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 152,
-      topCountries: ["US", "ZA", "PH", "CA", "DE"],
-    },
-    {
       topic: "after hours significado",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "PE", "CO", "EC", "VE"],
-    },
-    {
-      topic: "suegra meaning",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 590,
-      topCountries: ["US", "CA", "MX", "AU", "PH"],
     },
     {
       topic: "daily learn english",
@@ -88,6 +74,20 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 385,
       topCountries: ["PH", "ZA", "MM", "MY", "NP"],
+    },
+    {
+      topic: "fluency",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 864,
+      topCountries: ["BR", "GH", "VN", "EG"],
+    },
+    {
+      topic: "what does saranghae mean",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 152,
+      topCountries: ["US", "ZA", "PH", "CA", "DE"],
     },
   ],
   methodologyNote:

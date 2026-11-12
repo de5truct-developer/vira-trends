@@ -14,10 +14,10 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -35,14 +35,14 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "museum day events and celebrations",
-      growthMultiplier: 197,
+      growthMultiplier: 219,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "MX", "DE", "PH"],
     },
     {
       topic: "vasa ship museum",
-      growthMultiplier: 18,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: 357,
       topCountries: ["US", "DE", "VN", "GB", "PH"],
@@ -56,17 +56,10 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "jesus museum",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: 595,
       topCountries: ["US", "PH", "MY", "BR", "ZA"],
-    },
-    {
-      topic: "the oresteia london",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "AU", "PH", "SG", "MX"],
     },
     {
       topic: "robot exhibitions china",
@@ -88,6 +81,13 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "MX", "ES"],
+    },
+    {
+      topic: "the oresteia london",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "AU", "PH", "SG", "MX"],
     },
   ],
   methodologyNote:

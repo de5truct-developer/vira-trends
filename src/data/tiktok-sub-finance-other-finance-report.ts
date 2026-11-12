@@ -14,10 +14,10 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "crystal invoice",
@@ -41,18 +41,18 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ZA", "AU", "CA"],
     },
     {
-      topic: "tshirt business",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 7608,
-      topCountries: ["PH", "NG", "LK", "MM", "GH"],
-    },
-    {
       topic: "business content videos for advertising",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 890,
       topCountries: ["NG", "KE", "GH", "UG", "ZA"],
+    },
+    {
+      topic: "tshirt business",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 7608,
+      topCountries: ["PH", "NG", "LK", "MM", "GH"],
     },
     {
       topic: "shipping business",
@@ -65,7 +65,7 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       topic: "small business ",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 83025,
+      videoNum: 84060,
       topCountries: ["ZA", "NG", "PH", "PK"],
     },
     {
@@ -79,7 +79,7 @@ export const financeOtherFinanceSubReport: TikTokSubcategoryReport = {
       topic: "Small business owner",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 46005,
+      videoNum: 47467,
       topCountries: ["US", "NG", "ZA", "PH", "GH"],
     },
     {

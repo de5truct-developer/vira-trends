@@ -14,10 +14,10 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "underwater welder salary",
@@ -69,13 +69,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       topCountries: ["ID", "TH", "KH", "PH", "MY"],
     },
     {
-      topic: "drone pilot salary",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 418,
-      topCountries: ["ZA", "KE", "PH", "MY"],
-    },
-    {
       topic: "work with gen z",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 4967,
       topCountries: ["IT", "ZA", "MM", "GB", "NG"],
+    },
+    {
+      topic: "drone pilot salary",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 418,
+      topCountries: ["ZA", "KE", "PH", "MY"],
     },
   ],
   methodologyNote:

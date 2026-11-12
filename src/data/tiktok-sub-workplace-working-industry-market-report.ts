@@ -14,10 +14,10 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "dream job ideas and self-discovery",
@@ -30,7 +30,7 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topic: "actuary",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1709,
+      videoNum: 1706,
       topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {

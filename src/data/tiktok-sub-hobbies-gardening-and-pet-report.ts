@@ -14,17 +14,24 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
+      topic: "rage baiting my beagle",
+      growthMultiplier: 1616,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["US", "PH", "CA", "AU", "BR"],
+    },
+    {
       topic: "flame point cat breed traits",
-      growthMultiplier: 616,
+      growthMultiplier: 606,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "DE", "PL", "FR"],
+      topCountries: ["US", "GB", "DE", "PL", "SE"],
     },
     {
       topic: "grow bananas in the garden 2 part",
@@ -69,13 +76,6 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "NG", "CA", "AU"],
     },
     {
-      topic: "KittenLovers",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 2237,
-      topCountries: ["ID", "MX", "MY", "PH"],
-    },
-    {
       topic: "doggie after grief",
       growthMultiplier: 6,
       trust: "high",
@@ -83,17 +83,17 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PL", "SE"],
     },
     {
-      topic: "fishingbait",
+      topic: "KittenLovers",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 2314,
-      topCountries: ["BD", "ID", "PH", "MY"],
+      videoNum: 2237,
+      topCountries: ["ID", "MX", "MY", "PH"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "flame point cat breed traits",
+    topic: "rage baiting my beagle",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

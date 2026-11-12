@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -50,7 +50,7 @@ export const scienceTechnologyReport: TikTokReport = {
     {
       topic: "build your own food filter",
       subcategory: "Software",
-      growthMultiplier: 187,
+      growthMultiplier: 171,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "CA", "AU"],
@@ -58,7 +58,7 @@ export const scienceTechnologyReport: TikTokReport = {
     {
       topic: "iphone duo broken",
       subcategory: "Digital",
-      growthMultiplier: 187,
+      growthMultiplier: 162,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "GB", "CA"],
@@ -69,7 +69,7 @@ export const scienceTechnologyReport: TikTokReport = {
       growthMultiplier: 104,
       trust: "high",
       videoNum: 249,
-      topCountries: ["US", "PH", "ID", "MY"],
+      topCountries: ["US", "PH", "ID", "PR"],
     },
     {
       topic: "microduck robot",

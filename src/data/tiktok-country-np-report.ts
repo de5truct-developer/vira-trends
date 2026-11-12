@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const npCountryReport: TikTokCountryReport = {
   country: "Nepal",
   countryCode: "NP",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "friends tiktok ideas",
@@ -43,13 +43,13 @@ export const npCountryReport: TikTokCountryReport = {
       topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
-      topic: "hologram sidhu moose wala",
-      category: "Entertainment",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 8,
+      topic: "sanjel family house",
+      category: "Household",
+      subcategory: "Real Estate",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: 1126,
-      topCountries: ["PK", "CA", "AE", "NP", "GB"],
+      videoNum: null,
+      topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
       topic: "hypergamym explained",
@@ -84,7 +84,7 @@ export const npCountryReport: TikTokCountryReport = {
       subcategory: "Tourist Guide",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
+      videoNum: 184,
       topCountries: ["NP", "JP", "AE", "IN"],
     },
     {

@@ -14,10 +14,10 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "elon musk mars",
@@ -67,6 +67,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "BR", "CA", "DE"],
+    },
+    {
+      topic: "thefakemoon",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["RU", "MX", "BR", "KZ", "AR"],
     },
   ],
   methodologyNote:

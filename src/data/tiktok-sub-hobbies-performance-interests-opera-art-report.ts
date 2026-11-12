@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "paper to money magic trick",
@@ -51,15 +51,8 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       topic: "thespectacle",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 312,
+      videoNum: 358,
       topCountries: ["RU", "VN", "BR", "MX", "BY"],
-    },
-    {
-      topic: "jimmy woo card trick",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "CA", "AU", "GB"],
     },
     {
       topic: "خدع سهلة لخلفيات مع صوت وحركة",
@@ -74,6 +67,13 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 2234,
       topCountries: ["PH", "MY", "ID", "SG"],
+    },
+    {
+      topic: "magictok",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1062,
+      topCountries: ["BR", "ID", "BD", "TR"],
     },
     {
       topic: "agt turquoise 77 card trick",

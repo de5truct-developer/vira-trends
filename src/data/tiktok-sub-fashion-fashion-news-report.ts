@@ -14,14 +14,14 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "police officer louis vuitton",
-      growthMultiplier: 762,
+      growthMultiplier: 911,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "GB", "MX", "AU", "ZA"],
@@ -46,13 +46,6 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["TR", "PH", "GB", "ID", "CA"],
-    },
-    {
-      topic: "pbb costume outfit",
-      growthMultiplier: 40,
-      trust: "high",
-      videoNum: 535,
-      topCountries: ["PH", "AE", "CA", "SA"],
     },
     {
       topic: "elizabeth holmes makeup",
@@ -88,6 +81,13 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ZA", "GB", "ID", "PH"],
+    },
+    {
+      topic: "marilyn manson fashion",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 172,
+      topCountries: ["ID", "MY", "TH", "PH", "ZA"],
     },
   ],
   methodologyNote:

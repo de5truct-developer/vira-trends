@@ -14,24 +14,24 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "atoms lining up perfectly",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 507,
-      topCountries: ["US", "GB", "PH", "DE", "IT"],
+      topCountries: ["GB", "PH", "DE", "IT", "CA"],
     },
     {
       topic: "atlas system typology",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "PH", "BR", "AR", "CA"],
+      topCountries: ["US", "ID", "PH", "BR", "MY"],
     },
     {
       topic: "NuclearEnergy",
@@ -62,6 +62,13 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "AU"],
     },
     {
+      topic: "he realized that there was faster thsn light",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 549,
+      topCountries: ["US"],
+    },
+    {
       topic: "how dredging ships move sand fast",
       growthMultiplier: 1,
       trust: "high",
@@ -77,13 +84,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "how energy harvesting really works",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "ES", "ID"],
-    },
-    {
-      topic: "explaining step-powered energy",
       growthMultiplier: 0,
       trust: "high",
       videoNum: null,

@@ -14,10 +14,10 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "daisy cakes review",
@@ -30,7 +30,7 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       topic: "spicy wings chicken betty",
       growthMultiplier: 431,
       trust: "high",
-      videoNum: 3962,
+      videoNum: 3964,
       topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
@@ -69,18 +69,18 @@ export const gourmetOfflineCateringSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "BR", "GB", "ID"],
     },
     {
-      topic: "dukes and ellibelle",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "AU", "ZA", "NZ"],
-    },
-    {
       topic: "i ate the lettuce at taco bell",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 523,
       topCountries: ["PH", "AU", "CA", "MY"],
+    },
+    {
+      topic: "dukes and ellibelle",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "CA", "AU", "ZA", "NZ"],
     },
     {
       topic: "ghana street food",

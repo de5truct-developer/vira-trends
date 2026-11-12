@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -35,7 +35,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "build your own food filter",
-      growthMultiplier: 187,
+      growthMultiplier: 171,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "CA", "AU"],
@@ -45,7 +45,7 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 104,
       trust: "high",
       videoNum: 249,
-      topCountries: ["US", "PH", "ID", "MY"],
+      topCountries: ["US", "PH", "ID", "PR"],
     },
     {
       topic: "wilson bethel quinn app",
@@ -76,18 +76,18 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "ID", "AU"],
     },
     {
+      topic: "spray transitions",
+      growthMultiplier: 34,
+      trust: "high",
+      videoNum: 413,
+      topCountries: ["NG", "GH", "ZA", "KE", "SL"],
+    },
+    {
       topic: "persevere family link",
-      growthMultiplier: 39,
+      growthMultiplier: 33,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "PH", "EG"],
-    },
-    {
-      topic: "spray transitions",
-      growthMultiplier: 31,
-      trust: "high",
-      videoNum: 413,
-      topCountries: ["NG", "GH", "KE", "ZA", "LR"],
     },
   ],
   methodologyNote:

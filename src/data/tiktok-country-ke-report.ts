@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const keCountryReport: TikTokCountryReport = {
   country: "Kenya",
   countryCode: "KE",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "kenya high national school",
@@ -34,15 +34,6 @@ export const keCountryReport: TikTokCountryReport = {
       topCountries: ["ZA", "KE", "NG", "GH", "PH"],
     },
     {
-      topic: "capsule wardrobe pieces that do more",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "PH", "NG", "KE"],
-    },
-    {
       topic: "the ateez trend",
       category: "TikTok's Featured Content",
       subcategory: "Trends/Challenges",
@@ -55,7 +46,7 @@ export const keCountryReport: TikTokCountryReport = {
       topic: "what makes you cry man united",
       category: "Sports",
       subcategory: "Physical Sports",
-      growthMultiplier: 11,
+      growthMultiplier: 14,
       trust: "high",
       videoNum: 738,
       topCountries: ["ID", "SO", "ZA", "KE", "NG"],
@@ -67,7 +58,7 @@ export const keCountryReport: TikTokCountryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: 413,
-      topCountries: ["NG", "GH", "KE", "ZA", "LR"],
+      topCountries: ["NG", "GH", "ZA", "KE", "SL"],
     },
     {
       topic: "step-by-step trendy look",
@@ -88,15 +79,6 @@ export const keCountryReport: TikTokCountryReport = {
       topCountries: ["ZA", "UG", "KE", "PH"],
     },
     {
-      topic: "great search insight",
-      category: "Workplace",
-      subcategory: "Workplace Skills",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 2383,
-      topCountries: ["KE", "PK", "TZ", "UG", "NG"],
-    },
-    {
       topic: "Best beginner paths in tech right now",
       category: "Workplace",
       subcategory: "Special Work Types",
@@ -104,6 +86,24 @@ export const keCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "UG", "KE", "PH"],
+    },
+    {
+      topic: "Hip moves trending right now",
+      category: "Dance",
+      subcategory: "Dance Trend",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "KE", "CD", "ZM", "TZ"],
+    },
+    {
+      topic: "teen beauty workshop ideas",
+      category: "Local Life",
+      subcategory: "Life Services",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["KE", "NG", "SA", "AE"],
     },
   ],
   methodologyNote:

@@ -14,14 +14,14 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "metal soap explained",
-      growthMultiplier: 632,
+      growthMultiplier: 645,
       trust: "high",
       videoNum: 261,
       topCountries: ["US", "GB", "FR", "SE", "IE"],
@@ -49,7 +49,7 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "platos dollar tree",
-      growthMultiplier: 52,
+      growthMultiplier: 51,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "VE", "CO", "HN"],
@@ -76,18 +76,18 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "AU", "CA", "NZ", "PH"],
     },
     {
-      topic: "glass-themed TikTok videos and trends",
-      growthMultiplier: 38,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "US", "VN", "PH", "BR"],
-    },
-    {
       topic: "milk machine",
       growthMultiplier: 36,
       trust: "high",
       videoNum: 825,
       topCountries: ["GB", "US", "ZA", "CA", "DE"],
+    },
+    {
+      topic: "glass-themed TikTok videos and trends",
+      growthMultiplier: 34,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "US", "VN", "PH", "BR"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "best moments at psy summer swag 2026",
@@ -76,18 +76,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "MM"],
     },
     {
+      topic: "flashmob performances in paris",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BR", "PH", "MX", "MY"],
+    },
+    {
       topic: "brotherhood bebot performance",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "CA", "AU", "SG"],
-    },
-    {
-      topic: "rihanna super bowl dance",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: 537,
-      topCountries: ["US", "GB", "FR", "BR", "PH"],
     },
   ],
   methodologyNote:

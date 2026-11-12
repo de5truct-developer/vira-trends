@@ -14,10 +14,10 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "best time to post on tiktok",
@@ -32,6 +32,13 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "MY", "CA"],
+    },
+    {
+      topic: "dumpster jackpot",
+      growthMultiplier: 34,
+      trust: "high",
+      videoNum: 160,
+      topCountries: ["PH", "ID", "MY", "ZA", "CA"],
     },
     {
       topic: "content creation insights for 2026",
@@ -62,10 +69,17 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "DE", "FR"],
     },
     {
+      topic: "imagine if twitter",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "IT", "PL"],
+    },
+    {
       topic: "tiktoksettingstogoviral",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 148,
+      videoNum: 257,
       topCountries: ["ET", "BD", "MM", "SA"],
     },
     {
@@ -74,20 +88,6 @@ export const scienceTechnologyInternetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 503,
       topCountries: ["PH", "ID", "MY", "AU", "TR"],
-    },
-    {
-      topic: "youtube while eating",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 414,
-      topCountries: ["US", "PH", "ZA", "CA", "AU"],
-    },
-    {
-      topic: "imagine if twitter",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "IT", "PL"],
     },
   ],
   methodologyNote:

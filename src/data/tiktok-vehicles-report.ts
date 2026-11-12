@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const vehiclesReport: TikTokReport = {
   category: "Vehicles & Transportation",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "tesla roaster",
@@ -21,7 +21,15 @@ export const vehiclesReport: TikTokReport = {
       growthMultiplier: 4200,
       trust: "high",
       videoNum: 1853,
-      topCountries: ["US", "TR", "PR", "MX"],
+      topCountries: ["US", "TR", "MX", "PK"],
+    },
+    {
+      topic: "roadless rule",
+      subcategory: "Traffic Services",
+      growthMultiplier: 4011,
+      trust: "high",
+      videoNum: 3448,
+      topCountries: ["US", "CA", "DO", "AU", "IL"],
     },
     {
       topic: "new lotus",
@@ -56,17 +64,9 @@ export const vehiclesReport: TikTokReport = {
       topCountries: ["US", "PH", "GB", "AU", "DE"],
     },
     {
-      topic: "car washing trend",
-      subcategory: "Traffic Services",
-      growthMultiplier: 1273,
-      trust: "high",
-      videoNum: 1236,
-      topCountries: ["US", "GE", "AU", "RS", "AZ"],
-    },
-    {
       topic: "q50 white woman",
       subcategory: "Transport Equipment",
-      growthMultiplier: 1048,
+      growthMultiplier: 1079,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "ZA", "NG"],
@@ -80,12 +80,12 @@ export const vehiclesReport: TikTokReport = {
       topCountries: ["US", "PH", "MY", "ID", "AU"],
     },
     {
-      topic: "m3 40i car",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 662,
+      topic: "car washing trend",
+      subcategory: "Traffic Services",
+      growthMultiplier: 843,
       trust: "high",
-      videoNum: 953,
-      topCountries: ["US", "PH", "CA", "ZA", "AU"],
+      videoNum: 1236,
+      topCountries: ["US", "GE", "AU", "RS", "AZ"],
     },
     {
       topic: "porsche girly car 2006",

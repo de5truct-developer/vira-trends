@@ -14,10 +14,10 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "photo post trend ideas",
@@ -42,7 +42,7 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "birthday photo ideas",
-      growthMultiplier: 19,
+      growthMultiplier: 20,
       trust: "high",
       videoNum: 944,
       topCountries: ["MM", "BR", "JP", "KH", "TH"],
@@ -56,7 +56,7 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "zodiac sign photoshoot",
-      growthMultiplier: 13,
+      growthMultiplier: 14,
       trust: "high",
       videoNum: 515,
       topCountries: ["PH", "US", "MM", "JP", "CA"],
@@ -83,11 +83,11 @@ export const hobbiesVisualRelatedInterestsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "CA", "AU", "PH"],
     },
     {
-      topic: "glass canon",
+      topic: "creativevideo",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "VN", "BR", "TH"],
+      videoNum: 1117,
+      topCountries: ["RO", "ET", "ID", "MM"],
     },
   ],
   methodologyNote:

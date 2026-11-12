@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "creators pilot program",
@@ -72,7 +72,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topic: "online business follower growth tutorials",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 853,
+      videoNum: 855,
       topCountries: ["ET", "ZA", "NG", "PH", "KE"],
     },
     {

@@ -14,17 +14,17 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "tesla roaster",
       growthMultiplier: 4200,
       trust: "high",
       videoNum: 1853,
-      topCountries: ["US", "TR", "PR", "MX"],
+      topCountries: ["US", "TR", "MX", "PK"],
     },
     {
       topic: "new lotus",
@@ -56,7 +56,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "q50 white woman",
-      growthMultiplier: 1048,
+      growthMultiplier: 1079,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "ZA", "NG"],
@@ -67,13 +67,6 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "AU"],
-    },
-    {
-      topic: "m3 40i car",
-      growthMultiplier: 662,
-      trust: "high",
-      videoNum: 953,
-      topCountries: ["US", "PH", "CA", "ZA", "AU"],
     },
     {
       topic: "porsche girly car 2006",
@@ -88,6 +81,13 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 784,
       topCountries: ["US", "GB", "AU", "PH", "CA"],
+    },
+    {
+      topic: "m3 40i car",
+      growthMultiplier: 479,
+      trust: "high",
+      videoNum: 959,
+      topCountries: ["US", "PH", "CA", "ZA", "AU"],
     },
   ],
   methodologyNote:

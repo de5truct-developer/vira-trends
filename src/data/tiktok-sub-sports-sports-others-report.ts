@@ -14,10 +14,10 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "let's go raptors chant",
@@ -34,18 +34,18 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "EG", "YE", "IQ"],
     },
     {
-      topic: "Persib fan viral content",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1142,
-      topCountries: ["ID", "MY", "AU", "BO"],
-    },
-    {
       topic: "SportsLover",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1200,
       topCountries: ["US", "BD", "GH", "MM"],
+    },
+    {
+      topic: "Persib fan viral content",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1148,
+      topCountries: ["ID", "MY", "AU", "BO"],
     },
     {
       topic: "personal growth through team sport",
@@ -55,11 +55,11 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "MX", "PH", "TR"],
     },
     {
-      topic: "What I pack for tournament day",
+      topic: "أفضل لحظات الحفل الشاطئي",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "MX", "GB", "ID"],
+      videoNum: 192,
+      topCountries: ["BR", "MX", "PE", "CO", "ID"],
     },
     {
       topic: "SportLover",
@@ -69,18 +69,11 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["RU", "RW", "ID", "DZ"],
     },
     {
-      topic: "أفضل لحظات الحفل الشاطئي",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["BR", "MX", "PE", "CO", "ID"],
-    },
-    {
       topic: "athleticism",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1078,
-      topCountries: ["US", "GB", "PH", "CA", "DE"],
+      topCountries: ["US", "PH", "GB", "CA", "DE"],
     },
     {
       topic: "how athletes build social presence",
@@ -88,6 +81,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "BR", "VN"],
+    },
+    {
+      topic: "What I pack for tournament day",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MX", "GB", "ID"],
     },
   ],
   methodologyNote:

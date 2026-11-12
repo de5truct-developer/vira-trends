@@ -14,31 +14,17 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
-    {
-      topic: "How to do I love I love with a passion",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 2109,
-      topCountries: ["PK", "MM", "NP", "BD", "ID"],
-    },
     {
       topic: "rolo picture museum",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "PK", "AU", "MM"],
-    },
-    {
-      topic: "Stream with Tako",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "MM", "NP", "BD", "PH"],
     },
     {
       topic: "i wanna see the sunshine after the rain animation tutorial",
@@ -89,11 +75,25 @@ export const featuredContentInternetSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["US", "PK", "BD", "MM", "NP"],
     },
+    {
+      topic: "Ben A Critic hotel review in Lumberton",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 1032,
+      topCountries: ["PK", "MM", "AE", "UA", "MA"],
+    },
+    {
+      topic: "think like creators with tako",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 4942,
+      topCountries: ["PK", "GB", "BD", "MM", "IR"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "How to do I love I love with a passion",
-    audience: "not enough audience data for this topic",
+    topic: "rolo picture museum",
+    audience: "unknown 25-34, Pakistan (dominant segment, snapshot at collection date)",
   },
 };

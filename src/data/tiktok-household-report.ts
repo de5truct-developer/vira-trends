@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "metal soap explained",
       subcategory: "Home Life",
-      growthMultiplier: 632,
+      growthMultiplier: 645,
       trust: "high",
       videoNum: 261,
       topCountries: ["US", "GB", "FR", "SE", "IE"],
@@ -50,7 +50,7 @@ export const householdReport: TikTokReport = {
     {
       topic: "platos dollar tree",
       subcategory: "Home Life",
-      growthMultiplier: 52,
+      growthMultiplier: 51,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "VE", "CO", "HN"],

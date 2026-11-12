@@ -14,10 +14,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "chun li legs training",
@@ -77,23 +77,23 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "fitnesstransformation",
-      growthMultiplier: 17,
+      growthMultiplier: 19,
       trust: "high",
       videoNum: 1760,
       topCountries: ["NG", "ZA", "KE", "TZ", "CI"],
     },
     {
-      topic: "board stretcher",
-      growthMultiplier: 15,
+      topic: "basic gym body",
+      growthMultiplier: 12,
       trust: "high",
-      videoNum: 397,
-      topCountries: ["CA", "NL", "SE", "GB", "DE"],
+      videoNum: 945,
+      topCountries: ["PH", "JP", "CA", "AE", "SA"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "chun li legs training",
-    audience: "female 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

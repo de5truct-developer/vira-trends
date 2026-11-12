@@ -14,10 +14,10 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "cinna velcro wall",
@@ -63,7 +63,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "jschlatt room tour",
-      growthMultiplier: 14,
+      growthMultiplier: 13,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "PH", "MY"],

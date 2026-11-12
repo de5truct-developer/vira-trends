@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -28,7 +28,7 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
     },
     {
       topic: "miley cyrus hollywood bowl",
-      growthMultiplier: 772,
+      growthMultiplier: 785,
       trust: "high",
       videoNum: 3511,
       topCountries: ["US", "CA", "MX", "AU", "GB"],
@@ -48,11 +48,25 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       topCountries: ["GB", "CA", "US", "AU", "PL"],
     },
     {
+      topic: "kim kardashian magazine cover",
+      growthMultiplier: 265,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "NL", "IT"],
+    },
+    {
       topic: "drake 40th birthday",
       growthMultiplier: 160,
       trust: "high",
       videoNum: 296,
       topCountries: ["US", "GB", "CA", "ZA", "AU"],
+    },
+    {
+      topic: "gisele bundchen justin timberlake",
+      growthMultiplier: 116,
+      trust: "high",
+      videoNum: 535,
+      topCountries: ["US", "PH", "CA", "AU", "GB"],
     },
     {
       topic: "julia stiles heath ledger",
@@ -63,17 +77,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
     },
     {
       topic: "kim and khloe follow kourtney",
-      growthMultiplier: 105,
+      growthMultiplier: 90,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "ZA", "PH", "AU"],
-    },
-    {
-      topic: "gisele bundchen justin timberlake",
-      growthMultiplier: 75,
-      trust: "high",
-      videoNum: 535,
-      topCountries: ["US", "PH", "CA", "AU", "GB"],
     },
     {
       topic: "i was doing acting mckenna grace",
@@ -81,13 +88,6 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 1053,
       topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "the rock physique now",
-      growthMultiplier: 40,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "NL", "SE"],
     },
   ],
   methodologyNote:

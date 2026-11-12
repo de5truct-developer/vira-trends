@@ -14,10 +14,10 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "dhalsim oynayanların ortak halleri",
@@ -83,11 +83,11 @@ export const danceOtherDanceStyleSubReport: TikTokSubcategoryReport = {
       topCountries: ["ET", "ZA", "US", "NG"],
     },
     {
-      topic: "Ethiopian dances",
+      topic: "dance videos in rural settings",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 4931,
-      topCountries: ["ET", "SA", "ZA", "KE", "AE"],
+      videoNum: 865,
+      topCountries: ["BR", "BD", "ZA", "GH"],
     },
   ],
   methodologyNote:

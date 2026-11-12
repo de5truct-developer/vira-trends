@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "thriller dance original",
@@ -31,7 +31,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: 751,
-      topCountries: ["NG", "GH", "KE", "ZA", "ZW"],
+      topCountries: ["NG", "US", "GH", "KE", "ZA"],
     },
     {
       topic: "rotten to the core dance",
@@ -56,7 +56,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "butter dance break",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: 638,
       topCountries: ["PH", "MX", "BR", "PE", "CO"],
@@ -67,13 +67,6 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 378,
       topCountries: ["ID", "PH", "VN", "MY", "BR"],
-    },
-    {
-      topic: "jungkook rainism dance",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 644,
-      topCountries: ["BR", "PH", "MX", "PE", "CO"],
     },
     {
       topic: "thriller dance michael jackson",
@@ -88,6 +81,13 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1105,
       topCountries: ["US", "GB", "CA", "AU", "PH"],
+    },
+    {
+      topic: "san ateez dance",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 804,
+      topCountries: ["ID", "MY", "PH", "MX", "ZA"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "ashika tamang eating meat",
@@ -34,18 +34,18 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "BR", "NP", "PK"],
     },
     {
-      topic: "when a food spot disappoints badly",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 421,
-      topCountries: ["VN", "JP", "EG", "KR"],
-    },
-    {
       topic: "Simple kitchen tests for food quality",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "MY", "BR"],
+    },
+    {
+      topic: "when a food spot disappoints badly",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 421,
+      topCountries: ["VN", "JP", "EG", "KR"],
     },
     {
       topic: "FoodEatingShow",
@@ -58,8 +58,15 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topic: "viral team eating mishap videos",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 176,
+      videoNum: 348,
       topCountries: ["BD", "MM", "ID", "IQ"],
+    },
+    {
+      topic: "too many cooks",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 963,
+      topCountries: ["US", "GB", "PH", "CA", "BR"],
     },
     {
       topic: "food swap",
@@ -81,13 +88,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 249,
       topCountries: ["PK", "AE", "SA", "LK"],
-    },
-    {
-      topic: "food makes me happy",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 3782,
-      topCountries: ["PH", "MY", "ZA", "ID", "CA"],
     },
   ],
   methodologyNote:

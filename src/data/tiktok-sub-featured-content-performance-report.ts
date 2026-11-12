@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "funny video part 1 2 4",
@@ -31,7 +31,7 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 47287,
-      topCountries: ["PK", "NG", "ID", "JP", "BD"],
+      topCountries: ["US", "PK", "NG", "ID", "BD"],
     },
     {
       topic: "funny video part and 2 and 3 and 4",
@@ -39,6 +39,13 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 542,
       topCountries: ["PK", "NG", "NP", "ZA"],
+    },
+    {
+      topic: "funny bangla tiktok",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 2217,
+      topCountries: ["BD", "SA", "MY", "AE"],
     },
     {
       topic: "viral tiktok comedy",
@@ -51,21 +58,14 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topic: "most funny pranks of all time",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1066,
+      videoNum: 1067,
       topCountries: ["ZA", "KE", "PK", "ET", "NG"],
-    },
-    {
-      topic: "funny bangla tiktok",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 2217,
-      topCountries: ["BD", "SA", "MY", "AE"],
     },
     {
       topic: "funny viral video ideas",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 12476,
+      videoNum: 12454,
       topCountries: ["PK", "KH", "ID", "SN"],
     },
     {

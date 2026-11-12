@@ -14,10 +14,10 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "fragile forest kalani",
@@ -25,6 +25,13 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "GB", "PH", "MX"],
+    },
+    {
+      topic: "mackenzie solo",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 156,
+      topCountries: ["BR", "AU", "CA", "PH", "MX"],
     },
     {
       topic: "dance performances on stage",
@@ -41,18 +48,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "BR", "CA", "AU", "ID"],
     },
     {
+      topic: "vogue dancing",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1182,
+      topCountries: ["BR", "MX", "CL", "PH", "RU"],
+    },
+    {
       topic: "THE NUTCRACKER",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 538,
       topCountries: ["PH", "MX", "ID", "BR", "US"],
-    },
-    {
-      topic: "vogue dancing",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1182,
-      topCountries: ["BR", "MX", "CL", "PH", "RU"],
     },
     {
       topic: "jan ravnik learning ballroom",
@@ -81,13 +88,6 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 984,
       topCountries: ["PH", "BR", "ZA", "CA", "KZ"],
-    },
-    {
-      topic: "poledancer",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1002,
-      topCountries: ["GB", "MX", "BR", "PH", "CA"],
     },
   ],
   methodologyNote:

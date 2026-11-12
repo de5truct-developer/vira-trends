@@ -14,23 +14,16 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
-    {
-      topic: "Sleep Cycle",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 977,
-      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
-    },
     {
       topic: "nasal stick inhaler",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1195,
+      videoNum: 1199,
       topCountries: ["MY", "PH", "GB", "ID"],
     },
     {
@@ -41,11 +34,25 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "AU", "CA", "ZA"],
     },
     {
+      topic: "Sleep Cycle",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 977,
+      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
+    },
+    {
       topic: "natural aging",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "PH", "CA", "AU", "PL"],
+    },
+    {
+      topic: "period xeto garaune idea",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NP", "JP", "AE", "AU", "IN"],
     },
     {
       topic: "stevia leaf",
@@ -76,13 +83,6 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "IQ", "SA", "AU", "EG"],
     },
     {
-      topic: "how to sleep if you can't sleep",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1105,
-      topCountries: ["ZA", "NG", "SG", "KE"],
-    },
-    {
       topic: "stamina booster for men",
       growthMultiplier: 2,
       trust: "high",
@@ -93,7 +93,7 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Sleep Cycle",
-    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
+    topic: "nasal stick inhaler",
+    audience: "unknown 35+, Malaysia (dominant segment, snapshot at collection date)",
   },
 };

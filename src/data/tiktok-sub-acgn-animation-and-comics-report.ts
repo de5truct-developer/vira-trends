@@ -14,10 +14,10 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "the rapunzel edit to fix lag",
@@ -56,7 +56,7 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "im so in love with you dragon ball",
-      growthMultiplier: 22,
+      growthMultiplier: 27,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "BR", "MX"],

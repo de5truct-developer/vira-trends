@@ -14,10 +14,10 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "slick down vs slick back",
@@ -32,6 +32,13 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IT", "ES", "MX", "PL", "CO"],
+    },
+    {
+      topic: "dress cutting mistakes to avoid",
+      growthMultiplier: 544,
+      trust: "high",
+      videoNum: 942,
+      topCountries: ["MM", "ID", "BD", "NG"],
     },
     {
       topic: "pixie cut maintenance",
@@ -55,6 +62,13 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "PH", "GB"],
     },
     {
+      topic: "blue hair celebrity transformation trends",
+      growthMultiplier: 279,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB", "PH"],
+    },
+    {
       topic: "30 inch hair",
       growthMultiplier: 249,
       trust: "high",
@@ -69,25 +83,11 @@ export const fashionFashionTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "ID", "DE"],
     },
     {
-      topic: "blue hair celebrity transformation trends",
-      growthMultiplier: 168,
+      topic: "susan and mary costume",
+      growthMultiplier: 127,
       trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "diana armstrong's nail",
-      growthMultiplier: 113,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["RU", "GB", "PH", "DE", "ZA"],
-    },
-    {
-      topic: "jim jones braids",
-      growthMultiplier: 74,
-      trust: "high",
-      videoNum: 1066,
-      topCountries: ["US", "CA", "ZA", "GB", "JM"],
+      videoNum: 196,
+      topCountries: ["US", "CA", "AU", "PH", "MX"],
     },
   ],
   methodologyNote:

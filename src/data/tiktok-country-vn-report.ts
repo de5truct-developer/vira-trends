@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "loveindisguise",
@@ -23,6 +23,15 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 5247,
       topCountries: ["ID", "VN", "MY", "PH", "TH"],
+    },
+    {
+      topic: "glass-themed TikTok videos and trends",
+      category: "Household",
+      subcategory: "Home Life",
+      growthMultiplier: 24,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "US", "VN", "PH", "BR"],
     },
     {
       topic: "skibidi soundwave 25",
@@ -50,6 +59,15 @@ export const vnCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 44883,
       topCountries: ["TH", "VN", "ID", "MM", "US"],
+    },
+    {
+      topic: "Big screen phones in daily life",
+      category: "Science and Technology",
+      subcategory: "Digital",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "TH", "VN", "MX", "PH"],
     },
     {
       topic: "between steps",
@@ -84,26 +102,8 @@ export const vnCountryReport: TikTokCountryReport = {
       subcategory: "Food Tutorials",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 623,
+      videoNum: 630,
       topCountries: ["VN", "BR", "PH", "DO", "ID"],
-    },
-    {
-      topic: "betweensteps",
-      category: "Entertainment",
-      subcategory: "Films and TVs",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 6101,
-      topCountries: ["ID", "MY", "TH", "PH", "VN"],
-    },
-    {
-      topic: "Big screen phones in daily life",
-      category: "Science and Technology",
-      subcategory: "Digital",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TH", "VN", "MX", "PH"],
     },
   ],
   methodologyNote:

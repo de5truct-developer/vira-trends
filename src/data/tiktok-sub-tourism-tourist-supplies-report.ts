@@ -14,18 +14,11 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
-    {
-      topic: "trtl travel neck pillow",
-      growthMultiplier: 27,
-      trust: "high",
-      videoNum: 714,
-      topCountries: ["PH", "US", "CA", "AU", "GB"],
-    },
     {
       topic: "overnight camping",
       growthMultiplier: 2,
@@ -37,7 +30,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topic: "lights for camping",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 1166,
+      videoNum: 1168,
       topCountries: ["PH", "MX", "BR", "MY", "JP"],
     },
     {
@@ -80,7 +73,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1069,
-      topCountries: ["PH", "US", "MM", "MY", "MX"],
+      topCountries: ["PH", "MM", "MY", "MX"],
     },
     {
       topic: "What I pack for a long hike",
@@ -89,11 +82,18 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["ID", "MY", "TW", "SG"],
     },
+    {
+      topic: "car camping tent",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1046,
+      topCountries: ["PH", "US", "MY", "ID", "CA"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "trtl travel neck pillow",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "overnight camping",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

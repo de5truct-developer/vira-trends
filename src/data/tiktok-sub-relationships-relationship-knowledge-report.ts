@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "being the oldest sibling",
@@ -41,11 +41,11 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
     {
-      topic: "Moms side",
+      topic: "hypergamym explained",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "AE", "GE", "AU"],
+      videoNum: 937,
+      topCountries: ["US", "PH", "CA", "NP", "GB"],
     },
     {
       topic: "blind date glow up",
@@ -53,13 +53,6 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 736,
       topCountries: ["TR", "PH", "ID", "MY", "TH"],
-    },
-    {
-      topic: "hypergamym explained",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 937,
-      topCountries: ["US", "PH", "CA", "NP", "GB"],
     },
     {
       topic: "hugs like this",
@@ -88,6 +81,13 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ZA", "MY", "CA", "NG"],
+    },
+    {
+      topic: "first date moment",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 714,
+      topCountries: ["ID", "PH", "MM", "MY", "TH"],
     },
   ],
   methodologyNote:

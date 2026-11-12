@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const gbCountryReport: TikTokCountryReport = {
   country: "United Kingdom",
   countryCode: "GB",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "im so sorry trend",
@@ -61,6 +61,15 @@ export const gbCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "US", "GB", "DE", "CA"],
     },
     {
+      topic: "30 inch and 360 hair extensions",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "PH", "CA"],
+    },
+    {
       topic: "EverybodysBigBrother",
       category: "Entertainment",
       subcategory: "Films and TVs",
@@ -77,15 +86,6 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 100,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
-    },
-    {
-      topic: "30 inch and 360 hair extensions",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 16,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "DE", "PH", "CA"],
     },
     {
       topic: "30 inch hair",

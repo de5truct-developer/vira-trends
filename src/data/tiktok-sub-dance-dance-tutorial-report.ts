@@ -14,10 +14,10 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "heeseung come back and back tutorial",
@@ -28,7 +28,7 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "toni braxton challenge tutorial",
-      growthMultiplier: 22,
+      growthMultiplier: 23,
       trust: "high",
       videoNum: 2898,
       topCountries: ["GB", "US", "NL", "DE", "SE"],
@@ -56,7 +56,7 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "dance challenge choreography tutorial",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 947,
       topCountries: ["PH", "ID", "US", "MY"],

@@ -14,10 +14,10 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "michelle calculator math wall",
@@ -30,8 +30,8 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topic: "fmu meaning",
       growthMultiplier: 233,
       trust: "high",
-      videoNum: 543,
-      topCountries: ["US", "CA", "PH", "SA", "AU"],
+      videoNum: 566,
+      topCountries: ["US", "CA", "PH", "AU", "SA"],
     },
     {
       topic: "rectangle theory",
@@ -80,14 +80,14 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: 650,
-      topCountries: ["VN", "ID", "PH", "TH", "US"],
+      topCountries: ["US", "VN", "ID", "PH", "TH"],
     },
     {
-      topic: "square root of pi",
+      topic: "ncae answer key",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 292,
-      topCountries: ["BR", "PH", "MX", "VE", "CO"],
+      videoNum: null,
+      topCountries: ["PH", "QA", "JP", "EG"],
     },
   ],
   methodologyNote:

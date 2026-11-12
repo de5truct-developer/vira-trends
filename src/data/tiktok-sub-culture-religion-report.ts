@@ -14,10 +14,10 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "islamic video اللهtiktoktiktok",
@@ -76,18 +76,18 @@ export const cultureReligionSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "PH", "CA", "GH"],
     },
     {
-      topic: "jumma mubarak best status 2026",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 114198,
-      topCountries: ["PK", "NG", "AE", "SN"],
-    },
-    {
       topic: "reading Quran",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 16536,
       topCountries: ["PH", "PK", "NG", "ID", "SA"],
+    },
+    {
+      topic: "Godly Motivation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 22989,
+      topCountries: ["US", "PH", "NG", "KE", "GH"],
     },
   ],
   methodologyNote:

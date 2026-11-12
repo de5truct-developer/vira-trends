@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const egCountryReport: TikTokCountryReport = {
   country: "Egypt",
   countryCode: "EG",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "Nordic Curl",
+      category: "Sports",
+      subcategory: "Fitness",
+      growthMultiplier: 56,
+      trust: "high",
+      videoNum: 887,
+      topCountries: ["US", "EG", "AR", "MX", "CA"],
+    },
     {
       topic: "iOS 26.6.1",
       category: "Science and Technology",
@@ -28,7 +37,7 @@ export const egCountryReport: TikTokCountryReport = {
       topic: "colonel pronunciation",
       category: "Education",
       subcategory: "Language Learning",
-      growthMultiplier: 17,
+      growthMultiplier: 15,
       trust: "high",
       videoNum: 546,
       topCountries: ["US", "GH", "EG", "SA", "PH"],
@@ -96,20 +105,11 @@ export const egCountryReport: TikTokCountryReport = {
       videoNum: null,
       topCountries: ["DZ", "EG", "TN", "MA"],
     },
-    {
-      topic: "مباراه ريال مدريد اليوم",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 2351,
-      topCountries: ["IQ", "EG", "LY", "TR", "YE"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "iOS 26.6.1",
-    audience: "unknown 18-24, Others (dominant segment, snapshot at collection date)",
+    topic: "Nordic Curl",
+    audience: "male 18-24, Egypt (dominant segment, snapshot at collection date)",
   },
 };

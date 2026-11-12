@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const deCountryReport: TikTokCountryReport = {
   country: "Germany",
   countryCode: "DE",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "aoc hair clip",
@@ -28,10 +28,19 @@ export const deCountryReport: TikTokCountryReport = {
       topic: "travis scott falling with autotune",
       category: "Entertainment",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 21,
+      growthMultiplier: 19,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "PL", "NL"],
+    },
+    {
+      topic: "DriveThePretenders",
+      category: "Music",
+      subcategory: "Singles",
+      growthMultiplier: 16,
+      trust: "high",
+      videoNum: 1440,
+      topCountries: ["ID", "DE", "US", "BR", "FR"],
     },
     {
       topic: "my football player",
@@ -41,15 +50,6 @@ export const deCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 20894,
       topCountries: ["TR", "DE", "MX", "GB", "ZA"],
-    },
-    {
-      topic: "DriveThePretenders",
-      category: "Music",
-      subcategory: "Singles",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 1440,
-      topCountries: ["ID", "DE", "US", "BR", "FR"],
     },
     {
       topic: "mariah carey defrosting 2026",
@@ -102,7 +102,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Fashion Products",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 10383,
+      videoNum: 10381,
       topCountries: ["US", "GB", "DE", "BR", "IT"],
     },
   ],

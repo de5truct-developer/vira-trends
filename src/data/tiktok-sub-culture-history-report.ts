@@ -14,11 +14,18 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "the aberfan disaster 1956",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 433,
+      topCountries: ["US"],
+    },
     {
       topic: "leroy jenkins references",
       growthMultiplier: 2,
@@ -32,13 +39,6 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 471,
       topCountries: ["MX", "PH", "VN", "MY", "TH"],
-    },
-    {
-      topic: "the aberfan disaster 1956",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 433,
-      topCountries: ["US"],
     },
     {
       topic: "Morgan family",
@@ -93,7 +93,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "leroy jenkins references",
-    audience: "male 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "the aberfan disaster 1956",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

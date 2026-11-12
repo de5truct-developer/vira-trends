@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const fashionReport: TikTokReport = {
   category: "Fashion",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "barbas hats x mansory",
@@ -26,7 +26,7 @@ export const fashionReport: TikTokReport = {
     {
       topic: "police officer louis vuitton",
       subcategory: "Fashion News",
-      growthMultiplier: 762,
+      growthMultiplier: 911,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "GB", "MX", "AU", "ZA"],
@@ -46,6 +46,14 @@ export const fashionReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IT", "ES", "MX", "PL", "CO"],
+    },
+    {
+      topic: "dress cutting mistakes to avoid",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 544,
+      trust: "high",
+      videoNum: 942,
+      topCountries: ["MM", "ID", "BD", "NG"],
     },
     {
       topic: "pixie cut maintenance",
@@ -69,7 +77,7 @@ export const fashionReport: TikTokReport = {
       growthMultiplier: 299,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "AU", "NZ", "GB"],
+      topCountries: ["US", "CA", "AU", "NZ", "GU"],
     },
     {
       topic: "30 inch and 360 hair extensions",
@@ -86,14 +94,6 @@ export const fashionReport: TikTokReport = {
       trust: "high",
       videoNum: 590,
       topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "30 inch hair",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 249,
-      trust: "high",
-      videoNum: 531,
-      topCountries: ["US", "GB", "DE", "PH", "CA"],
     },
   ],
   methodologyNote:

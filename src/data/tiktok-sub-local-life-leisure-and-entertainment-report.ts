@@ -14,10 +14,10 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "moroccan hammam experience",
@@ -55,11 +55,11 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
       topCountries: ["SG", "MY", "TH", "PH"],
     },
     {
-      topic: "itati mansion vip",
-      growthMultiplier: 7,
+      topic: "dell osso family farm lathrop",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "US", "GT", "EC", "BO"],
+      videoNum: 433,
+      topCountries: ["US", "CA", "ZA", "AU", "NG"],
     },
     {
       topic: "Little America",

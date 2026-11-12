@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "kurt warner arena football",
@@ -31,7 +31,7 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 827,
-      topCountries: ["KE", "TZ", "SO", "US"],
+      topCountries: ["KE", "TZ", "SO", "UG"],
     },
     {
       topic: "new zealand haka court",
@@ -73,7 +73,7 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "BR", "TR", "MY", "MX"],
+      topCountries: ["ID", "BR", "US", "TR", "MY"],
     },
     {
       topic: "gym fur",

@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "cam hot chocolate upside down",
+      category: "Gourmet",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 476,
+      trust: "high",
+      videoNum: 344,
+      topCountries: ["SA", "IQ", "EG", "AE", "KW"],
+    },
     {
       topic: "anoik yai newspaper",
       category: "Workplace",
@@ -30,7 +39,7 @@ export const saCountryReport: TikTokCountryReport = {
       subcategory: "Workplace Skills",
       growthMultiplier: 11,
       trust: "high",
-      videoNum: 221,
+      videoNum: 284,
       topCountries: ["ID", "MY", "BR", "SA", "EG"],
     },
     {
@@ -96,20 +105,11 @@ export const saCountryReport: TikTokCountryReport = {
       videoNum: 463,
       topCountries: ["ID", "SA", "IQ", "PH", "MY"],
     },
-    {
-      topic: "FourHandsTwoSonatas",
-      category: "Sports",
-      subcategory: "Physical Sports",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "SA", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "anoik yai newspaper",
-    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "cam hot chocolate upside down",
+    audience: "female 18-24, Saudi Arabia (dominant segment, snapshot at collection date)",
   },
 };

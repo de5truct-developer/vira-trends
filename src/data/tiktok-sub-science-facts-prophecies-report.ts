@@ -14,10 +14,10 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "3 days of darkness in 2026",
@@ -48,18 +48,18 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "DE", "IT", "US", "PH"],
     },
     {
+      topic: "how humans will look like in 2050",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "PH", "NG", "KE"],
+    },
+    {
       topic: "the economist prediction 2027",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 374,
       topCountries: ["MX", "BR", "CO", "PE", "VE"],
-    },
-    {
-      topic: "how humans will look like in 2050",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "PH", "NG", "KE"],
     },
     {
       topic: "creative destruction 2026",

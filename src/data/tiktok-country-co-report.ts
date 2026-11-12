@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const coCountryReport: TikTokCountryReport = {
   country: "Colombia",
   countryCode: "CO",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "victorias secret katseye",
@@ -76,7 +76,7 @@ export const coCountryReport: TikTokCountryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: 996,
-      topCountries: ["CO", "CL", "PE", "MX"],
+      topCountries: ["CO", "CL", "PE", "MX", "US"],
     },
     {
       topic: "freebies skz",
@@ -84,7 +84,7 @@ export const coCountryReport: TikTokCountryReport = {
       subcategory: "Other Hobbies",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 525,
+      videoNum: 625,
       topCountries: ["MX", "PE", "AR", "CL", "CO"],
     },
     {
@@ -97,13 +97,13 @@ export const coCountryReport: TikTokCountryReport = {
       topCountries: ["BR", "MX", "CO", "AR", "PE"],
     },
     {
-      topic: "uefa champions league match reaction",
-      category: "Sports",
-      subcategory: "Physical Sports",
+      topic: "kurage sirena",
+      category: "Science Knowledge",
+      subcategory: "Biology Knowledge",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 632,
-      topCountries: ["MX", "GT", "PE", "CO", "VE"],
+      videoNum: 970,
+      topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
   ],
   methodologyNote:

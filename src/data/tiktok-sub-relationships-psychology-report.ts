@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "InnerGrowth",
@@ -58,7 +58,7 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topic: "Positivity Mindset",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 14953,
+      videoNum: 14969,
       topCountries: ["CA", "NG", "PH", "ID", "AU"],
     },
     {
@@ -72,14 +72,14 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topic: "mindset shift to change your life",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 42147,
+      videoNum: 42418,
       topCountries: ["NG", "ZA", "CA", "GB", "AU"],
     },
     {
       topic: "emotional intelligence women",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1073,
+      videoNum: 1074,
       topCountries: ["ID", "MY", "PH", "ZA", "MM"],
     },
     {

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "what is a heron",
@@ -24,20 +24,20 @@ export const scienceFactsReport: TikTokReport = {
       topCountries: ["US", "PH", "AU", "GB", "NZ"],
     },
     {
-      topic: "real volcano mountain",
-      subcategory: "Geology Knowledge",
-      growthMultiplier: 593,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PK", "ID", "KE"],
-    },
-    {
       topic: "aliens in white house",
       subcategory: "Unresolved Mysteries",
       growthMultiplier: 403,
       trust: "high",
       videoNum: 328,
       topCountries: ["US", "GB", "AU", "CA", "PH"],
+    },
+    {
+      topic: "experiment abigail",
+      subcategory: "Unresolved Mysteries",
+      growthMultiplier: 107,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "CA", "PH", "AU", "DE"],
     },
     {
       topic: "gold ship cribbing",
@@ -72,6 +72,14 @@ export const scienceFactsReport: TikTokReport = {
       topCountries: ["US", "NG", "GB", "GH", "ZA"],
     },
     {
+      topic: "chimp vs human simulation",
+      subcategory: "Biology Knowledge",
+      growthMultiplier: 53,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "IT", "GB", "DE", "PL"],
+    },
+    {
       topic: "theranos explained",
       subcategory: "Geology Knowledge",
       growthMultiplier: 50,
@@ -86,14 +94,6 @@ export const scienceFactsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "PH", "BR"],
-    },
-    {
-      topic: "kurage sirena",
-      subcategory: "Biology Knowledge",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 970,
-      topCountries: ["MX", "BR", "CO", "PE", "AR"],
     },
   ],
   methodologyNote:

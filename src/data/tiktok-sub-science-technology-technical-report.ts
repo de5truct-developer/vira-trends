@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "microduck robot",
@@ -69,13 +69,6 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "KE", "CA", "LK"],
     },
     {
-      topic: "concentrator",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 773,
-      topCountries: ["US", "BR", "PH", "ID"],
-    },
-    {
       topic: "Top electronics for a first home",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 870,
       topCountries: ["US", "PH", "AU", "JM", "NG"],
+    },
+    {
+      topic: "Mercator projection",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 864,
+      topCountries: ["PH", "ZA", "CA", "AU", "ID"],
     },
   ],
   methodologyNote:

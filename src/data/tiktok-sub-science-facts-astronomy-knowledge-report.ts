@@ -14,10 +14,10 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "time before the moon",
@@ -65,15 +65,8 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topic: "200 million years ago",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 3822,
+      videoNum: 4073,
       topCountries: ["PH", "ID", "MY", "MM"],
-    },
-    {
-      topic: "how to see stereograms",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 630,
-      topCountries: ["PH", "MY", "CA", "ZA", "ID"],
     },
     {
       topic: "how to question moon landing claims",
@@ -81,6 +74,13 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["GH", "NG", "KE", "UG"],
+    },
+    {
+      topic: "how to see stereograms",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 630,
+      topCountries: ["PH", "MY", "CA", "ZA", "ID"],
     },
     {
       topic: "8 planets in the solar system",

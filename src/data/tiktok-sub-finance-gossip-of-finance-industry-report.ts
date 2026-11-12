@@ -14,10 +14,10 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "networth",
@@ -65,7 +65,7 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
       topic: "the investor who sees the future",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 876,
+      videoNum: 897,
       topCountries: ["PH", "ID", "MY", "BR", "GB"],
     },
   ],

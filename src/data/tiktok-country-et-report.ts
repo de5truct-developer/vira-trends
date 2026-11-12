@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const etCountryReport: TikTokCountryReport = {
   country: "Ethiopia",
   countryCode: "ET",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "SportsContent",
@@ -21,7 +21,7 @@ export const etCountryReport: TikTokCountryReport = {
       subcategory: "Physical Sports",
       growthMultiplier: 20,
       trust: "high",
-      videoNum: 4515,
+      videoNum: 4477,
       topCountries: ["ZA", "ET", "US", "UG"],
     },
     {
@@ -48,7 +48,7 @@ export const etCountryReport: TikTokCountryReport = {
       subcategory: "Education - Others",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1345,
+      videoNum: 1463,
       topCountries: ["MM", "ID", "IQ", "ET"],
     },
     {
@@ -68,6 +68,15 @@ export const etCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 827,
       topCountries: ["IQ", "ET", "PK", "PH", "MM"],
+    },
+    {
+      topic: "MakeupRemoval",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 992,
+      topCountries: ["US", "ZA", "NG", "ET"],
     },
     {
       topic: "Family-inspired jewelry gift ideas",
@@ -95,15 +104,6 @@ export const etCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1138,
       topCountries: ["ET", "SA", "AE", "ZA"],
-    },
-    {
-      topic: "contentcreationinsightsfor2026",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 585,
-      topCountries: ["ID", "ET", "MM", "NP"],
     },
   ],
   methodologyNote:

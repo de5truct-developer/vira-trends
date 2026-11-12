@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ghCountryReport: TikTokCountryReport = {
   country: "Ghana",
   countryCode: "GH",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "short drama review 1 to 50",
@@ -28,10 +28,19 @@ export const ghCountryReport: TikTokCountryReport = {
       topic: "spray transitions",
       category: "Science and Technology",
       subcategory: "Software",
-      growthMultiplier: 37,
+      growthMultiplier: 38,
       trust: "high",
       videoNum: 413,
-      topCountries: ["NG", "GH", "KE", "ZA", "LR"],
+      topCountries: ["NG", "GH", "ZA", "KE", "SL"],
+    },
+    {
+      topic: "Teleprompter tricks for beginners",
+      category: "Science and Technology",
+      subcategory: "Software",
+      growthMultiplier: 37,
+      trust: "high",
+      videoNum: 245,
+      topCountries: ["NG", "ZA", "KE", "GH", "UG"],
     },
     {
       topic: "Ateez bad dance",
@@ -40,7 +49,7 @@ export const ghCountryReport: TikTokCountryReport = {
       growthMultiplier: 27,
       trust: "high",
       videoNum: 751,
-      topCountries: ["NG", "GH", "KE", "ZA", "ZW"],
+      topCountries: ["NG", "US", "GH", "KE", "ZA"],
     },
     {
       topic: "Bmw x5 2027",
@@ -95,15 +104,6 @@ export const ghCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 640,
       topCountries: ["NG", "KE", "ZA", "UG", "GH"],
-    },
-    {
-      topic: "2028 what will happen",
-      category: "Science Knowledge",
-      subcategory: "Prophecies",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 479,
-      topCountries: ["ZA", "BR", "GH", "NG"],
     },
   ],
   methodologyNote:

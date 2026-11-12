@@ -14,10 +14,10 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "vdm school project",
@@ -39,6 +39,13 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 670,
       topCountries: ["MY", "EG", "ID", "AU", "IQ"],
+    },
+    {
+      topic: "jeo esnyr high school",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "US", "AE"],
     },
     {
       topic: "Back school",
@@ -81,13 +88,6 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "BR", "PE"],
-    },
-    {
-      topic: "therians at school",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 595,
-      topCountries: ["CA", "GB", "PH", "AU"],
     },
   ],
   methodologyNote:

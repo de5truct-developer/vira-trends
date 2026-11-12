@@ -14,10 +14,10 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "he rides his bike with his husband everyday",
@@ -37,7 +37,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "hawaii is underwater",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 4044,
+      videoNum: 4038,
       topCountries: ["GB", "US", "PH", "CA"],
     },
     {
@@ -66,7 +66,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 3337,
-      topCountries: ["US", "NG", "PK", "PH", "MM"],
+      topCountries: ["NG", "PK", "PH", "MM", "MY"],
     },
     {
       topic: "school morning routine for girls",
@@ -79,7 +79,7 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topic: "first mini vlog ideas",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 4422,
+      videoNum: 4499,
       topCountries: ["PK", "NP", "PH", "JP"],
     },
     {

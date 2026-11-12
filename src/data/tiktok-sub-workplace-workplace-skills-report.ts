@@ -14,18 +14,11 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
-    {
-      topic: "continue to part 2of the interview",
-      growthMultiplier: 76,
-      trust: "high",
-      videoNum: 285,
-      topCountries: ["US", "CA", "AU", "PR"],
-    },
     {
       topic: "Step-by-step custom prop workflow",
       growthMultiplier: 49,
@@ -37,14 +30,14 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topic: "how you introduce yourself",
       growthMultiplier: 13,
       trust: "high",
-      videoNum: 802,
+      videoNum: 804,
       topCountries: ["NG", "PH", "KE", "ZA"],
     },
     {
       topic: "unethical performance",
       growthMultiplier: 12,
       trust: "high",
-      videoNum: 221,
+      videoNum: 284,
       topCountries: ["ID", "MY", "BR", "SA", "EG"],
     },
     {
@@ -62,13 +55,6 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["EG", "VN", "SA", "PH", "TN"],
     },
     {
-      topic: "great search insight",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 2383,
-      topCountries: ["KE", "PK", "TZ", "UG", "NG"],
-    },
-    {
       topic: "Signs a prospect is ready to rise",
       growthMultiplier: 4,
       trust: "high",
@@ -76,10 +62,17 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "ES", "MX", "BR", "FR"],
     },
     {
+      topic: "Networking tips for creators",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CM", "FR", "GA", "CD", "BF"],
+    },
+    {
       topic: "content insight and winning content analysis",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 736,
+      videoNum: 745,
       topCountries: ["ID", "MY", "PK"],
     },
     {
@@ -87,13 +80,20 @@ export const workplaceWorkplaceSkillsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 495,
-      topCountries: ["HU", "CA", "AU", "PH", "GB"],
+      topCountries: ["HU", "CA", "AU", "GB", "PH"],
+    },
+    {
+      topic: "great search insight",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 2383,
+      topCountries: ["KE", "PK", "TZ", "UG", "NG"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "continue to part 2of the interview",
-    audience: "female 35+, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Step-by-step custom prop workflow",
+    audience: "female 35+, Mexico (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "i'm getting old and i need to get my life together",
@@ -28,7 +28,7 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
     },
     {
       topic: "good morning streak for today",
-      growthMultiplier: 9,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 983,
       topCountries: ["PH", "ID", "KH", "NG", "GT"],
@@ -72,7 +72,7 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topic: "friday mood vibes for status",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 26756,
+      videoNum: 27130,
       topCountries: ["ZA", "KE", "NG", "GH"],
     },
     {

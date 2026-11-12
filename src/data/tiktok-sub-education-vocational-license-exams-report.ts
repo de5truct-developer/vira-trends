@@ -14,10 +14,10 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "marshall bar exam result",
@@ -55,18 +55,18 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "BD", "ZA", "MY", "ID"],
     },
     {
-      topic: "high school entrance exam",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 570,
-      topCountries: ["PH", "ID", "VN", "MX", "TR"],
-    },
-    {
       topic: "test part 3 result isaac",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "CA", "PH", "AU"],
+    },
+    {
+      topic: "high school entrance exam",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 570,
+      topCountries: ["PH", "ID", "VN", "MX", "TR"],
     },
     {
       topic: "summative test",

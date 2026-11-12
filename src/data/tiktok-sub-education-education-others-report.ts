@@ -14,10 +14,10 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "study motivation for girls",
@@ -28,7 +28,7 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Daily discipline rules that keep you on track",
-      growthMultiplier: 28,
+      growthMultiplier: 27,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "DE", "FR", "ID", "GB"],
@@ -62,6 +62,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "ET", "UG", "BD"],
     },
     {
+      topic: "geo ong bulletin board",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "AE", "JP"],
+    },
+    {
       topic: "topics to research",
       growthMultiplier: 6,
       trust: "high",
@@ -81,13 +88,6 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 465,
       topCountries: ["PH", "NG", "ZA", "GH", "MM"],
-    },
-    {
-      topic: "how to write draco malfoy in a calculator",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "PH", "DE", "CA", "AU"],
     },
   ],
   methodologyNote:

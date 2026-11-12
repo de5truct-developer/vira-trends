@@ -14,10 +14,10 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "shi lwk jelly arcade roller coaster",
@@ -32,13 +32,6 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 168,
       topCountries: ["US", "AU", "CA", "GB", "MX"],
-    },
-    {
-      topic: "wipeout ride dreamworld",
-      growthMultiplier: 83,
-      trust: "high",
-      videoNum: 192,
-      topCountries: ["US", "AU", "NZ", "CA"],
     },
     {
       topic: "Santa’s Wonderland",
@@ -67,6 +60,13 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["CO", "US", "MX", "DO", "ES"],
+    },
+    {
+      topic: "haunted houses and horror attractions",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "CA"],
     },
     {
       topic: "the October slide",

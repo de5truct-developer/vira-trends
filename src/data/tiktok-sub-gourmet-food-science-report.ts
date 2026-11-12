@@ -14,14 +14,14 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
-      growthMultiplier: 63,
+      growthMultiplier: 57,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "IE", "ZA", "PH"],

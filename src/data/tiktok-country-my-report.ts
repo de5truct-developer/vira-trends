@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "heidi klum outfits",
@@ -40,7 +40,16 @@ export const myCountryReport: TikTokCountryReport = {
       growthMultiplier: 62,
       trust: "high",
       videoNum: 710,
-      topCountries: ["PH", "MY", "ID", "SG"],
+      topCountries: ["US", "PH", "MY", "ID"],
+    },
+    {
+      topic: "the real diamond city",
+      category: "Tourism",
+      subcategory: "Tourism Service",
+      growthMultiplier: 40,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "ID", "MY", "CA"],
     },
     {
       topic: "daisy episode 1 to 60",
@@ -52,21 +61,12 @@ export const myCountryReport: TikTokCountryReport = {
       topCountries: ["ZA", "PH", "MY", "NG"],
     },
     {
-      topic: "summer end of oak street p2 l",
-      category: "TikTok's Featured Content",
-      subcategory: "Life Snapshots",
-      growthMultiplier: 26,
-      trust: "high",
-      videoNum: 546,
-      topCountries: ["US", "PH", "ID", "TR", "MY"],
-    },
-    {
       topic: "unethical performance",
       category: "Workplace",
       subcategory: "Workplace Skills",
       growthMultiplier: 26,
       trust: "high",
-      videoNum: 221,
+      videoNum: 284,
       topCountries: ["ID", "MY", "BR", "SA", "EG"],
     },
     {

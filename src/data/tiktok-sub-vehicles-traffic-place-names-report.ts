@@ -14,10 +14,10 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "angeles crest highway",
@@ -28,7 +28,7 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "chongqing east station",
-      growthMultiplier: 28,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: 426,
       topCountries: ["US", "CA", "AU", "GB", "DE"],
@@ -45,7 +45,7 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 952,
-      topCountries: ["AU", "BD", "MY", "SG", "PH"],
+      topCountries: ["US", "AU", "SG", "BD", "MY"],
     },
     {
       topic: "f16 cockpit view",

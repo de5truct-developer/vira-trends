@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const danceReport: TikTokReport = {
   category: "Dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "Dance Viral TikTok 2026",
@@ -58,7 +58,7 @@ export const danceReport: TikTokReport = {
     {
       topic: "blah blah blah dance",
       subcategory: "Dance Trend",
-      growthMultiplier: 23,
+      growthMultiplier: 24,
       trust: "high",
       videoNum: 566,
       topCountries: ["PH", "AU", "NZ", "ID", "AR"],
@@ -66,7 +66,7 @@ export const danceReport: TikTokReport = {
     {
       topic: "toni braxton challenge tutorial",
       subcategory: "Dance Tutorial",
-      growthMultiplier: 22,
+      growthMultiplier: 23,
       trust: "high",
       videoNum: 2898,
       topCountries: ["GB", "US", "NL", "DE", "SE"],

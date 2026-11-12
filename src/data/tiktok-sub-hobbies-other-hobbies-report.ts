@@ -14,10 +14,10 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "banners stickers",
@@ -49,7 +49,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "balloon cement pot 2 part",
-      growthMultiplier: 49,
+      growthMultiplier: 56,
       trust: "high",
       videoNum: null,
       topCountries: ["IT", "NG", "PK", "ZA", "KE"],
@@ -70,7 +70,7 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "art lila drawing",
-      growthMultiplier: 9,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 156,
       topCountries: ["PH", "ZA", "MY", "KH"],
@@ -79,15 +79,15 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       topic: "freebies skz",
       growthMultiplier: 7,
       trust: "high",
-      videoNum: 525,
+      videoNum: 625,
       topCountries: ["MX", "PE", "AR", "CL", "CO"],
     },
     {
-      topic: "How crafts build creative confidence",
-      growthMultiplier: 5,
+      topic: "secret love affair unboxing",
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "IE"],
+      topCountries: ["ID", "MY", "VN", "PH", "TH"],
     },
   ],
   methodologyNote:

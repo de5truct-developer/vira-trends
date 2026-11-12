@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const iqCountryReport: TikTokCountryReport = {
   country: "Iraq",
   countryCode: "IQ",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "football player physical profile",
@@ -50,6 +50,15 @@ export const iqCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 960,
       topCountries: ["SA", "IQ", "AE", "KW"],
+    },
+    {
+      topic: "AmazingPlaces",
+      category: "Tourism",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1009,
+      topCountries: ["IQ", "DZ", "YE", "MA"],
     },
     {
       topic: "رحلة المشجعين إلى كأس العالم 2026",
@@ -95,15 +104,6 @@ export const iqCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 10687,
       topCountries: ["IQ", "ID", "MM", "PH"],
-    },
-    {
-      topic: "easy baby meals for self-feeding",
-      category: "Gourmet",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["IQ", "EG", "SA", "DZ"],
     },
   ],
   methodologyNote:

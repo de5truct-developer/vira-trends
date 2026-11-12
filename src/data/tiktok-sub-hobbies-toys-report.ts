@@ -14,11 +14,25 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
+    {
+      topic: "tricky mattel",
+      growthMultiplier: 2482,
+      trust: "high",
+      videoNum: 616,
+      topCountries: ["US", "MX", "AR", "CA", "CL"],
+    },
+    {
+      topic: "funny dumpling squishy",
+      growthMultiplier: 408,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PE", "CO", "EC", "GT"],
+    },
     {
       topic: "what are orbeez used for",
       growthMultiplier: 43,
@@ -75,25 +89,11 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["CA", "AU", "SG", "MY", "PH"],
     },
-    {
-      topic: "pocket totto toy",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 751,
-      topCountries: ["NG", "GH", "ZA", "KE", "GB"],
-    },
-    {
-      topic: "10000000000000000000 squishies",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 521,
-      topCountries: ["ID", "MX", "BR", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "what are orbeez used for",
-    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "tricky mattel",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "DC Velocity 2026",
@@ -56,7 +56,7 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "paige forgets her solo",
-      growthMultiplier: 4,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "CA", "AU", "PH", "MX"],
@@ -83,11 +83,11 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "PH", "MX", "RU", "CA"],
     },
     {
-      topic: "synchronization moments core",
+      topic: "DCCMakingTheTeam",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 188,
-      topCountries: ["PH", "ID", "ZA", "MY", "MX"],
+      videoNum: 344,
+      topCountries: ["GB", "AU", "CA", "NZ", "TH"],
     },
   ],
   methodologyNote:

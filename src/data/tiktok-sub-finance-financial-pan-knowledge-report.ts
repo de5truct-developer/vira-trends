@@ -14,10 +14,10 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "panic buying",
@@ -69,13 +69,6 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "NG", "ZA", "ID"],
     },
     {
-      topic: "10 million dollars",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 3560,
-      topCountries: ["ID", "MY", "PK", "PH"],
-    },
-    {
       topic: "How To Start A Small Business",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "BR", "US", "PH"],
+    },
+    {
+      topic: "digital marketing company",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1212,
+      topCountries: ["NG", "ET", "PK", "MM", "SA"],
     },
   ],
   methodologyNote:

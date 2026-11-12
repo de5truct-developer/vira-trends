@@ -14,10 +14,10 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "zafri khan eating",
@@ -62,6 +62,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
     {
+      topic: "SpicyChallenge",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 318,
+      topCountries: ["MM", "BR", "BD", "IT"],
+    },
+    {
       topic: "mystery diners review p3 anthony explained",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "GB", "AU", "NZ"],
-    },
-    {
-      topic: "Fun holiday food decoration ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "PE", "CO", "EC", "VE"],
     },
   ],
   methodologyNote:

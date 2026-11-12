@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "InnerGrowth",
@@ -22,6 +22,14 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "GH", "MX", "CM"],
+    },
+    {
+      topic: "MotivationalAndInspiringVideos",
+      subcategory: "Emotional Phrase",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: 1129,
+      topCountries: ["ID", "MY", "PK", "NG"],
     },
     {
       topic: "abdul and his wife",
@@ -40,12 +48,12 @@ export const relationshipsReport: TikTokReport = {
       topCountries: ["US", "GB", "ZA", "CA", "AU"],
     },
     {
-      topic: "being the oldest sibling",
-      subcategory: "Relationship Knowledge",
+      topic: "couple gifts for adults",
+      subcategory: "Gifts/Presents",
       growthMultiplier: 4,
       trust: "high",
-      videoNum: 700,
-      topCountries: ["ID", "MY", "SA", "MX", "NG"],
+      videoNum: 184,
+      topCountries: ["US", "PR"],
     },
     {
       topic: "histrionic",
@@ -54,6 +62,14 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "AU"],
+    },
+    {
+      topic: "being the oldest sibling",
+      subcategory: "Relationship Knowledge",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 700,
+      topCountries: ["ID", "MY", "SA", "MX", "NG"],
     },
     {
       topic: "father daughter video ideas",
@@ -78,22 +94,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 301,
       topCountries: ["US", "PH", "GB", "MY", "CA"],
-    },
-    {
-      topic: "he regrets losing me",
-      subcategory: "Relationship Knowledge",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 398,
-      topCountries: ["PH", "MY", "ZA", "ID", "NG"],
-    },
-    {
-      topic: "overthinking sta znaci",
-      subcategory: "Psychology",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 276,
-      topCountries: ["RS", "BA", "ME", "MK", "HR"],
     },
   ],
   methodologyNote:

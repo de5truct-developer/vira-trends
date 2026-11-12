@@ -14,16 +14,23 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
-      topic: "im suing you brother",
-      growthMultiplier: 4124,
+      topic: "what happens to boys in november",
+      growthMultiplier: 28349,
       trust: "high",
-      videoNum: 11311,
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "ZA", "DE"],
+    },
+    {
+      topic: "im suing you brother",
+      growthMultiplier: 4123,
+      trust: "high",
+      videoNum: 11322,
       topCountries: ["US", "GB", "CA", "DE", "ZA"],
     },
     {
@@ -34,18 +41,18 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["PH", "MY", "ID", "CA"],
     },
     {
-      topic: "cactus boomerang incident",
-      growthMultiplier: 62,
-      trust: "high",
-      videoNum: 853,
-      topCountries: ["US", "ID", "BR", "PH", "GB"],
-    },
-    {
       topic: "kai and ray japan",
-      growthMultiplier: 62,
+      growthMultiplier: 58,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "TH", "ID"],
+    },
+    {
+      topic: "cactus boomerang incident",
+      growthMultiplier: 45,
+      trust: "high",
+      videoNum: 853,
+      topCountries: ["US", "ID", "BR", "PH", "GB"],
     },
     {
       topic: "we have some breaking news",
@@ -76,15 +83,8 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
       topCountries: ["US", "PH", "MM", "GB"],
     },
     {
-      topic: "buddy part 1 2 3 4 5 6 7 8 9",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 410,
-      topCountries: ["ID", "PH", "BR", "MX"],
-    },
-    {
       topic: "killjoy and vinnie",
-      growthMultiplier: 16,
+      growthMultiplier: 21,
       trust: "high",
       videoNum: 694,
       topCountries: ["US", "CA", "AU", "MX", "BR"],
@@ -93,7 +93,7 @@ export const featuredContentOthersTiktokAndVideoContentsSubReport: TikTokSubcate
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "im suing you brother",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "what happens to boys in november",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "beauty services",
@@ -80,7 +80,7 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 4132,
-      topCountries: ["GB", "PK", "US", "ID", "PH"],
+      topCountries: ["GB", "PK", "ID", "PH", "AE"],
     },
     {
       topic: "beauty salon locations and services",

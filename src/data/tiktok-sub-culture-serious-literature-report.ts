@@ -14,10 +14,10 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-22",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "krispy lord verity",
@@ -41,13 +41,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "ID", "TH", "CA"],
     },
     {
-      topic: "lord verity x zodiac",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 108,
-      topCountries: ["RU", "UA", "BY", "VN", "MX"],
-    },
-    {
       topic: "drusilla hunger games book",
       growthMultiplier: 5,
       trust: "high",
@@ -55,11 +48,25 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PH", "BR", "CA", "AU"],
     },
     {
+      topic: "lord verity x zodiac",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 108,
+      topCountries: ["RU", "UA", "MX", "AR", "BY"],
+    },
+    {
       topic: "lord verity vs verity",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MX", "ID", "CA"],
+    },
+    {
+      topic: "acotar leak book 6",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "AU", "CA", "DE"],
     },
     {
       topic: "verity pumpkin",
@@ -74,13 +81,6 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "BR", "VN", "MX"],
-    },
-    {
-      topic: "saving jessica buchanan",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB"],
     },
     {
       topic: "mafia romance novel",

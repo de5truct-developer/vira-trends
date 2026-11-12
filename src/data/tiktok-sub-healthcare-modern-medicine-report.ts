@@ -14,10 +14,10 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "code rot explained",
@@ -48,13 +48,6 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "BR", "PH", "VN"],
     },
     {
-      topic: "a stroke",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 1175,
-      topCountries: ["CA", "ZA", "SA", "DE", "AE"],
-    },
-    {
       topic: "why do albino eyes shake",
       growthMultiplier: 3,
       trust: "high",
@@ -62,17 +55,17 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "GB", "NG", "CA"],
     },
     {
-      topic: "zekke 6 leaf gremoire",
-      growthMultiplier: 3,
+      topic: "a stroke",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: 152,
-      topCountries: ["PH", "US", "ID", "MY", "VN"],
+      videoNum: 1175,
+      topCountries: ["CA", "ZA", "SA", "DE", "AE"],
     },
     {
       topic: "women's mental health",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1007,
+      videoNum: 1015,
       topCountries: ["CA", "AU", "ZA", "PH", "ET"],
     },
     {
@@ -88,6 +81,13 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 655,
       topCountries: ["US", "CA", "GB", "AU", "NG"],
+    },
+    {
+      topic: "whats philophobia",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB"],
     },
   ],
   methodologyNote:

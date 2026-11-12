@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
+  computedAt: "2026-11-11T07:55:59Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "code rot explained",
@@ -48,19 +48,11 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["AR", "MX", "PE", "CO", "EC"],
     },
     {
-      topic: "Sleep Cycle",
-      subcategory: "Pan-health",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 977,
-      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
-    },
-    {
       topic: "nasal stick inhaler",
       subcategory: "Pan-health",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 1195,
+      videoNum: 1199,
       topCountries: ["MY", "PH", "GB", "ID"],
     },
     {
@@ -70,6 +62,14 @@ export const healthcareReport: TikTokReport = {
       trust: "high",
       videoNum: 381,
       topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
+    {
+      topic: "Sleep Cycle",
+      subcategory: "Pan-health",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 977,
+      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
     },
     {
       topic: "natural aging",

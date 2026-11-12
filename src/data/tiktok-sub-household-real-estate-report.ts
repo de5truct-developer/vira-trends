@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-10T12:01:48Z",
-  windowStart: "2026-09-22",
+  computedAt: "2026-11-11T07:55:59Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-05",
-  updatedAt: "2026-11-11",
+  updatedAt: "2026-11-12",
   topics: [
     {
       topic: "norway houses",
@@ -41,18 +41,18 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "DE", "CA", "GB"],
     },
     {
-      topic: "property features worth showing",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "TW", "EG"],
-    },
-    {
       topic: "queens houses",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 3229,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
+    },
+    {
+      topic: "sanjel family house",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NP", "JP", "AU", "AE"],
     },
     {
       topic: "landman manuel antino house",
@@ -62,18 +62,11 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topCountries: ["US"],
     },
     {
-      topic: "sanjel family house",
+      topic: "property features worth showing",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["NP", "JP", "AU", "AE"],
-    },
-    {
-      topic: "redman mansion",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "ZA", "KE", "NG", "CA"],
+      topCountries: ["ID", "MY", "TW", "EG"],
     },
     {
       topic: "houses for sale near me 2026",
@@ -88,6 +81,13 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "GH", "MY", "BR"],
+    },
+    {
+      topic: "250 million penthouse",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 700,
+      topCountries: ["CA", "ZA", "JM", "MX", "ID"],
     },
   ],
   methodologyNote:
