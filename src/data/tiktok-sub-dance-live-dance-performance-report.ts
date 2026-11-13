@@ -14,11 +14,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
+    {
+      topic: "james brown footwork",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 358,
+      topCountries: ["US", "BR", "ZA", "PH", "CA"],
+    },
     {
       topic: "best moments at psy summer swag 2026",
       growthMultiplier: 1,
@@ -34,13 +41,6 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "BR", "PH", "ZA"],
     },
     {
-      topic: "kpop school performance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 610,
-      topCountries: ["PH", "ID", "MY", "BR", "MX"],
-    },
-    {
       topic: "babymonster summer performance vibe",
       growthMultiplier: 1,
       trust: "high",
@@ -48,11 +48,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "TH", "VN", "MY"],
     },
     {
-      topic: "james brown footwork",
+      topic: "kpop school performance",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 358,
-      topCountries: ["US", "BR", "ZA", "PH", "CA"],
+      videoNum: 610,
+      topCountries: ["US", "PH", "ID", "MY", "BR"],
     },
     {
       topic: "james brown moonwalk",
@@ -76,24 +76,24 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "PH", "MM"],
     },
     {
-      topic: "flashmob performances in paris",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "BR", "PH", "MX", "MY"],
-    },
-    {
       topic: "brotherhood bebot performance",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "CA", "AU", "SG"],
     },
+    {
+      topic: "flashmob performances in paris",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BR", "PH", "MX", "MY"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "best moments at psy summer swag 2026",
-    audience: "female 25-34, Malaysia (dominant segment, snapshot at collection date)",
+    topic: "james brown footwork",
+    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
   },
 };

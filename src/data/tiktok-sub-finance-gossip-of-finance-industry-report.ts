@@ -14,24 +14,24 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
+    {
+      topic: "nancy grace flipping opinion nolan wells",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US"],
+    },
     {
       topic: "networth",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 587,
       topCountries: ["BR", "IT", "RU", "ID"],
-    },
-    {
-      topic: "nancy grace flipping opinion nolan wells",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US"],
     },
     {
       topic: "rick ross money",
@@ -56,7 +56,7 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
     },
     {
       topic: "50 cent water company",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 426,
       topCountries: ["US", "CA", "AU", "ZA", "PH"],
@@ -72,7 +72,7 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "networth",
-    audience: "unknown 25-34, Brazil (dominant segment, snapshot at collection date)",
+    topic: "nancy grace flipping opinion nolan wells",
+    audience: "not enough audience data for this topic",
   },
 };

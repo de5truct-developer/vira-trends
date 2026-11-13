@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -21,7 +21,7 @@ export const entertainmentReport: TikTokReport = {
       growthMultiplier: 3336,
       trust: "high",
       videoNum: 443,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
+      topCountries: ["US", "CA", "AU", "PH", "MX"],
     },
     {
       topic: "julia stiles dedication night",
@@ -34,10 +34,18 @@ export const entertainmentReport: TikTokReport = {
     {
       topic: "short drama review 1 to 50",
       subcategory: "Films and TVs",
-      growthMultiplier: 2703,
+      growthMultiplier: 2660,
       trust: "high",
       videoNum: 5651,
       topCountries: ["PH", "ZA", "NG", "MM", "GH"],
+    },
+    {
+      topic: "renee rapp engaged",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 2267,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "NL", "FR"],
     },
     {
       topic: "valentina and paul",
@@ -48,20 +56,20 @@ export const entertainmentReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "DE", "AE"],
     },
     {
+      topic: "miley cyrus hollywood bowl",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 923,
+      trust: "high",
+      videoNum: 3511,
+      topCountries: ["US", "CA", "MX", "AU", "GB"],
+    },
+    {
       topic: "i heard abby chloe",
       subcategory: "Films and TVs",
       growthMultiplier: 852,
       trust: "high",
       videoNum: 1148,
       topCountries: ["US", "GB", "PR", "CA", "AU"],
-    },
-    {
-      topic: "miley cyrus hollywood bowl",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 785,
-      trust: "high",
-      videoNum: 3511,
-      topCountries: ["US", "CA", "MX", "AU", "GB"],
     },
     {
       topic: "emmy rossum and justin siegel",
@@ -74,7 +82,7 @@ export const entertainmentReport: TikTokReport = {
     {
       topic: "dax shepard and kristen bell",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 364,
+      growthMultiplier: 514,
       trust: "high",
       videoNum: null,
       topCountries: ["GB", "CA", "US", "AU", "PL"],
@@ -82,18 +90,10 @@ export const entertainmentReport: TikTokReport = {
     {
       topic: "kim kardashian magazine cover",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 265,
+      growthMultiplier: 495,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "NL", "IT"],
-    },
-    {
-      topic: "drake 40th birthday",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 160,
-      trust: "high",
-      videoNum: 296,
-      topCountries: ["US", "GB", "CA", "ZA", "AU"],
     },
   ],
   methodologyNote:

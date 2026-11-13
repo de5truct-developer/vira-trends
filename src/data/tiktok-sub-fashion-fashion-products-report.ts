@@ -14,24 +14,17 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-24",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "barbas hats x mansory",
-      growthMultiplier: 1009,
+      growthMultiplier: 1183,
       trust: "high",
       videoNum: 180,
       topCountries: ["MX", "US", "GT", "CO"],
-    },
-    {
-      topic: "prince albret piercing",
-      growthMultiplier: 307,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "FR", "GT", "BE", "SV"],
     },
     {
       topic: "rice gum north face shirt",
@@ -41,8 +34,15 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "NZ", "GU"],
     },
     {
+      topic: "prince albret piercing",
+      growthMultiplier: 246,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "FR", "GT", "BE", "SV"],
+    },
+    {
       topic: "unbreakable glasses",
-      growthMultiplier: 196,
+      growthMultiplier: 181,
       trust: "high",
       videoNum: 635,
       topCountries: ["US", "PH", "SA", "CA", "MY"],
@@ -53,13 +53,6 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 23559,
       topCountries: ["GB", "IE", "DE", "NL", "CA"],
-    },
-    {
-      topic: "university of tennessee shirt",
-      growthMultiplier: 148,
-      trust: "high",
-      videoNum: 160,
-      topCountries: ["PH", "US", "TH", "ID", "MY"],
     },
     {
       topic: "stormfall bikini",
@@ -81,6 +74,13 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1157,
       topCountries: ["US", "MX", "PE", "PH", "CO"],
+    },
+    {
+      topic: "university of tennessee shirt",
+      growthMultiplier: 98,
+      trust: "high",
+      videoNum: 160,
+      topCountries: ["PH", "US", "TH", "ID", "MY"],
     },
     {
       topic: "the vanishing beauty review",

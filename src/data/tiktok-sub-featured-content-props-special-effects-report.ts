@@ -14,10 +14,10 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-24",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-25",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "Funny AI trend videos to try",
@@ -25,6 +25,13 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 1141,
       topCountries: ["ID", "BD", "MM", "BR"],
+    },
+    {
+      topic: "trying viral face analysis trends",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 739,
+      topCountries: ["US", "GB", "BR", "DE", "FR"],
     },
     {
       topic: "Dancing AI Effect",
@@ -51,7 +58,7 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
       topic: "77 million views tiktok effect",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: 172059,
+      videoNum: 171848,
       topCountries: ["PK", "ET", "GB", "NG"],
     },
   ],

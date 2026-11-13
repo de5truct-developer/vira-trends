@@ -14,14 +14,14 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "marshall bar exam result",
-      growthMultiplier: 5,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "IT", "ES"],
@@ -69,11 +69,11 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "ID", "VN", "MX", "TR"],
     },
     {
-      topic: "summative test",
+      topic: "toefl itp 2026",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 807,
-      topCountries: ["PH", "AE", "MY", "SA"],
+      videoNum: 338,
+      topCountries: ["MX", "TH", "PK", "PE", "SV"],
     },
     {
       topic: "midterm exam",
@@ -83,11 +83,11 @@ export const educationVocationalLicenseExamsSubReport: TikTokSubcategoryReport =
       topCountries: ["PH", "ID", "MY", "TH", "KH"],
     },
     {
-      topic: "law exam rules and preparation",
+      topic: "summative test",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 144,
-      topCountries: ["ZA", "VN", "BD", "PH"],
+      videoNum: 807,
+      topCountries: ["PH", "AE", "MY", "SA"],
     },
   ],
   methodologyNote:

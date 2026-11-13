@@ -14,14 +14,21 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
+      topic: "은정 organised favorites time stamp",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["AU", "BR", "ID", "PH", "CA"],
+    },
+    {
       topic: "e sheet paper in board",
-      growthMultiplier: 12,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "SA", "AE", "KW"],
@@ -82,18 +89,11 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["ID", "TR", "PH", "GT", "MX"],
     },
-    {
-      topic: "aesthetic school essentials roundup",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "ID", "MY"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "e sheet paper in board",
-    audience: "unknown 25-34, Pakistan (dominant segment, snapshot at collection date)",
+    topic: "은정 organised favorites time stamp",
+    audience: "unknown 18-24, Australia (dominant segment, snapshot at collection date)",
   },
 };

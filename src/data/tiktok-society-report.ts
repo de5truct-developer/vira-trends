@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const societyReport: TikTokReport = {
   category: "Society",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
+    {
+      topic: "justincase",
+      subcategory: "Society News",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 626,
+      topCountries: ["US", "GB", "ZA", "CA", "DE"],
+    },
     {
       topic: "SocialExperiment",
       subcategory: "Society News",
@@ -22,22 +30,6 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 1298,
       topCountries: ["ID", "US", "NG", "PH"],
-    },
-    {
-      topic: "LightningStrike",
-      subcategory: "Society News",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 668,
-      topCountries: ["BR", "ID", "PH", "ZA"],
-    },
-    {
-      topic: "IndustryStandard",
-      subcategory: "Public Opinion",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "ID", "AU", "GB"],
     },
     {
       topic: "CrimeInvestigation",
@@ -54,6 +46,22 @@ export const societyReport: TikTokReport = {
       trust: "high",
       videoNum: 651,
       topCountries: ["CA", "GB", "AU", "PH", "ZA"],
+    },
+    {
+      topic: "LightningStrike",
+      subcategory: "Society News",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 668,
+      topCountries: ["BR", "ID", "PH", "ZA"],
+    },
+    {
+      topic: "IndustryStandard",
+      subcategory: "Public Opinion",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ID", "AU", "GB"],
     },
     {
       topic: "StreetVendor",
@@ -75,7 +83,7 @@ export const societyReport: TikTokReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "SocialExperiment",
-    audience: "unknown 25-34, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "justincase",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

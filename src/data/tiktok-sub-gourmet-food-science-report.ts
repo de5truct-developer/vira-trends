@@ -14,17 +14,24 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
-      growthMultiplier: 57,
+      growthMultiplier: 63,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "IE", "ZA", "PH"],
+    },
+    {
+      topic: "beef tallow benefits",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 767,
+      topCountries: ["PH", "ZA", "GB", "KE", "AU"],
     },
     {
       topic: "How lab-grown chocolate is made",
@@ -32,13 +39,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "GB", "MY", "CA", "AU"],
-    },
-    {
-      topic: "beef tallow benefits",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 767,
-      topCountries: ["PH", "ZA", "GB", "KE", "AU"],
     },
     {
       topic: "dangerous fungi hiding in food",

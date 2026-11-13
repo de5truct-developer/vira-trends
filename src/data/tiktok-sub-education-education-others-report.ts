@@ -14,24 +14,17 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
-      topic: "study motivation for girls",
-      growthMultiplier: 38,
-      trust: "high",
-      videoNum: 1116,
-      topCountries: ["LK", "PK", "BD", "ZA"],
-    },
-    {
       topic: "Daily discipline rules that keep you on track",
-      growthMultiplier: 27,
+      growthMultiplier: 30,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "DE", "FR", "ID", "GB"],
+      topCountries: ["PH", "DE", "FR", "US", "GB"],
     },
     {
       topic: "note reading practice",
@@ -39,6 +32,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 120,
       topCountries: ["US", "PH", "ID", "MY", "JP"],
+    },
+    {
+      topic: "study motivation for girls",
+      growthMultiplier: 19,
+      trust: "high",
+      videoNum: 1116,
+      topCountries: ["LK", "PK", "BD", "ZA"],
     },
     {
       topic: "guide to stan school",
@@ -55,6 +55,13 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "MY", "EG", "BN"],
     },
     {
+      topic: "geo ong bulletin board",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "AE", "JP"],
+    },
+    {
       topic: "SightInsightCreationTutorial",
       growthMultiplier: 7,
       trust: "high",
@@ -62,11 +69,18 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "ET", "UG", "BD"],
     },
     {
-      topic: "geo ong bulletin board",
+      topic: "going for paper meaning",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PL", "NL", "RO", "PH"],
+    },
+    {
+      topic: "Study habits that build consistency",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "CA", "AE", "JP"],
+      topCountries: ["ID", "US", "MY", "PH"],
     },
     {
       topic: "topics to research",
@@ -75,25 +89,11 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
       videoNum: 934,
       topCountries: ["PH", "CA", "AU", "ZA", "MA"],
     },
-    {
-      topic: "Study habits that build consistency",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "US", "MY", "PH"],
-    },
-    {
-      topic: "children educational videos 2026",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 465,
-      topCountries: ["PH", "NG", "ZA", "GH", "MM"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "study motivation for girls",
-    audience: "unknown 18-24, Sri Lanka (dominant segment, snapshot at collection date)",
+    topic: "Daily discipline rules that keep you on track",
+    audience: "unknown 18-24, France (dominant segment, snapshot at collection date)",
   },
 };

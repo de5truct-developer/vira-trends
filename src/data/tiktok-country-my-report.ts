@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "heidi klum outfits",
@@ -21,8 +21,17 @@ export const myCountryReport: TikTokCountryReport = {
       subcategory: "Fashion News",
       growthMultiplier: 399,
       trust: "high",
-      videoNum: 4825,
+      videoNum: 6048,
       topCountries: ["ID", "US", "PH", "BR", "MY"],
+    },
+    {
+      topic: "togi mini trucks",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
+      growthMultiplier: 277,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MY", "ID", "AU"],
     },
     {
       topic: "the lament of autumn ending",
@@ -95,15 +104,6 @@ export const myCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1913,
       topCountries: ["PH", "MY", "DE", "CA", "AU"],
-    },
-    {
-      topic: "african teacher telling students to talk",
-      category: "Education",
-      subcategory: "Campus Life",
-      growthMultiplier: 17,
-      trust: "high",
-      videoNum: 441,
-      topCountries: ["US", "PH", "MY", "SA", "GB"],
     },
   ],
   methodologyNote:

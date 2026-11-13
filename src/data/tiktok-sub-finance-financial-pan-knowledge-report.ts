@@ -14,10 +14,10 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "panic buying",
@@ -27,25 +27,18 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["MY", "PH", "ID", "GB"],
     },
     {
-      topic: "side hustles for beginners",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 12249,
-      topCountries: ["BR", "IT", "NG", "PH", "CA"],
-    },
-    {
-      topic: "passive income for beginners",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 4158,
-      topCountries: ["BR", "IT", "NG", "GH", "PK"],
-    },
-    {
       topic: "how to save and invest money",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1486,
-      topCountries: ["KE", "GH", "NG", "PH", "ZA"],
+      topCountries: ["US", "KE", "GH", "NG", "PH"],
+    },
+    {
+      topic: "passive income for beginners",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 4158,
+      topCountries: ["BR", "IT", "NG", "GH", "PK"],
     },
     {
       topic: "BillionaireMindset",
@@ -55,6 +48,13 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "NG", "ID", "ZA"],
     },
     {
+      topic: "FinancialEducation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1073,
+      topCountries: ["US", "NG", "ZA", "ID"],
+    },
+    {
       topic: "small business marketing",
       growthMultiplier: 2,
       trust: "high",
@@ -62,11 +62,11 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["AU", "MD", "BR", "MY", "NG"],
     },
     {
-      topic: "FinancialEducation",
+      topic: "side hustles for beginners",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1073,
-      topCountries: ["US", "NG", "ZA", "ID"],
+      videoNum: 12249,
+      topCountries: ["BR", "IT", "NG", "PH", "CA"],
     },
     {
       topic: "How To Start A Small Business",
@@ -76,18 +76,18 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "KE", "PH", "UG", "ZA"],
     },
     {
-      topic: "From zero to first small sale",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "BR", "US", "PH"],
-    },
-    {
       topic: "digital marketing company",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1212,
       topCountries: ["NG", "ET", "PK", "MM", "SA"],
+    },
+    {
+      topic: "From zero to first small sale",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "BR", "US", "PH"],
     },
   ],
   methodologyNote:

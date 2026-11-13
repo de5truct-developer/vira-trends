@@ -14,14 +14,14 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "prada villain runway",
-      growthMultiplier: 13,
+      growthMultiplier: 10,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "PH", "FR"],
@@ -39,6 +39,13 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       trust: "high",
       videoNum: 753,
       topCountries: ["US", "AU", "CA", "PH", "BR"],
+    },
+    {
+      topic: "FashionShow",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1213,
+      topCountries: ["US", "VN", "SA", "PH", "TH"],
     },
     {
       topic: "RunwayFashion",
@@ -73,7 +80,7 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1156,
-      topCountries: ["ID", "BR", "PH", "NG", "TH"],
+      topCountries: ["ID", "BR", "PH", "NG", "VN"],
     },
     {
       topic: "vivet fashion show",
@@ -81,13 +88,6 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "PH", "ZA", "AU"],
-    },
-    {
-      topic: "What to pack for a pageant fan event",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "JP", "KR", "TW"],
     },
   ],
   methodologyNote:

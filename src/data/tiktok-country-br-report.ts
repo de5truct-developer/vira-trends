@@ -10,16 +10,16 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const brCountryReport: TikTokCountryReport = {
   country: "Brazil",
   countryCode: "BR",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "kurage sirena",
       category: "Science Knowledge",
       subcategory: "Biology Knowledge",
-      growthMultiplier: 540,
+      growthMultiplier: 527,
       trust: "high",
       videoNum: 970,
       topCountries: ["MX", "BR", "CO", "PE", "AR"],
@@ -67,7 +67,7 @@ export const brCountryReport: TikTokCountryReport = {
       growthMultiplier: 31,
       trust: "high",
       videoNum: 871,
-      topCountries: ["US", "MX", "PH", "GB", "BR"],
+      topCountries: ["US", "MX", "PH", "BR", "GB"],
     },
     {
       topic: "ronaldinho fake passport",
@@ -85,7 +85,7 @@ export const brCountryReport: TikTokCountryReport = {
       growthMultiplier: 21,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "ID", "BR", "MX"],
+      topCountries: ["US", "PH", "BR", "MX", "ID"],
     },
     {
       topic: "aston martins",
@@ -110,6 +110,6 @@ export const brCountryReport: TikTokCountryReport = {
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "kurage sirena",
-    audience: "unknown 18-24, Mexico (dominant segment, snapshot at collection date)",
+    audience: "unknown 25-34, Mexico (dominant segment, snapshot at collection date)",
   },
 };

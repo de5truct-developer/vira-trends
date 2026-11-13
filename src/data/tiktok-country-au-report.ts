@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const auCountryReport: TikTokCountryReport = {
   country: "Australia",
   countryCode: "AU",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "Code rot",
@@ -23,6 +23,15 @@ export const auCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 816,
       topCountries: ["US", "GB", "CA", "PH", "AU"],
+    },
+    {
+      topic: "togi mini trucks",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
+      growthMultiplier: 72,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MY", "ID", "AU"],
     },
     {
       topic: "dax shepard and kristen bell",
@@ -94,15 +103,6 @@ export const auCountryReport: TikTokCountryReport = {
       growthMultiplier: 25,
       trust: "high",
       videoNum: 590,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "blue hair celebrity transformation trends",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 25,
-      trust: "high",
-      videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
   ],

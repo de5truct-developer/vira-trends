@@ -14,10 +14,10 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-22",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "ashika tamang eating meat",
@@ -27,8 +27,15 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["NP", "AE", "JP", "IN"],
     },
     {
+      topic: "gehlee eating",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 690,
+      topCountries: ["PH", "SA", "MY", "TR", "AE"],
+    },
+    {
       topic: "FoodieCouple",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "BR", "NP", "PK"],
@@ -38,7 +45,14 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "MY", "BR"],
+      topCountries: ["PH", "ID", "MY", "VN"],
+    },
+    {
+      topic: "she's saved left over food for her poor parents p2",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ID", "MY", "GH", "NG"],
     },
     {
       topic: "when a food spot disappoints badly",
@@ -46,20 +60,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 421,
       topCountries: ["VN", "JP", "EG", "KR"],
-    },
-    {
-      topic: "FoodEatingShow",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 817,
-      topCountries: ["ID", "TH", "MY", "MM"],
-    },
-    {
-      topic: "viral team eating mishap videos",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 348,
-      topCountries: ["BD", "MM", "ID", "IQ"],
     },
     {
       topic: "too many cooks",
@@ -76,11 +76,11 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "PH", "GB", "CA", "AU"],
     },
     {
-      topic: "she's saved left over food for her poor parents p2",
+      topic: "Giving Homeless People Food",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ID", "MY", "NP", "NG"],
+      videoNum: 1029,
+      topCountries: ["CA", "ID", "MX", "RU", "MY"],
     },
     {
       topic: "packing bag essentials and preparation",

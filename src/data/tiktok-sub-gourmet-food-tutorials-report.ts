@@ -14,10 +14,10 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-24",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "cam hot chocolate upside down",
@@ -28,7 +28,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "alisha_momof4 low budget meals",
-      growthMultiplier: 103,
+      growthMultiplier: 106,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "ZA", "DZ"],
@@ -38,14 +38,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 84,
       trust: "high",
       videoNum: 435,
-      topCountries: ["BR", "MX", "RU", "PE", "ID"],
-    },
-    {
-      topic: "smoodie original",
-      growthMultiplier: 48,
-      trust: "high",
-      videoNum: 678,
-      topCountries: ["US", "GB", "CA", "IE", "AU"],
+      topCountries: ["BR", "MX", "RU", "PE", "AR"],
     },
     {
       topic: "this is a smoothie",
@@ -55,11 +48,11 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "IE", "AU"],
     },
     {
-      topic: "greys anatomy cookies",
-      growthMultiplier: 20,
+      topic: "smoodie original",
+      growthMultiplier: 36,
       trust: "high",
-      videoNum: 798,
-      topCountries: ["US", "PH", "CA", "GB", "AU"],
+      videoNum: 678,
+      topCountries: ["US", "GB", "CA", "IE", "AU"],
     },
     {
       topic: "traditional pakistani meals worth reviewing",
@@ -67,13 +60,6 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "US", "GB", "CA", "AU"],
-    },
-    {
-      topic: "simple cooking recipes",
-      growthMultiplier: 14,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BD", "ID", "MM", "PK"],
     },
     {
       topic: "perfect omurice",
@@ -88,6 +74,20 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ID", "GB", "PH", "DE"],
+    },
+    {
+      topic: "simple cooking recipes",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BD", "ID", "MM", "PK"],
+    },
+    {
+      topic: "Easter egg video trends",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "UG", "PK", "NP"],
     },
   ],
   methodologyNote:

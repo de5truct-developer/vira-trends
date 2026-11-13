@@ -14,18 +14,11 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
-    {
-      topic: "thriller dance original",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: 613,
-      topCountries: ["MX", "PE", "CO", "BR", "AU"],
-    },
     {
       topic: "Ateez bad dance",
       growthMultiplier: 10,
@@ -35,7 +28,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "rotten to the core dance",
-      growthMultiplier: 9,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "MX", "FR", "BR"],
@@ -45,7 +38,14 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "MX", "PK", "CA"],
+      topCountries: ["US", "GB", "MX", "PK", "AU"],
+    },
+    {
+      topic: "thriller dance original",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 613,
+      topCountries: ["MX", "PE", "CO", "BR", "AU"],
     },
     {
       topic: "1MILLION Judas Dance",
@@ -70,7 +70,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "thriller dance michael jackson",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 914,
       topCountries: ["US", "MX", "PH", "PE", "BR"],
@@ -93,7 +93,7 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "thriller dance original",
-    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
+    topic: "Ateez bad dance",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

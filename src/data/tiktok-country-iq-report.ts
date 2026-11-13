@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const iqCountryReport: TikTokCountryReport = {
   country: "Iraq",
   countryCode: "IQ",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-22",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-25",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "football player physical profile",
@@ -88,6 +88,15 @@ export const iqCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "IQ", "EG", "ZA"],
     },
     {
+      topic: "seungmin birthday 2026",
+      category: "Entertainment",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1175,
+      topCountries: ["IQ", "EG", "PK", "BD"],
+    },
+    {
       topic: "CookingVlog",
       category: "Gourmet",
       subcategory: "Food Tutorials",
@@ -96,20 +105,11 @@ export const iqCountryReport: TikTokCountryReport = {
       videoNum: 2783,
       topCountries: ["BD", "MM", "PK", "IQ"],
     },
-    {
-      topic: "bts concert arlington",
-      category: "Local Life",
-      subcategory: "Offline Performance",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 10687,
-      topCountries: ["IQ", "ID", "MM", "PH"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "football player physical profile",
-    audience: "male 25-34, Iraq (dominant segment, snapshot at collection date)",
+    audience: "male 25-34, Egypt (dominant segment, snapshot at collection date)",
   },
 };

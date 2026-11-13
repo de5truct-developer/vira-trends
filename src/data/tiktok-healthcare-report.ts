@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-23",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "code rot explained",
@@ -26,7 +26,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "why cant a pregant woman sleep on her back",
       subcategory: "Modern Medicine",
-      growthMultiplier: 239,
+      growthMultiplier: 185,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "JM", "CA", "NG"],
@@ -34,7 +34,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "rhinophyma before after",
       subcategory: "Cosmetic Medicine",
-      growthMultiplier: 103,
+      growthMultiplier: 30,
       trust: "high",
       videoNum: 895,
       topCountries: ["US", "GB", "AU", "CA", "IE"],
@@ -42,18 +42,18 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "cold fear",
       subcategory: "Modern Medicine",
-      growthMultiplier: 9,
+      growthMultiplier: 10,
       trust: "high",
       videoNum: 438,
       topCountries: ["AR", "MX", "PE", "CO", "EC"],
     },
     {
-      topic: "nasal stick inhaler",
+      topic: "Sleep Cycle",
       subcategory: "Pan-health",
-      growthMultiplier: 6,
+      growthMultiplier: 7,
       trust: "high",
-      videoNum: 1199,
-      topCountries: ["MY", "PH", "GB", "ID"],
+      videoNum: 977,
+      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
     },
     {
       topic: "Marlon skull cap",
@@ -64,12 +64,12 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "GB", "AU", "CA", "ZA"],
     },
     {
-      topic: "Sleep Cycle",
+      topic: "nasal stick inhaler",
       subcategory: "Pan-health",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 977,
-      topCountries: ["MX", "BR", "CA", "SA", "DZ"],
+      videoNum: 1199,
+      topCountries: ["MY", "PH", "GB", "ID"],
     },
     {
       topic: "natural aging",
@@ -88,12 +88,12 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["ZA", "KE", "NG", "ZW"],
     },
     {
-      topic: "nastia hospital",
-      subcategory: "Modern Medicine",
+      topic: "period xeto garaune idea",
+      subcategory: "Pan-health",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 112,
-      topCountries: ["US", "BR", "PH", "VN"],
+      videoNum: null,
+      topCountries: ["NP", "JP", "AE", "AU", "IN"],
     },
   ],
   methodologyNote:

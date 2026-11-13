@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-24",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-25",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "microduck robot",
@@ -34,18 +34,18 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "MX", "PY", "KE"],
     },
     {
-      topic: "what a power station can run",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["UG", "AE", "SA", "KE"],
-    },
-    {
       topic: "robot microsoft button press",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 27008,
       topCountries: ["US", "MX", "VN", "TH", "GB"],
+    },
+    {
+      topic: "what a power station can run",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["UG", "AE", "SA", "KE"],
     },
     {
       topic: "pursuer vs flashlight",
@@ -55,18 +55,11 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "BR", "ID", "CL", "VN"],
     },
     {
-      topic: "top box circle",
+      topic: "HVAC Tech",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 477,
-      topCountries: ["DO", "CA", "GE", "MX", "DM"],
-    },
-    {
-      topic: "Visual breakdown of coding patterns",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "KE", "CA", "LK"],
+      videoNum: 2478,
+      topCountries: ["US", "CA", "PH", "NG", "BR"],
     },
     {
       topic: "Top electronics for a first home",
@@ -88,6 +81,13 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 864,
       topCountries: ["PH", "ZA", "CA", "AU", "ID"],
+    },
+    {
+      topic: "wild future tech we may actually get",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 128,
+      topCountries: ["US", "MX", "CO", "AR"],
     },
   ],
   methodologyNote:

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const thCountryReport: TikTokCountryReport = {
   country: "Thailand",
   countryCode: "TH",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "cyberpunkedgerunners2",
@@ -70,6 +70,15 @@ export const thCountryReport: TikTokCountryReport = {
       topCountries: ["PH", "MX", "ID", "ES", "TH"],
     },
     {
+      topic: "loveindisguise",
+      category: "Entertainment",
+      subcategory: "Films and TVs",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: 5247,
+      topCountries: ["ID", "VN", "MY", "PH", "TH"],
+    },
+    {
       topic: "famous by mozzy tutorial",
       category: "Dance",
       subcategory: "Dance Tutorial",
@@ -86,15 +95,6 @@ export const thCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 801,
       topCountries: ["PH", "GB", "CA", "ID", "TH"],
-    },
-    {
-      topic: "loveindisguise",
-      category: "Entertainment",
-      subcategory: "Films and TVs",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: 5247,
-      topCountries: ["ID", "VN", "MY", "PH", "TH"],
     },
     {
       topic: "robot microsoft button press",

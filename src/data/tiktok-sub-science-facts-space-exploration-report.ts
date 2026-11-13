@@ -14,11 +14,18 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-24",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-25",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
+    {
+      topic: "captain underparents in space",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: 245,
+      topCountries: ["PH", "CA", "BR", "MY", "ID"],
+    },
     {
       topic: "elon musk mars",
       growthMultiplier: 2,
@@ -73,13 +80,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 0,
       trust: "high",
       videoNum: null,
-      topCountries: ["RU", "MX", "BR", "KZ", "AR"],
+      topCountries: ["US", "RU", "MX", "BR", "KZ"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "elon musk mars",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "captain underparents in space",
+    audience: "unknown 18-24, Canada (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "why do doctors walk backwards in the theater",
@@ -28,7 +28,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "wilsons surgrey for kid grey anatomy",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB"],

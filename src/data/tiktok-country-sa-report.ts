@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const saCountryReport: TikTokCountryReport = {
   country: "Saudi Arabia",
   countryCode: "SA",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "cam hot chocolate upside down",

@@ -14,17 +14,17 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
-      topic: "the aberfan disaster 1956",
-      growthMultiplier: 3,
+      topic: "custodes",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: 433,
-      topCountries: ["US"],
+      videoNum: 471,
+      topCountries: ["MX", "PH", "VN", "MY", "TH"],
     },
     {
       topic: "leroy jenkins references",
@@ -34,18 +34,11 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "DE", "PL", "SE", "NL"],
     },
     {
-      topic: "custodes",
+      topic: "the aberfan disaster 1956",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 471,
-      topCountries: ["MX", "PH", "VN", "MY", "TH"],
-    },
-    {
-      topic: "Morgan family",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["ZA", "ID", "JM", "GB", "TT"],
+      videoNum: 433,
+      topCountries: ["US", "PR", "GU", "AS"],
     },
     {
       topic: "The war",
@@ -55,6 +48,13 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["TR", "NG", "IQ", "AU", "GB"],
     },
     {
+      topic: "Morgan family",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["ZA", "ID", "JM", "GB", "TT"],
+    },
+    {
       topic: "odysseus stringing his bow scene",
       growthMultiplier: 1,
       trust: "high",
@@ -62,18 +62,18 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "CA", "AU"],
     },
     {
-      topic: "Jewish identity and people",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 768,
-      topCountries: ["GB", "GH", "PH", "NG", "SA"],
-    },
-    {
       topic: "london british part to 2 3 4 4568 next",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 917,
       topCountries: ["PK", "NP", "ID", "AE"],
+    },
+    {
+      topic: "Jewish identity and people",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 768,
+      topCountries: ["GB", "GH", "PH", "NG", "SA"],
     },
     {
       topic: "what happened to suchomimus",
@@ -93,7 +93,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the aberfan disaster 1956",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "custodes",
+    audience: "male 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

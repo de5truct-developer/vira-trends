@@ -14,24 +14,17 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "illuminate explained",
-      growthMultiplier: 469,
+      growthMultiplier: 1223,
       trust: "high",
       videoNum: 529,
       topCountries: ["US", "GB", "CA", "DE", "NL"],
-    },
-    {
-      topic: "karma for bad people",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: 503,
-      topCountries: ["PH", "ZA", "MY", "CA"],
     },
     {
       topic: "houthis explained",
@@ -46,6 +39,13 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NG", "PH", "GH"],
+    },
+    {
+      topic: "karma for bad people",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 503,
+      topCountries: ["PH", "ZA", "MY", "CA"],
     },
     {
       topic: "يبجي الولد وشكاك ذيالي",
@@ -65,7 +65,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topic: "traditional folklore stories and legends",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 777,
+      videoNum: 783,
       topCountries: ["ZA", "NG", "PH", "GH"],
     },
     {
@@ -76,18 +76,18 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "SA", "EG", "LY"],
     },
     {
-      topic: "thai people",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["TH", "PH", "MY", "ID", "AU"],
-    },
-    {
       topic: "sweet and romantic Arabic poetry",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1167,
       topCountries: ["IQ", "TR", "SA", "EG"],
+    },
+    {
+      topic: "thai people",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["TH", "PH", "MY", "ID", "AU"],
     },
   ],
   methodologyNote:

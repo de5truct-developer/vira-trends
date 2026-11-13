@@ -14,10 +14,10 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-26",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "the most handsome man according to science",
@@ -41,13 +41,6 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["SA", "IQ", "DZ", "EG"],
     },
     {
-      topic: "the most beautiful woman in science",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 5378,
-      topCountries: ["US", "GB", "CA", "DE", "PH"],
-    },
-    {
       topic: "Latino man",
       growthMultiplier: 1,
       trust: "high",
@@ -55,18 +48,18 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["CA", "ID", "PH", "AU", "TH"],
     },
     {
+      topic: "the most beautiful woman in science",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 5378,
+      topCountries: ["US", "GB", "CA", "DE", "PH"],
+    },
+    {
       topic: "mexican men",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 869,
-      topCountries: ["PH", "MX", "ZA", "ID", "CA"],
-    },
-    {
-      topic: "Latino men",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 886,
-      topCountries: ["CA", "PH", "AU", "ZA", "BR"],
+      topCountries: ["US", "PH", "MX", "ZA", "ID"],
     },
     {
       topic: "beautiful woman science",
@@ -74,6 +67,13 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       trust: "high",
       videoNum: 297,
       topCountries: ["US", "PH", "CA", "ZA", "MY"],
+    },
+    {
+      topic: "Latino men",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 886,
+      topCountries: ["CA", "PH", "AU", "ZA", "BR"],
     },
     {
       topic: "saudi girls",

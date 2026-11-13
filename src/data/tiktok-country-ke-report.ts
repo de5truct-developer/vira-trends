@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const keCountryReport: TikTokCountryReport = {
   country: "Kenya",
   countryCode: "KE",
-  computedAt: "2026-11-11T07:55:59Z",
+  computedAt: "2026-11-12T09:07:45Z",
   windowStart: "2026-09-25",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "kenya high national school",
@@ -97,13 +97,13 @@ export const keCountryReport: TikTokCountryReport = {
       topCountries: ["NG", "KE", "CD", "ZM", "TZ"],
     },
     {
-      topic: "teen beauty workshop ideas",
-      category: "Local Life",
-      subcategory: "Life Services",
+      topic: "chelsea fans reaction today",
+      category: "Sports",
+      subcategory: "Physical Sports",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: null,
-      topCountries: ["KE", "NG", "SA", "AE"],
+      videoNum: 861,
+      topCountries: ["NG", "KE", "ZA", "GH", "ET"],
     },
   ],
   methodologyNote:

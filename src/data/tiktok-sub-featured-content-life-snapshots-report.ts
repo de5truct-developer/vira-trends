@@ -14,10 +14,10 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-11T07:55:59Z",
-  windowStart: "2026-09-22",
-  windowEnd: "2026-11-05",
-  updatedAt: "2026-11-12",
+  computedAt: "2026-11-12T09:07:45Z",
+  windowStart: "2026-09-24",
+  windowEnd: "2026-11-06",
+  updatedAt: "2026-11-13",
   topics: [
     {
       topic: "he rides his bike with his husband everyday",
@@ -41,6 +41,13 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "US", "PH", "CA"],
     },
     {
+      topic: "school morning routine for girls",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 365,
+      topCountries: ["ZA", "PK", "ET", "KE"],
+    },
+    {
       topic: "my type of lifestyle",
       growthMultiplier: 2,
       trust: "high",
@@ -48,11 +55,11 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topCountries: ["DE", "PL", "PK", "MM", "FR"],
     },
     {
-      topic: "DailyVlogInMyLife",
+      topic: "day in my life vlog template",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1232,
-      topCountries: ["ZA", "MM", "ID", "ET"],
+      videoNum: 22549,
+      topCountries: ["PK", "ZA", "NG", "ID"],
     },
     {
       topic: "Vlog Tips",
@@ -62,25 +69,18 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "RU", "JP", "BR", "BY"],
     },
     {
-      topic: "travel vlog tutorial",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 3337,
-      topCountries: ["NG", "PK", "PH", "MM", "MY"],
-    },
-    {
-      topic: "school morning routine for girls",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 365,
-      topCountries: ["ZA", "PK", "ET", "KE"],
-    },
-    {
       topic: "first mini vlog ideas",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 4499,
       topCountries: ["PK", "NP", "PH", "JP"],
+    },
+    {
+      topic: "DailyVlogInMyLife",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1232,
+      topCountries: ["ZA", "MM", "ID", "ET"],
     },
     {
       topic: "quiet life vlog",
@@ -94,6 +94,6 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "he rides his bike with his husband everyday",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    audience: "not enough audience data for this topic",
   },
 };
