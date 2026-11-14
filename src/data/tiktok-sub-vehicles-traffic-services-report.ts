@@ -14,10 +14,10 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "roadless rule",
@@ -41,20 +41,6 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "DE"],
     },
     {
-      topic: "what is tsa",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 527,
-      topCountries: ["PH", "ZA", "CA", "GH", "NG"],
-    },
-    {
-      topic: "subway seat dispute resolution",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "JM", "ID", "ZA"],
-    },
-    {
       topic: "Touchless Car Wash",
       growthMultiplier: 2,
       trust: "high",
@@ -69,11 +55,18 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "MY", "GB"],
     },
     {
-      topic: "Earle Industries",
+      topic: "boeing 737 sepheran airlines",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1222,
+      topCountries: ["ID", "MY", "MX", "US", "TH"],
+    },
+    {
+      topic: "subway seat dispute resolution",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["CA", "AU", "NZ", "PH", "MX"],
+      topCountries: ["US", "PH", "JM", "ID", "ZA"],
     },
     {
       topic: "chevy cobalt gas station",
@@ -83,11 +76,18 @@ export const vehiclesTrafficServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PR", "GU", "AS", "VI"],
     },
     {
-      topic: "how i packed for a 72-mile trek",
+      topic: "truck driving experience",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 289,
+      topCountries: ["ID", "IQ", "MM", "PK", "ZA"],
+    },
+    {
+      topic: "what i pack for comfort in transit",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "MX", "ID", "CO", "CA"],
+      topCountries: ["ID", "FR", "US", "VN", "PH"],
     },
   ],
   methodologyNote:

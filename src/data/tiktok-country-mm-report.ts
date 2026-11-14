@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const mmCountryReport: TikTokCountryReport = {
   country: "Myanmar",
   countryCode: "MM",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "dress cutting mistakes to avoid",
@@ -28,7 +28,7 @@ export const mmCountryReport: TikTokCountryReport = {
       topic: "hdr video",
       category: "Personal Interests and Hobbies",
       subcategory: "Visual related Interests",
-      growthMultiplier: 102,
+      growthMultiplier: 80,
       trust: "high",
       videoNum: 1597,
       topCountries: ["EG", "TH", "SA", "MM", "RU"],
@@ -43,22 +43,13 @@ export const mmCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "MM", "PH", "MY", "KH"],
     },
     {
-      topic: "the lament of autumn ending",
-      category: "ACGN",
-      subcategory: "Animation and Comics",
-      growthMultiplier: 39,
-      trust: "high",
-      videoNum: 974,
-      topCountries: ["ID", "PH", "KH", "MY", "MM"],
-    },
-    {
       topic: "content creation insights for 2026",
       category: "Science and Technology",
       subcategory: "Internet",
       growthMultiplier: 36,
       trust: "high",
       videoNum: 41917,
-      topCountries: ["KZ", "MM", "NP", "DE", "VE"],
+      topCountries: ["KZ", "MM", "US", "NP", "DE"],
     },
     {
       topic: "shortdramareview 2 3 4 5 6 7 8 9 10",
@@ -104,6 +95,15 @@ export const mmCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 581,
       topCountries: ["ID", "PH", "MY", "MM", "BR"],
+    },
+    {
+      topic: "i love real madrid",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 1465,
+      topCountries: ["MM", "ID", "VN", "ZA", "TH"],
     },
   ],
   methodologyNote:

@@ -14,17 +14,17 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "butler pennsylvania",
       growthMultiplier: 27,
       trust: "high",
       videoNum: 382,
-      topCountries: ["PH", "ID", "MY", "EG", "CA"],
+      topCountries: ["PH", "US", "MY", "ID", "CA"],
     },
     {
       topic: "cistern",
@@ -83,11 +83,11 @@ export const tourismAdministrativeDivisionSubReport: TikTokSubcategoryReport = {
       topCountries: ["ET", "PH", "ZA", "NG", "AE"],
     },
     {
-      topic: "legree oregon state",
-      growthMultiplier: 2,
+      topic: "sylvan grove kansas",
+      growthMultiplier: 3,
       trust: "high",
-      videoNum: 269,
-      topCountries: ["US"],
+      videoNum: null,
+      topCountries: ["US", "SA", "ID", "TH", "MX"],
     },
   ],
   methodologyNote:

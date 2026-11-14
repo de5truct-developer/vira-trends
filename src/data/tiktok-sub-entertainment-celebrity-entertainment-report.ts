@@ -14,10 +14,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -42,17 +42,10 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
     },
     {
       topic: "emmy rossum and justin siegel",
-      growthMultiplier: 650,
+      growthMultiplier: 636,
       trust: "high",
       videoNum: 758,
       topCountries: ["US", "CA", "AU", "ZA", "NZ"],
-    },
-    {
-      topic: "dax shepard and kristen bell",
-      growthMultiplier: 514,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "US", "AU", "PL"],
     },
     {
       topic: "kim kardashian magazine cover",
@@ -87,7 +80,14 @@ export const entertainmentCelebrityEntertainmentSubReport: TikTokSubcategoryRepo
       growthMultiplier: 90,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "ZA", "PH", "AU"],
+      topCountries: ["US", "GB", "PH", "ZA", "AU"],
+    },
+    {
+      topic: "the rock megan thee stallion",
+      growthMultiplier: 80,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "CA", "KE", "NG"],
     },
   ],
   methodologyNote:

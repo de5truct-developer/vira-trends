@@ -14,18 +14,11 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
-    {
-      topic: "james brown footwork",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 358,
-      topCountries: ["US", "BR", "ZA", "PH", "CA"],
-    },
     {
       topic: "best moments at psy summer swag 2026",
       growthMultiplier: 1,
@@ -52,7 +45,14 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 610,
-      topCountries: ["US", "PH", "ID", "MY", "BR"],
+      topCountries: ["PH", "US", "ID", "MY", "BR"],
+    },
+    {
+      topic: "james brown footwork",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 358,
+      topCountries: ["US", "BR", "ZA", "PH", "CA"],
     },
     {
       topic: "james brown moonwalk",
@@ -93,7 +93,7 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "james brown footwork",
-    audience: "unknown 25-34, South Africa (dominant segment, snapshot at collection date)",
+    topic: "best moments at psy summer swag 2026",
+    audience: "female 18-24, Indonesia (dominant segment, snapshot at collection date)",
   },
 };

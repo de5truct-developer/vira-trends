@@ -14,10 +14,10 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "funny video part 1 2 4",
@@ -34,18 +34,18 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PK", "NG", "ID", "BD"],
     },
     {
-      topic: "viral tiktok comedy",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 31798,
-      topCountries: ["NG", "SN", "ID", "BR"],
-    },
-    {
       topic: "funny video part and 2 and 3 and 4",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 542,
       topCountries: ["PK", "NG", "ID", "NP"],
+    },
+    {
+      topic: "viral tiktok comedy",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 31798,
+      topCountries: ["NG", "SN", "ID", "BR"],
     },
     {
       topic: "most funny pranks of all time",
@@ -83,11 +83,11 @@ export const featuredContentPerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ZA", "PK", "KE"],
     },
     {
-      topic: "khizeromerfunnyvideo",
+      topic: "vicky kodu funny clip",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 594,
-      topCountries: ["PK", "NP", "SA", "AE"],
+      videoNum: 413,
+      topCountries: ["PK", "AE", "SA", "MY"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "harrison novak sorority",
@@ -25,13 +25,6 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "GB", "PH"],
-    },
-    {
-      topic: "vdm school project",
-      growthMultiplier: 187,
-      trust: "high",
-      videoNum: 594,
-      topCountries: ["NG", "GH", "GB", "CM"],
     },
     {
       topic: "jj day 1 mpls",
@@ -73,14 +66,14 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 61616,
-      topCountries: ["BR", "MX", "FR", "DE", "GB"],
+      topCountries: ["US", "BR", "FR", "DE", "IT"],
     },
     {
       topic: "african teacher telling students to talk",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 441,
-      topCountries: ["US", "PH", "MY", "SA", "GB"],
+      topCountries: ["US", "PH", "GB", "MY", "SA"],
     },
     {
       topic: "exam care package",
@@ -88,6 +81,13 @@ export const educationCampusLifeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 621,
       topCountries: ["ZA", "BW", "ZM", "NA"],
+    },
+    {
+      topic: "parenthood haddie college",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "IT", "IE"],
     },
   ],
   methodologyNote:

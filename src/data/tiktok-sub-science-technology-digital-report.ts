@@ -14,18 +14,11 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
-    {
-      topic: "dynamic bar iphone",
-      growthMultiplier: 402,
-      trust: "high",
-      videoNum: 897,
-      topCountries: ["US", "ID", "PH", "ZA"],
-    },
     {
       topic: "Bang and Olufsen audio products",
       growthMultiplier: 186,
@@ -56,7 +49,7 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "16k 240fps camera",
-      growthMultiplier: 10,
+      growthMultiplier: 9,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MX", "BR", "VN", "TH"],
@@ -89,11 +82,18 @@ export const scienceTechnologyDigitalSubReport: TikTokSubcategoryReport = {
       videoNum: 136,
       topCountries: ["GB", "DE", "FR", "NL", "CA"],
     },
+    {
+      topic: "oppo find x10 pro max precio",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PE", "CO", "EC"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "dynamic bar iphone",
+    topic: "Bang and Olufsen audio products",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

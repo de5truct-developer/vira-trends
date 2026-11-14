@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const usCountryReport: TikTokCountryReport = {
   country: "United States",
   countryCode: "US",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "max costme",
@@ -43,6 +43,15 @@ export const usCountryReport: TikTokCountryReport = {
       topCountries: ["US", "PH", "GB"],
     },
     {
+      topic: "healthcare entrepreneur",
+      category: "Workplace",
+      subcategory: "Special Work Types",
+      growthMultiplier: 41,
+      trust: "high",
+      videoNum: 156,
+      topCountries: ["US", "CA", "ZA", "KH", "MY"],
+    },
+    {
       topic: "2 pack christmas tree",
       category: "Household",
       subcategory: "Home Life",
@@ -70,6 +79,15 @@ export const usCountryReport: TikTokCountryReport = {
       topCountries: ["GB", "AU", "CA", "PH"],
     },
     {
+      topic: "note reading practice",
+      category: "Education",
+      subcategory: "Education - Others",
+      growthMultiplier: 27,
+      trust: "high",
+      videoNum: 120,
+      topCountries: ["US", "PH", "ID", "MY", "JP"],
+    },
+    {
       topic: "budget acne care for college students",
       category: "Fashion",
       subcategory: "Fashion Tutorials",
@@ -79,15 +97,6 @@ export const usCountryReport: TikTokCountryReport = {
       topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
     {
-      topic: "note reading practice",
-      category: "Education",
-      subcategory: "Education - Others",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 120,
-      topCountries: ["US", "PH", "ID", "MY", "JP"],
-    },
-    {
       topic: "mask off culture trend",
       category: "TikTok's Featured Content",
       subcategory: "Trends/Challenges",
@@ -95,15 +104,6 @@ export const usCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "PH", "GB"],
-    },
-    {
-      topic: "christmas treats ideas",
-      category: "Gourmet",
-      subcategory: "Food Festivals/Activities",
-      growthMultiplier: 18,
-      trust: "high",
-      videoNum: 563,
-      topCountries: ["PH", "GB", "CA", "AU", "ZA"],
     },
   ],
   methodologyNote:

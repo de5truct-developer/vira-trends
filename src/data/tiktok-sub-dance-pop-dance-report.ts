@@ -14,10 +14,10 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Ateez bad dance",
@@ -41,13 +41,6 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "MX", "PK", "AU"],
     },
     {
-      topic: "thriller dance original",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 613,
-      topCountries: ["MX", "PE", "CO", "BR", "AU"],
-    },
-    {
       topic: "1MILLION Judas Dance",
       growthMultiplier: 8,
       trust: "high",
@@ -60,6 +53,13 @@ export const dancePopDanceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 638,
       topCountries: ["PH", "MX", "BR", "PE", "CO"],
+    },
+    {
+      topic: "thriller dance original",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 613,
+      topCountries: ["MX", "PE", "CO", "BR", "AU"],
     },
     {
       topic: "yes or yes dance",

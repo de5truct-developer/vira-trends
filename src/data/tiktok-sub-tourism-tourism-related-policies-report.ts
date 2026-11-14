@@ -14,10 +14,10 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "saudi arabia passport",
@@ -34,6 +34,13 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["AE", "PK", "UG", "KE"],
     },
     {
+      topic: "what is j1 visa",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 459,
+      topCountries: ["PH", "PK", "KE", "ID", "ZA"],
+    },
+    {
       topic: "key documents for visa applications",
       growthMultiplier: 2,
       trust: "high",
@@ -41,18 +48,18 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["IR", "AF", "TR", "DE"],
     },
     {
+      topic: "korea e arrival card",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 289,
+      topCountries: ["PH", "SG", "ID", "MY", "AU"],
+    },
+    {
       topic: "immigration europe",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "SA", "TR", "ID", "IQ"],
-    },
-    {
-      topic: "korea e arrival card",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 289,
-      topCountries: ["PH", "SG", "ID", "MY", "AU"],
     },
     {
       topic: "emigration",
@@ -80,14 +87,7 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 385,
-      topCountries: ["GB", "NG", "PK", "ID"],
-    },
-    {
-      topic: "uk e-visa updates applicants should know",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "NG", "PK", "ID"],
+      topCountries: ["GB", "ID", "PK", "NG"],
     },
   ],
   methodologyNote:

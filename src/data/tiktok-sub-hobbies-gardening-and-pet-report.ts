@@ -14,10 +14,10 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "flame point cat breed traits",
@@ -35,7 +35,7 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "grow bananas in the garden 2 part",
-      growthMultiplier: 32,
+      growthMultiplier: 25,
       trust: "high",
       videoNum: 1146,
       topCountries: ["ZA", "NG", "KE", "GH"],
@@ -53,13 +53,6 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 623,
       topCountries: ["TH", "ID", "PH", "VN", "MY"],
-    },
-    {
-      topic: "misfitbite minku",
-      growthMultiplier: 9,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "BR", "MX", "VN"],
     },
     {
       topic: "A Street Cat Named Bob",
@@ -88,6 +81,13 @@ export const hobbiesGardeningAndPetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 899,
       topCountries: ["US", "CA", "AU", "GB", "PH"],
+    },
+    {
+      topic: "golden retriever parte 2",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 570,
+      topCountries: ["MX", "CO", "PE", "AR"],
     },
   ],
   methodologyNote:

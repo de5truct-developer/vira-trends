@@ -14,10 +14,10 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "julia stiles dedication night",
@@ -48,13 +48,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PR", "CA", "AU"],
     },
     {
-      topic: "EverybodysBigBrother",
-      growthMultiplier: 147,
-      trust: "high",
-      videoNum: 257,
-      topCountries: ["US", "GB", "CA", "AU", "DE"],
-    },
-    {
       topic: "well bertha i was wondering",
       growthMultiplier: 118,
       trust: "high",
@@ -69,13 +62,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "DE", "GB", "FR", "IT"],
     },
     {
-      topic: "minimum wage netflix",
-      growthMultiplier: 61,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
-    {
       topic: "what happened to jane doe",
       growthMultiplier: 41,
       trust: "high",
@@ -88,6 +74,20 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 5247,
       topCountries: ["ID", "VN", "MY", "PH", "TH"],
+    },
+    {
+      topic: "the lament of autumn",
+      growthMultiplier: 24,
+      trust: "high",
+      videoNum: 2804,
+      topCountries: ["ID", "MM", "PH", "MY", "KH"],
+    },
+    {
+      topic: "harper jealous of yolanda",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "PH", "AU", "CA"],
     },
   ],
   methodologyNote:

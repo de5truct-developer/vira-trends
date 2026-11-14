@@ -14,11 +14,18 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "logan lerman outfit",
+      growthMultiplier: 2692,
+      trust: "high",
+      videoNum: 891,
+      topCountries: ["US", "CR", "CA", "PE", "GT"],
+    },
     {
       topic: "rob kardashian fashion style",
       growthMultiplier: 1521,
@@ -34,13 +41,6 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "GB", "MX", "AU", "ZA"],
     },
     {
-      topic: "heidi klum outfits",
-      growthMultiplier: 827,
-      trust: "high",
-      videoNum: 6048,
-      topCountries: ["ID", "US", "PH", "BR", "MY"],
-    },
-    {
       topic: "elsa hosk victoria secret",
       growthMultiplier: 199,
       trust: "high",
@@ -48,18 +48,18 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "MX", "FR"],
     },
     {
+      topic: "sabrina carpenter bikikni",
+      growthMultiplier: 26,
+      trust: "high",
+      videoNum: 354,
+      topCountries: ["GB", "CA", "DE", "PH", "MY"],
+    },
+    {
       topic: "barbara palvin plus sized model",
-      growthMultiplier: 41,
+      growthMultiplier: 26,
       trust: "high",
       videoNum: null,
       topCountries: ["TR", "PH", "ID", "GB", "CA"],
-    },
-    {
-      topic: "sabrina carpenter bikikni",
-      growthMultiplier: 19,
-      trust: "high",
-      videoNum: 354,
-      topCountries: ["GB", "CA", "DE", "MY", "PH"],
     },
     {
       topic: "petal ariana grande costume",
@@ -73,7 +73,7 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "CA", "TR", "MY"],
+      topCountries: ["US", "PH", "MX", "CA", "TR"],
     },
     {
       topic: "marilyn manson fashion",
@@ -87,13 +87,13 @@ export const fashionFashionNewsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["NG", "ZA", "GB", "ID", "PH"],
+      topCountries: ["NG", "ZA", "US", "GB", "ID"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "rob kardashian fashion style",
+    topic: "logan lerman outfit",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

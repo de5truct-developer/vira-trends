@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const localLifeReport: TikTokReport = {
   category: "Local Life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -28,7 +28,7 @@ export const localLifeReport: TikTokReport = {
       subcategory: "Shopping",
       growthMultiplier: 1341,
       trust: "high",
-      videoNum: 1111,
+      videoNum: 1095,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
@@ -58,7 +58,7 @@ export const localLifeReport: TikTokReport = {
     {
       topic: "d day experience museum",
       subcategory: "Galleries and Exhibitions",
-      growthMultiplier: 221,
+      growthMultiplier: 199,
       trust: "high",
       videoNum: 353,
       topCountries: ["US", "GB", "MX", "DE", "PH"],
@@ -85,7 +85,7 @@ export const localLifeReport: TikTokReport = {
       growthMultiplier: 68,
       trust: "high",
       videoNum: 553,
-      topCountries: ["FR", "GB", "PH", "IT", "AU"],
+      topCountries: ["FR", "GB", "PH", "AU", "IT"],
     },
     {
       topic: "Best places for budget fashion finds",

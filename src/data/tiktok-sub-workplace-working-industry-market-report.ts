@@ -14,17 +14,17 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "dream job ideas and self-discovery",
       growthMultiplier: 147,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "US", "MX", "ES"],
+      topCountries: ["PH", "MX", "ID", "US", "CO"],
     },
     {
       topic: "actuary",
@@ -34,18 +34,18 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
-      topic: "paid yearly",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "CA", "SE", "NL"],
-    },
-    {
       topic: "salary of underwater welders",
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "PH", "ZA"],
+    },
+    {
+      topic: "paid yearly",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "SE", "NL"],
     },
     {
       topic: "WorkOnlineFromHome",
@@ -87,7 +87,7 @@ export const workplaceWorkingIndustryMarketSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["BR", "IT", "AU", "CA"],
+      topCountries: ["BR", "IT", "AU", "CA", "UG"],
     },
   ],
   methodologyNote:

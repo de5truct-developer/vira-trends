@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const hobbiesReport: TikTokReport = {
   category: "Personal Interests and Hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "banners stickers",
@@ -21,7 +21,7 @@ export const hobbiesReport: TikTokReport = {
       growthMultiplier: 1340,
       trust: "high",
       videoNum: 1178,
-      topCountries: ["MX", "BR", "PH", "AR", "PE"],
+      topCountries: ["MX", "BR", "PH", "AR", "US"],
     },
     {
       topic: "flame point cat breed traits",
@@ -72,14 +72,6 @@ export const hobbiesReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
     {
-      topic: "new color for 2026",
-      subcategory: "Art related Interests",
-      growthMultiplier: 253,
-      trust: "high",
-      videoNum: 685,
-      topCountries: ["US", "PH", "NG", "PK"],
-    },
-    {
       topic: "stickers banner tutorial",
       subcategory: "Other Hobbies",
       growthMultiplier: 186,
@@ -94,6 +86,14 @@ export const hobbiesReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["IT", "NG", "PK", "ZA", "KE"],
+    },
+    {
+      topic: "photo post trend ideas",
+      subcategory: "Visual related Interests",
+      growthMultiplier: 79,
+      trust: "high",
+      videoNum: 4580,
+      topCountries: ["US", "PH", "ID", "MY", "ZA"],
     },
   ],
   methodologyNote:

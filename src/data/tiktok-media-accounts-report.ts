@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const mediaAccountsReport: TikTokReport = {
   category: "Media Accounts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "ryans world",
@@ -32,6 +32,14 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "AU", "DE"],
     },
     {
+      topic: "dailyclips",
+      subcategory: "Personal Media Accounts",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["IQ", "ID", "PH", "DE"],
+    },
+    {
       topic: "EverydayMoments",
       subcategory: "Personal Media Accounts",
       growthMultiplier: 2,
@@ -40,12 +48,12 @@ export const mediaAccountsReport: TikTokReport = {
       topCountries: ["SG", "NG", "NP", "ID"],
     },
     {
-      topic: "dailyclips",
+      topic: "HomemadeHaven",
       subcategory: "Personal Media Accounts",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["IQ", "ID", "PH", "DE"],
+      videoNum: 445,
+      topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
     {
       topic: "CommunityFirst",
@@ -62,14 +70,6 @@ export const mediaAccountsReport: TikTokReport = {
       trust: "high",
       videoNum: 5503,
       topCountries: ["US", "BR", "GB", "TR", "CA"],
-    },
-    {
-      topic: "StayBeautiful",
-      subcategory: "Personal Media Accounts",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1034,
-      topCountries: ["PA", "ET", "ZA", "ID"],
     },
     {
       topic: "GirlBlogging",

@@ -14,10 +14,10 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "you can't rush perfection",
@@ -35,17 +35,17 @@ export const featuredContentTrendsChallengesSubReport: TikTokSubcategoryReport =
     },
     {
       topic: "my weopon type",
-      growthMultiplier: 213,
+      growthMultiplier: 171,
       trust: "high",
       videoNum: 818,
       topCountries: ["US", "FR", "DE", "PL", "GB"],
     },
     {
       topic: "photo slide trend ideas",
-      growthMultiplier: 93,
+      growthMultiplier: 90,
       trust: "high",
       videoNum: 48632,
-      topCountries: ["PH", "ID", "MY", "NG", "ZA"],
+      topCountries: ["PH", "ID", "MY", "ZA", "NG"],
     },
     {
       topic: "mom mom where were you original",

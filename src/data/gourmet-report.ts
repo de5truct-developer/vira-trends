@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const gourmetReport: TikTokReport = {
   category: "Gourmet",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "spicy wings chicken betty",
       subcategory: "Offline Catering",
-      growthMultiplier: 431,
+      growthMultiplier: 722,
       trust: "high",
       videoNum: 3964,
       topCountries: ["US", "PH", "CA", "ID", "AU"],
@@ -30,14 +30,6 @@ export const gourmetReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "CA"],
-    },
-    {
-      topic: "foods review",
-      subcategory: "Offline Catering",
-      growthMultiplier: 256,
-      trust: "high",
-      videoNum: 4244,
-      topCountries: ["US", "VN", "MY", "PH", "ID"],
     },
     {
       topic: "cam hot chocolate upside down",
@@ -53,15 +45,7 @@ export const gourmetReport: TikTokReport = {
       growthMultiplier: 106,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "AU", "ZA", "DZ"],
-    },
-    {
-      topic: "croseed",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 84,
-      trust: "high",
-      videoNum: 435,
-      topCountries: ["BR", "MX", "RU", "PE", "AR"],
+      topCountries: ["US", "AU", "CA", "ZA", "DZ"],
     },
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -70,6 +54,14 @@ export const gourmetReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "IE", "ZA", "PH"],
+    },
+    {
+      topic: "croseed",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 59,
+      trust: "high",
+      videoNum: 435,
+      topCountries: ["BR", "MX", "RU", "PE", "AR"],
     },
     {
       topic: "bretman rock monstera fruit",
@@ -82,7 +74,7 @@ export const gourmetReport: TikTokReport = {
     {
       topic: "this is a smoothie",
       subcategory: "Food Tutorials",
-      growthMultiplier: 45,
+      growthMultiplier: 43,
       trust: "high",
       videoNum: 891,
       topCountries: ["US", "GB", "CA", "IE", "AU"],
@@ -94,6 +86,14 @@ export const gourmetReport: TikTokReport = {
       trust: "high",
       videoNum: 678,
       topCountries: ["US", "GB", "CA", "IE", "AU"],
+    },
+    {
+      topic: "know what is trending with tako",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 16397,
+      topCountries: ["PK", "UG", "MM", "BD", "ET"],
     },
   ],
   methodologyNote:

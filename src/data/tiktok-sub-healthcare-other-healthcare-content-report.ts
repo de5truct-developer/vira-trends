@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "why do doctors walk backwards in the theater",
@@ -31,7 +31,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB"],
+      topCountries: ["US", "PR", "GU", "AS"],
     },
     {
       topic: "Caregiving",

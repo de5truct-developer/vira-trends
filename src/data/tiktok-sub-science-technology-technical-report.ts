@@ -14,10 +14,10 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "microduck robot",
@@ -31,7 +31,14 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 70,
       trust: "high",
       videoNum: 192,
-      topCountries: ["US", "CA", "MX", "PY", "KE"],
+      topCountries: ["US", "GU", "PR", "VI", "CA"],
+    },
+    {
+      topic: "innovative tech trends",
+      growthMultiplier: 39,
+      trust: "high",
+      videoNum: 590,
+      topCountries: ["ID", "MM", "PH", "PK"],
     },
     {
       topic: "robot microsoft button press",
@@ -52,7 +59,14 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "BR", "ID", "CL", "VN"],
+      topCountries: ["MX", "BR", "US", "ID", "CL"],
+    },
+    {
+      topic: "wild future tech we may actually get",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 128,
+      topCountries: ["US", "MX", "CO", "AR"],
     },
     {
       topic: "HVAC Tech",
@@ -74,20 +88,6 @@ export const scienceTechnologyTechnicalSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 870,
       topCountries: ["US", "PH", "AU", "JM", "NG"],
-    },
-    {
-      topic: "Mercator projection",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 864,
-      topCountries: ["PH", "ZA", "CA", "AU", "ID"],
-    },
-    {
-      topic: "wild future tech we may actually get",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 128,
-      topCountries: ["US", "MX", "CO", "AR"],
     },
   ],
   methodologyNote:

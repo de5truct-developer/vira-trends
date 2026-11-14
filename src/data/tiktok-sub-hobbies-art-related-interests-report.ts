@@ -14,10 +14,10 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "green face paint red lighting",
@@ -25,13 +25,6 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1383,
       topCountries: ["US", "GB", "CA", "AU", "PH"],
-    },
-    {
-      topic: "new color for 2026",
-      growthMultiplier: 253,
-      trust: "high",
-      videoNum: 685,
-      topCountries: ["US", "PH", "NG", "PK"],
     },
     {
       topic: "ThePainterWhoDrawDungeons",
@@ -49,7 +42,7 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "drawing ͡° ͜ ͡°",
-      growthMultiplier: 17,
+      growthMultiplier: 16,
       trust: "high",
       videoNum: 742,
       topCountries: ["BR", "MX", "AR", "PE"],
@@ -80,7 +73,7 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 10,
       trust: "high",
       videoNum: 545,
-      topCountries: ["US", "GB", "CA", "DE", "AU"],
+      topCountries: ["US", "GB", "CA", "DE", "PH"],
     },
     {
       topic: "draw the line",
@@ -88,6 +81,13 @@ export const hobbiesArtRelatedInterestsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 160,
       topCountries: ["PH", "VN", "MY", "ID", "MM"],
+    },
+    {
+      topic: "skeleton face paint",
+      growthMultiplier: 7,
+      trust: "high",
+      videoNum: 891,
+      topCountries: ["US", "GB", "CA", "AU", "PH"],
     },
   ],
   methodologyNote:

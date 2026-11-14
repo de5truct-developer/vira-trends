@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "oops mysterious sound",
@@ -27,18 +27,18 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "ID", "PH", "MX", "TH"],
     },
     {
-      topic: "audios rock",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 951,
-      topCountries: ["US", "MX", "AR", "CO", "PE"],
-    },
-    {
       topic: "take a photo to see what sound you get",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 7693,
       topCountries: ["NG", "PH", "ZA", "GH", "CA"],
+    },
+    {
+      topic: "audios rock",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 951,
+      topCountries: ["US", "MX", "AR", "CO", "PE"],
     },
     {
       topic: "arabic audio",
@@ -48,18 +48,18 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["EG", "ID", "SA", "AE", "MA"],
     },
     {
-      topic: "seoul subway sound",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 631,
-      topCountries: ["KR", "PH", "SG", "ID", "MY"],
-    },
-    {
       topic: "viral tiktok sounds 2026",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 52711,
       topCountries: ["ID", "PK", "BD", "NG", "NP"],
+    },
+    {
+      topic: "seoul subway sound",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 631,
+      topCountries: ["KR", "PH", "SG", "ID", "MY"],
     },
     {
       topic: "Sound effects trend",
@@ -80,7 +80,7 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 740,
-      topCountries: ["CA", "AU", "PH", "ID", "MX"],
+      topCountries: ["US", "CA", "AU", "PH", "ID"],
     },
     {
       topic: "police radio sound",

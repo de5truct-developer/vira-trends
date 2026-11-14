@@ -14,14 +14,14 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "captain underparents in space",
-      growthMultiplier: 14,
+      growthMultiplier: 10,
       trust: "high",
       videoNum: 245,
       topCountries: ["PH", "CA", "BR", "MY", "ID"],
@@ -46,13 +46,6 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 373,
       topCountries: ["PH", "CA", "RU", "TH", "TR"],
-    },
-    {
-      topic: "stephenson 218 star",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 361,
-      topCountries: ["PH", "NG", "ZA", "ID"],
     },
     {
       topic: "stephenson 218 vs sun",

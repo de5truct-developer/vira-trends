@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "loveindisguise",
@@ -103,7 +103,7 @@ export const vnCountryReport: TikTokCountryReport = {
       growthMultiplier: 11,
       trust: "high",
       videoNum: 6101,
-      topCountries: ["ID", "MY", "TH", "PH", "VN"],
+      topCountries: ["ID", "MY", "TH", "US", "VN"],
     },
   ],
   methodologyNote:

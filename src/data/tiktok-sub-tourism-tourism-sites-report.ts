@@ -14,17 +14,24 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "circle of life safari",
+      growthMultiplier: 322,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "AU", "GB"],
+    },
     {
       topic: "shi lwk jelly arcade roller coaster",
       growthMultiplier: 132,
       trust: "high",
       videoNum: null,
-      topCountries: ["KZ", "US", "RU", "BY", "PH"],
+      topCountries: ["US", "KZ", "RU", "PH", "BY"],
     },
     {
       topic: "finding nemo submarine disneyland",
@@ -32,13 +39,6 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 168,
       topCountries: ["US", "AU", "CA", "GB", "NZ"],
-    },
-    {
-      topic: "niagara falls with no water",
-      growthMultiplier: 48,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
       topic: "Santa’s Wonderland",
@@ -69,18 +69,18 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
       topCountries: ["CO", "US", "MX", "DO", "ES"],
     },
     {
-      topic: "social media view count boosting",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: 530,
-      topCountries: ["ET", "SO", "KE", "SA"],
-    },
-    {
       topic: "sixflagsovergeorgia",
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "BR", "IT"],
+    },
+    {
+      topic: "social media view count boosting",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 530,
+      topCountries: ["ET", "SO", "KE", "SA"],
     },
     {
       topic: "maliuyan waterfall cliff swing china",
@@ -93,7 +93,7 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "shi lwk jelly arcade roller coaster",
-    audience: "unknown 18-24, Kazakhstan (dominant segment, snapshot at collection date)",
+    topic: "circle of life safari",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

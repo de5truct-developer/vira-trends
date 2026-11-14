@@ -14,10 +14,10 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "panic buying",
@@ -31,7 +31,7 @@ export const financeFinancialPanKnowledgeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1486,
-      topCountries: ["US", "KE", "GH", "NG", "PH"],
+      topCountries: ["KE", "GH", "NG", "PH", "ZA"],
     },
     {
       topic: "passive income for beginners",

@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const egCountryReport: TikTokCountryReport = {
   country: "Egypt",
   countryCode: "EG",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Nordic Curl",
@@ -52,15 +52,6 @@ export const egCountryReport: TikTokCountryReport = {
       topCountries: ["EG", "SA", "AE", "DZ", "KW"],
     },
     {
-      topic: "seo ideas creators should test",
-      category: "Science and Technology",
-      subcategory: "Internet",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "BR", "EG", "MX", "ID"],
-    },
-    {
       topic: "Rating popular fast food combos",
       category: "Gourmet",
       subcategory: "Offline Catering",
@@ -79,21 +70,21 @@ export const egCountryReport: TikTokCountryReport = {
       topCountries: ["PK", "BR", "EG", "MX", "ID"],
     },
     {
-      topic: "Budget food vlog recommendations",
-      category: "Gourmet",
-      subcategory: "Food Tutorials",
-      growthMultiplier: 8,
-      trust: "high",
-      videoNum: 733,
-      topCountries: ["PK", "BR", "EG", "MX", "ID"],
-    },
-    {
       topic: "make videos your audience wants",
       category: "Science and Technology",
       subcategory: "Internet",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
+      topCountries: ["PK", "BR", "EG", "MX", "ID"],
+    },
+    {
+      topic: "Budget food vlog recommendations",
+      category: "Gourmet",
+      subcategory: "Food Tutorials",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 733,
       topCountries: ["PK", "BR", "EG", "MX", "ID"],
     },
     {
@@ -104,6 +95,15 @@ export const egCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 2351,
       topCountries: ["IQ", "EG", "LY", "TR", "YE"],
+    },
+    {
+      topic: "Mobility exercises",
+      category: "Sports",
+      subcategory: "Fitness",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 1239,
+      topCountries: ["PH", "CA", "EG", "AU", "ID"],
     },
   ],
   methodologyNote:

@@ -14,17 +14,17 @@ export const educationLanguageLearningSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "ela peida english translation",
       growthMultiplier: 1851,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "DE", "ZA"],
+      topCountries: ["PH", "GB", "US", "DE"],
     },
     {
       topic: "russian guy learning english",

@@ -14,16 +14,16 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "james falls mall",
       growthMultiplier: 1341,
       trust: "high",
-      videoNum: 1111,
+      videoNum: 1095,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
@@ -80,7 +80,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 1185,
-      topCountries: ["PH", "AR", "MY", "ID", "CA"],
+      topCountries: ["US", "PH", "AR", "ID", "MY"],
     },
     {
       topic: "whats in the back of spencers",

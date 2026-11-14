@@ -14,10 +14,10 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "maradona warming up messi",
@@ -69,6 +69,13 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "CO", "AR", "VE", "PE"],
     },
     {
+      topic: "chrisean rock sparring",
+      growthMultiplier: 154,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "ZA", "NG", "NL"],
+    },
+    {
       topic: "explosive basketball",
       growthMultiplier: 137,
       trust: "high",
@@ -81,13 +88,6 @@ export const sportsPhysicalSportsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB"],
-    },
-    {
-      topic: "pakistan vs england today highlights",
-      growthMultiplier: 117,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "AE", "SA", "BD"],
     },
   ],
   methodologyNote:

@@ -14,10 +14,10 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "bretman rock monstera fruit",
@@ -48,13 +48,6 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["ZA", "CA", "PH", "NP", "MM"],
     },
     {
-      topic: "arla milk",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 680,
-      topCountries: ["PH", "CA", "JP", "ID"],
-    },
-    {
       topic: "the eternut",
       growthMultiplier: 4,
       trust: "high",
@@ -76,18 +69,25 @@ export const gourmetFoodIngredientsFreshFoodSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "PH", "PL", "CA", "GB"],
     },
     {
+      topic: "arla milk",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 680,
+      topCountries: ["PH", "VN", "CA", "JP", "ID"],
+    },
+    {
+      topic: "kaiser watermelon",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "BR", "IQ", "PE", "AR"],
+    },
+    {
       topic: "Fried egg incident",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 664,
       topCountries: ["US", "PH", "GB", "MX", "ID"],
-    },
-    {
-      topic: "pine strawberry",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 342,
-      topCountries: ["MY", "ID", "PH", "EG"],
     },
   ],
   methodologyNote:

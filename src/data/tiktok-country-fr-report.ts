@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const frCountryReport: TikTokCountryReport = {
   country: "France",
   countryCode: "FR",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "chanel 25bag",
@@ -70,6 +70,15 @@ export const frCountryReport: TikTokCountryReport = {
       topCountries: ["FR", "US", "ID", "GB", "SL"],
     },
     {
+      topic: "queens houses",
+      category: "Household",
+      subcategory: "Real Estate",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: 3229,
+      topCountries: ["FR", "BE", "SN", "RE", "GP"],
+    },
+    {
       topic: "forest cabin build from start to finish",
       category: "Household",
       subcategory: "House Decoration",
@@ -77,15 +86,6 @@ export const frCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["FR", "ID", "MX", "VN", "BR"],
-    },
-    {
-      topic: "queens houses",
-      category: "Household",
-      subcategory: "Real Estate",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: 3301,
-      topCountries: ["FR", "BE", "SN", "RE", "GP"],
     },
     {
       topic: "liberty spikes",
@@ -110,6 +110,6 @@ export const frCountryReport: TikTokCountryReport = {
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "chanel 25bag",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    audience: "female 18-24, France (dominant segment, snapshot at collection date)",
   },
 };

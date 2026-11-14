@@ -14,17 +14,17 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "angeles crest highway",
       growthMultiplier: 546,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "MX", "ZA", "ID", "MY"],
+      topCountries: ["US", "PR", "ZA", "MY"],
     },
     {
       topic: "chongqing east station",
@@ -55,13 +55,6 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "GB", "NG", "SA", "TR"],
     },
     {
-      topic: "TrafficStop",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 292,
-      topCountries: ["CA", "SA", "MX", "AU"],
-    },
-    {
       topic: "f16 cockpit view",
       growthMultiplier: 3,
       trust: "high",
@@ -69,11 +62,18 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "TH"],
     },
     {
+      topic: "TrafficStop",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 292,
+      topCountries: ["CA", "SA", "MX", "AU"],
+    },
+    {
       topic: "beijing china plane",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 670,
-      topCountries: ["US", "MY", "PK", "UA", "ID"],
+      topCountries: ["US", "MY", "PK", "SO", "ID"],
     },
     {
       topic: "arkin via terminal 3",
@@ -83,11 +83,11 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "AE", "JP"],
     },
     {
-      topic: "what is route 66",
-      growthMultiplier: 1,
+      topic: "what is happening at heathrow airport",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "ID", "AU", "MX"],
+      videoNum: 470,
+      topCountries: ["US", "CA", "AU", "SG", "MY"],
     },
   ],
   methodologyNote:

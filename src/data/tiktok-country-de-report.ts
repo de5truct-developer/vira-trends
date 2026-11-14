@@ -10,20 +10,11 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const deCountryReport: TikTokCountryReport = {
   country: "Germany",
   countryCode: "DE",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
-    {
-      topic: "aoc hair clip",
-      category: "Fashion",
-      subcategory: "Fashion Products",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: 433,
-      topCountries: ["GB", "DE", "FR", "SE", "NL"],
-    },
     {
       topic: "travis scott falling with autotune",
       category: "Entertainment",
@@ -34,13 +25,22 @@ export const deCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
+      topic: "aoc hair clip",
+      category: "Fashion",
+      subcategory: "Fashion Products",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: 433,
+      topCountries: ["GB", "DE", "FR", "SE", "NL"],
+    },
+    {
       topic: "DriveThePretenders",
       category: "Music",
       subcategory: "Singles",
       growthMultiplier: 16,
       trust: "high",
       videoNum: 1440,
-      topCountries: ["ID", "US", "DE", "BR", "FR"],
+      topCountries: ["ID", "DE", "BR", "US", "FR"],
     },
     {
       topic: "james falls mall",
@@ -48,7 +48,7 @@ export const deCountryReport: TikTokCountryReport = {
       subcategory: "Shopping",
       growthMultiplier: 9,
       trust: "high",
-      videoNum: 1111,
+      videoNum: 1095,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
     },
     {
@@ -76,16 +76,7 @@ export const deCountryReport: TikTokCountryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 531,
-      topCountries: ["US", "DE", "AT", "NG", "BD"],
-    },
-    {
-      topic: "Katy Perry when she heard her fan sing fireworks",
-      category: "Entertainment",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 241,
-      topCountries: ["US", "GB", "DE", "PL", "IT"],
+      topCountries: ["US", "DE", "PR", "AT", "GU"],
     },
     {
       topic: "fred vs grandma scream",
@@ -105,11 +96,20 @@ export const deCountryReport: TikTokCountryReport = {
       videoNum: 10381,
       topCountries: ["US", "GB", "DE", "BR", "IT"],
     },
+    {
+      topic: "roob elementery school",
+      category: "Education",
+      subcategory: "School Education",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: 778,
+      topCountries: ["US", "GB", "DE", "BR", "CA"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "aoc hair clip",
-    audience: "female 18-24, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "travis scott falling with autotune",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

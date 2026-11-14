@@ -14,10 +14,10 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "being the oldest sibling",
@@ -73,7 +73,7 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       growthMultiplier: 2,
       trust: "high",
       videoNum: 937,
-      topCountries: ["US", "PH", "CA", "NP", "GB"],
+      topCountries: ["US", "PH", "CA", "GB", "NP"],
     },
     {
       topic: "untangled love",
@@ -87,7 +87,7 @@ export const relationshipsRelationshipKnowledgeSubReport: TikTokSubcategoryRepor
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["NG", "KE", "ZA", "ID", "PH"],
+      topCountries: ["NG", "KE", "ZA", "ID", "US"],
     },
   ],
   methodologyNote:

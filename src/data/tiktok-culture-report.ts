@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const cultureReport: TikTokReport = {
   category: "Culture",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "illuminate explained",
@@ -24,19 +24,27 @@ export const cultureReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "DE", "NL"],
     },
     {
+      topic: "meaning of el nino",
+      subcategory: "History",
+      growthMultiplier: 134,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "GH", "GB", "US"],
+    },
+    {
       topic: "what is october 11th",
       subcategory: "Uncategorized",
       growthMultiplier: 8,
       trust: "high",
       videoNum: null,
-      topCountries: ["MM", "PH", "FR", "GB"],
+      topCountries: ["US", "MM", "PH", "FR"],
     },
     {
       topic: "the last stop ending final explicado",
       subcategory: "Serious Literature",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 924,
+      videoNum: null,
       topCountries: ["PH", "US", "BR", "ZA", "ID"],
     },
     {
@@ -64,14 +72,6 @@ export const cultureReport: TikTokReport = {
       topCountries: ["RU", "UA", "MX", "AR", "BY"],
     },
     {
-      topic: "drusilla hunger games book",
-      subcategory: "Serious Literature",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MX", "PH", "BR", "CA", "AU"],
-    },
-    {
       topic: "islamic video اللهtiktoktiktok",
       subcategory: "Religion",
       growthMultiplier: 5,
@@ -80,20 +80,20 @@ export const cultureReport: TikTokReport = {
       topCountries: ["BD", "PK", "GB", "ET"],
     },
     {
+      topic: "drusilla hunger games book",
+      subcategory: "Serious Literature",
+      growthMultiplier: 5,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "PH", "BR", "CA", "AU"],
+    },
+    {
       topic: "all souls day",
       subcategory: "Traditions and Culture",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 888,
-      topCountries: ["PH", "MY", "KE", "NG", "MM"],
-    },
-    {
-      topic: "allhumdullilah",
-      subcategory: "Religion",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 3438,
-      topCountries: ["PK", "TZ", "BD", "MY"],
+      topCountries: ["PH", "MY", "NG", "KE", "MM"],
     },
   ],
   methodologyNote:

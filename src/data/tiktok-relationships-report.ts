@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const relationshipsReport: TikTokReport = {
   category: "Relationship and Psychology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "InnerGrowth",
@@ -64,6 +64,14 @@ export const relationshipsReport: TikTokReport = {
       topCountries: ["ID", "MY", "SA", "MX", "NG"],
     },
     {
+      topic: "self question questions",
+      subcategory: "Psychology",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 817,
+      topCountries: ["GB", "PH", "MX", "BR", "CA"],
+    },
+    {
       topic: "Inconsistency",
       subcategory: "Psychology",
       growthMultiplier: 3,
@@ -86,14 +94,6 @@ export const relationshipsReport: TikTokReport = {
       trust: "high",
       videoNum: 1029,
       topCountries: ["CA", "AU", "PH", "JM", "TT"],
-    },
-    {
-      topic: "negging explain",
-      subcategory: "Relationship Knowledge",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1015,
-      topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
   ],
   methodologyNote:

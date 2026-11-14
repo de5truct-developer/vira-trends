@@ -14,10 +14,10 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "why coming fast bike interview",
@@ -25,6 +25,13 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "CA", "SA", "AU"],
+    },
+    {
+      topic: "how do you stay so hydrated interview",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 445,
+      topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
     {
       topic: "underwater welder salary",
@@ -45,7 +52,7 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       growthMultiplier: 3,
       trust: "high",
       videoNum: 438,
-      topCountries: ["DE", "GB", "IT", "PH", "US"],
+      topCountries: ["DE", "GB", "PH", "IT", "US"],
     },
     {
       topic: "link to apply jobs",
@@ -81,13 +88,6 @@ export const workplaceRecruitmentInformationSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 418,
       topCountries: ["ZA", "KE", "PH", "MY"],
-    },
-    {
-      topic: "apply now link for job application",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 401,
-      topCountries: ["ZA", "KE", "SL", "GH"],
     },
   ],
   methodologyNote:

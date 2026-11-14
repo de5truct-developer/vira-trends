@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const ghCountryReport: TikTokCountryReport = {
   country: "Ghana",
   countryCode: "GH",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "short drama review 1 to 50",
@@ -61,15 +61,6 @@ export const ghCountryReport: TikTokCountryReport = {
       topCountries: ["NG", "GH", "KE", "ZA"],
     },
     {
-      topic: "grow bananas in the garden 2 part",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Gardening and Pet",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: 1146,
-      topCountries: ["ZA", "NG", "KE", "GH"],
-    },
-    {
       topic: "Bmw x5 2027",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
@@ -97,13 +88,22 @@ export const ghCountryReport: TikTokCountryReport = {
       topCountries: ["ZA", "NG", "BR", "GH"],
     },
     {
-      topic: "zlatan and his wife",
+      topic: "yan diamond highlights today",
       category: "Sports",
       subcategory: "Physical Sports",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 649,
-      topCountries: ["NG", "GH", "CM", "US", "GB"],
+      videoNum: null,
+      topCountries: ["GH", "NG", "ID", "SO"],
+    },
+    {
+      topic: "trending capcut 2026 for videos",
+      category: "Science and Technology",
+      subcategory: "Software",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 1134,
+      topCountries: ["NG", "GH", "UG", "KE", "CM"],
     },
   ],
   methodologyNote:

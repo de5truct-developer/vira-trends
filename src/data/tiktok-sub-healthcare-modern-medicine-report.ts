@@ -14,10 +14,10 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "code rot explained",
@@ -28,14 +28,21 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "why cant a pregant woman sleep on her back",
-      growthMultiplier: 185,
+      growthMultiplier: 162,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "JM", "CA", "NG"],
     },
     {
+      topic: "what is pied",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "IT", "FR"],
+    },
+    {
       topic: "cold fear",
-      growthMultiplier: 10,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 438,
       topCountries: ["AR", "MX", "PE", "CO", "EC"],
@@ -45,7 +52,7 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 112,
-      topCountries: ["US", "BR", "PH", "VN"],
+      topCountries: ["US", "PH", "BR", "VN"],
     },
     {
       topic: "women's mental health",
@@ -80,14 +87,7 @@ export const healthcareModernMedicineSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 515,
-      topCountries: ["US"],
-    },
-    {
-      topic: "frowning",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MY", "PH", "NG", "ID", "CA"],
+      topCountries: ["US", "PR", "GU", "AS"],
     },
   ],
   methodologyNote:

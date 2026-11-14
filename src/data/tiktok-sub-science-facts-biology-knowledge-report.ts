@@ -14,10 +14,10 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "what is a heron",
@@ -27,18 +27,18 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "AU", "GB", "NZ"],
     },
     {
-      topic: "gold ship cribbing",
-      growthMultiplier: 88,
-      trust: "high",
-      videoNum: 265,
-      topCountries: ["US", "CA", "MX", "PH", "CL"],
-    },
-    {
       topic: "chimp vs human simulation",
       growthMultiplier: 55,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "IT", "GB", "DE", "PL"],
+    },
+    {
+      topic: "gold ship cribbing",
+      growthMultiplier: 38,
+      trust: "high",
+      videoNum: 265,
+      topCountries: ["US", "CA", "MX", "CL", "PH"],
     },
     {
       topic: "turning raw gold into ingots",
@@ -59,7 +59,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 20,
       trust: "high",
       videoNum: 970,
-      topCountries: ["MX", "BR", "CO", "PE", "AR"],
+      topCountries: ["MX", "BR", "CO", "PE", "US"],
     },
     {
       topic: "kodiak bird real footage",
@@ -87,7 +87,7 @@ export const scienceFactsBiologyKnowledgeSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 168,
-      topCountries: ["US", "GB", "CA", "DE", "AU"],
+      topCountries: ["US", "GB", "CA", "DE", "PH"],
     },
   ],
   methodologyNote:

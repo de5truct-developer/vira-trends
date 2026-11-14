@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const parentingReport: TikTokReport = {
   category: "Nursing and Parenting",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "baby eating food videos",
@@ -32,14 +32,6 @@ export const parentingReport: TikTokReport = {
       topCountries: ["BD", "PK", "NP", "MM"],
     },
     {
-      topic: "the type of mom i will be",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 608,
-      topCountries: ["SA", "PH", "TR", "GE", "ID"],
-    },
-    {
       topic: "ayden and embriegh",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 3,
@@ -56,12 +48,20 @@ export const parentingReport: TikTokReport = {
       topCountries: ["BD", "PK", "PH", "NP", "MM"],
     },
     {
+      topic: "Weaning Baby",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 749,
+      topCountries: ["SA", "AU", "IL", "CA", "EG"],
+    },
+    {
       topic: "baby sleep and feeding routines",
       subcategory: "Maternal and Infant Care",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["SA", "EG", "PK", "ID"],
+      topCountries: ["SA", "ID", "EG", "PK"],
     },
     {
       topic: "kass baby name reveal",
@@ -70,6 +70,14 @@ export const parentingReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "GB", "AU", "ZA"],
+    },
+    {
+      topic: "the type of mom i will be",
+      subcategory: "Maternal and Infant Care",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 608,
+      topCountries: ["US", "SA", "PH", "TR", "GE"],
     },
     {
       topic: "moms supporting their kids",
@@ -86,14 +94,6 @@ export const parentingReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "ID", "ZA", "KE", "GH"],
-    },
-    {
-      topic: "Scary for kids",
-      subcategory: "Maternal and Infant Care",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 656,
-      topCountries: ["PH", "CA", "MK", "AU"],
     },
   ],
   methodologyNote:

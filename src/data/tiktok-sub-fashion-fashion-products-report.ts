@@ -14,10 +14,10 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "barbas hats x mansory",
@@ -45,7 +45,7 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 181,
       trust: "high",
       videoNum: 635,
-      topCountries: ["US", "PH", "SA", "CA", "MY"],
+      topCountries: ["US", "PH", "CA", "SA", "ZA"],
     },
     {
       topic: "bellys engagement ring",
@@ -55,11 +55,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "IE", "DE", "NL", "CA"],
     },
     {
+      topic: "victorias secret katseye",
+      growthMultiplier: 154,
+      trust: "high",
+      videoNum: 1157,
+      topCountries: ["US", "MX", "PE", "PH", "CO"],
+    },
+    {
       topic: "stormfall bikini",
       growthMultiplier: 131,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "CA", "AU", "DE"],
+      topCountries: ["US", "GB", "CA", "AU", "ID"],
     },
     {
       topic: "victoria secret slick back",
@@ -69,25 +76,18 @@ export const fashionFashionProductsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "ID", "CA", "PH", "AU"],
     },
     {
-      topic: "victorias secret katseye",
-      growthMultiplier: 129,
-      trust: "high",
-      videoNum: 1157,
-      topCountries: ["US", "MX", "PE", "PH", "CO"],
-    },
-    {
       topic: "university of tennessee shirt",
-      growthMultiplier: 98,
+      growthMultiplier: 88,
       trust: "high",
       videoNum: 160,
       topCountries: ["PH", "US", "TH", "ID", "MY"],
     },
     {
-      topic: "the vanishing beauty review",
-      growthMultiplier: 77,
+      topic: "buddy original 90s",
+      growthMultiplier: 51,
       trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MM", "MY", "PH"],
+      videoNum: 1049,
+      topCountries: ["US", "PH", "GB", "CA"],
     },
   ],
   methodologyNote:

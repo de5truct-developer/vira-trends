@@ -14,10 +14,10 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "marimba remix ringtone",
@@ -41,18 +41,18 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       topCountries: ["ET", "PK", "ID", "SO"],
     },
     {
-      topic: "best cr7 wallpapers 4k",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "ET", "BD", "ID"],
-    },
-    {
       topic: "dynamic wallpaper iphone",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 377,
       topCountries: ["NG", "GH", "GB", "ZM"],
+    },
+    {
+      topic: "best cr7 wallpapers 4k",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "ET", "BD", "ID"],
     },
     {
       topic: "audio ringtone download",
@@ -80,14 +80,14 @@ export const scienceTechnologyWebRecourcesDownloadSubReport: TikTokSubcategoryRe
       growthMultiplier: 1,
       trust: "high",
       videoNum: 716,
-      topCountries: ["ID", "PH", "US", "BR", "VN"],
+      topCountries: ["ID", "PH", "US", "BR"],
     },
     {
       topic: "aesthetic matching pfp",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 509,
-      topCountries: ["PH", "MY", "NP", "PK", "BD"],
+      topCountries: ["PH", "MY", "NP", "BD", "PK"],
     },
   ],
   methodologyNote:

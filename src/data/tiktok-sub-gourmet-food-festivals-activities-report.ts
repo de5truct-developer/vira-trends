@@ -14,10 +14,10 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "christmas treats ideas",
@@ -25,6 +25,13 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: 563,
       topCountries: ["PH", "GB", "CA", "AU", "ZA"],
+    },
+    {
+      topic: "dashain food ideas",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 445,
+      topCountries: ["NP", "AU", "JP", "CA"],
     },
     {
       topic: "zafri khan eating",
@@ -81,13 +88,6 @@ export const gourmetFoodFestivalsActivitiesSubReport: TikTokSubcategoryReport = 
       trust: "high",
       videoNum: null,
       topCountries: ["MM", "PH", "KH", "ZA"],
-    },
-    {
-      topic: "krating and nicha",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "MM", "PH", "TH"],
     },
   ],
   methodologyNote:

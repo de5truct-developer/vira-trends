@@ -14,10 +14,10 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "aliens in white house",
@@ -38,7 +38,7 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       growthMultiplier: 6,
       trust: "high",
       videoNum: 531,
-      topCountries: ["US", "PH", "CA", "MY", "AU"],
+      topCountries: ["PH", "CA", "MY", "AU", "ZA"],
     },
     {
       topic: "clairaudient",
@@ -69,13 +69,6 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       topCountries: ["US", "AU", "PH", "SA", "CA"],
     },
     {
-      topic: "alien stage fan theories",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 373,
-      topCountries: ["PH", "MX", "ID", "TH"],
-    },
-    {
       topic: "antarctica real footage behind walls",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const scienceFactsUnresolvedMysteriesSubReport: TikTokSubcategoryReport =
       trust: "high",
       videoNum: 373,
       topCountries: ["US", "DE", "IT", "FR", "GB"],
+    },
+    {
+      topic: "mimics caught on camera",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 385,
+      topCountries: ["PH", "CA", "AU", "ZA", "NZ"],
     },
   ],
   methodologyNote:

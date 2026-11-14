@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const acgnReport: TikTokReport = {
   category: "ACGN (Anime, Comics, Games & Novels)",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Shockwave did it",
@@ -21,7 +21,7 @@ export const acgnReport: TikTokReport = {
       growthMultiplier: 2449,
       trust: "high",
       videoNum: 3940,
-      topCountries: ["US", "GB", "PH", "DE", "CA"],
+      topCountries: ["US", "GB", "DE", "PH", "CA"],
     },
     {
       topic: "the rapunzel edit to fix lag",
@@ -29,7 +29,7 @@ export const acgnReport: TikTokReport = {
       growthMultiplier: 1201,
       trust: "high",
       videoNum: 221,
-      topCountries: ["US", "CA", "PH", "AU", "BR"],
+      topCountries: ["US", "PH", "CA", "AU", "MY"],
     },
     {
       topic: "what is coderot",
@@ -40,17 +40,9 @@ export const acgnReport: TikTokReport = {
       topCountries: ["US", "PH", "GB", "CA"],
     },
     {
-      topic: "the lament of autumn ending",
-      subcategory: "Animation and Comics",
-      growthMultiplier: 724,
-      trust: "high",
-      videoNum: 974,
-      topCountries: ["ID", "PH", "KH", "MY", "MM"],
-    },
-    {
       topic: "catty noir costume",
       subcategory: "ACGN Peripherals",
-      growthMultiplier: 261,
+      growthMultiplier: 247,
       trust: "high",
       videoNum: 389,
       topCountries: ["US", "PL", "GB", "DE", "BR"],
@@ -66,7 +58,7 @@ export const acgnReport: TikTokReport = {
     {
       topic: "cyberpunkedgerunners2",
       subcategory: "Games",
-      growthMultiplier: 65,
+      growthMultiplier: 66,
       trust: "high",
       videoNum: 796,
       topCountries: ["US", "BR", "TH", "RU", "PL"],
@@ -94,6 +86,14 @@ export const acgnReport: TikTokReport = {
       trust: "high",
       videoNum: 491,
       topCountries: ["US", "PH", "ID", "VN", "BR"],
+    },
+    {
+      topic: "im so in love with you dragon ball",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 27,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "BR", "MX", "ID"],
     },
   ],
   methodologyNote:

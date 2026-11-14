@@ -14,10 +14,10 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "cam hot chocolate upside down",
@@ -31,18 +31,18 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 106,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "CA", "AU", "ZA", "DZ"],
+      topCountries: ["US", "AU", "CA", "ZA", "DZ"],
     },
     {
       topic: "croseed",
-      growthMultiplier: 84,
+      growthMultiplier: 59,
       trust: "high",
       videoNum: 435,
       topCountries: ["BR", "MX", "RU", "PE", "AR"],
     },
     {
       topic: "this is a smoothie",
-      growthMultiplier: 45,
+      growthMultiplier: 43,
       trust: "high",
       videoNum: 891,
       topCountries: ["US", "GB", "CA", "IE", "AU"],
@@ -53,6 +53,13 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 678,
       topCountries: ["US", "GB", "CA", "IE", "AU"],
+    },
+    {
+      topic: "know what is trending with tako",
+      growthMultiplier: 22,
+      trust: "high",
+      videoNum: 16397,
+      topCountries: ["PK", "UG", "MM", "BD", "ET"],
     },
     {
       topic: "traditional pakistani meals worth reviewing",
@@ -81,13 +88,6 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BD", "ID", "MM", "PK"],
-    },
-    {
-      topic: "Easter egg video trends",
-      growthMultiplier: 11,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ZA", "UG", "PK", "NP"],
     },
   ],
   methodologyNote:

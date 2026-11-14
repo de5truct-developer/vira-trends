@@ -14,10 +14,10 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Funny AI trend videos to try",
@@ -30,7 +30,7 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
       topic: "trying viral face analysis trends",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 739,
+      videoNum: null,
       topCountries: ["US", "GB", "BR", "DE", "FR"],
     },
     {

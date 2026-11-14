@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const healthcareReport: TikTokReport = {
   category: "Healthcare",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "code rot explained",
@@ -26,7 +26,7 @@ export const healthcareReport: TikTokReport = {
     {
       topic: "why cant a pregant woman sleep on her back",
       subcategory: "Modern Medicine",
-      growthMultiplier: 185,
+      growthMultiplier: 162,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "JM", "CA", "NG"],
@@ -40,9 +40,25 @@ export const healthcareReport: TikTokReport = {
       topCountries: ["US", "GB", "AU", "CA", "IE"],
     },
     {
+      topic: "what is pied",
+      subcategory: "Modern Medicine",
+      growthMultiplier: 13,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "IT", "FR"],
+    },
+    {
+      topic: "Marlon skull cap",
+      subcategory: "Pan-health",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 381,
+      topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
+    {
       topic: "cold fear",
       subcategory: "Modern Medicine",
-      growthMultiplier: 10,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: 438,
       topCountries: ["AR", "MX", "PE", "CO", "EC"],
@@ -54,14 +70,6 @@ export const healthcareReport: TikTokReport = {
       trust: "high",
       videoNum: 977,
       topCountries: ["MX", "BR", "CA", "SA", "DZ"],
-    },
-    {
-      topic: "Marlon skull cap",
-      subcategory: "Pan-health",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 381,
-      topCountries: ["US", "GB", "AU", "CA", "ZA"],
     },
     {
       topic: "nasal stick inhaler",
@@ -86,14 +94,6 @@ export const healthcareReport: TikTokReport = {
       trust: "high",
       videoNum: 572,
       topCountries: ["ZA", "KE", "NG", "ZW"],
-    },
-    {
-      topic: "period xeto garaune idea",
-      subcategory: "Pan-health",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NP", "JP", "AE", "AU", "IN"],
     },
   ],
   methodologyNote:

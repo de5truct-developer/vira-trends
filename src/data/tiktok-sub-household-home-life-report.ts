@@ -14,31 +14,24 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
-      topic: "Garbage plates",
-      growthMultiplier: 529,
-      trust: "high",
-      videoNum: 124,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
-    },
-    {
       topic: "Glove box",
-      growthMultiplier: 71,
+      growthMultiplier: 58,
       trust: "high",
       videoNum: 393,
-      topCountries: ["PH", "GB", "IT", "MY", "FR"],
+      topCountries: ["PH", "MX", "GB", "IT", "MY"],
     },
     {
       topic: "platos dollar tree",
       growthMultiplier: 49,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "VE", "CO", "HN"],
+      topCountries: ["US", "MX", "VE", "CO", "HN"],
     },
     {
       topic: "2 pack christmas tree",
@@ -89,11 +82,18 @@ export const householdHomeLifeSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["DE", "IT", "PL", "GB", "FR"],
     },
+    {
+      topic: "what changed in our home project",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Garbage plates",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Glove box",
+    audience: "female 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

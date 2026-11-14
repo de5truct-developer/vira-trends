@@ -14,17 +14,17 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "i'm getting old and i need to get my life together",
       growthMultiplier: 10,
       trust: "high",
       videoNum: 515,
-      topCountries: ["PH", "CA", "AU", "ID", "GB"],
+      topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
     {
       topic: "good morning streak for today",
@@ -35,7 +35,7 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
     },
     {
       topic: "viral motivational videos",
-      growthMultiplier: 7,
+      growthMultiplier: 6,
       trust: "high",
       videoNum: 17504,
       topCountries: ["PK", "SN", "ZA", "NG"],
@@ -55,25 +55,11 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       topCountries: ["PK", "MM", "NG", "BD"],
     },
     {
-      topic: "friday mood vibes for status",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 29587,
-      topCountries: ["ZA", "KE", "NG", "GH"],
-    },
-    {
       topic: "when bully get bullied",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 449,
       topCountries: ["PH", "US", "ZA", "MY", "ID"],
-    },
-    {
-      topic: "life is better when you know are you doing artinya",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 136,
-      topCountries: ["ID", "MY", "PH", "VN", "KH"],
     },
     {
       topic: "my brother always wanted to be a father",
@@ -88,6 +74,20 @@ export const featuredContentStoriesPostingCaptionsSubReport: TikTokSubcategoryRe
       trust: "high",
       videoNum: 517,
       topCountries: ["PH", "ZA", "AU", "CA", "GB"],
+    },
+    {
+      topic: "life is better when you know are you doing artinya",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 136,
+      topCountries: ["ID", "MY", "PH", "VN", "KH"],
+    },
+    {
+      topic: "considering my feelings",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1055,
+      topCountries: ["PH", "PK", "ZA", "MY", "MM"],
     },
   ],
   methodologyNote:

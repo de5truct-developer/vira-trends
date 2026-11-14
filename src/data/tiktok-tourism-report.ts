@@ -10,18 +10,26 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "circle of life safari",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 322,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "PH", "AU", "GB"],
+    },
     {
       topic: "shi lwk jelly arcade roller coaster",
       subcategory: "Tourism Sites",
       growthMultiplier: 132,
       trust: "high",
       videoNum: null,
-      topCountries: ["KZ", "US", "RU", "BY", "PH"],
+      topCountries: ["US", "KZ", "RU", "PH", "BY"],
     },
     {
       topic: "finding nemo submarine disneyland",
@@ -30,14 +38,6 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: 168,
       topCountries: ["US", "AU", "CA", "GB", "NZ"],
-    },
-    {
-      topic: "niagara falls with no water",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 48,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "CA"],
     },
     {
       topic: "the real diamond city",
@@ -61,7 +61,7 @@ export const tourismReport: TikTokReport = {
       growthMultiplier: 27,
       trust: "high",
       videoNum: 382,
-      topCountries: ["PH", "ID", "MY", "EG", "CA"],
+      topCountries: ["PH", "US", "MY", "ID", "CA"],
     },
     {
       topic: "Santa’s Wonderland",
@@ -80,14 +80,6 @@ export const tourismReport: TikTokReport = {
       topCountries: ["US", "PH", "ID", "GB", "NG"],
     },
     {
-      topic: "road trip guide to a local waterfall",
-      subcategory: "Tourist Guide",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: 980,
-      topCountries: ["PK", "NG", "ZA", "NP"],
-    },
-    {
       topic: "best stops on a rawalpindi day trip",
       subcategory: "Tourist Guide",
       growthMultiplier: 21,
@@ -95,11 +87,19 @@ export const tourismReport: TikTokReport = {
       videoNum: null,
       topCountries: ["PK", "NG", "ZA", "NP"],
     },
+    {
+      topic: "road trip guide to a local waterfall",
+      subcategory: "Tourist Guide",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: 980,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "shi lwk jelly arcade roller coaster",
-    audience: "unknown 18-24, Kazakhstan (dominant segment, snapshot at collection date)",
+    topic: "circle of life safari",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

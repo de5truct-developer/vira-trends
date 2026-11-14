@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceTechnologyReport: TikTokReport = {
   category: "Science and Technology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -24,28 +24,12 @@ export const scienceTechnologyReport: TikTokReport = {
       topCountries: ["US", "PH", "MX", "ID", "BR"],
     },
     {
-      topic: "gif notes in ig",
-      subcategory: "Software",
-      growthMultiplier: 513,
-      trust: "high",
-      videoNum: 565,
-      topCountries: ["PH", "ID", "ZA", "CA", "MY"],
-    },
-    {
-      topic: "dynamic bar iphone",
-      subcategory: "Digital",
-      growthMultiplier: 402,
-      trust: "high",
-      videoNum: 897,
-      topCountries: ["US", "ID", "PH", "ZA"],
-    },
-    {
       topic: "best time to post on tiktok",
       subcategory: "Internet",
       growthMultiplier: 208,
       trust: "high",
       videoNum: 23571,
-      topCountries: ["PH", "DZ", "NG", "DE", "GB"],
+      topCountries: ["PH", "US", "DZ", "NG", "DE"],
     },
     {
       topic: "Bang and Olufsen audio products",
@@ -94,6 +78,22 @@ export const scienceTechnologyReport: TikTokReport = {
       trust: "high",
       videoNum: 809,
       topCountries: ["US", "GB", "MX", "ES", "PH"],
+    },
+    {
+      topic: "biotech laboratory equipment and devices",
+      subcategory: "Technical",
+      growthMultiplier: 70,
+      trust: "high",
+      videoNum: 192,
+      topCountries: ["US", "GU", "PR", "VI", "CA"],
+    },
+    {
+      topic: "wilson bethel quinn app",
+      subcategory: "Software",
+      growthMultiplier: 66,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "BR", "AU"],
     },
   ],
   methodologyNote:

@@ -10,11 +10,20 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const caCountryReport: TikTokCountryReport = {
   country: "Canada",
   countryCode: "CA",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-25",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "spicy wings chicken betty",
+      category: "Gourmet",
+      subcategory: "Offline Catering",
+      growthMultiplier: 389,
+      trust: "high",
+      videoNum: 3964,
+      topCountries: ["US", "PH", "CA", "ID", "AU"],
+    },
     {
       topic: "im so sorry i lied trend funny",
       category: "TikTok's Featured Content",
@@ -23,15 +32,6 @@ export const caCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "ZA", "CA"],
-    },
-    {
-      topic: "dax shepard and kristen bell",
-      category: "Entertainment",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 173,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "US", "AU", "PL"],
     },
     {
       topic: "qwest hollywood arts",
@@ -61,22 +61,13 @@ export const caCountryReport: TikTokCountryReport = {
       topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
     {
-      topic: "Code rot",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 72,
-      trust: "high",
-      videoNum: 816,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
-    },
-    {
       topic: "Nba player",
       category: "Sports",
       subcategory: "Physical Sports",
       growthMultiplier: 68,
       trust: "high",
       videoNum: 3030,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
+      topCountries: ["US", "PH", "CA", "AU", "GB"],
     },
     {
       topic: "q50 white woman",
@@ -97,6 +88,15 @@ export const caCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "CA", "DE", "MX"],
     },
     {
+      topic: "why cant gotham chess be a gm",
+      category: "Personal Interests and Hobbies",
+      subcategory: "Board and Chess/Card Games",
+      growthMultiplier: 62,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "GB", "CA", "DE"],
+    },
+    {
       topic: "slick down vs slick back",
       category: "Fashion",
       subcategory: "Fashion Tutorials",
@@ -109,7 +109,7 @@ export const caCountryReport: TikTokCountryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "im so sorry i lied trend funny",
+    topic: "spicy wings chicken betty",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

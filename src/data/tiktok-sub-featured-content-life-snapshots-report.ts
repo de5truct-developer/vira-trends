@@ -14,17 +14,17 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "he rides his bike with his husband everyday",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 304,
-      topCountries: ["US", "PK", "SA", "KW", "ID"],
+      topCountries: ["US", "PR", "GU", "PK"],
     },
     {
       topic: "a day in my life cowo viral",
@@ -45,14 +45,14 @@ export const featuredContentLifeSnapshotsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 365,
-      topCountries: ["ZA", "PK", "ET", "KE"],
+      topCountries: ["ZA", "PK", "ET", "MA"],
     },
     {
       topic: "my type of lifestyle",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1125,
-      topCountries: ["DE", "PL", "PK", "MM", "FR"],
+      topCountries: ["DE", "PL", "PK", "FR", "GB"],
     },
     {
       topic: "day in my life vlog template",

@@ -14,21 +14,14 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
-      topic: "3 days of darkness in 2026",
-      growthMultiplier: 24,
-      trust: "high",
-      videoNum: 168,
-      topCountries: ["GB", "PH", "ZW", "ZA", "JM"],
-    },
-    {
       topic: "2028 what will happen",
-      growthMultiplier: 9,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 479,
       topCountries: ["ZA", "NG", "BR", "GH"],
@@ -89,11 +82,18 @@ export const scienceFactsPropheciesSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["ZA", "US", "PH", "NG"],
     },
+    {
+      topic: "economist prediction 2027",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "BR", "CO", "VE", "PE"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "3 days of darkness in 2026",
-    audience: "female 25-34, United Kingdom (dominant segment, snapshot at collection date)",
+    topic: "2028 what will happen",
+    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
   },
 };

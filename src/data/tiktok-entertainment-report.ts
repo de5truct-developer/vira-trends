@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const entertainmentReport: TikTokReport = {
   category: "Entertainment",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "kevin hart shushing kelly clarkson",
@@ -74,18 +74,10 @@ export const entertainmentReport: TikTokReport = {
     {
       topic: "emmy rossum and justin siegel",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 650,
+      growthMultiplier: 636,
       trust: "high",
       videoNum: 758,
       topCountries: ["US", "CA", "AU", "ZA", "NZ"],
-    },
-    {
-      topic: "dax shepard and kristen bell",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 514,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "US", "AU", "PL"],
     },
     {
       topic: "kim kardashian magazine cover",
@@ -94,6 +86,14 @@ export const entertainmentReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "NL", "IT"],
+    },
+    {
+      topic: "drake 40th birthday",
+      subcategory: "Celebrity Entertainment",
+      growthMultiplier: 160,
+      trust: "high",
+      videoNum: 296,
+      topCountries: ["US", "GB", "CA", "ZA", "AU"],
     },
   ],
   methodologyNote:

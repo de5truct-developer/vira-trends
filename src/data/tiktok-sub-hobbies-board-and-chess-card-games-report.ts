@@ -14,10 +14,10 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "fools mate chess",
@@ -28,14 +28,14 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "why cant gotham chess be a gm",
-      growthMultiplier: 55,
+      growthMultiplier: 64,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "DE"],
     },
     {
       topic: "creator schach insight video 2026 viral",
-      growthMultiplier: 41,
+      growthMultiplier: 43,
       trust: "high",
       videoNum: null,
       topCountries: ["NP", "PK", "ET", "UG", "SA"],
@@ -55,6 +55,13 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "DE", "GB"],
     },
     {
+      topic: "chess content creator editing tools",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 340,
+      topCountries: ["US", "GB", "CA", "PH", "AU"],
+    },
+    {
       topic: "chessedit",
       growthMultiplier: 4,
       trust: "high",
@@ -62,11 +69,11 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "BR", "KZ", "RU"],
     },
     {
-      topic: "chess content creator editing tools",
-      growthMultiplier: 4,
+      topic: "team usa chess levy",
+      growthMultiplier: 3,
       trust: "high",
-      videoNum: 340,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
+      videoNum: 140,
+      topCountries: ["US", "PH", "IT", "ID", "AU"],
     },
     {
       topic: "chess edit bobby fischer",
@@ -81,13 +88,6 @@ export const hobbiesBoardAndChessCardGamesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 534,
       topCountries: ["PH", "ZA", "AU", "CA"],
-    },
-    {
-      topic: "create schach insights 2028 viral now",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 619,
-      topCountries: ["PK", "NP", "ET", "SA", "UG"],
     },
   ],
   methodologyNote:

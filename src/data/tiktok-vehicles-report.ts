@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const vehiclesReport: TikTokReport = {
   category: "Vehicles & Transportation",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "roadless rule",
@@ -37,7 +37,7 @@ export const vehiclesReport: TikTokReport = {
       growthMultiplier: 2765,
       trust: "high",
       videoNum: 8040,
-      topCountries: ["US", "NP", "UG", "ID", "GB"],
+      topCountries: ["US", "PR", "NP", "GU"],
     },
     {
       topic: "new ferrari 2027",
@@ -61,7 +61,15 @@ export const vehiclesReport: TikTokReport = {
       growthMultiplier: 1704,
       trust: "high",
       videoNum: 635,
-      topCountries: ["US", "ID", "MY", "IQ", "MM"],
+      topCountries: ["US", "AU", "CA", "AE", "SA"],
+    },
+    {
+      topic: "the brakes were glazed he was right",
+      subcategory: "Transport Equipment",
+      growthMultiplier: 1589,
+      trust: "high",
+      videoNum: 775,
+      topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
       topic: "car washing trend",
@@ -78,14 +86,6 @@ export const vehiclesReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "AU"],
-    },
-    {
-      topic: "the brakes were glazed he was right",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 1336,
-      trust: "high",
-      videoNum: 775,
-      topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
       topic: "q50 white woman",

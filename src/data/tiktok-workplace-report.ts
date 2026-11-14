@@ -10,15 +10,15 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const workplaceReport: TikTokReport = {
   category: "Workplace",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "placeneta",
       subcategory: "Special Work Types",
-      growthMultiplier: 289,
+      growthMultiplier: 305,
       trust: "high",
       videoNum: 1159,
       topCountries: ["US", "ET", "PE", "MX"],
@@ -29,7 +29,7 @@ export const workplaceReport: TikTokReport = {
       growthMultiplier: 147,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "US", "MX", "ES"],
+      topCountries: ["PH", "MX", "ID", "US", "CO"],
     },
     {
       topic: "to earn the right to work",
@@ -38,14 +38,6 @@ export const workplaceReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "CA", "ID"],
-    },
-    {
-      topic: "skyway grab driver",
-      subcategory: "Special Work Types",
-      growthMultiplier: 98,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "CA", "AE", "AU", "JP"],
     },
     {
       topic: "when the client doesn\\'t want to pay 2",
@@ -94,6 +86,14 @@ export const workplaceReport: TikTokReport = {
       trust: "high",
       videoNum: 804,
       topCountries: ["NG", "PH", "KE", "ZA"],
+    },
+    {
+      topic: "the matrix of leadership",
+      subcategory: "Workplace Skills",
+      growthMultiplier: 12,
+      trust: "high",
+      videoNum: 768,
+      topCountries: ["VN", "TH", "ID", "MY", "PH"],
     },
   ],
   methodologyNote:

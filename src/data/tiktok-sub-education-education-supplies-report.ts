@@ -14,10 +14,10 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "은정 organised favorites time stamp",
@@ -76,18 +76,18 @@ export const educationEducationSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MY", "PK", "BD", "PH"],
     },
     {
+      topic: "cute supplies for school",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1138,
+      topCountries: ["PH", "MY", "CA", "EG"],
+    },
+    {
       topic: "pvc binder",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 426,
       topCountries: ["PH", "ID", "MY", "MX", "BR"],
-    },
-    {
-      topic: "Stationery storage ideas that look cute",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "TR", "PH", "GT", "MX"],
     },
   ],
   methodologyNote:

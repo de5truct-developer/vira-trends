@@ -14,10 +14,10 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "michelle calculator math wall",
@@ -28,7 +28,7 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "fmu meaning",
-      growthMultiplier: 191,
+      growthMultiplier: 204,
       trust: "high",
       videoNum: 566,
       topCountries: ["US", "CA", "PH", "AU", "SA"],
@@ -45,7 +45,7 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 40,
       trust: "high",
       videoNum: null,
-      topCountries: ["KE", "TZ", "QA", "SA"],
+      topCountries: ["KE", "US", "TZ", "QA"],
     },
     {
       topic: "life orientation grade 10 term 4",
@@ -56,7 +56,7 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "guessing midterm grade",
-      growthMultiplier: 23,
+      growthMultiplier: 24,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "PH", "SA", "MY"],
@@ -83,11 +83,11 @@ export const educationSchoolEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "VN", "ID", "PH", "TH"],
     },
     {
-      topic: "ncae answer key",
+      topic: "andys schoolhouse",
       growthMultiplier: 7,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "QA", "JP", "EG"],
+      topCountries: ["US", "TH", "PH", "MX"],
     },
   ],
   methodologyNote:

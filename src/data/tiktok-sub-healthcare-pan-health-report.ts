@@ -14,24 +14,24 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "Marlon skull cap",
+      growthMultiplier: 10,
+      trust: "high",
+      videoNum: 381,
+      topCountries: ["US", "GB", "AU", "CA", "ZA"],
+    },
     {
       topic: "Sleep Cycle",
       growthMultiplier: 7,
       trust: "high",
       videoNum: 977,
       topCountries: ["MX", "BR", "CA", "SA", "DZ"],
-    },
-    {
-      topic: "Marlon skull cap",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 381,
-      topCountries: ["US", "GB", "AU", "CA", "ZA"],
     },
     {
       topic: "nasal stick inhaler",
@@ -80,7 +80,7 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 911,
-      topCountries: ["GB", "PH", "CA", "US", "DE"],
+      topCountries: ["GB", "US", "PH", "CA", "DE"],
     },
     {
       topic: "how to look younger",
@@ -93,7 +93,7 @@ export const healthcarePanHealthSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Sleep Cycle",
-    audience: "female 18-24, Mexico (dominant segment, snapshot at collection date)",
+    topic: "Marlon skull cap",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

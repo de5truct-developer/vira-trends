@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const scienceFactsReport: TikTokReport = {
   category: "Science Knowledge",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "what is a heron",
@@ -40,14 +40,6 @@ export const scienceFactsReport: TikTokReport = {
       topCountries: ["US", "GB", "AU", "CA", "PH"],
     },
     {
-      topic: "gold ship cribbing",
-      subcategory: "Biology Knowledge",
-      growthMultiplier: 88,
-      trust: "high",
-      videoNum: 265,
-      topCountries: ["US", "CA", "MX", "PH", "CL"],
-    },
-    {
       topic: "spontaneous human composition",
       subcategory: "Science Knowledge - Others",
       growthMultiplier: 73,
@@ -66,7 +58,7 @@ export const scienceFactsReport: TikTokReport = {
     {
       topic: "real tsunami footage tips",
       subcategory: "Geology Knowledge",
-      growthMultiplier: 68,
+      growthMultiplier: 69,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "DE", "IT", "RO", "GB"],
@@ -88,12 +80,20 @@ export const scienceFactsReport: TikTokReport = {
       topCountries: ["US", "GB", "DE", "CA", "PL"],
     },
     {
-      topic: "3 days of darkness in 2026",
-      subcategory: "Prophecies",
-      growthMultiplier: 24,
+      topic: "gold ship cribbing",
+      subcategory: "Biology Knowledge",
+      growthMultiplier: 38,
       trust: "high",
-      videoNum: 168,
-      topCountries: ["GB", "PH", "ZW", "ZA", "JM"],
+      videoNum: 265,
+      topCountries: ["US", "CA", "MX", "CL", "PH"],
+    },
+    {
+      topic: "turning raw gold into ingots",
+      subcategory: "Biology Knowledge",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
   ],
   methodologyNote:

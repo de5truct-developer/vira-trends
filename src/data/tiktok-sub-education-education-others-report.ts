@@ -14,10 +14,10 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Daily discipline rules that keep you on track",
@@ -28,7 +28,7 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "note reading practice",
-      growthMultiplier: 19,
+      growthMultiplier: 22,
       trust: "high",
       videoNum: 120,
       topCountries: ["US", "PH", "ID", "MY", "JP"],
@@ -42,7 +42,7 @@ export const educationEducationOthersSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "guide to stan school",
-      growthMultiplier: 14,
+      growthMultiplier: 15,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "MY", "ID", "CA", "TH"],

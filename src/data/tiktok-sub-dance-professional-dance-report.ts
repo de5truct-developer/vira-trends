@@ -14,10 +14,10 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "fragile forest kalani",
@@ -83,11 +83,11 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "MX", "ID", "BR", "US"],
     },
     {
-      topic: "jan ravnik learning ballroom",
+      topic: "maddie solo",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "AU", "NZ", "MX", "ZA"],
+      videoNum: 241,
+      topCountries: ["BR", "AU", "CA", "PH", "MX"],
     },
   ],
   methodologyNote:

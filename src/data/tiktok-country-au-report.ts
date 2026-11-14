@@ -10,19 +10,19 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const auCountryReport: TikTokCountryReport = {
   country: "Australia",
   countryCode: "AU",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
-      topic: "Code rot",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 73,
+      topic: "spicy wings chicken betty",
+      category: "Gourmet",
+      subcategory: "Offline Catering",
+      growthMultiplier: 186,
       trust: "high",
-      videoNum: 816,
-      topCountries: ["US", "GB", "CA", "PH", "AU"],
+      videoNum: 3964,
+      topCountries: ["US", "PH", "CA", "ID", "AU"],
     },
     {
       topic: "togi mini trucks",
@@ -32,15 +32,6 @@ export const auCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "AU"],
-    },
-    {
-      topic: "dax shepard and kristen bell",
-      category: "Entertainment",
-      subcategory: "Celebrity Entertainment",
-      growthMultiplier: 59,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "US", "AU", "PL"],
     },
     {
       topic: "green face paint red lighting",
@@ -67,7 +58,7 @@ export const auCountryReport: TikTokCountryReport = {
       growthMultiplier: 44,
       trust: "high",
       videoNum: 3030,
-      topCountries: ["US", "CA", "AU", "PH", "GB"],
+      topCountries: ["US", "PH", "CA", "AU", "GB"],
     },
     {
       topic: "what happened to alexa grasso now",
@@ -82,7 +73,7 @@ export const auCountryReport: TikTokCountryReport = {
       topic: "Corey and Kylie",
       category: "Entertainment",
       subcategory: "Celebrity Entertainment",
-      growthMultiplier: 34,
+      growthMultiplier: 28,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
@@ -105,11 +96,20 @@ export const auCountryReport: TikTokCountryReport = {
       videoNum: 590,
       topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
+    {
+      topic: "blue hair celebrity transformation trends",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB", "PH"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Code rot",
+    topic: "spicy wings chicken betty",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

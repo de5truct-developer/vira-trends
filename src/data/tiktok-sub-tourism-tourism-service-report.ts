@@ -14,10 +14,10 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "the real diamond city",
@@ -62,6 +62,13 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["KE", "US", "NG", "SN", "CI"],
     },
     {
+      topic: "party at the beach cuba cabana location",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 583,
+      topCountries: ["US", "CO", "GB", "FI", "RO"],
+    },
+    {
       topic: "kady dieng residence",
       growthMultiplier: 2,
       trust: "high",
@@ -69,25 +76,18 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CI", "FR", "TG", "BF", "BJ"],
     },
     {
-      topic: "hotel 626",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 545,
-      topCountries: ["PH", "ID", "MY", "RU", "CA"],
-    },
-    {
-      topic: "viral staycation and holiday trends",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 761,
-      topCountries: ["ID", "PH", "TH", "KR"],
-    },
-    {
       topic: "Advenvilla",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "US", "PH", "ZA"],
+    },
+    {
+      topic: "hotel 626",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 545,
+      topCountries: ["PH", "ID", "MY", "RU", "CA"],
     },
   ],
   methodologyNote:

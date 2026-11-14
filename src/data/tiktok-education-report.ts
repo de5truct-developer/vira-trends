@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "ela peida english translation",
@@ -21,7 +21,7 @@ export const educationReport: TikTokReport = {
       growthMultiplier: 1851,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "DE", "ZA"],
+      topCountries: ["PH", "GB", "US", "DE"],
     },
     {
       topic: "harrison novak sorority",
@@ -50,18 +50,10 @@ export const educationReport: TikTokReport = {
     {
       topic: "fmu meaning",
       subcategory: "School Education",
-      growthMultiplier: 191,
+      growthMultiplier: 204,
       trust: "high",
       videoNum: 566,
       topCountries: ["US", "CA", "PH", "AU", "SA"],
-    },
-    {
-      topic: "vdm school project",
-      subcategory: "Campus Life",
-      growthMultiplier: 187,
-      trust: "high",
-      videoNum: 594,
-      topCountries: ["NG", "GH", "GB", "CM"],
     },
     {
       topic: "rectangle theory",
@@ -85,7 +77,7 @@ export const educationReport: TikTokReport = {
       growthMultiplier: 40,
       trust: "high",
       videoNum: null,
-      topCountries: ["KE", "TZ", "QA", "SA"],
+      topCountries: ["KE", "US", "TZ", "QA"],
     },
     {
       topic: "Daily discipline rules that keep you on track",
@@ -94,6 +86,14 @@ export const educationReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "DE", "FR", "US", "GB"],
+    },
+    {
+      topic: "life orientation grade 10 term 4",
+      subcategory: "School Education",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "SZ", "EG", "DZ"],
     },
   ],
   methodologyNote:

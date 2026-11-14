@@ -14,10 +14,10 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "DC Velocity 2026",
@@ -62,6 +62,13 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "PH", "BR"],
     },
     {
+      topic: "best jig 2 performance philippines",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "CA", "ID", "AU"],
+    },
+    {
       topic: "koreans react to kenyan dancers",
       growthMultiplier: 2,
       trust: "high",
@@ -81,13 +88,6 @@ export const danceOtherDanceContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 884,
       topCountries: ["BR", "PH", "MX", "RU", "CA"],
-    },
-    {
-      topic: "dancers edit",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1087,
-      topCountries: ["PH", "BR", "MA", "NG", "TR"],
     },
   ],
   methodologyNote:

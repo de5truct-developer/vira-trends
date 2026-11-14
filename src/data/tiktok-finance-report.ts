@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const financeReport: TikTokReport = {
   category: "Finance and Economics",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "nancy grace flipping opinion nolan wells",
@@ -21,7 +21,7 @@ export const financeReport: TikTokReport = {
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["US"],
+      topCountries: ["US", "PR", "VI", "GU"],
     },
     {
       topic: "panic buying",
@@ -53,7 +53,7 @@ export const financeReport: TikTokReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 120,
-      topCountries: ["KH", "PH", "NG", "MN"],
+      topCountries: ["KH", "PH", "NG", "US"],
     },
     {
       topic: "my small business",
@@ -69,7 +69,7 @@ export const financeReport: TikTokReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1486,
-      topCountries: ["US", "KE", "GH", "NG", "PH"],
+      topCountries: ["KE", "GH", "NG", "PH", "ZA"],
     },
     {
       topic: "passive income for beginners",
@@ -93,7 +93,7 @@ export const financeReport: TikTokReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1887,
-      topCountries: ["MX", "EG", "IQ", "PK"],
+      topCountries: ["MX", "EG", "PK", "IQ"],
     },
   ],
   methodologyNote:

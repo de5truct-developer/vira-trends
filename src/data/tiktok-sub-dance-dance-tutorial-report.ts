@@ -14,17 +14,17 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "heeseung come back and back tutorial",
       growthMultiplier: 50,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "MY", "BR", "US"],
+      topCountries: ["PH", "US", "ID", "MY", "BR"],
     },
     {
       topic: "shuffle step",
@@ -48,6 +48,13 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "US", "NL", "DE", "SE"],
     },
     {
+      topic: "from the top make it drop song tutorial",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "DE", "ZA", "GB", "AU"],
+    },
+    {
       topic: "shemon demon always be scheming tutorial",
       growthMultiplier: 9,
       trust: "high",
@@ -69,25 +76,18 @@ export const danceDanceTutorialSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "BR", "ID", "ZA", "VN"],
     },
     {
-      topic: "fashion choreography",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 638,
-      topCountries: ["PH", "ID", "MY", "CA", "VN"],
-    },
-    {
-      topic: "from the top make it drop song tutorial",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "DE", "ZA", "GB", "AU"],
-    },
-    {
       topic: "tutoriym teetee",
       growthMultiplier: 4,
       trust: "high",
       videoNum: 209,
       topCountries: ["ID", "VN", "MX", "MY", "SA"],
+    },
+    {
+      topic: "dances to learn september 2026",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 152,
+      topCountries: ["AU", "IL", "PH", "ZA"],
     },
   ],
   methodologyNote:

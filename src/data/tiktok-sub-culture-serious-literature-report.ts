@@ -14,16 +14,16 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "the last stop ending final explicado",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 924,
+      videoNum: null,
       topCountries: ["PH", "US", "BR", "ZA", "ID"],
     },
     {
@@ -62,18 +62,18 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "AU", "CA", "DE"],
     },
     {
-      topic: "verity pumpkin",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["GB", "CA", "ID", "MX"],
-    },
-    {
       topic: "lord verity vs verity",
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "MX", "ID", "CA"],
+      topCountries: ["US", "PH", "MX", "ID"],
+    },
+    {
+      topic: "saving jessica buchanan",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB"],
     },
     {
       topic: "mafia romance novel",

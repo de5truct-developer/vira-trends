@@ -10,19 +10,11 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const householdReport: TikTokReport = {
   category: "Household",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
-    {
-      topic: "Garbage plates",
-      subcategory: "Home Life",
-      growthMultiplier: 529,
-      trust: "high",
-      videoNum: 124,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
-    },
     {
       topic: "haleyybaylee apartment tour",
       subcategory: "House Decoration",
@@ -34,10 +26,10 @@ export const householdReport: TikTokReport = {
     {
       topic: "Glove box",
       subcategory: "Home Life",
-      growthMultiplier: 71,
+      growthMultiplier: 58,
       trust: "high",
       videoNum: 393,
-      topCountries: ["PH", "GB", "IT", "MY", "FR"],
+      topCountries: ["PH", "MX", "GB", "IT", "MY"],
     },
     {
       topic: "platos dollar tree",
@@ -45,12 +37,12 @@ export const householdReport: TikTokReport = {
       growthMultiplier: 49,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "VE", "CO", "HN"],
+      topCountries: ["US", "MX", "VE", "CO", "HN"],
     },
     {
       topic: "cinna velcro wall",
       subcategory: "House Decoration",
-      growthMultiplier: 47,
+      growthMultiplier: 44,
       trust: "high",
       videoNum: 357,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
@@ -95,11 +87,19 @@ export const householdReport: TikTokReport = {
       videoNum: 662,
       topCountries: ["PK", "BD", "FR", "GB"],
     },
+    {
+      topic: "milk machine",
+      subcategory: "Home Life",
+      growthMultiplier: 25,
+      trust: "high",
+      videoNum: 825,
+      topCountries: ["GB", "US", "ZA", "CA", "DE"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Garbage plates",
+    topic: "haleyybaylee apartment tour",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const featuredContentReport: TikTokReport = {
   category: "Featured Content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "what happens to boys in november",
@@ -66,7 +66,7 @@ export const featuredContentReport: TikTokReport = {
     {
       topic: "my weopon type",
       subcategory: "Trends/Challenges",
-      growthMultiplier: 213,
+      growthMultiplier: 171,
       trust: "high",
       videoNum: 818,
       topCountries: ["US", "FR", "DE", "PL", "GB"],
@@ -74,10 +74,10 @@ export const featuredContentReport: TikTokReport = {
     {
       topic: "photo slide trend ideas",
       subcategory: "Trends/Challenges",
-      growthMultiplier: 93,
+      growthMultiplier: 90,
       trust: "high",
       videoNum: 48632,
-      topCountries: ["PH", "ID", "MY", "NG", "ZA"],
+      topCountries: ["PH", "ID", "MY", "ZA", "NG"],
     },
     {
       topic: "mom mom where were you original",

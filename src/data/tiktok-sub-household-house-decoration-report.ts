@@ -14,10 +14,10 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "haleyybaylee apartment tour",
@@ -28,7 +28,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "cinna velcro wall",
-      growthMultiplier: 47,
+      growthMultiplier: 44,
       trust: "high",
       videoNum: 357,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
@@ -42,7 +42,7 @@ export const householdHouseDecorationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "smart bm house new",
-      growthMultiplier: 29,
+      growthMultiplier: 23,
       trust: "high",
       videoNum: 447,
       topCountries: ["NG", "GH", "GB", "DE"],

@@ -14,17 +14,17 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Shockwave did it",
       growthMultiplier: 2449,
       trust: "high",
       videoNum: 3940,
-      topCountries: ["US", "GB", "PH", "DE", "CA"],
+      topCountries: ["US", "GB", "DE", "PH", "CA"],
     },
     {
       topic: "yeat fortnite",
@@ -35,7 +35,7 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "cyberpunkedgerunners2",
-      growthMultiplier: 65,
+      growthMultiplier: 66,
       trust: "high",
       videoNum: 796,
       topCountries: ["US", "BR", "TH", "RU", "PL"],
@@ -59,7 +59,7 @@ export const acgnGamesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: 879,
-      topCountries: ["US", "GB", "PH", "PL", "DE"],
+      topCountries: ["US", "PH", "ID", "GB", "MY"],
     },
     {
       topic: "nami fortnite skin",

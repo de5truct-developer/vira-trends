@@ -14,10 +14,10 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "the most handsome man according to science",
@@ -55,18 +55,11 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       topCountries: ["US", "GB", "CA", "DE", "PH"],
     },
     {
-      topic: "mexican men",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 869,
-      topCountries: ["US", "PH", "MX", "ZA", "ID"],
-    },
-    {
       topic: "beautiful woman science",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 297,
-      topCountries: ["US", "PH", "CA", "ZA", "MY"],
+      topCountries: ["US", "PH", "CA", "MY", "AU"],
     },
     {
       topic: "Latino men",
@@ -74,6 +67,13 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
       trust: "high",
       videoNum: 886,
       topCountries: ["CA", "PH", "AU", "ZA", "BR"],
+    },
+    {
+      topic: "mexican men",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 869,
+      topCountries: ["US", "PH", "MX", "ZA", "ID"],
     },
     {
       topic: "saudi girls",

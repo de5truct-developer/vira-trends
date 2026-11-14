@@ -14,10 +14,10 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "100 million orbeez",
@@ -42,10 +42,10 @@ export const hobbiesToysSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "wpnz puzzle",
-      growthMultiplier: 13,
+      growthMultiplier: 14,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "PH", "CL", "AR"],
+      topCountries: ["MX", "PH", "US", "PE", "AR"],
     },
     {
       topic: "secret marshmallow pong",

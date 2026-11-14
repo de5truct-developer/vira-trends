@@ -14,10 +14,10 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "beauty services",
@@ -28,7 +28,7 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "laika studios wildwood",
-      growthMultiplier: 22,
+      growthMultiplier: 18,
       trust: "high",
       videoNum: 658,
       topCountries: ["ES", "PH", "GB", "DE", "ID"],
@@ -52,7 +52,7 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: null,
-      topCountries: ["DO", "HT", "JM", "CA", "MX"],
+      topCountries: ["DO", "HT", "JM", "CA", "US"],
     },
     {
       topic: "bunna b and trim",
@@ -76,18 +76,18 @@ export const localLifeLifeServicesSubReport: TikTokSubcategoryReport = {
       topCountries: ["KH", "BO", "AU", "MM", "PE"],
     },
     {
-      topic: "21 hair",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["NG", "GH", "ID", "SA", "PH"],
-    },
-    {
       topic: "beauty works",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 4132,
       topCountries: ["GB", "PK", "ID", "PH", "AE"],
+    },
+    {
+      topic: "21 hair",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "GH", "ID", "SA", "PH"],
     },
   ],
   methodologyNote:

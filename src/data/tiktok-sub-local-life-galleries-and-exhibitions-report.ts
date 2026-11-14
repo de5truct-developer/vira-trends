@@ -14,10 +14,10 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "pepper hollywood arts",
@@ -42,7 +42,7 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "d day experience museum",
-      growthMultiplier: 221,
+      growthMultiplier: 199,
       trust: "high",
       videoNum: 353,
       topCountries: ["US", "GB", "MX", "DE", "PH"],
@@ -63,7 +63,7 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
     },
     {
       topic: "marsha bone museum",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 1202,
       topCountries: ["US", "GB", "CA", "ID", "AU"],
@@ -76,18 +76,18 @@ export const localLifeGalleriesAndExhibitionsSubReport: TikTokSubcategoryReport 
       topCountries: ["US", "PH", "MY", "NP", "BR"],
     },
     {
+      topic: "the vasa ship museum",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "PH", "NO", "AU", "ID"],
+    },
+    {
       topic: "robot exhibitions china",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["MX", "US", "TH", "PH", "BR"],
-    },
-    {
-      topic: "louvreheist",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 300,
-      topCountries: ["GB", "PH", "CA", "DE", "AU"],
     },
   ],
   methodologyNote:

@@ -14,14 +14,14 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "quintic formula",
-      growthMultiplier: 5,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: 172,
       topCountries: ["US", "GB", "PH", "ID", "BR"],
@@ -73,13 +73,13 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 0,
       trust: "high",
       videoNum: 285,
-      topCountries: ["US", "BR"],
+      topCountries: ["US", "PR", "GU", "AS"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "quintic formula",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    audience: "unknown 18-24, United Kingdom (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "InnerGrowth",
@@ -32,6 +32,13 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "KE", "CA", "ZA", "NG"],
+    },
+    {
+      topic: "self question questions",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 817,
+      topCountries: ["GB", "PH", "MX", "BR", "CA"],
     },
     {
       topic: "Inconsistency",
@@ -59,7 +66,7 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 668,
-      topCountries: ["PH", "ZA", "NG", "PK", "KE"],
+      topCountries: ["US", "PH", "ZA", "PK", "NG"],
     },
     {
       topic: "overthinking sta znaci",
@@ -81,13 +88,6 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1333,
       topCountries: ["ID", "US", "VN", "NG"],
-    },
-    {
-      topic: "feeling myself again",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 5265,
-      topCountries: ["PH", "ZA", "MY", "MM", "ID"],
     },
   ],
   methodologyNote:

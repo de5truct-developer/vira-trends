@@ -14,10 +14,10 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "chun li legs training",
@@ -49,7 +49,7 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "kia barbie arms",
-      growthMultiplier: 44,
+      growthMultiplier: 40,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "AE", "JP", "US"],
@@ -60,13 +60,6 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1760,
       topCountries: ["NG", "ZA", "KE", "TZ", "CI"],
-    },
-    {
-      topic: "women's only gym",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: 908,
-      topCountries: ["US", "ZA", "NG", "GB", "KE"],
     },
     {
       topic: "board stretcher",
@@ -81,6 +74,13 @@ export const sportsFitnessSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 945,
       topCountries: ["PH", "JP", "CA", "AE", "SA"],
+    },
+    {
+      topic: "women's only gym",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 908,
+      topCountries: ["ZA", "NG", "GB", "KE", "CA"],
     },
     {
       topic: "What helps me stay consistent at the gym",

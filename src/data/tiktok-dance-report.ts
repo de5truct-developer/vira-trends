@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const danceReport: TikTokReport = {
   category: "Dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Dance Viral TikTok 2026",
@@ -26,7 +26,7 @@ export const danceReport: TikTokReport = {
     {
       topic: "TikTok Mashup Dance 2026",
       subcategory: "Dance Trend",
-      growthMultiplier: 535,
+      growthMultiplier: 375,
       trust: "high",
       videoNum: 1005,
       topCountries: ["PH", "US", "ID", "BR"],
@@ -45,7 +45,7 @@ export const danceReport: TikTokReport = {
       growthMultiplier: 50,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "MY", "BR", "US"],
+      topCountries: ["PH", "US", "ID", "MY", "BR"],
     },
     {
       topic: "shuffle step",
@@ -66,7 +66,7 @@ export const danceReport: TikTokReport = {
     {
       topic: "shuffle revenge resumo",
       subcategory: "Dance Trend",
-      growthMultiplier: 32,
+      growthMultiplier: 29,
       trust: "high",
       videoNum: 358,
       topCountries: ["US", "ID", "PH", "MY", "BR"],

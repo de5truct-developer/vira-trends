@@ -14,10 +14,10 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "how to make sticker banners",
@@ -28,17 +28,24 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "Tihar gift",
-      growthMultiplier: 9,
+      growthMultiplier: 10,
       trust: "high",
       videoNum: 713,
       topCountries: ["NP", "AU", "JP", "AE"],
+    },
+    {
+      topic: "Ship In A Bottle",
+      growthMultiplier: 8,
+      trust: "high",
+      videoNum: 1401,
+      topCountries: ["ID", "CA", "PH", "GB", "AU"],
     },
     {
       topic: "dipawali decoration",
       growthMultiplier: 8,
       trust: "high",
       videoNum: 442,
-      topCountries: ["NP", "JP", "SA", "AE"],
+      topCountries: ["NP", "US", "JP", "SA"],
     },
     {
       topic: "paper squishy iphone 18 burgundy",
@@ -46,13 +53,6 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "KH", "BR"],
-    },
-    {
-      topic: "Ship In A Bottle",
-      growthMultiplier: 6,
-      trust: "high",
-      videoNum: 1401,
-      topCountries: ["ID", "CA", "PH", "GB", "AU"],
     },
     {
       topic: "cardboard phone stand",
@@ -66,7 +66,7 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 5,
       trust: "high",
       videoNum: 334,
-      topCountries: ["ID", "TH", "PH", "MY"],
+      topCountries: ["ID", "US", "TH", "PH"],
     },
     {
       topic: "underwater basket weaving",
@@ -80,7 +80,7 @@ export const hobbiesDiySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 1017,
-      topCountries: ["PH", "ID", "NP", "NG", "KE"],
+      topCountries: ["PH", "NG", "NP", "KE", "PK"],
     },
     {
       topic: "Traditional basket-making step by step",

@@ -14,11 +14,18 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
+    {
+      topic: "meaning of el nino",
+      growthMultiplier: 134,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NG", "GH", "GB", "US"],
+    },
     {
       topic: "custodes",
       growthMultiplier: 2,
@@ -31,7 +38,7 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["GB", "DE", "PL", "SE", "NL"],
+      topCountries: ["GB", "US", "DE", "PL", "SE"],
     },
     {
       topic: "the aberfan disaster 1956",
@@ -48,18 +55,18 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["TR", "NG", "IQ", "AU", "GB"],
     },
     {
-      topic: "Morgan family",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["ZA", "ID", "JM", "GB", "TT"],
-    },
-    {
       topic: "odysseus stringing his bow scene",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "CA", "AU"],
+    },
+    {
+      topic: "Morgan family",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["ZA", "ID", "JM", "GB", "TT"],
     },
     {
       topic: "london british part to 2 3 4 4568 next",
@@ -80,20 +87,13 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 571,
-      topCountries: ["US", "PH", "CA", "AU", "ID"],
-    },
-    {
-      topic: "jfk car video 1963",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PK", "AU", "JP", "CW"],
+      topCountries: ["US", "GU", "PH", "PR"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "custodes",
-    audience: "male 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "meaning of el nino",
+    audience: "unknown 18-24, Nigeria (dominant segment, snapshot at collection date)",
   },
 };

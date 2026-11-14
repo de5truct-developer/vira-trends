@@ -14,10 +14,10 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "to earn the right to work",
@@ -31,7 +31,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 11,
       trust: "high",
       videoNum: null,
-      topCountries: ["ID", "MM", "MY", "PH", "TH"],
+      topCountries: ["ID", "PH", "US", "NG", "MM"],
     },
     {
       topic: "strathmore biometrics attendance",
@@ -59,14 +59,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: 1142,
-      topCountries: ["PK", "BD", "ID", "NP"],
-    },
-    {
-      topic: "employment release letter documentation",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["SG", "PH", "ID", "SA", "NP"],
+      topCountries: ["PK", "BD", "SN", "US"],
     },
     {
       topic: "stuck my 401k",
@@ -74,6 +67,13 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 140,
       topCountries: ["ID", "MX", "BR", "MY", "PH"],
+    },
+    {
+      topic: "employment release letter documentation",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 132,
+      topCountries: ["SG", "PH", "ID", "NP", "SA"],
     },
     {
       topic: "متى تترك الوظيفة للعمل الحر",

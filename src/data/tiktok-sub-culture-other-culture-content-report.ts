@@ -14,10 +14,10 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "illuminate explained",
@@ -83,11 +83,11 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       topCountries: ["IQ", "TR", "SA", "EG"],
     },
     {
-      topic: "thai people",
+      topic: "witchtips",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: null,
-      topCountries: ["TH", "PH", "MY", "ID", "AU"],
+      videoNum: 845,
+      topCountries: ["US", "MX", "ZA", "CO"],
     },
   ],
   methodologyNote:

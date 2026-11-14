@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const sportsReport: TikTokReport = {
   category: "Sports",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "maradona warming up messi",
@@ -80,20 +80,20 @@ export const sportsReport: TikTokReport = {
       topCountries: ["MX", "CO", "AR", "VE", "PE"],
     },
     {
+      topic: "chrisean rock sparring",
+      subcategory: "Physical Sports",
+      growthMultiplier: 154,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "ZA", "NG", "NL"],
+    },
+    {
       topic: "explosive basketball",
       subcategory: "Physical Sports",
       growthMultiplier: 137,
       trust: "high",
       videoNum: 812,
       topCountries: ["US", "PH", "ID", "GB", "CA"],
-    },
-    {
-      topic: "negativity in basketball",
-      subcategory: "Physical Sports",
-      growthMultiplier: 119,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB"],
     },
   ],
   methodologyNote:

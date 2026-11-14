@@ -14,10 +14,10 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "real volcano mountain",
@@ -28,7 +28,7 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "real tsunami footage tips",
-      growthMultiplier: 68,
+      growthMultiplier: 69,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "DE", "IT", "RO", "GB"],
@@ -62,6 +62,13 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "KE", "NG", "GH"],
     },
     {
+      topic: "africa real map size",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: 860,
+      topCountries: ["US", "GB", "AU", "KE", "GH"],
+    },
+    {
       topic: "the trees explained",
       growthMultiplier: 3,
       trust: "high",
@@ -81,13 +88,6 @@ export const scienceFactsGeologyKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "CA", "GB"],
-    },
-    {
-      topic: "shipwrecks",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 697,
-      topCountries: ["GB", "PH", "CA", "AU", "ID"],
     },
   ],
   methodologyNote:

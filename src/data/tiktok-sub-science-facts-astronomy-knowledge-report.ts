@@ -14,17 +14,17 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "space animals and astronaut sightings",
       growthMultiplier: 18,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ID", "PH", "MY", "GB"],
+      topCountries: ["US", "PH", "MY", "ID", "TH"],
     },
     {
       topic: "equal earth map",
@@ -38,7 +38,7 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 3,
       trust: "high",
       videoNum: 554,
-      topCountries: ["PH", "VN", "ZA", "MM"],
+      topCountries: ["US", "PH", "VN", "ZA"],
     },
     {
       topic: "time before the moon",
@@ -69,18 +69,18 @@ export const scienceFactsAstronomyKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["PH", "MY", "CA", "ZA", "ID"],
     },
     {
-      topic: "8 planets in the solar system",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 603,
-      topCountries: ["PH", "ZA", "ID", "US"],
-    },
-    {
       topic: "choosing the right solar system",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "PK", "MY"],
+    },
+    {
+      topic: "8 planets in the solar system",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 603,
+      topCountries: ["PH", "ZA", "ID", "US"],
     },
     {
       topic: "250 million years ago",

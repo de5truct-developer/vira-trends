@@ -14,17 +14,17 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-23",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "banners stickers",
       growthMultiplier: 1340,
       trust: "high",
       videoNum: 1178,
-      topCountries: ["MX", "BR", "PH", "AR", "PE"],
+      topCountries: ["MX", "BR", "PH", "AR", "US"],
     },
     {
       topic: "stickers banner tutorial",
@@ -63,17 +63,10 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "rubelite diamond guard",
-      growthMultiplier: 29,
+      growthMultiplier: 25,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA", "BR"],
-    },
-    {
-      topic: "finding the needle in the haystack",
-      growthMultiplier: 20,
-      trust: "high",
-      videoNum: 176,
-      topCountries: ["US", "GB", "NL", "ES", "PH"],
     },
     {
       topic: "art lila drawing",
@@ -88,6 +81,13 @@ export const hobbiesOtherHobbiesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 625,
       topCountries: ["MX", "PE", "AR", "CL", "CO"],
+    },
+    {
+      topic: "secret love affair unboxing",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "VN", "PH", "TH"],
     },
   ],
   methodologyNote:

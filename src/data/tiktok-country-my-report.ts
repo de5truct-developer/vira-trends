@@ -10,20 +10,11 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const myCountryReport: TikTokCountryReport = {
   country: "Malaysia",
   countryCode: "MY",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
-    {
-      topic: "heidi klum outfits",
-      category: "Fashion",
-      subcategory: "Fashion News",
-      growthMultiplier: 399,
-      trust: "high",
-      videoNum: 6048,
-      topCountries: ["ID", "US", "PH", "BR", "MY"],
-    },
     {
       topic: "togi mini trucks",
       category: "Vehicles & Transportation",
@@ -32,15 +23,6 @@ export const myCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "AU"],
-    },
-    {
-      topic: "the lament of autumn ending",
-      category: "ACGN",
-      subcategory: "Animation and Comics",
-      growthMultiplier: 266,
-      trust: "high",
-      videoNum: 974,
-      topCountries: ["ID", "PH", "KH", "MY", "MM"],
     },
     {
       topic: "canvas skirt",
@@ -105,11 +87,29 @@ export const myCountryReport: TikTokCountryReport = {
       videoNum: 1913,
       topCountries: ["PH", "MY", "DE", "CA", "AU"],
     },
+    {
+      topic: "african teacher telling students to talk",
+      category: "Education",
+      subcategory: "Campus Life",
+      growthMultiplier: 18,
+      trust: "high",
+      videoNum: 441,
+      topCountries: ["US", "PH", "GB", "MY", "SA"],
+    },
+    {
+      topic: "magna vs dante fight reaction",
+      category: "ACGN",
+      subcategory: "Animation and Comics",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: 406,
+      topCountries: ["US", "PH", "MY", "NG", "CA"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "heidi klum outfits",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "togi mini trucks",
+    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

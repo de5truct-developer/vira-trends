@@ -14,17 +14,17 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
   parentCategory: "Finance and Economics",
   parentSlug: "finance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "nancy grace flipping opinion nolan wells",
       growthMultiplier: 6,
       trust: "high",
       videoNum: null,
-      topCountries: ["US"],
+      topCountries: ["US", "PR", "VI", "GU"],
     },
     {
       topic: "networth",
@@ -59,7 +59,7 @@ export const financeGossipOfFinanceIndustrySubReport: TikTokSubcategoryReport = 
       growthMultiplier: 1,
       trust: "high",
       videoNum: 426,
-      topCountries: ["US", "CA", "AU", "ZA", "PH"],
+      topCountries: ["US", "CA", "AU", "PH", "ZA"],
     },
     {
       topic: "the investor who sees the future",

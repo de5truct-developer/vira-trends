@@ -14,17 +14,17 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "the rapunzel edit to fix lag",
       growthMultiplier: 1201,
       trust: "high",
       videoNum: 221,
-      topCountries: ["US", "CA", "PH", "AU", "BR"],
+      topCountries: ["US", "PH", "CA", "AU", "MY"],
     },
     {
       topic: "what is coderot",
@@ -32,13 +32,6 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA"],
-    },
-    {
-      topic: "the lament of autumn ending",
-      growthMultiplier: 724,
-      trust: "high",
-      videoNum: 974,
-      topCountries: ["ID", "PH", "KH", "MY", "MM"],
     },
     {
       topic: "magna vs dante fight reaction",
@@ -88,6 +81,13 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 728,
       topCountries: ["PK", "PH", "NG", "BD"],
+    },
+    {
+      topic: "cyberpunk edgerunners cracking scene",
+      growthMultiplier: 9,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "MY", "CA", "ID"],
     },
   ],
   methodologyNote:

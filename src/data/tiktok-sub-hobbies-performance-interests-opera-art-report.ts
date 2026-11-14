@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "paper to money magic trick",
@@ -39,6 +39,13 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 358,
       topCountries: ["RU", "VN", "BR", "MX", "BY"],
+    },
+    {
+      topic: "aiとマジック発想の掛け合わせ",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ML", "CM", "CI", "SN"],
     },
     {
       topic: "jimmy woo card trick",
@@ -81,13 +88,6 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       trust: "high",
       videoNum: 2234,
       topCountries: ["PH", "MY", "ID", "SG"],
-    },
-    {
-      topic: "connor coin trick",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 257,
-      topCountries: ["GB", "ID", "PH", "BR", "DE"],
     },
   ],
   methodologyNote:

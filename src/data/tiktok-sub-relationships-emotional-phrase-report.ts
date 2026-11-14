@@ -14,10 +14,10 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "MotivationalAndInspiringVideos",
@@ -34,6 +34,13 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "AU", "CA", "NG", "PK"],
     },
     {
+      topic: "it doesn't matter who you are",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 682,
+      topCountries: ["EG", "SA", "PK", "AE", "SO"],
+    },
+    {
       topic: "positive word of the day",
       growthMultiplier: 2,
       trust: "high",
@@ -41,11 +48,11 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "ZA", "ID", "PH", "MY"],
     },
     {
-      topic: "it doesn't matter who you are",
+      topic: "motivation inspiration video",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 682,
-      topCountries: ["EG", "SA", "PK", "AE", "SO"],
+      videoNum: 23302,
+      topCountries: ["PK", "PH", "ID", "NG", "SA"],
     },
     {
       topic: "i want love like this",
@@ -81,13 +88,6 @@ export const relationshipsEmotionalPhraseSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "UG", "ZA", "NG"],
-    },
-    {
-      topic: "motivation for people starting out",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1129,
-      topCountries: ["ID", "BR", "US", "PH"],
     },
   ],
   methodologyNote:

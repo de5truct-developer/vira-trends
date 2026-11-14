@@ -14,10 +14,10 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Dance Viral TikTok 2026",
@@ -28,7 +28,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "TikTok Mashup Dance 2026",
-      growthMultiplier: 535,
+      growthMultiplier: 375,
       trust: "high",
       videoNum: 1005,
       topCountries: ["PH", "US", "ID", "BR"],
@@ -49,7 +49,7 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "shuffle revenge resumo",
-      growthMultiplier: 32,
+      growthMultiplier: 29,
       trust: "high",
       videoNum: 358,
       topCountries: ["US", "ID", "PH", "MY", "BR"],
@@ -83,11 +83,11 @@ export const danceDanceTrendSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "PH", "ID", "VN", "BR"],
     },
     {
-      topic: "party party dance",
+      topic: "come back dance trend",
       growthMultiplier: 10,
       trust: "high",
-      videoNum: 1037,
-      topCountries: ["PH", "MX", "US", "CA", "AU"],
+      videoNum: null,
+      topCountries: ["US", "PH", "ID", "BR", "MM"],
     },
   ],
   methodologyNote:

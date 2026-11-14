@@ -14,10 +14,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -42,7 +42,7 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "dangerous fungi hiding in food",
-      growthMultiplier: 2,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "CA", "ID", "MY"],
@@ -66,7 +66,14 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 172,
-      topCountries: ["BR", "PT", "MX", "PE"],
+      topCountries: ["BR", "PT", "US", "MX"],
+    },
+    {
+      topic: "eating an artickoke",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: [],
     },
     {
       topic: "foods that smell like warm wheat",
@@ -81,13 +88,6 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1090,
       topCountries: ["ZA", "KE", "NG", "UG", "GH"],
-    },
-    {
-      topic: "molasses benefits",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 618,
-      topCountries: ["ZA", "PH", "NG", "KE", "BW"],
     },
   ],
   methodologyNote:

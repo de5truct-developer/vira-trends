@@ -14,17 +14,17 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
   parentCategory: "Sports",
   parentSlug: "sports",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "let's go raptors chant",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 225,
-      topCountries: ["CA", "US", "PH", "AE", "BR"],
+      topCountries: ["CA", "PH", "AE", "BR", "ID"],
     },
     {
       topic: "الرياضة_في_السعودية",
@@ -38,7 +38,7 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1148,
-      topCountries: ["ID", "MY", "AU", "BO"],
+      topCountries: ["ID", "MY", "AU", "SA"],
     },
     {
       topic: "SportsLover",
@@ -46,6 +46,13 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1200,
       topCountries: ["US", "BD", "GH", "MM"],
+    },
+    {
+      topic: "personal growth through team sport",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 719,
+      topCountries: ["US", "ID", "MX", "PH", "TR"],
     },
     {
       topic: "athleticism",
@@ -81,13 +88,6 @@ export const sportsSportsOthersSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1096,
       topCountries: ["RU", "RW", "ID", "DZ"],
-    },
-    {
-      topic: "تصميم كره قدم",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 6880,
-      topCountries: ["IQ", "YE", "EG", "SA"],
     },
   ],
   methodologyNote:

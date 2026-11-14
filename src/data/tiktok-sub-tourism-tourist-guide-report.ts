@@ -14,10 +14,10 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "Baltic countries facts and demographics",
@@ -34,17 +34,17 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "GB", "NG"],
     },
     {
-      topic: "road trip guide to a local waterfall",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: 980,
-      topCountries: ["PK", "NG", "ZA", "NP"],
-    },
-    {
       topic: "best stops on a rawalpindi day trip",
       growthMultiplier: 21,
       trust: "high",
       videoNum: null,
+      topCountries: ["PK", "NG", "ZA", "NP"],
+    },
+    {
+      topic: "road trip guide to a local waterfall",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: 980,
       topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
@@ -59,7 +59,7 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 7,
       trust: "high",
       videoNum: 892,
-      topCountries: ["SA", "MX", "IQ", "EG", "KW"],
+      topCountries: ["SA", "EG", "IQ", "KW"],
     },
     {
       topic: "Family winter day trip ideas",
@@ -69,18 +69,18 @@ export const tourismTouristGuideSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "EG", "JO", "SD"],
     },
     {
+      topic: "camping recommend",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "VN", "TH", "BD"],
+    },
+    {
       topic: "manag visit place",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 184,
       topCountries: ["NP", "JP", "AE", "IN"],
-    },
-    {
-      topic: "camping recommend",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "VN", "TH", "BD"],
     },
     {
       topic: "immersive ways to explore night city",

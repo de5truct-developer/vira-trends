@@ -14,10 +14,10 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-23",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "clayface movie theaters",
@@ -38,7 +38,7 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 68,
       trust: "high",
       videoNum: 553,
-      topCountries: ["FR", "GB", "PH", "IT", "AU"],
+      topCountries: ["FR", "GB", "PH", "AU", "IT"],
     },
     {
       topic: "tame impala 2027 tour",
@@ -63,7 +63,7 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "bts tour 2027 locations",
-      growthMultiplier: 6,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "ZA", "TR", "BR", "CA"],
@@ -80,7 +80,7 @@ export const localLifeOfflinePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 4,
       trust: "high",
       videoNum: 10474,
-      topCountries: ["US", "BD", "PK", "LA", "PH"],
+      topCountries: ["US", "PR", "GU", "BD"],
     },
     {
       topic: "zara larsson tour bangkok",

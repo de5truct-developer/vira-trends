@@ -14,10 +14,10 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "overnight camping",
@@ -52,7 +52,7 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 631,
-      topCountries: ["CA", "AU", "ZA", "NG"],
+      topCountries: ["US", "CA", "AU", "ZA", "NG"],
     },
     {
       topic: "Everyday products i bring traveling",
@@ -69,13 +69,6 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       topCountries: ["DZ", "SD", "EG", "SA"],
     },
     {
-      topic: "campingchair",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1069,
-      topCountries: ["PH", "MM", "MY", "MX"],
-    },
-    {
       topic: "What I pack for a long hike",
       growthMultiplier: 1,
       trust: "high",
@@ -88,6 +81,13 @@ export const tourismTouristSuppliesSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1046,
       topCountries: ["PH", "US", "MY", "ID", "CA"],
+    },
+    {
+      topic: "What we packed for vacation",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["BR", "MX", "PH", "PL", "CA"],
     },
   ],
   methodologyNote:

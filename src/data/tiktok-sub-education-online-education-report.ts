@@ -14,10 +14,10 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "sat desmos",
@@ -55,13 +55,6 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
-      topic: "wordlist",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 429,
-      topCountries: ["PK", "PH", "VN", "MM"],
-    },
-    {
       topic: "online tutoring",
       growthMultiplier: 1,
       trust: "high",
@@ -73,14 +66,14 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["ZA", "PK", "ET", "KE"],
+      topCountries: ["ZA", "US", "PK", "KE"],
     },
     {
       topic: "online business follower growth tutorials",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 855,
-      topCountries: ["ET", "ZA", "NG", "PH", "KE"],
+      topCountries: ["US", "ET", "ZA", "NG", "PH"],
     },
   ],
   methodologyNote:

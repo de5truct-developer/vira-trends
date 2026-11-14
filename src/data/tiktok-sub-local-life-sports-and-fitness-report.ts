@@ -14,10 +14,10 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
   parentCategory: "Local Life",
   parentSlug: "local-life",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-26",
+  computedAt: "2026-11-13T10:05:22Z",
+  windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "tokwagains basketball court",
@@ -38,7 +38,7 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "ID", "MY", "CA"],
+      topCountries: ["US", "PH", "ID", "MY", "ZA"],
     },
     {
       topic: "a day balancing fitness and events",
@@ -83,11 +83,11 @@ export const localLifeSportsAndFitnessSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "BR", "CA", "MX"],
     },
     {
-      topic: "viral stadium chant audio trend",
+      topic: "fab 4 movie park basketball",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 288,
-      topCountries: ["US", "GB", "CA", "MX", "AU"],
+      videoNum: null,
+      topCountries: ["US"],
     },
   ],
   methodologyNote:

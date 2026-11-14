@@ -14,10 +14,10 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science and Technology",
   parentSlug: "science-technology",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "sticker banners tutorial",
@@ -25,13 +25,6 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 4689,
       topCountries: ["US", "PH", "MX", "ID", "BR"],
-    },
-    {
-      topic: "gif notes in ig",
-      growthMultiplier: 513,
-      trust: "high",
-      videoNum: 565,
-      topCountries: ["PH", "ID", "ZA", "CA", "MY"],
     },
     {
       topic: "build your own food filter",
@@ -74,6 +67,13 @@ export const scienceTechnologySoftwareSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "PH", "ID", "AU"],
+    },
+    {
+      topic: "hair coloring before and after transformations",
+      growthMultiplier: 34,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "MY", "ZA", "CA", "ID"],
     },
     {
       topic: "persevere family link",

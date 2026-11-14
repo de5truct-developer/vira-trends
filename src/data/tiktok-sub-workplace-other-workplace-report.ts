@@ -14,10 +14,10 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Workplace",
   parentSlug: "workplace",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "when the client doesn't want to pay 2",
@@ -55,13 +55,6 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "CA", "AU", "ZA"],
     },
     {
-      topic: "clients refuse to pay",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 164,
-      topCountries: ["US", "ZA", "JM", "KE", "MD"],
-    },
-    {
       topic: "No job",
       growthMultiplier: 2,
       trust: "high",
@@ -76,18 +69,25 @@ export const workplaceOtherWorkplaceSubReport: TikTokSubcategoryReport = {
       topCountries: ["ID", "PH", "NG", "ZA", "NP"],
     },
     {
-      topic: "How to protect your work-life balance",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 389,
-      topCountries: ["US", "GB", "CA", "AU", "ZA"],
-    },
-    {
       topic: "wwwmycarerscoza apply link",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "NA", "ZM", "NG"],
+    },
+    {
+      topic: "working in hr",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 877,
+      topCountries: ["CA", "ZA", "AU", "MY", "PH"],
+    },
+    {
+      topic: "ihaveacrushatwork",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "TH", "JP"],
     },
   ],
   methodologyNote:

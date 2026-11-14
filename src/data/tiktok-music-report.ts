@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const musicReport: TikTokReport = {
   category: "Music",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-25",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "CallMeWhateverYouWant",
@@ -29,7 +29,7 @@ export const musicReport: TikTokReport = {
       growthMultiplier: 11,
       trust: "high",
       videoNum: 1440,
-      topCountries: ["ID", "US", "DE", "BR", "FR"],
+      topCountries: ["ID", "DE", "BR", "US", "FR"],
     },
     {
       topic: "foolinlove",
@@ -93,7 +93,7 @@ export const musicReport: TikTokReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "BR", "PH", "ID"],
+      topCountries: ["BR", "MX", "US", "PH", "ID"],
     },
   ],
   methodologyNote:

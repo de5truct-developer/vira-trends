@@ -14,10 +14,10 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "spontaneous human composition",
@@ -39,13 +39,6 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 5072,
       topCountries: ["US", "GB", "PH", "FR", "CA"],
-    },
-    {
-      topic: "matrix meaning",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 838,
-      topCountries: ["PH", "ZA", "KE", "NG", "GH"],
     },
     {
       topic: "why does deja vu happen",
@@ -81,6 +74,13 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 253,
       topCountries: ["ZA", "CA", "KE", "AU", "GB"],
+    },
+    {
+      topic: "matrix meaning",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 838,
+      topCountries: ["PH", "ZA", "KE", "GH", "NG"],
     },
     {
       topic: "why diamonds feel rarer than they are",

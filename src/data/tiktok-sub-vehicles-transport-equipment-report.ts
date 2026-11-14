@@ -14,10 +14,10 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "tesla roaster",
@@ -31,7 +31,7 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2765,
       trust: "high",
       videoNum: 8040,
-      topCountries: ["US", "NP", "UG", "ID", "GB"],
+      topCountries: ["US", "PR", "NP", "GU"],
     },
     {
       topic: "new ferrari 2027",
@@ -52,7 +52,14 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1704,
       trust: "high",
       videoNum: 635,
-      topCountries: ["US", "ID", "MY", "IQ", "MM"],
+      topCountries: ["US", "AU", "CA", "AE", "SA"],
+    },
+    {
+      topic: "the brakes were glazed he was right",
+      growthMultiplier: 1589,
+      trust: "high",
+      videoNum: 775,
+      topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
       topic: "togi mini trucks",
@@ -60,13 +67,6 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "MY", "ID", "AU"],
-    },
-    {
-      topic: "the brakes were glazed he was right",
-      growthMultiplier: 1336,
-      trust: "high",
-      videoNum: 775,
-      topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
       topic: "q50 white woman",
@@ -83,11 +83,11 @@ export const vehiclesTransportEquipmentSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "NL", "SE", "DE"],
     },
     {
-      topic: "porsche girly car 2006",
-      growthMultiplier: 605,
+      topic: "hoonicorn cyberpunk",
+      growthMultiplier: 590,
       trust: "high",
-      videoNum: 879,
-      topCountries: ["US", "PL", "PH", "DE", "GB"],
+      videoNum: null,
+      topCountries: ["US", "PR", "GU", "AU"],
     },
   ],
   methodologyNote:

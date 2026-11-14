@@ -14,10 +14,10 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-24",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "norway houses",
@@ -44,7 +44,7 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       topic: "queens houses",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 3301,
+      videoNum: 3229,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
     },
     {

@@ -14,17 +14,17 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
+  computedAt: "2026-11-13T10:05:22Z",
   windowStart: "2026-09-26",
   windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  updatedAt: "2026-11-14",
   topics: [
     {
       topic: "all souls day",
       growthMultiplier: 5,
       trust: "high",
       videoNum: 888,
-      topCountries: ["PH", "MY", "KE", "NG", "MM"],
+      topCountries: ["PH", "MY", "NG", "KE", "MM"],
     },
     {
       topic: "big gifts for christmas",
@@ -48,6 +48,13 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       topCountries: ["MM", "ZA", "PK", "IQ"],
     },
     {
+      topic: "new year gift ideas",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "ET", "PK"],
+    },
+    {
       topic: "HalloweenSeason",
       growthMultiplier: 2,
       trust: "high",
@@ -60,13 +67,6 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 894,
       topCountries: ["PH", "AE", "TW", "CA"],
-    },
-    {
-      topic: "new year gift ideas",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "ET", "PK"],
     },
     {
       topic: "sunday status 2026",
