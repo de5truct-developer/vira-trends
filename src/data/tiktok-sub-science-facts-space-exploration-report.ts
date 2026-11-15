@@ -14,18 +14,11 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-13T10:05:22Z",
-  windowStart: "2026-09-25",
-  windowEnd: "2026-11-06",
-  updatedAt: "2026-11-14",
+  computedAt: "2026-11-14T09:06:06Z",
+  windowStart: "2026-09-30",
+  windowEnd: "2026-11-10",
+  updatedAt: "2026-11-15",
   topics: [
-    {
-      topic: "captain underparents in space",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 245,
-      topCountries: ["PH", "CA", "BR", "MY", "ID"],
-    },
     {
       topic: "elon musk mars",
       growthMultiplier: 2,
@@ -41,6 +34,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "GH", "ZA", "GB"],
     },
     {
+      topic: "captain underparents in space",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 245,
+      topCountries: ["PH", "CA", "BR", "MY", "ID"],
+    },
+    {
       topic: "Sx9",
       growthMultiplier: 1,
       trust: "high",
@@ -52,7 +52,7 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 160,
-      topCountries: ["ID", "PH", "TR", "ZA", "MX"],
+      topCountries: ["US", "ID", "PH", "TR", "ZA"],
     },
     {
       topic: "stephenson 218",
@@ -61,25 +61,11 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       videoNum: null,
       topCountries: ["BR", "ID", "MX", "PH", "VN"],
     },
-    {
-      topic: "moonrockhard",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "ZA", "BR", "CA", "DE"],
-    },
-    {
-      topic: "thefakemoon",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "RU", "MX", "BR", "KZ"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "captain underparents in space",
-    audience: "unknown 18-24, Canada (dominant segment, snapshot at collection date)",
+    topic: "elon musk mars",
+    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
   },
 };

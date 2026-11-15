@@ -14,38 +14,24 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-13T10:05:22Z",
-  windowStart: "2026-09-26",
-  windowEnd: "2026-11-06",
-  updatedAt: "2026-11-14",
+  computedAt: "2026-11-14T09:06:06Z",
+  windowStart: "2026-09-30",
+  windowEnd: "2026-11-10",
+  updatedAt: "2026-11-15",
   topics: [
-    {
-      topic: "sat desmos",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 671,
-      topCountries: ["AU", "ID", "VN", "KZ", "AE"],
-    },
-    {
-      topic: "Leetcode",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 773,
-      topCountries: ["VN", "PH", "ZA", "MX", "CA"],
-    },
     {
       topic: "creators pilot program",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 13057,
-      topCountries: ["US", "JM", "GB", "NG", "ZA"],
+      topCountries: ["US", "JM", "GB", "ZA", "NG"],
     },
     {
-      topic: "live english class",
+      topic: "Leetcode",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 986,
-      topCountries: ["ET", "US", "ID", "SO", "NP"],
+      videoNum: 773,
+      topCountries: ["US", "VN", "PH", "ZA", "MX"],
     },
     {
       topic: "data tools every intern should learn",
@@ -53,13 +39,6 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "IQ", "EG", "DZ"],
-    },
-    {
-      topic: "online tutoring",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 2358,
-      topCountries: ["ZA", "NG", "PH", "ET", "PK"],
     },
     {
       topic: "free online courses with certificates",
@@ -70,7 +49,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "online business follower growth tutorials",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: 855,
       topCountries: ["US", "ET", "ZA", "NG", "PH"],
@@ -79,7 +58,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "sat desmos",
-    audience: "male 18-24, Australia (dominant segment, snapshot at collection date)",
+    topic: "creators pilot program",
+    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };
