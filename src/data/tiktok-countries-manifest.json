@@ -42,6 +42,13 @@
     "dataFile": "tiktok-country-de-report.ts"
   },
   {
+    "slug": "dz",
+    "name": "Algeria",
+    "code": "DZ",
+    "exportName": "dzCountryReport",
+    "dataFile": "tiktok-country-dz-report.ts"
+  },
+  {
     "slug": "eg",
     "name": "Egypt",
     "code": "EG",

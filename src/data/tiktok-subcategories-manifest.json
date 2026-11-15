@@ -690,6 +690,46 @@
     "dataFile": "tiktok-sub-local-life-sports-and-fitness-report.ts"
   },
   {
+    "slug": "music-music-recommendations",
+    "subcategory": "Music Recommendations",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "catL1": "Music",
+    "catL2": "Music Recommendations",
+    "exportName": "musicMusicRecommendationsSubReport",
+    "dataFile": "tiktok-sub-music-music-recommendations-report.ts"
+  },
+  {
+    "slug": "music-singles",
+    "subcategory": "Singles",
+    "parentSlug": "music",
+    "parentCategory": "Music",
+    "catL1": "Music",
+    "catL2": "Singles",
+    "exportName": "musicSinglesSubReport",
+    "dataFile": "tiktok-sub-music-singles-report.ts"
+  },
+  {
+    "slug": "parenting-maternal-and-infant-care",
+    "subcategory": "Maternal and Infant Care",
+    "parentSlug": "parenting",
+    "parentCategory": "Nursing and Parenting",
+    "catL1": "Nursing and Parenting",
+    "catL2": "Maternal and Infant Care",
+    "exportName": "parentingMaternalAndInfantCareSubReport",
+    "dataFile": "tiktok-sub-parenting-maternal-and-infant-care-report.ts"
+  },
+  {
+    "slug": "parenting-other-parenting",
+    "subcategory": "Other Parenting",
+    "parentSlug": "parenting",
+    "parentCategory": "Nursing and Parenting",
+    "catL1": "Nursing and Parenting",
+    "catL2": "Other Parenting",
+    "exportName": "parentingOtherParentingSubReport",
+    "dataFile": "tiktok-sub-parenting-other-parenting-report.ts"
+  },
+  {
     "slug": "relationships-emotional-phrase",
     "subcategory": "Emotional Phrase",
     "parentSlug": "relationships",
@@ -698,6 +738,16 @@
     "catL2": "Emotional Phrase",
     "exportName": "relationshipsEmotionalPhraseSubReport",
     "dataFile": "tiktok-sub-relationships-emotional-phrase-report.ts"
+  },
+  {
+    "slug": "relationships-gifts-presents",
+    "subcategory": "Gifts/Presents",
+    "parentSlug": "relationships",
+    "parentCategory": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "catL2": "Gifts/Presents",
+    "exportName": "relationshipsGiftsPresentsSubReport",
+    "dataFile": "tiktok-sub-relationships-gifts-presents-report.ts"
   },
   {
     "slug": "relationships-psychology",
@@ -718,6 +768,16 @@
     "catL2": "Relationship Knowledge",
     "exportName": "relationshipsRelationshipKnowledgeSubReport",
     "dataFile": "tiktok-sub-relationships-relationship-knowledge-report.ts"
+  },
+  {
+    "slug": "science-facts-anthropology-knowledge",
+    "subcategory": "Anthropology Knowledge",
+    "parentSlug": "science-facts",
+    "parentCategory": "Science Knowledge",
+    "catL1": "Science Knowledge",
+    "catL2": "Anthropology Knowledge",
+    "exportName": "scienceFactsAnthropologyKnowledgeSubReport",
+    "dataFile": "tiktok-sub-science-facts-anthropology-knowledge-report.ts"
   },
   {
     "slug": "science-facts-astronomy-knowledge",
@@ -958,6 +1018,16 @@
     "catL2": "Traffic Place Names",
     "exportName": "vehiclesTrafficPlaceNamesSubReport",
     "dataFile": "tiktok-sub-vehicles-traffic-place-names-report.ts"
+  },
+  {
+    "slug": "vehicles-traffic-policies",
+    "subcategory": "Traffic Policies",
+    "parentSlug": "vehicles",
+    "parentCategory": "Vehicles & Transportation",
+    "catL1": "Vehicles & Transportation",
+    "catL2": "Traffic Policies",
+    "exportName": "vehiclesTrafficPoliciesSubReport",
+    "dataFile": "tiktok-sub-vehicles-traffic-policies-report.ts"
   },
   {
     "slug": "vehicles-traffic-services",
