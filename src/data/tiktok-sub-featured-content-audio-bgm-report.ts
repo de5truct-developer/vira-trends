@@ -14,10 +14,10 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "oops mysterious sound",
@@ -27,18 +27,25 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "ID", "PH", "MX", "TH"],
     },
     {
+      topic: "seoul subway sound",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 631,
+      topCountries: ["US", "KR", "PH", "SG", "MY"],
+    },
+    {
       topic: "Sound effects trend",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "AU", "CA", "MY", "ID"],
+      topCountries: ["PH", "CA", "AU", "BR", "MY"],
     },
     {
-      topic: "take a photo to see what sound you get",
+      topic: "arabic audio",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 7693,
-      topCountries: ["NG", "PH", "ZA", "GH", "CA"],
+      videoNum: 3129,
+      topCountries: ["EG", "ID", "SA", "AE", "MA"],
     },
     {
       topic: "viral tiktok sounds 2026",
@@ -46,6 +53,13 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 52711,
       topCountries: ["ID", "PK", "BD", "NG", "NP"],
+    },
+    {
+      topic: "sound fixes for more viral videos",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["NP", "US", "PK", "LK"],
     },
     {
       topic: "commercial sounds",
@@ -62,13 +76,6 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "MX", "AR", "CO", "PE"],
     },
     {
-      topic: "wind chimes sound",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 740,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
-    },
-    {
       topic: "police radio sound",
       growthMultiplier: 1,
       trust: "high",
@@ -76,18 +83,11 @@ export const featuredContentAudioBgmSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "ZA", "PK", "CA", "KE"],
     },
     {
-      topic: "Annoying sound",
+      topic: "wind chimes sound",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 589,
-      topCountries: ["PH", "GB", "AU", "CA", "MY"],
-    },
-    {
-      topic: "streak sounds",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1110,
-      topCountries: ["PH", "ZA", "EG", "ET", "GE"],
+      videoNum: 740,
+      topCountries: ["US", "CA", "AU", "PH", "ID"],
     },
   ],
   methodologyNote:

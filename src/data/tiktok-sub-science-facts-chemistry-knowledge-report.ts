@@ -14,10 +14,10 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "inorganic chemistry",
@@ -45,14 +45,7 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["VN", "ID", "US", "BR", "MX"],
-    },
-    {
-      topic: "how the paperfuge actually works",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "TL", "TR"],
+      topCountries: ["US", "VN", "ID", "BR", "MX"],
     },
     {
       topic: "quintic formula",
@@ -62,11 +55,25 @@ export const scienceFactsChemistryKnowledgeSubReport: TikTokSubcategoryReport = 
       topCountries: ["US", "GB", "PH", "ID", "BR"],
     },
     {
+      topic: "how the paperfuge actually works",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "TL", "TR"],
+    },
+    {
       topic: "colossal bioscience",
       growthMultiplier: 0,
       trust: "high",
       videoNum: 386,
       topCountries: ["US", "MX", "ID", "PH", "PE"],
+    },
+    {
+      topic: "tornado 10 on pump 12",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: 285,
+      topCountries: ["US", "PR", "GU", "AS"],
     },
   ],
   methodologyNote:

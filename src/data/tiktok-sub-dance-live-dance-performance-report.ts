@@ -14,10 +14,10 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "billy ocean moonwalk",
@@ -31,7 +31,7 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["MY", "ID", "BR", "PH", "VN"],
+      topCountries: ["MY", "ID", "US", "BR", "PH"],
     },
     {
       topic: "babymonster summer performance vibe",
@@ -69,18 +69,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "US", "CA", "AU", "SG"],
     },
     {
-      topic: "vogue battle school",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 116,
-      topCountries: ["PH", "BR", "MX", "MY"],
-    },
-    {
       topic: "flashmob performances in paris",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "BR", "PH", "MX", "MY"],
+    },
+    {
+      topic: "vogue battle school",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 116,
+      topCountries: ["PH", "US", "BR", "MX"],
     },
     {
       topic: "james brown moonwalk",

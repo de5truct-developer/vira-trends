@@ -14,17 +14,24 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Tourism",
   parentSlug: "tourism",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "hoteles con nombres que empiezan por Z",
+      growthMultiplier: 61,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "AU", "ID"],
+    },
     {
       topic: "the real diamond city",
       growthMultiplier: 45,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "ID", "MY", "CA"],
+      topCountries: ["PH", "US", "GB", "ID", "MY"],
     },
     {
       topic: "the springs",
@@ -35,10 +42,10 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "evgeny kuznetsov hotel",
-      growthMultiplier: 6,
+      growthMultiplier: 5,
       trust: "high",
       videoNum: null,
-      topCountries: ["CA", "FI", "SE", "NO", "GB"],
+      topCountries: ["CA", "US", "FI", "SE", "NO"],
     },
     {
       topic: "lubov castle",
@@ -46,6 +53,13 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["LK", "PH", "ID", "CA", "US"],
+    },
+    {
+      topic: "meme cure villa bullerengue",
+      growthMultiplier: 4,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["CO", "VE", "PA", "MX"],
     },
     {
       topic: "disney cruise most expensive room",
@@ -59,7 +73,7 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 3,
       trust: "high",
       videoNum: null,
-      topCountries: ["US"],
+      topCountries: ["US", "PR", "VI", "GU", "MP"],
     },
     {
       topic: "collins mansion real life",
@@ -75,25 +89,11 @@ export const tourismTourismServiceSubReport: TikTokSubcategoryReport = {
       videoNum: 148,
       topCountries: ["KE", "US", "NG", "SN", "CI"],
     },
-    {
-      topic: "disney cruise kids club room",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 1033,
-      topCountries: ["US", "PR", "CA", "ID", "AU"],
-    },
-    {
-      topic: "ELEPHANT HOTEL",
-      growthMultiplier: 3,
-      trust: "high",
-      videoNum: 574,
-      topCountries: ["GB", "PH", "ID", "MY"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "the real diamond city",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "hoteles con nombres que empiezan por Z",
+    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

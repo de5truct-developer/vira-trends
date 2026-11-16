@@ -14,10 +14,10 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "top to bottom grilled cheese",
@@ -28,14 +28,14 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "cam hot chocolate upside down",
-      growthMultiplier: 177,
+      growthMultiplier: 174,
       trust: "high",
       videoNum: 344,
       topCountries: ["SA", "IQ", "EG", "AE", "KW"],
     },
     {
       topic: "swedish breakfast",
-      growthMultiplier: 134,
+      growthMultiplier: 107,
       trust: "high",
       videoNum: 674,
       topCountries: ["US", "SE", "GB", "DE", "NO"],
@@ -48,25 +48,18 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "CA", "AU", "GB", "NZ"],
     },
     {
-      topic: "healthy fridge setup with meal staples",
-      growthMultiplier: 30,
-      trust: "high",
-      videoNum: 924,
-      topCountries: ["PK", "NG", "ZA", "NP"],
-    },
-    {
       topic: "croseed",
-      growthMultiplier: 26,
+      growthMultiplier: 25,
       trust: "high",
       videoNum: 435,
       topCountries: ["BR", "MX", "RU", "PE", "AR"],
     },
     {
-      topic: "Amish food",
-      growthMultiplier: 19,
+      topic: "healthy fridge setup with meal staples",
+      growthMultiplier: 21,
       trust: "high",
-      videoNum: 948,
-      topCountries: ["US", "CA", "GB", "AU", "PH"],
+      videoNum: 924,
+      topCountries: ["PK", "NG", "ZA", "NP"],
     },
     {
       topic: "Easter egg video trends",
@@ -74,6 +67,13 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ZA", "UG", "PK", "NP"],
+    },
+    {
+      topic: "Amish food",
+      growthMultiplier: 14,
+      trust: "high",
+      videoNum: 948,
+      topCountries: ["US", "CA", "GB", "AU", "PH"],
     },
     {
       topic: "pretzel style",
@@ -87,7 +87,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "ID", "GB", "PH", "MY"],
+      topCountries: ["US", "ID", "PH", "GB", "MY"],
     },
   ],
   methodologyNote:

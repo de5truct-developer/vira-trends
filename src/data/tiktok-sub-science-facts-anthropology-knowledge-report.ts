@@ -14,10 +14,10 @@ export const scienceFactsAnthropologyKnowledgeSubReport: TikTokSubcategoryReport
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "south Sudanese",
@@ -51,7 +51,7 @@ export const scienceFactsAnthropologyKnowledgeSubReport: TikTokSubcategoryReport
       topic: "southsudanese",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 13627,
+      videoNum: 13197,
       topCountries: ["SS", "BR", "UG", "AU"],
     },
   ],

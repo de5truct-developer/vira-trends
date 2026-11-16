@@ -14,10 +14,10 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "meaning of el nino",
@@ -27,13 +27,6 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["NG", "GH", "GB", "SL"],
     },
     {
-      topic: "custodes",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 471,
-      topCountries: ["MX", "PH", "VN", "MY", "TH"],
-    },
-    {
       topic: "leroy jenkins references",
       growthMultiplier: 2,
       trust: "high",
@@ -41,11 +34,11 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "US", "DE", "PL", "SE"],
     },
     {
-      topic: "bosco kebatis's first wife speech",
+      topic: "custodes",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 749,
-      topCountries: ["KE", "TZ", "UG", "SA"],
+      videoNum: 471,
+      topCountries: ["MX", "PH", "VN", "MY", "TH"],
     },
     {
       topic: "the aberfan disaster 1956",
@@ -53,6 +46,13 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 433,
       topCountries: ["US", "PR", "GU", "AS"],
+    },
+    {
+      topic: "bosco kebatis's first wife speech",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 749,
+      topCountries: ["KE", "TZ", "UG", "SA"],
     },
     {
       topic: "The war",
@@ -69,13 +69,6 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "GH", "SA", "PH", "NG"],
     },
     {
-      topic: "Morgan family",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 132,
-      topCountries: ["US", "ZA", "ID", "JM", "GB"],
-    },
-    {
       topic: "london british part to 2 3 4 4568 next",
       growthMultiplier: 1,
       trust: "high",
@@ -83,11 +76,18 @@ export const cultureHistorySubReport: TikTokSubcategoryReport = {
       topCountries: ["PK", "NP", "ID", "AE"],
     },
     {
-      topic: "what happened to suchomimus",
+      topic: "Morgan family",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 571,
-      topCountries: ["US", "GU", "PH", "PR"],
+      videoNum: 132,
+      topCountries: ["US", "ZA", "ID", "JM", "GB"],
+    },
+    {
+      topic: "jfk car video 1963",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PR", "GU", "VI"],
     },
   ],
   methodologyNote:

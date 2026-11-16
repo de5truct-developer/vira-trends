@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const bdCountryReport: TikTokCountryReport = {
   country: "Bangladesh",
   countryCode: "BD",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "dress cutting mistakes to avoid",
@@ -34,10 +34,19 @@ export const bdCountryReport: TikTokCountryReport = {
       topCountries: ["US", "ID", "BD", "MY", "FR"],
     },
     {
+      topic: "Budget decor from unexpected items",
+      category: "Household",
+      subcategory: "House Decoration",
+      growthMultiplier: 36,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ID", "PH", "BD", "GH"],
+    },
+    {
       topic: "pixverse lite",
       category: "Science and Technology",
       subcategory: "Software",
-      growthMultiplier: 12,
+      growthMultiplier: 20,
       trust: "high",
       videoNum: 698,
       topCountries: ["BR", "VN", "MM", "BD", "KH"],
@@ -46,7 +55,7 @@ export const bdCountryReport: TikTokCountryReport = {
       topic: "2021 ballon dor winner",
       category: "Sports",
       subcategory: "Physical Sports",
-      growthMultiplier: 9,
+      growthMultiplier: 13,
       trust: "high",
       videoNum: 518,
       topCountries: ["BD", "ID", "NP", "ZA"],
@@ -95,15 +104,6 @@ export const bdCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "PH", "BD", "MM"],
-    },
-    {
-      topic: "how burkina faso adds value to fruit",
-      category: "Gourmet",
-      subcategory: "Food Ingredients/Fresh Food",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 621,
-      topCountries: ["PH", "MM", "BR", "BD"],
     },
   ],
   methodologyNote:

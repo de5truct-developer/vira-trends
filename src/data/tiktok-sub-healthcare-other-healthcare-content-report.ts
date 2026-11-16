@@ -14,10 +14,10 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
   parentCategory: "Healthcare",
   parentSlug: "healthcare",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "wilsons surgrey for kid grey anatomy",
@@ -31,14 +31,14 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "BR", "CA", "ID", "MY"],
+      topCountries: ["PH", "US", "BR", "CA", "ID"],
     },
     {
       topic: "Caregiving",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "NG", "CA", "KE", "ZA"],
+      topCountries: ["US", "PH", "NG", "CA", "KE"],
     },
     {
       topic: "circumcission after care",
@@ -46,6 +46,13 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       trust: "high",
       videoNum: null,
       topCountries: ["PK", "ZA", "NG", "CA", "GH"],
+    },
+    {
+      topic: "stop vapinig",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 381,
+      topCountries: ["GB", "PH", "ZA", "MY", "ID"],
     },
     {
       topic: "being high",
@@ -66,14 +73,7 @@ export const healthcareOtherHealthcareContentSubReport: TikTokSubcategoryReport 
       growthMultiplier: 1,
       trust: "high",
       videoNum: 909,
-      topCountries: ["PH", "MM", "ID", "TH", "IT"],
-    },
-    {
-      topic: "stop vapinig",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 381,
-      topCountries: ["GB", "PH", "ZA", "MY", "ID"],
+      topCountries: ["PH", "US", "MM", "ID", "TH"],
     },
     {
       topic: "my pain chartacer",

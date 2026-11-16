@@ -14,14 +14,14 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
   parentCategory: "Entertainment",
   parentSlug: "entertainment",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "short drama review 1 to 50",
-      growthMultiplier: 1714,
+      growthMultiplier: 1574,
       trust: "high",
       videoNum: 5651,
       topCountries: ["PH", "MM", "ZA", "NG", "GH"],
@@ -34,6 +34,13 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "AU", "CA", "FR"],
     },
     {
+      topic: "becky empire",
+      growthMultiplier: 288,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "NG", "ZA", "CA", "GB"],
+    },
+    {
       topic: "miss universe 2014",
       growthMultiplier: 123,
       trust: "high",
@@ -42,7 +49,7 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "best drama pakistani 2 3 4 5 6 7 next",
-      growthMultiplier: 121,
+      growthMultiplier: 120,
       trust: "high",
       videoNum: 1385,
       topCountries: ["PK", "BD", "NP", "AE"],
@@ -59,7 +66,7 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 29,
       trust: "high",
       videoNum: 5247,
-      topCountries: ["ID", "VN", "MY", "PH", "TH"],
+      topCountries: ["ID", "VN", "PH", "MY", "TH"],
     },
     {
       topic: "what happened to jane doe",
@@ -81,13 +88,6 @@ export const entertainmentFilmsAndTvsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 2804,
       topCountries: ["ID", "MM", "PH", "MY", "KH"],
-    },
-    {
-      topic: "the police officer",
-      growthMultiplier: 10,
-      trust: "high",
-      videoNum: 717,
-      topCountries: ["NG", "GH", "MY", "ZA"],
     },
   ],
   methodologyNote:

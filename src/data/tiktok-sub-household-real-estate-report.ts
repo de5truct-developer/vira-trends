@@ -14,11 +14,18 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
   parentCategory: "Household",
   parentSlug: "household",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "norway houses",
+      growthMultiplier: 17,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ZA", "KE", "NG", "GH", "PH"],
+    },
     {
       topic: "million dollar house affordability and examples",
       growthMultiplier: 14,
@@ -42,9 +49,9 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "queens houses",
-      growthMultiplier: 6,
+      growthMultiplier: 5,
       trust: "high",
-      videoNum: 3229,
+      videoNum: 3262,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
     },
     {
@@ -53,6 +60,13 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "MY", "TW", "EG"],
+    },
+    {
+      topic: "public figure profiles and costume inspiration",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "AU", "IE"],
     },
     {
       topic: "sanjel family house",
@@ -66,34 +80,20 @@ export const householdRealEstateSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["KE", "UG", "NG", "ID"],
+      topCountries: ["KE", "UG", "ID", "NG"],
     },
     {
-      topic: "Luxury Apartment",
+      topic: "serialized family housing drama episodes",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 6434,
-      topCountries: ["ZA", "NG", "CA", "GH", "BD"],
-    },
-    {
-      topic: "1 bedroom for rent",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 2933,
-      topCountries: ["JM", "KE", "GH", "NG", "ZW"],
-    },
-    {
-      topic: "250 million penthouse",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 700,
-      topCountries: ["CA", "ZA", "JM", "ID", "MX"],
+      videoNum: null,
+      topCountries: ["PE", "VE", "MX", "EC", "CO"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "million dollar house affordability and examples",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "norway houses",
+    audience: "unknown 18-24, South Africa (dominant segment, snapshot at collection date)",
   },
 };

@@ -14,17 +14,17 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "elon musk mars",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 1085,
-      topCountries: ["PH", "PK", "ID", "BD", "ZA"],
+      topCountries: ["PH", "US", "ID", "ZA", "TR"],
     },
     {
       topic: "neuralink first human",
@@ -48,6 +48,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "CA", "RU", "TH", "TR"],
     },
     {
+      topic: "stephenson 218 star",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 361,
+      topCountries: ["US", "PH", "NG", "ZA"],
+    },
+    {
       topic: "stephenson 218 vs sun",
       growthMultiplier: 1,
       trust: "high",
@@ -60,6 +67,13 @@ export const scienceFactsSpaceExplorationSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["BR", "ID", "MX", "PH", "VN"],
+    },
+    {
+      topic: "thefakemoon",
+      growthMultiplier: 0,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "RU", "MX", "BR", "KZ"],
     },
   ],
   methodologyNote:

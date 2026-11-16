@@ -10,26 +10,18 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const tourismReport: TikTokReport = {
   category: "Tourism",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "roller coasters and amusement attractions",
       subcategory: "Tourism Sites",
-      growthMultiplier: 1941,
+      growthMultiplier: 1556,
       trust: "high",
       videoNum: 108,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
-    },
-    {
-      topic: "san francisco armory castle",
-      subcategory: "Tourism Sites",
-      growthMultiplier: 1004,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "DE", "GB", "PL", "FR"],
     },
     {
       topic: "aberfan village now",
@@ -38,6 +30,14 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "PH", "ID", "MY"],
+    },
+    {
+      topic: "san francisco armory castle",
+      subcategory: "Tourism Sites",
+      growthMultiplier: 677,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "DE", "GB", "PL", "FR"],
     },
     {
       topic: "circle of life safari",
@@ -66,7 +66,7 @@ export const tourismReport: TikTokReport = {
     {
       topic: "finding nemo submarine disneyland",
       subcategory: "Tourism Sites",
-      growthMultiplier: 140,
+      growthMultiplier: 161,
       trust: "high",
       videoNum: 168,
       topCountries: ["US", "AU", "CA", "GB", "NZ"],
@@ -74,10 +74,18 @@ export const tourismReport: TikTokReport = {
     {
       topic: "shi lwk jelly arcade roller coaster",
       subcategory: "Tourism Sites",
-      growthMultiplier: 87,
+      growthMultiplier: 67,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "KZ", "RU", "PH", "BY"],
+    },
+    {
+      topic: "hoteles con nombres que empiezan por Z",
+      subcategory: "Tourism Service",
+      growthMultiplier: 61,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "AU", "ID"],
     },
     {
       topic: "niagara falls with no water",
@@ -86,14 +94,6 @@ export const tourismReport: TikTokReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "ID", "CA", "MY"],
-    },
-    {
-      topic: "the real diamond city",
-      subcategory: "Tourism Service",
-      growthMultiplier: 45,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "ID", "MY", "CA"],
     },
   ],
   methodologyNote:

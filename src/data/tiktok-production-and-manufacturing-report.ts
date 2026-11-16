@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const productionAndManufacturingReport: TikTokReport = {
   category: "Production and Manufacturing",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "manufacturing",
@@ -40,12 +40,28 @@ export const productionAndManufacturingReport: TikTokReport = {
       topCountries: ["US", "GB", "CA", "MX", "DE"],
     },
     {
+      topic: "Manufacturing industry",
+      subcategory: "Manufacturing Industry",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1014,
+      topCountries: ["MM", "PK", "ID", "TH", "MY"],
+    },
+    {
       topic: "offshore rig",
       subcategory: "Manufacturing Industry",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 915,
       topCountries: ["US", "ID", "PH", "NG", "ZA"],
+    },
+    {
+      topic: "how products move through production",
+      subcategory: "Production and Manufacturing - Others",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 461,
+      topCountries: ["ID", "BD", "NG", "MM"],
     },
     {
       topic: "skipper aura farming",

@@ -14,14 +14,14 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "ashika tamang eating meat",
-      growthMultiplier: 40,
+      growthMultiplier: 32,
       trust: "high",
       videoNum: 100,
       topCountries: ["NP", "AE", "JP", "IN"],
@@ -49,7 +49,7 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "she's saved left over food for her poor parents p2",
-      growthMultiplier: 4,
+      growthMultiplier: 3,
       trust: "high",
       videoNum: null,
       topCountries: ["PH", "ID", "MY", "GH", "NG"],
@@ -69,13 +69,6 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "PH", "CA", "BR"],
     },
     {
-      topic: "Giving Homeless People Food",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 1029,
-      topCountries: ["CA", "ID", "MX", "RU", "MY"],
-    },
-    {
       topic: "when a food spot disappoints badly",
       growthMultiplier: 2,
       trust: "high",
@@ -88,6 +81,13 @@ export const gourmetOtherGourmetSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 1173,
       topCountries: ["CA", "AU", "PH", "NZ", "ID"],
+    },
+    {
+      topic: "Giving Homeless People Food",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1029,
+      topCountries: ["CA", "ID", "MX", "RU", "MY"],
     },
   ],
   methodologyNote:

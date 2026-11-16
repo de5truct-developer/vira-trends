@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const vnCountryReport: TikTokCountryReport = {
   country: "Vietnam",
   countryCode: "VN",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "fantasy factory",
@@ -31,7 +31,7 @@ export const vnCountryReport: TikTokCountryReport = {
       growthMultiplier: 47,
       trust: "high",
       videoNum: 5247,
-      topCountries: ["ID", "VN", "MY", "PH", "TH"],
+      topCountries: ["ID", "VN", "PH", "MY", "TH"],
     },
     {
       topic: "that's not human car",
@@ -58,7 +58,7 @@ export const vnCountryReport: TikTokCountryReport = {
       growthMultiplier: 21,
       trust: "high",
       videoNum: 257,
-      topCountries: ["VN", "ID", "PH", "MY", "TH"],
+      topCountries: ["VN", "ID", "PH", "MY", "US"],
     },
     {
       topic: "glass-themed TikTok videos and trends",
@@ -97,13 +97,13 @@ export const vnCountryReport: TikTokCountryReport = {
       topCountries: ["TR", "VN", "MY", "ID", "GB"],
     },
     {
-      topic: "square 29 cube solving",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Toys",
+      topic: "school trip drama sequel information",
+      category: "Education",
+      subcategory: "Campus Life",
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "ID", "US", "MY", "VN"],
+      topCountries: ["PH", "ID", "VN", "MY", "US"],
     },
   ],
   methodologyNote:

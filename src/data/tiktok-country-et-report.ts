@@ -10,20 +10,11 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const etCountryReport: TikTokCountryReport = {
   country: "Ethiopia",
   countryCode: "ET",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
-    {
-      topic: "Simple laundry care tips at home",
-      category: "Household",
-      subcategory: "Home Life",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "SA", "MY", "IQ", "ET"],
-    },
     {
       topic: "how to stop chasing betting losses",
       category: "Sports",
@@ -105,11 +96,20 @@ export const etCountryReport: TikTokCountryReport = {
       videoNum: 1173,
       topCountries: ["BD", "ET", "NG", "PK"],
     },
+    {
+      topic: "tiktok lite video",
+      category: "Science and Technology",
+      subcategory: "Software",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 996,
+      topCountries: ["BR", "ID", "ET", "ZA"],
+    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this country's own search-demand series (not global demand). Mixes every category — for a single-category view across all countries, see the niche reports instead. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "Simple laundry care tips at home",
-    audience: "male 25-34, Indonesia (dominant segment, snapshot at collection date)",
+    topic: "how to stop chasing betting losses",
+    audience: "unknown 25-34, Pakistan (dominant segment, snapshot at collection date)",
   },
 };

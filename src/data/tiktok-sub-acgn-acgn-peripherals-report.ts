@@ -14,24 +14,24 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
+      topic: "levi's guy poster",
+      growthMultiplier: 38,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["GB", "US", "DE", "SA", "IT"],
+    },
+    {
       topic: "mikasa costume",
-      growthMultiplier: 20,
+      growthMultiplier: 12,
       trust: "high",
       videoNum: 554,
       topCountries: ["US", "GB", "CA", "PH", "DE"],
-    },
-    {
-      topic: "levi's guy poster",
-      growthMultiplier: 12,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "SA", "DE", "IT"],
     },
     {
       topic: "clawdeen wolf custome",
@@ -55,18 +55,18 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "BR", "MX", "ID"],
     },
     {
-      topic: "cosplay characters",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 13392,
-      topCountries: ["ID", "PH", "BR", "TH"],
-    },
-    {
       topic: "avery gundam",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "MY", "CA"],
+    },
+    {
+      topic: "cosplay characters",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 13392,
+      topCountries: ["ID", "PH", "BR", "TH"],
     },
     {
       topic: "captain save aho costume",
@@ -93,7 +93,7 @@ export const acgnAcgnPeripheralsSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "mikasa costume",
+    topic: "levi's guy poster",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

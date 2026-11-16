@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const frCountryReport: TikTokCountryReport = {
   country: "France",
   countryCode: "FR",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "juninho free kick style",
@@ -40,7 +40,7 @@ export const frCountryReport: TikTokCountryReport = {
       growthMultiplier: 9,
       trust: "high",
       videoNum: null,
-      topCountries: ["FR", "ID", "MX", "VN", "BR"],
+      topCountries: ["US", "FR", "ID", "MX", "VN"],
     },
     {
       topic: "pioneer original video",
@@ -66,7 +66,7 @@ export const frCountryReport: TikTokCountryReport = {
       subcategory: "Real Estate",
       growthMultiplier: 6,
       trust: "high",
-      videoNum: 3229,
+      videoNum: 3262,
       topCountries: ["FR", "BE", "SN", "RE", "GP"],
     },
     {

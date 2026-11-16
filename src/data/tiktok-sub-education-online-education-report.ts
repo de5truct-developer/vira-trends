@@ -14,17 +14,24 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   parentCategory: "Education",
   parentSlug: "education",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
-      topic: "creators pilot program",
+      topic: "sat desmos",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 13057,
-      topCountries: ["US", "JM", "GB", "ZA", "NG"],
+      videoNum: 671,
+      topCountries: ["US", "AU", "ID", "VN", "AE"],
+    },
+    {
+      topic: "live english class",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 986,
+      topCountries: ["ET", "US", "ID", "SO", "NP"],
     },
     {
       topic: "Leetcode",
@@ -41,6 +48,13 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "IQ", "EG", "DZ"],
     },
     {
+      topic: "creators pilot program",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 13057,
+      topCountries: ["US", "JM", "GB", "ZA", "NG"],
+    },
+    {
       topic: "free online courses with certificates",
       growthMultiplier: 1,
       trust: "high",
@@ -48,8 +62,15 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
       topCountries: ["ZA", "US", "PK", "KE"],
     },
     {
+      topic: "online tutoring",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2358,
+      topCountries: ["US", "ZA", "NG", "PH", "ET"],
+    },
+    {
       topic: "online business follower growth tutorials",
-      growthMultiplier: 0,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: 855,
       topCountries: ["US", "ET", "ZA", "NG", "PH"],
@@ -58,7 +79,7 @@ export const educationOnlineEducationSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "creators pilot program",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "sat desmos",
+    audience: "male 18-24, Australia (dominant segment, snapshot at collection date)",
   },
 };

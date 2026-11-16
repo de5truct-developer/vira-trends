@@ -14,10 +14,10 @@ export const parentingOtherParentingSubReport: TikTokSubcategoryReport = {
   parentCategory: "Nursing and Parenting",
   parentSlug: "parenting",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "Number songs kids can sing along",

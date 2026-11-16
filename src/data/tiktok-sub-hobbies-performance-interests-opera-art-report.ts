@@ -14,10 +14,10 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
   parentCategory: "Personal Interests and Hobbies",
   parentSlug: "hobbies",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "magictok",
@@ -45,7 +45,7 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "GB", "CA", "AU", "MY"],
+      topCountries: ["PH", "US", "CA", "GB", "AU"],
     },
     {
       topic: "خدع سهلة لخلفيات مع صوت وحركة",
@@ -55,6 +55,20 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       topCountries: ["ID", "MX", "PK", "BR"],
     },
     {
+      topic: "magician girl",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 481,
+      topCountries: ["US", "ID", "PH", "VN", "TH"],
+    },
+    {
+      topic: "levitation flying tutorial",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 2234,
+      topCountries: ["PH", "MY", "ID", "SG"],
+    },
+    {
       topic: "magic is real",
       growthMultiplier: 1,
       trust: "high",
@@ -62,11 +76,11 @@ export const hobbiesPerformanceInterestsOperaArtSubReport: TikTokSubcategoryRepo
       topCountries: ["PH", "CA", "MX", "ZA"],
     },
     {
-      topic: "magic trick reaction videos",
+      topic: "best magic tricks for beginners",
       growthMultiplier: 0,
       trust: "high",
-      videoNum: null,
-      topCountries: ["PK", "BD", "ID", "MM"],
+      videoNum: 598,
+      topCountries: ["BD", "MM", "PK", "TH"],
     },
     {
       topic: "paper tearing trick tutorial",

@@ -14,11 +14,18 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "hudson william airport",
+      growthMultiplier: 167,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "FR", "IT"],
+    },
     {
       topic: "how pilots fly at night",
       growthMultiplier: 18,
@@ -27,11 +34,11 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "ID", "ZA", "CA"],
     },
     {
-      topic: "what is happening at heathrow airport",
-      growthMultiplier: 5,
+      topic: "northern line london",
+      growthMultiplier: 6,
       trust: "high",
-      videoNum: 470,
-      topCountries: ["US", "CA", "AU", "SG", "MY"],
+      videoNum: null,
+      topCountries: ["ID", "GB", "NG", "SA", "TR"],
     },
     {
       topic: "TrafficStop",
@@ -48,18 +55,25 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "AU", "SG", "BD", "MY"],
     },
     {
+      topic: "what is happening at heathrow airport",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 470,
+      topCountries: ["US", "CA", "AU", "SG", "MY"],
+    },
+    {
+      topic: "beijing china plane",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 670,
+      topCountries: ["US", "MY", "PK", "SO", "ID"],
+    },
+    {
       topic: "f16 cockpit view",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 422,
-      topCountries: ["ID", "PH", "BR", "TH"],
-    },
-    {
-      topic: "what is route 66",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["CA", "PH", "ID", "AU", "MX"],
+      topCountries: ["ID", "PH", "CA", "TH", "MM"],
     },
     {
       topic: "million dollar highway",
@@ -75,25 +89,11 @@ export const vehiclesTrafficPlaceNamesSubReport: TikTokSubcategoryReport = {
       videoNum: 1041,
       topCountries: ["ID", "PH", "NP", "PK", "MY"],
     },
-    {
-      topic: "denver airport video",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 430,
-      topCountries: ["US", "CA", "AU", "KE", "GB"],
-    },
-    {
-      topic: "soluminnati flight",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PR", "GU", "VI", "MP"],
-    },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "how pilots fly at night",
+    topic: "hudson william airport",
     audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

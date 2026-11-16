@@ -14,14 +14,14 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
   parentCategory: "Fashion",
   parentSlug: "fashion",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "prada villain runway",
-      growthMultiplier: 7,
+      growthMultiplier: 4,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "DE", "FR", "PH"],
@@ -34,18 +34,18 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       topCountries: ["US", "AU", "CA", "PH", "BR"],
     },
     {
-      topic: "FashionShow",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1213,
-      topCountries: ["US", "VN", "SA", "PH", "TH"],
-    },
-    {
       topic: "behind the scenes of a dress launch",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["SA", "KW", "BH", "AE", "IQ"],
+    },
+    {
+      topic: "FashionShow",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 1213,
+      topCountries: ["US", "VN", "SA", "PH", "TH"],
     },
     {
       topic: "212 walk",
@@ -60,6 +60,13 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       trust: "high",
       videoNum: 898,
       topCountries: ["US", "PH", "ID", "NG"],
+    },
+    {
+      topic: "standout looks from paris fashion week",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["VN", "ID", "US", "PH", "TH"],
     },
     {
       topic: "vivet fashion show",
@@ -81,13 +88,6 @@ export const fashionFashionExhibitionsShowsContestsSubReport: TikTokSubcategoryR
       trust: "high",
       videoNum: 1156,
       topCountries: ["ID", "BR", "PH", "NG", "VN"],
-    },
-    {
-      topic: "What to pack for a pageant fan event",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["VN", "JP", "KR", "TW"],
     },
   ],
   methodologyNote:

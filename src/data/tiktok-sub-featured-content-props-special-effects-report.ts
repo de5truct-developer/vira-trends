@@ -14,24 +14,24 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
   parentCategory: "Featured Content",
   parentSlug: "featured-content",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
-    {
-      topic: "trying viral face analysis trends",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "GB", "BR", "DE", "FR"],
-    },
     {
       topic: "Funny AI trend videos to try",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1141,
       topCountries: ["ID", "BD", "MM", "BR"],
+    },
+    {
+      topic: "trying viral face analysis trends",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "BR", "DE", "FR"],
     },
     {
       topic: "8k effect on tiktok viral 2026",
@@ -52,13 +52,13 @@ export const featuredContentPropsSpecialEffectsSubReport: TikTokSubcategoryRepor
       growthMultiplier: 1,
       trust: "high",
       videoNum: 6464,
-      topCountries: ["NP", "NG", "PH", "GH", "US"],
+      topCountries: ["NP", "PH", "NG", "GH", "ET"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "trying viral face analysis trends",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "Funny AI trend videos to try",
+    audience: "unknown 25-34, Others (dominant segment, snapshot at collection date)",
   },
 };

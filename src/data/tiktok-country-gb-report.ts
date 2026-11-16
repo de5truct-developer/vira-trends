@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const gbCountryReport: TikTokCountryReport = {
   country: "United Kingdom",
   countryCode: "GB",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "im so sorry trend",
@@ -43,6 +43,15 @@ export const gbCountryReport: TikTokCountryReport = {
       topCountries: ["GB", "DE", "FR", "SE", "NL"],
     },
     {
+      topic: "30 inch hair",
+      category: "Fashion",
+      subcategory: "Fashion Tutorials",
+      growthMultiplier: 21,
+      trust: "high",
+      videoNum: 531,
+      topCountries: ["US", "GB", "DE", "PH", "CA"],
+    },
+    {
       topic: "30 inch and 360 hair extensions",
       category: "Fashion",
       subcategory: "Fashion Tutorials",
@@ -61,15 +70,6 @@ export const gbCountryReport: TikTokCountryReport = {
       topCountries: ["US", "GB", "PH", "IT", "PL"],
     },
     {
-      topic: "30 inch hair",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 21,
-      trust: "high",
-      videoNum: 531,
-      topCountries: ["US", "GB", "DE", "PH", "CA"],
-    },
-    {
       topic: "dove cameron dress",
       category: "Fashion",
       subcategory: "Fashion News",
@@ -77,6 +77,15 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 1132,
       topCountries: ["US", "GB", "DE", "FR", "IT"],
+    },
+    {
+      topic: "public figure profiles and costume inspiration",
+      category: "Household",
+      subcategory: "Real Estate",
+      growthMultiplier: 18,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "AU", "IE"],
     },
     {
       topic: "EverybodysBigBrother",
@@ -95,15 +104,6 @@ export const gbCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 100,
       topCountries: ["US", "GB", "PH", "CA", "AU"],
-    },
-    {
-      topic: "why cant gotham chess be a gm",
-      category: "Personal Interests and Hobbies",
-      subcategory: "Board and Chess/Card Games",
-      growthMultiplier: 13,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "GB", "CA", "DE"],
     },
   ],
   methodologyNote:

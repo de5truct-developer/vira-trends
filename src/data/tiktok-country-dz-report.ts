@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const dzCountryReport: TikTokCountryReport = {
   country: "Algeria",
   countryCode: "DZ",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "Best budget Christmas city trips",
@@ -52,6 +52,15 @@ export const dzCountryReport: TikTokCountryReport = {
       topCountries: ["US", "MX", "GT", "DZ"],
     },
     {
+      topic: "تفاعلكم_لايك_متابعه_اكسبلوررررراexplore",
+      category: "TikTok's Featured Content",
+      subcategory: "Stories/Posting Captions",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 8950,
+      topCountries: ["IQ", "DZ", "EG", "YE"],
+    },
+    {
       topic: "الدوري_السعودي",
       category: "Sports",
       subcategory: "Physical Sports",
@@ -61,13 +70,13 @@ export const dzCountryReport: TikTokCountryReport = {
       topCountries: ["SA", "YE", "DZ", "EG"],
     },
     {
-      topic: "تفاعلكم_لايك_متابعه_اكسبلوررررراexplore",
-      category: "TikTok's Featured Content",
-      subcategory: "Stories/Posting Captions",
+      topic: "Best time to post",
+      category: "Science and Technology",
+      subcategory: "Internet",
       growthMultiplier: 3,
       trust: "high",
-      videoNum: 8950,
-      topCountries: ["IQ", "DZ", "EG", "YE"],
+      videoNum: 1266,
+      topCountries: ["SA", "DZ", "IQ", "EG", "MA"],
     },
     {
       topic: "Useful stationery for school and work",
@@ -79,15 +88,6 @@ export const dzCountryReport: TikTokCountryReport = {
       topCountries: ["ID", "JP", "PL", "DZ", "PH"],
     },
     {
-      topic: "Which bike would you choose daily?",
-      category: "Vehicles & Transportation",
-      subcategory: "Transport Equipment",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["BR", "FR", "MX", "DZ", "IT"],
-    },
-    {
       topic: "precio vs equipamiento en autos nuevos",
       category: "Vehicles & Transportation",
       subcategory: "Transport Equipment",
@@ -97,13 +97,13 @@ export const dzCountryReport: TikTokCountryReport = {
       topCountries: ["DZ", "FR", "US", "AE"],
     },
     {
-      topic: "Best time to post",
-      category: "Science and Technology",
-      subcategory: "Internet",
+      topic: "Which bike would you choose daily?",
+      category: "Vehicles & Transportation",
+      subcategory: "Transport Equipment",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1266,
-      topCountries: ["SA", "US", "DZ", "IQ", "EG"],
+      videoNum: null,
+      topCountries: ["BR", "FR", "MX", "DZ", "IT"],
     },
   ],
   methodologyNote:

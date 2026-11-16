@@ -14,24 +14,24 @@ export const vehiclesTrafficPoliciesSubReport: TikTokSubcategoryReport = {
   parentCategory: "Vehicles & Transportation",
   parentSlug: "vehicles",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "fl new license plate",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PR", "AS", "GU"],
+    },
     {
       topic: "driver adjustments for more forgiveness",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "PH", "BR", "MX", "ID"],
-    },
-    {
-      topic: "traffic break",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 958,
-      topCountries: ["US", "MX", "PH", "CA", "VN"],
+      topCountries: ["PH", "BR", "MX", "ID", "CA"],
     },
     {
       topic: "best insurance timing after buying a car",
@@ -41,11 +41,18 @@ export const vehiclesTrafficPoliciesSubReport: TikTokSubcategoryReport = {
       topCountries: ["SA", "SD", "IQ", "EG"],
     },
     {
+      topic: "traffic break",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 958,
+      topCountries: ["US", "MX", "PH", "CA", "VN"],
+    },
+    {
       topic: "what to show in a car inspection video",
       growthMultiplier: 1,
       trust: "high",
       videoNum: null,
-      topCountries: ["MX", "FR", "IT", "US", "MY"],
+      topCountries: ["US", "MX", "FR", "IT", "MY"],
     },
     {
       topic: "who pays the price of fuel hikes",
@@ -72,7 +79,7 @@ export const vehiclesTrafficPoliciesSubReport: TikTokSubcategoryReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "driver adjustments for more forgiveness",
-    audience: "unknown 18-24, Philippines (dominant segment, snapshot at collection date)",
+    topic: "fl new license plate",
+    audience: "not enough audience data for this topic",
   },
 };

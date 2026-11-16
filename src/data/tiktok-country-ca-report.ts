@@ -10,10 +10,10 @@ import type { TikTokCountryReport } from "./tiktok-country-report-types";
 export const caCountryReport: TikTokCountryReport = {
   country: "Canada",
   countryCode: "CA",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "How to get a banner on tiktok",
@@ -34,13 +34,13 @@ export const caCountryReport: TikTokCountryReport = {
       topCountries: ["US", "PH", "ID", "ZA", "CA"],
     },
     {
-      topic: "then i walk in guy",
-      category: "TikTok's Featured Content",
-      subcategory: "Trends/Challenges",
-      growthMultiplier: 113,
+      topic: "abdul el sayed wins reaction",
+      category: "Sports",
+      subcategory: "Physical Sports",
+      growthMultiplier: 117,
       trust: "high",
-      videoNum: 505,
-      topCountries: ["US", "PH", "GB", "ID", "CA"],
+      videoNum: 405,
+      topCountries: ["MY", "CA", "ID", "AU", "GB"],
     },
     {
       topic: "m3 40i car",
@@ -50,6 +50,15 @@ export const caCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: 963,
       topCountries: ["US", "PH", "CA", "ZA", "AU"],
+    },
+    {
+      topic: "then i walk in guy",
+      category: "TikTok's Featured Content",
+      subcategory: "Trends/Challenges",
+      growthMultiplier: 90,
+      trust: "high",
+      videoNum: 505,
+      topCountries: ["US", "PH", "GB", "ID", "CA"],
     },
     {
       topic: "france right now 2026",
@@ -77,15 +86,6 @@ export const caCountryReport: TikTokCountryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["US", "CA", "AU", "ZA", "NG"],
-    },
-    {
-      topic: "Blue lagoon hair",
-      category: "Fashion",
-      subcategory: "Fashion Tutorials",
-      growthMultiplier: 55,
-      trust: "high",
-      videoNum: 590,
-      topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
     {
       topic: "victoria secret slick back",

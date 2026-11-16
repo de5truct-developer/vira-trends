@@ -14,17 +14,24 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
   parentCategory: "Culture",
   parentSlug: "culture",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "illuminate explained",
-      growthMultiplier: 1307,
+      growthMultiplier: 1284,
       trust: "high",
       videoNum: 529,
       topCountries: ["US", "GB", "CA", "DE", "NL"],
+    },
+    {
+      topic: "karma stories",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "ZA", "NG", "PH"],
     },
     {
       topic: "traditional folklore stories and legends",
@@ -45,7 +52,7 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1488,
-      topCountries: ["SA", "IQ", "EG", "YE"],
+      topCountries: ["SA", "IQ", "EG", "TR"],
     },
     {
       topic: "شعر سعودي",
@@ -81,13 +88,6 @@ export const cultureOtherCultureContentSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 503,
       topCountries: ["PH", "ZA", "MY", "CA"],
-    },
-    {
-      topic: "mephala true form",
-      growthMultiplier: 0,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "PH", "ID"],
     },
   ],
   methodologyNote:

@@ -14,18 +14,11 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Dance",
   parentSlug: "dance",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
-    {
-      topic: "nutcracker christmas tree",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: 473,
-      topCountries: ["PH", "MX", "CA", "AU", "ZA"],
-    },
     {
       topic: "fragile forest kalani",
       growthMultiplier: 3,
@@ -34,11 +27,11 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["CA", "AU", "GB", "PH", "MX"],
     },
     {
-      topic: "ballet dancers",
-      growthMultiplier: 3,
+      topic: "nutcracker christmas tree",
+      growthMultiplier: 2,
       trust: "high",
-      videoNum: 1197,
-      topCountries: ["CA", "ZA", "NG", "PH", "SA"],
+      videoNum: 473,
+      topCountries: ["PH", "MX", "CA", "AU", "ZA"],
     },
     {
       topic: "mackenzie solo",
@@ -48,18 +41,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["BR", "AU", "CA", "PH", "MX"],
     },
     {
+      topic: "ballet dancers",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 1197,
+      topCountries: ["CA", "ZA", "NG", "PH", "SA"],
+    },
+    {
       topic: "jazz splits",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 43992,
-      topCountries: ["US", "PH", "BR", "CA", "AU"],
-    },
-    {
-      topic: "swan lake dance",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 537,
-      topCountries: ["ID", "PH", "BR", "TH", "CA"],
+      topCountries: ["PH", "BR", "CA", "AU", "MX"],
     },
     {
       topic: "THE NUTCRACKER",
@@ -69,11 +62,18 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MX", "BR", "US"],
     },
     {
+      topic: "swan lake dance",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 537,
+      topCountries: ["ID", "PH", "BR", "TH", "CA"],
+    },
+    {
       topic: "jan ravnik learning ballroom",
       growthMultiplier: 2,
       trust: "high",
       videoNum: null,
-      topCountries: ["CA", "AU", "MX", "NZ", "BR"],
+      topCountries: ["US", "CA", "AU", "MX", "NZ"],
     },
     {
       topic: "Balletcore",
@@ -87,13 +87,13 @@ export const danceProfessionalDanceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 1182,
-      topCountries: ["US", "BR", "MX", "CL", "PH"],
+      topCountries: ["US", "BR", "MX", "PH", "CL"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "nutcracker christmas tree",
-    audience: "female 25-34, Mexico (dominant segment, snapshot at collection date)",
+    topic: "fragile forest kalani",
+    audience: "female 18-24, Canada (dominant segment, snapshot at collection date)",
   },
 };

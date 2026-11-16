@@ -14,10 +14,10 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-12T09:07:45Z",
-  windowStart: "2026-09-24",
-  windowEnd: "2026-11-06",
-  updatedAt: "2026-11-13",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
+  windowEnd: "2026-11-10",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "the tempest victoria aveyard",
@@ -25,6 +25,13 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "AU", "PH", "SA", "NZ"],
+    },
+    {
+      topic: "kierra jealous to shan in yesterday’s escape",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "ZA", "KW"],
     },
     {
       topic: "it had to be you",
@@ -35,17 +42,10 @@ export const acgnFictionWebArticlesLightNovelsSubReport: TikTokSubcategoryReport
     },
     {
       topic: "lucille and raoul",
-      growthMultiplier: 1,
+      growthMultiplier: 0,
       trust: "high",
       videoNum: 229,
-      topCountries: ["PH", "AU", "CA", "MY", "MX"],
-    },
-    {
-      topic: "be careful of my heart",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 587,
-      topCountries: ["US", "PH", "TR", "MX"],
+      topCountries: ["US", "PH", "AU", "CA", "MX"],
     },
     {
       topic: "my mafia don episode 36 review",

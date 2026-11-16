@@ -10,11 +10,19 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const educationReport: TikTokReport = {
   category: "Education",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "toc toc in french",
+      subcategory: "Language Learning",
+      growthMultiplier: 11491,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["MX", "US", "ES", "AR", "IT"],
+    },
     {
       topic: "midterms 2026",
       subcategory: "Education - Others",
@@ -26,18 +34,10 @@ export const educationReport: TikTokReport = {
     {
       topic: "russian guy learning english",
       subcategory: "Language Learning",
-      growthMultiplier: 609,
+      growthMultiplier: 590,
       trust: "high",
       videoNum: 176,
       topCountries: ["US", "PH", "VN", "ID", "TH"],
-    },
-    {
-      topic: "harrison novak sorority",
-      subcategory: "Campus Life",
-      growthMultiplier: 314,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
     {
       topic: "fmu meaning",
@@ -48,12 +48,20 @@ export const educationReport: TikTokReport = {
       topCountries: ["US", "CA", "PH", "AU", "SA"],
     },
     {
-      topic: "marshall bar exam result",
-      subcategory: "Vocational License/Exams",
-      growthMultiplier: 63,
+      topic: "3rd person present tense example",
+      subcategory: "Language Learning",
+      growthMultiplier: 55,
       trust: "high",
       videoNum: null,
-      topCountries: ["US", "GB", "DE", "IT", "ES"],
+      topCountries: ["US", "CA", "AU", "NZ", "ZA"],
+    },
+    {
+      topic: "harrison novak sorority",
+      subcategory: "Campus Life",
+      growthMultiplier: 39,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "CA", "AU", "GB", "PH"],
     },
     {
       topic: "Daily discipline rules that keep you on track",
@@ -61,7 +69,15 @@ export const educationReport: TikTokReport = {
       growthMultiplier: 38,
       trust: "high",
       videoNum: null,
-      topCountries: ["PH", "DE", "FR", "US", "GB"],
+      topCountries: ["PH", "DE", "FR", "GB", "ID"],
+    },
+    {
+      topic: "parenthood haddie college",
+      subcategory: "Campus Life",
+      growthMultiplier: 29,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "CA", "IT", "IE"],
     },
     {
       topic: "jeo esnyr high school",
@@ -72,25 +88,9 @@ export const educationReport: TikTokReport = {
       topCountries: ["PH", "CA", "US", "AE"],
     },
     {
-      topic: "kenya high national school",
-      subcategory: "School Education",
-      growthMultiplier: 27,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["KE", "US", "TZ", "QA"],
-    },
-    {
-      topic: "guessing midterm grade",
-      subcategory: "School Education",
-      growthMultiplier: 22,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "CA", "PH", "SA", "MY"],
-    },
-    {
       topic: "rectangle theory",
       subcategory: "School Education",
-      growthMultiplier: 22,
+      growthMultiplier: 21,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "GB", "AU", "PH", "DE"],
@@ -99,7 +99,7 @@ export const educationReport: TikTokReport = {
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights. Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "midterms 2026",
-    audience: "female 18-24, United States of America (dominant segment, snapshot at collection date)",
+    topic: "toc toc in french",
+    audience: "unknown 18-24, Mexico (dominant segment, snapshot at collection date)",
   },
 };

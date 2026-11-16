@@ -14,10 +14,10 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
   parentCategory: "Relationship and Psychology",
   parentSlug: "relationships",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "InnerGrowth",
@@ -25,13 +25,6 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["NG", "GH", "MX", "CM"],
-    },
-    {
-      topic: "gray rock communication technique",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "KE", "CA", "ZA", "NG"],
     },
     {
       topic: "gray rocking method",
@@ -83,11 +76,18 @@ export const relationshipsPsychologySubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "GB", "CA", "AU"],
     },
     {
-      topic: "MindsetGrowth",
+      topic: "effort and consistency",
       growthMultiplier: 2,
       trust: "high",
-      videoNum: 1333,
-      topCountries: ["ID", "US", "VN", "NG"],
+      videoNum: 1208,
+      topCountries: ["PH", "ZA", "MY", "ID", "AU"],
+    },
+    {
+      topic: "#confidence",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 16382,
+      topCountries: ["US", "NG", "PH", "ID", "ZA"],
     },
   ],
   methodologyNote:

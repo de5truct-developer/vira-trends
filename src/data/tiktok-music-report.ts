@@ -10,10 +10,10 @@ import type { TikTokReport } from "./tiktok-report-types";
 export const musicReport: TikTokReport = {
   category: "Music",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "DriveThePretenders",
@@ -26,7 +26,7 @@ export const musicReport: TikTokReport = {
     {
       topic: "CallMeWhateverYouWant",
       subcategory: "Singles",
-      growthMultiplier: 13,
+      growthMultiplier: 11,
       trust: "high",
       videoNum: 241,
       topCountries: ["GB", "CA", "ZA", "AU", "PH"],
@@ -34,10 +34,18 @@ export const musicReport: TikTokReport = {
     {
       topic: "TheGirlOfYourDreams",
       subcategory: "Singles",
-      growthMultiplier: 10,
+      growthMultiplier: 8,
       trust: "high",
       videoNum: null,
       topCountries: ["CA", "BR", "PH", "ID", "MX"],
+    },
+    {
+      topic: "Relive The Weeknd\\'s Korea comeback",
+      subcategory: "Uncategorized",
+      growthMultiplier: 6,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "PH", "CA", "MY"],
     },
     {
       topic: "foolinlove",
@@ -46,6 +54,22 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: 44883,
       topCountries: ["TH", "VN", "ID", "MM", "US"],
+    },
+    {
+      topic: "millionreasons",
+      subcategory: "Singles",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: 1182,
+      topCountries: ["PH", "BR", "IT", "VN"],
+    },
+    {
+      topic: "YoungForever",
+      subcategory: "Singles",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 778,
+      topCountries: ["AR", "ID", "NP", "JP", "MX"],
     },
     {
       topic: "Black Barbies",
@@ -70,30 +94,6 @@ export const musicReport: TikTokReport = {
       trust: "high",
       videoNum: 1137,
       topCountries: ["ID", "VN", "MY", "TH", "PH"],
-    },
-    {
-      topic: "rnbclassics",
-      subcategory: "Music Recommendations",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 934,
-      topCountries: ["US", "ZA", "JM", "BR"],
-    },
-    {
-      topic: "moonlightbae",
-      subcategory: "Singles",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1573,
-      topCountries: ["US", "GB", "DE", "PL", "IT"],
-    },
-    {
-      topic: "honeyhoney",
-      subcategory: "Singles",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["JP", "MM", "MX", "PH"],
     },
   ],
   methodologyNote:

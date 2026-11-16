@@ -14,10 +14,10 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "NuclearEnergy",
@@ -48,6 +48,13 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["GB", "PH", "DE", "IT", "CA"],
     },
     {
+      topic: "nikola tesla aura farming",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 172,
+      topCountries: ["PH", "GB", "ID", "TH", "MY"],
+    },
+    {
       topic: "atlas system typology",
       growthMultiplier: 1,
       trust: "high",
@@ -62,6 +69,13 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "NG", "PK", "MM", "PH"],
     },
     {
+      topic: "he realized that there was faster thsn light",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 549,
+      topCountries: ["US"],
+    },
+    {
       topic: "what makes physics feel so difficult",
       growthMultiplier: 1,
       trust: "high",
@@ -74,20 +88,6 @@ export const scienceFactsPhysicsKnowledgeSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["DZ", "MX", "BR", "CO", "AR"],
-    },
-    {
-      topic: "atoms perfectly lining up footage",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 1069,
-      topCountries: ["PH", "ID", "MY", "CA", "AU"],
-    },
-    {
-      topic: "sand dredging",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 672,
-      topCountries: ["ZA", "PH", "AU", "CA", "MY"],
     },
   ],
   methodologyNote:

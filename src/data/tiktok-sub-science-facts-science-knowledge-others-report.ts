@@ -14,14 +14,14 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
   parentCategory: "Science Knowledge",
   parentSlug: "science-facts",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "spontaneous human composition",
-      growthMultiplier: 123,
+      growthMultiplier: 117,
       trust: "high",
       videoNum: 172,
       topCountries: ["US", "GB", "NG", "ZA", "GH"],
@@ -48,13 +48,6 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topCountries: ["US", "PH", "NG", "PK", "ZA"],
     },
     {
-      topic: "eco innovations inspired by nature",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "CA", "AU", "ID"],
-    },
-    {
       topic: "polarity",
       growthMultiplier: 2,
       trust: "high",
@@ -65,7 +58,7 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       topic: "Dredging",
       growthMultiplier: 1,
       trust: "high",
-      videoNum: 711,
+      videoNum: 720,
       topCountries: ["MX", "PH", "GB", "JM", "ZA"],
     },
     {
@@ -88,6 +81,13 @@ export const scienceFactsScienceKnowledgeOthersSubReport: TikTokSubcategoryRepor
       trust: "high",
       videoNum: 838,
       topCountries: ["PH", "ZA", "KE", "GH", "NG"],
+    },
+    {
+      topic: "eco innovations inspired by nature",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["PH", "GB", "CA", "AU", "ID"],
     },
   ],
   methodologyNote:

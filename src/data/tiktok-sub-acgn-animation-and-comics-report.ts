@@ -14,10 +14,10 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
   parentCategory: "ACGN (Anime, Comics, Games & Novels)",
   parentSlug: "acgn",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "south park backrooms",
@@ -28,14 +28,14 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "what is coderot",
-      growthMultiplier: 440,
+      growthMultiplier: 406,
       trust: "high",
       videoNum: null,
       topCountries: ["US", "PH", "GB", "CA"],
     },
     {
       topic: "the rapunzel edit to fix lag",
-      growthMultiplier: 262,
+      growthMultiplier: 184,
       trust: "high",
       videoNum: 221,
       topCountries: ["US", "PH", "CA", "AU", "MY"],
@@ -55,6 +55,13 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "DE", "PL", "NL"],
     },
     {
+      topic: "gojo and geto walk tutorial",
+      growthMultiplier: 44,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "GB", "DE", "PH", "CA"],
+    },
+    {
       topic: "hey arnold mr hyung reuniting with his daughter",
       growthMultiplier: 38,
       trust: "high",
@@ -67,13 +74,6 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: 406,
       topCountries: ["US", "PH", "MY", "NG", "CA"],
-    },
-    {
-      topic: "im so in love with you dragon ball",
-      growthMultiplier: 29,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["US", "PH", "BR", "MX", "ID"],
     },
     {
       topic: "marinette loses her memory",
@@ -94,6 +94,6 @@ export const acgnAnimationAndComicsSubReport: TikTokSubcategoryReport = {
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
     topic: "south park backrooms",
-    audience: "male 18-24, United States of America (dominant segment, snapshot at collection date)",
+    audience: "unknown 18-24, United States of America (dominant segment, snapshot at collection date)",
   },
 };

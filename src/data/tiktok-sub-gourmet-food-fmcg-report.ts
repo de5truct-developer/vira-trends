@@ -14,11 +14,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
-  windowStart: "2026-09-30",
+  computedAt: "2026-11-15T09:45:32Z",
+  windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
+    {
+      topic: "sparkling water price in kenya",
+      growthMultiplier: 89,
+      trust: "high",
+      videoNum: 706,
+      topCountries: ["KE", "SO", "SA", "TZ"],
+    },
     {
       topic: "nexz hongsam jelly",
       growthMultiplier: 19,
@@ -41,11 +48,18 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "NG", "ID", "GH", "CA"],
     },
     {
+      topic: "alzan drink",
+      growthMultiplier: 11,
+      trust: "high",
+      videoNum: 116,
+      topCountries: ["TH", "VN", "BR", "ID", "PH"],
+    },
+    {
       topic: "Black gum",
       growthMultiplier: 10,
       trust: "high",
       videoNum: 686,
-      topCountries: ["KE", "UG", "CA", "PH", "AU"],
+      topCountries: ["KE", "UG", "CA", "PH", "NG"],
     },
     {
       topic: "space jelly",
@@ -62,13 +76,6 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["MX", "PH", "CL", "MY"],
     },
     {
-      topic: "m m alphabetical order",
-      growthMultiplier: 7,
-      trust: "high",
-      videoNum: 736,
-      topCountries: ["US", "GB", "PL", "PH", "CA"],
-    },
-    {
       topic: "iced tea four of them",
       growthMultiplier: 5,
       trust: "high",
@@ -76,24 +83,17 @@ export const gourmetFoodFmcgSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "PH", "VN", "TH", "ID"],
     },
     {
-      topic: "could prime trend",
+      topic: "yoohoo original",
       growthMultiplier: 5,
       trust: "high",
-      videoNum: 502,
-      topCountries: ["US", "GB", "DE", "IT", "FR"],
-    },
-    {
-      topic: "Verity does snacks",
-      growthMultiplier: 5,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["PH", "GB", "ID", "TH"],
+      videoNum: 409,
+      topCountries: ["PH", "US", "MN", "IQ"],
     },
   ],
   methodologyNote:
     "TikTok Creative Center data, collected by Vira's own account via Creative Search Insights, filtered to this one subcategory within its parent niche (TikTok's own two-level category taxonomy). Growth = 7/14/21-day median vs. prior period, shown only when trust is medium or high. Video count as reported by TikTok; \"not reported\" (video_num=0) means TikTok did not report a count for that topic, not zero competition. Updated daily.",
   highlightTopic: {
-    topic: "nexz hongsam jelly",
-    audience: "female 18-24, Malaysia (dominant segment, snapshot at collection date)",
+    topic: "sparkling water price in kenya",
+    audience: "unknown 25-34, Kenya (dominant segment, snapshot at collection date)",
   },
 };

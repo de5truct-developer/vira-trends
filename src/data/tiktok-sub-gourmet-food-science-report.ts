@@ -14,10 +14,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
   parentCategory: "Gourmet",
   parentSlug: "gourmet",
   region: "global",
-  computedAt: "2026-11-14T09:06:06Z",
+  computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-15",
+  updatedAt: "2026-11-16",
   topics: [
     {
       topic: "homemade sauces dressings and mayonnaise",
@@ -27,18 +27,18 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       topCountries: ["US", "GB", "IE", "ZA", "PH"],
     },
     {
-      topic: "How lab-grown chocolate is made",
-      growthMultiplier: 4,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["MY", "PH", "GB", "CA", "AU"],
-    },
-    {
       topic: "beef tallow benefits",
       growthMultiplier: 3,
       trust: "high",
       videoNum: 767,
-      topCountries: ["PH", "ZA", "GB", "KE", "AU"],
+      topCountries: ["US", "PH", "KE", "ZA", "GB"],
+    },
+    {
+      topic: "How lab-grown chocolate is made",
+      growthMultiplier: 3,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["US", "MY", "GB", "PH", "CA"],
     },
     {
       topic: "dangerous fungi hiding in food",
@@ -56,17 +56,10 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
     },
     {
       topic: "mistakes to avoid in sauce reduction",
-      growthMultiplier: 2,
+      growthMultiplier: 1,
       trust: "high",
       videoNum: null,
       topCountries: ["FR", "US", "ID", "DE"],
-    },
-    {
-      topic: "How to improve seasoning consistency",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: 172,
-      topCountries: ["BR", "PT", "US", "MX"],
     },
     {
       topic: "foods that smell like warm wheat",
@@ -74,6 +67,13 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       trust: "high",
       videoNum: null,
       topCountries: ["ID", "VN", "BD", "PH"],
+    },
+    {
+      topic: "How to improve seasoning consistency",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: 172,
+      topCountries: ["BR", "PT", "US", "MX"],
     },
     {
       topic: "molasses benefits",
@@ -87,7 +87,7 @@ export const gourmetFoodScienceSubReport: TikTokSubcategoryReport = {
       growthMultiplier: 1,
       trust: "high",
       videoNum: 665,
-      topCountries: ["ZA", "KE", "NG", "GH"],
+      topCountries: ["ZA", "US", "KE", "NG"],
     },
   ],
   methodologyNote:
