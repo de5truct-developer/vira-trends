@@ -17,7 +17,7 @@ export const tourismTourismSitesSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-16",
+  updatedAt: "2026-11-17",
   topics: [
     {
       topic: "roller coasters and amusement attractions",

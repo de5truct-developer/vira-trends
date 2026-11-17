@@ -17,7 +17,7 @@ export const tourismTourismRelatedPoliciesSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-16",
+  updatedAt: "2026-11-17",
   topics: [
     {
       topic: "uae visa update 1 hour ago update",
