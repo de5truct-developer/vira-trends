@@ -14,7 +14,7 @@ export const youtubeMmaReport: YoutubeNicheReport = {
   niche: "Mixed martial arts",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "PRATAPGARH SELF-DEFENCE",

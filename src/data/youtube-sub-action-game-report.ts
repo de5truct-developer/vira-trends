@@ -18,7 +18,7 @@ export const youtubeActionGameSubReport: YoutubeSubgenreReport = {
   parentSlug: "gaming",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "GreenBroRants",
@@ -101,16 +101,6 @@ export const youtubeActionGameSubReport: YoutubeSubgenreReport = {
       channelCreatedAt: "2021-08-16",
     },
     {
-      channelName: "Mosenders",
-      channelUrl: "https://www.youtube.com/channel/UCscN3qIVsLcEfXhAPtR0sMQ",
-      topic: "Action game, Video game culture",
-      subscribers: 97700,
-      subsGained30d: 45900,
-      growthPct: 88.6,
-      viewsGained30d: 10683180,
-      channelCreatedAt: "2015-11-29",
-    },
-    {
       channelName: "TG SEHRAN",
       channelUrl: "https://www.youtube.com/channel/UCdnsKQN_bey9yLudfTzO5Zg",
       topic: "Action game, Video game culture",
@@ -119,6 +109,16 @@ export const youtubeActionGameSubReport: YoutubeSubgenreReport = {
       growthPct: 88.6,
       viewsGained30d: 5553258,
       channelCreatedAt: "2023-04-05",
+    },
+    {
+      channelName: "Mosenders",
+      channelUrl: "https://www.youtube.com/channel/UCscN3qIVsLcEfXhAPtR0sMQ",
+      topic: "Action game, Video game culture",
+      subscribers: 97700,
+      subsGained30d: 45900,
+      growthPct: 88.6,
+      viewsGained30d: 10683180,
+      channelCreatedAt: "2015-11-29",
     },
   ],
   methodologyNote:

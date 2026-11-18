@@ -14,7 +14,7 @@ export const youtubeMusicReport: YoutubeNicheReport = {
   niche: "Music",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "South Park Mexican",

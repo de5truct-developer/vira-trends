@@ -14,7 +14,7 @@ export const youtubeAmericanFootballReport: YoutubeNicheReport = {
   niche: "American football",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Jake Asman",

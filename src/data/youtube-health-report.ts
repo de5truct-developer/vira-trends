@@ -14,7 +14,7 @@ export const youtubeHealthReport: YoutubeNicheReport = {
   niche: "Health",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Tips medis Dokter",

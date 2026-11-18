@@ -14,7 +14,7 @@ export const youtubeTennisReport: YoutubeNicheReport = {
   niche: "Tennis",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "courtiva pro",

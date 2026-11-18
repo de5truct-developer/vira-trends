@@ -18,7 +18,7 @@ export const youtubePopMusicSubReport: YoutubeSubgenreReport = {
   parentSlug: "music",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Various Artists - Topic",

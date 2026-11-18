@@ -18,7 +18,7 @@ export const youtubeActionAdventureGameSubReport: YoutubeSubgenreReport = {
   parentSlug: "gaming",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "BEYOND Playtime",

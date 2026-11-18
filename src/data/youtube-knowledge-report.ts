@@ -14,7 +14,7 @@ export const youtubeKnowledgeReport: YoutubeNicheReport = {
   niche: "Knowledge",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Queen\\'s University Belfast",

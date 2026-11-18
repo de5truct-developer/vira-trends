@@ -14,7 +14,7 @@ export const youtubeGolfReport: YoutubeNicheReport = {
   niche: "Golf",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "J-Milly Disc Golf",

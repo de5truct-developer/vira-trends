@@ -18,7 +18,7 @@ export const youtubeReggaeSubReport: YoutubeSubgenreReport = {
   parentSlug: "music",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Natty Bix Reggae Channel",
@@ -101,16 +101,6 @@ export const youtubeReggaeSubReport: YoutubeSubgenreReport = {
       channelCreatedAt: "2020-01-02",
     },
     {
-      channelName: "SHOCK  KASEE 🕊️🕊️",
-      channelUrl: "https://www.youtube.com/channel/UC8nNU41VqGxlEM7oZYfsQiQ",
-      topic: "Reggae, Music",
-      subscribers: 50500,
-      subsGained30d: 900,
-      growthPct: 1.8,
-      viewsGained30d: 145697,
-      channelCreatedAt: "2012-05-29",
-    },
-    {
       channelName: "2nd Junior kotestes",
       channelUrl: "https://www.youtube.com/channel/UCunkeNuPZQnK7bUtpIYW5Fg",
       topic: "Music, Reggae",
@@ -119,6 +109,16 @@ export const youtubeReggaeSubReport: YoutubeSubgenreReport = {
       growthPct: 1.8,
       viewsGained30d: 1212202,
       channelCreatedAt: "2018-11-08",
+    },
+    {
+      channelName: "SHOCK  KASEE 🕊️🕊️",
+      channelUrl: "https://www.youtube.com/channel/UC8nNU41VqGxlEM7oZYfsQiQ",
+      topic: "Reggae, Music",
+      subscribers: 50500,
+      subsGained30d: 900,
+      growthPct: 1.8,
+      viewsGained30d: 145697,
+      channelCreatedAt: "2012-05-29",
     },
   ],
   methodologyNote:

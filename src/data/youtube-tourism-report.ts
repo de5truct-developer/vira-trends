@@ -14,7 +14,7 @@ export const youtubeTourismReport: YoutubeNicheReport = {
   niche: "Tourism",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "吉普212",

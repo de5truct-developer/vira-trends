@@ -14,7 +14,7 @@ export const youtubeVolleyballReport: YoutubeNicheReport = {
   niche: "Volleyball",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "VolleyDiblesi",
@@ -57,16 +57,6 @@ export const youtubeVolleyballReport: YoutubeNicheReport = {
       channelCreatedAt: "2018-01-02",
     },
     {
-      channelName: "GS칼텍스서울Kixx배구단",
-      channelUrl: "https://www.youtube.com/channel/UCUJoKkFr5ReBgz6ABhGzvdg",
-      topic: "Volleyball, Sport",
-      subscribers: 50000,
-      subsGained30d: 400,
-      growthPct: 0.8,
-      viewsGained30d: 537956,
-      channelCreatedAt: "2018-05-14",
-    },
-    {
       channelName: "PURO VOLEY",
       channelUrl: "https://www.youtube.com/channel/UCnMfX6fGI2oPI-qmBS7hvcw",
       topic: "Sport, Volleyball",
@@ -75,6 +65,16 @@ export const youtubeVolleyballReport: YoutubeNicheReport = {
       growthPct: 0.8,
       viewsGained30d: 894973,
       channelCreatedAt: "2019-05-27",
+    },
+    {
+      channelName: "GS칼텍스서울Kixx배구단",
+      channelUrl: "https://www.youtube.com/channel/UCUJoKkFr5ReBgz6ABhGzvdg",
+      topic: "Volleyball, Sport",
+      subscribers: 50000,
+      subsGained30d: 400,
+      growthPct: 0.8,
+      viewsGained30d: 537956,
+      channelCreatedAt: "2018-05-14",
     },
     {
       channelName: "punchเชียร์กีฬา",
@@ -87,16 +87,6 @@ export const youtubeVolleyballReport: YoutubeNicheReport = {
       channelCreatedAt: "2018-05-31",
     },
     {
-      channelName: "Namaste Surkhet",
-      channelUrl: "https://www.youtube.com/channel/UCDw7xdbFQLxsFFq5ukushYg",
-      topic: "Volleyball, Sport",
-      subscribers: 141000,
-      subsGained30d: 1000,
-      growthPct: 0.7,
-      viewsGained30d: 655935,
-      channelCreatedAt: "2018-02-06",
-    },
-    {
       channelName: "Hot Volleyball",
       channelUrl: "https://www.youtube.com/channel/UCEYdbHRO9QBZ8X5c3xju0rw",
       topic: "Sport, Volleyball",
@@ -105,6 +95,16 @@ export const youtubeVolleyballReport: YoutubeNicheReport = {
       growthPct: 0.7,
       viewsGained30d: 6614930,
       channelCreatedAt: "2018-02-27",
+    },
+    {
+      channelName: "Namaste Surkhet",
+      channelUrl: "https://www.youtube.com/channel/UCDw7xdbFQLxsFFq5ukushYg",
+      topic: "Volleyball, Sport",
+      subscribers: 141000,
+      subsGained30d: 1000,
+      growthPct: 0.7,
+      viewsGained30d: 655935,
+      channelCreatedAt: "2018-02-06",
     },
     {
       channelName: "NANasirVolleyball",

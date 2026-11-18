@@ -14,7 +14,7 @@ export const youtubeLifestyleReport: YoutubeNicheReport = {
   niche: "Lifestyle (sociology)",
   region: "global",
   dataAsOf: "2026-11-17",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   channels: [
     {
       channelName: "Yeni Carolina",
