@@ -13,7 +13,7 @@ export const bdCountryReport: TikTokCountryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-17",
+  updatedAt: "2026-11-18",
   topics: [
     {
       topic: "dress cutting mistakes to avoid",
