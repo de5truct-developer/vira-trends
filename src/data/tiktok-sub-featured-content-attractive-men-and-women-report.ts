@@ -17,7 +17,7 @@ export const featuredContentAttractiveMenAndWomenSubReport: TikTokSubcategoryRep
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-18",
+  updatedAt: "2026-11-19",
   topics: [
     {
       topic: "the most handsome man according to science",
