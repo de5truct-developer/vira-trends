@@ -17,7 +17,7 @@ export const cultureTraditionsAndCultureSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-19",
+  updatedAt: "2026-11-20",
   topics: [
     {
       topic: "all souls day",
