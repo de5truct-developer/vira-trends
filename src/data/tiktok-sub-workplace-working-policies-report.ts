@@ -17,7 +17,7 @@ export const workplaceWorkingPoliciesSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-20",
+  updatedAt: "2026-11-21",
   topics: [
     {
       topic: "to earn the right to work",
