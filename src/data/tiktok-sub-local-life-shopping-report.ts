@@ -17,7 +17,7 @@ export const localLifeShoppingSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-21",
+  updatedAt: "2026-11-22",
   topics: [
     {
       topic: "women's activewear and gym tops",
