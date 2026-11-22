@@ -300,6 +300,16 @@
     "dataFile": "tiktok-sub-fashion-fashion-tutorials-report.ts"
   },
   {
+    "slug": "featured-content-asmr",
+    "subcategory": "ASMR",
+    "parentSlug": "featured-content",
+    "parentCategory": "Featured Content",
+    "catL1": "TikTok's Featured Content",
+    "catL2": "ASMR",
+    "exportName": "featuredContentAsmrSubReport",
+    "dataFile": "tiktok-sub-featured-content-asmr-report.ts"
+  },
+  {
     "slug": "featured-content-attractive-men-and-women",
     "subcategory": "Attractive Men and Women",
     "parentSlug": "featured-content",
@@ -748,6 +758,16 @@
     "catL2": "Gifts/Presents",
     "exportName": "relationshipsGiftsPresentsSubReport",
     "dataFile": "tiktok-sub-relationships-gifts-presents-report.ts"
+  },
+  {
+    "slug": "relationships-other-relationship-contents",
+    "subcategory": "Other Relationship Contents",
+    "parentSlug": "relationships",
+    "parentCategory": "Relationship and Psychology",
+    "catL1": "Relationship and Psychology",
+    "catL2": "Other Relationship Contents",
+    "exportName": "relationshipsOtherRelationshipContentsSubReport",
+    "dataFile": "tiktok-sub-relationships-other-relationship-contents-report.ts"
   },
   {
     "slug": "relationships-psychology",

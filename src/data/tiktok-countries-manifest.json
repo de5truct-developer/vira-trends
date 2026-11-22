@@ -1,5 +1,12 @@
 [
   {
+    "slug": "ar",
+    "name": "Argentina",
+    "code": "AR",
+    "exportName": "arCountryReport",
+    "dataFile": "tiktok-country-ar-report.ts"
+  },
+  {
     "slug": "au",
     "name": "Australia",
     "code": "AU",
@@ -140,6 +147,13 @@
     "dataFile": "tiktok-country-np-report.ts"
   },
   {
+    "slug": "pe",
+    "name": "Peru",
+    "code": "PE",
+    "exportName": "peCountryReport",
+    "dataFile": "tiktok-country-pe-report.ts"
+  },
+  {
     "slug": "ph",
     "name": "Philippines",
     "code": "PH",
@@ -166,6 +180,13 @@
     "code": "TH",
     "exportName": "thCountryReport",
     "dataFile": "tiktok-country-th-report.ts"
+  },
+  {
+    "slug": "tr",
+    "name": "Turkey",
+    "code": "TR",
+    "exportName": "trCountryReport",
+    "dataFile": "tiktok-country-tr-report.ts"
   },
   {
     "slug": "us",
