@@ -13,7 +13,7 @@ export const caCountryReport: TikTokCountryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-22",
+  updatedAt: "2026-11-23",
   topics: [
     {
       topic: "How to get a banner on tiktok",
