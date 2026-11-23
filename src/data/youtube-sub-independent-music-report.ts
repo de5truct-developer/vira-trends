@@ -17,8 +17,8 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
   parentCategory: "Music",
   parentSlug: "music",
   region: "global",
-  dataAsOf: "2026-11-22",
-  updatedAt: "2026-11-22",
+  dataAsOf: "2026-11-23",
+  updatedAt: "2026-11-23",
   channels: [
     {
       channelName: "Dan Ciotoi - Topic",
@@ -27,18 +27,8 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 85900,
       subsGained30d: 2800,
       growthPct: 3.4,
-      viewsGained30d: 731144,
+      viewsGained30d: 723575,
       channelCreatedAt: "2017-06-19",
-    },
-    {
-      channelName: "Ween",
-      channelUrl: "https://www.youtube.com/channel/UCLedePML8q1yAMO8wficHJA",
-      topic: "Music, Independent music",
-      subscribers: 93200,
-      subsGained30d: 2100,
-      growthPct: 2.3,
-      viewsGained30d: 3633746,
-      channelCreatedAt: "2015-11-12",
     },
     {
       channelName: "Uğur Karakuş Prodüksiyon",
@@ -57,7 +47,7 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 60900,
       subsGained30d: 200,
       growthPct: 0.3,
-      viewsGained30d: 181660,
+      viewsGained30d: 182023,
       channelCreatedAt: "2011-11-26",
     },
     {
@@ -67,7 +57,7 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
       subscribers: 89400,
       subsGained30d: 100,
       growthPct: 0.1,
-      viewsGained30d: 24399,
+      viewsGained30d: 24062,
       channelCreatedAt: "2016-06-23",
     },
     {
@@ -83,11 +73,11 @@ export const youtubeIndependentMusicSubReport: YoutubeSubgenreReport = {
     {
       channelName: "twooba",
       channelUrl: "https://www.youtube.com/channel/UCHNYWSAAIO8WxVnBW9aQVUg",
-      topic: "Independent music, Music",
+      topic: "Music, Independent music",
       subscribers: 110000,
       subsGained30d: 0,
       growthPct: 0.0,
-      viewsGained30d: 3914,
+      viewsGained30d: 3912,
       channelCreatedAt: "2018-05-24",
     },
     {
