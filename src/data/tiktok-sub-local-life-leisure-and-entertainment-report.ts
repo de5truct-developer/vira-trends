@@ -17,7 +17,7 @@ export const localLifeLeisureAndEntertainmentSubReport: TikTokSubcategoryReport 
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-23",
+  updatedAt: "2026-11-24",
   topics: [
     {
       topic: "exclusive private club retreat information",
