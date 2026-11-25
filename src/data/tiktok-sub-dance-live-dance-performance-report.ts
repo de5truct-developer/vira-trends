@@ -17,7 +17,7 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-24",
+  updatedAt: "2026-11-25",
   topics: [
     {
       topic: "billy ocean moonwalk",
@@ -48,18 +48,18 @@ export const danceLiveDancePerformanceSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "US", "ID", "MY", "BR"],
     },
     {
-      topic: "cortis moneymoney performance",
-      growthMultiplier: 1,
-      trust: "high",
-      videoNum: null,
-      topCountries: ["ID", "MY", "PH", "MM"],
-    },
-    {
       topic: "james brown footwork",
       growthMultiplier: 1,
       trust: "high",
       videoNum: 358,
       topCountries: ["US", "BR", "ZA", "PH", "CA"],
+    },
+    {
+      topic: "cortis moneymoney performance",
+      growthMultiplier: 1,
+      trust: "high",
+      videoNum: null,
+      topCountries: ["ID", "MY", "PH", "MM"],
     },
     {
       topic: "brotherhood bebot performance",

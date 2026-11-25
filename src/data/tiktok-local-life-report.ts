@@ -13,7 +13,7 @@ export const localLifeReport: TikTokReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-24",
+  updatedAt: "2026-11-25",
   topics: [
     {
       topic: "women\\'s activewear and gym tops",
