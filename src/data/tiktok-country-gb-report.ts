@@ -13,7 +13,7 @@ export const gbCountryReport: TikTokCountryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-26",
+  updatedAt: "2026-11-27",
   topics: [
     {
       topic: "im so sorry trend",
