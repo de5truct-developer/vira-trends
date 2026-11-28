@@ -17,7 +17,7 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-28",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-27",
+  updatedAt: "2026-11-28",
   topics: [
     {
       topic: "the last stop ending final explicado",
@@ -69,18 +69,18 @@ export const cultureSeriousLiteratureSubReport: TikTokSubcategoryReport = {
       topCountries: ["PH", "ID", "MY", "CA", "GE"],
     },
     {
-      topic: "millions of bookworms in the books actively eating away the pages",
-      growthMultiplier: 2,
-      trust: "high",
-      videoNum: 716,
-      topCountries: ["US", "GB", "PH", "DE", "PL"],
-    },
-    {
       topic: "sylvia plath oven explained",
       growthMultiplier: 2,
       trust: "high",
       videoNum: 2088,
       topCountries: ["US", "GB", "CA", "TR", "AU"],
+    },
+    {
+      topic: "millions of bookworms in the books actively eating away the pages",
+      growthMultiplier: 2,
+      trust: "high",
+      videoNum: 716,
+      topCountries: ["US", "GB", "PH", "DE", "PL"],
     },
     {
       topic: "how to be mentalist",

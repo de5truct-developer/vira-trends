@@ -17,7 +17,7 @@ export const gourmetFoodTutorialsSubReport: TikTokSubcategoryReport = {
   computedAt: "2026-11-15T09:45:32Z",
   windowStart: "2026-09-30",
   windowEnd: "2026-11-10",
-  updatedAt: "2026-11-27",
+  updatedAt: "2026-11-28",
   topics: [
     {
       topic: "top to bottom grilled cheese",
